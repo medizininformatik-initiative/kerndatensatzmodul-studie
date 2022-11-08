@@ -1,1 +1,1 @@
-"# kerndatensatzmodul-studien" 
+# Medizininformatik Initiative - Modul Studie
