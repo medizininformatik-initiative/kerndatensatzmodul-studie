@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Forschungsvorhaben",
-  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/Forschungsvorhaben",
   "version": "0.1.0",
   "name": "SD_MII_Studie_LogicalModel",
   "title": "SD MII Studie Logical Model",
@@ -17,7 +17,7 @@
   ],
   "kind": "logical",
   "abstract": false,
-  "type": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben",
+  "type": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/Forschungsvorhaben",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
   "derivation": "specialization",
   "differential": {
