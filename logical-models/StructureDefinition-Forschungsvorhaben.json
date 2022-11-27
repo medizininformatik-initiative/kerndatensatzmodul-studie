@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Forschungsvorhaben",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-person/StructureDefinition/LogicalModel/Studie",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-studie/StructureDefinition/LogicalModel/Studie",
   "version": "0.1.0",
   "name": "SD_MII_Studie_LogicalModel",
   "title": "SD MII Studie Logical Model",
