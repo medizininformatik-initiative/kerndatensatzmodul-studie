@@ -1,0 +1,1090 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Forschungsvorhaben",
+  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben",
+  "version": "0.1.0",
+  "name": "SD_MII_Studie_LogicalModel",
+  "title": "SD MII Studie Logical Model",
+  "status": "active",
+  "description": "Logische Repräsentation der Forschungsvorhaben",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Forschungsvorhaben",
+        "path": "Forschungsvorhaben",
+        "short": "SD MII Studie Logical Model",
+        "definition": "Logische Repräsentation der Forschungsvorhaben"
+      },
+      {
+        "id": "Forschungsvorhaben.BusinessID",
+        "path": "Forschungsvorhaben.BusinessID",
+        "short": "BusinessID eines Forschungsvorhabens",
+        "definition": "BusinessID eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.BusinessID.id",
+        "path": "Forschungsvorhaben.BusinessID.id",
+        "short": "Identifier einer BusinessID",
+        "definition": "Identifier einer BusinessID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.BusinessID.System",
+        "path": "Forschungsvorhaben.BusinessID.System",
+        "short": "System einer BusinessID",
+        "definition": "System einer BusinessID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt",
+        "path": "Forschungsvorhaben.Kontakt",
+        "short": "Kontaktdaten einer natürlichen Person, die eine bestimmte Rolle in einem Forschungsvorhaben einnimmt.",
+        "definition": "Kontaktdaten einer natürlichen Person, die eine bestimmte Rolle in einem Forschungsvorhaben einnimmt.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Grad",
+        "path": "Forschungsvorhaben.Kontakt.Grad",
+        "short": "Grad eines Kontakts",
+        "definition": "Grad eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Vorname",
+        "path": "Forschungsvorhaben.Kontakt.Vorname",
+        "short": "Vorname eines Kontakts",
+        "definition": "Vorname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Nachname",
+        "path": "Forschungsvorhaben.Kontakt.Nachname",
+        "short": "Nachname eines Kontakts",
+        "definition": "Nachname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Adresse",
+        "path": "Forschungsvorhaben.Kontakt.Adresse",
+        "short": "Nachname eines Kontakts",
+        "definition": "Nachname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Adresse.Strasse",
+        "path": "Forschungsvorhaben.Kontakt.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Adresse.Hausnummer",
+        "path": "Forschungsvorhaben.Kontakt.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Adresse.PLZ",
+        "path": "Forschungsvorhaben.Kontakt.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Adresse.Wohnort",
+        "path": "Forschungsvorhaben.Kontakt.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Adresse.Land",
+        "path": "Forschungsvorhaben.Kontakt.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Email",
+        "path": "Forschungsvorhaben.Kontakt.Email",
+        "short": "Email eines Kontakts",
+        "definition": "Email eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Tel",
+        "path": "Forschungsvorhaben.Kontakt.Tel",
+        "short": "Telefonnummer eines Kontakts",
+        "definition": "Telefonnummer eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Kontakt.Zugehoerigkeit",
+        "path": "Forschungsvorhaben.Kontakt.Zugehoerigkeit",
+        "short": "Zugehoerigkeit eines Kontakts",
+        "definition": "Zugehoerigkeit eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Standort",
+        "path": "Forschungsvorhaben.Standort",
+        "short": "Name und Anschrift einer Organisation oder natürlichen Person.",
+        "definition": "Name und Anschrift einer Organisation oder natürlichen Person.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Standort.Name",
+        "path": "Forschungsvorhaben.Standort.Strasse",
+        "short": "Name der Organisation des Beteiligten",
+        "definition": "Name der Organisation des Beteiligten",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Standort.Adresse",
+        "path": "Forschungsvorhaben.Standort.Adresse",
+        "short": "Eine Adresse gemäß postalischen Konventionen",
+        "definition": "Eine Adresse gemäß postalischen Konventionen",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Adresse"
+      },
+      {
+        "id": "Forschungsvorhaben.Beteiligter",
+        "path": "Forschungsvorhaben.Beteiligter",
+        "short": "Beteiligter eines Forschungsvorhabens",
+        "definition": "Beteiligter eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Beteiligter.Rolle",
+        "path": "Forschungsvorhaben.Beteiligter.Rolle",
+        "short": "Rolle eines Beteiligten",
+        "definition": "Rolle eines Beteiligten",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Beteiligter.Kontakt",
+        "path": "Forschungsvorhaben.Beteiligter.Kontakt",
+        "short": "Kontakt eines Beteiligten",
+        "definition": "Kontakt eines Beteiligten",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Kontakt"
+      },
+      {
+        "id": "Forschungsvorhaben.Beteiligter.Standort",
+        "path": "Forschungsvorhaben.Beteiligter.Standort",
+        "short": "Standort eines Beteiligten",
+        "definition": "Standort eines Beteiligten",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Standort"
+      },
+      {
+        "id": "Forschungsvorhaben.Studienleiter",
+        "path": "Forschungsvorhaben.Studienleiter",
+        "short": "Studienleiter eines Forschungsvorhabens",
+        "definition": "Studienleiter eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studienleiter.Kontakt",
+        "path": "Forschungsvorhaben.Studienleiter.Kontakt",
+        "short": "Kontakt eines Studienleiters",
+        "definition": "Kontakt eines Studienleiters",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Kontakt"
+      },
+      {
+        "id": "Forschungsvorhaben.Studienleiter.Standort",
+        "path": "Forschungsvorhaben.Studienleiter.Standort",
+        "short": "Standort eines Studienleiters",
+        "definition": "Standort eines Studienleiters",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Standort"
+      },
+      {
+        "id": "Forschungsvorhaben.Titel",
+        "path": "Forschungsvorhaben.Titel",
+        "short": "Titel eines Forschungsvorhabens",
+        "definition": "Titel eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Titel.OeffentlicherTitel",
+        "path": "Forschungsvorhaben.Titel.OeffentlicherTitel",
+        "short": "Öffentlich sichtbarer Titel",
+        "definition": "Öffentlich sichtbarer Titel",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Titel.WissenschaftlicherTitel",
+        "path": "Forschungsvorhaben.Titel.WissenschaftlicherTitel",
+        "short": "Wissenschaftlicher Titel",
+        "definition": "Wissenschaftlicher Titel",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Titel.Akronym",
+        "path": "Forschungsvorhaben.Titel.Akronym",
+        "short": "Akronym des Titels",
+        "definition": "Akronym des Titels",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign",
+        "path": "Forschungsvorhaben.Studiendesign",
+        "short": "Studiendesign eines Forschungsvorhabens",
+        "definition": "Studiendesign eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Rekrutierungsstart",
+        "path": "Forschungsvorhaben.Studiendesign.Rekrutierungsstart",
+        "short": "Rekrutierungsstart einer Studie",
+        "definition": "Rekrutierungsstart einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Studienarm",
+        "path": "Forschungsvorhaben.Studiendesign.Studienarm",
+        "short": "Studienarm einer Studie",
+        "definition": "Studienarm einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Einschlusskriterien",
+        "path": "Forschungsvorhaben.Studiendesign.Einschlusskriterien",
+        "short": "Einschlusskriterien einer Studie",
+        "definition": "Einschlusskriterien einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Kriterium",
+        "path": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Kriterium",
+        "short": "Kriterium",
+        "definition": "Kriterium",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Operator",
+        "path": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Operator",
+        "short": "Operator des Kriteriums",
+        "definition": "Operator des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Masseinheit",
+        "path": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Masseinheit",
+        "short": "Masseinheit des Kriteriums",
+        "definition": "Masseinheit des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Wert",
+        "path": "Forschungsvorhaben.Studiendesign.Einschlusskriterien.Wert",
+        "short": "Wert des Kriteriums",
+        "definition": "Wert des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien",
+        "path": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien",
+        "short": "Ausschlusskriterien einer Studie",
+        "definition": "Ausschlusskriterien einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Kriterium",
+        "path": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Kriterium",
+        "short": "Kriterium",
+        "definition": "Kriterium",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Operator",
+        "path": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Operator",
+        "short": "Operator des Kriteriums",
+        "definition": "Operator des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Masseinheit",
+        "path": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Masseinheit",
+        "short": "Masseinheit des Kriteriums",
+        "definition": "Masseinheit des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Wert",
+        "path": "Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Wert",
+        "short": "Wert des Kriteriums",
+        "definition": "Wert des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Studienarm.Name",
+        "path": "Forschungsvorhaben.Studiendesign.Studienarm.Name",
+        "short": "Name des Studienarms",
+        "definition": "Name des Studienarms",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Studienarm.Studienarm",
+        "path": "Forschungsvorhaben.Studiendesign.Studienarm.Studienarm",
+        "short": "Arm des Studienarms",
+        "definition": "Arm des Studienarms",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Studiendesign.Studienarm"
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Studienarm.Einschlusskriterien",
+        "path": "Forschungsvorhaben.Studiendesign.Studienarm.Einschlusskriterien",
+        "short": "Einschlusskriterien des Studienarms",
+        "definition": "Einschlusskriterien des Studienarms",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Studiendesign.Einschlusskriterien"
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Studienarm.Ausschlusskriterien",
+        "path": "Forschungsvorhaben.Studiendesign.Studienarm.Ausschlusskriterien",
+        "short": "Ausschlusskriterien des Studienarms",
+        "definition": "Ausschlusskriterien des Studienarms",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Studiendesign.Ausschlusskriterien"
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Studientyp",
+        "path": "Forschungsvorhaben.Studiendesign.Studientyp",
+        "short": "Typ einer Studie",
+        "definition": "Typ einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Rekrutierungsziel",
+        "path": "Forschungsvorhaben.Studiendesign.Rekrutierungsziel",
+        "short": "Rekrutierungsziel einer Studie",
+        "definition": "Rekrutierungsziel einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Rekrutierungsstand",
+        "path": "Forschungsvorhaben.Studiendesign.Rekrutierungsstand",
+        "short": "Rekrutierungsstand einer Studie",
+        "definition": "Rekrutierungsstand einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Count"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.RekrutierungsstandGenauigkeit",
+        "path": "Forschungsvorhaben.Studiendesign.RekrutierungsstandGenauigkeit",
+        "short": "Genauigkeit eines Rekrutierungsstands einer Studie",
+        "definition": "Genauigkeit eines Rekrutierungsstands einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.RekrutierungsstandDatum",
+        "path": "Forschungsvorhaben.Studiendesign.RekrutierungsstandDatum",
+        "short": "Datum eines Rekrutierungsstands einer Studie",
+        "definition": "Datum eines Rekrutierungsstands einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studiendesign.Randomisierungsmethode",
+        "path": "Forschungsvorhaben.Studiendesign.Randomisierungsmethode",
+        "short": "Randomisierungsmethode einer Studie",
+        "definition": "Randomisierungsmethode einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studienregister",
+        "path": "Forschungsvorhaben.Studienregister",
+        "short": "Studienregister einer Studie",
+        "definition": "Studienregister einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studienregister.Registername",
+        "path": "Forschungsvorhaben.Studienregister.Registername",
+        "short": "Name eines Studienregisters",
+        "definition": "Name eines Studienregisters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studienregister.RegisterId",
+        "path": "Forschungsvorhaben.Studienregister.RegisterId",
+        "short": "RegisterId eines Studienregisters",
+        "definition": "RegisterId eines Studienregisters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studienregister.url",
+        "path": "Forschungsvorhaben.Studienregister.url",
+        "short": "URL eines Studienregisters",
+        "definition": "URL eines Studienregisters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Studienregister.IstQuellRegister",
+        "path": "Forschungsvorhaben.Studienregister.IstQuellRegister",
+        "short": "Ob dieses Register das Quellregister ist",
+        "definition": "Ob dieses Register das Quellregister ist",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Publikation",
+        "path": "Forschungsvorhaben.Publikation",
+        "short": "Publikationen eines Forschungsvorhabens",
+        "definition": "Publikationen eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Publikation.url",
+        "path": "Forschungsvorhaben.Publikation.url",
+        "short": "URL einer Publikation",
+        "definition": "URL einer Publikation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Publikation.Titel",
+        "path": "Forschungsvorhaben.Publikation.Titel",
+        "short": "Titel einer Publikation",
+        "definition": "Titel einer Publikation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Publikation.Autor",
+        "path": "Forschungsvorhaben.Publikation.Autor",
+        "short": "Autor einer Publikation",
+        "definition": "Autor einer Publikation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag",
+        "path": "Forschungsvorhaben.Datennutzungsantrag",
+        "short": "Datennutzungsantrag einer Studie",
+        "definition": "Datennutzungsantrag einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument",
+        "short": "Abbildung von Informationen zu einem Dokument",
+        "definition": "Abbildung von Informationen zu einem Dokument",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Name",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Name",
+        "short": "Name eines Dokumentes",
+        "definition": "Name eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Autor",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Autor",
+        "short": "Autor eines Dokumentes",
+        "definition": "Autor eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Dateityp",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Dateityp",
+        "short": "Dateityp eines Dokumentes",
+        "definition": "Dateityp eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Standort",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Standort",
+        "short": "Standort eines Dokumentes",
+        "definition": "Standort eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Standort"
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Dateigroesse",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument.Dateigroesse",
+        "short": "Dateigrösse eines Dokumentes",
+        "definition": "Dateigrösse eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datennutzungsantrag.Dokument.url",
+        "path": "Forschungsvorhaben.Datennutzungsantrag.Dokument.url",
+        "short": "URL eines Dokumentes",
+        "definition": "URL eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Machbarkeit",
+        "path": "Forschungsvorhaben.Machbarkeit",
+        "short": "Machbarkeit einer Studie",
+        "definition": "Machbarkeit einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Machbarkeit.Abschaetzung",
+        "path": "Forschungsvorhaben.Machbarkeit.Abschaetzung",
+        "short": "Abschaetzung der Machbarkeit",
+        "definition": "Abschaetzung der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Machbarkeit.Dokument",
+        "path": "Forschungsvorhaben.Machbarkeit.Dokument",
+        "short": "Dokumentation der Machbarkeit",
+        "definition": "Dokumentation der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Datennutzungsantrag.Dokument"
+      },
+      {
+        "id": "Forschungsvorhaben.Machbarkeit.Ergebnis",
+        "path": "Forschungsvorhaben.Machbarkeit.Ergebnis",
+        "short": "Ergebnis der Machbarkeit",
+        "definition": "Ergebnis der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Machbarkeit.HatPrescreening",
+        "path": "Forschungsvorhaben.Machbarkeit.HatPrescreening",
+        "short": "Ob ein Prescreening vorhanden ist",
+        "definition": "Ob ein Prescreening vorhanden ist",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Machbarkeit.Version",
+        "path": "Forschungsvorhaben.Machbarkeit.Version",
+        "short": "Version der Machbarkeit",
+        "definition": "Version der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datenerhebung",
+        "path": "Forschungsvorhaben.Datenerhebung",
+        "short": "Beschreibung einer Datenerhebung einer Studie",
+        "definition": "Beschreibung einer Datenerhebung einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Datenerhebung.Dokument",
+        "path": "Forschungsvorhaben.Datenerhebung.Dokument",
+        "short": "Dokument einer Datenerhebung",
+        "definition": "Dokument einer Datenerhebung",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Datennutzungsantrag.Dokument"
+      },
+      {
+        "id": "Forschungsvorhaben.Rechtsgrundlage",
+        "path": "Forschungsvorhaben.Rechtsgrundlage",
+        "short": "Rechtsgrundlage einer Studie",
+        "definition": "Rechtsgrundlage einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Rechtsgrundlage.Dokument",
+        "path": "Forschungsvorhaben.Rechtsgrundlage.Dokument",
+        "short": "Dokument einer Rechtsgrundlage",
+        "definition": "Dokument einer Rechtsgrundlage",
+        "min": 0,
+        "max": "*",
+        "contentReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/Forschungsvorhaben#Forschungsvorhaben.Datennutzungsantrag.Dokument"
+      },
+      {
+        "id": "Forschungsvorhaben.Ethikvotum",
+        "path": "Forschungsvorhaben.Ethikvotum",
+        "short": "Ethikvotum der Studie",
+        "definition": "Ethikvotum der Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Ethikvotum.Status",
+        "path": "Forschungsvorhaben.Ethikvotum.Status",
+        "short": "Status des Ethikvotums",
+        "definition": "Status des Ethikvotums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Ethikvotum.Kommission",
+        "path": "Forschungsvorhaben.Ethikvotum.Kommission",
+        "short": "Kommission des Ethikvotums",
+        "definition": "Kommission des Ethikvotums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Ethikvotum.Ethiknummer",
+        "path": "Forschungsvorhaben.Ethikvotum.Ethiknummer",
+        "short": "Nummer des Ethikvotums",
+        "definition": "Nummer des Ethikvotums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Forschungsvorhaben.Finanzierung",
+        "path": "Forschungsvorhaben.Finanzierung",
+        "short": "Finanzierung der Studie",
+        "definition": "Finanzierung der Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
