@@ -50,7 +50,7 @@
         "max": "*",
         "type": [
           {
-            "code": "Identifier"
+            "code": "string"
           }
         ]
       },
@@ -251,7 +251,7 @@
       },
       {
         "id": "Forschungsvorhaben.Standort.Name",
-        "path": "Forschungsvorhaben.Standort.Strasse",
+        "path": "Forschungsvorhaben.Standort.Name",
         "short": "Name der Organisation des Beteiligten",
         "definition": "Name der Organisation des Beteiligten",
         "min": 0,
