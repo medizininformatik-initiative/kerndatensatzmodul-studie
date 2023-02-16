@@ -1,8 +1,10 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ig-mii-studie-version-1.0" />
-  <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-studie/ImplementationGuide/ig-version-1.0" />
+  <url
+    value="https://www.medizininformatik-initiative.de/fhir/core/modul-studie/ImplementationGuide/ig-version-1.0" />
   <version value="1.0.16" />
-  <name value="[DE] Medizininformatik Initiative - Modul Studie - Implementierungsleitfaden - Version 1.0" />
+  <name
+    value="[DE] Medizininformatik Initiative - Modul Studie - Implementierungsleitfaden - Version 1.0" />
   <status value="active" />
   <description value="[DE] Modul Studie - Version 1.0 - IG" />
   <fhirVersion value="4.0.1" />
@@ -31,7 +33,8 @@
         <title value="Anwendungsfälle / Informationsmodell" />
         <generation value="markdown" />
         <page>
-          <nameUrl value="ImplementationGuide-1.x/BeschreibungvonSzenarienfrdieAnwendungderModule-1.x.md" />
+          <nameUrl
+            value="ImplementationGuide-1.x/BeschreibungvonSzenarienfrdieAnwendungderModule-1.x.md" />
           <title value="Beschreibung von Szenarien für die Anwendung der Module" />
           <generation value="markdown" />
         </page>
@@ -47,16 +50,38 @@
         </page>
       </page>
       <page>
-        <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/TechnischeImplementierung-1.x.md" />
+        <nameUrl
+          value="ImplementationGuide-1.x/TechnischeImplementierung/TechnischeImplementierung-1.x.md" />
         <title value="Technische Implementierung" />
         <generation value="markdown" />
         <page>
           <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/FHIR-Profile-1.x.md" />
           <title value="FHIR-Profile" />
           <generation value="markdown" />
+          <page>
+            <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/PractitionerRole-1.x.md" />
+            <title value="Beteiligte Person (PractitionerRole)" />
+            <generation value="markdown" />
+          </page>
+          <page>
+            <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/DocumentReference-1.x.md" />
+            <title value="Dokument (DocumentReference)" />
+            <generation value="markdown" />
+          </page>
+          <page>
+            <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/Library-1.x.md" />
+            <title value="Register (Library)" />
+            <generation value="markdown" />
+          </page>
+          <page>
+            <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/ResearchStudy-1.x.md" />
+            <title value="Studie (ResearchStudy)" />
+            <generation value="markdown" />
+          </page>
         </page>
         <page>
-          <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/CapabilityStatement-1.x.md" />
+          <nameUrl
+            value="ImplementationGuide-1.x/TechnischeImplementierung/CapabilityStatement-1.x.md" />
           <title value="CapabilityStatement" />
           <generation value="markdown" />
         </page>
