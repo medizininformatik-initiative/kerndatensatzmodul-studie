@@ -18,3 +18,8 @@
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
 | ResearchStudy.extension:finanzierung |  Forschungsvorhaben.Finanzierung |
+
+| FHIR Element | Logischer Datensatz |
+|--------------|---------------------|
+| ResearchStudy.identifier.value |  Forschungsvorhaben.BusinessID.id |
+| ResearchStudy.identifier.system |  Forschungsvorhaben.BusinessID.System |

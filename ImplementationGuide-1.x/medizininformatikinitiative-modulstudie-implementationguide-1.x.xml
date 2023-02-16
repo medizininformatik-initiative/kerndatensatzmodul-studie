@@ -64,6 +64,11 @@
             <generation value="markdown" />
           </page>
           <page>
+            <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/Organization-1.x.md" />
+            <title value="Organisation (Organization)" />
+            <generation value="markdown" />
+          </page>
+          <page>
             <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/DocumentReference-1.x.md" />
             <title value="Dokument (DocumentReference)" />
             <generation value="markdown" />
