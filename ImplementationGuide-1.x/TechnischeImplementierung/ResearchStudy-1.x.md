@@ -15,4 +15,6 @@
 | ResearchStudy.arm.extension:recruitment |  Forschungsvorhaben.Studiendesign.RekrutierungsstandDatum |
 | ResearchStudy.extension:recruitment |  Forschungsvorhaben.Studiendesign.Randomisierungsmethode |
 
+| FHIR Element | Logischer Datensatz |
+|--------------|---------------------|
 | ResearchStudy.extension:finanzierung |  Forschungsvorhaben.Finanzierung |
