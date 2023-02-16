@@ -14,3 +14,5 @@
 | ResearchStudy.arm.extension:recruitment |  Forschungsvorhaben.Studiendesign.RekrutierungsstandGenauigkeit |
 | ResearchStudy.arm.extension:recruitment |  Forschungsvorhaben.Studiendesign.RekrutierungsstandDatum |
 | ResearchStudy.extension:recruitment |  Forschungsvorhaben.Studiendesign.Randomisierungsmethode |
+
+| ResearchStudy.extension:finanzierung |  Forschungsvorhaben.Finanzierung |
