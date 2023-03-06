@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "MII-Dokument-Example",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Dokument"
+    ]
+  },
+  "status": "current",
+  "content": [
+    {
+      "attachment": {
+        "url": "https://example.com/document",
+        "title": "Beispiel Dokument",
+        "contentType": "application/pdf",
+        "size": 2000
+      }
+    }
+  ],
+  "author": [
+    {
+      "reference": "Organization/Example"
+    }
+  ],
+  "custodian": {
+    "reference": "Organization/Example"
+  }
+}

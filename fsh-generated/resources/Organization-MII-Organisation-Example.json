@@ -1,0 +1,43 @@
+{
+  "resourceType": "Organization",
+  "id": "MII-Organisation-Example",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Organisation"
+    ]
+  },
+  "contact": [
+    {
+      "name": {
+        "given": [
+          "Tino"
+        ],
+        "family": "Zähle"
+      },
+      "address": {
+        "line": [
+          "Leipziger Straße 44 Haus 60b"
+        ],
+        "postalCode": "39120",
+        "city": "Magdeburg",
+        "country": "DE"
+      },
+      "telecom": [
+        {
+          "value": "0391 67 21683",
+          "system": "phone"
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "Leipziger Straße 44 Haus 60b"
+      ],
+      "postalCode": "39120",
+      "city": "Magdeburg",
+      "country": "DE"
+    }
+  ]
+}
