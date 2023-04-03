@@ -44,7 +44,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-BeteiligtePerson, snapshot}}
 
 ---
 
