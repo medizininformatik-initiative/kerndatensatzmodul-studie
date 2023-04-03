@@ -9,9 +9,9 @@ Im Folgenden werden die Use-Case des Moduls sowie die dazuhegörigen FHIR-Profil
 
 | Veröffentlichung   |   |
 |---------|--------------|
-| Datum   | 08.11.2022   |
-| Version | 1.0.16       |
-| Status  | In Abstimmung       |
+| Datum   | xx.xx.2023   |
+| Version | 1.0.0       |
+| Status  | Draft       |
 | Realm   | DE           | 
 
 
