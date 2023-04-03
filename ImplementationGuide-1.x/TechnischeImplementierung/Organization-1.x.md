@@ -1,5 +1,23 @@
 ## Organisation (Organization)
 
+---
+
+### Bestehende Profile Kerndatensatz Medizininformatik-Initiative
+
+Durch den Kerndatensatz der Medizininformatik Initative wird bereits das Konzept der "Organisation" im Modul Strukturdaten definiert. Diese Spezifikation wird im Rahmen dieses Moduls wiederverwendet.
+
+Siehe Profil ["Profile - MI-I - Organisation - Organization"](TODO).
+
+Canonical URL: ``https://www.medizininformatik-initiative.de/fhir/core/modul-strukturdaten/StructureDefinition/Organization``
+
+Es ist zu beachten, dass alle weiteren Vorgaben und Pflichtfelder des Kerndatensatz Moduls einzuhalten sind. Weitere Informationen finden sich im Abschnitt des [ImplementationGuides - Modul Strukturdaten](TODO).
+
+---
+
+### Abbildung Organisation (Organization) - Modul Studie
+
+---
+
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
 |  |  Forschungsvorhaben.Kontakt.Grad |
@@ -18,3 +36,7 @@
 |--------------|---------------------|
 | Organization.address | Forschungsvorhaben.Standort.Adresse  |
 | Organization.name | Forschungsvorhaben.Standort.Name |
+
+---
+
+**Beispiele**

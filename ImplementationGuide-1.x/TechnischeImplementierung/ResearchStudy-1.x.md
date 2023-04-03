@@ -1,5 +1,33 @@
 ## Studie (ResearchStudy)
 
+---
+
+**Beschreibung**
+
+Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative.
+
+@```
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Studie' select Name: name, Canonical: url
+```
+
+---
+
+**Differential**
+
+{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Studie, diff}}
+
+---
+
+**Hinweise**
+
+| FHIR-Element | Erklärung |
+|--------------|-----------|
+| | |
+
+---
+
+**Mapping**
+
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
 | ResearchStudy.title |  Forschungsvorhaben.Titel  |
@@ -23,3 +51,19 @@
 |--------------|---------------------|
 | ResearchStudy.identifier.value |  Forschungsvorhaben.BusinessID.id |
 | ResearchStudy.identifier.system |  Forschungsvorhaben.BusinessID.System |
+
+---
+
+**Snapshot**
+
+{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Studie, snapshot}}
+
+---
+
+**Suchparameter**
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+---
+
+**Beispiele**
