@@ -52,7 +52,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 **Suchparameter**
 
-Folgende Suchparameter sind für das Modul Person relevant, auch in Kombination:
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
 ---
 
