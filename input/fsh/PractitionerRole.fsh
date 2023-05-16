@@ -1,12 +1,13 @@
-Profile: MII_BeteiligtePerson
+Profile: MII_PR_Studie_Beteiligte_Person
+Title: "MII PR Studie Beteiligte Person"
 Parent: PractitionerRole
-Id: MII-BeteiligtePerson
+Id: mii-pr-studie-beteiligte-person
 * code MS
 * telecom MS
 * organization MS
 
-Instance: MII-BeteiligtePerson-Example
-InstanceOf: MII_BeteiligtePerson
+Instance:  mii-exa-studie-beteiligte-person
+InstanceOf: MII_PR_Studie_Beteiligte_Person
 Usage: #example
 * code = #doctor
 * telecom.system = #phone

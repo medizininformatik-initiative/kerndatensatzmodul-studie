@@ -1,0 +1,27 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "mii-exa-studie-beteiligte-person",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"
+    ]
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "doctor"
+        }
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0123456789"
+    }
+  ],
+  "organization": {
+    "reference": "Organization/Example"
+  }
+}
