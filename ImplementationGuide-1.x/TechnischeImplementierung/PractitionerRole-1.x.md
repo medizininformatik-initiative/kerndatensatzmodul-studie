@@ -7,14 +7,14 @@
 Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-BeteiligtePerson' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person' select Name: name, Canonical: url
 ```
 
 ---
 
 **Differential**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-BeteiligtePerson, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person, diff}}
 
 ---
 
@@ -44,7 +44,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-BeteiligtePerson, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person, snapshot}}
 
 ---
 
