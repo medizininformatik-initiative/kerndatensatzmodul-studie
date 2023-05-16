@@ -9,7 +9,7 @@ Id: mii-pr-studie-beteiligte-person
 Instance:  mii-exa-studie-beteiligte-person
 InstanceOf: MII_PR_Studie_Beteiligte_Person
 Usage: #example
-* code = #doctor
+* code = http://terminology.hl7.org/CodeSystem/practitioner-role#doctor
 * telecom.system = #phone
 * telecom.value = "0123456789"
 * organization = Reference(Organization/Example)

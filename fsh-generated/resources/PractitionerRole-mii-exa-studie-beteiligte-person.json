@@ -10,7 +10,8 @@
     {
       "coding": [
         {
-          "code": "doctor"
+          "code": "doctor",
+          "system": "http://terminology.hl7.org/CodeSystem/practitioner-role"
         }
       ]
     }
