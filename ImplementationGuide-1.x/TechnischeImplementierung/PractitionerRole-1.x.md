@@ -73,6 +73,14 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
+1. Der Suchparameter "practitioner" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/PractitionerRole?practitioner=Practitioner/practitioner-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.practitioner" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
 1. Der Suchparameter "organization" MUSS unterstützt werden:
 
     Beispiele
