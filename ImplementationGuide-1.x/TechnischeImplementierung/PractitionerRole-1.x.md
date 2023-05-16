@@ -22,7 +22,12 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 | FHIR-Element | Erklärung |
 |--------------|-----------|
-| | |
+| PractitionerRole.id      | Must-support, jedoch optional        |
+| PractitionerRole.meta       | Must-support, jedoch optional         |
+| PractitionerRole.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repsoitory inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-2.x/TechnischeImplementierung/CapabilityStatement.md}}. In allen anderen Fällen optional.         |
+| PractitionerRole.code      | Hausinterne Kodierung kann hier verwendet werden |
+| PractitionerRole.telecom      | Es ist drauf zu achten, dass hier nur Informationen exponiert werden, die bereits durch die Studie ansich veröffentlicht wurden |
+| PractitionerRole.organization | Um alle zu einer Studie zugehörigen Personen zu finden ist die Verwendung von Referenz.reference anstelle von Referent.identifier zu bevorzugen.|
 
 ---
 
@@ -95,3 +100,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 ---
 
 **Beispiele**
+
+Beispiel (minimal):
+
+{{json:fsh-generated/resources/PractitionerRole-mii-exa-studie-beteiligte-person.json}}
