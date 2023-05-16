@@ -5,6 +5,7 @@ Id: mii-pr-studie-beteiligte-person
 * code MS
 * telecom MS
 * organization MS
+* practitioner MS
 
 Instance:  mii-exa-studie-beteiligte-person
 InstanceOf: MII_PR_Studie_Beteiligte_Person

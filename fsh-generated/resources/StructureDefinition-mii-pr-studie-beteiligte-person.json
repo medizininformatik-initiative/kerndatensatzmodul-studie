@@ -37,6 +37,11 @@
   "differential": {
     "element": [
       {
+        "id": "PractitionerRole.practitioner",
+        "path": "PractitionerRole.practitioner",
+        "mustSupport": true
+      },
+      {
         "id": "PractitionerRole.organization",
         "path": "PractitionerRole.organization",
         "mustSupport": true
