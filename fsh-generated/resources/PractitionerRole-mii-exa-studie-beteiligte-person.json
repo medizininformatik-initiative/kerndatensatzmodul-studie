@@ -24,5 +24,8 @@
   ],
   "organization": {
     "reference": "Organization/Example"
+  },
+  "practitioner": {
+    "reference": "Practitioner/Example"
   }
 }
