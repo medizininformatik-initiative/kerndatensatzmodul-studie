@@ -31,7 +31,7 @@
   "relatedArtifact": [
     {
       "document": {
-        "url": "https://example.com/RelatedArtifact"
+        "url": "https://example.com/fhir/sid/AbkuerzungenRegister"
       },
       "type": "documentation"
     }
