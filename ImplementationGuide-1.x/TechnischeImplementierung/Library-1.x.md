@@ -7,14 +7,14 @@
 Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Register' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register' select Name: name, Canonical: url
 ```
 
 ---
 
 **Differential**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Register, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register, diff}}
 
 ---
 
@@ -39,7 +39,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Register, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register, snapshot}}
 
 ---
 
