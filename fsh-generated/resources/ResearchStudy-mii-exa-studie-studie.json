@@ -1,0 +1,69 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "mii-exa-studie-studie",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel",
+      "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel",
+      "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
+      "valueString": "tDCS"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode",
+      "valueCode": "Zufallszuteilung"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstart",
+      "valueDate": "2023-01-12"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsziel",
+      "valueInteger": 40
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand",
+      "valueInteger": 35
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit",
+      "valueCode": "good"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum",
+      "valueDate": "2023-02-17"
+    }
+  ],
+  "status": "active",
+  "title": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue",
+  "identifier": [
+    {
+      "value": "DRKS00031294",
+      "system": "https://drks.de/id"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "interventional"
+        }
+      ]
+    }
+  ],
+  "arm": [
+    {
+      "name": "frontale anodale tDCS  (verum condition)"
+    }
+  ]
+}

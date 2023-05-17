@@ -1,0 +1,245 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-studie-studie",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie",
+  "version": "0.5.0",
+  "name": "MII_PR_Studie_Studie",
+  "title": "MII PR Studie Studie",
+  "status": "active",
+  "fhirVersion": "4.3.0",
+  "mapping": [
+    {
+      "identity": "BRIDG5.1",
+      "uri": "https://bridgmodel.nci.nih.gov",
+      "name": "BRIDG 5.1 Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "clinicaltrials-gov",
+      "uri": "http://clinicaltrials.gov",
+      "name": "ClinicalTrials.gov Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ResearchStudy",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ResearchStudy",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ResearchStudy.extension",
+        "path": "ResearchStudy.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:OeffentlicherTitel",
+        "path": "ResearchStudy.extension",
+        "sliceName": "OeffentlicherTitel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:WissenschaftlicherTitel",
+        "path": "ResearchStudy.extension",
+        "sliceName": "WissenschaftlicherTitel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Akronym",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Akronym",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Randomisierungsmethode",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Randomisierungsmethode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Rekrutierungsstart",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Rekrutierungsstart",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstart"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Rekrutierungsziel",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Rekrutierungsziel",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsziel"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:Rekrutierungsstand",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Rekrutierungsstand",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:RekrutierungsstandGenauigkeit",
+        "path": "ResearchStudy.extension",
+        "sliceName": "RekrutierungsstandGenauigkeit",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.extension:RekrutierungsstandDatum",
+        "path": "ResearchStudy.extension",
+        "sliceName": "RekrutierungsstandDatum",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.identifier",
+        "path": "ResearchStudy.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.identifier.system",
+        "path": "ResearchStudy.identifier.system",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.identifier.value",
+        "path": "ResearchStudy.identifier.value",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.title",
+        "path": "ResearchStudy.title",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.partOf",
+        "path": "ResearchStudy.partOf",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.status",
+        "path": "ResearchStudy.status",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.category",
+        "path": "ResearchStudy.category",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.arm.name",
+        "path": "ResearchStudy.arm.name",
+        "mustSupport": true
+      }
+    ]
+  }
+}

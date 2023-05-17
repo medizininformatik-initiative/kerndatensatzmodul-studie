@@ -1,72 +1,73 @@
-Profile: MII_Studie
+Profile: MII_PR_Studie_Studie
+Title: "MII PR Studie Studie"
 Parent: ResearchStudy
-Id: MII-Studie
+Id: mii-pr-studie-studie
 * status MS
 * title MS
 * identifier MS
 * identifier.value MS
 * identifier.system MS
+* partOf MS
 * extension MS
-* extension contains http://fhir.de/StructureDefinition/OeffentlicherTitel named OeffentlicherTitel 0..1 MS
-* extension contains http://fhir.de/StructureDefinition/WissenschaftlicherTitel named WissenschaftlicherTitel 0..1 MS
-* extension contains http://fhir.de/StructureDefinition/Akronym named Akronym 0..1 MS
-* extension contains http://fhir.de/StructureDefinition/Randomisierungsmethode named Randomisierungsmethode 0..1 MS
+* extension contains MII_EX_Studie_Oeffentlicher_Titel named OeffentlicherTitel 0..1 MS
+* extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
+* extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
+* extension contains MII_EX_Studie_Randomisierungsmethode named Randomisierungsmethode 0..1 MS
+* extension contains MII_EX_Studie_Rekrutierungsstart named Rekrutierungsstart 0..1 MS
+* extension contains MII_EX_Studie_Rekrutierungsziel named Rekrutierungsziel 0..1 MS
+* extension contains MII_EX_Studie_Rekrutierungsstand named Rekrutierungsstand 0..1 MS
+* extension contains MII_EX_Studie_Rekrutierungsstand_Genauigkeit named RekrutierungsstandGenauigkeit 0..1 MS
+* extension contains MII_EX_Studie_Rekrutierungsstand_Datum named RekrutierungsstandDatum 0..1 MS
 * arm.name MS
 * category MS
-* arm.extension MS
-* arm.extension contains http://fhir.de/StructureDefinition/Rekrutierungsstart named Rekrutierungsstart 0..1 MS
-* arm.extension contains http://fhir.de/StructureDefinition/Rekrutierungsziel named Rekrutierungsziel 0..1 MS
-* arm.extension contains http://fhir.de/StructureDefinition/Rekrutierungsstand named Rekrutierungsstand 0..1 MS
-* arm.extension contains http://fhir.de/StructureDefinition/RekrutierungsstandGenauigkeit named RekrutierungsstandGenauigkeit 0..1 MS
-* arm.extension contains http://fhir.de/StructureDefinition/RekrutierungsstandDatum named RekrutierungsstandDatum 0..1 MS
 
-Extension: OeffentlicherTitel
-Id: OeffentlicherTitel
-* ^url = "http://fhir.de/StructureDefinition/OeffentlicherTitel"
+Extension: MII_EX_Studie_Oeffentlicher_Titel
+Id: mii-ex-studie-oeffentlicher-titel
+Title: "MII EX Studie Oeffentlicher Titel"
 * value[x] only string
 
-Extension: WissenschaftlicherTitel
-Id: WissenschaftlicherTitel
-* ^url = "http://fhir.de/StructureDefinition/WissenschaftlicherTitel"
+Extension: MII_EX_Studie_Wissenschaftlicher_Titel
+Id: mii-ex-studie-wissenschaftlicher-titel
+Title: "MII EX Studie Wissenschaftlicher Titel"
 * value[x] only string
 
-Extension: Akronym
-Id: Akronym
-* ^url = "http://fhir.de/StructureDefinition/Akronym"
+Extension: MII_EX_Studie_Akronym
+Id: mii-ex-studie-akronym
+Title: "MII EX Studie Akronym"
 * value[x] only string
 
-Extension: Rekrutierungsstart
-Id: Rekrutierungsstart
-* ^url = "http://fhir.de/StructureDefinition/Rekrutierungsstart"
+Extension: MII_EX_Studie_Rekrutierungsstart
+Id: mii-ex-studie-rekrutierungsstart
+Title: "MII EX Studie Rekrutierungsstart"
 * value[x] only date
 
-Extension: Rekrutierungsziel
-Id: Rekrutierungsziel
-* ^url = "http://fhir.de/StructureDefinition/Rekrutierungsziel"
+Extension: MII_EX_Studie_Rekrutierungsziel
+Id: mii-ex-studie-rekrutierungsziel
+Title: "MII EX Studie Rekrutierungsziel"
 * value[x] only integer
 
-Extension: Rekrutierungsstand
-Id: Rekrutierungsstand
-* ^url = "http://fhir.de/StructureDefinition/Rekrutierungsstand"
+Extension: MII_EX_Studie_Rekrutierungsstand
+Id: mii-ex-studie-rekrutierungsstand
+Title: "MII EX Studie Rekrutierungsstand"
 * value[x] only integer
 
-Extension: RekrutierungsstandGenauigkeit
-Id: RekrutierungsstandGenauigkeit
-* ^url = "http://fhir.de/StructureDefinition/RekrutierungsstandGenauigkeit"
+Extension: MII_EX_Studie_Rekrutierungsstand_Genauigkeit
+Id: mii-ex-studie-rekrutierungsstand-genauigkeit
+Title: "MII EX Studie Rekrutierungsstand Genauigkeit"
 * value[x] only code
 
-Extension: RekrutierungsstandDatum
-Id: RekrutierungsstandDatum
-* ^url = "http://fhir.de/StructureDefinition/RekrutierungsstandDatum"
+Extension: MII_EX_Studie_Rekrutierungsstand_Datum
+Id: mii-ex-studie-rekrutierungsstand-datum
+Title: "MII EX Studie Rekrutierungsstand Datum"
 * value[x] only date
 
-Extension: Randomisierungsmethode
-Id: Randomisierungsmethode
-* ^url = "http://fhir.de/StructureDefinition/Randomisierungsmethode"
+Extension: MII_EX_Studie_Randomisierungsmethode
+Id: mii-ex-studie-randomisierungsmethode
+Title: "MII EX Studie Randomisierungsmethode"
 * value[x] only code
 
-Instance: MII-Studie-Example
-InstanceOf: MII_Studie
+Instance: mii-exa-studie-studie
+InstanceOf: MII_PR_Studie_Studie
 Usage: #example
 * status = #active
 * title = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
@@ -76,10 +77,10 @@ Usage: #example
 * extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Akronym].valueString = "tDCS"
 * extension[Randomisierungsmethode].valueCode = #Zufallszuteilung
+* extension[Rekrutierungsstart].valueDate = "2023-01-12"
+* extension[Rekrutierungsziel].valueInteger = 40
+* extension[Rekrutierungsstand].valueInteger = 35
+* extension[RekrutierungsstandGenauigkeit].valueCode = #good
+* extension[RekrutierungsstandDatum].valueDate = "2023-02-17"
 * category = #interventional
 * arm.name = "frontale anodale tDCS  (verum condition)"
-* arm.extension[Rekrutierungsstart].valueDate = "2023-01-12"
-* arm.extension[Rekrutierungsziel].valueInteger = 40
-* arm.extension[Rekrutierungsstand].valueInteger = 35
-* arm.extension[RekrutierungsstandGenauigkeit].valueCode = #good
-* arm.extension[RekrutierungsstandDatum].valueDate = "2023-02-17"
