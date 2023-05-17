@@ -6,7 +6,7 @@
   "name": "MII_PR_Studie_Register",
   "title": "MII PR Studie Register",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "rim",
@@ -14,14 +14,14 @@
       "name": "RIM Mapping"
     },
     {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
       "name": "Workflow Pattern"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
     },
     {
       "identity": "objimpl",
@@ -39,16 +39,6 @@
       {
         "id": "Library.extension",
         "path": "Library.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "mustSupport": true
       },
       {

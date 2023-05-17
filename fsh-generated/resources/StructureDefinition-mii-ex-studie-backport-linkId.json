@@ -6,7 +6,7 @@
   "name": "MII_EX_Studie_Backport_linkId",
   "title": "MII EX Studie Backport linkId",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "rim",

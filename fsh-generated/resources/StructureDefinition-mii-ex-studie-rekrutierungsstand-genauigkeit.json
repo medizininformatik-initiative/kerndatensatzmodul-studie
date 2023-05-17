@@ -6,7 +6,7 @@
   "name": "MII_EX_Studie_Rekrutierungsstand_Genauigkeit",
   "title": "MII EX Studie Rekrutierungsstand Genauigkeit",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "rim",

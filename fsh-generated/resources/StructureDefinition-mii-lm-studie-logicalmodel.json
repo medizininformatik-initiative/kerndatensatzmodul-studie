@@ -7,7 +7,7 @@
   "title": "MII LM Studie LogicalModel",
   "status": "active",
   "description": "Logische Repräsentation der Forschungsvorhaben",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "rim",

@@ -6,7 +6,7 @@
   "name": "MII_PR_Studie_EinAuschlussKriterium",
   "title": "MII PR Studie EinAuschlussKriterium",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "workflow",
@@ -42,20 +42,6 @@
         "mustSupport": true
       },
       {
-        "id": "EvidenceVariable.characteristic.extension",
-        "path": "EvidenceVariable.characteristic.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
         "id": "EvidenceVariable.characteristic.extension:linkId",
         "path": "EvidenceVariable.characteristic.extension",
         "sliceName": "linkId",
@@ -74,6 +60,21 @@
       {
         "id": "EvidenceVariable.characteristic.description",
         "path": "EvidenceVariable.characteristic.description",
+        "mustSupport": true
+      },
+      {
+        "id": "EvidenceVariable.characteristic.definition[x]",
+        "path": "EvidenceVariable.characteristic.definition[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "EvidenceVariable.characteristic.usageContext",
+        "path": "EvidenceVariable.characteristic.usageContext",
+        "max": "0"
+      },
+      {
+        "id": "EvidenceVariable.characteristic.exclude",
+        "path": "EvidenceVariable.characteristic.exclude",
         "mustSupport": true
       }
     ]

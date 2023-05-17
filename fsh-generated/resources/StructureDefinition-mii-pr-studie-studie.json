@@ -6,7 +6,7 @@
   "name": "MII_PR_Studie_Studie",
   "title": "MII PR Studie Studie",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "BRIDG5.1",
@@ -24,14 +24,14 @@
       "name": "RIM Mapping"
     },
     {
-      "identity": "w5",
-      "uri": "http://hl7.org/fhir/fivews",
-      "name": "FiveWs Pattern Mapping"
-    },
-    {
       "identity": "clinicaltrials-gov",
       "uri": "http://clinicaltrials.gov",
       "name": "ClinicalTrials.gov Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
     }
   ],
   "kind": "resource",
@@ -44,16 +44,6 @@
       {
         "id": "ResearchStudy.extension",
         "path": "ResearchStudy.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "mustSupport": true
       },
       {

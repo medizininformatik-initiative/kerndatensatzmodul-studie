@@ -6,7 +6,7 @@
   "name": "MII_PR_Studie_Dokument",
   "title": "MII PR Studie Dokument",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "workflow",

@@ -6,7 +6,7 @@
   "name": "MII_EX_Studie_Rekrutierungsstand_Datum",
   "title": "MII EX Studie Rekrutierungsstand Datum",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "rim",

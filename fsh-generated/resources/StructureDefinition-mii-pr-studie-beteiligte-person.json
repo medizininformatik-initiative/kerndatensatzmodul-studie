@@ -6,7 +6,7 @@
   "name": "MII_PR_Studie_Beteiligte_Person",
   "title": "MII PR Studie Beteiligte Person",
   "status": "active",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "v2",
