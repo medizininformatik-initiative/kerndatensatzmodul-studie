@@ -1,7 +1,7 @@
-Logical: SD_MII_Studie_LogicalModel
+Logical: MII_LM_Studie_LogicalModel
+Title: "MII LM Studie LogicalModel"
 Parent: Element
-Id: Forschungsvorhaben
-Title: "SD MII Studie Logical Model"
+Id: mii-lm-studie-logicalmodel
 Description: "Logische Repräsentation der Forschungsvorhaben"
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
   * id 0..* identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
@@ -115,6 +115,7 @@ Description: "Logische Repräsentation der Forschungsvorhaben"
   * RekrutierungsstandGenauigkeit 0..* code "Genauigkeit eines Rekrutierungsstands einer Studie" "Genauigkeit eines Rekrutierungsstands einer Studie"
   * RekrutierungsstandDatum 0..* date "Datum eines Rekrutierungsstands einer Studie" "Datum eines Rekrutierungsstands einer Studie"
   * Randomisierungsmethode 0..* string "Randomisierungsmethode einer Studie" "Randomisierungsmethode einer Studie"
+  * TeilVon 0..* Reference "Falls die Instanz einen Studienarm repräsentiert, Verweis auf die Hauptstudie"
 * Studienregister 0..* BackboneElement "Studienregister einer Studie" "Studienregister einer Studie"
   * Registername 0..* string "Name eines Studienregisters" "Name eines Studienregisters"
   * RegisterId 0..* Identifier "RegisterId eines Studienregisters" "RegisterId eines Studienregisters"
