@@ -83,6 +83,11 @@
             <title value="Studie (ResearchStudy)" />
             <generation value="markdown" />
           </page>
+          <page>
+            <nameUrl value="ImplementationGuide-1.x/TechnischeImplementierung/EvidenceVariable-1.x.md" />
+            <title value="Ein- und Auschlusskriterium (EvidenceVariable)" />
+            <generation value="markdown" />
+          </page>
         </page>
         <page>
           <nameUrl
