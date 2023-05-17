@@ -7,14 +7,14 @@
 Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative.
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Studie' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie' select Name: name, Canonical: url
 ```
 
 ---
 
 **Differential**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Studie, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie, diff}}
 
 ---
 
@@ -56,7 +56,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Studie, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie, snapshot}}
 
 ---
 
@@ -67,3 +67,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 ---
 
 **Beispiele**
+
+Beispiel (minimal):
+
+{{json:fsh-generated/resources/PractitionerRole-mii-exa-studie-beteiligte-person.json}}
