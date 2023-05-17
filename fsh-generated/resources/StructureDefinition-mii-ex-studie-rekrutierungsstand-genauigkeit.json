@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Rekrutierungsziel",
-  "url": "http://fhir.de/StructureDefinition/Rekrutierungsziel",
+  "id": "mii-ex-studie-rekrutierungsstand-genauigkeit",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit",
   "version": "0.5.0",
-  "name": "Rekrutierungsziel",
+  "name": "MII_EX_Studie_Rekrutierungsstand_Genauigkeit",
+  "title": "MII EX Studie Rekrutierungsstand Genauigkeit",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Rekrutierungsstand Genauigkeit"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,14 +40,14 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/Rekrutierungsziel"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "integer"
+            "code": "code"
           }
         ]
       }

@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "RekrutierungsstandGenauigkeit",
-  "url": "http://fhir.de/StructureDefinition/RekrutierungsstandGenauigkeit",
+  "id": "mii-ex-studie-rekrutierungsstand-datum",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum",
   "version": "0.5.0",
-  "name": "RekrutierungsstandGenauigkeit",
+  "name": "MII_EX_Studie_Rekrutierungsstand_Datum",
+  "title": "MII EX Studie Rekrutierungsstand Datum",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Rekrutierungsstand Datum"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,14 +40,14 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/RekrutierungsstandGenauigkeit"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "code"
+            "code": "date"
           }
         ]
       }

@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "WissenschaftlicherTitel",
-  "url": "http://fhir.de/StructureDefinition/WissenschaftlicherTitel",
+  "id": "mii-ex-studie-akronym",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
   "version": "0.5.0",
-  "name": "WissenschaftlicherTitel",
+  "name": "MII_EX_Studie_Akronym",
+  "title": "MII EX Studie Akronym",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Akronym"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,7 +40,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/WissenschaftlicherTitel"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym"
       },
       {
         "id": "Extension.value[x]",

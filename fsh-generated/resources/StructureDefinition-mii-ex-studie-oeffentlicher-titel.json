@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Rekrutierungsstart",
-  "url": "http://fhir.de/StructureDefinition/Rekrutierungsstart",
+  "id": "mii-ex-studie-oeffentlicher-titel",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel",
   "version": "0.5.0",
-  "name": "Rekrutierungsstart",
+  "name": "MII_EX_Studie_Oeffentlicher_Titel",
+  "title": "MII EX Studie Oeffentlicher Titel",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Oeffentlicher Titel"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,14 +40,14 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/Rekrutierungsstart"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "date"
+            "code": "string"
           }
         ]
       }

@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Rekrutierungsstand",
-  "url": "http://fhir.de/StructureDefinition/Rekrutierungsstand",
+  "id": "mii-ex-studie-rekrutierungsstand",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand",
   "version": "0.5.0",
-  "name": "Rekrutierungsstand",
+  "name": "MII_EX_Studie_Rekrutierungsstand",
+  "title": "MII EX Studie Rekrutierungsstand",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Rekrutierungsstand"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,7 +40,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/Rekrutierungsstand"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand"
       },
       {
         "id": "Extension.value[x]",

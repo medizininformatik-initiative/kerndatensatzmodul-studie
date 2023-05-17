@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Randomisierungsmethode",
-  "url": "http://fhir.de/StructureDefinition/Randomisierungsmethode",
+  "id": "mii-ex-studie-wissenschaftlicher-titel",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel",
   "version": "0.5.0",
-  "name": "Randomisierungsmethode",
+  "name": "MII_EX_Studie_Wissenschaftlicher_Titel",
+  "title": "MII EX Studie Wissenschaftlicher Titel",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Wissenschaftlicher Titel"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,14 +40,14 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://fhir.de/StructureDefinition/Randomisierungsmethode"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "code"
+            "code": "string"
           }
         ]
       }
