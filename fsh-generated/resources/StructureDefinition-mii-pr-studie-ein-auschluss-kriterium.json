@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-studie-ein-auschluss-kriterien",
-  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterien",
+  "id": "mii-pr-studie-ein-auschluss-kriterium",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium",
   "version": "0.5.0",
-  "name": "MII_PR_Studie_EinAuschlussKriterien",
-  "title": "MII PR Studie EinAuschlussKriterien",
+  "name": "MII_PR_Studie_EinAuschlussKriterium",
+  "title": "MII PR Studie EinAuschlussKriterium",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
