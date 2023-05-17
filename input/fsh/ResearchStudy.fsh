@@ -19,6 +19,7 @@ Id: mii-pr-studie-studie
 * extension contains MII_EX_Studie_Rekrutierungsstand_Genauigkeit named RekrutierungsstandGenauigkeit 0..1 MS
 * extension contains MII_EX_Studie_Rekrutierungsstand_Datum named RekrutierungsstandDatum 0..1 MS
 * extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..1 MS
+* arm MS
 * arm.name MS
 * category MS
 

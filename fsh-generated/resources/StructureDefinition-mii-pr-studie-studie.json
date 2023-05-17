@@ -252,6 +252,11 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.arm",
+        "path": "ResearchStudy.arm",
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.arm.name",
         "path": "ResearchStudy.arm.name",
         "mustSupport": true
