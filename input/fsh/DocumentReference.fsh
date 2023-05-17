@@ -5,9 +5,9 @@ Id: mii-pr-studie-dokument
 * status MS
 * content MS
   * attachment MS 
-    * url MS
+    * url 1..1 MS
     * title MS
-    * contentType MS
+    * contentType 1..1 MS
     * size MS
 * author MS
 * custodian MS
