@@ -49,7 +49,7 @@
   "identifier": [
     {
       "value": "DRKS00031294",
-      "system": "https://drks.de/id"
+      "system": "https://example.com/fhir/sid/drks"
     }
   ],
   "category": [

@@ -67,6 +67,62 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+1. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+1. Der Suchparameter "identifier" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?identifier=DRKS00031294```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "title" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?title=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.title" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?status=active```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "partOf" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?partOf=ResearchStudy/researchstudy-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.partOf" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+1. Der Suchparameter "category" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?category=interventional```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.category" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
 ---
 
 **Beispiele**

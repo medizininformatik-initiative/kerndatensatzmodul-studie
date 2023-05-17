@@ -78,7 +78,7 @@ Usage: #example
 * status = #active
 * title = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * identifier.value = "DRKS00031294"
-* identifier.system = "https://drks.de/id"
+* identifier.system = "https://example.com/fhir/sid/drks"
 * extension[OeffentlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Akronym].valueString = "tDCS"
