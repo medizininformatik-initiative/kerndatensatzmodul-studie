@@ -65,7 +65,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Beispiele:
 
-    ```GET [base]/PractitionerRole?_id=103270```
+    ```GET [base]/DocumentReference?_id=103270```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
@@ -73,9 +73,50 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Beispiele:
 
-    ```GET [base]/PractitionerRole?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument```
+    ```GET [base]/DocumentReference?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+1. Der Suchparameter "author" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?author=Practitioner/practitioner-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.author" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+
+1. Der Suchparameter "custodian" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?custodian=Organization/organization-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.custodian" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+1. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?status=current```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "location" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?location=https://example.com/fhir/Binary/document```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.url" finden sich in der [FHIR-Basisspezifikation - Abschnitt "uri"](https://www.hl7.org/fhir/r4/search.html#uri).
+
+1. Der Suchparameter "contenttype" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?contenttype=application/pdf```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.contentType" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](https://www.hl7.org/fhir/r4/search.html#token).
 
 ---
 
