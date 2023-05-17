@@ -1,0 +1,2593 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-lm-studie-logicalmodel",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
+  "version": "0.5.0",
+  "name": "MII_LM_Studie_LogicalModel",
+  "title": "MII LM Studie LogicalModel",
+  "status": "active",
+  "description": "Logische Repräsentation der Forschungsvorhaben",
+  "fhirVersion": "4.3.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "mii-lm-studie-logicalmodel",
+        "path": "mii-lm-studie-logicalmodel",
+        "short": "MII LM Studie LogicalModel",
+        "definition": "Logische Repräsentation der Forschungsvorhaben"
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.BusinessID",
+        "path": "mii-lm-studie-logicalmodel.BusinessID",
+        "short": "BusinessID eines Forschungsvorhabens",
+        "definition": "BusinessID eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.BusinessID.id",
+        "path": "mii-lm-studie-logicalmodel.BusinessID.id",
+        "short": "Identifier einer BusinessID",
+        "definition": "Identifier einer BusinessID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/elementdefinition-identifier"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.BusinessID.System",
+        "path": "mii-lm-studie-logicalmodel.BusinessID.System",
+        "short": "System einer BusinessID",
+        "definition": "System einer BusinessID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Titel",
+        "path": "mii-lm-studie-logicalmodel.Titel",
+        "short": "Titel eines Forschungsvorhabens",
+        "definition": "Titel eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Titel.OeffentlicherTitel",
+        "path": "mii-lm-studie-logicalmodel.Titel.OeffentlicherTitel",
+        "short": "Öffentlich sichtbarer Titel",
+        "definition": "Öffentlich sichtbarer Titel",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Titel.WissenschaftlicherTitel",
+        "path": "mii-lm-studie-logicalmodel.Titel.WissenschaftlicherTitel",
+        "short": "Wissenschaftlicher Titel",
+        "definition": "Wissenschaftlicher Titel",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Titel.Akronym",
+        "path": "mii-lm-studie-logicalmodel.Titel.Akronym",
+        "short": "Akronym des Titels",
+        "definition": "Akronym des Titels",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Einwilligung",
+        "path": "mii-lm-studie-logicalmodel.Einwilligung",
+        "short": "Einwilligung eines Forschungsvorhabens",
+        "definition": "Einwilligung eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt",
+        "path": "mii-lm-studie-logicalmodel.Kontakt",
+        "short": "Kontakt eines Forschungsvorhabens",
+        "definition": "Kontakt eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Grad",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Grad",
+        "short": "Grad eines Kontakts",
+        "definition": "Grad eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Vorname",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Vorname",
+        "short": "Vorname eines Kontakts",
+        "definition": "Vorname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Nachname",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Nachname",
+        "short": "Nachname eines Kontakts",
+        "definition": "Nachname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Adresse",
+        "short": "Adresse eines Kontakts",
+        "definition": "Adresse eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Email",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Email",
+        "short": "Email eines Kontakts",
+        "definition": "Email eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Tel",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Tel",
+        "short": "Telefonnummer eines Kontakts",
+        "definition": "Telefonnummer eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Zugehoerigkeit",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Zugehoerigkeit",
+        "short": "Zugehoerigkeit eines Kontakts",
+        "definition": "Zugehoerigkeit eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter",
+        "short": "Beteiligter eines Forschungsvorhabens",
+        "definition": "Beteiligter eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Rolle",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Rolle",
+        "short": "Rolle eines Beteiligten",
+        "definition": "Rolle eines Beteiligten",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt",
+        "short": "Kontakt eines Beteiligten",
+        "definition": "Kontakt eines Beteiligten",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Grad",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Grad",
+        "short": "Grad eines Kontakts",
+        "definition": "Grad eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Vorname",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Vorname",
+        "short": "Vorname eines Kontakts",
+        "definition": "Vorname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Nachname",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Nachname",
+        "short": "Nachname eines Kontakts",
+        "definition": "Nachname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse",
+        "short": "Adresse eines Kontakts",
+        "definition": "Adresse eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Email",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Email",
+        "short": "Email eines Kontakts",
+        "definition": "Email eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Tel",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Tel",
+        "short": "Telefonnummer eines Kontakts",
+        "definition": "Telefonnummer eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Zugehoerigkeit",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Kontakt.Zugehoerigkeit",
+        "short": "Zugehoerigkeit eines Kontakts",
+        "definition": "Zugehoerigkeit eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort",
+        "short": "Standort eines Beteiligten",
+        "definition": "Standort eines Beteiligten",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter",
+        "short": "Studienleiter eines Forschungsvorhabens",
+        "definition": "Studienleiter eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt",
+        "short": "Kontakt eines Studienleiters",
+        "definition": "Kontakt eines Studienleiters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Grad",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Grad",
+        "short": "Grad eines Kontakts",
+        "definition": "Grad eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Vorname",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Vorname",
+        "short": "Vorname eines Kontakts",
+        "definition": "Vorname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Nachname",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Nachname",
+        "short": "Nachname eines Kontakts",
+        "definition": "Nachname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse",
+        "short": "Adresse eines Kontakts",
+        "definition": "Adresse eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Email",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Email",
+        "short": "Email eines Kontakts",
+        "definition": "Email eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Tel",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Tel",
+        "short": "Telefonnummer eines Kontakts",
+        "definition": "Telefonnummer eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Zugehoerigkeit",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Kontakt.Zugehoerigkeit",
+        "short": "Zugehoerigkeit eines Kontakts",
+        "definition": "Zugehoerigkeit eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort",
+        "short": "Standort eines Studienleiters",
+        "definition": "Standort eines Studienleiters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Studienleiter.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor",
+        "path": "mii-lm-studie-logicalmodel.Sponsor",
+        "short": "Studienleiter eines Sponsors",
+        "definition": "Studienleiter eines Sponsors",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt",
+        "short": "Kontakt eines Sponsors",
+        "definition": "Kontakt eines Sponsors",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Grad",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Grad",
+        "short": "Grad eines Kontakts",
+        "definition": "Grad eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Vorname",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Vorname",
+        "short": "Vorname eines Kontakts",
+        "definition": "Vorname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Nachname",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Nachname",
+        "short": "Nachname eines Kontakts",
+        "definition": "Nachname eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse",
+        "short": "Adresse eines Kontakts",
+        "definition": "Adresse eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Email",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Email",
+        "short": "Email eines Kontakts",
+        "definition": "Email eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Tel",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Tel",
+        "short": "Telefonnummer eines Kontakts",
+        "definition": "Telefonnummer eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Zugehoerigkeit",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Kontakt.Zugehoerigkeit",
+        "short": "Zugehoerigkeit eines Kontakts",
+        "definition": "Zugehoerigkeit eines Kontakts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort",
+        "short": "Standort eines Sponsors",
+        "definition": "Standort eines Sponsors",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Sponsor.IstHauptsponsor",
+        "path": "mii-lm-studie-logicalmodel.Sponsor.IstHauptsponsor",
+        "short": "Ob dieser Sponsor der Hauptsponsor ist",
+        "definition": "Ob dieser Sponsor der Hauptsponsor ist",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign",
+        "short": "Studiendesign eines Forschungsvorhabens",
+        "definition": "Studiendesign eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstart",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstart",
+        "short": "Rekrutierungsstart einer Studie",
+        "definition": "Rekrutierungsstart einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm",
+        "short": "Studienarm einer Studie",
+        "definition": "Studienarm einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Name",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Name",
+        "short": "Name des Studienarms",
+        "definition": "Name des Studienarms",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Studienarm",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Studienarm",
+        "short": "Arm des Studienarms",
+        "definition": "Arm des Studienarms",
+        "min": 0,
+        "max": "*",
+        "contentReference": "Studienarm"
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Einschlusskriterien",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Einschlusskriterien",
+        "short": "Einschlusskriterien des Studienarms",
+        "definition": "Einschlusskriterien des Studienarms",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Ausschlusskriterien",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Ausschlusskriterien",
+        "short": "Ausschlusskriterien des Studienarms",
+        "definition": "Ausschlusskriterien des Studienarms",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien",
+        "short": "Einschlusskriterien einer Studie",
+        "definition": "Einschlusskriterien einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Kriterium",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Kriterium",
+        "short": "Kriterium",
+        "definition": "Kriterium",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Operator",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Operator",
+        "short": "Operator des Kriteriums",
+        "definition": "Operator des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Masseinheit",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Masseinheit",
+        "short": "Masseinheit des Kriteriums",
+        "definition": "Masseinheit des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Wert",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Einschlusskriterien.Wert",
+        "short": "Wert des Kriteriums",
+        "definition": "Wert des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien",
+        "short": "Ausschlusskriterien einer Studie",
+        "definition": "Ausschlusskriterien einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Kriterium",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Kriterium",
+        "short": "Kriterium",
+        "definition": "Kriterium",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Operator",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Operator",
+        "short": "Operator des Kriteriums",
+        "definition": "Operator des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Masseinheit",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Masseinheit",
+        "short": "Masseinheit des Kriteriums",
+        "definition": "Masseinheit des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Wert",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Ausschlusskriterien.Wert",
+        "short": "Wert des Kriteriums",
+        "definition": "Wert des Kriteriums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Studientyp",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Studientyp",
+        "short": "Typ einer Studie",
+        "definition": "Typ einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsziel",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsziel",
+        "short": "Rekrutierungsziel einer Studie",
+        "definition": "Rekrutierungsziel einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstand",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstand",
+        "short": "Rekrutierungsstand einer Studie",
+        "definition": "Rekrutierungsstand einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Count"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandGenauigkeit",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandGenauigkeit",
+        "short": "Genauigkeit eines Rekrutierungsstands einer Studie",
+        "definition": "Genauigkeit eines Rekrutierungsstands einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandDatum",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandDatum",
+        "short": "Datum eines Rekrutierungsstands einer Studie",
+        "definition": "Datum eines Rekrutierungsstands einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Randomisierungsmethode",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Randomisierungsmethode",
+        "short": "Randomisierungsmethode einer Studie",
+        "definition": "Randomisierungsmethode einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.TeilVon",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.TeilVon",
+        "short": "Falls die Instanz einen Studienarm repräsentiert, Verweis auf die Hauptstudie",
+        "definition": "Falls die Instanz einen Studienarm repräsentiert, Verweis auf die Hauptstudie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienregister",
+        "path": "mii-lm-studie-logicalmodel.Studienregister",
+        "short": "Studienregister einer Studie",
+        "definition": "Studienregister einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienregister.Registername",
+        "path": "mii-lm-studie-logicalmodel.Studienregister.Registername",
+        "short": "Name eines Studienregisters",
+        "definition": "Name eines Studienregisters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienregister.RegisterId",
+        "path": "mii-lm-studie-logicalmodel.Studienregister.RegisterId",
+        "short": "RegisterId eines Studienregisters",
+        "definition": "RegisterId eines Studienregisters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienregister.url",
+        "path": "mii-lm-studie-logicalmodel.Studienregister.url",
+        "short": "URL eines Studienregisters",
+        "definition": "URL eines Studienregisters",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienregister.IstQuellRegister",
+        "path": "mii-lm-studie-logicalmodel.Studienregister.IstQuellRegister",
+        "short": "Ob dieses Register das Quellregister ist",
+        "definition": "Ob dieses Register das Quellregister ist",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Publikation",
+        "path": "mii-lm-studie-logicalmodel.Publikation",
+        "short": "Publikationen eines Forschungsvorhabens",
+        "definition": "Publikationen eines Forschungsvorhabens",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Publikation.url",
+        "path": "mii-lm-studie-logicalmodel.Publikation.url",
+        "short": "URL einer Publikation",
+        "definition": "URL einer Publikation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Publikation.Titel",
+        "path": "mii-lm-studie-logicalmodel.Publikation.Titel",
+        "short": "Titel einer Publikation",
+        "definition": "Titel einer Publikation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Publikation.Autor",
+        "path": "mii-lm-studie-logicalmodel.Publikation.Autor",
+        "short": "Autor einer Publikation",
+        "definition": "Autor einer Publikation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rekrutierungsstatus",
+        "path": "mii-lm-studie-logicalmodel.Rekrutierungsstatus",
+        "short": "Rekrutierungsstatus einer Studie",
+        "definition": "Rekrutierungsstatus einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienphase",
+        "path": "mii-lm-studie-logicalmodel.Studienphase",
+        "short": "Studienphase einer Studie",
+        "definition": "Studienphase einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienstatus",
+        "path": "mii-lm-studie-logicalmodel.Studienstatus",
+        "short": "Studienstatus einer Studie",
+        "definition": "Studienstatus einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung",
+        "short": "Beschreibung einer Datenerhebung einer Studie",
+        "definition": "Beschreibung einer Datenerhebung einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument",
+        "short": "Dokument einer Datenerhebung",
+        "definition": "Dokument einer Datenerhebung",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Name",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Name",
+        "short": "Name eines Dokumentes",
+        "definition": "Name eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Autor",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Autor",
+        "short": "Autor eines Dokumentes",
+        "definition": "Autor eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateityp",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateityp",
+        "short": "Dateityp eines Dokumentes",
+        "definition": "Dateityp eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort",
+        "short": "Standort eines Dokumentes",
+        "definition": "Standort eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateigrösse",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateigrösse",
+        "short": "Dateigrösse eines Dokumentes",
+        "definition": "Dateigrösse eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.url",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.url",
+        "short": "URL eines Dokumentes",
+        "definition": "URL eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage",
+        "short": "Rechtsgrundlage einer Studie",
+        "definition": "Rechtsgrundlage einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument",
+        "short": "Dokument einer Rechtsgrundlage",
+        "definition": "Dokument einer Rechtsgrundlage",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Name",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Name",
+        "short": "Name eines Dokumentes",
+        "definition": "Name eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Autor",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Autor",
+        "short": "Autor eines Dokumentes",
+        "definition": "Autor eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateityp",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateityp",
+        "short": "Dateityp eines Dokumentes",
+        "definition": "Dateityp eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort",
+        "short": "Standort eines Dokumentes",
+        "definition": "Standort eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateigrösse",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateigrösse",
+        "short": "Dateigrösse eines Dokumentes",
+        "definition": "Dateigrösse eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.url",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.url",
+        "short": "URL eines Dokumentes",
+        "definition": "URL eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag",
+        "short": "Datennutzungsantrag einer Studie",
+        "definition": "Datennutzungsantrag einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument",
+        "short": "Dokument eines Datennutzungsantrags",
+        "definition": "Dokument eines Datennutzungsantrags",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Name",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Name",
+        "short": "Name eines Dokumentes",
+        "definition": "Name eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Autor",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Autor",
+        "short": "Autor eines Dokumentes",
+        "definition": "Autor eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateityp",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateityp",
+        "short": "Dateityp eines Dokumentes",
+        "definition": "Dateityp eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort",
+        "short": "Standort eines Dokumentes",
+        "definition": "Standort eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateigrösse",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateigrösse",
+        "short": "Dateigrösse eines Dokumentes",
+        "definition": "Dateigrösse eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.url",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.url",
+        "short": "URL eines Dokumentes",
+        "definition": "URL eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.url",
+        "path": "mii-lm-studie-logicalmodel.url",
+        "short": "URL einer Studie",
+        "definition": "URL einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Studienfokus",
+        "path": "mii-lm-studie-logicalmodel.Studienfokus",
+        "short": "Fokus einer Studie",
+        "definition": "Fokus einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Schlagwort",
+        "path": "mii-lm-studie-logicalmodel.Schlagwort",
+        "short": "Schlagwort einer Studie",
+        "definition": "Schlagwort einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit",
+        "short": "Machbarkeit einer Studie",
+        "definition": "Machbarkeit einer Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Abschaetzung",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Abschaetzung",
+        "short": "Abschaetzung der Machbarkeit",
+        "definition": "Abschaetzung der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument",
+        "short": "Dokumentation der Machbarkeit",
+        "definition": "Dokumentation der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Name",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Name",
+        "short": "Name eines Dokumentes",
+        "definition": "Name eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Autor",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Autor",
+        "short": "Autor eines Dokumentes",
+        "definition": "Autor eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateityp",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateityp",
+        "short": "Dateityp eines Dokumentes",
+        "definition": "Dateityp eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort",
+        "short": "Standort eines Dokumentes",
+        "definition": "Standort eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse",
+        "short": "Adresse eines Standorts",
+        "definition": "Adresse eines Standorts",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Strasse",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Strasse",
+        "short": "Strasse einer Adresse",
+        "definition": "Strasse einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Hausnummer",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Hausnummer",
+        "short": "Hausnummer einer Adresse",
+        "definition": "Hausnummer einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.PLZ",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.PLZ",
+        "short": "PLZ einer Adresse",
+        "definition": "PLZ einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Wohnort",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Wohnort",
+        "short": "Wohnort einer Adresse",
+        "definition": "Wohnort einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Land",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Standort.Adresse.Land",
+        "short": "Land einer Adresse",
+        "definition": "Land einer Adresse",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateigrösse",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateigrösse",
+        "short": "Dateigrösse eines Dokumentes",
+        "definition": "Dateigrösse eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.url",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.url",
+        "short": "URL eines Dokumentes",
+        "definition": "URL eines Dokumentes",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Ergebnis",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Ergebnis",
+        "short": "Ergebnis der Machbarkeit",
+        "definition": "Ergebnis der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.HatPrescreening",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.HatPrescreening",
+        "short": "Ob ein Prescreening vorhanden ist",
+        "definition": "Ob ein Prescreening vorhanden ist",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Version",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Version",
+        "short": "Version der Machbarkeit",
+        "definition": "Version der Machbarkeit",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Ethikvotum",
+        "path": "mii-lm-studie-logicalmodel.Ethikvotum",
+        "short": "Ethikvotum der Studie",
+        "definition": "Ethikvotum der Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Ethikvotum.Status",
+        "path": "mii-lm-studie-logicalmodel.Ethikvotum.Status",
+        "short": "Status des Ethikvotums",
+        "definition": "Status des Ethikvotums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Ethikvotum.Kommission",
+        "path": "mii-lm-studie-logicalmodel.Ethikvotum.Kommission",
+        "short": "Kommission des Ethikvotums",
+        "definition": "Kommission des Ethikvotums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Ethikvotum.Ethiknummer",
+        "path": "mii-lm-studie-logicalmodel.Ethikvotum.Ethiknummer",
+        "short": "Nummer des Ethikvotums",
+        "definition": "Nummer des Ethikvotums",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "mii-lm-studie-logicalmodel.Finanzierung",
+        "path": "mii-lm-studie-logicalmodel.Finanzierung",
+        "short": "Finanzierung der Studie",
+        "definition": "Finanzierung der Studie",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
