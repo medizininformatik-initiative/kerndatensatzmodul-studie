@@ -1,0 +1,76 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-studie-ein-auschluss-kriterien",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterien",
+  "version": "0.5.0",
+  "name": "MII_PR_Studie_EinAuschlussKriterien",
+  "title": "MII PR Studie EinAuschlussKriterien",
+  "status": "active",
+  "fhirVersion": "4.3.0",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "objimpl",
+      "uri": "http://hl7.org/fhir/object-implementation",
+      "name": "Object Implementation Information"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "EvidenceVariable",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/EvidenceVariable",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "EvidenceVariable.characteristic",
+        "path": "EvidenceVariable.characteristic",
+        "mustSupport": true
+      },
+      {
+        "id": "EvidenceVariable.characteristic.extension",
+        "path": "EvidenceVariable.characteristic.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "EvidenceVariable.characteristic.extension:linkId",
+        "path": "EvidenceVariable.characteristic.extension",
+        "sliceName": "linkId",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-backport-linkId"
+            ]
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}
