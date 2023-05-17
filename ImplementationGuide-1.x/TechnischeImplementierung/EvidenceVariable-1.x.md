@@ -30,7 +30,14 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
-|||
+||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Kriterium|
+||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Operator|
+||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Masseinheit|
+||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Wert|
+||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Kriterium|
+||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Operator|
+||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Masseinheit|
+||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Wert|
 
 ---
 

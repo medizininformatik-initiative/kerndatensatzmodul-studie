@@ -3,6 +3,7 @@ Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
 Id: mii-pr-studie-ein-auschluss-kriterium
 * characteristic MS
+* characteristic.description MS
 * characteristic.extension contains MII_EX_Studie_Backport_linkId named linkId 0..1 MS
 //* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Type_And_Value named definitionByTypeAndValue 0..1 MS
 //* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Combination named definitionByCombination 0..1 MS

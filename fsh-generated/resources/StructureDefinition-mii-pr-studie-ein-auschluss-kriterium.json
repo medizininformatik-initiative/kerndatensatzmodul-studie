@@ -70,6 +70,11 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "EvidenceVariable.characteristic.description",
+        "path": "EvidenceVariable.characteristic.description",
+        "mustSupport": true
       }
     ]
   }
