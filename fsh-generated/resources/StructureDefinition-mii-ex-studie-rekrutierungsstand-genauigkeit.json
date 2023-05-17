@@ -47,7 +47,7 @@
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "code"
+            "code": "string"
           }
         ]
       }

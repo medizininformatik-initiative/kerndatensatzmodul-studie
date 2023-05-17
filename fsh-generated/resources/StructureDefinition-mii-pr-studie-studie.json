@@ -201,6 +201,22 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.extension:Finanzierung",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Finanzierung",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.identifier",
         "path": "ResearchStudy.identifier",
         "mustSupport": true

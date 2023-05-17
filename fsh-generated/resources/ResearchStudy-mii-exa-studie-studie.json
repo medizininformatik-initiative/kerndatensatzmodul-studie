@@ -21,7 +21,7 @@
     },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode",
-      "valueCode": "Zufallszuteilung"
+      "valueString": "Zufallszuteilung"
     },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstart",
@@ -37,7 +37,7 @@
     },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit",
-      "valueCode": "good"
+      "valueString": "good"
     },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum",

@@ -18,6 +18,7 @@ Id: mii-pr-studie-studie
 * extension contains MII_EX_Studie_Rekrutierungsstand named Rekrutierungsstand 0..1 MS
 * extension contains MII_EX_Studie_Rekrutierungsstand_Genauigkeit named RekrutierungsstandGenauigkeit 0..1 MS
 * extension contains MII_EX_Studie_Rekrutierungsstand_Datum named RekrutierungsstandDatum 0..1 MS
+* extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..1 MS
 * arm.name MS
 * category MS
 
@@ -54,7 +55,7 @@ Title: "MII EX Studie Rekrutierungsstand"
 Extension: MII_EX_Studie_Rekrutierungsstand_Genauigkeit
 Id: mii-ex-studie-rekrutierungsstand-genauigkeit
 Title: "MII EX Studie Rekrutierungsstand Genauigkeit"
-* value[x] only code
+* value[x] only string
 
 Extension: MII_EX_Studie_Rekrutierungsstand_Datum
 Id: mii-ex-studie-rekrutierungsstand-datum
@@ -64,7 +65,12 @@ Title: "MII EX Studie Rekrutierungsstand Datum"
 Extension: MII_EX_Studie_Randomisierungsmethode
 Id: mii-ex-studie-randomisierungsmethode
 Title: "MII EX Studie Randomisierungsmethode"
-* value[x] only code
+* value[x] only string
+
+Extension: MII_EX_Studie_Finanzierung
+Id: mii-ex-studie-finanzierung
+Title: "MII EX Studie Finanzierung"
+* value[x] only string
 
 Instance: mii-exa-studie-studie
 InstanceOf: MII_PR_Studie_Studie
@@ -76,11 +82,11 @@ Usage: #example
 * extension[OeffentlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Akronym].valueString = "tDCS"
-* extension[Randomisierungsmethode].valueCode = #Zufallszuteilung
+* extension[Randomisierungsmethode].valueString = "Zufallszuteilung"
 * extension[Rekrutierungsstart].valueDate = "2023-01-12"
 * extension[Rekrutierungsziel].valueInteger = 40
 * extension[Rekrutierungsstand].valueInteger = 35
-* extension[RekrutierungsstandGenauigkeit].valueCode = #good
+* extension[RekrutierungsstandGenauigkeit].valueString = "good"
 * extension[RekrutierungsstandDatum].valueDate = "2023-02-17"
 * category = #interventional
 * arm.name = "frontale anodale tDCS  (verum condition)"
