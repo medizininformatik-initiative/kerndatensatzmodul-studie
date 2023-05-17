@@ -14,3 +14,4 @@ Usage: #example
 * telecom.system = #phone
 * telecom.value = "0123456789"
 * organization = Reference(Organization/Example)
+* practitioner = Reference(Practitioner/Example)
