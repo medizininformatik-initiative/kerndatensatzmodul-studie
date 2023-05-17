@@ -1,6 +1,7 @@
-Profile: MII_Dokument
+Profile: MII_PR_Studie_Dokument
+Title: "MII PR Studie Dokument"
 Parent: DocumentReference
-Id: MII-Dokument
+Id: mii-pr-studie-dokument
 * status MS
 * content MS
   * attachment MS 
@@ -11,11 +12,11 @@ Id: MII-Dokument
 * author MS
 * custodian MS
 
-Instance: MII-Dokument-Example
-InstanceOf: MII_Dokument
+Instance:  mii-exa-studie-dokument
+InstanceOf: MII_PR_Studie_Dokument
 Usage: #example
 * status = #current
-* content.attachment.url = "https://example.com/document"
+* content.attachment.url = "https://example.com/fhir/Binary/document"
 * content.attachment.title = "Beispiel Dokument"
 * content.attachment.contentType = #application/pdf
 * content.attachment.size = 2000

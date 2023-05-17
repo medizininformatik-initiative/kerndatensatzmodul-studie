@@ -1,16 +1,16 @@
 {
   "resourceType": "DocumentReference",
-  "id": "MII-Dokument-Example",
+  "id": "mii-exa-studie-dokument",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/MII-Dokument"
+      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"
     ]
   },
   "status": "current",
   "content": [
     {
       "attachment": {
-        "url": "https://example.com/fhir/Binary/document",
+        "url": "https://example.com/document",
         "title": "Beispiel Dokument",
         "contentType": "application/pdf",
         "size": 2000
