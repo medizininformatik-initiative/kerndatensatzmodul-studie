@@ -5,18 +5,17 @@ Id: mii-pr-studie-register
 * type MS
 * name MS
 * identifier MS
-* identifier.value MS
-* identifier.system MS
+* identifier.value 1..1 MS
+* identifier.system 1..1 MS
 * relatedArtifact MS
-  * document MS
-    * url MS
+  * document 1..1 MS
+    * url 1..1 MS
 * extension MS
-* extension contains http://fhir.de/StructureDefinition/QuellRegister named QuellRegister 0..1 MS
+* extension contains https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register named QuellRegister 0..1 MS
 
 Extension: MII_EX_Studie_Quell_Register
 Title: "MII EX Studie Quell Register"
 Id: mii-ex-studie-quell-register
-* ^url = "http://fhir.de/StructureDefinition/QuellRegister"
 * value[x] only boolean
 
 Instance: mii-exa-studie-register

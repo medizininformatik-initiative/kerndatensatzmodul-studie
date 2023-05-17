@@ -1,0 +1,38 @@
+{
+  "resourceType": "Library",
+  "id": "mii-exa-studie-register",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
+      "valueBoolean": true
+    }
+  ],
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "code": "asset-collection"
+      }
+    ]
+  },
+  "name": "DRKS - Deutsches Register Klinischer Studien",
+  "identifier": [
+    {
+      "value": "DRKS",
+      "system": "System"
+    }
+  ],
+  "relatedArtifact": [
+    {
+      "document": {
+        "url": "https://example.com/RelatedArtifact"
+      },
+      "type": "documentation"
+    }
+  ]
+}

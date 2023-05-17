@@ -1,9 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "QuellRegister",
-  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
+  "id": "mii-ex-studie-quell-register",
+  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
   "version": "0.5.0",
-  "name": "QuellRegister",
+  "name": "MII_EX_Studie_Quell_Register",
+  "title": "MII EX Studie Quell Register",
   "status": "active",
   "fhirVersion": "4.3.0",
   "mapping": [
@@ -27,6 +28,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "MII EX Studie Quell Register"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -34,7 +40,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/mii-ex-studie-quell-register"
       },
       {
         "id": "Extension.value[x]",
