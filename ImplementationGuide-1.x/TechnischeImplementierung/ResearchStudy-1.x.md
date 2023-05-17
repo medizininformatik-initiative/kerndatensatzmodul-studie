@@ -70,4 +70,4 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
 Beispiel (minimal):
 
-{{json:fsh-generated/resources/PractitionerRole-mii-exa-studie-beteiligte-person.json}}
+{{json:fsh-generated/resources/ResearchStudy-mii-exa-studie-studie.json}}
