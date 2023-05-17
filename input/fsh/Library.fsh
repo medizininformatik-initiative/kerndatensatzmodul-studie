@@ -2,6 +2,7 @@ Profile: MII_PR_Studie_Register
 Title: "MII PR Studie Register"
 Parent: Library
 Id: mii-pr-studie-register
+* type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
 * name MS
 * identifier MS
@@ -22,7 +23,6 @@ Instance: mii-exa-studie-register
 InstanceOf: MII_PR_Studie_Register
 Usage: #example
 * status = #active
-* type = #asset-collection
 * name = "DRKS - Deutsches Register Klinischer Studien"
 * identifier.value = "DRKS"
 * identifier.system = "System"
