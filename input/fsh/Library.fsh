@@ -1,6 +1,7 @@
-Profile: MII_Register
+Profile: MII_PR_Studie_Register
+Title: "MII PR Studie Register"
 Parent: Library
-Id: MII-Register
+Id: mii-pr-studie-register
 * type MS
 * name MS
 * identifier MS
@@ -12,13 +13,14 @@ Id: MII-Register
 * extension MS
 * extension contains http://fhir.de/StructureDefinition/QuellRegister named QuellRegister 0..1 MS
 
-Extension: QuellRegister
-Id: QuellRegister
+Extension: MII_EX_Studie_Quell_Register
+Title: "MII EX Studie Quell Register"
+Id: mii-ex-studie-quell-register
 * ^url = "http://fhir.de/StructureDefinition/QuellRegister"
 * value[x] only boolean
 
-Instance: MII-Register-Example
-InstanceOf: MII_Register
+Instance: mii-exa-studie-register
+InstanceOf: MII_PR_Studie_Register
 Usage: #example
 * status = #active
 * type = #asset-collection
