@@ -2,3 +2,5 @@ canonical: https://www.medizininformatik-initiative.de/fhir/modul-studie
 version: 0.5.0
 fhirVersion: 4.0.1
 FSHOnly: true
+dependencies:
+  hl7.fhir.extensions.r5: 4.0.1

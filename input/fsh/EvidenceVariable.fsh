@@ -15,6 +15,7 @@ Id: mii-pr-studie-ein-auschluss-kriterium
 Extension: MII_EX_Studie_Backport_linkId
 Id: mii-ex-studie-backport-linkId
 Title: "MII EX Studie Backport linkId"
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
 * value[x] only string
 
 //Extension: MII_EX_Studie_Backport_Definition_By_Type_And_Value

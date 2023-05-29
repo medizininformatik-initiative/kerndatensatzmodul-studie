@@ -22,7 +22,8 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 | FHIR-Element | Erklärung |
 |--------------|-----------|
-|||
+|EvidenceVariable.characteristic.description|Textuelle Beschreibung dess Kriteriums|
+|EvidenceVariable.characteristic.exclude|Boolisches Element welches definiert, ob es sich um ein Einschluss- oder Ausschlusskriterium handelt|
 
 ---
 
@@ -30,11 +31,11 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
-||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Kriterium|
+|EvidenceVariable.characteristic.description|Forschungsvorhaben.Studiendesign.Einschlusskriterien.Kriterium|
 ||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Operator|
 ||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Masseinheit|
 ||Forschungsvorhaben.Studiendesign.Einschlusskriterien.Wert|
-||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Kriterium|
+|EvidenceVariable.characteristic.description|Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Kriterium|
 ||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Operator|
 ||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Masseinheit|
 ||Forschungsvorhaben.Studiendesign.Ausschlusskriterien.Wert|
