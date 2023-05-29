@@ -37,6 +37,11 @@
   "differential": {
     "element": [
       {
+        "id": "EvidenceVariable.status",
+        "path": "EvidenceVariable.status",
+        "mustSupport": true
+      },
+      {
         "id": "EvidenceVariable.characteristic",
         "path": "EvidenceVariable.characteristic",
         "mustSupport": true

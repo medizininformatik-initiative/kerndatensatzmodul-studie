@@ -2,6 +2,7 @@ Profile: MII_PR_Studie_EinAuschlussKriterium
 Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
 Id: mii-pr-studie-ein-auschluss-kriterium
+* status MS
 * characteristic MS
 * characteristic.description MS
 * characteristic.definition[x] MS
