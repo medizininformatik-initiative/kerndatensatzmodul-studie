@@ -55,7 +55,8 @@ Extension: MII_EX_Studie_Backport_Definition_By_Combination
 Id: mii-ex-studie-backport-definition-by-combination
 Title: "MII EX Studie Backport DefinitionByCombination"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCombination"
-* extension contains code 1..1 MS and threshhold 0..1
+* extension contains code 1..1 MS and threshhold 0..1 and characteristic 1..* MS
 * extension[code].value[x] only code
 * extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
 * extension[threshhold].value[x] only positiveInt
+* extension[characteristic].value[x] only id

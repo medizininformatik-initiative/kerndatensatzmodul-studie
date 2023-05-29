@@ -35,7 +35,7 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 1
+        "min": 2
       },
       {
         "id": "Extension.extension:code",
@@ -107,6 +107,33 @@
         "type": [
           {
             "code": "positiveInt"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:characteristic",
+        "path": "Extension.extension",
+        "sliceName": "characteristic",
+        "min": 1,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Extension.extension:characteristic.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:characteristic.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "characteristic"
+      },
+      {
+        "id": "Extension.extension:characteristic.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "id"
           }
         ]
       },
