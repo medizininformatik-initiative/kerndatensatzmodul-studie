@@ -40,13 +40,15 @@ Extension: MII_EX_Studie_Backport_Definition_By_Type_And_Value
 Id: mii-ex-studie-backport-definition-by-type-and-value
 Title: "MII EX Studie Backport DefinitionByTypeAndValue"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
-* extension contains type 1..1 MS and method 0..* MS
+* extension contains type 1..1 MS and method 0..* MS and device 0..1 MS and offset 0..1 MS
 * extension[type].value[x] only CodeableConcept
 * extension[type].valueCodeableConcept from http://terminology.hl7.org/ValueSet/usage-context-type (example)
 * extension[method].value[x] only CodeableConcept
 * extension[method].valueCodeableConcept from http://hl7.org/fhir/ValueSet/definition-method (example)
+* extension[device].value[x] only Reference(Device or DeviceMetric)
 //* extension[value].value[x] only CodeableConcept or boolean or Quantity or Range or Reference or id
-//* extension[offset].value[x] only CodeableConcept
+* extension[offset].value[x] only CodeableConcept
+* extension[offset].valueCodeableConcept from http://hl7.org/fhir/ValueSet/characteristic-offset (example)
 
 //Extension: MII_EX_Studie_Backport_Definition_By_Combination
 //Id: mii-ex-studie-backport-definition-by-combination
