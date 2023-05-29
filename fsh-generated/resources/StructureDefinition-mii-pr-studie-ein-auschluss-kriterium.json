@@ -102,7 +102,67 @@
       {
         "id": "EvidenceVariable.characteristic.definition[x]",
         "path": "EvidenceVariable.characteristic.definition[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "mustSupport": true
+      },
+      {
+        "id": "EvidenceVariable.characteristic.definitionReference",
+        "path": "EvidenceVariable.characteristic.definitionReference",
+        "min": 0,
+        "max": "0",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Group"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EvidenceVariable.characteristic.definitionCanonical",
+        "path": "EvidenceVariable.characteristic.definitionCanonical",
+        "min": 0,
+        "max": "0",
+        "type": [
+          {
+            "code": "canonical",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EvidenceVariable.characteristic.definitionDataRequirement",
+        "path": "EvidenceVariable.characteristic.definitionDataRequirement",
+        "min": 0,
+        "max": "0",
+        "type": [
+          {
+            "code": "DataRequirement"
+          }
+        ]
+      },
+      {
+        "id": "EvidenceVariable.characteristic.definitionTriggerDefinition",
+        "path": "EvidenceVariable.characteristic.definitionTriggerDefinition",
+        "min": 0,
+        "max": "0",
+        "type": [
+          {
+            "code": "TriggerDefinition"
+          }
+        ]
       },
       {
         "id": "EvidenceVariable.characteristic.usageContext",
