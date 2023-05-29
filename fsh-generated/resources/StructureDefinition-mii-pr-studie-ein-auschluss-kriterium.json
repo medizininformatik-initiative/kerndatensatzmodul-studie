@@ -79,6 +79,22 @@
         "mustSupport": true
       },
       {
+        "id": "EvidenceVariable.characteristic.extension:definitionCanonical",
+        "path": "EvidenceVariable.characteristic.extension",
+        "sliceName": "definitionCanonical",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "EvidenceVariable.characteristic.description",
         "path": "EvidenceVariable.characteristic.description",
         "mustSupport": true
