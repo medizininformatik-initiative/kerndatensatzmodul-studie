@@ -47,6 +47,11 @@
         "mustSupport": true
       },
       {
+        "id": "EvidenceVariable.characteristic.extension",
+        "path": "EvidenceVariable.characteristic.extension",
+        "mustSupport": true
+      },
+      {
         "id": "EvidenceVariable.characteristic.extension:linkId",
         "path": "EvidenceVariable.characteristic.extension",
         "sliceName": "linkId",

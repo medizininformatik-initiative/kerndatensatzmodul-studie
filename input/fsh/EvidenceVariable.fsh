@@ -8,6 +8,7 @@ Id: mii-pr-studie-ein-auschluss-kriterium
 * characteristic.definition[x] MS
 * characteristic.exclude MS
 * characteristic.usageContext 0..0
+* characteristic.extension MS
 * characteristic.extension contains MII_EX_Studie_Backport_linkId named linkId 0..1 MS
 * characteristic.extension contains MII_EX_Studie_Backport_definitionReference named definitionReference 0..1 MS
 * characteristic.extension contains MII_EX_Studie_Backport_definitionCanonical named definitionCanonical 0..1 MS
