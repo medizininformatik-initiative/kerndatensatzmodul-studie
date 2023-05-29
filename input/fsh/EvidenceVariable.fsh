@@ -9,6 +9,7 @@ Id: mii-pr-studie-ein-auschluss-kriterium
 * characteristic.exclude MS
 * characteristic.usageContext 0..0
 * characteristic.extension contains MII_EX_Studie_Backport_linkId named linkId 0..1 MS
+* characteristic.extension contains MII_EX_Studie_Backport_definitionReference named definitionReference 0..1 MS
 //* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Type_And_Value named definitionByTypeAndValue 0..1 MS
 //* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Combination named definitionByCombination 0..1 MS
 
@@ -17,6 +18,12 @@ Id: mii-ex-studie-backport-linkId
 Title: "MII EX Studie Backport linkId"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
 * value[x] only string
+
+Extension: MII_EX_Studie_Backport_definitionReference
+Id: mii-ex-studie-backport-definitionReference
+Title: "MII EX Studie Backport definitionReference"
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
+* value[x] only Reference(EvidenceVariable or Evidence or Group)
 
 //Extension: MII_EX_Studie_Backport_Definition_By_Type_And_Value
 //Id: mii-ex-studie-backport-definition-by-type-and-value
