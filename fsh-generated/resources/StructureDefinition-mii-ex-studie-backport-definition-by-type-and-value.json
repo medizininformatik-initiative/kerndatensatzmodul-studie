@@ -35,7 +35,7 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 1
+        "min": 2
       },
       {
         "id": "Extension.extension:type",
@@ -89,8 +89,7 @@
         "path": "Extension.extension",
         "sliceName": "method",
         "min": 0,
-        "max": "*",
-        "mustSupport": true
+        "max": "*"
       },
       {
         "id": "Extension.extension:method.extension",
@@ -136,8 +135,7 @@
         "path": "Extension.extension",
         "sliceName": "device",
         "min": 0,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:device.extension",
@@ -167,8 +165,7 @@
         "path": "Extension.extension",
         "sliceName": "offset",
         "min": 0,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Extension.extension:offset.extension",
@@ -208,6 +205,48 @@
           "strength": "example",
           "valueSet": "http://hl7.org/fhir/ValueSet/characteristic-offset"
         }
+      },
+      {
+        "id": "Extension.extension:value",
+        "path": "Extension.extension",
+        "sliceName": "value",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Extension.extension:value.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:value.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "value"
+      },
+      {
+        "id": "Extension.extension:value.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          },
+          {
+            "code": "id"
+          },
+          {
+            "code": "CodeableConcept"
+          },
+          {
+            "code": "Quantity"
+          },
+          {
+            "code": "Range"
+          },
+          {
+            "code": "Reference"
+          }
+        ]
       },
       {
         "id": "Extension.url",
