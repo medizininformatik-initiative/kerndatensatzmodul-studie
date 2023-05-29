@@ -12,7 +12,8 @@ Id: mii-pr-studie-ein-auschluss-kriterium
 * characteristic.extension contains MII_EX_Studie_Backport_linkId named linkId 0..1 MS
 * characteristic.extension contains MII_EX_Studie_Backport_definitionReference named definitionReference 0..1 MS
 * characteristic.extension contains MII_EX_Studie_Backport_definitionCanonical named definitionCanonical 0..1 MS
-* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Type_And_Value named definitionByCombination 0..1 MS
+* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Type_And_Value named definitionByTypeAndValue 0..1 MS
+* characteristic.extension contains MII_EX_Studie_Backport_Definition_By_Combination named definitionByCombination 0..1 MS
 * characteristic.definitionReference 0..0
 * characteristic.definitionCanonical 0..0
 * characteristic.definitionDataRequirement 0..0
@@ -50,10 +51,11 @@ Title: "MII EX Studie Backport DefinitionByTypeAndValue"
 * extension[offset].value[x] only CodeableConcept
 * extension[offset].valueCodeableConcept from http://hl7.org/fhir/ValueSet/characteristic-offset (example)
 
-//Extension: MII_EX_Studie_Backport_Definition_By_Combination
-//Id: mii-ex-studie-backport-definition-by-combination
-//Title: "MII EX Studie Backport DefinitionByCombination"
-//* extension contains code 1..1 MS and threshhold 1..1 MS and characteristic 1..* MS
-//* extension[code].value[x] only code
-//* extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
-//* extension[threshhold].value[x] only positiveInt
+Extension: MII_EX_Studie_Backport_Definition_By_Combination
+Id: mii-ex-studie-backport-definition-by-combination
+Title: "MII EX Studie Backport DefinitionByCombination"
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCombination"
+* extension contains code 1..1 MS and threshhold 0..1
+* extension[code].value[x] only code
+* extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
+* extension[threshhold].value[x] only positiveInt

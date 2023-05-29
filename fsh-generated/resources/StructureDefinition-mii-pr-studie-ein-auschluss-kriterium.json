@@ -100,6 +100,22 @@
         "mustSupport": true
       },
       {
+        "id": "EvidenceVariable.characteristic.extension:definitionByTypeAndValue",
+        "path": "EvidenceVariable.characteristic.extension",
+        "sliceName": "definitionByTypeAndValue",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "EvidenceVariable.characteristic.extension:definitionByCombination",
         "path": "EvidenceVariable.characteristic.extension",
         "sliceName": "definitionByCombination",
@@ -109,7 +125,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCombination"
             ]
           }
         ],
