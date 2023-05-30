@@ -9,6 +9,8 @@ Id: mii-pr-studie-studie
 * identifier.system MS
 * partOf MS
 * extension MS
+* extension contains MII_EX_Studie_Studienfokus named Studienfokus 0..* MS
+* extension contains MII_EX_Studie_Schlagwort named Schlagwort 0..* MS
 * extension contains MII_EX_Studie_Oeffentlicher_Titel named OeffentlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
@@ -22,6 +24,16 @@ Id: mii-pr-studie-studie
 * arm MS
 * arm.name MS
 * category MS
+
+Extension: MII_EX_Studie_Studienfokus
+Id: mii-ex-studie-studienfokus
+Title: "MII EX Studie Studienfokus"
+* value[x] only string
+
+Extension: MII_EX_Studie_Schlagwort
+Id: mii-ex-studie-schlagwort
+Title: "MII EX Studie Schlagwort"
+* value[x] only string
 
 Extension: MII_EX_Studie_Oeffentlicher_Titel
 Id: mii-ex-studie-oeffentlicher-titel

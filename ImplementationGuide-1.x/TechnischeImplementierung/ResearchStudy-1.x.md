@@ -34,6 +34,8 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
 | ResearchStudy.title |  Forschungsvorhaben.Titel  |
+| ResearchStudy.extension:Studienfokus |  Forschungsvorhaben.Studienfokus |
+| ResearchStudy.extension:Schlagwort |  Forschungsvorhaben.Schlagwort |
 | ResearchStudy.extension:OeffentlicherTitel |  Forschungsvorhaben.Titel.OeffentlicherTitel |
 | ResearchStudy.extension:WissenschaftlicherTitel |  Forschungsvorhaben.Titel.WissenschaftlicherTitel |
 | ResearchStudy.extension:Akronym |  Forschungsvorhaben.Titel.Akronym |
