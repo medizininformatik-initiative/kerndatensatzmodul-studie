@@ -47,6 +47,22 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.extension:Studienregister",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Studienregister",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.extension:Eligibility",
         "path": "ResearchStudy.extension",
         "sliceName": "Eligibility",

@@ -9,6 +9,7 @@ Id: mii-pr-studie-studie
 * identifier.system MS
 * partOf MS
 * extension MS
+* extension contains MII_EX_Studie_Studienregister named Studienregister 0..* MS
 * extension contains MII_EX_Studie_Eligibility named Eligibility 0..1 MS
 * extension contains MII_EX_Studie_Studienfokus named Studienfokus 0..* MS
 * extension contains MII_EX_Studie_Schlagwort named Schlagwort 0..* MS
@@ -25,6 +26,11 @@ Id: mii-pr-studie-studie
 * arm MS
 * arm.name MS
 * category MS
+
+Extension: MII_EX_Studie_Studienregister
+Id: mii-ex-studie-studienregister
+Title: "MII EX Studie Studienregister"
+* value[x] only Reference(Library)
 
 Extension: MII_EX_Studie_Eligibility
 Id: mii-ex-studie-eligibility
