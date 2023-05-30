@@ -25,7 +25,7 @@ Usage: #example
 * status = #active
 * name = "DRKS - Deutsches Register Klinischer Studien"
 * identifier.value = "DRKS"
-* identifier.system = "System"
+* identifier.system = "https://example.com/fhir/sid/drks"
 * relatedArtifact.document.url = "https://example.com/fhir/sid/AbkuerzungenRegister"
 * relatedArtifact.type = #documentation
 * extension[QuellRegister].valueBoolean = true

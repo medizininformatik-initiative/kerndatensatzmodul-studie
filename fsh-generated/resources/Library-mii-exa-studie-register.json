@@ -25,7 +25,7 @@
   "identifier": [
     {
       "value": "DRKS",
-      "system": "System"
+      "system": "https://example.com/fhir/sid/drks"
     }
   ],
   "relatedArtifact": [
