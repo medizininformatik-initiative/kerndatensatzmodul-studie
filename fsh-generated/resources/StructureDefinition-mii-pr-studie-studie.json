@@ -47,6 +47,22 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.extension:Eligibility",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Eligibility",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.extension:Studienfokus",
         "path": "ResearchStudy.extension",
         "sliceName": "Studienfokus",
