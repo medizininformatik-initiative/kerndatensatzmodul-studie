@@ -80,9 +80,33 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Beispiele
 
-    ```GET [base]/DocumentReference?identifier=DRKS```
+    ```GET [base]/Library?identifier=DRKS```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "Library.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "quellregister" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?quellregister=true```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.extension:QuellRegister" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "type" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?type=http://terminology.hl7.org/CodeSystem/library-type|asset-collection```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.type" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "relatedArtifactUrl" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?relatedArtifactUrl=https://drks.de/```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.relatedArtifact.document.url" finden sich in der [FHIR-Basisspezifikation - Abschnitt "uri"](http://hl7.org/fhir/R4/search.html#uri).
 
 ---
 

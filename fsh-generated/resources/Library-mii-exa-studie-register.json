@@ -31,7 +31,7 @@
   "relatedArtifact": [
     {
       "document": {
-        "url": "https://example.com/fhir/sid/AbkuerzungenRegister"
+        "url": "https://drks.de/"
       },
       "type": "documentation"
     }
