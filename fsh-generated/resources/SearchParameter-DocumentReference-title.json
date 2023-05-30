@@ -3,7 +3,7 @@
   "id": "DocumentReference-title",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-title",
   "version": "1.0.0",
-  "name": "title",
+  "name": "SP_MII_Studie_Title",
   "status": "active",
   "description": "Suchparameter für DocumentReference.content.attachment.title",
   "experimental": false,
