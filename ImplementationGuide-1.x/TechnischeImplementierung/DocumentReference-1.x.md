@@ -29,6 +29,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 | DocumentReference.content.attachment.title       | Der Titel sollte eine sinnvolle menschenlesbare Beschreibung enthalten, das Element sollte nicht für den Dateinamen verwendet werden. |
 | DocumentReference.custodian     | Sollte der Standort nicht als Organization-Ressource verfügbar sein, kann auch ggf. Reference.display oder Referenz.identifier verwendet werden. |
 | DocumentReference.author     | Sollte der Author nicht als Practitioner-Ressource verfügbar sein, kann auch ggf. Reference.display oder Referenz.identifier verwendet werden. |
+|DocumentReference.context.related|Angabe des Studienkontexts|
 
 ---
 
