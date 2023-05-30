@@ -97,6 +97,16 @@
         "id": "DocumentReference.content.attachment.title",
         "path": "DocumentReference.content.attachment.title",
         "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.context",
+        "path": "DocumentReference.context",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.context.related",
+        "path": "DocumentReference.context.related",
+        "mustSupport": true
       }
     ]
   }

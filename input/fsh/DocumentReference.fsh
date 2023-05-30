@@ -11,6 +11,8 @@ Id: mii-pr-studie-dokument
     * size MS
 * author MS
 * custodian MS
+* context MS
+  * related MS
 
 Instance:  mii-exa-studie-dokument
 InstanceOf: MII_PR_Studie_Dokument
