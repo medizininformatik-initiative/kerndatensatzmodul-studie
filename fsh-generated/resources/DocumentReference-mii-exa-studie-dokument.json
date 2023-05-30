@@ -24,5 +24,12 @@
   ],
   "custodian": {
     "reference": "Organization/Example"
+  },
+  "context": {
+    "related": [
+      {
+        "reference": "ResearchStudy/Example"
+      }
+    ]
   }
 }

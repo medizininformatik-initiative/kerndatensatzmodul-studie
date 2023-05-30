@@ -24,6 +24,7 @@ Usage: #example
 * content.attachment.size = 2000
 * author = Reference(Organization/Example)
 * custodian = Reference(Organization/Example)
+* context.related = Reference(ResearchStudy/Example)
 
 Instance: DocumentReference-title
 InstanceOf: SearchParameter
