@@ -22,6 +22,9 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 | FHIR-Element | Erklärung |
 |--------------|-----------|
+| EvidenceVariable.id      | Must-support, jedoch optional        |
+| EvidenceVariable.meta       | Must-support, jedoch optional         |
+| EvidenceVariable.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repsoitory inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-1.x/TechnischeImplementierung/CapabilityStatement-1.x.md}}. In allen anderen Fällen optional.         |
 |EvidenceVariable.characteristic.description|Textuelle Beschreibung dess Kriteriums|
 |EvidenceVariable.characteristic.exclude|Boolisches Element welches definiert, ob es sich um ein Einschluss- oder Ausschlusskriterium handelt|
 
