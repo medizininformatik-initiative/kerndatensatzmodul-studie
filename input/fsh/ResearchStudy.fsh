@@ -9,6 +9,7 @@ Id: mii-pr-studie-studie
 * identifier.system MS
 * partOf MS
 * extension MS
+* extension contains MII_EX_Studie_Ethikvotum named Ethikvotum 0..* MS
 * extension contains MII_EX_Studie_Studienregister named Studienregister 0..* MS
 * extension contains MII_EX_Studie_Eligibility named Eligibility 0..1 MS
 * extension contains MII_EX_Studie_Studienfokus named Studienfokus 0..* MS
@@ -96,6 +97,14 @@ Extension: MII_EX_Studie_Finanzierung
 Id: mii-ex-studie-finanzierung
 Title: "MII EX Studie Finanzierung"
 * value[x] only string
+
+Extension: MII_EX_Studie_Ethikvotum
+Id: mii-ex-studie-ethikvotum
+Title: "MII EX Studie Ethikvotum"
+* extension contains status 1..1 MS and kommission 1..1 MS and ethiknummer 1..1 MS
+* extension[status].value[x] only string
+* extension[kommission].value[x] only string
+* extension[ethiknummer].value[x] only string
 
 Instance: mii-exa-studie-studie
 InstanceOf: MII_PR_Studie_Studie

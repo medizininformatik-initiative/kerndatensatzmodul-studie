@@ -47,6 +47,22 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.extension:Ethikvotum",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Ethikvotum",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.extension:Studienregister",
         "path": "ResearchStudy.extension",
         "sliceName": "Studienregister",
