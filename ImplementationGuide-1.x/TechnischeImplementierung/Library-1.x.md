@@ -22,6 +22,9 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 | FHIR-Element | Erklärung |
 |--------------|-----------|
+| Library.id      | Must-support, jedoch optional        |
+| Library.meta       | Must-support, jedoch optional         |
+| Library.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repsoitory inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-1.x/TechnischeImplementierung/CapabilityStatement-1.x.md}}. In allen anderen Fällen optional.         |
 | Library.name | Es sollte ein geeigneter menschenlesbarer Name verwendet werden |
 | Library.identifier | In den meisten Fällen existiert bisher kein NamingSystem für die Vergabe der RegisterIds. Ein eigenes lokales NamingSystem sollte daher verwendet werden. |
 | Library.relatedArtifact.document.url | Homepage des Regsiters bzw. Link zur weiterführenden Dokumentation |
