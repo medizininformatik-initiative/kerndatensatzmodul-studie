@@ -36,7 +36,3 @@ Es ist zu beachten, dass alle weiteren Vorgaben und Pflichtfelder des Kerndatens
 |--------------|---------------------|
 | Organization.address | Forschungsvorhaben.Standort.Adresse  |
 | Organization.name | Forschungsvorhaben.Standort.Name |
-
----
-
-**Beispiele**
