@@ -1,0 +1,16 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "DocumentReference-size",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size",
+  "version": "1.0.0",
+  "name": "size",
+  "status": "active",
+  "description": "Suchparameter für DocumentReference.content.attachment.size",
+  "experimental": false,
+  "code": "size",
+  "base": [
+    "DocumentReference"
+  ],
+  "type": "number",
+  "expression": "DocumentReference.content.attachment.size"
+}

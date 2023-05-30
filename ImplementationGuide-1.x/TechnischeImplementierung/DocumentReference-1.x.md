@@ -119,6 +119,30 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.contentType" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](https://www.hl7.org/fhir/r4/search.html#token).
 
+1. Der Suchparameter "title" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?title=Beispiel Dokument```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.title" finden sich in der [FHIR-Basisspezifikation - Abschnitt "String Search"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "size" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?size=1000```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.size" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Number Search"](http://hl7.org/fhir/R4/search.html#number).
+
+1. Der Suchparameter "related" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?related=ResearchStudy/example```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.context.related" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
 ---
 
 **Beispiele**

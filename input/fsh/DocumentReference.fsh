@@ -24,3 +24,31 @@ Usage: #example
 * content.attachment.size = 2000
 * author = Reference(Organization/Example)
 * custodian = Reference(Organization/Example)
+
+Instance: DocumentReference-title
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-title"
+* version = "1.0.0"
+* name = "title"
+* status = #active
+* description = "Suchparameter für DocumentReference.content.attachment.title"
+* experimental = false
+* code = #title
+* base = #DocumentReference
+* type = #string
+* expression = "DocumentReference.content.attachment.title"
+
+Instance: DocumentReference-size
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size"
+* version = "1.0.0"
+* name = "size"
+* status = #active
+* description = "Suchparameter für DocumentReference.content.attachment.size"
+* experimental = false
+* code = #size
+* base = #DocumentReference
+* type = #number
+* expression = "DocumentReference.content.attachment.size"
