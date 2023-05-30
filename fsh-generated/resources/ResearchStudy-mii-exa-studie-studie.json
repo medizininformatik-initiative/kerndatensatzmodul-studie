@@ -24,24 +24,29 @@
       "valueString": "Zufallszuteilung"
     },
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstart",
-      "valueDate": "2023-01-12"
-    },
-    {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsziel",
-      "valueInteger": 40
-    },
-    {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand",
-      "valueInteger": 35
-    },
-    {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit",
-      "valueString": "good"
-    },
-    {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum",
-      "valueDate": "2023-02-17"
+      "extension": [
+        {
+          "url": "rekrutierungsstart",
+          "valueDate": "2023-01-12"
+        },
+        {
+          "url": "rekrutierungsziel",
+          "valueInteger": 40
+        },
+        {
+          "url": "rekrutierungsstand",
+          "valueInteger": 35
+        },
+        {
+          "url": "rekrutierungsstand-genauigkeit",
+          "valueString": "good"
+        },
+        {
+          "url": "rekrutierungsstand-datum",
+          "valueDate": "2023-02-17"
+        }
+      ],
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
     }
   ],
   "status": "active",

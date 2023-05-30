@@ -18,11 +18,7 @@ Id: mii-pr-studie-studie
 * extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
 * extension contains MII_EX_Studie_Randomisierungsmethode named Randomisierungsmethode 0..1 MS
-* extension contains MII_EX_Studie_Rekrutierungsstart named Rekrutierungsstart 0..1 MS
-* extension contains MII_EX_Studie_Rekrutierungsziel named Rekrutierungsziel 0..1 MS
-* extension contains MII_EX_Studie_Rekrutierungsstand named Rekrutierungsstand 0..1 MS
-* extension contains MII_EX_Studie_Rekrutierungsstand_Genauigkeit named RekrutierungsstandGenauigkeit 0..1 MS
-* extension contains MII_EX_Studie_Rekrutierungsstand_Datum named RekrutierungsstandDatum 0..1 MS
+* extension contains MII_EX_Studie_Rekrutierung named Rekrutierung 0..1 MS
 * extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..1 MS
 * arm MS
 * arm.name MS
@@ -63,30 +59,15 @@ Id: mii-ex-studie-akronym
 Title: "MII EX Studie Akronym"
 * value[x] only string
 
-Extension: MII_EX_Studie_Rekrutierungsstart
-Id: mii-ex-studie-rekrutierungsstart
-Title: "MII EX Studie Rekrutierungsstart"
-* value[x] only date
-
-Extension: MII_EX_Studie_Rekrutierungsziel
-Id: mii-ex-studie-rekrutierungsziel
-Title: "MII EX Studie Rekrutierungsziel"
-* value[x] only integer
-
-Extension: MII_EX_Studie_Rekrutierungsstand
-Id: mii-ex-studie-rekrutierungsstand
-Title: "MII EX Studie Rekrutierungsstand"
-* value[x] only integer
-
-Extension: MII_EX_Studie_Rekrutierungsstand_Genauigkeit
-Id: mii-ex-studie-rekrutierungsstand-genauigkeit
-Title: "MII EX Studie Rekrutierungsstand Genauigkeit"
-* value[x] only string
-
-Extension: MII_EX_Studie_Rekrutierungsstand_Datum
-Id: mii-ex-studie-rekrutierungsstand-datum
-Title: "MII EX Studie Rekrutierungsstand Datum"
-* value[x] only date
+Extension: MII_EX_Studie_Rekrutierung
+Id: mii-ex-studie-rekrutierung
+Title: "MII EX Studie Rekrutierung"
+* extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
+* extension[rekrutierungsstand-datum].value[x] only date
+* extension[rekrutierungsstand-genauigkeit].value[x] only string
+* extension[rekrutierungsstand].value[x] only integer
+* extension[rekrutierungsziel].value[x] only integer
+* extension[rekrutierungsstart].value[x] only date
 
 Extension: MII_EX_Studie_Randomisierungsmethode
 Id: mii-ex-studie-randomisierungsmethode
@@ -117,10 +98,10 @@ Usage: #example
 * extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Akronym].valueString = "tDCS"
 * extension[Randomisierungsmethode].valueString = "Zufallszuteilung"
-* extension[Rekrutierungsstart].valueDate = "2023-01-12"
-* extension[Rekrutierungsziel].valueInteger = 40
-* extension[Rekrutierungsstand].valueInteger = 35
-* extension[RekrutierungsstandGenauigkeit].valueString = "good"
-* extension[RekrutierungsstandDatum].valueDate = "2023-02-17"
+* extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2023-01-12"
+* extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 40
+* extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 35
+* extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
+* extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2023-02-17"
 * category = #interventional
 * arm.name = "frontale anodale tDCS  (verum condition)"

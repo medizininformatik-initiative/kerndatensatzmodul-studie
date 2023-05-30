@@ -191,80 +191,16 @@
         "mustSupport": true
       },
       {
-        "id": "ResearchStudy.extension:Rekrutierungsstart",
+        "id": "ResearchStudy.extension:Rekrutierung",
         "path": "ResearchStudy.extension",
-        "sliceName": "Rekrutierungsstart",
+        "sliceName": "Rekrutierung",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstart"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "ResearchStudy.extension:Rekrutierungsziel",
-        "path": "ResearchStudy.extension",
-        "sliceName": "Rekrutierungsziel",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsziel"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "ResearchStudy.extension:Rekrutierungsstand",
-        "path": "ResearchStudy.extension",
-        "sliceName": "Rekrutierungsstand",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "ResearchStudy.extension:RekrutierungsstandGenauigkeit",
-        "path": "ResearchStudy.extension",
-        "sliceName": "RekrutierungsstandGenauigkeit",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-genauigkeit"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "ResearchStudy.extension:RekrutierungsstandDatum",
-        "path": "ResearchStudy.extension",
-        "sliceName": "RekrutierungsstandDatum",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierungsstand-datum"
+              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
             ]
           }
         ],
