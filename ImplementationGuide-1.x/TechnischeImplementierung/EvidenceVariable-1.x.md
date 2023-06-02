@@ -61,4 +61,4 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
 Beispiel (minimal):
 
-{{json:fsh-generated/resources/ResearchStudy-mii-exa-studie-ein-auschluss-kriterium.json}}
+{{json:fsh-generated/resources/mii-exa-studie-ein-auschluss-kriteriumm.json}}
