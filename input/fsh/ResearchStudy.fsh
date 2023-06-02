@@ -112,6 +112,6 @@ Usage: #example
 * arm
   * name = "frontale anodale tDCS  (verum condition)"
   * description = "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"
-* arm
+* arm[+]
   * name = "frontale sham tDCS"
   * description = "vier Stimulationen, jeweils 30 Minuten"
