@@ -110,8 +110,8 @@ Usage: #example
 * extension[Ethikvotum].extension[ethiknummer].valueString = "Az.: 83/18"
 * category = #interventional
 * arm
-    * name = "frontale anodale tDCS  (verum condition)"
-    * description = "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"
+  * name = "frontale anodale tDCS  (verum condition)"
+  * description = "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"
 * arm
-    * name = "frontale sham tDCS"
-    * description = "vier Stimulationen, jeweils 30 Minuten"
+  * name = "frontale sham tDCS"
+  * description = "vier Stimulationen, jeweils 30 Minuten"
