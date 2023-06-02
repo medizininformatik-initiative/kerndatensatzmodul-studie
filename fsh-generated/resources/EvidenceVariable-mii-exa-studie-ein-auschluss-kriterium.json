@@ -1,0 +1,96 @@
+{
+  "resourceType": "EvidenceVariable",
+  "id": "mii-exa-studie-ein-auschluss-kriterium",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
+    ]
+  },
+  "status": "active",
+  "characteristic": [
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "Höchstalter",
+      "exclude": false
+    },
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "Mindestalter",
+      "exclude": false
+    },
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "Geschlecht",
+      "exclude": false
+    },
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "Weitere Einschlusskriterien",
+      "exclude": false
+    },
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen",
+      "exclude": true
+    },
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva",
+      "exclude": true
+    },
+    {
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "weitere neurologische Erkrankungen",
+      "exclude": true
+    }
+  ]
+}

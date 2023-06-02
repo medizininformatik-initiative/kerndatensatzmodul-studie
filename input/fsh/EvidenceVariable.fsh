@@ -60,3 +60,36 @@ Title: "MII EX Studie Backport DefinitionByCombination"
 * extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
 * extension[threshhold].value[x] only positiveInt
 * extension[characteristic].value[x] only id
+
+Instance: mii-exa-studie-ein-auschluss-kriterium
+InstanceOf: MII_PR_Studie_EinAuschlussKriterium
+Usage: #example
+* status = #active
+* characteristic
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Höchstalter"
+* characteristic[=].exclude = false
+* characteristic[+]
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Mindestalter"
+* characteristic[=].exclude = false
+* characteristic[+]
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Geschlecht"
+* characteristic[=].exclude = false  
+* characteristic[+]
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Weitere Einschlusskriterien"
+* characteristic[=].exclude = false
+* characteristic[+]
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen"
+* characteristic[=].exclude = true
+* characteristic[+]
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva"
+* characteristic[=].exclude = true
+* characteristic[+]
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "weitere neurologische Erkrankungen"
+* characteristic[=].exclude = true
