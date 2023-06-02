@@ -94,6 +94,7 @@ Usage: #example
 * title = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * identifier.value = "DRKS00031294"
 * identifier.system = "https://example.com/fhir/sid/drks"
+* description = "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet."
 * extension[OeffentlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Akronym].valueString = "tDCS"
@@ -103,5 +104,14 @@ Usage: #example
 * extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 35
 * extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
 * extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2023-02-17"
+* extension[Finanzierung].valueString = "Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)"
+* extension[Ethikvotum].extension[status].valueString = "Zustimmende Bewertung"
+* extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Otto-von-Guericke-Universität an der Medizinischen Fakultät und am Universitätsklinikum Magdeburg A.ö.R."
+* extension[Ethikvotum].extension[ethiknummer].valueString = "Az.: 83/18"
 * category = #interventional
-* arm.name = "frontale anodale tDCS  (verum condition)"
+* arm
+    * name = "frontale anodale tDCS  (verum condition)"
+    * description = "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"
+* arm
+    * name = "frontale sham tDCS"
+    * description = "vier Stimulationen, jeweils 30 Minuten"

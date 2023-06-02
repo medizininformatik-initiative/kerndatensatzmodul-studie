@@ -47,6 +47,27 @@
         }
       ],
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+      "valueString": "Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)"
+    },
+    {
+      "extension": [
+        {
+          "url": "status",
+          "valueString": "Zustimmende Bewertung"
+        },
+        {
+          "url": "kommission",
+          "valueString": "Ethik-Kommission der Otto-von-Guericke-Universität an der Medizinischen Fakultät und am Universitätsklinikum Magdeburg A.ö.R."
+        },
+        {
+          "url": "ethiknummer",
+          "valueString": "Az.: 83/18"
+        }
+      ],
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
     }
   ],
   "status": "active",
@@ -57,6 +78,7 @@
       "system": "https://example.com/fhir/sid/drks"
     }
   ],
+  "description": "vier Stimulationen, jeweils 30 Minuten",
   "category": [
     {
       "coding": [
@@ -64,11 +86,6 @@
           "code": "interventional"
         }
       ]
-    }
-  ],
-  "arm": [
-    {
-      "name": "frontale anodale tDCS  (verum condition)"
     }
   ]
 }
