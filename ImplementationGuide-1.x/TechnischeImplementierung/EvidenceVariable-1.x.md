@@ -55,6 +55,38 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+1. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+1. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?status=active```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "EvidenceVariable.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+1. Der Suchparameter "characteristicDescription" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/EvidenceVariable?characteristicDescription=Höchstalter```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "EvidenceVariable.characteristic.description" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
 ---
 
 **Beispiele**

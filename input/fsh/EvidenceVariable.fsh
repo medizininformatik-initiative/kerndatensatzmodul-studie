@@ -61,6 +61,20 @@ Title: "MII EX Studie Backport DefinitionByCombination"
 * extension[threshhold].value[x] only positiveInt
 * extension[characteristic].value[x] only id
 
+Instance: EvidenceVariable-characteristic-description
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-characteristic-description"
+* version = "1.0.0"
+* name = "SP_MII_Studie_CharacteristicDescription"
+* status = #active
+* description = "Suchparameter für ResearchStudy.characteristic.description"
+* experimental = false
+* code = #characteristicDescription
+* base = #EvidenceVariable
+* type = #string
+* expression = "ResearchStudy.characteristic.description"
+
 Instance: mii-exa-studie-ein-auschluss-kriterium
 InstanceOf: MII_PR_Studie_EinAuschlussKriterium
 Usage: #example
