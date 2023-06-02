@@ -44,7 +44,7 @@
         ]
       },
       "description": "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)",
-      "exclude": true
+      "exclude": false
     },
     {
       "extension": [
@@ -62,7 +62,7 @@
         ]
       },
       "description": "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt",
-      "exclude": true
+      "exclude": false
     },
     {
       "extension": [
@@ -71,6 +71,10 @@
             {
               "url": "code",
               "valueCode": "any-of"
+            },
+            {
+              "url": "characteristic",
+              "valueId": "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
             },
             {
               "url": "characteristic",

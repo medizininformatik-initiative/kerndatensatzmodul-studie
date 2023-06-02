@@ -81,19 +81,19 @@ Usage: #example
   * extension[linkId].valueId = "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
   * description = "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)"
-* characteristic[=].exclude = true
+* characteristic[=].exclude = false
 * characteristic[+]
   * extension[linkId].valueId = "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
   * description = "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt"
-* characteristic[=].exclude = true    
+* characteristic[=].exclude = false    
 * characteristic[+]
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
   * description = "Weitere Einschlusskriterien"
   * extension[definitionByCombination]
     * extension[code].valueCode = #any-of
     * extension[characteristic].valueId = "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
-    * extension[characteristic].valueId = "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
+    * extension[characteristic][+].valueId = "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
 * characteristic[=].exclude = false
 * characteristic[+]
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
