@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-definition-by-combination",
-  "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCombination",
+  "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
   "version": "0.5.0",
   "name": "MII_EX_Studie_Backport_Definition_By_Combination",
   "title": "MII EX Studie Backport DefinitionByCombination",
@@ -140,7 +140,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCombination"
+        "fixedUri": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
       },
       {
         "id": "Extension.value[x]",

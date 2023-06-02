@@ -6,33 +6,35 @@
       "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
     ]
   },
-  "status": "active",
   "characteristic": [
     {
       "definitionCodeableConcept": {
-        "coding": [
-          {
-            "code": "unknown",
-            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
-          }
-        ]
+        "text": "kein Höchstalter"
       },
       "description": "Höchstalter",
       "exclude": false
     },
     {
       "definitionCodeableConcept": {
-        "coding": [
-          {
-            "code": "unknown",
-            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
-          }
-        ]
+        "text": "18 Jahre"
       },
       "description": "Mindestalter",
       "exclude": false
     },
     {
+      "definitionCodeableConcept": {
+        "text": "Alle"
+      },
+      "description": "Geschlecht",
+      "exclude": false
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+          "valueId": "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
+        }
+      ],
       "definitionCodeableConcept": {
         "coding": [
           {
@@ -41,10 +43,43 @@
           }
         ]
       },
-      "description": "Geschlecht",
-      "exclude": false
+      "description": "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)",
+      "exclude": true
     },
     {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+          "valueId": "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
+        }
+      ],
+      "definitionCodeableConcept": {
+        "coding": [
+          {
+            "code": "unknown",
+            "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+          }
+        ]
+      },
+      "description": "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt",
+      "exclude": true
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "code",
+              "valueCode": "any-of"
+            },
+            {
+              "url": "characteristic",
+              "valueId": "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
+            }
+          ],
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
+        }
+      ],
       "definitionCodeableConcept": {
         "coding": [
           {
@@ -92,5 +127,6 @@
       "description": "weitere neurologische Erkrankungen",
       "exclude": true
     }
-  ]
+  ],
+  "status": "active"
 }

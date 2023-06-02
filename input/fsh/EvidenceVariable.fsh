@@ -23,7 +23,7 @@ Extension: MII_EX_Studie_Backport_linkId
 Id: mii-ex-studie-backport-linkId
 Title: "MII EX Studie Backport linkId"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
-* value[x] only string
+* value[x] only id
 
 Extension: MII_EX_Studie_Backport_definitionReference
 Id: mii-ex-studie-backport-definitionReference
@@ -54,7 +54,7 @@ Title: "MII EX Studie Backport DefinitionByTypeAndValue"
 Extension: MII_EX_Studie_Backport_Definition_By_Combination
 Id: mii-ex-studie-backport-definition-by-combination
 Title: "MII EX Studie Backport DefinitionByCombination"
-* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCombination"
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
 * extension contains code 1..1 MS and threshhold 0..1 and characteristic 1..* MS
 * extension[code].value[x] only code
 * extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
@@ -66,20 +66,34 @@ InstanceOf: MII_PR_Studie_EinAuschlussKriterium
 Usage: #example
 * status = #active
 * characteristic
-  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * definitionCodeableConcept.text = "kein Höchstalter"
   * description = "Höchstalter"
 * characteristic[=].exclude = false
 * characteristic[+]
-  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * definitionCodeableConcept.text = "18 Jahre"
   * description = "Mindestalter"
 * characteristic[=].exclude = false
 * characteristic[+]
-  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * definitionCodeableConcept.text = "Alle"
   * description = "Geschlecht"
-* characteristic[=].exclude = false  
+* characteristic[=].exclude = false
+* characteristic[+]
+  * extension[linkId].valueId = "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)"
+* characteristic[=].exclude = true
+* characteristic[+]
+  * extension[linkId].valueId = "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
+  * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
+  * description = "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt"
+* characteristic[=].exclude = true    
 * characteristic[+]
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
   * description = "Weitere Einschlusskriterien"
+  * extension[definitionByCombination]
+    * extension[code].valueCode = #any-of
+    * extension[characteristic].valueId = "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
+    * extension[characteristic].valueId = "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
 * characteristic[=].exclude = false
 * characteristic[+]
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
