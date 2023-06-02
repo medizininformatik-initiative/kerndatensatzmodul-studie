@@ -1,0 +1,16 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "ResearchStudy-wissenschaftlicher-titel",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-wissenschaftlicher-titel",
+  "version": "1.0.0",
+  "name": "SP_MII_Studie_WissenschaftlicherIitel",
+  "status": "active",
+  "description": "Suchparameter für ResearchStudy.extension:WissenschaftlicherIitel",
+  "experimental": false,
+  "code": "wissenschaftlicherIitel",
+  "base": [
+    "ResearchStudy"
+  ],
+  "type": "string",
+  "expression": "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel').value"
+}

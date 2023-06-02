@@ -128,6 +128,110 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.category" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
+1. Der Suchparameter "armName" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?armName=frontale anodale tDCS  (verum condition)```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.arm.name" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "studienfokus" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?studienfokus=Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienfokus" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "schlagwort" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?schlagwort=COVID```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Schlagwort" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "oeffentlicherTitel" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?oeffentlicherTitel=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:OeffentlicherTitel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "wissenschaftlicherIitel" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?wissenschaftlicherIitel=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:WissenschaftlicherTitel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "akronym" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?akronym=tDCS```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Akronym" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "randomisierungsmethode" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?randomisierungsmethode=Zufallszuteilung```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Randomisierungsmethode" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+1. Der Suchparameter "studienregister" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?studienregister=Library/example```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienregister" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).      
+
+1. Der Suchparameter "rekrutierungsstand-datum" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstand-datum=2023-02-17```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum" finden sich in der [FHIR-Basisspezifikation - Abschnitt "date"](http://hl7.org/fhir/R4/search.html#date).
+
+1. Der Suchparameter "rekrutierungsstand-genauigkeit" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstand-genauigkeit=good```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string). 
+
+1. Der Suchparameter "rekrutierungsstand-rekrutierungsstand" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstand=35```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand" finden sich in der [FHIR-Basisspezifikation - Abschnitt "number"](http://hl7.org/fhir/R4/search.html#number).
+
+1. Der Suchparameter "rekrutierungsstand-rekrutierungsziel" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsziel=40```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "number"](http://hl7.org/fhir/R4/search.html#number).
+
+1. Der Suchparameter "rekrutierungsstand-rekrutierungsstart" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstart=2023-01-12```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart" finden sich in der [FHIR-Basisspezifikation - Abschnitt "date"](http://hl7.org/fhir/R4/search.html#date).            
+
 ---
 
 **Beispiele**

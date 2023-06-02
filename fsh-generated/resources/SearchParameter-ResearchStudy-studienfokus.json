@@ -1,0 +1,16 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "ResearchStudy-studienfokus",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienfokus",
+  "version": "1.0.0",
+  "name": "SP_MII_Studie_Studienfokus",
+  "status": "active",
+  "description": "Suchparameter für ResearchStudy.extension:Studienfokus",
+  "experimental": false,
+  "code": "studienfokus",
+  "base": [
+    "ResearchStudy"
+  ],
+  "type": "string",
+  "expression": "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienfokus').value"
+}

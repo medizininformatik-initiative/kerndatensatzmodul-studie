@@ -87,6 +87,202 @@ Title: "MII EX Studie Ethikvotum"
 * extension[kommission].value[x] only string
 * extension[ethiknummer].value[x] only string
 
+Instance: ResearchStudy-armName
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-armName"
+* version = "1.0.0"
+* name = "SP_MII_Studie_ArmName"
+* status = #active
+* description = "Suchparameter für ResearchStudy.arm.name"
+* experimental = false
+* code = #armName
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.arm.name"
+
+Instance: ResearchStudy-studienfokus
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienfokus"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Studienfokus"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Studienfokus"
+* experimental = false
+* code = #studienfokus
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienfokus').value"
+
+Instance: ResearchStudy-schlagwort
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-schlagwort"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Schlagwort"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Schlagwort"
+* experimental = false
+* code = #schlagwort
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-schlagwort').value"
+
+Instance: ResearchStudy-oeffentlicher-titel
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-oeffentlicher-titel"
+* version = "1.0.0"
+* name = "SP_MII_Studie_OeffentlicherTitel"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:OeffentlicherTitel"
+* experimental = false
+* code = #oeffentlicherTitel
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel').value"
+
+Instance: ResearchStudy-wissenschaftlicher-titel
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-wissenschaftlicher-titel"
+* version = "1.0.0"
+* name = "SP_MII_Studie_WissenschaftlicherIitel"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:WissenschaftlicherIitel"
+* experimental = false
+* code = #wissenschaftlicherIitel
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel').value"
+
+Instance: ResearchStudy-akronym
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Akronym"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Akronym"
+* experimental = false
+* code = #akronym
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym').value"
+
+Instance: ResearchStudy-randomisierungsmethode
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-randomisierungsmethode"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Randomisierungsmethode"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Randomisierungsmethode"
+* experimental = false
+* code = #randomisierungsmethode
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode').value"
+
+Instance: ResearchStudy-finanzierung
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Finanzierung"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Finanzierung"
+* experimental = false
+* code = #finanzierung
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung').value"
+
+Instance: ResearchStudy-studienregister
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Studienregister"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Studienregister"
+* experimental = false
+* code = #studienregister
+* base = #ResearchStudy
+* type = #reference
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister').value"
+
+Instance: ResearchStudy-rekrutierungsstand-datum
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-datum"
+* version = "1.0.0"
+* name = "SP_MII_Studie_RekrutierungsstandDatum"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum"
+* experimental = false
+* code = #rekrutierungsstand-datum
+* base = #ResearchStudy
+* type = #date
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsstand-datum').value"
+
+Instance: ResearchStudy-rekrutierungsstand-genauigkeit
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-genauigkeit"
+* version = "1.0.0"
+* name = "SP_MII_Studie_RekrutierungsstandGenauigkeit"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit"
+* experimental = false
+* code = #rekrutierungsstand-genauigkeit
+* base = #ResearchStudy
+* type = #string
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsstand-genauigkeit').value"
+
+Instance: ResearchStudy-rekrutierungsstand
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Rekrutierungsstand"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand"
+* experimental = false
+* code = #rekrutierungsstand
+* base = #ResearchStudy
+* type = #integer
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsstand').value"
+
+Instance: ResearchStudy-rekrutierungsziel
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsziel"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Rekrutierungsziel"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel"
+* experimental = false
+* code = #rekrutierungsziel
+* base = #ResearchStudy
+* type = #integer
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsziel').value"
+
+Instance: ResearchStudy-rekrutierungsstart
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstart"
+* version = "1.0.0"
+* name = "SP_MII_Studie_Rekrutierungsstart"
+* status = #active
+* description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart"
+* experimental = false
+* code = #rekrutierungsstart
+* base = #ResearchStudy
+* type = #date
+* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsstart').value"
+
 Instance: mii-exa-studie-studie
 InstanceOf: MII_PR_Studie_Studie
 Usage: #example
