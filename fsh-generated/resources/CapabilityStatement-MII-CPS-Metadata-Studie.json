@@ -681,9 +681,6 @@
             }
           ],
           "type": "EvidenceVariable",
-          "supportedProfile": [
-            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
-          ],
           "interaction": [
             {
               "extension": [
@@ -693,7 +690,19 @@
                 }
               ],
               "code": "read"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+                  "valueCode": "SHALL"
+                }
+              ],
+              "code": "search-type"
             }
+          ],
+          "supportedProfile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
           ],
           "searchParam": [
             {

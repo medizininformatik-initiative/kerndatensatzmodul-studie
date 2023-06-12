@@ -291,6 +291,12 @@ Usage: #definition
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #EvidenceVariable
+* rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #read
+* rest.resource[=].interaction[+].extension.url = $capabilitystatement-expectation
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #search-type
 * rest.resource[=].supportedProfile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
