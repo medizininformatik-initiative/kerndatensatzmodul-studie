@@ -6,11 +6,11 @@
 
 Durch den Kerndatensatz der Medizininformatik Initative wird bereits das Konzept der "Organisation" im Modul Strukturdaten definiert. Diese Spezifikation wird im Rahmen dieses Moduls wiederverwendet.
 
-Siehe Profil ["Profile - MI-I - Organisation - Organization"](TODO).
+Siehe Profil ["Profile - MI-I - Organisation - Organization"](https://simplifier.net/guide/modulstruktur-leitfaden-version1.0?version=current).
 
 Canonical URL: ``https://www.medizininformatik-initiative.de/fhir/core/modul-strukturdaten/StructureDefinition/Organization``
 
-Es ist zu beachten, dass alle weiteren Vorgaben und Pflichtfelder des Kerndatensatzmoduls einzuhalten sind. Weitere Informationen finden sich im Abschnitt des [ImplementationGuides - Modul Strukturdaten](TODO).
+Es ist zu beachten, dass alle weiteren Vorgaben und Pflichtfelder des Kerndatensatzmoduls einzuhalten sind. Weitere Informationen finden sich im Abschnitt des [ImplementationGuides - Modul Strukturdaten](https://simplifier.net/guide/modulstruktur-leitfaden-version1.0?version=current).
 
 ---
 
