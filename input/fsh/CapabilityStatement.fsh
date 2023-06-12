@@ -98,12 +98,12 @@ Usage: #definition
 * rest.resource[=].searchParam[=].type = #reference
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
-* rest.resource[=].searchParam[=].name = "custodian"
+* rest.resource[=].searchParam[=].name = "status"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/DocumentReference-status"
 * rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
-* rest.resource[=].searchParam[=].name = "custodian"
+* rest.resource[=].searchParam[=].name = "location"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/DocumentReference-location"
 * rest.resource[=].searchParam[=].type = #uri
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
@@ -161,7 +161,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
 * rest.resource[=].searchParam[=].name = "quellregister"
 * rest.resource[=].searchParam[=].definition = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-quellregister"
-* rest.resource[=].searchParam[=].type = #boolean
+* rest.resource[=].searchParam[=].type = #token
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
 * rest.resource[=].searchParam[=].name = "type"
@@ -260,7 +260,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].searchParam[=].extension.valueCode = #SHALL
-* rest.resource[=].searchParam[=].name = "finanzierung"
+* rest.resource[=].searchParam[=].name = "studienregister"
 * rest.resource[=].searchParam[=].definition = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister"
 * rest.resource[=].searchParam[=].type = #reference
 * rest.resource[=].searchParam[+].extension.url = $capabilitystatement-expectation
