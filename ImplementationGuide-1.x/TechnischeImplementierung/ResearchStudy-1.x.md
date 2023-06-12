@@ -32,6 +32,19 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 ---
 
+**NamingSystems**
+
+Für folgende Studienregister werden bereits Preferred URLs für die dazugehörigen NamingSystems definiert:
+
+| Register | URL |
+|----------|-----|
+| clinicaltrials.gov | https://clinicaltrials.gov |
+| Deutsches Register Klinischer Studien (DRKS) | https://www.medizininformatik-initiative.de/fhir/modul-studie/sid/drks |
+| Universal Trial Number (UTN) | https://www.medizininformatik-initiative.de/fhir/modul-studie/sid/utn |
+| EudraCT | https://www.medizininformatik-initiative.de/fhir/modul-studie/sid/eudract |
+
+---
+
 **Mapping**
 
 | FHIR Element | Logischer Datensatz |
