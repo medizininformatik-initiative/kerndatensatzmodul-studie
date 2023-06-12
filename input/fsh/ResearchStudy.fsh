@@ -252,7 +252,7 @@ Usage: #definition
 * experimental = false
 * code = #rekrutierungsstand
 * base = #ResearchStudy
-* type = #integer
+* type = #number
 * expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsstand').value"
 
 Instance: ResearchStudy-rekrutierungsziel
@@ -266,7 +266,7 @@ Usage: #definition
 * experimental = false
 * code = #rekrutierungsziel
 * base = #ResearchStudy
-* type = #integer
+* type = #number
 * expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung').extension.where(url='rekrutierungsziel').value"
 
 Instance: ResearchStudy-rekrutierungsstart

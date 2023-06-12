@@ -11,6 +11,6 @@
   "base": [
     "Library"
   ],
-  "type": "boolean",
+  "type": "uri",
   "expression": "Library.relatedArtifact.document.url"
 }
