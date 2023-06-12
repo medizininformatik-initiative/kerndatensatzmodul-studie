@@ -59,13 +59,15 @@ Usage: #definition
 * rest.resource[=].searchParam[=].name = "telecom"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/individual-telecom"
 * rest.resource[=].searchParam[=].type = #token
-
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #DocumentReference
-* rest.resource[+].extension.url = $capabilitystatement-expectation
-* rest.resource[=].extension.valueCode = #SHALL
-* rest.resource[=].type = #Organization
+* rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #read
+* rest.resource[=].interaction[+].extension.url = $capabilitystatement-expectation
+* rest.resource[=].interaction[=].extension.valueCode = #SHALL
+* rest.resource[=].interaction[=].code = #search-type
 * rest.resource[=].supportedProfile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"
 * rest.resource[=].interaction[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
@@ -126,7 +128,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].name = "related"
 * rest.resource[=].searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/DocumentReference-related"
 * rest.resource[=].searchParam[=].type = #uri
-
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #Library
@@ -172,7 +173,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].name = "relatedArtifactUrl"
 * rest.resource[=].searchParam[=].definition = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-relatedArtifactUrl"
 * rest.resource[=].searchParam[=].type = #uri
-
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #ResearchStudy
@@ -288,7 +288,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].name = "rekrutierungsstart"
 * rest.resource[=].searchParam[=].definition = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstart"
 * rest.resource[=].searchParam[=].type = #date
-
 * rest.resource[+].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #EvidenceVariable
