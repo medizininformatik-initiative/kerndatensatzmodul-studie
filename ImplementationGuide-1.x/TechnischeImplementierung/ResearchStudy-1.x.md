@@ -38,7 +38,7 @@ Für folgende Studienregister werden bereits Preferred URLs für die dazugehöri
 
 | Register | URL |
 |----------|-----|
-| clinicaltrials.gov | https://clinicaltrials.gov |
+| clinicaltrials.gov | Test |
 
 ---
 
