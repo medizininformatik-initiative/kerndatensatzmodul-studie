@@ -39,9 +39,6 @@ Für folgende Studienregister werden bereits Preferred URLs für die dazugehöri
 | Register | URL |
 |----------|-----|
 | clinicaltrials.gov | https://clinicaltrials.gov |
-| Deutsches Register Klinischer Studien (DRKS) | https://www.medizininformatik-initiative.de/fhir/modul-studie/sid/drks |
-| Universal Trial Number (UTN) | https://www.medizininformatik-initiative.de/fhir/modul-studie/sid/utn |
-| EudraCT | https://www.medizininformatik-initiative.de/fhir/modul-studie/sid/eudract |
 
 ---
 
