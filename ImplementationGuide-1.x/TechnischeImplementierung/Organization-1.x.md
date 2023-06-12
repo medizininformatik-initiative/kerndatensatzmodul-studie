@@ -20,7 +20,7 @@ Es ist zu beachten, dass alle weiteren Vorgaben und Pflichtfelder des Kerndatens
 
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
-|  |  Forschungsvorhaben.Kontakt.Grad |
+| Es wird um Feedback gebeten, ob dieses Element relevant ist, sowie wie dieses Element abgebildet werden soll |  Forschungsvorhaben.Kontakt.Grad |
 | Organization.contact.name.given |  Forschungsvorhaben.Kontakt.Vorname |
 | Organization.contact.name.family |  Forschungsvorhaben.Kontakt.Nachname  |
 | Organization.contact.address.line + Address.line.extension:strasse |  Forschungsvorhaben.Kontakt.Adresse.Strasse |
