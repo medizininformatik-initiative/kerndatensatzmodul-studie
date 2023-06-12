@@ -55,5 +55,5 @@ Usage: #definition
 * experimental = false
 * code = #relatedArtifactUrl
 * base = #Library
-* type = #boolean
+* type = #uri
 * expression = "Library.relatedArtifact.document.url"
