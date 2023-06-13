@@ -9,6 +9,7 @@ Id: mii-pr-studie-studie
 * identifier.system MS
 * partOf MS
 * extension MS
+* extension contains MII_EX_Studie_Backport_Definition_AssociatedParty named AssociatedParty 0..* MS
 * extension contains MII_EX_Studie_Ethikvotum named Ethikvotum 0..* MS
 * extension contains MII_EX_Studie_Studienregister named Studienregister 0..* MS
 * extension contains MII_EX_Studie_Eligibility named Eligibility 0..1 MS
@@ -86,6 +87,17 @@ Title: "MII EX Studie Ethikvotum"
 * extension[status].value[x] only string
 * extension[kommission].value[x] only string
 * extension[ethiknummer].value[x] only string
+
+Extension: MII_EX_Studie_Backport_Definition_AssociatedParty
+Id: mii-ex-studie-backport-associatedParty
+Title: "MII EX Studie Backport AssociatedParty"
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+* extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
+* extension[name].value[x] only string
+* extension[role].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-role (extensible)
+* extension[period].value[x] only Period
+* extension[classifier].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-organization-type (example)
+* extension[party].value[x] only Reference(Practitioner or PractitionerRole or Organization)
 
 Instance: ResearchStudy-armName
 InstanceOf: SearchParameter

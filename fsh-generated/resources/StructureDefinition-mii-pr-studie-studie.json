@@ -47,6 +47,22 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.extension:AssociatedParty",
+        "path": "ResearchStudy.extension",
+        "sliceName": "AssociatedParty",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.extension:Ethikvotum",
         "path": "ResearchStudy.extension",
         "sliceName": "Ethikvotum",
