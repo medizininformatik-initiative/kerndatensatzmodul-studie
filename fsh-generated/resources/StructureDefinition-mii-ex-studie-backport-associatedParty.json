@@ -82,15 +82,29 @@
         "fixedUri": "role"
       },
       {
-        "id": "Extension.extension:role.valueCodeableConcept",
-        "path": "Extension.extension.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
+        "id": "Extension.extension:role.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ],
+        ]
+      },
+      {
+        "id": "Extension.extension:role.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
         "binding": {
           "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/ValueSet/research-study-party-role"
@@ -140,15 +154,29 @@
         "fixedUri": "classifier"
       },
       {
-        "id": "Extension.extension:classifier.valueCodeableConcept",
-        "path": "Extension.extension.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
+        "id": "Extension.extension:classifier.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ],
+        ]
+      },
+      {
+        "id": "Extension.extension:classifier.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
         "binding": {
           "strength": "example",
           "valueSet": "http://hl7.org/fhir/ValueSet/research-study-party-organization-type"

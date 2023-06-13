@@ -94,8 +94,10 @@ Title: "MII EX Studie Backport AssociatedParty"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
 * extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
 * extension[name].value[x] only string
+* extension[role].value[x] only CodeableConcept
 * extension[role].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-role (extensible)
 * extension[period].value[x] only Period
+* extension[classifier].value[x] only CodeableConcept
 * extension[classifier].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-organization-type (example)
 * extension[party].value[x] only Reference(Practitioner or PractitionerRole or Organization)
 
