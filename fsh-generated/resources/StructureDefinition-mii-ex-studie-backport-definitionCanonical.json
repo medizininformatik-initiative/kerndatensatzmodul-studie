@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-definitionCanonical",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
-  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Backport_definitionCanonical",
   "title": "MII EX Studie Backport definitionCanonical",
   "status": "active",

@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-quell-register",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
-  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Quell_Register",
   "title": "MII EX Studie Quell Register",
   "status": "active",

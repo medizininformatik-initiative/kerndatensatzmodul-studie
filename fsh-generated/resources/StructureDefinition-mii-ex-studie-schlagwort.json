@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-schlagwort",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-schlagwort",
-  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Schlagwort",
   "title": "MII EX Studie Schlagwort",
   "status": "active",

@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-ein-auschluss-kriterium",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium",
-  "version": "1.0.0-ballot",
   "name": "MII_PR_Studie_EinAuschlussKriterium",
   "title": "MII PR Studie EinAuschlussKriterium",
   "status": "active",
@@ -152,8 +151,9 @@
         "mustSupport": true
       },
       {
-        "id": "EvidenceVariable.characteristic.definitionReference",
-        "path": "EvidenceVariable.characteristic.definitionReference",
+        "id": "EvidenceVariable.characteristic.definition[x]:definitionReference",
+        "path": "EvidenceVariable.characteristic.definition[x]",
+        "sliceName": "definitionReference",
         "min": 0,
         "max": "0",
         "type": [
@@ -166,8 +166,9 @@
         ]
       },
       {
-        "id": "EvidenceVariable.characteristic.definitionCanonical",
-        "path": "EvidenceVariable.characteristic.definitionCanonical",
+        "id": "EvidenceVariable.characteristic.definition[x]:definitionCanonical",
+        "path": "EvidenceVariable.characteristic.definition[x]",
+        "sliceName": "definitionCanonical",
         "min": 0,
         "max": "0",
         "type": [
@@ -180,8 +181,9 @@
         ]
       },
       {
-        "id": "EvidenceVariable.characteristic.definitionDataRequirement",
-        "path": "EvidenceVariable.characteristic.definitionDataRequirement",
+        "id": "EvidenceVariable.characteristic.definition[x]:definitionDataRequirement",
+        "path": "EvidenceVariable.characteristic.definition[x]",
+        "sliceName": "definitionDataRequirement",
         "min": 0,
         "max": "0",
         "type": [
@@ -191,8 +193,9 @@
         ]
       },
       {
-        "id": "EvidenceVariable.characteristic.definitionTriggerDefinition",
-        "path": "EvidenceVariable.characteristic.definitionTriggerDefinition",
+        "id": "EvidenceVariable.characteristic.definition[x]:definitionTriggerDefinition",
+        "path": "EvidenceVariable.characteristic.definition[x]",
+        "sliceName": "definitionTriggerDefinition",
         "min": 0,
         "max": "0",
         "type": [

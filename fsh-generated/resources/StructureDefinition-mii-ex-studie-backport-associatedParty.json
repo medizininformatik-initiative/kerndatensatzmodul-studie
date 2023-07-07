@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-associatedParty",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
-  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Backport_Definition_AssociatedParty",
   "title": "MII EX Studie Backport AssociatedParty",
   "status": "active",
@@ -84,27 +83,11 @@
       {
         "id": "Extension.extension:role.value[x]",
         "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ]
-      },
-      {
-        "id": "Extension.extension:role.valueCodeableConcept",
-        "path": "Extension.extension.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/ValueSet/research-study-party-role"
@@ -156,27 +139,11 @@
       {
         "id": "Extension.extension:classifier.value[x]",
         "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ]
-      },
-      {
-        "id": "Extension.extension:classifier.valueCodeableConcept",
-        "path": "Extension.extension.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "example",
           "valueSet": "http://hl7.org/fhir/ValueSet/research-study-party-organization-type"

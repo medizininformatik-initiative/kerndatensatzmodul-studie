@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-finanzierung",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
-  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Finanzierung",
   "title": "MII EX Studie Finanzierung",
   "status": "active",

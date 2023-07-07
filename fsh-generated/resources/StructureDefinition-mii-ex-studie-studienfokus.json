@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-studienfokus",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienfokus",
-  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Studienfokus",
   "title": "MII EX Studie Studienfokus",
   "status": "active",

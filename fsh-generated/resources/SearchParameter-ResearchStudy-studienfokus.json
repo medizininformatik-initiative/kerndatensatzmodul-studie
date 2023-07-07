@@ -2,7 +2,7 @@
   "resourceType": "SearchParameter",
   "id": "ResearchStudy-studienfokus",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienfokus",
-  "version": "1.0.0",
+  "version": "1.0.0-ballot",
   "name": "SP_MII_Studie_Studienfokus",
   "status": "active",
   "description": "Suchparameter für ResearchStudy.extension:Studienfokus",

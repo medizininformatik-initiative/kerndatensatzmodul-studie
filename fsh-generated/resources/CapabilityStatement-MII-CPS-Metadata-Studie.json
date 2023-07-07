@@ -4,7 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata",
   "status": "active",
   "experimental": false,
-  "version": "1.0.0",
+  "version": "1.0.0-ballot",
   "publisher": "Medizininformatik Initiative",
   "date": "2023-06-12",
   "implementationGuide": [

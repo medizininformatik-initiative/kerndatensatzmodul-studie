@@ -67,6 +67,7 @@
     {
       "extension": [
         {
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
           "extension": [
             {
               "url": "code",
@@ -80,8 +81,7 @@
               "url": "characteristic",
               "valueId": "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
             }
-          ],
-          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
+          ]
         }
       ],
       "definitionCodeableConcept": {
