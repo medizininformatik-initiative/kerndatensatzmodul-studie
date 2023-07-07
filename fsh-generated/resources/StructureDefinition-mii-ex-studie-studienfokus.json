@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Studienfokus",
   "title": "MII EX Studie Studienfokus",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

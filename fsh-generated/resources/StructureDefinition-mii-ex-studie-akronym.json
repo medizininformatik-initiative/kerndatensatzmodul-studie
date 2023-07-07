@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Akronym",
   "title": "MII EX Studie Akronym",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

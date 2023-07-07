@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Ethikvotum",
   "title": "MII EX Studie Ethikvotum",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Studienregister",
   "title": "MII EX Studie Studienregister",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

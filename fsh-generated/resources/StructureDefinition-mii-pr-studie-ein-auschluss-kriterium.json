@@ -5,6 +5,7 @@
   "name": "MII_PR_Studie_EinAuschlussKriterium",
   "title": "MII PR Studie EinAuschlussKriterium",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

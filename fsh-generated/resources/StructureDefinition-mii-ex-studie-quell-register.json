@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Quell_Register",
   "title": "MII EX Studie Quell Register",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

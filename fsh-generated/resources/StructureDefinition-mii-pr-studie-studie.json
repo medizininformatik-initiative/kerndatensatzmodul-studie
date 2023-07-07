@@ -5,6 +5,7 @@
   "name": "MII_PR_Studie_Studie",
   "title": "MII PR Studie Studie",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

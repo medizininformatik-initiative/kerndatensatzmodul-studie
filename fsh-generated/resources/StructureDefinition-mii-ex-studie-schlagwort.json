@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Schlagwort",
   "title": "MII EX Studie Schlagwort",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

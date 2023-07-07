@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Wissenschaftlicher_Titel",
   "title": "MII EX Studie Wissenschaftlicher Titel",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

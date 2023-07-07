@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Finanzierung",
   "title": "MII EX Studie Finanzierung",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Backport_definitionReference",
   "title": "MII EX Studie Backport definitionReference",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {

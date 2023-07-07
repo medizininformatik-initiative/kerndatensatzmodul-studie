@@ -2,6 +2,7 @@ Profile: MII_PR_Studie_Dokument
 Title: "MII PR Studie Dokument"
 Parent: DocumentReference
 Id: mii-pr-studie-dokument
+* insert addMetadata
 * status MS
 * content MS
   * attachment MS 

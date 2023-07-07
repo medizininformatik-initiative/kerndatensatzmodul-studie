@@ -2,6 +2,7 @@ Profile: MII_PR_Studie_EinAuschlussKriterium
 Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
 Id: mii-pr-studie-ein-auschluss-kriterium
+* insert addMetadata
 * status MS
 * characteristic MS
 * characteristic.description MS
@@ -22,24 +23,28 @@ Id: mii-pr-studie-ein-auschluss-kriterium
 Extension: MII_EX_Studie_Backport_linkId
 Id: mii-ex-studie-backport-linkId
 Title: "MII EX Studie Backport linkId"
+* insert addMetadata
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
 * value[x] only id
 
 Extension: MII_EX_Studie_Backport_definitionReference
 Id: mii-ex-studie-backport-definitionReference
 Title: "MII EX Studie Backport definitionReference"
+* insert addMetadata
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
 * value[x] only Reference(EvidenceVariable or Evidence or Group)
 
 Extension: MII_EX_Studie_Backport_definitionCanonical
 Id: mii-ex-studie-backport-definitionCanonical
 Title: "MII EX Studie Backport definitionCanonical"
+* insert addMetadata
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"
 * value[x] only Canonical(EvidenceVariable or Evidence)
 
 Extension: MII_EX_Studie_Backport_Definition_By_Type_And_Value
 Id: mii-ex-studie-backport-definition-by-type-and-value
 Title: "MII EX Studie Backport DefinitionByTypeAndValue"
+* insert addMetadata
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
 * extension contains type 1..1 MS and method 0..* and device 0..1 and offset 0..1 and value 1..1 MS
 * extension[type].value[x] only CodeableConcept
@@ -54,6 +59,7 @@ Title: "MII EX Studie Backport DefinitionByTypeAndValue"
 Extension: MII_EX_Studie_Backport_Definition_By_Combination
 Id: mii-ex-studie-backport-definition-by-combination
 Title: "MII EX Studie Backport DefinitionByCombination"
+* insert addMetadata
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
 * extension contains code 1..1 MS and threshhold 0..1 and characteristic 1..* MS
 * extension[code].value[x] only code

@@ -2,6 +2,7 @@ Profile: MII_PR_Studie_Register
 Title: "MII PR Studie Register"
 Parent: Library
 Id: mii-pr-studie-register
+* insert addMetadata
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
 * name MS
@@ -17,6 +18,7 @@ Id: mii-pr-studie-register
 Extension: MII_EX_Studie_Quell_Register
 Title: "MII EX Studie Quell Register"
 Id: mii-ex-studie-quell-register
+* insert addMetadata
 * value[x] only boolean
 
 Instance: mii-exa-studie-register

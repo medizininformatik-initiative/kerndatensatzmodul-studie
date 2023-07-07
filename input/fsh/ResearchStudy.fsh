@@ -2,6 +2,7 @@ Profile: MII_PR_Studie_Studie
 Title: "MII PR Studie Studie"
 Parent: ResearchStudy
 Id: mii-pr-studie-studie
+* insert addMetadata
 * status MS
 * title MS
 * identifier MS
@@ -28,41 +29,49 @@ Id: mii-pr-studie-studie
 Extension: MII_EX_Studie_Studienregister
 Id: mii-ex-studie-studienregister
 Title: "MII EX Studie Studienregister"
+* insert addMetadata
 * value[x] only Reference(Library)
 
 Extension: MII_EX_Studie_Eligibility
 Id: mii-ex-studie-eligibility
 Title: "MII EX Studie Eligibility"
+* insert addMetadata
 * value[x] only Reference(Group or EvidenceVariable)
 
 Extension: MII_EX_Studie_Studienfokus
 Id: mii-ex-studie-studienfokus
 Title: "MII EX Studie Studienfokus"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Schlagwort
 Id: mii-ex-studie-schlagwort
 Title: "MII EX Studie Schlagwort"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Oeffentlicher_Titel
 Id: mii-ex-studie-oeffentlicher-titel
 Title: "MII EX Studie Oeffentlicher Titel"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Wissenschaftlicher_Titel
 Id: mii-ex-studie-wissenschaftlicher-titel
 Title: "MII EX Studie Wissenschaftlicher Titel"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Akronym
 Id: mii-ex-studie-akronym
 Title: "MII EX Studie Akronym"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Rekrutierung
 Id: mii-ex-studie-rekrutierung
 Title: "MII EX Studie Rekrutierung"
+* insert addMetadata
 * extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
 * extension[rekrutierungsstand-datum].value[x] only date
 * extension[rekrutierungsstand-genauigkeit].value[x] only string
@@ -73,16 +82,19 @@ Title: "MII EX Studie Rekrutierung"
 Extension: MII_EX_Studie_Randomisierungsmethode
 Id: mii-ex-studie-randomisierungsmethode
 Title: "MII EX Studie Randomisierungsmethode"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Finanzierung
 Id: mii-ex-studie-finanzierung
 Title: "MII EX Studie Finanzierung"
+* insert addMetadata
 * value[x] only string
 
 Extension: MII_EX_Studie_Ethikvotum
 Id: mii-ex-studie-ethikvotum
 Title: "MII EX Studie Ethikvotum"
+* insert addMetadata
 * extension contains status 1..1 MS and kommission 1..1 MS and ethiknummer 1..1 MS
 * extension[status].value[x] only string
 * extension[kommission].value[x] only string
@@ -91,6 +103,7 @@ Title: "MII EX Studie Ethikvotum"
 Extension: MII_EX_Studie_Backport_Definition_AssociatedParty
 Id: mii-ex-studie-backport-associatedParty
 Title: "MII EX Studie Backport AssociatedParty"
+* insert addMetadata
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
 * extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
 * extension[name].value[x] only string

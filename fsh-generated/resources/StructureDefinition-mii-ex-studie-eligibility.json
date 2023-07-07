@@ -5,6 +5,7 @@
   "name": "MII_EX_Studie_Eligibility",
   "title": "MII EX Studie Eligibility",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "mapping": [
     {
