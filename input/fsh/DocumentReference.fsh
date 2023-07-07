@@ -30,7 +30,7 @@ Instance: DocumentReference-title
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-title"
-* version = "1.0.0"
+* version = "1.0.0-ballot"
 * name = "SP_MII_Studie_Title"
 * status = #active
 * description = "Suchparameter für DocumentReference.content.attachment.title"
@@ -44,7 +44,7 @@ Instance: DocumentReference-size
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size"
-* version = "1.0.0"
+* version = "1.0.0-ballot"
 * name = "SP_MII_Studie_Size"
 * status = #active
 * description = "Suchparameter für DocumentReference.content.attachment.size"

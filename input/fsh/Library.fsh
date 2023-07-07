@@ -34,7 +34,7 @@ Instance: Library-quellregister
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-quellregister"
-* version = "1.0.0"
+* version = "1.0.0-ballot"
 * name = "SP_MII_Studie_Quellregister"
 * status = #active
 * description = "Suchparameter für Library.extension:QuellRegister"
@@ -48,7 +48,7 @@ Instance: Library-relatedArtifactUrl
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-relatedArtifactUrl"
-* version = "1.0.0"
+* version = "1.0.0-ballot"
 * name = "SP_MII_Studie_RelatedArtifactUrl"
 * status = #active
 * description = "Suchparameter für Library.relatedArtifact.document.url"
