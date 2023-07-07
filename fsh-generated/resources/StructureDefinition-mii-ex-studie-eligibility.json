@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-eligibility",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Eligibility",
   "title": "MII EX Studie Eligibility",
   "status": "active",

@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-beteiligte-person",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
+  "version": "1.0.0-ballot",
   "name": "MII_PR_Studie_Beteiligte_Person",
   "title": "MII PR Studie Beteiligte Person",
   "status": "active",

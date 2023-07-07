@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-oeffentlicher-titel",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel",
+  "version": "1.0.0-ballot",
   "name": "MII_EX_Studie_Oeffentlicher_Titel",
   "title": "MII EX Studie Oeffentlicher Titel",
   "status": "active",
