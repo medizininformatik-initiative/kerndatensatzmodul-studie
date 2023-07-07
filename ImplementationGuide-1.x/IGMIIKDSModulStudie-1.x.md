@@ -1,17 +1,13 @@
 # Kerndatensatz Modul Studie
 
-| Hinweis | Under Construction! |
-|---------|---------------------|
-| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Studie' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative]().|
-
 Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz Moduls 'Studie' der Medizinformatik-Initative.
 Im Folgenden werden die Use-Case des Moduls sowie die dazuhegörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
 | Veröffentlichung   |   |
 |---------|--------------|
-| Datum   | xx.xx.2023   |
-| Version | 1.0.0       |
-| Status  | Draft       |
+| Datum   | 07.07.2023   |
+| Version | 1.0.0-ballot       |
+| Status  | In Ballotierung       |
 | Realm   | DE           | 
 
 
