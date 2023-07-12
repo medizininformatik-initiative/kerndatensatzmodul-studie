@@ -32,8 +32,17 @@ Fragen zu der vorliegenden Publikation können jederzeit unter [chat.fhir.org](h
 Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier-Projekt stets gern entgegengenommen.
 
 ## Autoren (in alphabetischer Reihenfolge)
-
-TODO
+* Bartow, Martin
+* Brix, Tobias
+* Gulden, Christian
+* Löbe, Matthias
+* Macho , Philipp Marten
+* Rinaldi, Eugenia 
+* Scherer, Clemens
+* Strauch, Natalia
+* Ulbrich, Florian
+* Vella, Gustav
+* Zautke, Alexander
 
 ## Copyright-Hinweis, Nutzungshinweise
 Copyright © 2019: TMF e. V., Charlottenstraße 42, 10117 Berlin
