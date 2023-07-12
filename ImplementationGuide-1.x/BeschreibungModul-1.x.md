@@ -1,6 +1,6 @@
 ## Beschreibung Modul Medizinische Forschungsvorhaben
 
-{{render:implementation-guides/ImplementationGuide-Common/images/Abbildung_Med_Forschung_de.jpg}}
+{{render:ImplementationGuide-Common/images/Abbildung_Med_Forschung_de.jpg}}
 
 Das MII KDS Modul Medizinische Forschungsvorhaben ist als Erweiterungsmodul des [Kerndatensatzes (KDS) der Medizininformatik-Initiative (MII)](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative) entstanden. 
 
