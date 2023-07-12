@@ -1,5 +1,9 @@
 # Kerndatensatz Modul Studie
 
+| Hinweis | Under Construction! |
+|---------|---------------------|
+| {{render:ImplementationGuide-Common/images/Warning.jpg}}  | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Person' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Studie/IGMIIKDSModulStudie.html).|
+
 Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz Moduls 'Studie' der Medizinformatik-Initative.
 Im Folgenden werden die Use-Case des Moduls sowie die dazuhegörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
