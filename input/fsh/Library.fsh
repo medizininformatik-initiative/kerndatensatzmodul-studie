@@ -12,7 +12,6 @@ Id: mii-pr-studie-register
 * relatedArtifact MS
   * document 1..1 MS
     * url 1..1 MS
-* extension MS
 
 Instance: mii-exa-studie-register
 InstanceOf: MII_PR_Studie_Register
@@ -23,7 +22,6 @@ Usage: #example
 * identifier.system = "https://example.com/fhir/sid/drks"
 * relatedArtifact.document.url = "https://drks.de/"
 * relatedArtifact.type = #documentation
-* extension[QuellRegister].valueBoolean = true
 
 Instance: Library-quellregister
 InstanceOf: SearchParameter

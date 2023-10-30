@@ -181,20 +181,6 @@ Usage: #definition
 * type = #string
 * expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym').value"
 
-Instance: ResearchStudy-randomisierungsmethode
-InstanceOf: SearchParameter
-Usage: #definition
-* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-randomisierungsmethode"
-* version = "1.0.0-ballot"
-* name = "SP_MII_Studie_Randomisierungsmethode"
-* status = #active
-* description = "Suchparameter für ResearchStudy.extension:Randomisierungsmethode"
-* experimental = false
-* code = #randomisierungsmethode
-* base = #ResearchStudy
-* type = #string
-* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode').value"
-
 Instance: ResearchStudy-finanzierung
 InstanceOf: SearchParameter
 Usage: #definition
@@ -304,7 +290,6 @@ Usage: #example
 * extension[OeffentlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Akronym].valueString = "tDCS"
-* extension[Randomisierungsmethode].valueString = "Zufallszuteilung"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2023-01-12"
 * extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 40
 * extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 35
@@ -315,6 +300,7 @@ Usage: #example
 * extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Otto-von-Guericke-Universität an der Medizinischen Fakultät und am Universitätsklinikum Magdeburg A.ö.R."
 * extension[Ethikvotum].extension[ethiknummer].valueString = "Az.: 83/18"
 * category = #interventional
+* category[+].text = "Zufallszuteilung"
 * arm
   * name = "frontale anodale tDCS  (verum condition)"
   * description = "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"

@@ -38,11 +38,6 @@
   "differential": {
     "element": [
       {
-        "id": "Library.extension",
-        "path": "Library.extension",
-        "mustSupport": true
-      },
-      {
         "id": "Library.identifier",
         "path": "Library.identifier",
         "mustSupport": true

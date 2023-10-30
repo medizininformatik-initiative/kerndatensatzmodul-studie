@@ -1537,19 +1537,6 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Studienregister.IstQuellRegister",
-        "path": "mii-lm-studie-logicalmodel.Studienregister.IstQuellRegister",
-        "short": "Ob dieses Register das Quellregister ist",
-        "definition": "Ob dieses Register das Quellregister ist",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "boolean"
-          }
-        ]
-      },
-      {
         "id": "mii-lm-studie-logicalmodel.Publikation",
         "path": "mii-lm-studie-logicalmodel.Publikation",
         "short": "Publikationen eines Forschungsvorhabens",
