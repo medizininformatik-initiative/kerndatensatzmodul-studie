@@ -18,7 +18,7 @@ Id: mii-pr-studie-studie
 * extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
 * extension contains MII_EX_Studie_Rekrutierung named Rekrutierung 0..1 MS
-* extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..1 MS
+* extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..* MS
 * arm MS
 * arm.name MS
 * category MS
