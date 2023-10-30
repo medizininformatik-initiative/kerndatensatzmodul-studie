@@ -1433,8 +1433,8 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandGenauigkeit",
-        "path": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandGenauigkeit",
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstand.RekrutierungsstandGenauigkeit",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstand.RekrutierungsstandGenauigkeit",
         "short": "Genauigkeit eines Rekrutierungsstands einer Studie",
         "definition": "Genauigkeit eines Rekrutierungsstands einer Studie",
         "min": 0,
@@ -1446,8 +1446,8 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandDatum",
-        "path": "mii-lm-studie-logicalmodel.Studiendesign.RekrutierungsstandDatum",
+        "id": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstand.RekrutierungsstandDatum",
+        "path": "mii-lm-studie-logicalmodel.Studiendesign.Rekrutierungsstand.RekrutierungsstandDatum",
         "short": "Datum eines Rekrutierungsstands einer Studie",
         "definition": "Datum eines Rekrutierungsstands einer Studie",
         "min": 0,

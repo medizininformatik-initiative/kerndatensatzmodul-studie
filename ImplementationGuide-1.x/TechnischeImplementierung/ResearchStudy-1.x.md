@@ -61,8 +61,8 @@ Für folgende Studienregister werden bereits Preferred URLs für die dazugehöri
 | ResearchStudy.category |  Forschungsvorhaben.Studiendesign.Studientyp |
 | ResearchStudy.extension:Rekrutierungsziel |  Forschungsvorhaben.Studiendesign.Rekrutierungsziel |
 | ResearchStudy.extension:Rekrutierungsstand |  Forschungsvorhaben.Studiendesign.Rekrutierungsstand |
-| ResearchStudy.extension:RekrutierungsstandGenauigkeit |  Forschungsvorhaben.Studiendesign.RekrutierungsstandGenauigkeit |
-| ResearchStudy.extension:RekrutierungsstandDatum |  Forschungsvorhaben.Studiendesign.RekrutierungsstandDatum |
+| ResearchStudy.extension:RekrutierungsstandGenauigkeit |  Forschungsvorhaben.Studiendesign.Rekrutierungsstand.RekrutierungsstandGenauigkeit |
+| ResearchStudy.extension:RekrutierungsstandDatum |  Forschungsvorhaben.Studiendesign.Rekrutierungsstand.RekrutierungsstandDatum |
 | ResearchStudy.category |  Forschungsvorhaben.Studiendesign.Randomisierungsmethode |
 
 | FHIR Element | Logischer Datensatz |
