@@ -20,10 +20,6 @@
       "valueString": "tDCS"
     },
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode",
-      "valueString": "Zufallszuteilung"
-    },
-    {
       "extension": [
         {
           "url": "rekrutierungsstart",

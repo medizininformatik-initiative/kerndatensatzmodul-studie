@@ -160,22 +160,6 @@
         "mustSupport": true
       },
       {
-        "id": "ResearchStudy.extension:Randomisierungsmethode",
-        "path": "ResearchStudy.extension",
-        "sliceName": "Randomisierungsmethode",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-randomisierungsmethode"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "ResearchStudy.extension:Rekrutierung",
         "path": "ResearchStudy.extension",
         "sliceName": "Rekrutierung",

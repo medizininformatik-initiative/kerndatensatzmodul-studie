@@ -17,7 +17,6 @@ Id: mii-pr-studie-studie
 * extension contains MII_EX_Studie_Oeffentlicher_Titel named OeffentlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
-* extension contains MII_EX_Studie_Randomisierungsmethode named Randomisierungsmethode 0..1 MS
 * extension contains MII_EX_Studie_Rekrutierung named Rekrutierung 0..1 MS
 * extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..1 MS
 * arm MS
@@ -68,12 +67,6 @@ Title: "MII EX Studie Rekrutierung"
 * extension[rekrutierungsstand].value[x] only integer
 * extension[rekrutierungsziel].value[x] only integer
 * extension[rekrutierungsstart].value[x] only date
-
-Extension: MII_EX_Studie_Randomisierungsmethode
-Id: mii-ex-studie-randomisierungsmethode
-Title: "MII EX Studie Randomisierungsmethode"
-* insert addMetadata
-* value[x] only string
 
 Extension: MII_EX_Studie_Finanzierung
 Id: mii-ex-studie-finanzierung
