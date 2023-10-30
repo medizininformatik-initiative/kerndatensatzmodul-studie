@@ -514,19 +514,6 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Strasse",
-        "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Strasse",
-        "short": "Strasse einer Adresse",
-        "definition": "Strasse einer Adresse",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
         "id": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse",
         "path": "mii-lm-studie-logicalmodel.Beteiligter.Standort.Adresse",
         "short": "Adresse eines Standorts",
