@@ -150,10 +150,10 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Kontakt.Grad",
-        "path": "mii-lm-studie-logicalmodel.Kontakt.Grad",
-        "short": "Grad eines Kontakts",
-        "definition": "Grad eines Kontakts",
+        "id": "mii-lm-studie-logicalmodel.Kontakt.Titel",
+        "path": "mii-lm-studie-logicalmodel.Kontakt.Titel",
+        "short": "Titel eines Kontakts",
+        "definition": "Titel eines Kontakts",
         "min": 0,
         "max": "*",
         "type": [
