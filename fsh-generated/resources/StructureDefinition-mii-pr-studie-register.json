@@ -43,22 +43,6 @@
         "mustSupport": true
       },
       {
-        "id": "Library.extension:QuellRegister",
-        "path": "Library.extension",
-        "sliceName": "QuellRegister",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "Library.identifier",
         "path": "Library.identifier",
         "mustSupport": true

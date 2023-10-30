@@ -13,13 +13,6 @@ Id: mii-pr-studie-register
   * document 1..1 MS
     * url 1..1 MS
 * extension MS
-* extension contains MII_EX_Studie_Quell_Register named QuellRegister 0..1 MS
-
-Extension: MII_EX_Studie_Quell_Register
-Title: "MII EX Studie Quell Register"
-Id: mii-ex-studie-quell-register
-* insert addMetadata
-* value[x] only boolean
 
 Instance: mii-exa-studie-register
 InstanceOf: MII_PR_Studie_Register
