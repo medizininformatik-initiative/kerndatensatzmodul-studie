@@ -51,7 +51,7 @@ Für folgende Studienregister werden bereits Preferred URLs für die dazugehöri
 | FHIR Element | Logischer Datensatz |
 |--------------|---------------------|
 | ResearchStudy.title |  Forschungsvorhaben.Titel  |
-| ResearchStudy.extension:Studienfokus |  Forschungsvorhaben.Studienfokus |
+| ResearchStudy.focus |  Forschungsvorhaben.Studienfokus |
 | ResearchStudy.extension:Schlagwort |  Forschungsvorhaben.Schlagwort |
 | ResearchStudy.extension:OeffentlicherTitel |  Forschungsvorhaben.Titel.OeffentlicherTitel |
 | ResearchStudy.extension:WissenschaftlicherTitel |  Forschungsvorhaben.Titel.WissenschaftlicherTitel |

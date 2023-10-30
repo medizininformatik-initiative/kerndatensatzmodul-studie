@@ -14,7 +14,6 @@ Id: mii-pr-studie-studie
 * extension contains MII_EX_Studie_Ethikvotum named Ethikvotum 0..* MS
 * extension contains MII_EX_Studie_Studienregister named Studienregister 0..* MS
 * extension contains MII_EX_Studie_Eligibility named Eligibility 0..1 MS
-* extension contains MII_EX_Studie_Studienfokus named Studienfokus 0..* MS
 * extension contains MII_EX_Studie_Schlagwort named Schlagwort 0..* MS
 * extension contains MII_EX_Studie_Oeffentlicher_Titel named OeffentlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
@@ -25,6 +24,8 @@ Id: mii-pr-studie-studie
 * arm MS
 * arm.name MS
 * category MS
+* focus MS
+  * text MS
 
 Extension: MII_EX_Studie_Studienregister
 Id: mii-ex-studie-studienregister
@@ -37,12 +38,6 @@ Id: mii-ex-studie-eligibility
 Title: "MII EX Studie Eligibility"
 * insert addMetadata
 * value[x] only Reference(Group or EvidenceVariable)
-
-Extension: MII_EX_Studie_Studienfokus
-Id: mii-ex-studie-studienfokus
-Title: "MII EX Studie Studienfokus"
-* insert addMetadata
-* value[x] only string
 
 Extension: MII_EX_Studie_Schlagwort
 Id: mii-ex-studie-schlagwort

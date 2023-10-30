@@ -112,22 +112,6 @@
         "mustSupport": true
       },
       {
-        "id": "ResearchStudy.extension:Studienfokus",
-        "path": "ResearchStudy.extension",
-        "sliceName": "Studienfokus",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienfokus"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "ResearchStudy.extension:Schlagwort",
         "path": "ResearchStudy.extension",
         "sliceName": "Schlagwort",
@@ -272,6 +256,16 @@
       {
         "id": "ResearchStudy.category",
         "path": "ResearchStudy.category",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.focus",
+        "path": "ResearchStudy.focus",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.focus.text",
+        "path": "ResearchStudy.focus.text",
         "mustSupport": true
       },
       {
