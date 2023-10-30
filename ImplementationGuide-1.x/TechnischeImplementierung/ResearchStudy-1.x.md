@@ -52,7 +52,7 @@ Für folgende Studienregister werden bereits Preferred URLs für die dazugehöri
 |--------------|---------------------|
 | ResearchStudy.title |  Forschungsvorhaben.Titel  |
 | ResearchStudy.focus |  Forschungsvorhaben.Studienfokus |
-| ResearchStudy.extension:Schlagwort |  Forschungsvorhaben.Schlagwort |
+| ResearchStudy.keyword |  Forschungsvorhaben.Schlagwort |
 | ResearchStudy.extension:OeffentlicherTitel |  Forschungsvorhaben.Titel.OeffentlicherTitel |
 | ResearchStudy.extension:WissenschaftlicherTitel |  Forschungsvorhaben.Titel.WissenschaftlicherTitel |
 | ResearchStudy.extension:Akronym |  Forschungsvorhaben.Titel.Akronym |

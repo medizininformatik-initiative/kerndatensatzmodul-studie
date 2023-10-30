@@ -112,22 +112,6 @@
         "mustSupport": true
       },
       {
-        "id": "ResearchStudy.extension:Schlagwort",
-        "path": "ResearchStudy.extension",
-        "sliceName": "Schlagwort",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-schlagwort"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
         "id": "ResearchStudy.extension:OeffentlicherTitel",
         "path": "ResearchStudy.extension",
         "sliceName": "OeffentlicherTitel",
@@ -266,6 +250,16 @@
       {
         "id": "ResearchStudy.focus.text",
         "path": "ResearchStudy.focus.text",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.keyword",
+        "path": "ResearchStudy.keyword",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.keyword.text",
+        "path": "ResearchStudy.keyword.text",
         "mustSupport": true
       },
       {
