@@ -48,6 +48,22 @@
         "mustSupport": true
       },
       {
+        "id": "ResearchStudy.extension:Label",
+        "path": "ResearchStudy.extension",
+        "sliceName": "Label",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "ResearchStudy.extension:AssociatedParty",
         "path": "ResearchStudy.extension",
         "sliceName": "AssociatedParty",
@@ -106,38 +122,6 @@
             "code": "Extension",
             "profile": [
               "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "ResearchStudy.extension:OeffentlicherTitel",
-        "path": "ResearchStudy.extension",
-        "sliceName": "OeffentlicherTitel",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "ResearchStudy.extension:WissenschaftlicherTitel",
-        "path": "ResearchStudy.extension",
-        "sliceName": "WissenschaftlicherTitel",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel"
             ]
           }
         ],
