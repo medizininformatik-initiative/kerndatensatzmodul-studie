@@ -250,4 +250,4 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
 **Beispiele**
 
-Beispiel (minimal):
+[Siehe Beispiel (minimal)](https://simplifier.net/medizininformatik-initiative-modul-studien/fsh-generated-resources-researchstudy-mii-exa-studie-studie).
