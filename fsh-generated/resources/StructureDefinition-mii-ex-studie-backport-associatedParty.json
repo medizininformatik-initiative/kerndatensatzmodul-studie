@@ -3,7 +3,7 @@
   "id": "mii-ex-studie-backport-associatedParty",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
   "version": "1.0.0-ballot",
-  "name": "MII_EX_Studie_Backport_Definition_AssociatedParty",
+  "name": "MII_EX_Studie_Backport_AssociatedParty",
   "title": "MII EX Studie Backport AssociatedParty",
   "status": "active",
   "experimental": false,
