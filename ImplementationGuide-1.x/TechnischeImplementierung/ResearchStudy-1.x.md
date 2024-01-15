@@ -150,53 +150,29 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.arm.name" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "studienfokus" MUSS unterstützt werden:
+1. Der Suchparameter "category" MUSS unterstützt werden:
 
     Beispiele
 
-    ```GET [base]/ResearchStudy?studienfokus=Long-COVID bedingter Fatigue```
+    ```GET [base]/ResearchStudy?category=Long-COVID bedingter Fatigue```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienfokus" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "schlagwort" MUSS unterstützt werden:
+1. Der Suchparameter "keyword" MUSS unterstützt werden:
 
     Beispiele
 
-    ```GET [base]/ResearchStudy?schlagwort=COVID```
+    ```GET [base]/ResearchStudy?keyword=COVID```
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Schlagwort" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "oeffentlicherTitel" MUSS unterstützt werden:
+1. Der Suchparameter "label" MUSS unterstützt werden:
 
     Beispiele
 
-    ```GET [base]/ResearchStudy?oeffentlicherTitel=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
+    ```GET [base]/ResearchStudy?label=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
 
-    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:OeffentlicherTitel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
-
-1. Der Suchparameter "wissenschaftlicherIitel" MUSS unterstützt werden:
-
-    Beispiele
-
-    ```GET [base]/ResearchStudy?wissenschaftlicherIitel=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
-
-    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:WissenschaftlicherTitel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
-
-1. Der Suchparameter "akronym" MUSS unterstützt werden:
-
-    Beispiele
-
-    ```GET [base]/ResearchStudy?akronym=tDCS```
-
-    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Akronym" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
-
-1. Der Suchparameter "randomisierungsmethode" MUSS unterstützt werden:
-
-    Beispiele
-
-    ```GET [base]/ResearchStudy?randomisierungsmethode=Zufallszuteilung```
-
-    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Randomisierungsmethode" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Label" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
 1. Der Suchparameter "studienregister" MUSS unterstützt werden:
 
