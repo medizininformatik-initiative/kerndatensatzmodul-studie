@@ -102,9 +102,3 @@ html, body {
 #ig-viewer .ig-view-content #ig-view-treetable .container-fluid #guide-panel .preview-panel.full-width table.regular thead {
   border: 1px solid #e0e0e0;
 }
-
-@media screen and (max-width: 1600px) {
-  #ig-viewer .ig-view-content #ig-view-treetable {
-      width: 90%;
-  }
-}

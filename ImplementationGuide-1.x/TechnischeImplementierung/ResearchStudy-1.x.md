@@ -251,5 +251,3 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 **Beispiele**
 
 Beispiel (minimal):
-
-{{json:fsh-generated/resources/ResearchStudy-mii-exa-studie-studie.json}}
