@@ -89,3 +89,8 @@ html, body {
 .col-md-12 img{
   width: auto;
 }
+
+#ig-viewer .ig-view-content #ig-view-treetable .container-fluid #guide-panel .preview-panel.full-width table.regular {
+  display: block !important;
+  border: none;
+} 
