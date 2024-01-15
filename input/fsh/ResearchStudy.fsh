@@ -10,12 +10,11 @@ Id: mii-pr-studie-studie
 * identifier.system MS
 * partOf MS
 * extension MS
-* extension contains MII_EX_Studie_Backport_Definition_AssociatedParty named AssociatedParty 0..* MS
+* extension contains MII_EX_Studie_Backport_Label named Label 0..* MS
+* extension contains MII_EX_Studie_Backport_AssociatedParty named AssociatedParty 0..* MS
 * extension contains MII_EX_Studie_Ethikvotum named Ethikvotum 0..* MS
 * extension contains MII_EX_Studie_Studienregister named Studienregister 0..* MS
 * extension contains MII_EX_Studie_Eligibility named Eligibility 0..1 MS
-* extension contains MII_EX_Studie_Oeffentlicher_Titel named OeffentlicherTitel 0..1 MS
-* extension contains MII_EX_Studie_Wissenschaftlicher_Titel named WissenschaftlicherTitel 0..1 MS
 * extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
 * extension contains MII_EX_Studie_Rekrutierung named Rekrutierung 0..1 MS
 * extension contains MII_EX_Studie_Finanzierung named Finanzierung 0..* MS
@@ -38,18 +37,6 @@ Id: mii-ex-studie-eligibility
 Title: "MII EX Studie Eligibility"
 * insert addMetadata
 * value[x] only Reference(Group or EvidenceVariable)
-
-Extension: MII_EX_Studie_Oeffentlicher_Titel
-Id: mii-ex-studie-oeffentlicher-titel
-Title: "MII EX Studie Oeffentlicher Titel"
-* insert addMetadata
-* value[x] only string
-
-Extension: MII_EX_Studie_Wissenschaftlicher_Titel
-Id: mii-ex-studie-wissenschaftlicher-titel
-Title: "MII EX Studie Wissenschaftlicher Titel"
-* insert addMetadata
-* value[x] only string
 
 Extension: MII_EX_Studie_Akronym
 Id: mii-ex-studie-akronym
@@ -83,7 +70,7 @@ Title: "MII EX Studie Ethikvotum"
 * extension[kommission].value[x] only string
 * extension[ethiknummer].value[x] only string
 
-Extension: MII_EX_Studie_Backport_Definition_AssociatedParty
+Extension: MII_EX_Studie_Backport_AssociatedParty
 Id: mii-ex-studie-backport-associatedParty
 Title: "MII EX Studie Backport AssociatedParty"
 * insert addMetadata
@@ -96,6 +83,15 @@ Title: "MII EX Studie Backport AssociatedParty"
 * extension[classifier].value[x] only CodeableConcept
 * extension[classifier].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-organization-type (example)
 * extension[party].value[x] only Reference(Practitioner or PractitionerRole or Organization)
+
+Extension: MII_EX_Studie_Backport_Label
+Id: mii-ex-studie-backport-label
+Title: "MII EX Studie Backport Label"
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+* extension contains type 0..1 and value 1..1 MS
+* extension[type].value[x] only CodeableConcept
+* extension[type].valueCodeableConcept from http://hl7.org/fhir/ValueSet/title-type (extensible)
+* extension[value].value[x] only string
 
 Instance: ResearchStudy-armName
 InstanceOf: SearchParameter
@@ -111,61 +107,19 @@ Usage: #definition
 * type = #string
 * expression = "ResearchStudy.arm.name"
 
-Instance: ResearchStudy-studienfokus
+Instance: ResearchStudy-label
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienfokus"
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label"
 * version = "1.0.0-ballot"
-* name = "SP_MII_Studie_Studienfokus"
+* name = "SP_MII_Studie_Label"
 * status = #active
-* description = "Suchparameter für ResearchStudy.extension:Studienfokus"
+* description = "Suchparameter für ResearchStudy.extension:label"
 * experimental = false
-* code = #studienfokus
+* code = #label
 * base = #ResearchStudy
 * type = #string
-* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienfokus').value"
-
-Instance: ResearchStudy-schlagwort
-InstanceOf: SearchParameter
-Usage: #definition
-* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-schlagwort"
-* version = "1.0.0-ballot"
-* name = "SP_MII_Studie_Schlagwort"
-* status = #active
-* description = "Suchparameter für ResearchStudy.extension:Schlagwort"
-* experimental = false
-* code = #schlagwort
-* base = #ResearchStudy
-* type = #string
-* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-schlagwort').value"
-
-Instance: ResearchStudy-oeffentlicher-titel
-InstanceOf: SearchParameter
-Usage: #definition
-* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-oeffentlicher-titel"
-* version = "1.0.0-ballot"
-* name = "SP_MII_Studie_OeffentlicherTitel"
-* status = #active
-* description = "Suchparameter für ResearchStudy.extension:OeffentlicherTitel"
-* experimental = false
-* code = #oeffentlicherTitel
-* base = #ResearchStudy
-* type = #string
-* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel').value"
-
-Instance: ResearchStudy-wissenschaftlicher-titel
-InstanceOf: SearchParameter
-Usage: #definition
-* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-wissenschaftlicher-titel"
-* version = "1.0.0-ballot"
-* name = "SP_MII_Studie_WissenschaftlicherIitel"
-* status = #active
-* description = "Suchparameter für ResearchStudy.extension:WissenschaftlicherIitel"
-* experimental = false
-* code = #wissenschaftlicherIitel
-* base = #ResearchStudy
-* type = #string
-* expression = "ResearchStudy.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel').value"
+* expression = "ResearchStudy.extension.where(url='http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label').extension.where(url='value').value"
 
 Instance: ResearchStudy-akronym
 InstanceOf: SearchParameter
@@ -287,8 +241,10 @@ Usage: #example
 * identifier.value = "DRKS00031294"
 * identifier.system = "https://example.com/fhir/sid/drks"
 * description = "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet."
-* extension[OeffentlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
-* extension[WissenschaftlicherTitel].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+* extension[Label].extension[value].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+* extension[Label].extension[type].valueCodeableConcept = http://hl7.org/fhir/title-type#scientific
+* extension[Label][+].extension[value].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+* extension[Label][=].extension[type].valueCodeableConcept.text = "Öffentlicher Titel"
 * extension[Akronym].valueString = "tDCS"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2023-01-12"
 * extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 40

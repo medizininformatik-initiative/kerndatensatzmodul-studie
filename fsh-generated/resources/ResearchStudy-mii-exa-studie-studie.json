@@ -8,12 +8,39 @@
   },
   "extension": [
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-oeffentlicher-titel",
-      "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+      "extension": [
+        {
+          "url": "value",
+          "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "scientific",
+                "system": "http://hl7.org/fhir/title-type"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
     },
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-wissenschaftlicher-titel",
-      "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+      "extension": [
+        {
+          "url": "value",
+          "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "text": "Öffentlicher Titel"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
     },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
