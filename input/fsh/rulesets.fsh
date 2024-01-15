@@ -1,4 +1,4 @@
 RuleSet: addMetadata
-* ^version = "1.0.0-ballot"
+* ^version = "2024.0.0"
 * ^status = #active
 * ^experimental = false

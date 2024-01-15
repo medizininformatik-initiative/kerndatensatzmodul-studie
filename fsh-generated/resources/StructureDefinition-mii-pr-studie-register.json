@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-register",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register",
-  "version": "1.0.0-ballot",
+  "version": "2024.0.0",
   "name": "MII_PR_Studie_Register",
   "title": "MII PR Studie Register",
   "status": "active",

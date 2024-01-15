@@ -1,5 +1,5 @@
 canonical: https://www.medizininformatik-initiative.de/fhir/modul-studie
-version: 1.0.0-ballot
+version: 2024.0.0
 fhirVersion: 4.0.1
 FSHOnly: true
 dependencies:

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-definition-by-combination",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
-  "version": "1.0.0-ballot",
+  "version": "2024.0.0",
   "name": "MII_EX_Studie_Backport_Definition_By_Combination",
   "title": "MII EX Studie Backport DefinitionByCombination",
   "status": "active",
