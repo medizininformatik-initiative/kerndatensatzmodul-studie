@@ -535,63 +535,8 @@
                   "valueCode": "SHALL"
                 }
               ],
-              "name": "studienfokus",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienfokus",
-              "type": "string"
-            },
-            {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "schlagwort",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-schlagwort",
-              "type": "string"
-            },
-            {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "oeffentlicherTitel",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-oeffentlicher-titel",
-              "type": "string"
-            },
-            {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "wissenschaftlicherIitel",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-wissenschaftlicher-titel",
-              "type": "string"
-            },
-            {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "akronym",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym",
-              "type": "string"
-            },
-            {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                  "valueCode": "SHALL"
-                }
-              ],
-              "name": "randomisierungsmethode",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-randomisierungsmethode",
+              "name": "label",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label",
               "type": "string"
             },
             {
