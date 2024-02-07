@@ -34,7 +34,7 @@ Usage: #definition
 * experimental = false
 * code = #quellregister
 * base = #Library
-* type = #boolean
+* type = #token
 * expression = "Library.extension.where(url='https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register').value"
 
 Instance: Library-relatedArtifactUrl
