@@ -4,6 +4,7 @@ DocumentReference-mii-exa-studie-dokument.json                                mi
 EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json                  mii-exa-studie-ein-auschluss-kriterium               Instance   EvidenceVariable.fsh     84 - 129
 Library-mii-exa-studie-register.json                                          mii-exa-studie-register                              Instance   Library.fsh              16 - 24
 PractitionerRole-mii-exa-studie-beteiligte-person.json                        mii-exa-studie-beteiligte-person                     Instance   PractitionerRole.fsh     11 - 18
+ResearchStudy-mii-exa-studie-cohort.json                                      mii-exa-studie-cohort                                Instance   ResearchStudy.fsh        267 - 280
 ResearchStudy-mii-exa-studie-studie.json                                      mii-exa-studie-studie                                Instance   ResearchStudy.fsh        236 - 265
 SearchParameter-DocumentReference-size.json                                   DocumentReference-size                               Instance   DocumentReference.fsh    44 - 56
 SearchParameter-DocumentReference-title.json                                  DocumentReference-title                              Instance   DocumentReference.fsh    30 - 42

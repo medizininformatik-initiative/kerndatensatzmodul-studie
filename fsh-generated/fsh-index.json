@@ -40,6 +40,14 @@
     "endLine": 18
   },
   {
+    "outputFile": "ResearchStudy-mii-exa-studie-cohort.json",
+    "fshName": "mii-exa-studie-cohort",
+    "fshType": "Instance",
+    "fshFile": "ResearchStudy.fsh",
+    "startLine": 267,
+    "endLine": 280
+  },
+  {
     "outputFile": "ResearchStudy-mii-exa-studie-studie.json",
     "fshName": "mii-exa-studie-studie",
     "fshType": "Instance",
