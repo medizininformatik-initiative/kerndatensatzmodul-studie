@@ -12,6 +12,13 @@ Id: mii-pr-studie-register
 * relatedArtifact MS
   * document 1..1 MS
     * url 1..1 MS
+* extension contains mii-ex-studie-quell-register named quellRegister 0..1
+
+Extension: MII_EX_Studie_Quell_Register
+Id: mii-ex-studie-quell-register
+Title: "MII EX Studie Quell Register"
+* insert addMetadata
+* value[x] only boolean
 
 Instance: mii-exa-studie-register
 InstanceOf: MII_PR_Studie_Register
