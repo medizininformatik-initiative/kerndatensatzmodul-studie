@@ -13,16 +13,16 @@ Die im vorliegenden Repository bzw. auf [Simplifer](https://simplifier.net/mediz
 
 ### Mitwirkungs- und Kommentierungsmöglichkeiten
 
-* Kommentareinreichung via [GitHub](https://github.com/medizininformatik-initiative/kerndatensatzmodul-fall)
-* Diskussionsforum im int. [FHIR-Chat](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative)
+* Kommentareinreichung via [GitHub](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie)
+* Diskussionsforum im internationalen [FHIR-Chat](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative)
 
 ### Autoren und Ansprechpartner
 
-Leitung des Moduls:
+#### Leitung des Moduls
 
 * Matthias Löbe, Institut für Medizinische Informatik, Statistik und Epidemiologie, Universität Leipzig (IMISE)
 
-Technische Umsetzung:
+#### Technische Umsetzung
 
 * Margaux Gatrio, Berlin Institute of Health at Charité (BIH)
 * Alexander Zautke, HL7 Deutschland
