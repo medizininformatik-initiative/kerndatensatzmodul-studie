@@ -29,9 +29,29 @@ Die im vorliegenden Repository bzw. auf [Simplifer](https://simplifier.net/mediz
 
 ## Dokumentation und Beispiele
 
+Im Folgenden sollen einige intendierte Anwendungsfälle der Modulspezifikation paradigamtisch dokumentiert werden. In der aktuellen Version des Moduls wir die FHIR-Version 4.0.1 genutzt.
+
 ### Abbildung einer klinischen Studie
 
+Klinische Studien sind experimentelle Prüfungen unter definierten Bedingungen mit dem Ziel, die Wirksamkeit und Sicherheit einer neuen Therapie zu untersuchen. Zuerst sollen einfache studien-spezifische Metadaten abgebildet werden.
+
 #### Titel einer Studie
+
+Der Titel einer Studie soll eine menschenlesbare Kurzform der wichtigsten Kennzahlen einer Studie widergeben. Es gibt verschiedene Konventionen, welche Angaben in einen Titel gehören. Titel in klinischen Studien sind häufig vergleichsweise lang, was Probleme bei der Darstellung in Nutzermasken mit sich bringen kann. Für FHIR ist das technisch kein Problem, da Längen bis 1 Million Zeichen unterstützt werden.
+
+Der Titel wird in das Element [ResearchStudy.title](https://www.hl7.org/fhir/researchstudy-definitions.html#ResearchStudy.title) abgebildet, welches 0..1 mal vorkommen kann und vom Typ String ist.
+
+Beispiel:
+```
+  "title": "FAIRness in FHIR"
+```
+
+Ein Problem besteht oft darin, dass eine Studie nicht nur einen Titel hat, sondern:
+* Kurztitel und Langtitel
+* Titel in wissenschaftlicher und laienverständlicher Sprache
+* Titel in Deutsch und Englisch
+* Sprechende Abkürzungen
+* Kombinationen dieser Titelvarianten
 
 #### Beschreibung einer Studie
 
