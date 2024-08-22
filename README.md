@@ -33,7 +33,18 @@ Im Folgenden sollen einige intendierte Anwendungsfälle der Modulspezifikation p
 
 ### Abbildung einer klinischen Studie
 
-Klinische Studien sind experimentelle Prüfungen unter definierten Bedingungen mit dem Ziel, die Wirksamkeit und Sicherheit einer neuen Therapie zu untersuchen. Zuerst sollen einfache studien-spezifische Metadaten abgebildet werden.
+Klinische Studien sind experimentelle Prüfungen unter definierten Bedingungen mit dem Ziel, die Wirksamkeit und Sicherheit einer neuen Therapie zu untersuchen. Nach guter wissenschaftlicher Praxis werden klinische Studien prospektiv in Studienregistern eingetragen. Populäre Register sind das [Deutsche Register Klinischer Studien (DRKS)](https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/_node.html) beim BfArM oder [ClinicalTrials.gov](https://clinicaltrials.gov/) der National Library of Medicine. Der Umgang eines Eintrags umfasst mindestens den [WHO Trial Registration Data Set](https://www.who.int/clinical-trials-registry-platform/network/who-data-set).
+
+Klinische Studien werden in FHIR mit der Ressource **[ResearchStudy](https://hl7.org/fhir/R4/researchstudy.html)** abgebildet. Zur besseren Referzierung geben wir dem Beispiel die interne Kennzeichnung "btfs-studie".
+
+```
+{
+  "resourceType": "ResearchStudy",
+  "id": "btfs-studie"
+}
+```
+
+Zuerst sollen einfache studien-spezifische Metadaten abgebildet werden.
 
 #### Titel einer Studie
 
@@ -43,7 +54,7 @@ Der Titel wird in das Element [ResearchStudy.title](https://www.hl7.org/fhir/res
 
 Beispiel:
 ```
-  "title": "FAIRness in FHIR"
+  "title": "Bitterfelder Schnupfenstudie"
 ```
 
 Ein Problem besteht oft darin, dass eine Studie nicht nur einen Titel hat, sondern:
