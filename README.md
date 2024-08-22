@@ -68,3 +68,20 @@ Ein Problem besteht oft darin, dass eine Studie nicht nur einen Titel hat, sonde
 
 #### Studienidentifikator
 
+#### Studienstatus
+
+#### Studienstart und Studienende
+
+#### Untersuchte Krankheitsentität
+
+#### Ansprechpartner
+
+#### Anmerkungen zu einer Studie
+
+### Beteiligte Akteure
+
+#### Verantwortlicher Wissenschaftler/Leiter der klinischen Studie
+
+#### Sponsor
+
+#### Studienzentren
