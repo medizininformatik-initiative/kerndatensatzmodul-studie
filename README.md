@@ -66,15 +66,31 @@ Ein Problem besteht oft darin, dass eine Studie nicht nur einen Titel hat, sonde
 
 #### Beschreibung einer Studie
 
+ResearchStudy.description
+
 #### Studienidentifikator
+
+ResearchStudy.identifier
 
 #### Studienstatus
 
+ResearchStudy.status
+
 #### Studienstart und Studienende
+
+ResearchStudy.period
+
+#### Typ der Studie
+
+
 
 #### Untersuchte Krankheitsentität
 
+ResearchStudy.condition
+
 #### Ansprechpartner
+
+ResearchStudy.contact
 
 #### Anmerkungen zu einer Studie
 
@@ -82,6 +98,48 @@ Ein Problem besteht oft darin, dass eine Studie nicht nur einen Titel hat, sonde
 
 #### Verantwortlicher Wissenschaftler/Leiter der klinischen Studie
 
+ResearchStudy.principalvestigator
+
 #### Sponsor
 
+ResearchStudy.sponsor
+
 #### Studienzentren
+
+ResearchStudy.site
+
+### Studienunterlagen
+
+#### Studiendokumente
+
+ResearchStudy.relatedArtifact
+
+#### Studienprotokoll (maschinenausführbar)
+
+ResearchStudy.protocol
+
+### Fortgeschritte Aspekte des Studiendesigns
+
+#### Phasen
+
+ResearchStudy.phase
+
+#### Arme
+
+ResearchStudy.arm
+
+#### Zweck der Studie
+
+ResearchStudy.primaryPurposeType
+
+#### Hierachische Studien (Phasen und Substudien)
+
+ResearchStudy.partOf
+
+#### Verschlagwortung
+
+ResearchStudy.keyword
+
+#### Finanzierung der Studie
+
+
