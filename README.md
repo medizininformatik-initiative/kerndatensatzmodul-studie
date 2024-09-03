@@ -27,15 +27,13 @@ Die im vorliegenden Repository bzw. auf [Simplifer](https://simplifier.net/mediz
 * Margaux Gatrio, Berlin Institute of Health at Charité (BIH)
 * Alexander Zautke, HL7 Deutschland
 
-## Dokumentation und Beispiele
+## Dokumentation und Beispiel: Abbildung einer klinischen Studie
 
 Im Folgenden sollen einige intendierte Anwendungsfälle der Modulspezifikation paradigamtisch dokumentiert werden. In der aktuellen Version des Moduls wir die FHIR-Version 4.0.1 genutzt.
 
-### Abbildung einer klinischen Studie
-
 Klinische Studien sind experimentelle Prüfungen unter definierten Bedingungen mit dem Ziel, die Wirksamkeit und Sicherheit einer neuen Therapie zu untersuchen. Nach guter wissenschaftlicher Praxis werden klinische Studien prospektiv in Studienregistern eingetragen. Populäre Register sind das [Deutsche Register Klinischer Studien (DRKS)](https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/_node.html) beim BfArM oder [ClinicalTrials.gov](https://clinicaltrials.gov/) der National Library of Medicine. Der Umgang eines Eintrags umfasst mindestens den [WHO Trial Registration Data Set](https://www.who.int/clinical-trials-registry-platform/network/who-data-set).
 
-Klinische Studien werden in FHIR mit der Ressource **[ResearchStudy](https://hl7.org/fhir/R4/researchstudy.html)** abgebildet. Zur besseren Referzierung geben wir dem Beispiel die interne Kennzeichnung "btfs-studie".
+Klinische Studien werden in FHIR mit der Ressource **[ResearchStudy](https://hl7.org/fhir/R4/researchstudy.html)** abgebildet. Zur besseren Referenzierung geben wir dem Beispiel die interne Kennzeichnung "btfs-studie".
 
 ```
 {
@@ -46,11 +44,11 @@ Klinische Studien werden in FHIR mit der Ressource **[ResearchStudy](https://hl7
 
 Zuerst sollen einfache studien-spezifische Metadaten abgebildet werden.
 
-#### Titel einer Studie
+### Titel einer Studie
 
-Der Titel einer Studie soll eine menschenlesbare Kurzform der wichtigsten Kennzahlen einer Studie widergeben. Es gibt verschiedene Konventionen, welche Angaben in einen Titel gehören. Titel in klinischen Studien sind häufig vergleichsweise lang, was Probleme bei der Darstellung in Nutzermasken mit sich bringen kann. Für FHIR ist das technisch kein Problem, da Längen bis 1 Million Zeichen unterstützt werden.
+Der Titel einer Studie soll eine menschenlesbare Kurzform der wichtigsten Kennzahlen einer Studie widergeben. Es gibt verschiedene Konventionen, welche Angaben in einen Titel gehören. Titel in klinischen Studien sind häufig vergleichsweise lang, was Probleme bei der Darstellung in Nutzermasken mit sich bringen kann.
 
-Der Titel wird in das Element [ResearchStudy.title](https://www.hl7.org/fhir/researchstudy-definitions.html#ResearchStudy.title) abgebildet, welches 0..1 mal vorkommen kann und vom Typ String ist.
+Für FHIR ist das technisch kein Problem, da Längen bis 1 Million Zeichen unterstützt werden. Der Titel wird in das Element [ResearchStudy.title](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.title) abgebildet, welches 0..1 mal vorkommen kann und vom Typ String ist.
 
 Beispiel:
 ```
@@ -64,82 +62,120 @@ Ein Problem besteht oft darin, dass eine Studie nicht nur einen Titel hat, sonde
 * Sprechende Abkürzungen
 * Kombinationen dieser Titelvarianten
 
-#### Beschreibung einer Studie
+### Beschreibung einer Studie
 
-ResearchStudy.description
+Die Beschreibung einer Studie enthält eine für den Menschen lesbare Zusammenfassung des Hintergrunds der Studie, der Forschungsfrage und ggfs. der Ergebnisse. Sie ist ähnlich dem Abstract einer Publikation und kann auch schon detaillierter sein. 
 
-#### Studienidentifikator
+In FHIR existiert ein dafür das Element [ResearchStudy.description](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.description). Es ist vom Typ Markdown und  die Markdown-Syntax beherrschen muss.
 
-ResearchStudy.identifier
+Beispiel:
+```
+  "description":"**Hintergrund**: Schnupfen ist Hauptsymptom einer Erkältung bzw. eines grippalen Infekts, weltweit eine der häufigsten Infektionserkrankungen. Das Auftreten von Schnupfen verschlechtert die Lebensqualität des Patienten erheblich und schränkt die körperliche und geistige Leistungsfähigkeit ein. Eine Medikamentengabe könnte eine Option für langfristig andauernden Schnupfen sein. In dieser Studie untersuchen wir den Effekt der Gabe von Xylometazolin auf die Erkrankungsdauer und die Gabe von Dexpanthenol zur Vermeidung von Hautirritationen.\n\n**Methoden**: Patienten mit schwerem grippalen Infekt, die nach mindestens 1 Woche eine stabile Erkrankung aufweisen, sind für die Studie geeignet. Es ist eine Randomisierung in 3 Arme vorgesehen: Gabe von Xylometazolin, Gabe von Xylometazolin und Dexpanthenol und reine Beobachtung. Die Intervention wird bis zu 3x täglich bei Bedarf durch den Probanden selbst durchgeführt. Die Dokumentation erfolgt zeitnah über eine Smartphone-App. Nach 2 Wochen wird die Intervention beendet.\n\n**Ergebnisse**: Die Studie läuft aktuell und die Patientenrekrutierung ist gestartet. Insgesamt wurden bereits 124 Patienten mit diesem Protokoll rekrutiert. Bislang sind alle Probanden in guter klinischer Verfassung.\n\n**Diskussion**: Mit dem Design der Bitterfelder Schnupfenstudie könnte es möglich sein, Patienten mit langandauernden Infekten eine wirksame und unbedenkliche Behandlung anzubieten. Es muss insbesondere auf Ko-Morbiditäten geachtet werden, die mitursächlich für den Infekt sein können."
+```
 
-#### Studienstatus
+In FHIR R5 gibt es ein Element zur Abbildung von kürzeren Zusammenfassungen (`descriptionSummary`), sodass für `description` vorzugsweise für detailliertere Zusammenfassungen steht. Problematisch kann die technische Konvertierung von Hypertext- oder Rich-Text-Dokumenten in Markdown sein.
+
+### Studienidentifikator
+
+Viele Forschungsvorhaben werden prospektiv in Studienregistern registriert, um eine Transparenz laufender Projekte und eine Pflicht zur Veröffentlichung von Ergebnissen durchzusetzen. Bei der Registrierung erhalten sie üblicherweise einen einmalig vergebenen, dauerhaften Code aus den Namensraum des Registers. Ebenso üblich sind lokale Nummern wie Projektnummern der durchführenden Einrichtung oder des Förders. Es kann demnach sehr viele verschiedene Identifikatoren geben.
+
+FHIR kennt dafür das Element [ResearchStudy.identifier](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.identifier), welches vom komplexen Typ [Identifier](https://hl7.org/fhir/R4/datatypes.html#Identifier) ist. Auch wenn keines der Subelemente verpflichtend ist, sollte mindestens `Identifier.value` und `Identifier.system` vergeben werden, um aus den Metadaten Nutzen ziehen zu können.
+
+Beispiel: Die folgende Studie hat drei (fiktive) Identifier, darunter zwei globale Identifier (eine Nummer aus CT.gov und eine aus dem deutschen WHO-Primärregister DRKS). Der dritte Identifier wurde aus dem lokalen Forschungsinformationssystem zugeteilt. Da die ersten bedien Identifier weltweit bekannt und gültig sind und auch aufgelöst werden können, wurden sie als `#official` bezeichnet. Der lokale Identifier hat eher einen lokalen Bezug und ist daher `secondary`.
+
+```
+  "identifier": [
+    {
+      "use": "official",
+      "system": "https://clinicaltrials.gov",
+      "value": "NCT01234567"
+    },
+    {
+      "use": "official",
+      "system": "https://drks.de",
+      "value": "DRKS00031039"
+    },
+    {
+      "use": "secondary",
+      "system": "https://diz.uk-bitterfeld.de/ns/studien",
+      "value": "BTF-24-0023"
+    }
+  ]
+```
+
+Mögliche Probleme:
+* Nichtverfügbarkeit des `Identifier.system` für globale Studienregister wie ClinicalTrials.gov oder DRKS
+* Festlegen der Nutzung des `Identifier.system` für lokale Forschungsregister
+* Festlegen der Nutzung des ValueSets [IdentifierType](https://hl7.org/fhir/R4/datatypes.html#Identifier) für das Element `Identifier.type`
+
+### Studienstatus
 
 ResearchStudy.status
 
-#### Studienstart und Studienende
+### Studienstart und Studienende
 
 ResearchStudy.period
 
-#### Typ der Studie
+### Typ der Studie
 
 
 
-#### Untersuchte Krankheitsentität
+### Untersuchte Krankheitsentität
 
 ResearchStudy.condition
 
-#### Ansprechpartner
+### Ansprechpartner
 
 ResearchStudy.contact
 
-#### Anmerkungen zu einer Studie
+### Anmerkungen zu einer Studie
 
-### Beteiligte Akteure
+## Dokumentation und Beispiel: Beteiligte Akteure
 
-#### Verantwortlicher Wissenschaftler/Leiter der klinischen Studie
+### Verantwortlicher Wissenschaftler/Leiter der klinischen Studie
 
 ResearchStudy.principalvestigator
 
-#### Sponsor
+### Sponsor
 
 ResearchStudy.sponsor
 
-#### Studienzentren
+### Studienzentren
 
 ResearchStudy.site
 
-### Studienunterlagen
+## Dokumentation und Beispiel: Studienunterlagen
 
-#### Studiendokumente
+### Studiendokumente
 
 ResearchStudy.relatedArtifact
 
-#### Studienprotokoll (maschinenausführbar)
+### Studienprotokoll (maschinenausführbar)
 
 ResearchStudy.protocol
 
-### Fortgeschritte Aspekte des Studiendesigns
+## Dokumentation und Beispiel: Fortgeschritte Aspekte des Studiendesigns
 
-#### Phasen
+### Phasen
 
 ResearchStudy.phase
 
-#### Arme
+### Arme
 
 ResearchStudy.arm
 
-#### Zweck der Studie
+### Zweck der Studie
 
 ResearchStudy.primaryPurposeType
 
-#### Hierachische Studien (Phasen und Substudien)
+### Hierachische Studien (Phasen und Substudien)
 
 ResearchStudy.partOf
 
-#### Verschlagwortung
+### Verschlagwortung
 
 ResearchStudy.keyword
 
-#### Finanzierung der Studie
+### Finanzierung der Studie
 
 
