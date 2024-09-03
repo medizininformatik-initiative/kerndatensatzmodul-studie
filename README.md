@@ -167,7 +167,34 @@ Problematisch in der Version dieses Moduls ist die fehlende Abstimmung eines gem
 
 ### Untersuchte Krankheitsentität
 
-ResearchStudy.condition
+Ein wichtiges Kriterium für medizinische Forschungsvorhaben ist die Krankheit, die im Fokus der Studie steht. Neben Krankheiten können das im weiteren Sinn Störungen, Syndrome, Gesundheitsprobleme, Diagnose oder Verletzungen sein, die untersucht werden sollen und auch andere gesundheitsbezogene Aspekte wie Lebenserwartung, Lebensqualität und Gesundheitsrisiken umfassen. Die Probanden müssen nicht an der Krankheitsentität leiden, dafür gibt es Einschlusskriterien.
+
+FHIR bildet die untersuchte Krankheitsentität in **[ResearchStudy.condition](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.condition)** ab. Es kann mehrere Entitäten geben, als Freitext und/oder kodiert.
+
+Beispiel: Krankheitsentität der Bitterfelder Schnupfenstudie ist der typische Erkältungsschnupen.
+```
+  "condition": [
+    {
+      "text": "Schnupfen",
+      "coding": [
+        {
+          "code": "J00.0",
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "version": "2024",
+          "display": "Acute nasopharyngitis"
+        },
+        {
+          "code": "82272006",
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20230731",
+          "display": "Common cold (disorder)"
+        }
+      ]
+    }
+  ]
+```
+
+Viele Krankheiten besitzen umgangssprachliche Namen (unscharf) und medizinische Namen. Es ist nicht einfach, textuelle Bezeichner sicher zu kodieren. Zusätzlich ist nicht geklärt, wie mehrere Krankheitsentitäten zu interpretieren sind, vermutlich als logisches Oder, d.h. alle beide stehen im Fokus der Studie.
 
 ### Ansprechpartner und Kontaktdaten
 
@@ -175,7 +202,7 @@ Forschungsvorhaben werden i.A. von mehreren Menschen betreut, die für interne u
 
 **[ResearchStudy.contact](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.contact)** kann biliebig viele Kontakte abbilden. Kontakte sind dabei vom Typ [ContactDetail](https://hl7.org/fhir/R4/metadatatypes.html#ContactDetail), was den Vorteil hat, dass sie nicht als FHIR-Ressourcen auf dem Server vorhanden sein müssen, sondern einfach wie Visitenkarten angelegt werden.
 
-Beispiel: Die Studie hat eine Prüfärztin und einen Data Manager als natürliche Kontaktpersonen und die Studienambulanz als bevorzugter Kontakt
+Beispiel: Die Studie hat eine Prüfärztin und einen Data Manager als natürliche Kontaktpersonen und die Studienambulanz als bevorzugten Organisationskontakt.
 ```
   "contact": [
     {
@@ -215,17 +242,38 @@ Beispiel: Die Studie hat eine Prüfärztin und einen Data Manager als natürlich
 
 Problematisch ist, dass es zwar mehrere Kontakte geben kann, aber es keine Auszeichnung der Rolle gibt. So wird häufig zwischen einem wissenschaftlichen Ansprechpartner und einem für Fragen der Rekrutierung unterschieden. Dies wird mit zukünftigen FHIR-Versionen möglich sein.
 
-### Anmerkungen zu einer Studie
-
 ## Dokumentation und Beispiel: Beteiligte Akteure
 
 ### Verantwortlicher Wissenschaftler/Leiter der klinischen Studie
 
-ResearchStudy.principalvestigator
+Jedes nichttriviale Forschungsprojekt hat einen leitenden Wissenschaftler.
+
+In FHIR gibt es bei Forschungsstudien das Element **[ResearchStudy.principalvestigator](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.principalInvestigator)**. Hier ist eine  Referenz auf einen FHIR [Practitioner](https://hl7.org/fhir/R4/practitioner.html) oder [PractitionerRole](https://hl7.org/fhir/R4/practitionerrole.html) anzugeben. Während ein Practitioner ein beruflich beteiligter Experte ist, kann PractitionerRole auch noch den Typ der Rolle angeben (hier schon über das Element klar). Das Referenzziel muss auf dem FHIR-Server bzw. in der übertragenen Datenstruktur existieren.
+
+Beispiel:
+```
+  "principalInvestigator": {
+    "reference": "Practitioner/sabine-obomba"
+  }
+```
+
+
+Problematisch ist die Kardinalität von max. 1, da es mehrere gleichberechtigte leitende Wissenschaftler geben kann. In diesem Fall sollte einer ausgewählt werden, ev. lexikografisch.
 
 ### Sponsor
 
-ResearchStudy.sponsor
+Als Sponsor einer Studie wird die juristisch verantwortliche Organisation bezeichnet, welche die Studie durchführt.
+
+Dafür existiert ein gleichnamiges Element **[ResearchStudy.sponsor](https://hl7.org/fhir/R4/researchstudy-definitions.html#ResearchStudy.sponsor)** mit einer Referenz auf eine FHIR [Organisation](https://hl7.org/fhir/R4/organization.html).
+
+Beispiel:
+```
+  "sponsor": {
+    "reference": "Organization/uniklinikum-bitterfeld"
+  }
+```
+
+Organisationseinheiten und Standorte sind Teil des Erweiterungsmoduls Strukturdaten des Kerndatensatz und werden hier nicht weiter erläutert.
 
 ### Studienzentren
 
