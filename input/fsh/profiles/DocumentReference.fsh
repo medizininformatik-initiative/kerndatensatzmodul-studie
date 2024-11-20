@@ -2,10 +2,18 @@ Profile: MII_PR_Studie_Dokument
 Title: "MII PR Studie Dokument"
 Parent: DocumentReference
 Id: mii-pr-studie-dokument
+Description: "Dieses Profil beschreibt ein Dokument / Publikation in der Medizininformatik-Initiative."
+* insert Translation(^title, de-DE, MII PR Studie Dokument)
+* insert Translation(^title, en-US, MII PR Study Document)
+* insert Translation(^description, de-DE, Dieses Profil beschreibt ein Dokument / Publikation in der Medizininformatik-Initiative.)
+* insert Translation(^description, en-US, This profile describes a document/publication within the Medical Informatics Initiative.)
 * insert addMetadata
 * insert PR_CS_VS_Version
 * insert Publisher
 * status MS
+* status ^short = "Status"
+* insert Translation(status ^short, de-DE, Status)
+* insert Translation(status ^short, en-US, Status)
 * content MS
   * attachment MS 
     * url 1..1 MS
