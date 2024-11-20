@@ -3,6 +3,8 @@ Title: "MII PR Studie Studie"
 Parent: ResearchStudy
 Id: mii-pr-studie-studie
 * insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * status MS
 * title MS
 * identifier MS

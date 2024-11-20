@@ -3,6 +3,8 @@ Title: "MII PR Studie Register"
 Parent: Library
 Id: mii-pr-studie-register
 * insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
 * name MS

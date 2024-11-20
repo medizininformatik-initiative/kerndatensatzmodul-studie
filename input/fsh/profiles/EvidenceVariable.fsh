@@ -3,6 +3,8 @@ Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
 Id: mii-pr-studie-ein-auschluss-kriterium
 * insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * status MS
 * characteristic MS
 * characteristic.description MS

@@ -3,6 +3,8 @@ Title: "MII PR Studie Beteiligte Person"
 Parent: PractitionerRole
 Id: mii-pr-studie-beteiligte-person
 * insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * code MS
 * telecom MS
 * organization MS

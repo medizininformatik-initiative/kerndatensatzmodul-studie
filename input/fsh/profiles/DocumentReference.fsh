@@ -3,6 +3,8 @@ Title: "MII PR Studie Dokument"
 Parent: DocumentReference
 Id: mii-pr-studie-dokument
 * insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * status MS
 * content MS
   * attachment MS 
