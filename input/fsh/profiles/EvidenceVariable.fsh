@@ -6,7 +6,19 @@ Id: mii-pr-studie-ein-auschluss-kriterium
 * insert PR_CS_VS_Version
 * insert Publisher
 * status MS
+* status ^short = "Status"
+* insert Translation(status ^short, de-DE, Entwurf | aktiv | zurückgezogen | unbekannt)
+* insert Translation(status ^short, en-US, draft | active | retired | unknown)
+* status ^definition = "Der Status dieser EvidenceVariable. Ermöglicht die Verfolgung des Lebenszyklus des Inhalts."
+* insert Translation(status ^definition, de-DE, Der Status dieser EvidenceVariable. Ermöglicht die Verfolgung des Lebenszyklus des Inhalts.)
+* insert Translation(status ^definition, en-US, The status of this evidence variable. Enables tracking the life-cycle of the content.)
 * characteristic MS
+* characteristic ^short = "Characteristic"
+* insert Translation(characteristic ^short, de-DE, Was die Mitglieder des Evidence-Elements definiert)
+* insert Translation(characteristic ^short, en-US, What defines the members of the evidence element)
+* characteristic ^definition = "Eine Eigenschaft, die die Mitglieder des Evidence-Elements definiert. Mehrere Eigenschaften werden mit einer “und”-Semantik angewendet."
+* insert Translation(characteristic ^definition, de-DE, Eine Eigenschaft\, die die Mitglieder des Evidence-Elements definiert. Mehrere Eigenschaften werden mit einer \"und\"-Semantik angewendet.)
+* insert Translation(characteristic ^definition, en-US, A characteristic that defines the members of the evidence element. Multiple characteristics are applied with \"and\" semantics.)
 * characteristic.description MS
 * characteristic.definition[x] MS
 * characteristic.exclude MS
