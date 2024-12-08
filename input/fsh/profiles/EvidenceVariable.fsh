@@ -2,6 +2,11 @@ Profile: MII_PR_Studie_EinAuschlussKriterium
 Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
 Id: mii-pr-studie-ein-auschluss-kriterium
+Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative."
+* insert Translation(^title, de-DE, MII PR Studie EinAuschlussKriterium)
+* insert Translation(^title, en-US, MII PR Study Inclusion/Exclusion Criterion)
+* insert Translation(^description, de-DE, Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.)
+* insert Translation(^description, en-US, This profile describes a research registry within the Medical Informatics Initiative.)
 * insert addMetadata
 * insert PR_CS_VS_Version
 * insert Publisher
