@@ -3,8 +3,8 @@ Title: "MII PR Studie Register"
 Parent: Library
 Id: mii-pr-studie-register
 Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative."
-* insert Translation(^title, de-DE, MII PR Studie EinAuschlussKriterium)
-* insert Translation(^title, en-US, MII PR Study Inclusion/Exclusion Criterion)
+* insert Translation(^title, de-DE, MII PR Studie Regiester)
+* insert Translation(^title, en-US, MII PR Study Registry)
 * insert Translation(^description, de-DE, Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.)
 * insert Translation(^description, en-US, This profile describes a research registry within the Medical Informatics Initiative.)
 * insert addMetadata
