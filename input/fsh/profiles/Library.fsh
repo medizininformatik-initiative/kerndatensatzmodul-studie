@@ -20,8 +20,8 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 * insert Translation(type ^definition, en-US, Identifies the type of library such as a Logic Library\, Model Definition\, Asset Collection\, or Module Definition.)
 * name MS
 * name ^short = "Name"
-//* insert Translation(name ^short, de-DE, Name für diese Bibliothek \(computerfreundlich\))
-//* insert Translation(name ^short, en-US, Name for this library \(computer friendly\))
+* insert Translation(name ^short, de-DE, Name für diese Bibliothek - computerfreundlich)
+* insert Translation(name ^short, en-US, Name for this library - computer friendly)
 * name ^definition = "Ein Name in natürlicher Sprache, der die Bibliothek identifiziert. Dieser Name sollte als Bezeichner für das Modul in maschinellen Verarbeitungsanwendungen wie Codegenerierung verwendbar sein."
 * insert Translation(name ^definition, de-DE, Ein Name in natürlicher Sprache\, der die Bibliothek identifiziert. Dieser Name sollte als Bezeichner für das Modul in maschinellen Verarbeitungsanwendungen wie Codegenerierung verwendbar sein.)
 * insert Translation(name ^definition, en-US, A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.)
