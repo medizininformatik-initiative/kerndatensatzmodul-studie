@@ -2,11 +2,83 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-studie",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie",
-  "version": "2024.0.0",
+  "version": "2025.0.0",
   "name": "MII_PR_Studie_Studie",
   "title": "MII PR Studie Studie",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "MII PR Studie Studie"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII PR Study Study"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "This profile describes a study within the Medical Informatics Initiative."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -24,6 +96,68 @@
         "id": "ResearchStudy.extension:Label",
         "path": "ResearchStudy.extension",
         "sliceName": "Label",
+        "short": "Label",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Backport Label"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Backport Label"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "*",
         "type": [
@@ -40,6 +174,68 @@
         "id": "ResearchStudy.extension:AssociatedParty",
         "path": "ResearchStudy.extension",
         "sliceName": "AssociatedParty",
+        "short": "AssociatedParty",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Backport AssociatedParty"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Backport AssociatedParty"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "*",
         "type": [
@@ -56,6 +252,68 @@
         "id": "ResearchStudy.extension:Ethikvotum",
         "path": "ResearchStudy.extension",
         "sliceName": "Ethikvotum",
+        "short": "Ethikvotum",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Ethikvotum"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Ethikvotum"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "*",
         "type": [
@@ -72,6 +330,68 @@
         "id": "ResearchStudy.extension:Studienregister",
         "path": "ResearchStudy.extension",
         "sliceName": "Studienregister",
+        "short": "Studienregister",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Studienregister"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Studienregister"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "*",
         "type": [
@@ -88,6 +408,68 @@
         "id": "ResearchStudy.extension:Eligibility",
         "path": "ResearchStudy.extension",
         "sliceName": "Eligibility",
+        "short": "Eligibility",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Eligibility"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Eligibility"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "1",
         "type": [
@@ -104,6 +486,68 @@
         "id": "ResearchStudy.extension:Akronym",
         "path": "ResearchStudy.extension",
         "sliceName": "Akronym",
+        "short": "Akronym",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Akronym"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Akronym"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "1",
         "type": [
@@ -120,6 +564,68 @@
         "id": "ResearchStudy.extension:Rekrutierung",
         "path": "ResearchStudy.extension",
         "sliceName": "Rekrutierung",
+        "short": "Rekrutierung",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Rekrutierung"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Rekrutierung"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "1",
         "type": [
@@ -136,6 +642,68 @@
         "id": "ResearchStudy.extension:Finanzierung",
         "path": "ResearchStudy.extension",
         "sliceName": "Finanzierung",
+        "short": "Finanzierung",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Finanzierung"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "MII EX Studie Finanzierung"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Optional Extension Element - found in all resources."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "*",
         "type": [
@@ -151,6 +719,68 @@
       {
         "id": "ResearchStudy.identifier",
         "path": "ResearchStudy.identifier",
+        "short": "Name für diese Studie",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Name für diese Studie."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Business Identifier for study."
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Kennungen, die dieser Forschungsstudie vom Sponsor oder anderen Systemen zugewiesen wurden.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Kennungen, die dieser Forschungsstudie vom Sponsor oder anderen Systemen zugewiesen wurden."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Identifiers assigned to this research study by the sponsor or other systems."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
@@ -166,26 +796,336 @@
       {
         "id": "ResearchStudy.title",
         "path": "ResearchStudy.title",
+        "short": "Name für diese Studie",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Name für diese Studie."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Name for this study."
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Ein kurzer, beschreibender und benutzerfreundlicher Bezeichner für die Studie.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Ein kurzer, beschreibender und benutzerfreundlicher Bezeichner für die Studie."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "A short, descriptive user-friendly label for the study."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
         "id": "ResearchStudy.partOf",
         "path": "ResearchStudy.partOf",
+        "short": "Teil einer größeren Studie.",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Teil einer größeren Studie."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Part of larger study."
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Eine größere Forschungsstudie, von der diese spezielle Studie ein Bestandteil oder ein Schritt ist.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Eine größere Forschungsstudie, von der diese spezielle Studie ein Bestandteil oder ein Schritt ist."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "A larger research study of which this particular study is a component or step."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
         "id": "ResearchStudy.status",
         "path": "ResearchStudy.status",
+        "short": "aktiv | administrativ abgeschlossen | genehmigt | für Rekrutierung geschlossen | für Rekrutierung und Intervention geschlossen | abgeschlossen | abgelehnt | in Überprüfung | vorübergehend für Rekrutierung geschlossen | vorübergehend für Rekrutierung und Intervention geschlossen | zurückgezogen",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "aktiv | administrativ abgeschlossen | genehmigt | für Rekrutierung geschlossen | für Rekrutierung und Intervention geschlossen | abgeschlossen | abgelehnt | in Überprüfung | vorübergehend für Rekrutierung geschlossen | vorübergehend für Rekrutierung und Intervention geschlossen | zurückgezogen"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "active | administratively-completed | approved | closed-to-accrual | closed-to-accrual-and-intervention | completed | disapproved | in-review | temporarily-closed-to-accrual | temporarily-closed-to-accrual-and-intervention | withdrawn"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Der aktuelle Status der Studie.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Der aktuelle Status der Studie."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "The current state of the study."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
         "id": "ResearchStudy.category",
         "path": "ResearchStudy.category",
+        "short": "Klassifikationen für die Studie.",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Klassifikationen für die Studie."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Classifications for the study."
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Codes zur Kategorisierung des Studientyps, wie z. B. experimentell vs. beobachtend, Art der Verblindung, Art der Randomisierung, Sicherheit vs. Wirksamkeit usw.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Codes zur Kategorisierung des Studientyps, wie z. B. experimentell vs. beobachtend, Art der Verblindung, Art der Randomisierung, Sicherheit vs. Wirksamkeit usw."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Codes categorizing the type of study such as investigational vs. observational, type of blinding, type of randomization, safety vs. efficacy, etc."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
         "id": "ResearchStudy.focus",
         "path": "ResearchStudy.focus",
+        "short": "Untersuchte Medikamente, Geräte usw.",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Untersuchte Medikamente, Geräte usw."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Drugs, devices, etc. under study"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Die Medikamente, Nahrungsmittel, Therapien, Geräte oder andere Anliegen oder Interventionen, über die die Studie mehr Informationen gewinnen möchte.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Die Medikamente, Nahrungsmittel, Therapien, Geräte oder andere Anliegen oder Interventionen, über die die Studie mehr Informationen gewinnen möchte."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "The medication, food, therapy, device or other concerns or interventions that the study is seeking to gain more information about."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
@@ -196,6 +1136,68 @@
       {
         "id": "ResearchStudy.keyword",
         "path": "ResearchStudy.keyword",
+        "short": "Wird verwendet, um nach der Studie zu suchen.",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Wird verwendet, um nach der Studie zu suchen."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Used to search for the study."
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Schlüsselbegriffe, die bei der Suche nach oder Filterung der Studie helfen.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Schlüsselbegriffe, die bei der Suche nach oder Filterung der Studie helfen."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Key terms to aid in searching for or filtering the study."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
@@ -206,6 +1208,68 @@
       {
         "id": "ResearchStudy.arm",
         "path": "ResearchStudy.arm",
+        "short": "Definierter Weg durch die Studie für ein Subjekt.",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Definierter Weg durch die Studie für ein Subjekt."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Defined path through the study for a subject."
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Beschreibt eine erwartete Abfolge von Ereignissen für einen der Teilnehmer einer Studie. Z. B. Exposition gegenüber Medikament A, Auswaschphase, Exposition gegenüber Medikament B, Auswaschphase, Nachverfolgung.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Beschreibt eine erwartete Abfolge von Ereignissen für einen der Teilnehmer einer Studie. Z. B. Exposition gegenüber Medikament A, Auswaschphase, Exposition gegenüber Medikament B, Auswaschphase, Nachverfolgung."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Describes an expected sequence of events for one of the participants of a study. E.g. Exposure to drug A, wash-out, exposure to drug B, wash-out, follow-up."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true
       },
       {
