@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-label",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+  "version": "2024.0.0",
   "name": "MII_EX_Studie_Backport_Label",
   "title": "MII EX Studie Backport Label",
   "status": "draft",

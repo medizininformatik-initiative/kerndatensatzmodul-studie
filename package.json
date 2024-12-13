@@ -1,0 +1,13 @@
+{
+  "name": "de.medizininformatikinitiative.kerndatensatz.studie",
+  "version": "2024.0.0",
+  "description": "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben",
+  "author": "KDS Studie Team",
+  "fhirVersions": [
+      "4.0.1"
+  ],
+  "dependencies": {
+      "hl7.fhir.r4.core": "4.0.1",
+      "de.medizininformatikinitiative.kerndatensatz.meta": "1.0.3"
+  }
+}
