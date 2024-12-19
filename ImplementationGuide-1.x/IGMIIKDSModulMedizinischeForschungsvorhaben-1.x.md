@@ -1,19 +1,14 @@
 # Kerndatensatz Modul Medizinische Forschungsvorhaben
 
-| Hinweis | Under Construction! |
-|---------|---------------------|
-| {{render:ImplementationGuide-Common/images/Warning.jpg}}  | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Medizinische Forschungsvorhaben' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Medizinische_Forschungsvorhaben/IGMIIKDSModulMedizinischeForschungsvorhaben.html).|
-
 Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz Moduls 'Medizinische Forschungsvorhaben' der Medizininformatik-Initiative.
 Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
 | Veröffentlichung   |   |
 |---------|--------------|
-| Datum   | 15.01.2025   |
-| Version | 2024.0.0       |
+| Datum   | 15.01.2024   |
+| Version | 2025.0.0       |
 | Status  | Veröffentlicht       |
 | Realm   | DE           | 
-
 
 ## Inhaltsverzeichnis
 
