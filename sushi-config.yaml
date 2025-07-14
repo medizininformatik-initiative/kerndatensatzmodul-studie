@@ -4,3 +4,4 @@ fhirVersion: 4.0.1
 FSHOnly: true
 dependencies:
   hl7.fhir.extensions.r5: 4.0.1
+  de.medizininformatikinitiative.kerndatensatz.meta: 1.0.3
