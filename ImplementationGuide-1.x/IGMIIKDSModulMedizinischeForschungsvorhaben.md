@@ -29,6 +29,7 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier-Projekt stets ger
 ## Autoren (in alphabetischer Reihenfolge)
 * Bartow, Martin
 * Brix, Tobias
+* Gatrio, Margaux
 * Gulden, Christian
 * Löbe, Matthias
 * Macho , Philipp Marten
