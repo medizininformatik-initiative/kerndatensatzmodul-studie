@@ -2,8 +2,7 @@
 
 ### Relation zum Modul PERSON
 
-Das bereits abgestimmte Basismodul PERSON modelliert Daten zu Patienten im Rahmen der MII und enthält auch eine minimale Version des Probanden. Dieses Konstrukt wird durch die vorliegende Beschreibung nicht ersetzt und steht auch nicht im Widerspruch dazu. Vielmehr wird die skizzierte Form von „Proband“ durch dieses Dokument erweitert und präzisiert.
-Anmerkung: Die FHIR-Spezifikation des Basismoduls PERSON enthält in ihrer aktuellen Version Anforderungen bezüglich Kardinalitäten, die aus Sicht des Teams den praktischen Einsatz für medizinische Forschungsvorhaben über die Abbildung der MII Use Cases hinaus erschweren bzw. einschränken. Diese Konflikte werden im Rahmen der Profilerstellung mit dem Team PERSON diskutiert und aufgelöst.
+Eine minimale Version des Probanden war zuvor im Modul PERSON der MII abgebildet und wurde mit diesem Release in das Modul Stuide verschoben.
 
 ### Relation zum Modul CONSENT
 Das bereits abgestimmte Erweiterungsmodul CONSENT beschreibt Einwilligungserklärungen von aufgeklärten Patienten/Probanden sowie Policies zur Durchsetzung abgestufter Nutzungsvarianten. Dabei wird dort auf Forschungsvorhaben Bezug genommen, für welche ein solcher Consent gelten soll. Das Modul enthält in seinem aktuellen Entwurfszustand keine problematischen Konflikte mit Bezug auf Forschungsvorhaben.
