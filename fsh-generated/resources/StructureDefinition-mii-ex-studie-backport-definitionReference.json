@@ -22,11 +22,6 @@
   "differential": {
     "element": [
       {
-        "id": "Extension",
-        "path": "Extension",
-        "short": "MII EX Studie Backport definitionReference"
-      },
-      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"

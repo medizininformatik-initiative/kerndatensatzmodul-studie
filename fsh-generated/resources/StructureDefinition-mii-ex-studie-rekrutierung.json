@@ -22,11 +22,6 @@
   "differential": {
     "element": [
       {
-        "id": "Extension",
-        "path": "Extension",
-        "short": "MII EX Studie Rekrutierung"
-      },
-      {
         "id": "Extension.extension:rekrutierungsstand-datum",
         "path": "Extension.extension",
         "sliceName": "rekrutierungsstand-datum",
