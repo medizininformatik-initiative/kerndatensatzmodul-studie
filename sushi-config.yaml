@@ -1,13 +1,13 @@
 canonical: https://www.medizininformatik-initiative.de/fhir/modul-studie
 applyExtensionMetadataToRoot: false
 id: mii-ig-studie
-name: [DE] Medizininformatik Initiative - Medizinische Forschungsvorhaben - Implementierungsleitfaden - Version 2026.0.0
+name: MII_IG_Medizinisches_Forschungsvorhaben
 status: active
-version: 2026.0.0
+version: 2026.0.0-ballot
 fhirVersion: 4.0.1
 FSHOnly: false
 packageId: de.medizininformatikinitiative.kerndatensatz.studie
-copyrightYear: 2019+
+copyrightYear: 2024+
 releaseLabel: ci-build
 publisher:
   name: Medizininformatik Initiative
@@ -18,4 +18,3 @@ dependencies:
 
 menu:
   Home: index.html
-  Artifacts: artifacts.html
