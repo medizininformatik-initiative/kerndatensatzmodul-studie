@@ -7,7 +7,7 @@ Das Repository beschreibt die FHIR-Spezifikation des Moduls 'Studie' - Medizinis
 ### Status
 
 * Aktuelle stabile Version: [1.0.0](https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.studie/1.0.0) (bzw. **2024.0.0** nach neuem Nummerierungsschema)
-* Aktueller [Implementierungsleitfaden](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Medizinische_Forschungsvorhaben/IGMIIKDSModulMedizinischeForschungsvorhaben.html)
+* Aktueller [Implementierungsleitfaden](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Medizinische_Forschungsvorhaben/MIIIGModulStudie.html)
 
 Die im vorliegenden Repository bzw. auf [Simplifer](https://simplifier.net/medizininformatik-initiative-modul-studien) befindlichen FHIR-Artefakte stellen den **aktuellen Arbeitsstand** dar. Sie sind nicht abgestimmt und können sich jederzeit ändern.
 

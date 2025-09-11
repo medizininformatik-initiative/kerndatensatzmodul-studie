@@ -10,7 +10,7 @@
   <fhirVersion value="4.0.1" />
   <definition>
     <page>
-      <nameUrl value="ImplementationGuide-1.x/IGMIIKDSModulMedizinischeForschungsvorhaben.md" />
+      <nameUrl value="ImplementationGuide-1.x/MIIIGModulStudie.md" />
       <title value="IG MII KDS Modul Medizinische Forschungsvorhaben" />
       <generation value="markdown" />
       <page>
