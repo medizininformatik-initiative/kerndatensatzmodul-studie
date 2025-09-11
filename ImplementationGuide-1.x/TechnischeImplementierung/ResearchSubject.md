@@ -60,9 +60,9 @@ select
 | Patient.identifier:subjectIdentificationCode      | Fixes NamingSystem zur einheitlichen, standort-übergreifenden Abfrage des Identifiers (bei Auswertungen)         |
 | ResearchSubject.period.start      | Startdatum (Einschluss der PatientIn in die Studie)      |
 | ResearchSubject.period.end      | Enddatum (Abschluss der Studie oder Ausschluss der PatientIn)       |
-| ResearchSubject.study      | Referenz auf die Metadaten der Studie an welcher die PatientIn teilnimmt. Weitere Vorgaben siehe Erweiterungsmodul STUDIENDATEN. |
+| ResearchSubject.study      | Referenz auf die Metadaten der Studie an welcher die PatientIn teilnimmt. |
 | ResearchSubject.individual      | Jede ProbandIn MUSS einer PatientIn zugeordnet werden. |
-| ResearchSubject.consent      | Einwilligung in die Studie oder regulatorische Grundlage MUSS vorliegen. Weitere Vorgaben für die Modellierung des Consents können durch andere Erweiterungsmodule entstehen. |
+| ResearchSubject.consent      | Einwilligung in die Studie oder regulatorische Grundlage MUSS vorliegen. Weitere Vorgaben für die Modellierung des Consents können durch andere Module entstehen. |
 
 ---
 
@@ -81,7 +81,7 @@ select
 
 **Suchparameter**
 
-Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+Folgende Suchparameter sind für das Modul Medizinische Forschungsvorhaben relevant, auch in Kombination:
 
 1. Der Suchparameter "_id" MUSS unterstützt werden:
 

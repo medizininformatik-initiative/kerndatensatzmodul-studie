@@ -1,8 +1,8 @@
-# Medizininformatik Initiative - Modul Studie
+# Medizininformatik Initiative - Modul Medizinische Forschungsvorhaben
 
 ## Übersicht
 
-Das Repository beschreibt die FHIR-Spezifikation des Erweiterungmoduls 'Studie' - Medizinische Forschungsvorhaben, welches einen Teil des [Kerndatensatzes](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative) der Medizininformatik-Initative darstellt. Die hier veröffentlichten FHIR-Profile und Beispiele dienen als zentrale und verbindliche Spezifikation für die syntaktische und semantische Kodierung der Modulinhalte.
+Das Repository beschreibt die FHIR-Spezifikation des Moduls 'Studie' - Medizinische Forschungsvorhaben, welches einen Teil des [Kerndatensatzes](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative) der Medizininformatik-Initative darstellt. Die hier veröffentlichten FHIR-Profile und Beispiele dienen als zentrale und verbindliche Spezifikation für die syntaktische und semantische Kodierung der Modulinhalte.
 
 ### Status
 
@@ -273,7 +273,7 @@ Beispiel:
   }
 ```
 
-Organisationseinheiten und Standorte sind Teil des Erweiterungsmoduls Strukturdaten des Kerndatensatz und werden hier nicht weiter erläutert.
+Organisationseinheiten und Standorte sind Teil des Moduls Strukturdaten des Kerndatensatz und werden hier nicht weiter erläutert.
 
 ### Studienzentren
 
