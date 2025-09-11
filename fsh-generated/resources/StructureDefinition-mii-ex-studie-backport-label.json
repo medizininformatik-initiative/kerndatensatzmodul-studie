@@ -2,10 +2,9 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-label",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
-  "version": "2025.0.0",
   "name": "MII_EX_Studie_Backport_Label",
   "title": "MII EX Studie Backport Label",
-  "status": "draft",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -20,11 +19,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Extension",
-        "path": "Extension",
-        "short": "MII EX Studie Backport Label"
-      },
       {
         "id": "Extension.extension",
         "path": "Extension.extension",

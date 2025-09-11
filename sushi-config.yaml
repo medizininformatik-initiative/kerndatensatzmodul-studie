@@ -1,7 +1,21 @@
 canonical: https://www.medizininformatik-initiative.de/fhir/modul-studie
-version: 2025.0.0
+applyExtensionMetadataToRoot: false
+id: mii-ig-studie
+name: MII_IG_Studie
+status: active
+version: 2026.0.0
 fhirVersion: 4.0.1
-FSHOnly: true
+FSHOnly: false
+packageId: de.medizininformatikinitiative.kerndatensatz.studie
+copyrightYear: 2019+
+releaseLabel: ci-build
+publisher:
+  name: Medizininformatik Initiative
+  url: https://www.medizininformatik-initiative.de/
 dependencies:
   hl7.fhir.extensions.r5: 4.0.1
-  de.medizininformatikinitiative.kerndatensatz.meta: 1.0.3
+  de.medizininformatikinitiative.kerndatensatz.meta: 2025.0.x
+
+menu:
+  Home: index.html
+  Artifacts: artifacts.html

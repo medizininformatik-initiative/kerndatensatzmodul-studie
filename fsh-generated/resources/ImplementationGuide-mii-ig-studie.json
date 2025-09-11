@@ -1,0 +1,378 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "mii-ig-studie",
+  "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
+  "version": "2026.0.0",
+  "name": "MII_IG_Studie",
+  "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "name": "Medizininformatik Initiative",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de/"
+        }
+      ]
+    }
+  ],
+  "packageId": "de.medizininformatikinitiative.kerndatensatz.studie",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
+      "version": "2025.0.x",
+      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.meta/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.meta",
+      "id": "de_medizininformatikinitiative_kerndatensatz_meta"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "SearchParameter/DocumentReference-size"
+        },
+        "name": "DocumentReference-size",
+        "description": "Suchparameter für DocumentReference.content.attachment.size",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/DocumentReference-title"
+        },
+        "name": "DocumentReference-title",
+        "description": "Suchparameter für DocumentReference.content.attachment.title",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/EvidenceVariable-characteristic-description"
+        },
+        "name": "EvidenceVariable-characteristic-description",
+        "description": "Suchparameter für ResearchStudy.characteristic.description",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ResearchStudy/mii-exa-studie-studie"
+        },
+        "name": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue",
+        "description": "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/Library-quellregister"
+        },
+        "name": "Library-quellregister",
+        "description": "Suchparameter für Library.extension:QuellRegister",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/Library-relatedArtifactUrl"
+        },
+        "name": "Library-relatedArtifactUrl",
+        "description": "Suchparameter für Library.relatedArtifact.document.url",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ResearchStudy/mii-exa-studie-cohort"
+        },
+        "name": "LIFE-Adult-Study",
+        "description": "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/MII-CPS-Metadata-Studie"
+        },
+        "name": "MII CPS Metadata Studie",
+        "description": "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Studie der Medizininformatik Initiative zu implementieren.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-akronym"
+        },
+        "name": "MII EX Studie Akronym",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-associatedParty"
+        },
+        "name": "MII EX Studie Backport AssociatedParty",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-definition-by-combination"
+        },
+        "name": "MII EX Studie Backport DefinitionByCombination",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-definition-by-type-and-value"
+        },
+        "name": "MII EX Studie Backport DefinitionByTypeAndValue",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-definitionCanonical"
+        },
+        "name": "MII EX Studie Backport definitionCanonical",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-definitionReference"
+        },
+        "name": "MII EX Studie Backport definitionReference",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-label"
+        },
+        "name": "MII EX Studie Backport Label",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-linkId"
+        },
+        "name": "MII EX Studie Backport linkId",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-eligibility"
+        },
+        "name": "MII EX Studie Eligibility",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-ethikvotum"
+        },
+        "name": "MII EX Studie Ethikvotum",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-finanzierung"
+        },
+        "name": "MII EX Studie Finanzierung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-quell-register"
+        },
+        "name": "MII EX Studie Quell Register",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-rekrutierung"
+        },
+        "name": "MII EX Studie Rekrutierung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-studienregister"
+        },
+        "name": "MII EX Studie Studienregister",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-lm-studie-logicalmodel"
+        },
+        "name": "MII LM Studie LogicalModel",
+        "description": "Logische Repräsentation der Forschungsvorhaben",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-studie-beteiligte-person"
+        },
+        "name": "MII PR Studie Beteiligte Person",
+        "description": "Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-studie-dokument"
+        },
+        "name": "MII PR Studie Dokument",
+        "description": "Dieses Profil beschreibt ein Dokument / Publikation in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
+        },
+        "name": "MII PR Studie EinAuschlussKriterium",
+        "description": "Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-studie-proband"
+        },
+        "name": "MII PR Studie Proband",
+        "description": "Dieses Profil beschreibt eine Proband*in in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-studie-register"
+        },
+        "name": "MII PR Studie Register",
+        "description": "Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-studie-studie"
+        },
+        "name": "MII PR Studie Studie",
+        "description": "Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/mii-exa-studie-beteiligte-person"
+        },
+        "name": "mii-exa-studie-beteiligte-person",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/mii-exa-studie-dokument"
+        },
+        "name": "mii-exa-studie-dokument",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"
+      },
+      {
+        "reference": {
+          "reference": "EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium"
+        },
+        "name": "mii-exa-studie-ein-auschluss-kriterium",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
+      },
+      {
+        "reference": {
+          "reference": "Library/mii-exa-studie-register"
+        },
+        "name": "mii-exa-studie-register",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-akronym"
+        },
+        "name": "ResearchStudy-akronym",
+        "description": "Suchparameter für ResearchStudy.extension:Akronym",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-armName"
+        },
+        "name": "ResearchStudy-armName",
+        "description": "Suchparameter für ResearchStudy.arm.name",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-finanzierung"
+        },
+        "name": "ResearchStudy-finanzierung",
+        "description": "Suchparameter für ResearchStudy.extension:Finanzierung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-label"
+        },
+        "name": "ResearchStudy-label",
+        "description": "Suchparameter für ResearchStudy.extension:label",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-rekrutierungsstand"
+        },
+        "name": "ResearchStudy-rekrutierungsstand",
+        "description": "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-rekrutierungsstand-datum"
+        },
+        "name": "ResearchStudy-rekrutierungsstand-datum",
+        "description": "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-rekrutierungsstand-genauigkeit"
+        },
+        "name": "ResearchStudy-rekrutierungsstand-genauigkeit",
+        "description": "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-rekrutierungsstart"
+        },
+        "name": "ResearchStudy-rekrutierungsstart",
+        "description": "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-rekrutierungsziel"
+        },
+        "name": "ResearchStudy-rekrutierungsziel",
+        "description": "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/ResearchStudy-studienregister"
+        },
+        "name": "ResearchStudy-studienregister",
+        "description": "Suchparameter für ResearchStudy.extension:Studienregister",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2019+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
