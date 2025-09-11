@@ -1,6 +1,6 @@
 ## Datensätze inkl. Beschreibungen
 
-Die offizielle und abgenommene Version des Informationsmodells für das Modul Studie findet sich auf [ART-DECOR](https://art-decor.org/art-decor/decor-datasets--mide-). Zur Vereinheitlichung der Repräsentation wurde das Informationsmodell zusätzlich als FHIR Logical Model abgebildet:
+Das Informationsmodells für das Modul Medizinische Forschungsvorhaben wurde als FHIR Logical Model abgebildet:
 
 {{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel}}
 
