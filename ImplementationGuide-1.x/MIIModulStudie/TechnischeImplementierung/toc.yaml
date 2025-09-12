@@ -1,0 +1,25 @@
+- name: Index
+  filename: Index.page.md
+- name: FHIR-Profile
+  filename: Profile-Profile.page.md
+- name: Technische Implementierung
+  filename: TechnischeImplementierung.page.md
+- name: Dokument (DocumentReference)
+  filename: DocumentReference.page.md
+- name: Ein- und Ausschlusskriterium (EvidenceVariable)
+  filename: EvidenceVariable.page.md
+- name: Register (Library)
+  filename: Library.page.md
+- name: Organisation (Organization)
+  filename: Organisation.page.md
+- name:  Beteiligte Person (PractitionerRole)
+  filename: PractitionerRole.page.md
+- name: Studie (ResearchStudy)
+  filename: ResearchStudy.page.md
+- name: ResearchSubjProband:in (ResearchSubject)ect
+  filename: ResearchSubject.page.md
+- name: CapabilityStatement
+  filename: CapabilityStatement.page.md
+- name: Terminologie
+  filename: Terminologie.page.md
+
