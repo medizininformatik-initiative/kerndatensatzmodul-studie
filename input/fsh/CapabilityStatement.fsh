@@ -3,10 +3,10 @@ InstanceOf: CapabilityStatement
 Usage: #definition
 * status = #active
 * experimental = false
-* version = "1.0.0-ballot"
+* version = "2026.0.0-ballot"
 * publisher = "Medizininformatik Initiative"
-* date = "2023-06-12"
-* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|1.0.0"
+* date = "2024-09-12"
+* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2026.0.0-ballot"
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata"
 * name = "MII CPS Metadata Studie"
 * title = "MII CPS Metadata Studie"

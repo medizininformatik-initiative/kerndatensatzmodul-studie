@@ -24,7 +24,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 |--------------|-----------|
 | DocumentReference.id      | Must-support, jedoch optional        |
 | DocumentReference.meta       | Must-support, jedoch optional         |
-| DocumentReference.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-1.x/TechnischeImplementierung/CapabilityStatement.md}}. In allen anderen Fällen optional.         |
+| DocumentReference.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.md}}. In allen anderen Fällen optional.         |
 | DocumentReference.content.attachment.url | Diese absolute URL sollte auf einen Binary-Endpunkt eines FHIR-Servers verweisen. Die Hinweise der FHIR-Kernspezifikation zum [Abruf von Binary-Ressourcen](https://www.hl7.org/fhir/r4/binary.html#rest) sind zu beachten. |
 | DocumentReference.content.attachment.title       | Der Titel sollte eine sinnvolle menschenlesbare Beschreibung enthalten, das Element sollte nicht für den Dateinamen verwendet werden. |
 | DocumentReference.custodian     | Sollte der Standort nicht als Organization-Ressource verfügbar sein, kann auch ggf. Reference.display oder Referenz.identifier verwendet werden. |

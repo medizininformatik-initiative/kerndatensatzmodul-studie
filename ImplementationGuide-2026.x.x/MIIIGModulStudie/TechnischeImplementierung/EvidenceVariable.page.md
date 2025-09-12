@@ -24,7 +24,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 |--------------|-----------|
 | EvidenceVariable.id      | Must-support, jedoch optional        |
 | EvidenceVariable.meta       | Must-support, jedoch optional         |
-| EvidenceVariable.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-1.x/TechnischeImplementierung/CapabilityStatement.md}}. In allen anderen Fällen optional.         |
+| EvidenceVariable.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.md}}. In allen anderen Fällen optional.         |
 |EvidenceVariable.characteristic.description|Textuelle Beschreibung dess Kriteriums|
 |EvidenceVariable.characteristic.definition[x]| In den dazugehöirgen Backport-Extensions aus FHIR R5 sind weitere Datentypen als in FHIR R4 erlaubt. Sollte z.B. die Extension definitionByCombination oder definitionByTypeAndValue verwendet werden, so muss definitionCodeableConcept mit dem Data-Absent-Reason Code "unknown" befüllt werden, sodass die Kardinalität von 1..1 erfüllt bleibt.|
 |EvidenceVariable.characteristic.exclude|Boolesches Element welches definiert, ob es sich um ein Einschluss- oder Ausschlusskriterium handelt|
