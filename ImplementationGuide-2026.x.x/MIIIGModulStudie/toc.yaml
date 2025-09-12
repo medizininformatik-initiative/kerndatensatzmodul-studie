@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: Technische Implementierung
+  filename: TechnischeImplementierung.page.md
 - name: Anwendungsfälle / Informationsmodell
   filename: AnwendungsflleInformationsmodell.page.md
 - name: Beschreibung Modul Medizinische Forschungsvorhaben
