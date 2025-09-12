@@ -1,4 +1,4 @@
-name: Index
+- name: Index
   filename: Index.page.md
 - name: FHIR-Profile
   filename: Profile-Profile.page.md
