@@ -7,7 +7,7 @@
 Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative.
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/ResearchSubject' select Name: name, Canonical: url
 ```
 
 ---
