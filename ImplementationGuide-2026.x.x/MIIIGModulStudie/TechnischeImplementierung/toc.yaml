@@ -1,7 +1,7 @@
 - name: Index
   filename: Index.page.md
 - name: FHIR-Profile
-  filename: Profile-Profile.page.md
+  filename: FHIR-Profile.page.md
 - name: Technische Implementierung
   filename: TechnischeImplementierung.page.md
 - name: Dokument (DocumentReference)
@@ -11,7 +11,7 @@
 - name: Register (Library)
   filename: Library.page.md
 - name: Organisation (Organization)
-  filename: Organisation.page.md
+  filename: Organization.page.md
 - name:  Beteiligte Person (PractitionerRole)
   filename: PractitionerRole.page.md
 - name: Studie (ResearchStudy)
