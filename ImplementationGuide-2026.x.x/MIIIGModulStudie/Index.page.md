@@ -5,7 +5,7 @@ Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profil
 
 | Veröffentlichung   |   |
 |---------|--------------|
-| Datum   | 11.09.2025   |
+| Datum   | 17.09.2025   |
 | Version | 2026.0.0-ballot       |
 | Status  | ballot       |
 | Realm   | DE           | 
