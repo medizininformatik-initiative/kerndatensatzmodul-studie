@@ -299,7 +299,7 @@ Usage: #definition
 * rest.resource[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #ResearchSubject
-* rest.resource[=].supportedProfile = "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/ResearchSubject|2025.0.0"
+* rest.resource[=].supportedProfile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband|2025.0.0"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read
