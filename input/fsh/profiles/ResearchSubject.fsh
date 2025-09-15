@@ -3,7 +3,7 @@ Parent: ResearchSubject
 Id: mii-pr-studie-proband
 Title: "MII PR Studie Proband"
 Description: "Dieses Profil beschreibt eine Proband*in in der Medizininformatik-Initiative."
-* ^url = "https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/ResearchSubject"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
 * insert PR_CS_VS_Version
 * insert Publisher
 * id MS

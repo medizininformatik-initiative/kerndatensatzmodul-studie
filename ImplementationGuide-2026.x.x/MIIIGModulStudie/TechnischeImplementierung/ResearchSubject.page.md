@@ -5,13 +5,13 @@
 **Beschreibung**
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/ResearchSubject' select Name: name, Canonical: url
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband' select Name: name, Canonical: url
 ```
 ---
 
 **Differential**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-studie/StructureDefinition/ResearchSubject, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband, diff}}
 
 ---
 
