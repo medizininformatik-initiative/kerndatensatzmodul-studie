@@ -1,6 +1,6 @@
 ## Beschreibung von Szenarien für die Anwendung der Module
 
-Das Team des Moduls Medizinische Forschungsvorhaben hat zu Beginn eine große Menge an möglichen Szenarien entwickelt, die Einfluss auf die Ausgestaltung und den Umfang des Moduls haben würden. Um zu einer ersten konsentierbaren Version zu kommen, wurden folgende Schwerpunkte herausgestellt, auf die sich das vorliegende Modell fokussiert:
+Das Team des Moduls Medizinisches Forschungsvorhaben hat zu Beginn eine große Menge an möglichen Szenarien entwickelt, die Einfluss auf die Ausgestaltung und den Umfang des Moduls haben würden. Um zu einer ersten konsentierbaren Version zu kommen, wurden folgende Schwerpunkte herausgestellt, auf die sich das vorliegende Modell fokussiert:
 
 **1.**	Unterstützung des Konzepts der Forschungsstudie im Sinne eines strukturierten Projekts mit Merkmalen zur Identifizierung und Verwaltung eines Forschungsvorhabens und zur Abbildung der basalen charakterisierenden Merkmale (Studienregister)
 

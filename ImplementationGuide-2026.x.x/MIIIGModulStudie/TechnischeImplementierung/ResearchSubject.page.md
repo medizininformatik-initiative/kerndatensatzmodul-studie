@@ -81,7 +81,7 @@ select
 
 **Suchparameter**
 
-Folgende Suchparameter sind für das Modul Medizinische Forschungsvorhaben relevant, auch in Kombination:
+Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben relevant, auch in Kombination:
 
 1. Der Suchparameter "_id" MUSS unterstützt werden:
 

@@ -1,10 +1,10 @@
-## Beschreibung Modul Medizinische Forschungsvorhaben
+## Beschreibung Modul Medizinisches Forschungsvorhaben
 
 {{render:ImplementationGuide-Common/images/Abbildung_Med_Forschung_de.jpg}}
 
-Das MII KDS Modul Medizinische Forschungsvorhaben ist als Modul des [Kerndatensatzes (KDS) der Medizininformatik-Initiative (MII)](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative) entstanden. 
+Das MII KDS Modul Medizinisches Forschungsvorhaben ist als Modul des [Kerndatensatzes (KDS) der Medizininformatik-Initiative (MII)](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative) entstanden. 
 
-Medizinische Forschungsvorhaben im Rahmen der Medizininformatik sind geplante experimentelle klinische und epidemiologische Untersuchungen, die sich auf strukturierte Datenerfassungen meist menschlicher Probanden stützen. Sie umfassen eine breite Palette verschiedener Typen mit einem unterschiedlichen Grad an regulativen Vorgaben. Ausdrücklich eingeschlossen in diesem Modul sind:
+Medizinisches Forschungsvorhaben im Rahmen der Medizininformatik sind geplante experimentelle klinische und epidemiologische Untersuchungen, die sich auf strukturierte Datenerfassungen meist menschlicher Probanden stützen. Sie umfassen eine breite Palette verschiedener Typen mit einem unterschiedlichen Grad an regulativen Vorgaben. Ausdrücklich eingeschlossen in diesem Modul sind:
 
 •	**Klinische Prüfungen** dienen dem Nachweis der Überlegenheit neuer Therapien und deren Unbedenklichkeit. Sie können sowohl interventionell als auch beobachtend sein. Ein häufiges Anwendungsgebiet sind Arzneimittelzulassungsstudien, für deren Durchführung strenge gesetzliche Vorgaben existieren, um die Prüfungsteilnehmer zu schützen. Kennzeichnend für klinische Prüfungen bzw. klinische Studien sind vergleichsweise kleine Probandenkollektive, eine abgegrenzte Fragestellung, ein spezifischer, aber vom Umfang her überschaubarer Datenkatalog sowie eine festgelegte Projektdauer. Viele klinische Studien teilen das Untersuchungskollektiv in verschiedene Teilkollektive (Arme) ein, welche u.U. andere Datenerhebungsverfahren bedienen. Des Weiteren werden klinische Studien häufig an mehreren Standorten (multizentrisch) durchgeführt. Typisch für klinische Studien ist ein aktives Datenmanagement, aber ein geringer Standardisierungsgrad einzelner Datenelemente zwischen verschiedenen Studien.
 

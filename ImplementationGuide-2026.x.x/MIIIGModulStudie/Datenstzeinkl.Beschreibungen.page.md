@@ -1,6 +1,6 @@
 ## Datensätze inkl. Beschreibungen
 
-Das Informationsmodells für das Modul Medizinische Forschungsvorhaben wurde als FHIR Logical Model abgebildet:
+Das Informationsmodells für das Modul Medizinisches Forschungsvorhaben wurde als FHIR Logical Model abgebildet:
 
 {{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel}}
 

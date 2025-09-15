@@ -1,6 +1,6 @@
-# Kerndatensatz Modul Medizinische Forschungsvorhaben
+# Kerndatensatz Modul Medizinisches Forschungsvorhaben
 
-Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz Moduls 'Medizinische Forschungsvorhaben' der Medizininformatik-Initiative.
+Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz Moduls 'Medizinisches Forschungsvorhaben' der Medizininformatik-Initiative.
 Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
 | Veröffentlichung   |   |
