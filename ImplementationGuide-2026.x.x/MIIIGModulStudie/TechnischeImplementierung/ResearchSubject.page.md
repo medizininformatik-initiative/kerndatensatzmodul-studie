@@ -7,7 +7,6 @@
 @```
 from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband' select Name: name, Canonical: url
 ```
----
 
 **Differential**
 
