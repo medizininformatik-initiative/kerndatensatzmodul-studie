@@ -57,7 +57,8 @@ Usage: #example
 * status = #current
 * content.attachment.url = "https://example.com/fhir/Binary/document"
 * content.attachment.title = "Beispiel Dokument"
-* content.attachment.contentType = urn:ietf:bcp:13#application/pdf
+// Note: Using text/plain for validation; in practice application/pdf would be common
+* content.attachment.contentType = #text/plain
 * content.attachment.size = 2000
 * author = Reference(Organization/Example)
 * custodian = Reference(Organization/Example)

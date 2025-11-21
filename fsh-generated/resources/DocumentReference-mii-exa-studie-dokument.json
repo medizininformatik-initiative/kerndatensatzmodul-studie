@@ -12,7 +12,7 @@
       "attachment": {
         "url": "https://example.com/fhir/Binary/document",
         "title": "Beispiel Dokument",
-        "contentType": "application/pdf",
+        "contentType": "text/plain",
         "size": 2000
       }
     }
