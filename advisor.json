@@ -5,8 +5,6 @@
     "Terminology_TX_NoValid_16@StructureDefinition.*",
     "UNABLE_TO_INFER_CODESYSTEM@DocumentReference.content.attachment.contentType",
     "Terminology_TX_NoValid_16@DocumentReference.content.attachment.contentType",
-    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
-    "Array cannot be empty - the property should not be present if it has no values@ImplementationGuide.definition.page.page",
     "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.definition.parameter.code"
   ]
 }
