@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-definitionReference",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "brr"
+    }
+  ],
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference",
   "version": "2026.0.0",
   "name": "MII_EX_Studie_Backport_definitionReference",

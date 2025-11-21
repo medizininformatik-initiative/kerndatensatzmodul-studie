@@ -183,6 +183,7 @@ Id: mii-ex-studie-backport-associatedParty
 Title: "MII EX Studie Backport AssociatedParty"
 * insert PR_CS_VS_Version
 * insert Publisher
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
 * extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
 * extension[name].value[x] only string
@@ -197,6 +198,7 @@ Extension: MII_EX_Studie_Backport_Label
 Id: mii-ex-studie-backport-label
 Title: "MII EX Studie Backport Label"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 0..1 and value 1..1 MS
 * extension[type].value[x] only CodeableConcept
 * extension[type].valueCodeableConcept from http://terminology.hl7.org/ValueSet/title-type (extensible)
