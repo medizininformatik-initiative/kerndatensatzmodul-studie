@@ -3,7 +3,8 @@ Title: "MII LM Studie LogicalModel"
 Parent: Element
 Id: mii-lm-studie-logicalmodel
 Description: "Logische Repräsentation der Forschungsvorhaben"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
   * id 0..* identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
   * System 0..* string "System einer BusinessID" "System einer BusinessID"

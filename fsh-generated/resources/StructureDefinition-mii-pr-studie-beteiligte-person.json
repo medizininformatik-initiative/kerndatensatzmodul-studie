@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-beteiligte-person",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
-  "version": "2025.0.0",
+  "version": "2026.0.0",
   "name": "MII_PR_Studie_Beteiligte_Person",
   "title": "MII PR Studie Beteiligte Person",
   "_title": {
@@ -12,7 +12,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "de-DE"
+            "valueCode": "de"
           },
           {
             "url": "content",
@@ -25,7 +25,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "en-US"
+            "valueCode": "en"
           },
           {
             "url": "content",
@@ -36,7 +36,6 @@
     ]
   },
   "status": "active",
-  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -56,7 +55,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "de-DE"
+            "valueCode": "de"
           },
           {
             "url": "content",
@@ -69,7 +68,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "en-US"
+            "valueCode": "en"
           },
           {
             "url": "content",
@@ -98,7 +97,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -111,7 +110,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -129,7 +128,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -142,7 +141,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -165,7 +164,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -178,7 +177,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -196,7 +195,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -209,7 +208,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -232,7 +231,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -245,7 +244,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -263,7 +262,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -276,7 +275,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -299,7 +298,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -312,7 +311,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -330,7 +329,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -343,7 +342,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",

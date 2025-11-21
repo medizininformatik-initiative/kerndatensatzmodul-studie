@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-label",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "brr"
+    }
+  ],
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
   "name": "MII_EX_Studie_Backport_Label",
   "title": "MII EX Studie Backport Label",
@@ -51,7 +57,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/ValueSet/title-type"
+          "valueSet": "http://terminology.hl7.org/ValueSet/title-type"
         }
       },
       {

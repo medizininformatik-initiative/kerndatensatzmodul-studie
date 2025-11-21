@@ -37,8 +37,8 @@
   "kind": "requirements",
   "fhirVersion": "4.0.1",
   "format": [
-    "application/fhir+xml",
-    "application/fhir+json"
+    "xml",
+    "json"
   ],
   "rest": [
     {
@@ -259,7 +259,7 @@
                 }
               ],
               "name": "contenttype",
-              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-location",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-contenttype",
               "type": "token"
             },
             {
@@ -293,7 +293,7 @@
               ],
               "name": "related",
               "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-related",
-              "type": "uri"
+              "type": "reference"
             }
           ]
         },
@@ -691,7 +691,7 @@
                 }
               ],
               "name": "characteristicDescription",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-characteristic-description",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description",
               "type": "string"
             }
           ]
@@ -705,7 +705,7 @@
           ],
           "type": "ResearchSubject",
           "supportedProfile": [
-            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband|2025.0.0"
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband|2026.0.0"
           ],
           "interaction": [
             {
