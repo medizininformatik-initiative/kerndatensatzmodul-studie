@@ -13,7 +13,7 @@
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
     "startLine": 54,
-    "endLine": 65
+    "endLine": 64
   },
   {
     "outputFile": "EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json",
@@ -60,16 +60,16 @@
     "fshName": "DocumentReference-size",
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 81,
-    "endLine": 93
+    "startLine": 80,
+    "endLine": 92
   },
   {
     "outputFile": "SearchParameter-DocumentReference-title.json",
     "fshName": "DocumentReference-title",
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 67,
-    "endLine": 79
+    "startLine": 66,
+    "endLine": 78
   },
   {
     "outputFile": "SearchParameter-EvidenceVariable-characteristic-description.json",

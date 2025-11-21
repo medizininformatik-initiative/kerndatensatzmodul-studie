@@ -1,13 +1,13 @@
 Output File                                                                   Name                                                 Type       FSH File                        Lines
 CapabilityStatement-MII-CPS-Metadata-Studie.json                              MII-CPS-Metadata-Studie                              Instance   CapabilityStatement.fsh         1 - 348
-DocumentReference-mii-exa-studie-dokument.json                                mii-exa-studie-dokument                              Instance   profiles/DocumentReference.fsh  54 - 65
+DocumentReference-mii-exa-studie-dokument.json                                mii-exa-studie-dokument                              Instance   profiles/DocumentReference.fsh  54 - 64
 EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json                  mii-exa-studie-ein-auschluss-kriterium               Instance   profiles/EvidenceVariable.fsh   107 - 152
 Library-mii-exa-studie-register.json                                          mii-exa-studie-register                              Instance   profiles/Library.fsh            54 - 62
 PractitionerRole-mii-exa-studie-beteiligte-person.json                        mii-exa-studie-beteiligte-person                     Instance   profiles/PractitionerRole.fsh   41 - 48
 ResearchStudy-mii-exa-studie-cohort.json                                      mii-exa-studie-cohort                                Instance   profiles/ResearchStudy.fsh      376 - 389
 ResearchStudy-mii-exa-studie-studie.json                                      mii-exa-studie-studie                                Instance   profiles/ResearchStudy.fsh      345 - 374
-SearchParameter-DocumentReference-size.json                                   DocumentReference-size                               Instance   profiles/DocumentReference.fsh  81 - 93
-SearchParameter-DocumentReference-title.json                                  DocumentReference-title                              Instance   profiles/DocumentReference.fsh  67 - 79
+SearchParameter-DocumentReference-size.json                                   DocumentReference-size                               Instance   profiles/DocumentReference.fsh  80 - 92
+SearchParameter-DocumentReference-title.json                                  DocumentReference-title                              Instance   profiles/DocumentReference.fsh  66 - 78
 SearchParameter-EvidenceVariable-characteristic-description.json              EvidenceVariable-characteristic-description          Instance   profiles/EvidenceVariable.fsh   93 - 105
 SearchParameter-Library-quellregister.json                                    Library-quellregister                                Instance   profiles/Library.fsh            64 - 76
 SearchParameter-Library-relatedArtifactUrl.json                               Library-relatedArtifactUrl                           Instance   profiles/Library.fsh            78 - 90
