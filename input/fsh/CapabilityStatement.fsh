@@ -16,8 +16,8 @@ Usage: #definition
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements
 * fhirVersion = #4.0.1
-* format[0] = #application/fhir+xml
-* format[+] = #application/fhir+json
+* format[0] = #xml
+* format[+] = #json
 * rest.mode = #server
 * rest.resource[0].extension.url = $capabilitystatement-expectation
 * rest.resource[=].extension.valueCode = #SHALL

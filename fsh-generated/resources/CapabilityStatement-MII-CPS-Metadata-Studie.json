@@ -37,8 +37,8 @@
   "kind": "requirements",
   "fhirVersion": "4.0.1",
   "format": [
-    "application/fhir+xml",
-    "application/fhir+json"
+    "xml",
+    "json"
   ],
   "rest": [
     {
