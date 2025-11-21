@@ -7,7 +7,6 @@ Description: "Dieses Profil beschreibt ein Dokument / Publikation in der Medizin
 * insert Translation(^title, en-US, MII PR Study Document)
 * insert Translation(^description, de-DE, Dieses Profil beschreibt ein Dokument/Publikation in der Medizininformatik-Initiative.)
 * insert Translation(^description, en-US, This profile describes a document/publication within the Medical Informatics Initiative.)
-* insert addMetadata
 * insert PR_CS_VS_Version
 * insert Publisher
 * status MS

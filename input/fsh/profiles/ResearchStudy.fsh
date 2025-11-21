@@ -7,7 +7,6 @@ Description: "Dieses Profil beschreibt eine Studie in der Medizininformatik-Init
 * insert Translation(^title, en-US, MII PR Study Study)
 * insert Translation(^description, de-DE, Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative.)
 * insert Translation(^description, en-US, This profile describes a study within the Medical Informatics Initiative.)
-* insert addMetadata
 * insert PR_CS_VS_Version
 * insert Publisher
 * status MS
@@ -132,25 +131,29 @@ Description: "Dieses Profil beschreibt eine Studie in der Medizininformatik-Init
 Extension: MII_EX_Studie_Studienregister
 Id: mii-ex-studie-studienregister
 Title: "MII EX Studie Studienregister"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * value[x] only Reference(Library)
 
 Extension: MII_EX_Studie_Eligibility
 Id: mii-ex-studie-eligibility
 Title: "MII EX Studie Eligibility"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * value[x] only Reference(Group or EvidenceVariable)
 
 Extension: MII_EX_Studie_Akronym
 Id: mii-ex-studie-akronym
 Title: "MII EX Studie Akronym"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * value[x] only string
 
 Extension: MII_EX_Studie_Rekrutierung
 Id: mii-ex-studie-rekrutierung
 Title: "MII EX Studie Rekrutierung"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
 * extension[rekrutierungsstand-datum].value[x] only date
 * extension[rekrutierungsstand-genauigkeit].value[x] only string
@@ -161,13 +164,15 @@ Title: "MII EX Studie Rekrutierung"
 Extension: MII_EX_Studie_Finanzierung
 Id: mii-ex-studie-finanzierung
 Title: "MII EX Studie Finanzierung"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * value[x] only string
 
 Extension: MII_EX_Studie_Ethikvotum
 Id: mii-ex-studie-ethikvotum
 Title: "MII EX Studie Ethikvotum"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * extension contains status 1..1 MS and kommission 1..1 MS and ethiknummer 1..1 MS
 * extension[status].value[x] only string
 * extension[kommission].value[x] only string
@@ -176,7 +181,8 @@ Title: "MII EX Studie Ethikvotum"
 Extension: MII_EX_Studie_Backport_AssociatedParty
 Id: mii-ex-studie-backport-associatedParty
 Title: "MII EX Studie Backport AssociatedParty"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
 * extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
 * extension[name].value[x] only string

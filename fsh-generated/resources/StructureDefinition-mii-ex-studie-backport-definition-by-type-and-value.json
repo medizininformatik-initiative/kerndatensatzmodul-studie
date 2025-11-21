@@ -2,11 +2,21 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-backport-definition-by-type-and-value",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
-  "version": "2024.0.0",
+  "version": "2026.0.0",
   "name": "MII_EX_Studie_Backport_Definition_By_Type_And_Value",
   "title": "MII EX Studie Backport DefinitionByTypeAndValue",
   "status": "active",
-  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

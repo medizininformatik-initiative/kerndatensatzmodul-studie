@@ -7,7 +7,6 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 * insert Translation(^title, en-US, MII PR Study Registry)
 * insert Translation(^description, de-DE, Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.)
 * insert Translation(^description, en-US, This profile describes a research registry within the Medical Informatics Initiative.)
-* insert addMetadata
 * insert PR_CS_VS_Version
 * insert Publisher
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
@@ -48,7 +47,8 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 Extension: MII_EX_Studie_Quell_Register
 Id: mii-ex-studie-quell-register
 Title: "MII EX Studie Quell Register"
-* insert addMetadata
+* insert PR_CS_VS_Version
+* insert Publisher
 * value[x] only boolean
 
 Instance: mii-exa-studie-register

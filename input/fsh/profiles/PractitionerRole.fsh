@@ -7,7 +7,6 @@ Description: "Dieses Profil beschreibt eine beteiligte Person innerhalb einer St
 * insert Translation(^title, en-US, MII PR Study Participant)
 * insert Translation(^description, de-DE, Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.)
 * insert Translation(^description, en-US, This profile describes a participant within a study in the Medical Informatics Initiative.)
-* insert addMetadata
 * insert PR_CS_VS_Version
 * insert Publisher
 * code MS
