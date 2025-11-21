@@ -199,7 +199,7 @@ Title: "MII EX Studie Backport Label"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
 * extension contains type 0..1 and value 1..1 MS
 * extension[type].value[x] only CodeableConcept
-* extension[type].valueCodeableConcept from http://hl7.org/fhir/ValueSet/title-type (extensible)
+* extension[type].valueCodeableConcept from http://terminology.hl7.org/ValueSet/title-type (extensible)
 * extension[value].value[x] only string
 
 Instance: ResearchStudy-armName
@@ -351,7 +351,7 @@ Usage: #example
 * identifier.system = "https://example.com/fhir/sid/drks"
 * description = "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet."
 * extension[Label].extension[value].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
-* extension[Label].extension[type].valueCodeableConcept = http://hl7.org/fhir/title-type#scientific
+* extension[Label].extension[type].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/title-type#scientific
 * extension[Label][+].extension[value].valueString = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * extension[Label][=].extension[type].valueCodeableConcept.text = "Öffentlicher Titel"
 * extension[Akronym].valueString = "tDCS"

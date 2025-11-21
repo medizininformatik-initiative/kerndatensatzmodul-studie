@@ -52,7 +52,7 @@
           "reference": "SearchParameter/EvidenceVariable-characteristic-description"
         },
         "name": "EvidenceVariable-characteristic-description",
-        "description": "Suchparameter für ResearchStudy.characteristic.description",
+        "description": "Suchparameter für EvidenceVariable.characteristic.description",
         "exampleBoolean": false
       },
       {

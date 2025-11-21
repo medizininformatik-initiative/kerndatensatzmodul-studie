@@ -51,7 +51,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/ValueSet/title-type"
+          "valueSet": "http://terminology.hl7.org/ValueSet/title-type"
         }
       },
       {
