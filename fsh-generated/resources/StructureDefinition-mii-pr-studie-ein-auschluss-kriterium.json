@@ -12,7 +12,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "de-DE"
+            "valueCode": "de"
           },
           {
             "url": "content",
@@ -25,7 +25,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "en-US"
+            "valueCode": "en"
           },
           {
             "url": "content",
@@ -55,7 +55,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "de-DE"
+            "valueCode": "de"
           },
           {
             "url": "content",
@@ -68,7 +68,7 @@
         "extension": [
           {
             "url": "lang",
-            "valueCode": "en-US"
+            "valueCode": "en"
           },
           {
             "url": "content",
@@ -97,7 +97,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -110,7 +110,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -128,7 +128,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -141,7 +141,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -164,7 +164,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -177,7 +177,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",
@@ -195,7 +195,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "de-DE"
+                  "valueCode": "de"
                 },
                 {
                   "url": "content",
@@ -208,7 +208,7 @@
               "extension": [
                 {
                   "url": "lang",
-                  "valueCode": "en-US"
+                  "valueCode": "en"
                 },
                 {
                   "url": "content",

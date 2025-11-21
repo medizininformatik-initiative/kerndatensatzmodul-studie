@@ -3,26 +3,26 @@ Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
 Id: mii-pr-studie-ein-auschluss-kriterium
 Description: "Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative."
-* insert Translation(^title, de-DE, MII PR Studie EinAuschlussKriterium)
-* insert Translation(^title, en-US, MII PR Study Inclusion/Exclusion Criterion)
-* insert Translation(^description, de-DE, Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative.)
-* insert Translation(^description, en-US, This profile describes an inclusion and exclusion criterion within a study in the Medical Informatics Initiative.)
+* insert Translation(^title, de, MII PR Studie EinAuschlussKriterium)
+* insert Translation(^title, en, MII PR Study Inclusion/Exclusion Criterion)
+* insert Translation(^description, de, Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative.)
+* insert Translation(^description, en, This profile describes an inclusion and exclusion criterion within a study in the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * status MS
 * status ^short = "Status"
-* insert Translation(status ^short, de-DE, Entwurf | aktiv | zurückgezogen | unbekannt)
-* insert Translation(status ^short, en-US, draft | active | retired | unknown)
+* insert Translation(status ^short, de, Entwurf | aktiv | zurückgezogen | unbekannt)
+* insert Translation(status ^short, en, draft | active | retired | unknown)
 * status ^definition = "Der Status dieser EvidenceVariable. Ermöglicht die Verfolgung des Lebenszyklus des Inhalts."
-* insert Translation(status ^definition, de-DE, Der Status dieser EvidenceVariable. Ermöglicht die Verfolgung des Lebenszyklus des Inhalts.)
-* insert Translation(status ^definition, en-US, The status of this evidence variable. Enables tracking the life-cycle of the content.)
+* insert Translation(status ^definition, de, Der Status dieser EvidenceVariable. Ermöglicht die Verfolgung des Lebenszyklus des Inhalts.)
+* insert Translation(status ^definition, en, The status of this evidence variable. Enables tracking the life-cycle of the content.)
 * characteristic MS
 * characteristic ^short = "Characteristic"
-* insert Translation(characteristic ^short, de-DE, Was die Mitglieder des Evidence-Elements definiert)
-* insert Translation(characteristic ^short, en-US, What defines the members of the evidence element)
+* insert Translation(characteristic ^short, de, Was die Mitglieder des Evidence-Elements definiert)
+* insert Translation(characteristic ^short, en, What defines the members of the evidence element)
 * characteristic ^definition = "Eine Eigenschaft, die die Mitglieder des Evidence-Elements definiert. Mehrere Eigenschaften werden mit einer “und”-Semantik angewendet."
-* insert Translation(characteristic ^definition, de-DE, Eine Eigenschaft\, die die Mitglieder des Evidence-Elements definiert. Mehrere Eigenschaften werden mit einer \"und\"-Semantik angewendet.)
-* insert Translation(characteristic ^definition, en-US, A characteristic that defines the members of the evidence element. Multiple characteristics are applied with \"and\" semantics.)
+* insert Translation(characteristic ^definition, de, Eine Eigenschaft\, die die Mitglieder des Evidence-Elements definiert. Mehrere Eigenschaften werden mit einer \"und\"-Semantik angewendet.)
+* insert Translation(characteristic ^definition, en, A characteristic that defines the members of the evidence element. Multiple characteristics are applied with \"and\" semantics.)
 * characteristic.description MS
 * characteristic.definition[x] MS
 * characteristic.exclude MS
