@@ -259,7 +259,7 @@
                 }
               ],
               "name": "contenttype",
-              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-location",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-contenttype",
               "type": "token"
             },
             {
@@ -293,7 +293,7 @@
               ],
               "name": "related",
               "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-related",
-              "type": "uri"
+              "type": "reference"
             }
           ]
         },
