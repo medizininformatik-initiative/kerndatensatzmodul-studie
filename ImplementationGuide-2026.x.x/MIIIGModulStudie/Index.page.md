@@ -10,6 +10,8 @@ Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profil
 | Status  | ballot       |
 | Realm   | DE           | 
 
+Den ersten Release finden Sie unter [2025.0.0](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Medizinische_Forschungsvorhaben_V2025/ImplementationGuide-1.x-TechnischeImplementierung-Organization.html)
+
 ## Inhaltsverzeichnis
 
 {{index:root}}
