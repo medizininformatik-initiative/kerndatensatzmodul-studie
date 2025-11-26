@@ -24,7 +24,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 |--------------|-----------|
 | Library.id      | Must-support, jedoch optional        |
 | Library.meta       | Must-support, jedoch optional         |
-| Library.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.md}}. In allen anderen Fällen optional.         |
+| Library.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.page.md}}. In allen anderen Fällen optional.         |
 | Library.name | Es sollte ein geeigneter menschenlesbarer Name verwendet werden |
 | Library.identifier | In den meisten Fällen existiert bisher kein NamingSystem für die Vergabe der RegisterIds. Ein eigenes lokales NamingSystem sollte daher verwendet werden. |
 | Library.relatedArtifact.document.url | Homepage des Registers bzw. Link zur weiterführenden Dokumentation |

@@ -24,7 +24,7 @@ Dieses Profil beschreibt eine ProbandIn in der Medizininformatik-Initiative.
 |--------------|-----------|
 | ResearchSubject.id      | Must-support, jedoch optional        |
 | ResearchSubject.meta       | Must-support, jedoch optional         |
-| ResearchSubject.meta.profile       | VERPFLICHTEND für die Abfrage im DIZ-Repsoitory inkl Versionsnummer des Profils. Siehe {{pagelink:PersonCapabilityStatement}}. In allen anderen Fällen optional.         |
+| ResearchSubject.meta.profile       | VERPFLICHTEND für die Abfrage im DIZ-Repsoitory inkl Versionsnummer des Profils. Siehe {{pagelink:ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.page.md}}. In allen anderen Fällen optional.         |
 | Patient.identifier:subjectIdentificationCode      | Fixes NamingSystem zur einheitlichen, standort-übergreifenden Abfrage des Identifiers (bei Auswertungen)         |
 | ResearchSubject.period.start      | Startdatum (Einschluss der PatientIn in die Studie)      |
 | ResearchSubject.period.end      | Enddatum (Abschluss der Studie oder Ausschluss der PatientIn)       |
