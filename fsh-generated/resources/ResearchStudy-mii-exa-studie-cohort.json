@@ -37,13 +37,18 @@
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
     }
   ],
-  "status": "active",
-  "title": "LIFE-Adult-Study",
   "identifier": [
     {
       "value": "7Q6PJD8NV3-2",
       "system": "https://example.com/fhir/sid/lha"
     }
   ],
+  "title": "LIFE-Adult-Study",
+  "partOf": [
+    {
+      "reference": "ResearchStudy/mii-exa-studie-reference-study"
+    }
+  ],
+  "status": "active",
   "description": "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
 }

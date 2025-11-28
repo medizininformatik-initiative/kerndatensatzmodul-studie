@@ -1,0 +1,12 @@
+{
+  "resourceType": "Practitioner",
+  "id": "mii-exa-studie-practitioner",
+  "name": [
+    {
+      "family": "Mustermann",
+      "given": [
+        "Max"
+      ]
+    }
+  ]
+}
