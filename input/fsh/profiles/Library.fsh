@@ -51,15 +51,7 @@ Title: "MII EX Studie Quell Register"
 * insert Publisher
 * value[x] only boolean
 
-Instance: mii-exa-studie-register
-InstanceOf: MII_PR_Studie_Register
-Usage: #example
-* status = #active
-* name = "DRKS - Deutsches Register Klinischer Studien"
-* identifier.value = "DRKS"
-* identifier.system = "https://example.com/fhir/sid/drks"
-* relatedArtifact.document.url = "https://drks.de/"
-* relatedArtifact.type = #documentation
+
 
 Instance: Library-quellregister
 InstanceOf: SearchParameter
