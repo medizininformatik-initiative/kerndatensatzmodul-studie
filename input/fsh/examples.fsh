@@ -7,9 +7,9 @@ Usage: #example
 * content.attachment.title = "Beispiel Dokument"
 * content.attachment.contentType = #application/pdf
 * content.attachment.size = 2000
-* author = Reference(Organization/Example)
-* custodian = Reference(Organization/Example)
-* context.related = Reference(ResearchStudy/Example)
+* author = Reference(Organization/mii-exa-studie-author)
+* custodian = Reference(Organization/mii-exa-studie-custodian)
+* context.related = Reference(ResearchStudy/mii-exa-studie-cohort)
 
 // Evidence variable example
 Instance: mii-exa-studie-ein-auschluss-kriterium
@@ -81,8 +81,8 @@ Usage: #example
 * code = http://terminology.hl7.org/CodeSystem/practitioner-role#doctor
 * telecom.system = #phone
 * telecom.value = "0123456789"
-* organization = Reference(Organization/Example)
-* practitioner = Reference(Practitioner/Example)
+* organization = Reference(Organization/mii-exa-studie-practitioner-organization)
+* practitioner = Reference(Practitioner/mii-exa-studie-practitioner)
 
 // Research studyexample
 Instance: mii-exa-studie-cohort
@@ -91,7 +91,7 @@ Usage: #example
 * identifier.value = "7Q6PJD8NV3-2"
 * identifier.system = "https://example.com/fhir/sid/lha"
 * title = "LIFE-Adult-Study"
-// partOf() -> reference on aonther study, so we need twi instances to cover the MS
+* partOf = Reference(mii-exa-studie-reference-study) // -> reference on aonther study, so we need twi instances to cover the MS
 * status = #active
 // categroy
 // focus.text
@@ -113,9 +113,9 @@ Usage: #example
 // * extension.Finanzierung
 
 // Research subject example
-Instance: mii-exa-studie-proband
-InstanceOf: MII_PR_Studie_Proband
-Usage: #example
+// Instance: mii-exa-studie-proband
+// InstanceOf: MII_PR_Studie_Proband
+// Usage: #example
 // * id
 // * meta.profile
 // * identifier[subjectIdentificationCode].type
@@ -127,3 +127,42 @@ Usage: #example
 // * study()
 // * individual()
 // * consent()
+
+//// Reference Ressources
+
+// Author organization example
+Instance: mii-exa-studie-author
+InstanceOf: Organization
+Usage: #example
+* id = "mii-exa-studie-author"
+* name = "Example Organization for Author"
+
+// Custodian organization example
+Instance: mii-exa-studie-custodian
+InstanceOf: Organization
+Usage: #example
+* id = "mii-exa-studie-custodian"
+* name = "Example Organization for Custodian"
+
+// Practitioner organization example
+Instance: mii-exa-studie-practitioner-organization
+InstanceOf: Organization
+Usage: #example
+* id = "mii-exa-studie-practitioner-organization"
+* name = "Example Organization for Practitioner"
+
+// Practitioner example
+Instance: mii-exa-studie-practitioner
+InstanceOf: Practitioner
+Usage: #example
+* id = "mii-exa-studie-practitioner"
+* name[0].family = "Mustermann"
+* name[0].given = "Max"
+
+// Reference study example
+Instance: mii-exa-studie-reference-study
+InstanceOf: ResearchStudy
+Usage: #example
+* id = "mii-exa-studie-reference-study"
+* title = "Example Reference Study"
+* status = #completed

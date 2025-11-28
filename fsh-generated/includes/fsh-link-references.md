@@ -1,6 +1,7 @@
 [DocumentReference-size]: SearchParameter-DocumentReference-size.html
 [DocumentReference-title]: SearchParameter-DocumentReference-title.html
 [EvidenceVariable-characteristic-description]: SearchParameter-EvidenceVariable-characteristic-description.html
+[mii-exa-studie-reference-study]: ResearchStudy-mii-exa-studie-reference-study.html
 [mii-exa-studie-studie]: ResearchStudy-mii-exa-studie-studie.html
 [Library-quellregister]: SearchParameter-Library-quellregister.html
 [Library-relatedArtifactUrl]: SearchParameter-Library-relatedArtifactUrl.html
@@ -27,9 +28,13 @@
 [MII_PR_Studie_Proband]: StructureDefinition-mii-pr-studie-proband.html
 [MII_PR_Studie_Register]: StructureDefinition-mii-pr-studie-register.html
 [MII_PR_Studie_Studie]: StructureDefinition-mii-pr-studie-studie.html
+[mii-exa-studie-author]: Organization-mii-exa-studie-author.html
 [mii-exa-studie-beteiligte-person]: PractitionerRole-mii-exa-studie-beteiligte-person.html
+[mii-exa-studie-custodian]: Organization-mii-exa-studie-custodian.html
 [mii-exa-studie-dokument]: DocumentReference-mii-exa-studie-dokument.html
 [mii-exa-studie-ein-auschluss-kriterium]: EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html
+[mii-exa-studie-practitioner]: Practitioner-mii-exa-studie-practitioner.html
+[mii-exa-studie-practitioner-organization]: Organization-mii-exa-studie-practitioner-organization.html
 [mii-exa-studie-register]: Library-mii-exa-studie-register.html
 [ResearchStudy-akronym]: SearchParameter-ResearchStudy-akronym.html
 [ResearchStudy-armName]: SearchParameter-ResearchStudy-armName.html

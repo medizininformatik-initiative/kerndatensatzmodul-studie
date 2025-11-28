@@ -23,9 +23,9 @@
     }
   ],
   "organization": {
-    "reference": "Organization/Example"
+    "reference": "Organization/mii-exa-studie-practitioner-organization"
   },
   "practitioner": {
-    "reference": "Practitioner/Example"
+    "reference": "Practitioner/mii-exa-studie-practitioner"
   }
 }

@@ -11,41 +11,81 @@
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
     "fshName": "mii-exa-studie-dokument",
     "fshType": "Instance",
-    "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 54,
-    "endLine": 64
+    "fshFile": "examples.fsh",
+    "startLine": 2,
+    "endLine": 12
   },
   {
     "outputFile": "EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json",
     "fshName": "mii-exa-studie-ein-auschluss-kriterium",
     "fshType": "Instance",
-    "fshFile": "profiles/EvidenceVariable.fsh",
-    "startLine": 112,
-    "endLine": 157
+    "fshFile": "examples.fsh",
+    "startLine": 15,
+    "endLine": 60
   },
   {
     "outputFile": "Library-mii-exa-studie-register.json",
     "fshName": "mii-exa-studie-register",
     "fshType": "Instance",
-    "fshFile": "profiles/Library.fsh",
-    "startLine": 54,
-    "endLine": 62
+    "fshFile": "examples.fsh",
+    "startLine": 66,
+    "endLine": 75
+  },
+  {
+    "outputFile": "Organization-mii-exa-studie-author.json",
+    "fshName": "mii-exa-studie-author",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 134,
+    "endLine": 138
+  },
+  {
+    "outputFile": "Organization-mii-exa-studie-custodian.json",
+    "fshName": "mii-exa-studie-custodian",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 141,
+    "endLine": 145
+  },
+  {
+    "outputFile": "Organization-mii-exa-studie-practitioner-organization.json",
+    "fshName": "mii-exa-studie-practitioner-organization",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 148,
+    "endLine": 152
+  },
+  {
+    "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
+    "fshName": "mii-exa-studie-practitioner",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 155,
+    "endLine": 160
   },
   {
     "outputFile": "PractitionerRole-mii-exa-studie-beteiligte-person.json",
     "fshName": "mii-exa-studie-beteiligte-person",
     "fshType": "Instance",
-    "fshFile": "profiles/PractitionerRole.fsh",
-    "startLine": 41,
-    "endLine": 48
+    "fshFile": "examples.fsh",
+    "startLine": 78,
+    "endLine": 85
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-cohort.json",
     "fshName": "mii-exa-studie-cohort",
     "fshType": "Instance",
-    "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 378,
-    "endLine": 391
+    "fshFile": "examples.fsh",
+    "startLine": 88,
+    "endLine": 112
+  },
+  {
+    "outputFile": "ResearchStudy-mii-exa-studie-reference-study.json",
+    "fshName": "mii-exa-studie-reference-study",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 163,
+    "endLine": 168
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-studie.json",
@@ -60,16 +100,16 @@
     "fshName": "DocumentReference-size",
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 80,
-    "endLine": 92
+    "startLine": 68,
+    "endLine": 80
   },
   {
     "outputFile": "SearchParameter-DocumentReference-title.json",
     "fshName": "DocumentReference-title",
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 66,
-    "endLine": 78
+    "startLine": 54,
+    "endLine": 66
   },
   {
     "outputFile": "SearchParameter-EvidenceVariable-characteristic-description.json",
@@ -84,16 +124,16 @@
     "fshName": "Library-quellregister",
     "fshType": "Instance",
     "fshFile": "profiles/Library.fsh",
-    "startLine": 64,
-    "endLine": 76
+    "startLine": 56,
+    "endLine": 68
   },
   {
     "outputFile": "SearchParameter-Library-relatedArtifactUrl.json",
     "fshName": "Library-relatedArtifactUrl",
     "fshType": "Instance",
     "fshFile": "profiles/Library.fsh",
-    "startLine": 78,
-    "endLine": 90
+    "startLine": 70,
+    "endLine": 82
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-akronym.json",
