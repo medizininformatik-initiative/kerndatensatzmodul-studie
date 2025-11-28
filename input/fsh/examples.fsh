@@ -58,15 +58,19 @@ Usage: #example
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
   * description = "weitere neurologische Erkrankungen"
 * characteristic[=].exclude = true
+// extension[definitionReference]
+// extension[definitionCanonical]
+// extension[definitionByTypeAndValue]
 
 // Library example
 Instance: mii-exa-studie-register
 InstanceOf: MII_PR_Studie_Register
 Usage: #example
-* status = #active
-* name = "DRKS - Deutsches Register Klinischer Studien"
 * identifier.value = "DRKS"
 * identifier.system = "https://example.com/fhir/sid/drks"
+* name = "DRKS - Deutsches Register Klinischer Studien"
+* status = #active
+// type
 * relatedArtifact.document.url = "https://drks.de/"
 * relatedArtifact.type = #documentation
 
@@ -84,16 +88,42 @@ Usage: #example
 Instance: mii-exa-studie-cohort
 InstanceOf: MII_PR_Studie_Studie
 Usage: #example
-* status = #active
-* title = "LIFE-Adult-Study"
 * identifier.value = "7Q6PJD8NV3-2"
 * identifier.system = "https://example.com/fhir/sid/lha"
+* title = "LIFE-Adult-Study"
+// partOf() -> reference on aonther study, so we need twi instances to cover the MS
+* status = #active
+// categroy
+// focus.text
+// keyword.text
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
+// arm.name
+
+// * extension.Label
+// * extension.AssiociatedParties
+// * extension.Ethikvotum
+// * extension.Studienregister
+// * extension.Eligibility
 * extension[Akronym].valueString = "LIFE ADULT"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2009-01-01"
 * extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 10000
 * extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 10000
 * extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
 * extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2022-05-28"
+// * extension.Finanzierung
 
 // Research subject example
+Instance: mii-exa-studie-proband
+InstanceOf: MII_PR_Studie_Proband
+Usage: #example
+// * id
+// * meta.profile
+// * identifier[subjectIdentificationCode].type
+// * identifier[subjectIdentificationCode].system
+// * identifier[subjectIdentificationCode].value
+// * statu
+// * period.start
+// * period.end
+// * study()
+// * individual()
+// * consent()
