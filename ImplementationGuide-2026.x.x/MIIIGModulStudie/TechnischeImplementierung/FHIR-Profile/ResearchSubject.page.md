@@ -44,6 +44,11 @@ Dieses Profil beschreibt eine ProbandIn in der Medizininformatik-Initiative.
 | ResearchSubject.period.end       | Person.Studienteilnehmer.EndeTeilnahme         |
 | ResearchSubject.consent       | Person.Studienteilnehmer.Rechtsgrundlage        |
 
+---
+
+**Snapshot**
+
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband, snapshot}}
 
 ---
 
