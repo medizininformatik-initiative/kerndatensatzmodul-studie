@@ -8,6 +8,14 @@
     "endLine": 348
   },
   {
+    "outputFile": "Consent-mii-exa-studie-consent.json",
+    "fshName": "mii-exa-studie-consent",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 180,
+    "endLine": 187
+  },
+  {
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
     "fshName": "mii-exa-studie-dokument",
     "fshType": "Instance",
@@ -56,6 +64,14 @@
     "endLine": 152
   },
   {
+    "outputFile": "Patient-mii-exa-studie-patient.json",
+    "fshName": "mii-exa-studie-patient",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 171,
+    "endLine": 177
+  },
+  {
     "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
     "fshName": "mii-exa-studie-practitioner",
     "fshType": "Instance",
@@ -94,6 +110,14 @@
     "fshFile": "profiles/ResearchStudy.fsh",
     "startLine": 347,
     "endLine": 376
+  },
+  {
+    "outputFile": "ResearchSubject-mii-exa-studie-proband.json",
+    "fshName": "mii-exa-studie-proband",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 116,
+    "endLine": 129
   },
   {
     "outputFile": "SearchParameter-DocumentReference-size.json",

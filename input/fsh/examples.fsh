@@ -113,20 +113,20 @@ Usage: #example
 // * extension.Finanzierung
 
 // Research subject example
-// Instance: mii-exa-studie-proband
-// InstanceOf: MII_PR_Studie_Proband
-// Usage: #example
-// * id
-// * meta.profile
-// * identifier[subjectIdentificationCode].type
-// * identifier[subjectIdentificationCode].system
-// * identifier[subjectIdentificationCode].value
-// * statu
-// * period.start
-// * period.end
-// * study()
-// * individual()
-// * consent()
+Instance: mii-exa-studie-proband
+InstanceOf: MII_PR_Studie_Proband
+Usage: #example
+* id = "mii-exa-studie-proband"
+* meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
+* identifier[subjectIdentificationCode].type = $v2-0203#ANON
+* identifier[subjectIdentificationCode].system = "http://www.acme.com/identifiers/patient"
+* identifier[subjectIdentificationCode].value = "123456"
+* status = #candidate
+* period.start = "2023-01-01"
+* period.end = "2023-12-31"
+* study = Reference(mii-exa-studie-cohort)
+* individual = Reference(mii-exa-studie-patient)
+* consent = Reference(mii-exa-studie-consent)
 
 //// Reference Ressources
 
@@ -166,3 +166,22 @@ Usage: #example
 * id = "mii-exa-studie-reference-study"
 * title = "Example Reference Study"
 * status = #completed
+
+// Research patient example
+Instance: mii-exa-studie-patient
+InstanceOf: Patient
+Usage: #example
+* id = "mii-exa-studie-patient"
+* name[0].family = "Doe"
+* name[0].given = "Jane"
+* gender = #female
+
+// Research consent example
+Instance: mii-exa-studie-consent
+InstanceOf: Consent
+Usage: #example
+* id = "mii-exa-studie-consent"
+* status = #active
+* scope = #research
+* category = http://terminology.hl7.org/CodeSystem/consent-category#research
+* patient = Reference(mii-exa-studie-patient)
