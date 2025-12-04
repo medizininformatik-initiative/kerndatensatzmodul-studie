@@ -122,3 +122,9 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.consent" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
 ---
+
+**Beispiele**
+
+Siehe Beispiel (minimal):
+
+{{json:fsh-generated/resources/ResearchSubject-mii-exa-studie-proband.json}}
