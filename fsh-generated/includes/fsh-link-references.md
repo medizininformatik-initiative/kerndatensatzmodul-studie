@@ -39,7 +39,7 @@
 [mii-exa-studie-practitioner-organization]: Organization-mii-exa-studie-practitioner-organization.html
 [mii-exa-studie-proband]: ResearchSubject-mii-exa-studie-proband.html
 [mii-exa-studie-register]: Library-mii-exa-studie-register.html
-[mii-icu-test-data-bundle-studie]: Bundle-mii-icu-test-data-bundle-studie.html
+[mii-studie-test-data-bundle-studie]: Bundle-mii-studie-test-data-bundle-studie.html
 [ResearchStudy-akronym]: SearchParameter-ResearchStudy-akronym.html
 [ResearchStudy-armName]: SearchParameter-ResearchStudy-armName.html
 [ResearchStudy-finanzierung]: SearchParameter-ResearchStudy-finanzierung.html
