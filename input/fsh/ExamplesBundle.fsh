@@ -14,7 +14,7 @@ RuleSet: TestDataLabel
 // =============================================================================
 // Example Studie
 // =============================================================================
-Instance: mii-icu-test-data-bundle-studie
+Instance: mii-studie-test-data-bundle-studie
 InstanceOf: Bundle
 Usage: #example
 Description: "Bundle: Example Study"

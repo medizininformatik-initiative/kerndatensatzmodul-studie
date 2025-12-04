@@ -1,7 +1,7 @@
 [
   {
-    "outputFile": "Bundle-mii-icu-test-data-bundle-studie.json",
-    "fshName": "mii-icu-test-data-bundle-studie",
+    "outputFile": "Bundle-mii-studie-test-data-bundle-studie.json",
+    "fshName": "mii-studie-test-data-bundle-studie",
     "fshType": "Instance",
     "fshFile": "ExamplesBundle.fsh",
     "startLine": 17,

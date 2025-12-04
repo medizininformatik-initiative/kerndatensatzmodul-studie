@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "mii-icu-test-data-bundle-studie",
+  "id": "mii-studie-test-data-bundle-studie",
   "meta": {
     "security": [
       {
