@@ -20,8 +20,8 @@
     "fshName": "mii-exa-studie-consent",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 190,
-    "endLine": 198
+    "startLine": 191,
+    "endLine": 199
   },
   {
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
@@ -52,40 +52,40 @@
     "fshName": "mii-exa-studie-author",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 136,
-    "endLine": 140
+    "startLine": 137,
+    "endLine": 141
   },
   {
     "outputFile": "Organization-mii-exa-studie-custodian.json",
     "fshName": "mii-exa-studie-custodian",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 143,
-    "endLine": 147
+    "startLine": 144,
+    "endLine": 148
   },
   {
     "outputFile": "Organization-mii-exa-studie-practitioner-organization.json",
     "fshName": "mii-exa-studie-practitioner-organization",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 150,
-    "endLine": 154
+    "startLine": 151,
+    "endLine": 155
   },
   {
     "outputFile": "Patient-mii-exa-studie-patient.json",
     "fshName": "mii-exa-studie-patient",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 173,
-    "endLine": 187
+    "startLine": 174,
+    "endLine": 188
   },
   {
     "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
     "fshName": "mii-exa-studie-practitioner",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 157,
-    "endLine": 162
+    "startLine": 158,
+    "endLine": 163
   },
   {
     "outputFile": "PractitionerRole-mii-exa-studie-beteiligte-person.json",
@@ -108,8 +108,8 @@
     "fshName": "mii-exa-studie-reference-study",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 165,
-    "endLine": 170
+    "startLine": 166,
+    "endLine": 171
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-studie.json",
@@ -125,7 +125,7 @@
     "fshType": "Instance",
     "fshFile": "examples.fsh",
     "startLine": 118,
-    "endLine": 131
+    "endLine": 132
   },
   {
     "outputFile": "SearchParameter-DocumentReference-size.json",
