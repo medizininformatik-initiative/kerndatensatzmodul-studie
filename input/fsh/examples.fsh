@@ -122,7 +122,8 @@ Usage: #example
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
 * identifier[subjectIdentificationCode].type = $v2-0203#ANON
 * identifier[subjectIdentificationCode].system = "http://www.acme.com/identifiers/patient"
-* identifier[subjectIdentificationCode].value = "123456"
+* identifier[subjectIdentificationCode].value = "321123456"
+
 * status = #candidate
 * period.start = "2023-01-01"
 * period.end = "2023-12-31"
