@@ -84,7 +84,7 @@ Usage: #example
 * organization = Reference(Organization/mii-exa-studie-practitioner-organization)
 * practitioner = Reference(Practitioner/mii-exa-studie-practitioner)
 
-// Research studyexample
+// Research study example
 Instance: mii-exa-studie-cohort
 InstanceOf: MII_PR_Studie_Studie
 Usage: #example
