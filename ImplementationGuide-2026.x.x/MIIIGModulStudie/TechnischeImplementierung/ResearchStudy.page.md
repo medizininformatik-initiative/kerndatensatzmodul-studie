@@ -226,4 +226,6 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
 **Beispiele**
 
-[Siehe Beispiel (minimal)](https://simplifier.net/medizininformatik-initiative-modul-studien/fsh-generated-resources-researchstudy-mii-exa-studie-studie).
+Siehe Beispiel (minimal):
+
+{{json:fsh-generated/resources/ResearchStudy-mii-exa-studie-studie.json}}
