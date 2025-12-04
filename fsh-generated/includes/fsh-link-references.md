@@ -30,11 +30,14 @@
 [MII_PR_Studie_Studie]: StructureDefinition-mii-pr-studie-studie.html
 [mii-exa-studie-author]: Organization-mii-exa-studie-author.html
 [mii-exa-studie-beteiligte-person]: PractitionerRole-mii-exa-studie-beteiligte-person.html
+[mii-exa-studie-consent]: Consent-mii-exa-studie-consent.html
 [mii-exa-studie-custodian]: Organization-mii-exa-studie-custodian.html
 [mii-exa-studie-dokument]: DocumentReference-mii-exa-studie-dokument.html
 [mii-exa-studie-ein-auschluss-kriterium]: EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html
+[mii-exa-studie-patient]: Patient-mii-exa-studie-patient.html
 [mii-exa-studie-practitioner]: Practitioner-mii-exa-studie-practitioner.html
 [mii-exa-studie-practitioner-organization]: Organization-mii-exa-studie-practitioner-organization.html
+[mii-exa-studie-proband]: ResearchSubject-mii-exa-studie-proband.html
 [mii-exa-studie-register]: Library-mii-exa-studie-register.html
 [ResearchStudy-akronym]: SearchParameter-ResearchStudy-akronym.html
 [ResearchStudy-armName]: SearchParameter-ResearchStudy-armName.html

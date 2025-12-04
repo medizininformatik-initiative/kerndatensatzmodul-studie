@@ -1,0 +1,13 @@
+{
+  "resourceType": "Patient",
+  "id": "mii-exa-studie-patient",
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "Jane"
+      ]
+    }
+  ],
+  "gender": "female"
+}
