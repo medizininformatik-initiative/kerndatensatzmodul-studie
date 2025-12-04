@@ -1,0 +1,17 @@
+- name: Index
+  filename: Index.page.md
+- name: Dokument (DocumentReference)
+  filename: DocumentReference.page.md
+- name: Ein- und Ausschlusskriterium (EvidenceVariable)
+  filename: EvidenceVariable.page.md
+- name: Register (Library)
+  filename: Library.page.md
+- name: Organisation (Organization)
+  filename: Organization.page.md
+- name:  Beteiligte Person (PractitionerRole)
+  filename: PractitionerRole.page.md
+- name: Studie (ResearchStudy)
+  filename: ResearchStudy.page.md
+- name: Proband:in (ResearchSubject)
+  filename: ResearchSubject.page.md
+
