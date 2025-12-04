@@ -171,7 +171,7 @@ Usage: #example
 
 // Research patient example
 Instance: mii-exa-studie-patient
-InstanceOf: https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient
+InstanceOf: Patient
 Usage: #example
 Description: "Patient: Studien Patient"
 * meta.profile[+] = "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
@@ -191,3 +191,4 @@ Usage: #example
 * scope = #research
 * category = http://terminology.hl7.org/CodeSystem/consent-category#research
 * patient = Reference(mii-exa-studie-patient)
+* policy.uri = "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
