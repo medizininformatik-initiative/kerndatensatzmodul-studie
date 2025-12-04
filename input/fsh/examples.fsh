@@ -93,13 +93,13 @@ Usage: #example
 * title = "LIFE-Adult-Study"
 * partOf = Reference(mii-exa-studie-reference-study)
 * status = #active
-* category = http://terminology.hl7.org/CodeSystem/research-study-category#observational
+* category = http://terminology.hl7.org/CodeSystem/research-study-category#observational // no existing VS
 * focus.text = "Erwachsene der Stadt Leipzig"
 * keyword.text = "Bevölkerung, Leipzig, Erwachsene"
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
 * arm.name = "LIFE-Adult-Kohorte"
 * extension[Label].extension[value].valueString = "MII Modul Studie"
-* extension[AssociatedParty].extension[role].valueCodeableConcept = http://hl7.org/fhir/CodeSystem/research-study-associated-party-role#principal-investigator
+* extension[AssociatedParty].extension[role].valueCodeableConcept = http://hl7.org/fhir/CodeSystem/research-study-associated-party-role#principal-investigator  // no existing VS
 * extension[AssociatedParty].extension[party].valueReference = Reference(Organization/mii-exa-studie-author)
 * extension[Ethikvotum].extension[status].valueString = "genehmigt"
 * extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
@@ -176,6 +176,10 @@ Usage: #example
 Description: "Patient: Studien Patient"
 * meta.profile[+] = "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
 * id = "mii-exa-studie-patient"
+* identifier[+].use = #official
+* identifier[=].type = $identifier-type-de-basis#KVZ10
+* identifier[=].system = "http://fhir.de/sid/gkv/kvid-10"
+* identifier[=].value = "D92345678"
 * name[0].family = "Doe"
 * name[0].given = "Jane"
 * gender = #female
@@ -189,6 +193,6 @@ Usage: #example
 * id = "mii-exa-studie-consent"
 * status = #active
 * scope = #research
-* category = http://terminology.hl7.org/CodeSystem/consent-category#research
+* category = $loinc#59284-0
 * patient = Reference(mii-exa-studie-patient)
 * policy.uri = "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
