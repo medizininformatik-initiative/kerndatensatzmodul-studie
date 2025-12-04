@@ -171,12 +171,16 @@ Usage: #example
 
 // Research patient example
 Instance: mii-exa-studie-patient
-InstanceOf: Patient
+InstanceOf: https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient
 Usage: #example
+Description: "Patient: Studien Patient"
+* meta.profile[+] = "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
 * id = "mii-exa-studie-patient"
 * name[0].family = "Doe"
 * name[0].given = "Jane"
 * gender = #female
+* birthDate = "1980-11-12"
+* deceasedBoolean = false
 
 // Research consent example
 Instance: mii-exa-studie-consent
