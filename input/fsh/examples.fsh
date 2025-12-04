@@ -70,7 +70,7 @@ Usage: #example
 * identifier.system = "https://example.com/fhir/sid/drks"
 * name = "DRKS - Deutsches Register Klinischer Studien"
 * status = #active
-// type
+* type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * relatedArtifact.document.url = "https://drks.de/"
 * relatedArtifact.type = #documentation
 
@@ -93,11 +93,11 @@ Usage: #example
 * title = "LIFE-Adult-Study"
 * partOf = Reference(mii-exa-studie-reference-study) // -> reference on aonther study, so we need twi instances to cover the MS
 * status = #active
-// categroy
-// focus.text
-// keyword.text
+* category = http://terminology.hl7.org/CodeSystem/research-study-category#observational
+* focus.text = "Erwachsene der Stadt Leipzig"
+* keyword.text = "Bevölkerung, Leipzig, Erwachsene"
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
-// arm.name
+* arm.name = "LIFE-Adult-Kohorte"
 
 // * extension.Label
 // * extension.AssiociatedParties
