@@ -1,4 +1,5 @@
 Output File                                                                   Name                                                 Type       FSH File                        Lines
+Bundle-mii-icu-test-data-bundle-studie.json                                   mii-icu-test-data-bundle-studie                      Instance   ExamplesBundle.fsh              17 - 37
 CapabilityStatement-MII-CPS-Metadata-Studie.json                              MII-CPS-Metadata-Studie                              Instance   CapabilityStatement.fsh         1 - 348
 Consent-mii-exa-studie-consent.json                                           mii-exa-studie-consent                               Instance   examples.fsh                    180 - 187
 DocumentReference-mii-exa-studie-dokument.json                                mii-exa-studie-dokument                              Instance   examples.fsh                    2 - 12

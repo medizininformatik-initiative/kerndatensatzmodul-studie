@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "Bundle-mii-icu-test-data-bundle-studie.json",
+    "fshName": "mii-icu-test-data-bundle-studie",
+    "fshType": "Instance",
+    "fshFile": "ExamplesBundle.fsh",
+    "startLine": 17,
+    "endLine": 37
+  },
+  {
     "outputFile": "CapabilityStatement-MII-CPS-Metadata-Studie.json",
     "fshName": "MII-CPS-Metadata-Studie",
     "fshType": "Instance",
