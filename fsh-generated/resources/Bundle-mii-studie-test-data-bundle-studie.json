@@ -502,7 +502,7 @@
                 }
               ]
             },
-            "system": "http://www.acme.com/identifiers/patient",
+            "system": "https://www.medizininformatik-initiative.de/fhir/sid/patienten",
             "value": "321123456"
           }
         ],

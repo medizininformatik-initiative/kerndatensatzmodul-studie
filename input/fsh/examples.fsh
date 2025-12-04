@@ -121,7 +121,7 @@ Usage: #example
 * id = "mii-exa-studie-proband"
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
 * identifier[subjectIdentificationCode].type = $v2-0203#ANON
-* identifier[subjectIdentificationCode].system = "http://www.acme.com/identifiers/patient"
+* identifier[subjectIdentificationCode].system = "https://www.medizininformatik-initiative.de/fhir/sid/patienten"
 * identifier[subjectIdentificationCode].value = "321123456"
 
 * status = #candidate
