@@ -1,6 +1,11 @@
 {
   "resourceType": "Patient",
   "id": "mii-exa-studie-patient",
+  "meta": {
+    "profile": [
+      "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
+    ]
+  },
   "name": [
     {
       "family": "Doe",
@@ -9,5 +14,7 @@
       ]
     }
   ],
-  "gender": "female"
+  "gender": "female",
+  "birthDate": "1980-11-12",
+  "deceasedBoolean": false
 }

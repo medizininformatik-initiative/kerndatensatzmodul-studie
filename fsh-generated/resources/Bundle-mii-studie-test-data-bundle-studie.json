@@ -677,6 +677,11 @@
       "resource": {
         "resourceType": "Patient",
         "id": "mii-exa-studie-patient",
+        "meta": {
+          "profile": [
+            "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
+          ]
+        },
         "name": [
           {
             "family": "Doe",
@@ -685,7 +690,9 @@
             ]
           }
         ],
-        "gender": "female"
+        "gender": "female",
+        "birthDate": "1980-11-12",
+        "deceasedBoolean": false
       },
       "request": {
         "method": "POST",
@@ -717,7 +724,12 @@
         ],
         "patient": {
           "reference": "Patient/mii-exa-studie-patient"
-        }
+        },
+        "policy": [
+          {
+            "uri": "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
+          }
+        ]
       },
       "request": {
         "method": "POST",
