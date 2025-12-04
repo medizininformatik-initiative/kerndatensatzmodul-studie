@@ -20,8 +20,8 @@
     "fshName": "mii-exa-studie-consent",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 186,
-    "endLine": 194
+    "startLine": 190,
+    "endLine": 198
   },
   {
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
@@ -77,7 +77,7 @@
     "fshType": "Instance",
     "fshFile": "examples.fsh",
     "startLine": 173,
-    "endLine": 183
+    "endLine": 187
   },
   {
     "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
