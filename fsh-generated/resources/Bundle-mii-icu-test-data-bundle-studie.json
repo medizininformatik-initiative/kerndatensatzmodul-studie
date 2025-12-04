@@ -344,6 +344,66 @@
         },
         "extension": [
           {
+            "extension": [
+              {
+                "url": "value",
+                "valueString": "MII Modul Studie"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "principal-investigator",
+                      "system": "http://hl7.org/fhir/CodeSystem/research-study-associated-party-role"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "Organization/mii-exa-studie-author"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "status",
+                "valueString": "genehmigt"
+              },
+              {
+                "url": "kommission",
+                "valueString": "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
+              },
+              {
+                "url": "ethiknummer",
+                "valueString": "159-12-21052012"
+              }
+            ],
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister",
+            "valueReference": {
+              "reference": "Library/mii-exa-studie-register"
+            }
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+            "valueReference": {
+              "reference": "EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium"
+            }
+          },
+          {
             "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
             "valueString": "LIFE ADULT"
           },
@@ -371,6 +431,10 @@
               }
             ],
             "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+            "valueString": "Deutsches Bundesministerium für Bildung und Forschung (BMBF)"
           }
         ],
         "identifier": [

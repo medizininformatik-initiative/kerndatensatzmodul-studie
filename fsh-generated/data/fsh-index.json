@@ -20,8 +20,8 @@
     "fshName": "mii-exa-studie-consent",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 180,
-    "endLine": 187
+    "startLine": 182,
+    "endLine": 189
   },
   {
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
@@ -52,40 +52,40 @@
     "fshName": "mii-exa-studie-author",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 134,
-    "endLine": 138
+    "startLine": 136,
+    "endLine": 140
   },
   {
     "outputFile": "Organization-mii-exa-studie-custodian.json",
     "fshName": "mii-exa-studie-custodian",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 141,
-    "endLine": 145
+    "startLine": 143,
+    "endLine": 147
   },
   {
     "outputFile": "Organization-mii-exa-studie-practitioner-organization.json",
     "fshName": "mii-exa-studie-practitioner-organization",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 148,
-    "endLine": 152
+    "startLine": 150,
+    "endLine": 154
   },
   {
     "outputFile": "Patient-mii-exa-studie-patient.json",
     "fshName": "mii-exa-studie-patient",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 171,
-    "endLine": 177
+    "startLine": 173,
+    "endLine": 179
   },
   {
     "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
     "fshName": "mii-exa-studie-practitioner",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 155,
-    "endLine": 160
+    "startLine": 157,
+    "endLine": 162
   },
   {
     "outputFile": "PractitionerRole-mii-exa-studie-beteiligte-person.json",
@@ -101,15 +101,15 @@
     "fshType": "Instance",
     "fshFile": "examples.fsh",
     "startLine": 88,
-    "endLine": 112
+    "endLine": 115
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-reference-study.json",
     "fshName": "mii-exa-studie-reference-study",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 163,
-    "endLine": 168
+    "startLine": 165,
+    "endLine": 170
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-studie.json",
@@ -124,8 +124,8 @@
     "fshName": "mii-exa-studie-proband",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 116,
-    "endLine": 129
+    "startLine": 118,
+    "endLine": 131
   },
   {
     "outputFile": "SearchParameter-DocumentReference-size.json",

@@ -91,26 +91,28 @@ Usage: #example
 * identifier.value = "7Q6PJD8NV3-2"
 * identifier.system = "https://example.com/fhir/sid/lha"
 * title = "LIFE-Adult-Study"
-* partOf = Reference(mii-exa-studie-reference-study) // -> reference on aonther study, so we need twi instances to cover the MS
+* partOf = Reference(mii-exa-studie-reference-study)
 * status = #active
 * category = http://terminology.hl7.org/CodeSystem/research-study-category#observational
 * focus.text = "Erwachsene der Stadt Leipzig"
 * keyword.text = "Bevölkerung, Leipzig, Erwachsene"
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
 * arm.name = "LIFE-Adult-Kohorte"
-
-// * extension.Label
-// * extension.AssiociatedParties
-// * extension.Ethikvotum
-// * extension.Studienregister
-// * extension.Eligibility
+* extension[Label].extension[value].valueString = "MII Modul Studie"
+* extension[AssociatedParty].extension[role].valueCodeableConcept = http://hl7.org/fhir/CodeSystem/research-study-associated-party-role#principal-investigator
+* extension[AssociatedParty].extension[party].valueReference = Reference(Organization/mii-exa-studie-author)
+* extension[Ethikvotum].extension[status].valueString = "genehmigt"
+* extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
+* extension[Ethikvotum].extension[ethiknummer].valueString = "159-12-21052012"
+* extension[Studienregister].valueReference = Reference(mii-exa-studie-register)
+* extension[Eligibility].valueReference = Reference(mii-exa-studie-ein-auschluss-kriterium)
 * extension[Akronym].valueString = "LIFE ADULT"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2009-01-01"
 * extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 10000
 * extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 10000
 * extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
 * extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2022-05-28"
-// * extension.Finanzierung
+* extension[Finanzierung].valueString = "Deutsches Bundesministerium für Bildung und Forschung (BMBF)"
 
 // Research subject example
 Instance: mii-exa-studie-proband
