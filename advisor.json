@@ -8,6 +8,8 @@
     "UNABLE_TO_INFER_CODESYSTEM@DocumentReference.content.attachment.contentType",
     "Terminology_TX_NoValid_16@DocumentReference.content.attachment.contentType",
     "UNABLE_TO_INFER_CODESYSTEM@Bundle.entry[0].resource.content[0].attachment.contentType",
-    "Terminology_TX_NoValid_16@Bundle.entry[0].resource.content[0].attachment.contentType"
+    "Terminology_TX_NoValid_16@Bundle.entry[0].resource.content[0].attachment.contentType",
+    "UNABLE_TO_INFER_CODESYSTEM@Bundle.*",
+    "Terminology_TX_NoValid_16@Bundle.*"
   ]
 }
