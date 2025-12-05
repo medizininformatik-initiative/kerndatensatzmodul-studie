@@ -359,8 +359,8 @@
                 "valueCodeableConcept": {
                   "coding": [
                     {
-                      "code": "principal-investigator",
-                      "system": "http://hl7.org/fhir/CodeSystem/research-study-associated-party-role"
+                      "code": "sponsor",
+                      "system": "http://example.org/fhir/CodeSystem/associated-party-role"
                     }
                   ]
                 }
@@ -455,7 +455,7 @@
             "coding": [
               {
                 "code": "observational",
-                "system": "http://terminology.hl7.org/CodeSystem/research-study-category"
+                "system": "http://example.org/fhir/CodeSystem/research-study-category"
               }
             ]
           }

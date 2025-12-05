@@ -93,13 +93,13 @@ Usage: #example
 * title = "LIFE-Adult-Study"
 * partOf = Reference(mii-exa-studie-reference-study)
 * status = #active
-* category = http://terminology.hl7.org/CodeSystem/research-study-category#observational // no existing VS
+* category = ResearchStudyCategoryCS#observational
 * focus.text = "Erwachsene der Stadt Leipzig"
 * keyword.text = "Bevölkerung, Leipzig, Erwachsene"
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
 * arm.name = "LIFE-Adult-Kohorte"
 * extension[Label].extension[value].valueString = "MII Modul Studie"
-* extension[AssociatedParty].extension[role].valueCodeableConcept = http://hl7.org/fhir/CodeSystem/research-study-associated-party-role#principal-investigator  // no existing VS
+* extension[AssociatedParty].extension[role].valueCodeableConcept = AssociatedPartyRoleCS#sponsor
 * extension[AssociatedParty].extension[party].valueReference = Reference(Organization/mii-exa-studie-author)
 * extension[Ethikvotum].extension[status].valueString = "genehmigt"
 * extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
@@ -131,7 +131,9 @@ Usage: #example
 * individual = Reference(mii-exa-studie-patient)
 * consent = Reference(mii-exa-studie-consent)
 
-//// Reference Ressources
+// ---------------------------------------------------------
+// Reference Ressources:
+// ---------------------------------------------------------
 
 // Author organization example
 Instance: mii-exa-studie-author
@@ -197,3 +199,68 @@ Usage: #example
 * category = $loinc#59284-0
 * patient = Reference(mii-exa-studie-patient)
 * policy.uri = "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
+
+// ---------------------------------------------------------
+// VS and CS for examples
+// ---------------------------------------------------------
+
+CodeSystem: ResearchStudyCategoryCS
+Id: research-study-category-cs
+Title: "Research Study Category Code System"
+Description: "High-level categories describing the overall type of a research study."
+* ^url = "http://example.org/fhir/CodeSystem/research-study-category"
+* ^status = #active
+* ^experimental = false
+* ^content = #complete
+
+* #interventional "Interventional study"
+    "A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated."
+* #observational "Observational study"
+    "A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions."
+* #registry "Registry study"
+    "A study primarily based on data collected in a registry (e.g. disease or quality registry)."
+* #other "Other"
+    "Other study category not covered by the existing codes. Use with additional descriptive text."
+
+ValueSet: ResearchStudyCategoryVS
+Id: research-study-category-vs
+Title: "Research Study Category"
+Description: "Value set of high-level categories describing the type of a research study."
+* ^url = "http://example.org/fhir/ValueSet/research-study-category"
+* ^status = #active
+* ^experimental = false
+* codes from system ResearchStudyCategoryCS
+
+
+CodeSystem: AssociatedPartyRoleCS
+Id: associated-party-role-cs
+Title: "Associated Party Role Code System"
+Description: "Roles that an associated party may have in relation to an entity such as a research study."
+* ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
+* ^status = #active
+* ^experimental = false
+* ^content = #complete
+
+* #sponsor "Sponsor"
+    "An individual or organization that takes responsibility for the initiation, management, and financing of a study."
+* #funder "Funder"
+    "An entity providing financial support but not assuming overall responsibility as a sponsor."
+* #principal-investigator "Principal Investigator"
+    "The lead researcher responsible for the overall conduct of the study."
+* #co-investigator "Co-Investigator"
+    "A researcher who shares scientific responsibility with the principal investigator."
+* #coordinator "Study Coordinator"
+    "A person coordinating day-to-day operational activities of the study."
+* #publisher "Publisher"
+    "An entity responsible for publishing or disseminating results."
+* #other "Other"
+    "A role not covered by the defined codes."
+
+ValueSet: AssociatedPartyRoleVS
+Id: associated-party-role-vs
+Title: "Associated Party Role"
+Description: "Value set of roles that an associated party may have in relation to a research study."
+* ^url = "http://example.org/fhir/ValueSet/associated-party-role"
+* ^status = #active
+* ^experimental = false
+* codes from system AssociatedPartyRoleCS

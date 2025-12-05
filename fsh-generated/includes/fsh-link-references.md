@@ -1,3 +1,5 @@
+[AssociatedPartyRoleVS]: ValueSet-associated-party-role-vs.html
+[AssociatedPartyRoleCS]: CodeSystem-associated-party-role-cs.html
 [DocumentReference-size]: SearchParameter-DocumentReference-size.html
 [DocumentReference-title]: SearchParameter-DocumentReference-title.html
 [EvidenceVariable-characteristic-description]: SearchParameter-EvidenceVariable-characteristic-description.html
@@ -40,6 +42,8 @@
 [mii-exa-studie-proband]: ResearchSubject-mii-exa-studie-proband.html
 [mii-exa-studie-register]: Library-mii-exa-studie-register.html
 [mii-studie-test-data-bundle-studie]: Bundle-mii-studie-test-data-bundle-studie.html
+[ResearchStudyCategoryVS]: ValueSet-research-study-category-vs.html
+[ResearchStudyCategoryCS]: CodeSystem-research-study-category-cs.html
 [ResearchStudy-akronym]: SearchParameter-ResearchStudy-akronym.html
 [ResearchStudy-armName]: SearchParameter-ResearchStudy-armName.html
 [ResearchStudy-finanzierung]: SearchParameter-ResearchStudy-finanzierung.html
