@@ -19,16 +19,16 @@
   ],
   "author": [
     {
-      "reference": "Organization/Example"
+      "reference": "Organization/mii-exa-studie-author"
     }
   ],
   "custodian": {
-    "reference": "Organization/Example"
+    "reference": "Organization/mii-exa-studie-custodian"
   },
   "context": {
     "related": [
       {
-        "reference": "ResearchStudy/Example"
+        "reference": "ResearchStudy/mii-exa-studie-cohort"
       }
     ]
   }

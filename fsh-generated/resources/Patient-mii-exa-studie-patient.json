@@ -1,0 +1,35 @@
+{
+  "resourceType": "Patient",
+  "id": "mii-exa-studie-patient",
+  "meta": {
+    "profile": [
+      "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "code": "KVZ10",
+            "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+          }
+        ]
+      },
+      "system": "http://fhir.de/sid/gkv/kvid-10",
+      "value": "D92345678"
+    }
+  ],
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "Jane"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1980-11-12",
+  "deceasedBoolean": false
+}

@@ -51,18 +51,6 @@ Description: "Dieses Profil beschreibt ein Dokument / Publikation in der Medizin
 * insert Translation(context ^definition, en, The clinical context in which the document was prepared)
 * context.related MS
 
-Instance:  mii-exa-studie-dokument
-InstanceOf: MII_PR_Studie_Dokument
-Usage: #example
-* status = #current
-* content.attachment.url = "https://example.com/fhir/Binary/document"
-* content.attachment.title = "Beispiel Dokument"
-* content.attachment.contentType = #application/pdf
-* content.attachment.size = 2000
-* author = Reference(Organization/Example)
-* custodian = Reference(Organization/Example)
-* context.related = Reference(ResearchStudy/Example)
-
 Instance: DocumentReference-title
 InstanceOf: SearchParameter
 Usage: #definition

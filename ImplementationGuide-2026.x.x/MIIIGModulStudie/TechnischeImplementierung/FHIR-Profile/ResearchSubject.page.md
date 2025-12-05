@@ -44,6 +44,11 @@ Dieses Profil beschreibt eine ProbandIn in der Medizininformatik-Initiative.
 | ResearchSubject.period.end       | Person.Studienteilnehmer.EndeTeilnahme         |
 | ResearchSubject.consent       | Person.Studienteilnehmer.Rechtsgrundlage        |
 
+---
+
+**Snapshot**
+
+{{tree:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband, snapshot}}
 
 ---
 
@@ -117,3 +122,9 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.consent" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
 ---
+
+**Beispiele**
+
+Siehe Beispiel (minimal):
+
+{{json:fsh-generated/resources/ResearchSubject-mii-exa-studie-proband.json}}

@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "Bundle-mii-studie-test-data-bundle-studie.json",
+    "fshName": "mii-studie-test-data-bundle-studie",
+    "fshType": "Instance",
+    "fshFile": "ExamplesBundle.fsh",
+    "startLine": 17,
+    "endLine": 37
+  },
+  {
     "outputFile": "CapabilityStatement-MII-CPS-Metadata-Studie.json",
     "fshName": "MII-CPS-Metadata-Studie",
     "fshType": "Instance",
@@ -8,44 +16,116 @@
     "endLine": 348
   },
   {
+    "outputFile": "CodeSystem-associated-party-role-cs.json",
+    "fshName": "AssociatedPartyRoleCS",
+    "fshType": "CodeSystem",
+    "fshFile": "examples.fsh",
+    "startLine": 235,
+    "endLine": 257
+  },
+  {
+    "outputFile": "CodeSystem-research-study-category-cs.json",
+    "fshName": "ResearchStudyCategoryCS",
+    "fshType": "CodeSystem",
+    "fshFile": "examples.fsh",
+    "startLine": 207,
+    "endLine": 223
+  },
+  {
+    "outputFile": "Consent-mii-exa-studie-consent.json",
+    "fshName": "mii-exa-studie-consent",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 193,
+    "endLine": 201
+  },
+  {
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
     "fshName": "mii-exa-studie-dokument",
     "fshType": "Instance",
-    "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 54,
-    "endLine": 64
+    "fshFile": "examples.fsh",
+    "startLine": 2,
+    "endLine": 12
   },
   {
     "outputFile": "EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json",
     "fshName": "mii-exa-studie-ein-auschluss-kriterium",
     "fshType": "Instance",
-    "fshFile": "profiles/EvidenceVariable.fsh",
-    "startLine": 112,
-    "endLine": 157
+    "fshFile": "examples.fsh",
+    "startLine": 15,
+    "endLine": 60
   },
   {
     "outputFile": "Library-mii-exa-studie-register.json",
     "fshName": "mii-exa-studie-register",
     "fshType": "Instance",
-    "fshFile": "profiles/Library.fsh",
-    "startLine": 54,
-    "endLine": 62
+    "fshFile": "examples.fsh",
+    "startLine": 66,
+    "endLine": 75
+  },
+  {
+    "outputFile": "Organization-mii-exa-studie-author.json",
+    "fshName": "mii-exa-studie-author",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 139,
+    "endLine": 143
+  },
+  {
+    "outputFile": "Organization-mii-exa-studie-custodian.json",
+    "fshName": "mii-exa-studie-custodian",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 146,
+    "endLine": 150
+  },
+  {
+    "outputFile": "Organization-mii-exa-studie-practitioner-organization.json",
+    "fshName": "mii-exa-studie-practitioner-organization",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 153,
+    "endLine": 157
+  },
+  {
+    "outputFile": "Patient-mii-exa-studie-patient.json",
+    "fshName": "mii-exa-studie-patient",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 176,
+    "endLine": 190
+  },
+  {
+    "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
+    "fshName": "mii-exa-studie-practitioner",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 160,
+    "endLine": 165
   },
   {
     "outputFile": "PractitionerRole-mii-exa-studie-beteiligte-person.json",
     "fshName": "mii-exa-studie-beteiligte-person",
     "fshType": "Instance",
-    "fshFile": "profiles/PractitionerRole.fsh",
-    "startLine": 41,
-    "endLine": 48
+    "fshFile": "examples.fsh",
+    "startLine": 78,
+    "endLine": 85
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-cohort.json",
     "fshName": "mii-exa-studie-cohort",
     "fshType": "Instance",
-    "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 378,
-    "endLine": 391
+    "fshFile": "examples.fsh",
+    "startLine": 88,
+    "endLine": 115
+  },
+  {
+    "outputFile": "ResearchStudy-mii-exa-studie-reference-study.json",
+    "fshName": "mii-exa-studie-reference-study",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 168,
+    "endLine": 173
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-studie.json",
@@ -56,20 +136,28 @@
     "endLine": 376
   },
   {
+    "outputFile": "ResearchSubject-mii-exa-studie-proband.json",
+    "fshName": "mii-exa-studie-proband",
+    "fshType": "Instance",
+    "fshFile": "examples.fsh",
+    "startLine": 118,
+    "endLine": 132
+  },
+  {
     "outputFile": "SearchParameter-DocumentReference-size.json",
     "fshName": "DocumentReference-size",
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 80,
-    "endLine": 92
+    "startLine": 68,
+    "endLine": 80
   },
   {
     "outputFile": "SearchParameter-DocumentReference-title.json",
     "fshName": "DocumentReference-title",
     "fshType": "Instance",
     "fshFile": "profiles/DocumentReference.fsh",
-    "startLine": 66,
-    "endLine": 78
+    "startLine": 54,
+    "endLine": 66
   },
   {
     "outputFile": "SearchParameter-EvidenceVariable-characteristic-description.json",
@@ -84,16 +172,16 @@
     "fshName": "Library-quellregister",
     "fshType": "Instance",
     "fshFile": "profiles/Library.fsh",
-    "startLine": 64,
-    "endLine": 76
+    "startLine": 56,
+    "endLine": 68
   },
   {
     "outputFile": "SearchParameter-Library-relatedArtifactUrl.json",
     "fshName": "Library-relatedArtifactUrl",
     "fshType": "Instance",
     "fshFile": "profiles/Library.fsh",
-    "startLine": 78,
-    "endLine": 90
+    "startLine": 70,
+    "endLine": 82
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-akronym.json",
@@ -342,5 +430,21 @@
     "fshFile": "profiles/ResearchStudy.fsh",
     "startLine": 1,
     "endLine": 129
+  },
+  {
+    "outputFile": "ValueSet-associated-party-role-vs.json",
+    "fshName": "AssociatedPartyRoleVS",
+    "fshType": "ValueSet",
+    "fshFile": "examples.fsh",
+    "startLine": 259,
+    "endLine": 266
+  },
+  {
+    "outputFile": "ValueSet-research-study-category-vs.json",
+    "fshName": "ResearchStudyCategoryVS",
+    "fshType": "ValueSet",
+    "fshFile": "examples.fsh",
+    "startLine": 225,
+    "endLine": 232
   }
 ]

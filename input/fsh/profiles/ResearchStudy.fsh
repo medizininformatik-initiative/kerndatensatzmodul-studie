@@ -375,17 +375,4 @@ Usage: #example
   * name = "frontale sham tDCS"
   * description = "vier Stimulationen, jeweils 30 Minuten"
 
-Instance: mii-exa-studie-cohort
-InstanceOf: MII_PR_Studie_Studie
-Usage: #example
-* status = #active
-* title = "LIFE-Adult-Study"
-* identifier.value = "7Q6PJD8NV3-2"
-* identifier.system = "https://example.com/fhir/sid/lha"
-* description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
-* extension[Akronym].valueString = "LIFE ADULT"
-* extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2009-01-01"
-* extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 10000
-* extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 10000
-* extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
-* extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2022-05-28"
+

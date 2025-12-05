@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ResearchStudyCategoryCS",
+  "id": "research-study-category-cs",
+  "title": "Research Study Category Code System",
+  "description": "High-level categories describing the overall type of a research study.",
+  "url": "http://example.org/fhir/CodeSystem/research-study-category",
+  "concept": [
+    {
+      "code": "interventional",
+      "display": "Interventional study",
+      "definition": "A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated."
+    },
+    {
+      "code": "observational",
+      "display": "Observational study",
+      "definition": "A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions."
+    },
+    {
+      "code": "registry",
+      "display": "Registry study",
+      "definition": "A study primarily based on data collected in a registry (e.g. disease or quality registry)."
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other study category not covered by the existing codes. Use with additional descriptive text."
+    }
+  ],
+  "experimental": false,
+  "count": 4
+}

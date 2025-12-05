@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AssociatedPartyRoleVS",
+  "id": "associated-party-role-vs",
+  "title": "Associated Party Role",
+  "description": "Value set of roles that an associated party may have in relation to a research study.",
+  "url": "http://example.org/fhir/ValueSet/associated-party-role",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/associated-party-role"
+      }
+    ]
+  }
+}

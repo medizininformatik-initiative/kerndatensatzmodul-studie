@@ -14,14 +14,14 @@
       }
     ]
   },
-  "status": "active",
-  "name": "DRKS - Deutsches Register Klinischer Studien",
   "identifier": [
     {
       "value": "DRKS",
       "system": "https://example.com/fhir/sid/drks"
     }
   ],
+  "name": "DRKS - Deutsches Register Klinischer Studien",
+  "status": "active",
   "relatedArtifact": [
     {
       "document": {
