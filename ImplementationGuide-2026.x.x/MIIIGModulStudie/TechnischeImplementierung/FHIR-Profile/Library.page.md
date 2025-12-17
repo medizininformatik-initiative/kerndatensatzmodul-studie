@@ -59,7 +59,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "_profile" MUSS unterstützt werden:
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -67,7 +67,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "name" MUSS unterstützt werden:
+3. Der Suchparameter "name" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -75,7 +75,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "Library.name" finden sich in der [FHIR-Basisspezifikation - Abschnitt "String Search"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "identifier" MUSS unterstützt werden:
+4. Der Suchparameter "identifier" MUSS unterstützt werden:
 
     Beispiele
 
@@ -83,7 +83,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "Library.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "quellregister" MUSS unterstützt werden:
+5. Der Suchparameter "quellregister" MUSS unterstützt werden:
 
     Beispiele
 
@@ -91,7 +91,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "Library.extension:QuellRegister" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "type" MUSS unterstützt werden:
+6. Der Suchparameter "type" MUSS unterstützt werden:
 
     Beispiele
 
@@ -99,7 +99,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "Library.type" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "relatedArtifactUrl" MUSS unterstützt werden:
+7. Der Suchparameter "relatedArtifactUrl" MUSS unterstützt werden:
 
     Beispiele
 
