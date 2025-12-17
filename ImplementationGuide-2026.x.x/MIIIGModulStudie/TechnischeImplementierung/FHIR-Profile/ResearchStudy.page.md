@@ -94,7 +94,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "_profile" MUSS unterstützt werden:
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -102,7 +102,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "identifier" MUSS unterstützt werden:
+3. Der Suchparameter "identifier" MUSS unterstützt werden:
 
     Beispiele
 
@@ -110,7 +110,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "title" MUSS unterstützt werden:
+4. Der Suchparameter "title" MUSS unterstützt werden:
 
     Beispiele
 
@@ -118,7 +118,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.title" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "status" MUSS unterstützt werden:
+5. Der Suchparameter "status" MUSS unterstützt werden:
 
     Beispiele
 
@@ -126,7 +126,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "partOf" MUSS unterstützt werden:
+6. Der Suchparameter "partOf" MUSS unterstützt werden:
 
     Beispiele
 
@@ -134,7 +134,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.partOf" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
-1. Der Suchparameter "category" MUSS unterstützt werden:
+7. Der Suchparameter "category" MUSS unterstützt werden:
 
     Beispiele
 
@@ -142,7 +142,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.category" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "armName" MUSS unterstützt werden:
+8. Der Suchparameter "armName" MUSS unterstützt werden:
 
     Beispiele
 
@@ -150,7 +150,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.arm.name" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "category" MUSS unterstützt werden:
+9. Der Suchparameter "category" MUSS unterstützt werden:
 
     Beispiele
 
@@ -158,7 +158,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienfokus" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "keyword" MUSS unterstützt werden:
+10. Der Suchparameter "keyword" MUSS unterstützt werden:
 
     Beispiele
 
@@ -166,7 +166,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Schlagwort" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "label" MUSS unterstützt werden:
+11. Der Suchparameter "label" MUSS unterstützt werden:
 
     Beispiele
 
@@ -174,7 +174,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Label" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "studienregister" MUSS unterstützt werden:
+12. Der Suchparameter "studienregister" MUSS unterstützt werden:
 
     Beispiele
 
@@ -182,7 +182,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienregister" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).      
 
-1. Der Suchparameter "rekrutierungsstand-datum" MUSS unterstützt werden:
+13. Der Suchparameter "rekrutierungsstand-datum" MUSS unterstützt werden:
 
     Beispiele
 
@@ -190,7 +190,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum" finden sich in der [FHIR-Basisspezifikation - Abschnitt "date"](http://hl7.org/fhir/R4/search.html#date).
 
-1. Der Suchparameter "rekrutierungsstand-genauigkeit" MUSS unterstützt werden:
+14. Der Suchparameter "rekrutierungsstand-genauigkeit" MUSS unterstützt werden:
 
     Beispiele
 
@@ -198,7 +198,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string). 
 
-1. Der Suchparameter "rekrutierungsstand-rekrutierungsstand" MUSS unterstützt werden:
+15. Der Suchparameter "rekrutierungsstand-rekrutierungsstand" MUSS unterstützt werden:
 
     Beispiele
 
@@ -206,7 +206,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand" finden sich in der [FHIR-Basisspezifikation - Abschnitt "number"](http://hl7.org/fhir/R4/search.html#number).
 
-1. Der Suchparameter "rekrutierungsstand-rekrutierungsziel" MUSS unterstützt werden:
+16. Der Suchparameter "rekrutierungsstand-rekrutierungsziel" MUSS unterstützt werden:
 
     Beispiele
 
@@ -214,7 +214,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "number"](http://hl7.org/fhir/R4/search.html#number).
 
-1. Der Suchparameter "rekrutierungsstand-rekrutierungsstart" MUSS unterstützt werden:
+17. Der Suchparameter "rekrutierungsstand-rekrutierungsstart" MUSS unterstützt werden:
 
     Beispiele
 
