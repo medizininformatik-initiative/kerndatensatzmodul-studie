@@ -59,7 +59,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "_profile" MUSS unterstützt werden:
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -67,7 +67,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "identifier" MUSS unterstützt werden:
+3. Der Suchparameter "identifier" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -75,7 +75,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchSubject.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "status" MUSS unterstützt werden:
+4. Der Suchparameter "status" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -84,7 +84,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchSubject.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"](http://hl7.org/fhir/R4/search.html#token).
 
 
-1. Der Suchparameter "date" MUSS unterstützt werden:
+5. Der Suchparameter "date" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -92,7 +92,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchSubject.period" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Date Search"](http://hl7.org/fhir/R4/search.html#date).
 
-1. Der Suchparameter "study" MUSS unterstützt werden:
+6. Der Suchparameter "study" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -100,7 +100,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.study" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
-1. Der Suchparameter "individual" MUSS unterstützt werden:
+7. Der Suchparameter "individual" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -108,7 +108,7 @@ Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben rele
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.individual" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
-1. Der Suchparameter "consent" MUSS unterstützt werden:
+8. Der Suchparameter "consent" MUSS unterstützt werden:
 
     Beispiele:
 
