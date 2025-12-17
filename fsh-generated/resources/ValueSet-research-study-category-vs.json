@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ResearchStudyCategoryVS",
+  "id": "research-study-category-vs",
+  "title": "Research Study Category",
+  "description": "Value set of high-level categories describing the type of a research study.",
+  "url": "http://example.org/fhir/ValueSet/research-study-category",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/CodeSystem/research-study-category"
+      }
+    ]
+  }
+}

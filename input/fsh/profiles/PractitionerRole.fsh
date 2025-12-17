@@ -38,11 +38,3 @@ Description: "Dieses Profil beschreibt eine beteiligte Person innerhalb einer St
 * insert Translation(practitioner ^definition, de, Praktiker\, der in der Lage ist\, die definierten Dienstleistungen für die Organisation bereitzustellen.)
 * insert Translation(practitioner ^definition, en, Practitioner that is able to provide the defined services for the organization.)
 
-Instance:  mii-exa-studie-beteiligte-person
-InstanceOf: MII_PR_Studie_Beteiligte_Person
-Usage: #example
-* code = http://terminology.hl7.org/CodeSystem/practitioner-role#doctor
-* telecom.system = #phone
-* telecom.value = "0123456789"
-* organization = Reference(Organization/Example)
-* practitioner = Reference(Practitioner/Example)

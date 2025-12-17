@@ -1,0 +1,30 @@
+{
+  "resourceType": "Consent",
+  "id": "mii-exa-studie-consent",
+  "status": "active",
+  "scope": {
+    "coding": [
+      {
+        "code": "research"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "59284-0",
+          "system": "http://loinc.org"
+        }
+      ]
+    }
+  ],
+  "patient": {
+    "reference": "Patient/mii-exa-studie-patient"
+  },
+  "policy": [
+    {
+      "uri": "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
+    }
+  ]
+}

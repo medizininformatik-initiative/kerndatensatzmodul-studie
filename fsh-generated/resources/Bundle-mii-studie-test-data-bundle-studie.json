@@ -1,0 +1,755 @@
+{
+  "resourceType": "Bundle",
+  "id": "mii-studie-test-data-bundle-studie",
+  "meta": {
+    "security": [
+      {
+        "code": "HTEST",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "display": "test health data"
+      }
+    ]
+  },
+  "type": "transaction",
+  "timestamp": "2025-12-04T12:00:00+00:00",
+  "entry": [
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Dokument/mii-exa-studie-dokument",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "mii-exa-studie-dokument",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"
+          ]
+        },
+        "status": "current",
+        "content": [
+          {
+            "attachment": {
+              "url": "https://example.com/fhir/Binary/document",
+              "title": "Beispiel Dokument",
+              "contentType": "application/pdf",
+              "size": 2000
+            }
+          }
+        ],
+        "author": [
+          {
+            "reference": "Organization/mii-exa-studie-author"
+          }
+        ],
+        "custodian": {
+          "reference": "Organization/mii-exa-studie-custodian"
+        },
+        "context": {
+          "related": [
+            {
+              "reference": "ResearchStudy/mii-exa-studie-cohort"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_Dokument"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_EinAuschlussKriterium/mii-exa-studie-ein-auschluss-kriterium",
+      "resource": {
+        "resourceType": "EvidenceVariable",
+        "id": "mii-exa-studie-ein-auschluss-kriterium",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
+          ]
+        },
+        "characteristic": [
+          {
+            "definitionCodeableConcept": {
+              "text": "kein Höchstalter"
+            },
+            "description": "Höchstalter",
+            "exclude": false
+          },
+          {
+            "definitionCodeableConcept": {
+              "text": "18 Jahre"
+            },
+            "description": "Mindestalter",
+            "exclude": false
+          },
+          {
+            "definitionCodeableConcept": {
+              "text": "Alle"
+            },
+            "description": "Geschlecht",
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+                "valueId": "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
+              }
+            ],
+            "definitionCodeableConcept": {
+              "coding": [
+                {
+                  "code": "unknown",
+                  "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+                }
+              ]
+            },
+            "description": "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)",
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+                "valueId": "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
+              }
+            ],
+            "definitionCodeableConcept": {
+              "coding": [
+                {
+                  "code": "unknown",
+                  "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+                }
+              ]
+            },
+            "description": "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt",
+            "exclude": false
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
+                "extension": [
+                  {
+                    "url": "code",
+                    "valueCode": "any-of"
+                  },
+                  {
+                    "url": "characteristic",
+                    "valueId": "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
+                  },
+                  {
+                    "url": "characteristic",
+                    "valueId": "8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"
+                  }
+                ]
+              }
+            ],
+            "definitionCodeableConcept": {
+              "coding": [
+                {
+                  "code": "unknown",
+                  "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+                }
+              ]
+            },
+            "description": "Weitere Einschlusskriterien",
+            "exclude": false
+          },
+          {
+            "definitionCodeableConcept": {
+              "coding": [
+                {
+                  "code": "unknown",
+                  "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+                }
+              ]
+            },
+            "description": "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen",
+            "exclude": true
+          },
+          {
+            "definitionCodeableConcept": {
+              "coding": [
+                {
+                  "code": "unknown",
+                  "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+                }
+              ]
+            },
+            "description": "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva",
+            "exclude": true
+          },
+          {
+            "definitionCodeableConcept": {
+              "coding": [
+                {
+                  "code": "unknown",
+                  "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+                }
+              ]
+            },
+            "description": "weitere neurologische Erkrankungen",
+            "exclude": true
+          }
+        ],
+        "status": "active"
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_EinAuschlussKriterium"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Studie/mii-exa-studie-studie",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "mii-exa-studie-studie",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "value",
+                "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "scientific",
+                      "system": "http://terminology.hl7.org/CodeSystem/title-type"
+                    }
+                  ]
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "value",
+                "valueString": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+              },
+              {
+                "url": "type",
+                "valueCodeableConcept": {
+                  "text": "Öffentlicher Titel"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
+            "valueString": "tDCS"
+          },
+          {
+            "extension": [
+              {
+                "url": "rekrutierungsstart",
+                "valueDate": "2023-01-12"
+              },
+              {
+                "url": "rekrutierungsziel",
+                "valueInteger": 40
+              },
+              {
+                "url": "rekrutierungsstand",
+                "valueInteger": 35
+              },
+              {
+                "url": "rekrutierungsstand-genauigkeit",
+                "valueString": "good"
+              },
+              {
+                "url": "rekrutierungsstand-datum",
+                "valueDate": "2023-02-17"
+              }
+            ],
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+            "valueString": "Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)"
+          },
+          {
+            "extension": [
+              {
+                "url": "status",
+                "valueString": "Zustimmende Bewertung"
+              },
+              {
+                "url": "kommission",
+                "valueString": "Ethik-Kommission der Otto-von-Guericke-Universität an der Medizinischen Fakultät und am Universitätsklinikum Magdeburg A.ö.R."
+              },
+              {
+                "url": "ethiknummer",
+                "valueString": "Az.: 83/18"
+              }
+            ],
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
+          }
+        ],
+        "status": "active",
+        "title": "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue",
+        "identifier": [
+          {
+            "value": "DRKS00031294",
+            "system": "https://example.com/fhir/sid/drks"
+          }
+        ],
+        "description": "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet.",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "interventional"
+              }
+            ]
+          },
+          {
+            "text": "Zufallszuteilung"
+          }
+        ],
+        "arm": [
+          {
+            "name": "frontale anodale tDCS  (verum condition)",
+            "description": "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"
+          },
+          {
+            "name": "frontale sham tDCS",
+            "description": "vier Stimulationen, jeweils 30 Minuten"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_Studie"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Cohort/mii-exa-studie-cohort",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "mii-exa-studie-cohort",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
+          ]
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "value",
+                "valueString": "MII Modul Studie"
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+          },
+          {
+            "extension": [
+              {
+                "url": "role",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code": "sponsor",
+                      "system": "http://example.org/fhir/CodeSystem/associated-party-role"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "party",
+                "valueReference": {
+                  "reference": "Organization/mii-exa-studie-author"
+                }
+              }
+            ],
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "extension": [
+              {
+                "url": "status",
+                "valueString": "genehmigt"
+              },
+              {
+                "url": "kommission",
+                "valueString": "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
+              },
+              {
+                "url": "ethiknummer",
+                "valueString": "159-12-21052012"
+              }
+            ],
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister",
+            "valueReference": {
+              "reference": "Library/mii-exa-studie-register"
+            }
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+            "valueReference": {
+              "reference": "EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium"
+            }
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
+            "valueString": "LIFE ADULT"
+          },
+          {
+            "extension": [
+              {
+                "url": "rekrutierungsstart",
+                "valueDate": "2009-01-01"
+              },
+              {
+                "url": "rekrutierungsziel",
+                "valueInteger": 10000
+              },
+              {
+                "url": "rekrutierungsstand",
+                "valueInteger": 10000
+              },
+              {
+                "url": "rekrutierungsstand-genauigkeit",
+                "valueString": "good"
+              },
+              {
+                "url": "rekrutierungsstand-datum",
+                "valueDate": "2022-05-28"
+              }
+            ],
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung"
+          },
+          {
+            "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+            "valueString": "Deutsches Bundesministerium für Bildung und Forschung (BMBF)"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "7Q6PJD8NV3-2",
+            "system": "https://example.com/fhir/sid/lha"
+          }
+        ],
+        "title": "LIFE-Adult-Study",
+        "partOf": [
+          {
+            "reference": "ResearchStudy/mii-exa-studie-reference-study"
+          }
+        ],
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "observational",
+                "system": "http://example.org/fhir/CodeSystem/research-study-category"
+              }
+            ]
+          }
+        ],
+        "focus": [
+          {
+            "text": "Erwachsene der Stadt Leipzig"
+          }
+        ],
+        "keyword": [
+          {
+            "text": "Bevölkerung, Leipzig, Erwachsene"
+          }
+        ],
+        "description": "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+        "arm": [
+          {
+            "name": "LIFE-Adult-Kohorte"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_Cohort"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Proband/mii-exa-studie-proband",
+      "resource": {
+        "resourceType": "ResearchSubject",
+        "id": "mii-exa-studie-proband",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "ANON",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "https://www.medizininformatik-initiative.de/fhir/sid/patienten",
+            "value": "321123456"
+          }
+        ],
+        "status": "candidate",
+        "period": {
+          "start": "2023-01-01",
+          "end": "2023-12-31"
+        },
+        "study": {
+          "reference": "ResearchStudy/mii-exa-studie-cohort"
+        },
+        "individual": {
+          "reference": "Patient/mii-exa-studie-patient"
+        },
+        "consent": {
+          "reference": "Consent/mii-exa-studie-consent"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_Proband"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Beteiligte_Person/mii-exa-studie-beteiligte-person",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "mii-exa-studie-beteiligte-person",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"
+          ]
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "doctor",
+                "system": "http://terminology.hl7.org/CodeSystem/practitioner-role"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0123456789"
+          }
+        ],
+        "organization": {
+          "reference": "Organization/mii-exa-studie-practitioner-organization"
+        },
+        "practitioner": {
+          "reference": "Practitioner/mii-exa-studie-practitioner"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_Beteiligte_Person"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Register/mii-exa-studie-register",
+      "resource": {
+        "resourceType": "Library",
+        "id": "mii-exa-studie-register",
+        "meta": {
+          "profile": [
+            "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"
+          ]
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "asset-collection",
+              "system": "http://terminology.hl7.org/CodeSystem/library-type"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "value": "DRKS",
+            "system": "https://example.com/fhir/sid/drks"
+          }
+        ],
+        "name": "DRKS - Deutsches Register Klinischer Studien",
+        "status": "active",
+        "relatedArtifact": [
+          {
+            "document": {
+              "url": "https://drks.de/"
+            },
+            "type": "documentation"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MII_PR_Studie_Register"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/Organization/mii-exa-studie-author",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "mii-exa-studie-author",
+        "name": "Example Organization for Author"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/Organization/mii-exa-studie-custodian",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "mii-exa-studie-custodian",
+        "name": "Example Organization for Custodian"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/Organization/mii-exa-studie-practitioner-organization",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "mii-exa-studie-practitioner-organization",
+        "name": "Example Organization for Practitioner"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Organization"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/Practitioner/mii-exa-studie-practitioner",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mii-exa-studie-practitioner",
+        "name": [
+          {
+            "family": "Mustermann",
+            "given": [
+              "Max"
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/ResearchStudy/mii-exa-studie-reference-study",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "mii-exa-studie-reference-study",
+        "title": "Example Reference Study",
+        "status": "completed"
+      },
+      "request": {
+        "method": "POST",
+        "url": "ResearchStudy"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/Patient/mii-exa-studie-patient",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "mii-exa-studie-patient",
+        "meta": {
+          "profile": [
+            "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "code": "KVZ10",
+                  "system": "http://fhir.de/CodeSystem/identifier-type-de-basis"
+                }
+              ]
+            },
+            "system": "http://fhir.de/sid/gkv/kvid-10",
+            "value": "D92345678"
+          }
+        ],
+        "name": [
+          {
+            "family": "Doe",
+            "given": [
+              "Jane"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1980-11-12",
+        "deceasedBoolean": false
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      }
+    },
+    {
+      "fullUrl": "https://www.medizininformatik-initiative.de/Consent/mii-exa-studie-consent",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "mii-exa-studie-consent",
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "code": "research"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "59284-0",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "patient": {
+          "reference": "Patient/mii-exa-studie-patient"
+        },
+        "policy": [
+          {
+            "uri": "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Consent"
+      }
+    }
+  ]
+}
