@@ -65,7 +65,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "_profile" MUSS unterstützt werden:
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -73,7 +73,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "practitioner" MUSS unterstützt werden:
+3. Der Suchparameter "practitioner" MUSS unterstützt werden:
 
     Beispiele
 
@@ -81,7 +81,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.practitioner" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
-1. Der Suchparameter "organization" MUSS unterstützt werden:
+4. Der Suchparameter "organization" MUSS unterstützt werden:
 
     Beispiele
 
@@ -89,7 +89,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.organization" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
-1. Der Suchparameter "role" MUSS unterstützt werden:
+5. Der Suchparameter "role" MUSS unterstützt werden:
 
     Beispiele
 
@@ -97,7 +97,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.code" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "telecom" MUSS unterstützt werden:
+6. Der Suchparameter "telecom" MUSS unterstützt werden:
 
     Beispiele
 

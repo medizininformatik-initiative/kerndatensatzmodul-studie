@@ -64,7 +64,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "_profile" MUSS unterstützt werden:
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -72,7 +72,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "status" MUSS unterstützt werden:
+3. Der Suchparameter "status" MUSS unterstützt werden:
 
     Beispiele
 
@@ -80,7 +80,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "EvidenceVariable.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "characteristicDescription" MUSS unterstützt werden:
+4. Der Suchparameter "characteristicDescription" MUSS unterstützt werden:
 
     Beispiele
 

@@ -70,7 +70,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "_profile" MUSS unterstützt werden:
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -78,7 +78,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
-1. Der Suchparameter "author" MUSS unterstützt werden:
+3. Der Suchparameter "author" MUSS unterstützt werden:
 
     Beispiele
 
@@ -87,7 +87,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.author" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
 
-1. Der Suchparameter "custodian" MUSS unterstützt werden:
+4. Der Suchparameter "custodian" MUSS unterstützt werden:
 
     Beispiele
 
@@ -95,7 +95,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.custodian" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
 
-1. Der Suchparameter "status" MUSS unterstützt werden:
+5. Der Suchparameter "status" MUSS unterstützt werden:
 
     Beispiele
 
@@ -103,7 +103,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
 
-1. Der Suchparameter "location" MUSS unterstützt werden:
+6. Der Suchparameter "location" MUSS unterstützt werden:
 
     Beispiele
 
@@ -111,7 +111,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.url" finden sich in der [FHIR-Basisspezifikation - Abschnitt "uri"](https://www.hl7.org/fhir/r4/search.html#uri).
 
-1. Der Suchparameter "contenttype" MUSS unterstützt werden:
+7. Der Suchparameter "contenttype" MUSS unterstützt werden:
 
     Beispiele
 
@@ -119,7 +119,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.contentType" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](https://www.hl7.org/fhir/r4/search.html#token).
 
-1. Der Suchparameter "title" MUSS unterstützt werden:
+8. Der Suchparameter "title" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -127,7 +127,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.title" finden sich in der [FHIR-Basisspezifikation - Abschnitt "String Search"](http://hl7.org/fhir/R4/search.html#string).
 
-1. Der Suchparameter "size" MUSS unterstützt werden:
+9. Der Suchparameter "size" MUSS unterstützt werden:
 
     Beispiele:
 
@@ -135,7 +135,7 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
     Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.size" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Number Search"](http://hl7.org/fhir/R4/search.html#number).
 
-1. Der Suchparameter "related" MUSS unterstützt werden:
+10. Der Suchparameter "related" MUSS unterstützt werden:
 
     Beispiele:
 

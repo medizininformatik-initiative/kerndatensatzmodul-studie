@@ -14,4 +14,6 @@
   filename: ResearchStudy.page.md
 - name: Proband:in (ResearchSubject)
   filename: ResearchSubject.page.md
+- name: Studieneinschluss (StudyInclusion)
+  filename: StudyInclusion.page.md
 
