@@ -31,6 +31,7 @@
 [MII_PR_Studie_Register]: StructureDefinition-mii-pr-studie-register.html
 [MII_PR_Studie_Studie]: StructureDefinition-mii-pr-studie-studie.html
 [MII_PR_Studie_Studieneinschluss_Anfrage]: StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html
+[mii-exa-studie-author]: Organization-mii-exa-studie-author.html
 [mii-exa-studie-beteiligte-person]: PractitionerRole-mii-exa-studie-beteiligte-person.html
 [mii-exa-studie-consent]: Consent-mii-exa-studie-consent.html
 [mii-exa-studie-custodian]: Organization-mii-exa-studie-custodian.html
@@ -41,6 +42,7 @@
 [mii-exa-studie-practitioner-organization]: Organization-mii-exa-studie-practitioner-organization.html
 [mii-exa-studie-proband]: ResearchSubject-mii-exa-studie-proband.html
 [mii-exa-studie-register]: Library-mii-exa-studie-register.html
+[mii-exa-studie-studieneinschluss-anfrage]: ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.html
 [mii-studie-test-data-bundle-studie]: Bundle-mii-studie-test-data-bundle-studie.html
 [ResearchStudyCategoryVS]: ValueSet-research-study-category-vs.html
 [ResearchStudyCategoryCS]: CodeSystem-research-study-category-cs.html
