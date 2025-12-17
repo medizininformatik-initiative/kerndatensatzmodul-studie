@@ -18,7 +18,7 @@ Description: "Anfrage zum Studieneinschluss"
 * code 1..1 MS
 * code = $sct#702475000 "Referral to clinical trial (procedure)"
 
-* reasonReference 0..* MS
+* reasonReference 0..*
 
 * supportingInfo 0..* MS
 * supportingInfo ^slicing.discriminator.type = #profile

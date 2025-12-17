@@ -131,6 +131,20 @@ Usage: #example
 * individual = Reference(mii-exa-studie-patient)
 * consent = Reference(mii-exa-studie-consent)
 
+// Study inclusion example
+Instance: mii-exa-studie-studieneinschluss-anfrage
+InstanceOf: MII_PR_Studie_Studieneinschluss_Anfrage
+Usage: #example
+* id = "mii-exa-studie-studieneinschluss-anfrage"
+* meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"
+* status = #draft
+* intent = #proposal
+* category = $sct#110465008 "Clinical trial (procedure)"
+* code = $sct#702475000 "Referral to clinical trial (procedure)"
+* subject = Reference(mii-exa-studie-patient)
+* supportingInfo[Studie] = Reference(mii-exa-studie-cohort)
+* supportingInfo[Proband] = Reference(mii-exa-studie-proband)  
+
 // ---------------------------------------------------------
 // Reference Ressources:
 // ---------------------------------------------------------
