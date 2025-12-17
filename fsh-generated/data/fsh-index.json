@@ -432,6 +432,14 @@
     "endLine": 129
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.json",
+    "fshName": "MII_PR_Studie_Studieneinschluss_Anfrage",
+    "fshType": "Profile",
+    "fshFile": "profiles/StudyInclusion.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
     "outputFile": "ValueSet-associated-party-role-vs.json",
     "fshName": "AssociatedPartyRoleVS",
     "fshType": "ValueSet",
