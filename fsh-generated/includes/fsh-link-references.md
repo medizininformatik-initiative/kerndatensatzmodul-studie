@@ -27,6 +27,7 @@
 [MII_PR_Studie_Proband]: StructureDefinition-mii-pr-studie-proband.html
 [MII_PR_Studie_Register]: StructureDefinition-mii-pr-studie-register.html
 [MII_PR_Studie_Studie]: StructureDefinition-mii-pr-studie-studie.html
+[MII_PR_Studie_Studieneinschluss_Anfrage]: StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html
 [mii-exa-studie-beteiligte-person]: PractitionerRole-mii-exa-studie-beteiligte-person.html
 [mii-exa-studie-dokument]: DocumentReference-mii-exa-studie-dokument.html
 [mii-exa-studie-ein-auschluss-kriterium]: EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html
