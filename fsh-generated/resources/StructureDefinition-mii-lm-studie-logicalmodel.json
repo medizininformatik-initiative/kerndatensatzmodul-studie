@@ -1800,8 +1800,8 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateigrösse",
-        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateigrösse",
+        "id": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateigroesse",
+        "path": "mii-lm-studie-logicalmodel.Datenerhebung.Dokument.Dateigroesse",
         "short": "Dateigrösse eines Dokumentes",
         "definition": "Dateigrösse eines Dokumentes",
         "min": 0,
@@ -1995,8 +1995,8 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateigrösse",
-        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateigrösse",
+        "id": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateigroesse",
+        "path": "mii-lm-studie-logicalmodel.Rechtsgrundlage.Dokument.Dateigroesse",
         "short": "Dateigrösse eines Dokumentes",
         "definition": "Dateigrösse eines Dokumentes",
         "min": 0,
@@ -2190,8 +2190,8 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateigrösse",
-        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateigrösse",
+        "id": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateigroesse",
+        "path": "mii-lm-studie-logicalmodel.Datennutzungsantrag.Dokument.Dateigroesse",
         "short": "Dateigrösse eines Dokumentes",
         "definition": "Dateigrösse eines Dokumentes",
         "min": 0,
@@ -2437,8 +2437,8 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateigrösse",
-        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateigrösse",
+        "id": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateigroesse",
+        "path": "mii-lm-studie-logicalmodel.Machbarkeit.Dokument.Dateigroesse",
         "short": "Dateigrösse eines Dokumentes",
         "definition": "Dateigrösse eines Dokumentes",
         "min": 0,
