@@ -1,0 +1,42 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "mii-exa-studie-studieneinschluss-anfrage",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"
+    ]
+  },
+  "intent": "proposal",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "110465008",
+          "system": "http://snomed.info/sct",
+          "display": "Clinical trial (procedure)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "702475000",
+        "system": "http://snomed.info/sct",
+        "display": "Referral to clinical trial (procedure)"
+      }
+    ]
+  },
+  "status": "draft",
+  "subject": {
+    "reference": "Patient/mii-exa-studie-patient"
+  },
+  "supportingInfo": [
+    {
+      "reference": "ResearchStudy/mii-exa-studie-cohort"
+    },
+    {
+      "reference": "ResearchSubject/mii-exa-studie-proband"
+    }
+  ]
+}

@@ -69,11 +69,6 @@
         "mustSupport": true
       },
       {
-        "id": "ServiceRequest.reasonReference",
-        "path": "ServiceRequest.reasonReference",
-        "mustSupport": true
-      },
-      {
         "id": "ServiceRequest.supportingInfo",
         "path": "ServiceRequest.supportingInfo",
         "slicing": {
