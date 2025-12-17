@@ -90,4 +90,4 @@ Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
 
 Siehe Beispiel (minimal):
 
-{{json:fsh-generated/resources/ResearchStudy-mii-exa-studie-studieneinschluss-anfrage.json}}
+{{json:fsh-generated/resources/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.json}}
