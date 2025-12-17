@@ -30,6 +30,7 @@
 [MII_PR_Studie_Proband]: StructureDefinition-mii-pr-studie-proband.html
 [MII_PR_Studie_Register]: StructureDefinition-mii-pr-studie-register.html
 [MII_PR_Studie_Studie]: StructureDefinition-mii-pr-studie-studie.html
+[MII_PR_Studie_Studieneinschluss_Anfrage]: StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html
 [mii-exa-studie-author]: Organization-mii-exa-studie-author.html
 [mii-exa-studie-beteiligte-person]: PractitionerRole-mii-exa-studie-beteiligte-person.html
 [mii-exa-studie-consent]: Consent-mii-exa-studie-consent.html
