@@ -42,6 +42,7 @@
 [mii-exa-studie-practitioner-organization]: Organization-mii-exa-studie-practitioner-organization.html
 [mii-exa-studie-proband]: ResearchSubject-mii-exa-studie-proband.html
 [mii-exa-studie-register]: Library-mii-exa-studie-register.html
+[mii-exa-studie-studieneinschluss-anfrage]: ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.html
 [mii-studie-test-data-bundle-studie]: Bundle-mii-studie-test-data-bundle-studie.html
 [ResearchStudyCategoryVS]: ValueSet-research-study-category-vs.html
 [ResearchStudyCategoryCS]: CodeSystem-research-study-category-cs.html
