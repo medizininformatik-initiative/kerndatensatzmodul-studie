@@ -8,20 +8,26 @@
   },
   "characteristic": [
     {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference",
+          "valueReference": {
+            "reference": "EvidenceVariable/mii-exa-studie-evidence-variable-age-restriction"
+          }
+        }
+      ],
       "definitionCodeableConcept": {
-        "text": "kein Höchstalter"
+        "text": "Altersbeschränkung"
       },
-      "description": "Höchstalter",
-      "exclude": false
+      "description": "Altersbeschränkung"
     },
     {
-      "definitionCodeableConcept": {
-        "text": "18 Jahre"
-      },
-      "description": "Mindestalter",
-      "exclude": false
-    },
-    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
+          "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender"
+        }
+      ],
       "definitionCodeableConcept": {
         "text": "Alle"
       },
@@ -130,6 +136,42 @@
       },
       "description": "weitere neurologische Erkrankungen",
       "exclude": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
+          "extension": [
+            {
+              "url": "type",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "424144002",
+                    "display": "Current chronological age"
+                  }
+                ]
+              }
+            },
+            {
+              "url": "value",
+              "valueQuantity": {
+                "value": 18,
+                "comparator": ">=",
+                "unit": "year",
+                "system": "http://unitsofmeasure.org",
+                "code": "a"
+              }
+            }
+          ]
+        }
+      ],
+      "definitionCodeableConcept": {
+        "text": "Mindestalter"
+      },
+      "description": "Alter mindestens 18 Jahre",
+      "exclude": false
     }
   ],
   "status": "active"
