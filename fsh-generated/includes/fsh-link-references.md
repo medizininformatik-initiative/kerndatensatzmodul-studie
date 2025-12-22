@@ -37,6 +37,7 @@
 [mii-exa-studie-custodian]: Organization-mii-exa-studie-custodian.html
 [mii-exa-studie-dokument]: DocumentReference-mii-exa-studie-dokument.html
 [mii-exa-studie-ein-auschluss-kriterium]: EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html
+[mii-exa-studie-evidence-variable-age-restriction]: EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.html
 [mii-exa-studie-patient]: Patient-mii-exa-studie-patient.html
 [mii-exa-studie-practitioner]: Practitioner-mii-exa-studie-practitioner.html
 [mii-exa-studie-practitioner-organization]: Organization-mii-exa-studie-practitioner-organization.html
