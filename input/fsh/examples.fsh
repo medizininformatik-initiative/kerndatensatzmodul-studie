@@ -17,16 +17,13 @@ InstanceOf: MII_PR_Studie_EinAuschlussKriterium
 Usage: #example
 * status = #active
 * characteristic
-  * definitionCodeableConcept.text = "kein Höchstalter"
-  * description = "Höchstalter"
-* characteristic[=].exclude = false
-* characteristic[+]
-  * definitionCodeableConcept.text = "18 Jahre"
-  * description = "Mindestalter"
-* characteristic[=].exclude = false
+  * definitionCodeableConcept.text = "Altersbeschränkung"
+  * description = "Altersbeschränkung"
+  * extension[definitionReference].valueReference = Reference(mii-exa-studie-evidence-variable-age-restriction)
 * characteristic[+]
   * definitionCodeableConcept.text = "Alle"
   * description = "Geschlecht"
+  * extension[definitionCanonical].valueCanonical = "http://example.org/fhir/EvidenceVariable/administrative-gender"
 * characteristic[=].exclude = false
 * characteristic[+]
   * extension[linkId].valueId = "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"
@@ -58,9 +55,19 @@ Usage: #example
   * definitionCodeableConcept = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown
   * description = "weitere neurologische Erkrankungen"
 * characteristic[=].exclude = true
-// extension[definitionReference]
-// extension[definitionCanonical]
-// extension[definitionByTypeAndValue]
+* characteristic[+]
+  * definitionCodeableConcept.text = "Mindestalter"
+  * description = "Alter mindestens 18 Jahre"
+  * extension[definitionByTypeAndValue]
+    * extension[type].valueCodeableConcept.coding.system = "http://snomed.info/sct"
+    * extension[type].valueCodeableConcept.coding.code = #424144002
+    * extension[type].valueCodeableConcept.coding.display = "Current chronological age"
+    * extension[value].valueQuantity.value = 18
+    * extension[value].valueQuantity.comparator = #>=
+    * extension[value].valueQuantity.unit = "year"
+    * extension[value].valueQuantity.system = "http://unitsofmeasure.org"
+    * extension[value].valueQuantity.code = #a
+* characteristic[=].exclude = false
 
 // Library example
 Instance: mii-exa-studie-register
@@ -213,6 +220,20 @@ Usage: #example
 * category = $loinc#59284-0
 * patient = Reference(mii-exa-studie-patient)
 * policy.uri = "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
+
+// Evidence variable example
+Instance: mii-exa-studie-evidence-variable-age-restriction
+InstanceOf: EvidenceVariable
+Usage: #example
+* status = #active
+* characteristic
+  * definitionCodeableConcept.text = "kein Höchstalter"
+  * description = "Höchstalter"
+* characteristic[=].exclude = false
+* characteristic[+]
+  * definitionCodeableConcept.text = "18 Jahre"
+  * description = "Mindestalter"
+* characteristic[=].exclude = false
 
 // ---------------------------------------------------------
 // VS and CS for examples
