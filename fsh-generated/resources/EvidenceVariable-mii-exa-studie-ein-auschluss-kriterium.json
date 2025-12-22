@@ -25,7 +25,7 @@
       "extension": [
         {
           "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
-          "valueCanonical": "http://example.org/fhir/EvidenceVariable/administrative-gender"
+          "valueCanonical": "http://example.com/fhir/EvidenceVariable/administrative-gender"
         }
       ],
       "definitionCodeableConcept": {
