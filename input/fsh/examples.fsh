@@ -23,7 +23,7 @@ Usage: #example
 * characteristic[+]
   * definitionCodeableConcept.text = "Alle"
   * description = "Geschlecht"
-  * extension[definitionCanonical].valueCanonical = "http://example.com/fhir/EvidenceVariable/administrative-gender"
+  * extension[definitionCanonical].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender"
 * characteristic[=].exclude = false
 * characteristic[+]
   * extension[linkId].valueId = "aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"

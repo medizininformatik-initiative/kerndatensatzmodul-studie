@@ -84,7 +84,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
-                "valueCanonical": "http://example.com/fhir/EvidenceVariable/administrative-gender"
+                "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender"
               }
             ],
             "definitionCodeableConcept": {
