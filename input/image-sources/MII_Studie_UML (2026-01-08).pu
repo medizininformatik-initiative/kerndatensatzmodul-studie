@@ -1,0 +1,278 @@
+@startuml
+
+left to right direction
+skinparam classAttributeIconSize 0
+
+skinparam class {
+  BackgroundColor White
+  BackgroundColor<<core>> #97D077
+  BackgroundColor<<enumeration>> #FFE599
+  BackgroundColor<<mii>> #ff9999ff
+}
+
+
+' =======================
+' Klassen – Stammdaten
+' =======================
+
+class Forschungsvorhaben <<core>> {
+  + BusinessID : BusinessID
+  + Titel : Titel
+  + Einwilligung : MII_Consent
+  + Kontakt : Kontakt
+  + Beteiligter : Beteiligter
+  + Studienleiter : Studienleiter
+  + Sponsor : Sponsor
+  + Studiendesign : Studiendesign
+  + Studienregister : Studienregister
+  + Publikation : Publikation
+  + Rekrutierungsstatus : Rekrutierungsstatus
+  + Studienphase : Studienphase
+  + Studienstatus : Studienstatus
+ '  Datenerhebung : Datenerhebung
+  + Rechtsgrundlage : Rechtsgrundlage
+  + Datennutzungsantrag : Datennutzungsantrag
+  + url : String
+  + Studienfokus : String
+  + Schlagwort : Code
+ '  Machbarkeit : Machbarkeit
+  + EthikVotum : EthikVotum
+  + Finanzierung : String
+ '+ Forschungsstart : Date
+}
+
+class BusinessID {
+  + id : Identifier
+  + System : String
+}
+
+class Kontakt {
+ '  Grad : String
+  + Vorname : String
+  + Nachname : String
+  + Adresse : Adresse
+  + Email : String
+  + Tel : String
+  + Zugehörigkeit : String
+}
+
+class Titel {
+  + Öffentlicher Titel : String
+  + Wissenschaftlicher Titel : String
+  + Akronym : String
+}
+
+class Adresse {
+  + Straße : String
+  + Haus Nr. : String
+  + PLZ : String
+  + Wohnort : String
+  + Land : Code
+}
+
+class Beteiligter {
+  + Rolle : String
+  + Kontakt : Kontakt
+  + Standort : Standort
+}
+
+class Standort {
+  + Name : String
+  + Adresse : Adresse
+}
+
+class Studienleiter {
+  + Kontakt : Kontakt
+  + Standort : Standort
+}
+
+class Sponsor {
+  + Kontakt : Kontakt
+  + Standort : Standort
+'   Ist Hauptsponsor : Boolean
+}
+
+
+class Studiendesign <<core>> {
+  + Rekrutierungsstart : Date
+  + Rekrutierungsende : Date
+  + Studienarm : Studienarm
+  + Einschlusskriterium : Einschlusskriterium
+  + Ausschlusskriterium : Ausschlusskriterium
+  + Studientyp : Code
+  + Rekrutierungsziel : Quantity
+  + Rekrutierungsstand : Count
+  + Rekrutierungsstand Genauigkeit : Code
+  + Rekrutierungsstand Datum : Date
+  + Randomisierungsmethode : String
+}
+
+class Studienarm {
+  + Name: String
+'   Studienarm : Studienarm
+  + Einschlusskriterium : Einschlusskriterium
+  + Ausschlusskriterium : Ausschlusskriterium
+}
+
+class Einschlusskriterium {
+  + Kriterium : String
+  + Operator : String
+  + Maßeinheit : Code
+  + Wert : Quantity
+}
+
+class Ausschlusskriterium {
+  + Kriterium : String
+  + Operator : String
+  + Maßeinheit : Code
+  + Wert : Quantity
+}
+
+class Studienregister {
+  + Registername : String
+  + RegisterID : Identifier
+  + url : String
+  + IstQuellRegister : Boolean
+}
+
+class Publikation {
+  + url : String
+  + Titel : String
+  + Autor : String
+}
+
+' class Datenerhebung {
+'   Dokument : Dokument
+' }
+
+class Dokument {
+  + Name : String
+  + Autor : String
+  + DateiTyp : String
+  + Standort : Standort
+  + Dateigröße : Quantity
+  + url : String
+  + ErzeugungsDatum : Date
+}
+
+class Rechtsgrundlage {
+  + Dokument : Dokument
+}
+
+class Datennutzungsantrag {
+  + Dokument : Dokument
+}
+
+' class Machbarkeit {
+'   Abschätzung : String
+'   Dokument : Dokument
+'   Ergebnis : String
+'   HatPrescreening : Boolean
+'   Version : String
+' }
+
+class EthikVotum {
+  + Status Ethikvotum : Code
+  + Kommission : String
+  + Ethik Nr. : String
+}
+
+
+class MII_Consent <<mii>> {
+}
+
+' =======================
+' Enumerationen (gelbe Boxen)
+' =======================
+
+class Komparator <<enumeration>> {
+  und
+  oder
+  exklusives_oder
+  groesser_als
+  kleiner_als
+}
+
+class Studientyp <<enumeration>> {
+  Therapeutische Studie
+  Supportive Care Studie
+  Screening Diagnostische_Early_Detection_Studie
+  Epidemiologische_Beobachtungs_Outcome_Studie
+  Praeventions_Studie
+  Biomarker_Studie
+}
+
+class Rekrutierungsstatus <<enumeration>> {
+  noch_nicht_rekrutierend
+  rekrutierend
+  rekrutierung_gestoppt
+  rekrutierung_aktiv
+  rekrutierung_gestoppt_vor_inklusion
+}
+
+class Studienstatus <<enumeration>> {
+  geplant
+  aktiv
+  aktiv_rekrutierung_geschlossen
+  planmaessig_beendet
+  unplanmaessig_beendet
+  vor_aktivierung_beendet
+  abgelehnt
+}
+
+class Studienphase <<enumeration>> {
+  n_a
+  early_phase_1
+  phase_1
+  phase_1_phase_2
+  phase_2
+  phase_2_phase_3
+  phase_3
+  phase_4
+}
+
+' =======================
+' Beziehungen
+' =======================
+
+Forschungsvorhaben --> BusinessID : BusinessID
+Forschungsvorhaben --> Titel : Titel
+Forschungsvorhaben --> MII_Consent : Einwilligung
+Forschungsvorhaben --> Kontakt : Kontakt
+Kontakt --> Adresse : Adresse
+Forschungsvorhaben --> Beteiligter : Beteiligter
+Beteiligter --> Kontakt : Kontakt 
+Beteiligter --> Standort : Standort
+Standort --> Adresse : Adresse
+Forschungsvorhaben --> Studienleiter : Studienleiter
+Studienleiter --> Kontakt : Kontakt 
+Studienleiter --> Standort : Standort
+Forschungsvorhaben --> Sponsor : Sponsor
+Sponsor --> Kontakt : Kontakt 
+Sponsor --> Standort : Standort
+Forschungsvorhaben --> Studiendesign : Studiendesign
+Studiendesign --> Studienarm : Studienarm
+Studiendesign --> Einschlusskriterium : Einschlusskriterium
+Studiendesign --> Ausschlusskriterium : Ausschlusskriterium
+Studiendesign --> Studientyp
+Ausschlusskriterium --> Masseinheit
+Ausschlusskriterium --> Komparator
+Studienarm --> Einschlusskriterium : Einschlusskriterium
+Einschlusskriterium --> Masseinheit
+Einschlusskriterium --> Komparator
+Studienarm --> Ausschlusskriterium : Ausschlusskriterium
+Forschungsvorhaben --> Studienregister : Studienregister
+Forschungsvorhaben --> Publikation : Publikation
+' Forschungsvorhaben --> Datenerhebung : Datenerhebung
+' Datenerhebung --> Dokument : Datennutzungsantrag
+Forschungsvorhaben --> Rekrutierungsstatus : Rekrutierungsstatus
+Forschungsvorhaben --> Studienphase : Studienphase
+Forschungsvorhaben --> Studienstatus : Studienstatus
+Forschungsvorhaben --> Rechtsgrundlage : Rechtsgrundlage
+Rechtsgrundlage --> Dokument : Dokument
+Forschungsvorhaben --> Datennutzungsantrag : Datennutzungsantrag
+Datennutzungsantrag --> Dokument : Dokument
+' Forschungsvorhaben --> Machbarkeit : Machbarkeit
+' Machbarkeit --> Dokument : Dokument
+Forschungsvorhaben --> EthikVotum : EthikVotum
+@enduml
