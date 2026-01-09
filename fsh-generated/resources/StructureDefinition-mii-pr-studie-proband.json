@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-studie-proband",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband",
-  "version": "2026.0.0",
+  "version": "2026.0.1",
   "name": "MII_PR_Studie_Proband",
   "title": "MII PR Studie Proband",
   "status": "active",

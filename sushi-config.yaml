@@ -3,7 +3,7 @@ applyExtensionMetadataToRoot: false
 id: mii-ig-studie
 name: MII_IG_Medizinisches_Forschungsvorhaben
 status: active
-version: 2026.0.0-ballot
+version: 2026.0.1
 fhirVersion: 4.0.1
 FSHOnly: false
 packageId: de.medizininformatikinitiative.kerndatensatz.studie

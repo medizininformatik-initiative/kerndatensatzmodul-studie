@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-rekrutierung",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung",
-  "version": "2026.0.0",
+  "version": "2026.0.1",
   "name": "MII_EX_Studie_Rekrutierung",
   "title": "MII EX Studie Rekrutierung",
   "status": "active",
