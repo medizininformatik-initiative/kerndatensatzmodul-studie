@@ -1,0 +1,288 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+skinparam class {
+  BackgroundColor White
+  BackgroundColor<<core>> #97D077
+  BackgroundColor<<enumeration>> #FFE599
+}
+
+' =======================
+' Klassen – Stammdaten
+' =======================
+
+class Titel {
+  + oeffentlicherTitel : String
+  + wissenschaftlicherTitel : String
+  + akronym : Akronym
+}
+
+class BusinessID {
+  + id : long
+  + system : String
+}
+
+class Kontakt {
+  + vorname : String
+  + nachname : String
+  + adresse : Adresse
+  + email : String
+  + tel : String
+  + zugehoerigkeit : String
+}
+
+class Adresse {
+  + strasse : String
+  + hausNr : int
+  + postleitzahl : int
+  + stadt : String
+  + laenderCode : String
+}
+
+class Standort {
+  + name : String
+  + adresse : Adresse
+}
+
+class Machbarkeit {
+  + abschaetzung : String
+  + dokument : Dokument
+  + ergebnis : Ergebnis
+  + hatPreScreening : Boolean
+  + version : String
+}
+
+class Dokument {
+  + name : String
+  + autor : String
+  + dateiTyp : String
+  + erzeugungsDatum : Date
+  + standort : Standort
+  + dateiGroesse : String
+  + url : String
+}
+
+class EthikVotum {
+  + status : statusEthikVotum
+  + komission : Komission
+  + ethikNr : String
+}
+
+' =======================
+' Rollen
+' =======================
+
+class Beteiligter {
+  + kontakt : Kontakt
+  + standort : Standort
+}
+
+class Studienleiter {
+  + kontakt : Kontakt
+  + standort : Standort
+}
+
+class Sponsor {
+  + kontakt : Kontakt
+  + standort : Standort
+  + isHauptSponsor : Boolean
+}
+
+' =======================
+' Studien-Design
+' =======================
+
+class StudienDesign <<core>> {
+  + studienArm : StudienArm
+  + einschlussKriterien : EinschlussKriterium
+  + ausschlussKriterien : AusschlussKriterium
+  + rekrutierungsZiel : int
+  + rekrutierungsStand : int
+  + rekrutierungsStart : Date
+  + rekrutierungsEnde : Date
+  + randomisierungsMethode : String
+  + studienTyp : StudienTyp
+}
+
+class StudienArm {
+  + name : String
+  + ausschlussKriterien : AusschlussKriterium
+  + einschlussKriterien : EinschlussKriterium
+}
+
+class EinschlussKriterium {
+  + masseinheit : Masseinheit
+  + wert : String
+  + komparator : Komparator
+}
+
+class AusschlussKriterium {
+  + masseinheit : Masseinheit
+  + wert : String
+  + komparator : Komparator
+}
+
+class StudienRegister {
+  + registerName : String
+  + registerID : Long
+  + url : String
+  + istQuellRegister : Boolean
+}
+
+class Publikation {
+  + url : String
+  + titel : String
+  + autor : Autor
+}
+
+class StudienPhase
+class StudienStatus
+class RekrutierungsStatus
+class Masseinheit
+class Akronym
+class Komission
+class Ergebnis
+class Autor
+class statusEthikVotum
+
+' =======================
+' Enumerationen (gelbe Boxen)
+' =======================
+
+class Komparator <<enumeration>> {
+  und
+  oder
+  exklusives_oder
+  groesser_als
+  kleiner_als
+}
+
+class StudienTyp <<enumeration>> {
+  Therapeutische_Studie
+  Supportive_Care_Studie
+  Screening_Diagnostische_Early_Detection_Studie
+  Epidemiologische_Beobachtungs_Outcome_Studie
+  Praeventions_Studie
+  Biomarker_Studie
+}
+
+class rekrutierungsStatus <<enumeration>> {
+  noch_nicht_rekrutierend
+  rekrutierend
+  rekrutierung_gestoppt
+  rekrutierung_aktiv
+  rekrutierung_gestoppt_vor_inklusion
+}
+
+class studienStatus <<enumeration>> {
+  geplant
+  aktiv
+  aktiv_rekrutierung_geschlossen
+  planmaessig_beendet
+  unplanmaessig_beendet
+  vor_aktivierung_beendet
+  abgelehnt
+}
+
+class Phase <<enumeration>> {
+  n_a
+  early_phase_1
+  phase_1
+  phase_1_phase_2
+  phase_2
+  phase_2_phase_3
+  phase_3
+  phase_4
+}
+
+' =======================
+' Zentrales Objekt
+' =======================
+
+class Forschungsvorhaben <<core>> {
+  + businessID : BusinessID
+  + titel : Titel
+  + einwilligung : Dokument
+  + Forschungsstart : Date
+  + kontakt : Kontakt
+  + beteiligter : Beteiligter
+  + studienleiter : Studienleiter
+  + sponsor : Sponsor
+  + studienDesign : StudienDesign
+  + studienRegister : StudienRegister
+  + publikation : Publikation
+  + rekrutierungsStatus : RekrutierungsStatus
+  + studienPhase : StudienPhase
+  + studienStatus : StudienStatus
+  + datenErhebung : Dokument
+  + rechtsGrundlage : String
+  + datenNutzungsAntrag : Dokument
+  + url : String
+  + studienFokus : String
+  + schlagwort : String
+  + machbarkeit : Machbarkeit
+  + finanzierung : String
+  + ethikVotum : EthikVotum
+}
+
+' =======================
+' Beziehungen
+' =======================
+
+Forschungsvorhaben --> BusinessID : businessID
+Forschungsvorhaben --> Titel : titel
+Forschungsvorhaben --> Dokument : einwilligung
+Forschungsvorhaben --> Kontakt : kontakt
+Forschungsvorhaben --> Beteiligter : beteiligter
+Forschungsvorhaben --> Studienleiter : studienleiter
+Forschungsvorhaben --> Sponsor : sponsor
+Forschungsvorhaben --> StudienDesign : studienDesign
+Forschungsvorhaben --> StudienRegister : studienRegister
+Forschungsvorhaben --> Publikation : publikation
+Forschungsvorhaben --> RekrutierungsStatus : rekrutierungsStatus
+Forschungsvorhaben --> StudienPhase : studienPhase
+Forschungsvorhaben --> StudienStatus : studienStatus
+Forschungsvorhaben --> Machbarkeit : machbarkeit
+Forschungsvorhaben --> EthikVotum : ethikVotum
+Forschungsvorhaben --> Dokument : datenErhebung
+Forschungsvorhaben --> Dokument : datenNutzungsAntrag
+
+Beteiligter --> Kontakt
+Beteiligter --> Standort
+
+Studienleiter --> Kontakt
+Studienleiter --> Standort
+
+Sponsor --> Kontakt
+Sponsor --> Standort
+
+Kontakt --> Adresse
+Standort --> Adresse
+
+Machbarkeit --> Dokument
+Machbarkeit --> Ergebnis
+
+Dokument --> Standort
+
+EthikVotum --> statusEthikVotum
+EthikVotum --> Komission
+
+StudienDesign --> StudienArm
+StudienDesign --> EinschlussKriterium
+StudienDesign --> AusschlussKriterium
+StudienDesign --> StudienTyp
+
+StudienArm --> EinschlussKriterium
+StudienArm --> AusschlussKriterium
+
+EinschlussKriterium --> Masseinheit
+EinschlussKriterium --> Komparator
+
+AusschlussKriterium --> Masseinheit
+AusschlussKriterium --> Komparator
+
+RekrutierungsStatus --> rekrutierungsStatus
+StudienStatus --> studienStatus
+StudienPhase --> Phase
+
+@enduml
