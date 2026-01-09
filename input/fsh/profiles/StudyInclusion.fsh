@@ -3,6 +3,8 @@ Parent: ServiceRequest
 Id: mii-pr-studie-studieneinschluss-anfrage
 Title: "MII PR Studie Studieneinschluss Anfrage"
 Description: "Anfrage zum Studieneinschluss"
+* insert PR_CS_VS_Version
+* insert Publisher
 
 * subject 1..1 MS
 * subject only Reference(Patient)

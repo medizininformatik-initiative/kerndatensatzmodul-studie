@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-studie-ethikvotum",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum",
-  "version": "2026.0.0",
+  "version": "2026.0.1",
   "name": "MII_EX_Studie_Ethikvotum",
   "title": "MII EX Studie Ethikvotum",
   "status": "active",

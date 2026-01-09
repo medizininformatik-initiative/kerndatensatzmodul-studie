@@ -3,10 +3,10 @@ InstanceOf: CapabilityStatement
 Usage: #definition
 * status = #active
 * experimental = false
-* version = "2026.0.0-ballot"
+* version = "2026.0.1"
 * publisher = "Medizininformatik Initiative"
 * date = "2024-09-12"
-* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2026.0.0-ballot"
+* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2026.0.1"
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata"
 * name = "MII CPS Metadata Studie"
 * title = "MII CPS Metadata Studie"
@@ -299,7 +299,7 @@ Usage: #definition
 * rest.resource[+].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].extension.valueCode = #SHALL
 * rest.resource[=].type = #ResearchSubject
-* rest.resource[=].supportedProfile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband|2026.0.0"
+* rest.resource[=].supportedProfile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband|2026.0.1"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #read

@@ -1,6 +1,6 @@
 {
   "name": "de.medizininformatikinitiative.kerndatensatz.studie",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.1",
   "description": "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben",
   "author": "KDS Studie Team",
   "fhirVersions": [
