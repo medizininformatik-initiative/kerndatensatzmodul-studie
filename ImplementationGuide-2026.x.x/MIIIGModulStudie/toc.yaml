@@ -14,5 +14,7 @@
   filename: Referenzen.page.md
 - name: UML
   filename: UML.page.md
+- name: Release Notes
+  filename: Release-Notes.page.md
 - name: Technische Implementierung
   filename: TechnischeImplementierung
