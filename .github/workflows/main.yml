@@ -1,4 +1,4 @@
-name: CI (FHIR Validation & SearchParameter Testing & Release)
+name: CI (FHIR Validation & Release)
 
 on:
   push:
@@ -14,17 +14,17 @@ on:
 jobs:
   DOTNET_FHIR_VALIDATION:
     if: github.event_name != 'release'
-    uses: ./.github/workflows/ci_dotnet_validation.yml
+    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_dotnet_validation.yml@master
     with:
-      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      ref: ${{ github.event.pull_request.head.ref }}
       SUSHI_VERSION: ${{ vars.SUSHI_VERSION }}
     secrets: inherit
 
   JAVA_FHIR_VALIDATION:
     if: github.event_name != 'release'
-    uses: ./.github/workflows/ci_java_validation.yml
+    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_java_validation.yml@master
     with:
-      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      ref: ${{ github.event.pull_request.head.ref }}
       PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
       PATH_TO_EXAMPLES: fsh-generated/resources
       JAVA_VALIDATION_ENABLED: true
@@ -32,13 +32,9 @@ jobs:
       JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION }}
     secrets: inherit
 
-  CI_SEARCH_PARAM_TEST:
-    if: github.event_name != 'release'
-    uses: ./.github/workflows/ci_search_param_tests.yml
-
   RELEASE:
     if: startsWith(github.ref, 'refs/tags/v') && github.event_name != 'release'
-    needs: [DOTNET_FHIR_VALIDATION, JAVA_FHIR_VALIDATION, CI_SEARCH_PARAM_TEST]
+    needs: [DOTNET_FHIR_VALIDATION, JAVA_FHIR_VALIDATION]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -58,7 +54,7 @@ jobs:
           prerelease: ${{ contains(steps.prep-version.outputs.version, '-') }}
           generate_release_notes: true
           body: |
-            ## MII IG Meta Release ${{ steps.prep-version.outputs.version }}
+            ## MII IG Fall Release ${{ steps.prep-version.outputs.version }}
             
             <!-- DELETE START -->
             Download the FHIR package from Simplifier and manually attach it to this release.
