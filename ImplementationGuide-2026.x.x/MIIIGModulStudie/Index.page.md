@@ -1,4 +1,4 @@
-# Kerndatensatz Modul Medizinisches Forschungsvorhaben
+# Kerndatensatz-Modul Medizinisches Forschungsvorhaben
 
 Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz Moduls Medizinisches Forschungsvorhaben der Medizininformatik-Initiative.
 Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
@@ -7,7 +7,7 @@ Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profil
 |---------|--------------|
 | Datum   | 09.01.2026   |
 | Version | 2026.0.1       |
-| Status  | active       |
+| Status  | Active       |
 | Realm   | DE           | 
 
 Den ersten Release finden Sie unter [2025.0.0](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Medizinische_Forschungsvorhaben_V2025/ImplementationGuide-1.x-TechnischeImplementierung-Organization.html)
