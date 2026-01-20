@@ -4,8 +4,10 @@ Die Arbeiten der Kerndatensatzspezifikationen basieren, wo möglich, auf interna
 
 Alle Elemente des Kerndatensatzes, angepasst an die Details und Anforderungen für die Use Cases der Medizininformatik-Initative, werden nachfolgend in Form von FHIR StructureDefinitions beschrieben. Die Notwendigkeit der Anpassung der FHIR-Profile wird in textueller Form unterhalb der jeweiligen Profile erläutert.
 
+### Verpflichtende / must-support Elemente
+
 | Hinweis | Verpflichtende / must-support Elemente |
 |---------|---------------------|
-|WARNUNG! |  Für verpflichtende oder als must-support markierten Elemente sei an dieser Stelle auf die entsprechenden [Regeln der IPS](https://build.fhir.org/ig/HL7/fhir-ips/design.html#must-support) verwiesen, die auch für diesen ImplementationGuide gelten. |
+| {{render:implementation-guides/ImplementationGuide-Common/images/Warning.jpg}} | Für verpflichtende oder als must-support markierten Elemente sei an dieser Stelle auf die entsprechenden [Regeln der IPS](http://hl7.org/fhir/uv/ips/STU1/design.html#must-support) verwiesen, die auch für diesen ImplementationGuide gelten. |
 
 <br><br>
