@@ -15,10 +15,10 @@ Description: "Anfrage zum Studieneinschluss"
 * intent = #proposal
 
 * category 1..* MS
-* category = $sct#110465008 "Clinical trial (procedure)"
+* category = $SCT#110465008 "Clinical trial (procedure)"
 
 * code 1..1 MS
-* code = $sct#702475000 "Referral to clinical trial (procedure)"
+* code = $SCT#702475000 "Referral to clinical trial (procedure)"
 
 * reasonReference 0..*
 

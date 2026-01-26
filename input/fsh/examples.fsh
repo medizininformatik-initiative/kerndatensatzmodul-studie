@@ -146,8 +146,8 @@ Usage: #example
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"
 * status = #draft
 * intent = #proposal
-* category = $sct#110465008 "Clinical trial (procedure)"
-* code = $sct#702475000 "Referral to clinical trial (procedure)"
+* category = $SCT#110465008 "Clinical trial (procedure)"
+* code = $SCT#702475000 "Referral to clinical trial (procedure)"
 * subject = Reference(mii-exa-studie-patient)
 * supportingInfo[Studie] = Reference(mii-exa-studie-cohort)
 * supportingInfo[Proband] = Reference(mii-exa-studie-proband)  
@@ -217,7 +217,7 @@ Usage: #example
 * id = "mii-exa-studie-consent"
 * status = #active
 * scope = #research
-* category = $loinc#59284-0
+* category = $LNC#59284-0
 * patient = Reference(mii-exa-studie-patient)
 * policy.uri = "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
 
