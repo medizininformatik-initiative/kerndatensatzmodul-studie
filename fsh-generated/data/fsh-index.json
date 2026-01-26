@@ -429,7 +429,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/ResearchSubject.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 68
   },
   {
     "outputFile": "StructureDefinition-mii-pr-studie-register.json",
@@ -453,7 +453,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/StudyInclusion.fsh",
     "startLine": 1,
-    "endLine": 35
+    "endLine": 70
   },
   {
     "outputFile": "ValueSet-associated-party-role-vs.json",

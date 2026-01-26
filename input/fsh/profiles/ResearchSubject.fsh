@@ -41,23 +41,23 @@ Description: "Dieses Profil beschreibt eine Proband*in in der Medizininformatik-
 * insert Translation(period ^short, de, Anfang und Ende der Teilnahme)
 * insert Translation(period ^short, en, Start and end of participation.)
 * period ^definition = "Zeitrum, in denen die Teilnahme an der Studie begann und endete."
-* insert Translation(period ^definition, de, Zeitraum, in dem die Teilnahme an der Studie begann und endete.)
+* insert Translation(period ^definition, de, Zeitraum\, in dem die Teilnahme an der Studie begann und endete.)
 * insert Translation(period ^definition, en, The dates the subject began and ended their participation in the study.)
 * period.start 1.. MS
 * period.end MS
 * study MS
 * study ^short = "Studie, der der Proband angehört"
-* insert Translation(study ^short, de, Studie/, der der Proband angehört)
+* insert Translation(study ^short, de, Studie\, der der Proband angehört)
 * insert Translation(study ^short, en, study subject is part of)
 * study ^definition = "Referenz auf die Studie, an der der Proband teilnimmt"
-* insert Translation(study ^definition, de, Referenz auf die Studie/, an der der Proband teilnimmt.)
+* insert Translation(study ^definition, de, Referenz auf die Studie\, an der der Proband teilnimmt.)
 * insert Translation(study ^definition, en, Reference to the study the subject is participating in.)
 * individual 1.. MS
 * individual ^short = "Wer an der Studie teilnimmt."
 * insert Translation(individual ^short, de, Wer an der Studie teilnimmt.)
 * insert Translation(individual ^short, en, Who is part of study.)
 * individual ^definition = "Der Datensatz der Person oder des Tieres, das an der Studie beteiligt ist."
-* insert Translation(individual ^definition, de, Der Datensatz der Person oder des Tieres, das an der Studie beteiligt ist.)
+* insert Translation(individual ^definition, de, Der Datensatz der Person oder des Tieres\, das an der Studie beteiligt ist.)
 * insert Translation(individual ^definition, en, The record of the person or animal who is involved in the study.)
 * consent 1.. MS
 * consent ^short = "Einverständnis zur Studienteilnahme"

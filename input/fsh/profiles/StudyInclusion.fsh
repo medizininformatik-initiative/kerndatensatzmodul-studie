@@ -21,17 +21,17 @@ Description: "Anfrage zum Studieneinschluss"
 * insert Translation(intent ^short, de, Vorschlag | Plan | Direktive | Auftrag | Originalauftrag | Reflexauftrag | Füllerauftrag | Instanzauftrag | Option )
 * insert Translation(intent ^short, en, proposal | plan | directive | order | original-order | reflex-order | filler-order | instance-order | option )
 * intent ^definition = "Ob die Anfrage ein Vorschlag, ein Plan, ein Originalauftrag oder ein Reflexauftrag ist."
-* insert Translation(intent ^definition, de, Ob die Anfrage ein Vorschlag, ein Plan, ein Originalauftrag oder ein Reflexauftrag ist.)
-* insert Translation(intent ^definition, en, Whether the request is a proposal, plan, an original order or a reflex order.)
+* insert Translation(intent ^definition, de, Ob die Anfrage ein Vorschlag\, ein Plan\, ein Originalauftrag oder ein Reflexauftrag ist.)
+* insert Translation(intent ^definition, en, Whether the request is a proposal\, plan\, an original order or a reflex order.)
 * intent = #proposal
 
 * category 1..* MS
 * category ^short = "Klassifikation des Dienstes."
 * insert Translation(category ^short, de, Klassifikation des Dienstes.)
 * insert Translation(category ^short, en, Classification of service.)
-* category ^definition = "Ein Code, der den Dienst für Such-, Sortier- und Anzeigezwecke klassifiziert (z.B. \"Chirurgischer Eingriff\")."
-* insert Translation(category ^definition, de, Ein Code\, der den Dienst für Such-, Sortier- und Anzeigezwecke klassifiziert (z.B. "Chirurgischer Eingriff").)
-* insert Translation(category ^definition, en, A code that classifies the service for searching, sorting and display purposes (e.g. "Surgical Procedure").)
+* category ^definition = "Ein Code, der den Dienst für Such-, Sortier- und Anzeigezwecke klassifiziert."
+* insert Translation(category ^definition, de, Ein Code\, der den Dienst für Such-\, Sortier- und Anzeigezwecke klassifiziert.)
+* insert Translation(category ^definition, en, A code that classifies the service for searching\, sorting and display purposes.)
 * category = $SCT#110465008 "Clinical trial (procedure)"
 
 * code 1..1 MS
@@ -48,7 +48,7 @@ Description: "Anfrage zum Studieneinschluss"
 * insert Translation(reasonReference ^short, de, Erklärung/Begründung für Dienst oder Leistung.)
 * insert Translation(reasonReference ^short, en, Explanation/Justification for service or service.)
 * reasonReference ^definition = "Gibt eine andere Ressource an, die eine Begründung dafür liefert, warum dieser Dienst angefordert wird. Kann sich auf die in supportingInfo genannten Ressourcen beziehen."
-* insert Translation(reasonReference ^definition, de, Gibt eine andere Ressource an, die eine Begründung dafür liefert, warum dieser Dienst angefordert wird. Kann sich auf die in supportingInfo genannten Ressourcen beziehen.)
+* insert Translation(reasonReference ^definition, de, Gibt eine andere Ressource an\, die eine Begründung dafür liefert\, warum dieser Dienst angefordert wird. Kann sich auf die in supportingInfo genannten Ressourcen beziehen.)
 * insert Translation(reasonReference ^definition, en, Indicates another resource that provides a justification for why this service is being requested. May relate to the resources referred to in supportingInfo.)
 
 * supportingInfo 0..* MS
@@ -56,7 +56,7 @@ Description: "Anfrage zum Studieneinschluss"
 * insert Translation(supportingInfo ^short, de, Zusätzliche klinische Informationen)
 * insert Translation(supportingInfo ^short, en, Additional clinical information)
 * supportingInfo ^definition = "Zusätzliche klinische Informationen über den Patienten oder die Probe, die die Dienstleistungen oder deren Interpretationen beeinflussen können."
-* insert Translation(supportingInfo ^definition, de, Zusätzliche klinische Informationen über den Patienten oder die Probe, die die Dienstleistungen oder deren Interpretationen beeinflussen können.)
+* insert Translation(supportingInfo ^definition, de, Zusätzliche klinische Informationen über den Patienten oder die Probe\, die die Dienstleistungen oder deren Interpretationen beeinflussen können.)
 * insert Translation(supportingInfo ^definition, en, Additional clinical information about the patient or specimen that may influence the services or their interpretations.)
 * supportingInfo ^slicing.discriminator.type = #profile
 * supportingInfo ^slicing.discriminator.path = "$this.resolve()"
