@@ -46,18 +46,15 @@
         ]
       },
       {
-        "id": "mii-lm-studie-logicalmodel.BusinessID.id",
-        "path": "mii-lm-studie-logicalmodel.BusinessID.id",
+        "id": "mii-lm-studie-logicalmodel.BusinessID.identifier",
+        "path": "mii-lm-studie-logicalmodel.BusinessID.identifier",
         "short": "Identifier einer BusinessID",
         "definition": "Identifier einer BusinessID",
         "min": 0,
         "max": "*",
         "type": [
           {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org/fhir/StructureDefinition/elementdefinition-identifier"
-            ]
+            "code": "Identifier"
           }
         ]
       },
