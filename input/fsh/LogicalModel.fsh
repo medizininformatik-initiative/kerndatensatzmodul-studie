@@ -6,7 +6,7 @@ Description: "Logische Repräsentation der Forschungsvorhaben"
 * insert PR_CS_VS_Version
 * insert Publisher
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
-  * id 0..* identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
+  * id 0..* Identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
   * System 0..* string "System einer BusinessID" "System einer BusinessID"
 * Titel 0..* BackboneElement "Titel eines Forschungsvorhabens" "Titel eines Forschungsvorhabens"
   * OeffentlicherTitel 0..* string "Öffentlich sichtbarer Titel" "Öffentlich sichtbarer Titel"
