@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register> a fhir:Library ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "mii-exa-studie-register"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register" ;
+       fhir:index 0 ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <table class=\"narrative-table\">\n    <tbody>\n<tr>\n\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\">Metadata</th>\n\n\n</tr>\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Version</th>\n\n\n\n<td class=\"content-container\">2026.0.1</td>\n\n\n</tr>\n\n\n\n\n\n\n\n  \n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Identifier</th>\n\n\n\n<td class=\"content-container\">DRKS</td>\n\n\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Steward (Publisher)</th>\n\n\n\n<td class=\"content-container\">Medizininformatik Initiative</td>\n\n\n</tr>\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Steward Contact</th>\n\n\n\n<td class=\"content-container\">Medizininformatik Initiative</td>\n\n\n</tr>\n\n\n\n\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Type</th>\n\n\n\n<td class=\"content-container\">\n    asset-collection from <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-library-type.html\">http://terminology.hl7.org/CodeSystem/library-type</a> \n\n\n</td>\n\n\n</tr>\n\n\n\n<tr>\n  \n  \n\n<th scope=\"row\" class=\"row-header\">Documentation</th>\n\n\n  \n  \n  \n  \n  \n  <td class=\"content-container\">\n    \n    \n    \n    <em>Content URL</em>: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&amp;canonical=https://drks.de/\">https://drks.de/</a>\n    \n    <br/>\n    \n    \n    \n    <em>Document</em>: null @ https://drks.de/\n    \n    \n    \n    \n    \n  </td>\n</tr>\n\n\n\n\n\n\n\n\n<tr>\n\n\n<th colspan=\"2\" scope=\"row\" class=\"row-header\"><a name=\"parameters\"> </a>Parameters</th>\n\n\n</tr>\n\n\n<tr>\n\n\n<th scope=\"row\" class=\"row-header\">Parameter</th>\n\n\n\n<td class=\"content-container\">None</td>\n\n\n</tr>\n\n\n\n\n\n\n\n<tr>\n  <th colspan=\"2\" scope=\"row\" class=\"row-header\">Generated using version 0.5.4 of the sample-content-ig Liquid templates</th>\n</tr>\n\n    </tbody>\n  </table>\n</div>"
+  ] ;
+  fhir:Library.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register"] ;
+  fhir:Library.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "https://example.com/fhir/sid/drks" ] ;
+     fhir:Identifier.value [ fhir:value "DRKS" ]
+  ] ;
+  fhir:Library.version [ fhir:value "2026.0.1"] ;
+  fhir:Library.name [ fhir:value "DRKS - Deutsches Register Klinischer Studien"] ;
+  fhir:Library.status [ fhir:value "active"] ;
+  fhir:Library.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/library-type" ] ;
+       fhir:Coding.code [ fhir:value "asset-collection" ]
+     ]
+  ] ;
+  fhir:Library.date [ fhir:value "2026-07-23T12:42:11+00:00"^^xsd:dateTime] ;
+  fhir:Library.publisher [ fhir:value "Medizininformatik Initiative"] ;
+  fhir:Library.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Medizininformatik Initiative" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.medizininformatik-initiative.de/" ]
+     ]
+  ] ;
+  fhir:Library.relatedArtifact [
+     fhir:index 0 ;
+     fhir:RelatedArtifact.type [ fhir:value "documentation" ] ;
+     fhir:RelatedArtifact.url [ fhir:value "https://drks.de/" ] ;
+     fhir:RelatedArtifact.document [
+       fhir:Attachment.url [ fhir:value "https://drks.de/" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

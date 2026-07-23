@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/CodeSystem/associated-party-role-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "associated-party-role-cs"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem associated-party-role-cs</b></p><a name=\"associated-party-role-cs\"> </a><a name=\"hcassociated-party-role-cs\"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/associated-party-role</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">sponsor<a name=\"associated-party-role-cs-sponsor\"> </a></td><td>Sponsor</td><td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td></tr><tr><td style=\"white-space:nowrap\">funder<a name=\"associated-party-role-cs-funder\"> </a></td><td>Funder</td><td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td></tr><tr><td style=\"white-space:nowrap\">principal-investigator<a name=\"associated-party-role-cs-principal-investigator\"> </a></td><td>Principal Investigator</td><td>The lead researcher responsible for the overall conduct of the study.</td></tr><tr><td style=\"white-space:nowrap\">co-investigator<a name=\"associated-party-role-cs-co-investigator\"> </a></td><td>Co-Investigator</td><td>A researcher who shares scientific responsibility with the principal investigator.</td></tr><tr><td style=\"white-space:nowrap\">coordinator<a name=\"associated-party-role-cs-coordinator\"> </a></td><td>Study Coordinator</td><td>A person coordinating day-to-day operational activities of the study.</td></tr><tr><td style=\"white-space:nowrap\">publisher<a name=\"associated-party-role-cs-publisher\"> </a></td><td>Publisher</td><td>An entity responsible for publishing or disseminating results.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"associated-party-role-cs-other\"> </a></td><td>Other</td><td>A role not covered by the defined codes.</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://example.org/fhir/CodeSystem/associated-party-role"] ;
+  fhir:CodeSystem.version [ fhir:value "2026.0.1"] ;
+  fhir:CodeSystem.name [ fhir:value "AssociatedPartyRoleCS"] ;
+  fhir:CodeSystem.title [ fhir:value "Associated Party Role Code System"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-23T12:42:11+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Medizininformatik Initiative"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Medizininformatik Initiative" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.medizininformatik-initiative.de/" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Roles that an associated party may have in relation to an entity such as a research study."] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sponsor" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sponsor" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An individual or organization that takes responsibility for the initiation, management, and financing of a study." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "funder" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Funder" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An entity providing financial support but not assuming overall responsibility as a sponsor." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "principal-investigator" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Principal Investigator" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "The lead researcher responsible for the overall conduct of the study." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "co-investigator" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Co-Investigator" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A researcher who shares scientific responsibility with the principal investigator." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "coordinator" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Study Coordinator" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A person coordinating day-to-day operational activities of the study." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "publisher" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Publisher" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "An entity responsible for publishing or disseminating results." ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "A role not covered by the defined codes." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/CodeSystem/associated-party-role-cs.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

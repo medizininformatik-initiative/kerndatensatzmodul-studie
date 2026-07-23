@@ -1,0 +1,154 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchStudy/mii-exa-studie-cohort> a fhir:ResearchStudy ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "mii-exa-studie-cohort"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie" ;
+       fhir:index 0 ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ResearchStudy mii-exa-studie-cohort</b></p><a name=\"mii-exa-studie-cohort\"> </a><a name=\"hcmii-exa-studie-cohort\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-studie.html\">MII PR Studie Studie</a></p></div><blockquote><p><b>MII EX Studie Backport Label</b></p><ul><li>value: MII Modul Studie</li></ul></blockquote><blockquote><p><b>MII EX Studie Backport AssociatedParty</b></p><ul><li>role: <span title=\"Codes:{http://example.org/fhir/CodeSystem/associated-party-role sponsor}\">Sponsor</span></li><li>party: <a href=\"Organization-mii-exa-studie-author.html\">Organization Example Organization for Author</a></li></ul></blockquote><blockquote><p><b>MII EX Studie Ethikvotum</b></p><ul><li>status: genehmigt</li><li>kommission: Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig</li><li>ethiknummer: 159-12-21052012</li></ul></blockquote><p><b>MII EX Studie Studienregister</b>: <a href=\"Library-mii-exa-studie-register.html\">DRKS - Deutsches Register Klinischer Studien</a></p><p><b>MII EX Studie Eligibility</b>: <a href=\"EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html\">EvidenceVariable: status = active</a></p><p><b>MII EX Studie Akronym</b>: LIFE ADULT</p><blockquote><p><b>MII EX Studie Rekrutierung</b></p><ul><li>rekrutierungsstart: 2009-01-01</li><li>rekrutierungsziel: 10000</li><li>rekrutierungsstand: 10000</li><li>rekrutierungsstand-genauigkeit: good</li><li>rekrutierungsstand-datum: 2022-05-28</li></ul></blockquote><p><b>MII EX Studie Finanzierung</b>: Deutsches Bundesministerium für Bildung und Forschung (BMBF)</p><p><b>identifier</b>: <code>https://example.com/fhir/sid/lha</code>/7Q6PJD8NV3-2</p><p><b>title</b>: LIFE-Adult-Study</p><p><b>partOf</b>: <a href=\"ResearchStudy-mii-exa-studie-reference-study.html\">ResearchStudy Example Reference Study</a></p><p><b>status</b>: Active</p><p><b>category</b>: <span title=\"Codes:{http://example.org/fhir/CodeSystem/research-study-category observational}\">Observational study</span></p><p><b>focus</b>: <span title=\"Codes:\">Erwachsene der Stadt Leipzig</span></p><p><b>keyword</b>: <span title=\"Codes:\">Bevölkerung, Leipzig, Erwachsene</span></p><p><b>description</b>: </p><div><p>Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.</p>\n</div><h3>Arms</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td></tr><tr><td style=\"display: none\">*</td><td>LIFE-Adult-Kohorte</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "value" ] ;
+       fhir:Extension.valueString [ fhir:value "MII Modul Studie" ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "role" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://example.org/fhir/CodeSystem/associated-party-role" ] ;
+           fhir:Coding.code [ fhir:value "sponsor" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "party" ] ;
+       fhir:Extension.valueReference [
+         fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/Organization/mii-exa-studie-author> ;
+         fhir:Reference.reference [ fhir:value "Organization/mii-exa-studie-author" ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty" ]
+  ], [
+     fhir:index 2 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "status" ] ;
+       fhir:Extension.valueString [ fhir:value "genehmigt" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "kommission" ] ;
+       fhir:Extension.valueString [ fhir:value "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig" ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "ethiknummer" ] ;
+       fhir:Extension.valueString [ fhir:value "159-12-21052012" ]
+     ] ;
+     fhir:Extension.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum" ]
+  ], [
+     fhir:index 3 ;
+     fhir:Extension.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister" ] ;
+     fhir:Extension.valueReference [
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register> ;
+       fhir:Reference.reference [ fhir:value "Library/mii-exa-studie-register" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:Extension.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility" ] ;
+     fhir:Extension.valueReference [
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium> ;
+       fhir:Reference.reference [ fhir:value "EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:Extension.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym" ] ;
+     fhir:Extension.valueString [ fhir:value "LIFE ADULT" ]
+  ], [
+     fhir:index 6 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "rekrutierungsstart" ] ;
+       fhir:Extension.valueDate [ fhir:value "2009-01-01"^^xsd:date ]
+     ], [
+       fhir:index 1 ;
+       fhir:Extension.url [ fhir:value "rekrutierungsziel" ] ;
+       fhir:Extension.valueInteger [ fhir:value "10000"^^xsd:integer ]
+     ], [
+       fhir:index 2 ;
+       fhir:Extension.url [ fhir:value "rekrutierungsstand" ] ;
+       fhir:Extension.valueInteger [ fhir:value "10000"^^xsd:integer ]
+     ], [
+       fhir:index 3 ;
+       fhir:Extension.url [ fhir:value "rekrutierungsstand-genauigkeit" ] ;
+       fhir:Extension.valueString [ fhir:value "good" ]
+     ], [
+       fhir:index 4 ;
+       fhir:Extension.url [ fhir:value "rekrutierungsstand-datum" ] ;
+       fhir:Extension.valueDate [ fhir:value "2022-05-28"^^xsd:date ]
+     ] ;
+     fhir:Extension.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung" ]
+  ], [
+     fhir:index 7 ;
+     fhir:Extension.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung" ] ;
+     fhir:Extension.valueString [ fhir:value "Deutsches Bundesministerium für Bildung und Forschung (BMBF)" ]
+  ] ;
+  fhir:ResearchStudy.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "https://example.com/fhir/sid/lha" ] ;
+     fhir:Identifier.value [ fhir:value "7Q6PJD8NV3-2" ]
+  ] ;
+  fhir:ResearchStudy.title [ fhir:value "LIFE-Adult-Study"] ;
+  fhir:ResearchStudy.partOf [
+     fhir:index 0 ;
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchStudy/mii-exa-studie-reference-study> ;
+     fhir:Reference.reference [ fhir:value "ResearchStudy/mii-exa-studie-reference-study" ]
+  ] ;
+  fhir:ResearchStudy.status [ fhir:value "active"] ;
+  fhir:ResearchStudy.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://example.org/fhir/CodeSystem/research-study-category" ] ;
+       fhir:Coding.code [ fhir:value "observational" ]
+     ]
+  ] ;
+  fhir:ResearchStudy.focus [
+     fhir:index 0 ;
+     fhir:CodeableConcept.text [ fhir:value "Erwachsene der Stadt Leipzig" ]
+  ] ;
+  fhir:ResearchStudy.keyword [
+     fhir:index 0 ;
+     fhir:CodeableConcept.text [ fhir:value "Bevölkerung, Leipzig, Erwachsene" ]
+  ] ;
+  fhir:ResearchStudy.description [ fhir:value "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."] ;
+  fhir:ResearchStudy.arm [
+     fhir:index 0 ;
+     fhir:ResearchStudy.arm.name [ fhir:value "LIFE-Adult-Kohorte" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchStudy/mii-exa-studie-cohort.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

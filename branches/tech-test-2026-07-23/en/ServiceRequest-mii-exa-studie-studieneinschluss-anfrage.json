@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ServiceRequest",
+  "id" : "mii-exa-studie-studieneinschluss-anfrage",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest mii-exa-studie-studieneinschluss-anfrage</b></p><a name=\"mii-exa-studie-studieneinschluss-anfrage\"> </a><a name=\"hcmii-exa-studie-studieneinschluss-anfrage\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html\">MII PR Studie Studieneinschluss Anfrage</a></p></div><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 110465008}\">Clinical trial (procedure)</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 702475000}\">Referral to clinical trial (procedure)</span></p><p><b>subject</b>: <a href=\"Patient-mii-exa-studie-patient.html\">Jane Doe  Female, DoB: 1980-11-12 ( Krankenversichertennummer\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>supportingInfo</b>: </p><ul><li><a href=\"ResearchStudy-mii-exa-studie-cohort.html\">ResearchStudy LIFE-Adult-Study</a></li><li><a href=\"ResearchSubject-mii-exa-studie-proband.html\">ResearchSubject: identifier = Anonymous identifier; status = candidate; period = 2023-01-01 --&gt; 2023-12-31</a></li></ul></div>"
+  },
+  "status" : "draft",
+  "intent" : "proposal",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "110465008",
+      "display" : "Clinical trial (procedure)"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "702475000",
+      "display" : "Referral to clinical trial (procedure)"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/mii-exa-studie-patient"
+  },
+  "supportingInfo" : [{
+    "reference" : "ResearchStudy/mii-exa-studie-cohort"
+  },
+  {
+    "reference" : "ResearchSubject/mii-exa-studie-proband"
+  }]
+}

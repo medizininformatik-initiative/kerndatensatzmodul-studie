@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResearchStudy xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-reference-study"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ResearchStudy mii-exa-studie-reference-study</b></p><a name="mii-exa-studie-reference-study"> </a><a name="hcmii-exa-studie-reference-study"> </a><p><b>title</b>: Example Reference Study</p><p><b>status</b>: Completed</p></div>
+  </text>
+  <title value="Example Reference Study"/>
+  <status value="completed"/>
+</ResearchStudy>

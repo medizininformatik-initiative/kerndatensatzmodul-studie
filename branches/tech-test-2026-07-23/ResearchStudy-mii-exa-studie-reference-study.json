@@ -1,0 +1,10 @@
+{
+  "resourceType" : "ResearchStudy",
+  "id" : "mii-exa-studie-reference-study",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ResearchStudy mii-exa-studie-reference-study</b></p><a name=\"mii-exa-studie-reference-study\"> </a><a name=\"hcmii-exa-studie-reference-study\"> </a><p><b>title</b>: Example Reference Study</p><p><b>status</b>: Completed</p></div>"
+  },
+  "title" : "Example Reference Study",
+  "status" : "completed"
+}

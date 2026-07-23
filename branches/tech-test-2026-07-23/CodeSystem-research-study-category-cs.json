@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "research-study-category-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem research-study-category-cs</b></p><a name=\"research-study-category-cs\"> </a><a name=\"hcresearch-study-category-cs\"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/research-study-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">interventional<a name=\"research-study-category-cs-interventional\"> </a></td><td>Interventional study</td><td>A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated.</td></tr><tr><td style=\"white-space:nowrap\">observational<a name=\"research-study-category-cs-observational\"> </a></td><td>Observational study</td><td>A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions.</td></tr><tr><td style=\"white-space:nowrap\">registry<a name=\"research-study-category-cs-registry\"> </a></td><td>Registry study</td><td>A study primarily based on data collected in a registry (e.g. disease or quality registry).</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"research-study-category-cs-other\"> </a></td><td>Other</td><td>Other study category not covered by the existing codes. Use with additional descriptive text.</td></tr></table></div>"
+  },
+  "url" : "http://example.org/fhir/CodeSystem/research-study-category",
+  "version" : "2026.0.1",
+  "name" : "ResearchStudyCategoryCS",
+  "title" : "Research Study Category Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-23T12:42:11+00:00",
+  "publisher" : "Medizininformatik Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de/"
+    }]
+  }],
+  "description" : "High-level categories describing the overall type of a research study.",
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "interventional",
+    "display" : "Interventional study",
+    "definition" : "A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated."
+  },
+  {
+    "code" : "observational",
+    "display" : "Observational study",
+    "definition" : "A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions."
+  },
+  {
+    "code" : "registry",
+    "display" : "Registry study",
+    "definition" : "A study primarily based on data collected in a registry (e.g. disease or quality registry)."
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "Other study category not covered by the existing codes. Use with additional descriptive text."
+  }]
+}

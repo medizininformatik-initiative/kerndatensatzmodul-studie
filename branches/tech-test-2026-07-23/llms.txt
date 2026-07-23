@@ -1,0 +1,94 @@
+# de.medizininformatikinitiative.kerndatensatz.studie#2026.0.1: null(en)
+
+## Pages
+
+* [Artifacts Summary](en/artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Associated Party Role Code System](en/CodeSystem-associated-party-role-cs.md)
+* [Research Study Category Code System](en/CodeSystem-research-study-category-cs.md)
+
+### ValueSets
+
+* [Associated Party Role](en/ValueSet-associated-party-role-vs.md)
+* [Research Study Category](en/ValueSet-research-study-category-vs.md)
+
+### Logicals
+
+* [MII LM Studie LogicalModel](en/StructureDefinition-mii-lm-studie-logicalmodel.md)
+
+### Resource Profiles
+
+* [MII PR Studie Beteiligte Person](en/StructureDefinition-mii-pr-studie-beteiligte-person.md)
+* [MII PR Studie Dokument](en/StructureDefinition-mii-pr-studie-dokument.md)
+* [MII PR Studie EinAuschlussKriterium](en/StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md)
+* [MII PR Studie Proband](en/StructureDefinition-mii-pr-studie-proband.md)
+* [MII PR Studie Register](en/StructureDefinition-mii-pr-studie-register.md)
+* [MII PR Studie Studie](en/StructureDefinition-mii-pr-studie-studie.md)
+* [MII PR Studie Studieneinschluss Anfrage](en/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.md)
+
+### Extensions
+
+* [MII EX Studie Akronym](en/StructureDefinition-mii-ex-studie-akronym.md)
+* [MII EX Studie Backport AssociatedParty](en/StructureDefinition-mii-ex-studie-backport-associatedParty.md)
+* [MII EX Studie Backport DefinitionByCombination](en/StructureDefinition-mii-ex-studie-backport-definition-by-combination.md)
+* [MII EX Studie Backport DefinitionByTypeAndValue](en/StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.md)
+* [MII EX Studie Backport definitionCanonical](en/StructureDefinition-mii-ex-studie-backport-definitionCanonical.md)
+* [MII EX Studie Backport definitionReference](en/StructureDefinition-mii-ex-studie-backport-definitionReference.md)
+* [MII EX Studie Backport Label](en/StructureDefinition-mii-ex-studie-backport-label.md)
+* [MII EX Studie Backport linkId](en/StructureDefinition-mii-ex-studie-backport-linkId.md)
+* [MII EX Studie Eligibility](en/StructureDefinition-mii-ex-studie-eligibility.md)
+* [MII EX Studie Ethikvotum](en/StructureDefinition-mii-ex-studie-ethikvotum.md)
+* [MII EX Studie Finanzierung](en/StructureDefinition-mii-ex-studie-finanzierung.md)
+* [MII EX Studie Quell Register](en/StructureDefinition-mii-ex-studie-quell-register.md)
+* [MII EX Studie Rekrutierung](en/StructureDefinition-mii-ex-studie-rekrutierung.md)
+* [MII EX Studie Studienregister](en/StructureDefinition-mii-ex-studie-studienregister.md)
+
+### CapabilityStatements
+
+* [MII CPS Metadata Studie](en/CapabilityStatement-MII-CPS-Metadata-Studie.md)
+
+### ImplementationGuides
+
+* [MII_IG_Medizinisches_Forschungsvorhaben](en/ImplementationGuide-mii-ig-studie.md)
+
+### SearchParameters
+
+* [SP_MII_Studie_Size](en/SearchParameter-DocumentReference-size.md)
+* [SP_MII_Studie_Title](en/SearchParameter-DocumentReference-title.md)
+* [SP_MII_Studie_CharacteristicDescription](en/SearchParameter-EvidenceVariable-characteristic-description.md)
+* [SP_MII_Studie_Quellregister](en/SearchParameter-Library-quellregister.md)
+* [SP_MII_Studie_RelatedArtifactUrl](en/SearchParameter-Library-relatedArtifactUrl.md)
+* [SP_MII_Studie_Akronym](en/SearchParameter-ResearchStudy-akronym.md)
+* [SP_MII_Studie_ArmName](en/SearchParameter-ResearchStudy-armName.md)
+* [SP_MII_Studie_Finanzierung](en/SearchParameter-ResearchStudy-finanzierung.md)
+* [SP_MII_Studie_Label](en/SearchParameter-ResearchStudy-label.md)
+* [SP_MII_Studie_RekrutierungsstandDatum](en/SearchParameter-ResearchStudy-rekrutierungsstand-datum.md)
+* [SP_MII_Studie_RekrutierungsstandGenauigkeit](en/SearchParameter-ResearchStudy-rekrutierungsstand-genauigkeit.md)
+* [SP_MII_Studie_Rekrutierungsstand](en/SearchParameter-ResearchStudy-rekrutierungsstand.md)
+* [SP_MII_Studie_Rekrutierungsstart](en/SearchParameter-ResearchStudy-rekrutierungsstart.md)
+* [SP_MII_Studie_Rekrutierungsziel](en/SearchParameter-ResearchStudy-rekrutierungsziel.md)
+* [SP_MII_Studie_Studienregister](en/SearchParameter-ResearchStudy-studienregister.md)
+
+### Examples
+
+* [mii-studie-test-data-bundle-studie (Bundle)](en/Bundle-mii-studie-test-data-bundle-studie.md)
+* [mii-exa-studie-consent (Consent)](en/Consent-mii-exa-studie-consent.md)
+* [mii-exa-studie-dokument (DocumentReference)](en/DocumentReference-mii-exa-studie-dokument.md)
+* [mii-exa-studie-ein-auschluss-kriterium (EvidenceVariable)](en/EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.md)
+* [mii-exa-studie-evidence-variable-age-restriction (EvidenceVariable)](en/EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.md)
+* [DRKS - Deutsches Register Klinischer Studien (Library)](en/Library-mii-exa-studie-register.md)
+* [Example Organization for Author (Organization)](en/Organization-mii-exa-studie-author.md)
+* [Example Organization for Custodian (Organization)](en/Organization-mii-exa-studie-custodian.md)
+* [Example Organization for Practitioner (Organization)](en/Organization-mii-exa-studie-practitioner-organization.md)
+* [mii-exa-studie-patient (Patient)](en/Patient-mii-exa-studie-patient.md)
+* [mii-exa-studie-practitioner (Practitioner)](en/Practitioner-mii-exa-studie-practitioner.md)
+* [mii-exa-studie-beteiligte-person (PractitionerRole)](en/PractitionerRole-mii-exa-studie-beteiligte-person.md)
+* [LIFE-Adult-Study (ResearchStudy)](en/ResearchStudy-mii-exa-studie-cohort.md)
+* [Example Reference Study (ResearchStudy)](en/ResearchStudy-mii-exa-studie-reference-study.md)
+* [Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue (ResearchStudy)](en/ResearchStudy-mii-exa-studie-studie.md)
+* [mii-exa-studie-proband (ResearchSubject)](en/ResearchSubject-mii-exa-studie-proband.md)
+* [mii-exa-studie-studieneinschluss-anfrage (ServiceRequest)](en/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.md)

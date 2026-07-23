@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description> a fhir:SearchParameter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "EvidenceVariable-characteristic-description"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter EvidenceVariable-characteristic-description</b></p><a name=\"EvidenceVariable-characteristic-description\"> </a><a name=\"hcEvidenceVariable-characteristic-description\"> </a><h2>SP_MII_Studie_CharacteristicDescription</h2><p>Parameter <code>characteristicDescription</code>:<code>string</code></p><div><p>Suchparameter für EvidenceVariable.characteristic.description</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/evidencevariable.html\">EvidenceVariable</a></td></tr><tr><td>Expression</td><td><code>EvidenceVariable.characteristic.description</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>"
+  ] ;
+  fhir:SearchParameter.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description"] ;
+  fhir:SearchParameter.version [ fhir:value "2026.0.1"] ;
+  fhir:SearchParameter.name [ fhir:value "SP_MII_Studie_CharacteristicDescription"] ;
+  fhir:SearchParameter.status [ fhir:value "active"] ;
+  fhir:SearchParameter.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:SearchParameter.date [ fhir:value "2026-07-23T12:42:11+00:00"^^xsd:dateTime] ;
+  fhir:SearchParameter.publisher [ fhir:value "Medizininformatik Initiative"] ;
+  fhir:SearchParameter.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Medizininformatik Initiative" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.medizininformatik-initiative.de/" ]
+     ]
+  ] ;
+  fhir:SearchParameter.description [ fhir:value "Suchparameter für EvidenceVariable.characteristic.description"] ;
+  fhir:SearchParameter.code [ fhir:value "characteristicDescription"] ;
+  fhir:SearchParameter.base [
+     fhir:value "EvidenceVariable" ;
+     fhir:index -1
+  ] ;
+  fhir:SearchParameter.type [ fhir:value "string"] ;
+  fhir:SearchParameter.expression [ fhir:value "EvidenceVariable.characteristic.description"] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

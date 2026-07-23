@@ -1,0 +1,32 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "mii-exa-studie-dokument",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference mii-exa-studie-dokument</b></p><a name=\"mii-exa-studie-dokument\"> </a><a name=\"hcmii-exa-studie-dokument\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-dokument.html\">MII PR Studie Dokument</a></p></div><p><b>status</b>: Current</p><p><b>author</b>: <a href=\"Organization-mii-exa-studie-author.html\">Organization Example Organization for Author</a></p><p><b>custodian</b>: <a href=\"Organization-mii-exa-studie-custodian.html\">Organization Example Organization for Custodian</a></p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Url</b></td><td><b>Size</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td>application/pdf</td><td><a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&amp;canonical=https://example.com/fhir/Binary/document\">https://example.com/fhir/Binary/document</a></td><td>2000</td><td>Beispiel Dokument</td></tr></table></blockquote><h3>Contexts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Related</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"ResearchStudy-mii-exa-studie-cohort.html\">ResearchStudy LIFE-Adult-Study</a></td></tr></table></div>"
+  },
+  "status" : "current",
+  "author" : [{
+    "reference" : "Organization/mii-exa-studie-author"
+  }],
+  "custodian" : {
+    "reference" : "Organization/mii-exa-studie-custodian"
+  },
+  "content" : [{
+    "attachment" : {
+      "contentType" : "application/pdf",
+      "url" : "https://example.com/fhir/Binary/document",
+      "size" : 2000,
+      "title" : "Beispiel Dokument"
+    }
+  }],
+  "context" : {
+    "related" : [{
+      "reference" : "ResearchStudy/mii-exa-studie-cohort"
+    }]
+  }
+}

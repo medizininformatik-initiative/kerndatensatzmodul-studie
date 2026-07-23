@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="associated-party-role-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem associated-party-role-cs</b></p><a name="associated-party-role-cs"> </a><a name="hcassociated-party-role-cs"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/associated-party-role</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">sponsor<a name="associated-party-role-cs-sponsor"> </a></td><td>Sponsor</td><td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td></tr><tr><td style="white-space:nowrap">funder<a name="associated-party-role-cs-funder"> </a></td><td>Funder</td><td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td></tr><tr><td style="white-space:nowrap">principal-investigator<a name="associated-party-role-cs-principal-investigator"> </a></td><td>Principal Investigator</td><td>The lead researcher responsible for the overall conduct of the study.</td></tr><tr><td style="white-space:nowrap">co-investigator<a name="associated-party-role-cs-co-investigator"> </a></td><td>Co-Investigator</td><td>A researcher who shares scientific responsibility with the principal investigator.</td></tr><tr><td style="white-space:nowrap">coordinator<a name="associated-party-role-cs-coordinator"> </a></td><td>Study Coordinator</td><td>A person coordinating day-to-day operational activities of the study.</td></tr><tr><td style="white-space:nowrap">publisher<a name="associated-party-role-cs-publisher"> </a></td><td>Publisher</td><td>An entity responsible for publishing or disseminating results.</td></tr><tr><td style="white-space:nowrap">other<a name="associated-party-role-cs-other"> </a></td><td>Other</td><td>A role not covered by the defined codes.</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+  <version value="2026.0.1"/>
+  <name value="AssociatedPartyRoleCS"/>
+  <title value="Associated Party Role Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-23T12:42:11+00:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Roles that an associated party may have in relation to an entity such as a research study."/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="sponsor"/>
+    <display value="Sponsor"/>
+    <definition value="An individual or organization that takes responsibility for the initiation, management, and financing of a study."/>
+  </concept>
+  <concept>
+    <code value="funder"/>
+    <display value="Funder"/>
+    <definition value="An entity providing financial support but not assuming overall responsibility as a sponsor."/>
+  </concept>
+  <concept>
+    <code value="principal-investigator"/>
+    <display value="Principal Investigator"/>
+    <definition value="The lead researcher responsible for the overall conduct of the study."/>
+  </concept>
+  <concept>
+    <code value="co-investigator"/>
+    <display value="Co-Investigator"/>
+    <definition value="A researcher who shares scientific responsibility with the principal investigator."/>
+  </concept>
+  <concept>
+    <code value="coordinator"/>
+    <display value="Study Coordinator"/>
+    <definition value="A person coordinating day-to-day operational activities of the study."/>
+  </concept>
+  <concept>
+    <code value="publisher"/>
+    <display value="Publisher"/>
+    <definition value="An entity responsible for publishing or disseminating results."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="A role not covered by the defined codes."/>
+  </concept>
+</CodeSystem>

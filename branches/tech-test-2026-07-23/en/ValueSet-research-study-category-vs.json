@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "research-study-category-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet research-study-category-vs</b></p><a name=\"research-study-category-vs\"> </a><a name=\"hcresearch-study-category-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-research-study-category-cs.html\"><code>http://example.org/fhir/CodeSystem/research-study-category</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2026.0.1</span></li></ul></div>"
+  },
+  "url" : "http://example.org/fhir/ValueSet/research-study-category",
+  "version" : "2026.0.1",
+  "name" : "ResearchStudyCategoryVS",
+  "title" : "Research Study Category",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-23T12:42:11+00:00",
+  "publisher" : "Medizininformatik Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de/"
+    }]
+  }],
+  "description" : "Value set of high-level categories describing the type of a research study.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/fhir/CodeSystem/research-study-category"
+    }]
+  }
+}

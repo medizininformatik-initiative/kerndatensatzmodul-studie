@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Library xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-register"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">
+  <table class="narrative-table">
+    <tbody>
+<tr>
+
+
+<th colspan="2" scope="row" class="row-header">Metadata</th>
+
+
+</tr>
+
+
+
+<tr>
+
+
+<th scope="row" class="row-header">Version</th>
+
+
+
+<td class="content-container">2026.0.1</td>
+
+
+</tr>
+
+
+
+
+
+
+
+  
+<tr>
+
+
+<th scope="row" class="row-header">Identifier</th>
+
+
+
+<td class="content-container">DRKS</td>
+
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+
+
+<th scope="row" class="row-header">Steward (Publisher)</th>
+
+
+
+<td class="content-container">Medizininformatik Initiative</td>
+
+
+</tr>
+
+
+
+<tr>
+
+
+<th scope="row" class="row-header">Steward Contact</th>
+
+
+
+<td class="content-container">Medizininformatik Initiative</td>
+
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+
+
+<th scope="row" class="row-header">Type</th>
+
+
+
+<td class="content-container">
+    asset-collection from <a href="http://terminology.hl7.org/7.2.0/CodeSystem-library-type.html">http://terminology.hl7.org/CodeSystem/library-type</a> 
+
+
+</td>
+
+
+</tr>
+
+
+
+<tr>
+  
+  
+
+<th scope="row" class="row-header">Documentation</th>
+
+
+  
+  
+  
+  
+  
+  <td class="content-container">
+    
+    
+    
+    <em>Content URL</em>: <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&amp;canonical=https://drks.de/">https://drks.de/</a>
+    
+    <br/>
+    
+    
+    
+    <em>Document</em>: null @ https://drks.de/
+    
+    
+    
+    
+    
+  </td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+
+
+<th colspan="2" scope="row" class="row-header"><a name="parameters"> </a>Parameters</th>
+
+
+</tr>
+
+
+<tr>
+
+
+<th scope="row" class="row-header">Parameter</th>
+
+
+
+<td class="content-container">None</td>
+
+
+</tr>
+
+
+
+
+
+
+
+<tr>
+  <th colspan="2" scope="row" class="row-header">Generated using version 0.5.4 of the sample-content-ig Liquid templates</th>
+</tr>
+
+    </tbody>
+  </table>
+</div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register"/>
+  <identifier>
+    <system value="https://example.com/fhir/sid/drks"/>
+    <value value="DRKS"/>
+  </identifier>
+  <version value="2026.0.1"/>
+  <name value="DRKS - Deutsches Register Klinischer Studien"/>
+  <status value="active"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+      <code value="asset-collection"/>
+    </coding>
+  </type>
+  <date value="2026-07-23T12:42:11+00:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <relatedArtifact>
+    <type value="documentation"/>
+    <url value="https://drks.de/"/>
+    <document>
+      <url value="https://drks.de/"/>
+    </document>
+  </relatedArtifact>
+</Library>

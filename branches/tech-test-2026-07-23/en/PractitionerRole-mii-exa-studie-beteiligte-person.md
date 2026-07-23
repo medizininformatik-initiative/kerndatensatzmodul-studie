@@ -1,0 +1,44 @@
+# mii-exa-studie-beteiligte-person - v2026.0.1
+
+## Example PractitionerRole: mii-exa-studie-beteiligte-person
+
+Profile: [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md)
+
+**practitioner**: [Practitioner Max Mustermann ](Practitioner-mii-exa-studie-practitioner.md)
+
+**organization**: [Organization Example Organization for Practitioner](Organization-mii-exa-studie-practitioner-organization.md)
+
+**code**: Doctor
+
+**telecom**: ph: 0123456789
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "mii-exa-studie-beteiligte-person",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"]
+  },
+  "practitioner" : {
+    "reference" : "Practitioner/mii-exa-studie-practitioner"
+  },
+  "organization" : {
+    "reference" : "Organization/mii-exa-studie-practitioner-organization"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+      "code" : "doctor"
+    }]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "0123456789"
+  }]
+}
+
+```

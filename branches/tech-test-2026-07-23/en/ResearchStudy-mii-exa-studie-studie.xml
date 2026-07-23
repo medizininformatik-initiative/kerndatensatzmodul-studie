@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResearchStudy xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-studie"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ResearchStudy mii-exa-studie-studie</b></p><a name="mii-exa-studie-studie"> </a><a name="hcmii-exa-studie-studie"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-studie-studie.html">MII PR Studie Studie</a></p></div><blockquote><p><b>MII EX Studie Backport Label</b></p><ul><li>value: Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue</li><li>type: <span title="Codes:{http://terminology.hl7.org/CodeSystem/title-type scientific}">Scientific title</span></li></ul></blockquote><blockquote><p><b>MII EX Studie Backport Label</b></p><ul><li>value: Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue</li><li>type: <span title="Codes:">Öffentlicher Titel</span></li></ul></blockquote><p><b>MII EX Studie Akronym</b>: tDCS</p><blockquote><p><b>MII EX Studie Rekrutierung</b></p><ul><li>rekrutierungsstart: 2023-01-12</li><li>rekrutierungsziel: 40</li><li>rekrutierungsstand: 35</li><li>rekrutierungsstand-genauigkeit: good</li><li>rekrutierungsstand-datum: 2023-02-17</li></ul></blockquote><p><b>MII EX Studie Finanzierung</b>: Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)</p><blockquote><p><b>MII EX Studie Ethikvotum</b></p><ul><li>status: Zustimmende Bewertung</li><li>kommission: Ethik-Kommission der Otto-von-Guericke-Universität an der Medizinischen Fakultät und am Universitätsklinikum Magdeburg A.ö.R.</li><li>ethiknummer: Az.: 83/18</li></ul></blockquote><p><b>identifier</b>: <code>https://example.com/fhir/sid/drks</code>/DRKS00031294</p><p><b>title</b>: Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue</p><p><b>status</b>: Active</p><p><b>category</b>: <span title="Codes:">interventional</span>, <span title="Codes:">Zufallszuteilung</span></p><p><b>description</b>: </p><div><p>Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet.</p>
+</div><blockquote><p><b>arm</b></p><p><b>name</b>: frontale anodale tDCS  (verum condition)</p><p><b>description</b>: vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC</p></blockquote><blockquote><p><b>arm</b></p><p><b>name</b>: frontale sham tDCS</p><p><b>description</b>: vier Stimulationen, jeweils 30 Minuten</p></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label">
+    <extension url="value">
+      <valueString value="Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"/>
+    </extension>
+    <extension url="type">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/title-type"/>
+          <code value="scientific"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label">
+    <extension url="value">
+      <valueString value="Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"/>
+    </extension>
+    <extension url="type">
+      <valueCodeableConcept>
+        <text value="Öffentlicher Titel"/>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym">
+    <valueString value="tDCS"/>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung">
+    <extension url="rekrutierungsstart">
+      <valueDate value="2023-01-12"/>
+    </extension>
+    <extension url="rekrutierungsziel">
+      <valueInteger value="40"/>
+    </extension>
+    <extension url="rekrutierungsstand">
+      <valueInteger value="35"/>
+    </extension>
+    <extension url="rekrutierungsstand-genauigkeit">
+      <valueString value="good"/>
+    </extension>
+    <extension url="rekrutierungsstand-datum">
+      <valueDate value="2023-02-17"/>
+    </extension>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung">
+    <valueString value="Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)"/>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum">
+    <extension url="status">
+      <valueString value="Zustimmende Bewertung"/>
+    </extension>
+    <extension url="kommission">
+      <valueString value="Ethik-Kommission der Otto-von-Guericke-Universität an der Medizinischen Fakultät und am Universitätsklinikum Magdeburg A.ö.R."/>
+    </extension>
+    <extension url="ethiknummer">
+      <valueString value="Az.: 83/18"/>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="https://example.com/fhir/sid/drks"/>
+    <value value="DRKS00031294"/>
+  </identifier>
+  <title value="Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"/>
+  <status value="active"/>
+  <category>
+    <coding>
+      <code value="interventional"/>
+    </coding>
+  </category>
+  <category>
+    <text value="Zufallszuteilung"/>
+  </category>
+  <description value="Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet."/>
+  <arm>
+    <name value="frontale anodale tDCS  (verum condition)"/>
+    <description value="vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"/>
+  </arm>
+  <arm>
+    <name value="frontale sham tDCS"/>
+    <description value="vier Stimulationen, jeweils 30 Minuten"/>
+  </arm>
+</ResearchStudy>

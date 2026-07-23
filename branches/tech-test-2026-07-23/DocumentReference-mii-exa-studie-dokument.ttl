@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/DocumentReference/mii-exa-studie-dokument> a fhir:DocumentReference ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "mii-exa-studie-dokument"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument" ;
+       fhir:index 0 ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference mii-exa-studie-dokument</b></p><a name=\"mii-exa-studie-dokument\"> </a><a name=\"hcmii-exa-studie-dokument\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-dokument.html\">MII PR Studie Dokument</a></p></div><p><b>status</b>: Current</p><p><b>author</b>: <a href=\"Organization-mii-exa-studie-author.html\">Organization Example Organization for Author</a></p><p><b>custodian</b>: <a href=\"Organization-mii-exa-studie-custodian.html\">Organization Example Organization for Custodian</a></p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Url</b></td><td><b>Size</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td>application/pdf</td><td><a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&amp;canonical=https://example.com/fhir/Binary/document\">https://example.com/fhir/Binary/document</a></td><td>2000</td><td>Beispiel Dokument</td></tr></table></blockquote><h3>Contexts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Related</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"ResearchStudy-mii-exa-studie-cohort.html\">ResearchStudy LIFE-Adult-Study</a></td></tr></table></div>"
+  ] ;
+  fhir:DocumentReference.status [ fhir:value "current"] ;
+  fhir:DocumentReference.author [
+     fhir:index 0 ;
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/Organization/mii-exa-studie-author> ;
+     fhir:Reference.reference [ fhir:value "Organization/mii-exa-studie-author" ]
+  ] ;
+  fhir:DocumentReference.custodian [
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/Organization/mii-exa-studie-custodian> ;
+     fhir:Reference.reference [ fhir:value "Organization/mii-exa-studie-custodian" ]
+  ] ;
+  fhir:DocumentReference.content [
+     fhir:index 0 ;
+     fhir:DocumentReference.content.attachment [
+       fhir:Attachment.contentType [ fhir:value "application/pdf" ] ;
+       fhir:Attachment.url [ fhir:value "https://example.com/fhir/Binary/document" ] ;
+       fhir:Attachment.size [ fhir:value "2000"^^xsd:nonNegativeInteger ] ;
+       fhir:Attachment.title [ fhir:value "Beispiel Dokument" ]
+     ]
+  ] ;
+  fhir:DocumentReference.context [
+     fhir:DocumentReference.context.related [
+       fhir:index 0 ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchStudy/mii-exa-studie-cohort> ;
+       fhir:Reference.reference [ fhir:value "ResearchStudy/mii-exa-studie-cohort" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/DocumentReference/mii-exa-studie-dokument.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

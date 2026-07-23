@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ResearchStudy-label"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: SearchParameter ResearchStudy-label</b></p><a name="ResearchStudy-label"> </a><a name="hcResearchStudy-label"> </a><h2>SP_MII_Studie_Label</h2><p>Parameter <code>label</code>:<code>string</code></p><div><p>Suchparameter für ResearchStudy.extension:label</p>
+</div><table class="grid"><tr><td>Resource</td><td><a href="http://hl7.org/fhir/R4/researchstudy.html">ResearchStudy</a></td></tr><tr><td>Expression</td><td><code>ResearchStudy.extension.where(url='http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label').extension.where(url='value').value</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label"/>
+  <version value="2026.0.1"/>
+  <name value="SP_MII_Studie_Label"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-07-23T12:42:11+00:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Suchparameter für ResearchStudy.extension:label"/>
+  <code value="label"/>
+  <base value="ResearchStudy"/>
+  <type value="string"/>
+  <expression value="ResearchStudy.extension.where(url='http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label').extension.where(url='value').value"/>
+</SearchParameter>

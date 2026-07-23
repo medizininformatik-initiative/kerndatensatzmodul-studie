@@ -1,0 +1,12 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "mii-exa-studie-practitioner",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner mii-exa-studie-practitioner</b></p><a name=\"mii-exa-studie-practitioner\"> </a><a name=\"hcmii-exa-studie-practitioner\"> </a><p><b>name</b>: Max Mustermann </p></div>"
+  },
+  "name" : [{
+    "family" : "Mustermann",
+    "given" : ["Max"]
+  }]
+}

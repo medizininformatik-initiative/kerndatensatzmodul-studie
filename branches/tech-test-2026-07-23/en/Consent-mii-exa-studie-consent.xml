@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Consent xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-consent"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Consent mii-exa-studie-consent</b></p><a name="mii-exa-studie-consent"> </a><a name="hcmii-exa-studie-consent"> </a><h2>Participants</h2><table class="grid"><tr><td><b>Role</b></td><td><b>Details</b></td></tr><tr><td title="Who the consent applies to">Patient</td><td><a href="Patient-mii-exa-studie-patient.html">Jane Doe  Female, DoB: 1980-11-12 ( Krankenversichertennummer (use: official, ))</a></td></tr></table><p>This consent is made under the policy <code>urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791</code> .</p><p>The subject has given their consent.</p></div>
+  </text>
+  <status value="active"/>
+  <scope>
+    <coding>
+      <code value="research"/>
+    </coding>
+  </scope>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="59284-0"/>
+    </coding>
+  </category>
+  <patient>
+    <reference value="Patient/mii-exa-studie-patient"/>
+  </patient>
+  <policy>
+    <uri value="urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"/>
+  </policy>
+</Consent>

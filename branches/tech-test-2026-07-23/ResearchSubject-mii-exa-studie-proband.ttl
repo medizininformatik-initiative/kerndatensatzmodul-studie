@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchSubject/mii-exa-studie-proband> a fhir:ResearchSubject ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "mii-exa-studie-proband"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband" ;
+       fhir:index 0 ;
+       fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ResearchSubject mii-exa-studie-proband</b></p><a name=\"mii-exa-studie-proband\"> </a><a name=\"hcmii-exa-studie-proband\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-proband.html\">MII PR Studie Proband</a></p></div><p><b>identifier</b>: Anonymous identifier/321123456</p><p><b>status</b>: Candidate</p><p><b>period</b>: 2023-01-01 --&gt; 2023-12-31</p><p><b>study</b>: <a href=\"ResearchStudy-mii-exa-studie-cohort.html\">ResearchStudy LIFE-Adult-Study</a></p><p><b>individual</b>: <a href=\"Patient-mii-exa-studie-patient.html\">Jane Doe  Female, DoB: 1980-11-12 ( Krankenversichertennummer (use: official, ))</a></p><p><b>consent</b>: <a href=\"Consent-mii-exa-studie-consent.html\">mii-exa-studie-consent</a></p></div>"
+  ] ;
+  fhir:ResearchSubject.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ] ;
+         fhir:Coding.code [ fhir:value "ANON" ]
+       ]
+     ] ;
+     fhir:Identifier.system [ fhir:value "https://www.medizininformatik-initiative.de/fhir/sid/patienten" ] ;
+     fhir:Identifier.value [ fhir:value "321123456" ]
+  ] ;
+  fhir:ResearchSubject.status [ fhir:value "candidate"] ;
+  fhir:ResearchSubject.period [
+     fhir:Period.start [ fhir:value "2023-01-01"^^xsd:date ] ;
+     fhir:Period.end [ fhir:value "2023-12-31"^^xsd:date ]
+  ] ;
+  fhir:ResearchSubject.study [
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchStudy/mii-exa-studie-cohort> ;
+     fhir:Reference.reference [ fhir:value "ResearchStudy/mii-exa-studie-cohort" ]
+  ] ;
+  fhir:ResearchSubject.individual [
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/Patient/mii-exa-studie-patient> ;
+     fhir:Reference.reference [ fhir:value "Patient/mii-exa-studie-patient" ]
+  ] ;
+  fhir:ResearchSubject.consent [
+     fhir:link <https://www.medizininformatik-initiative.de/fhir/modul-studie/Consent/mii-exa-studie-consent> ;
+     fhir:Reference.reference [ fhir:value "Consent/mii-exa-studie-consent" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/modul-studie/ResearchSubject/mii-exa-studie-proband.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

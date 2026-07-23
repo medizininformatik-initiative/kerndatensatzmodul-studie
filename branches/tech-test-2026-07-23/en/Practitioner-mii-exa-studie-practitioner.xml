@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-practitioner"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner mii-exa-studie-practitioner</b></p><a name="mii-exa-studie-practitioner"> </a><a name="hcmii-exa-studie-practitioner"> </a><p><b>name</b>: Max Mustermann </p></div>
+  </text>
+  <name>
+    <family value="Mustermann"/>
+    <given value="Max"/>
+  </name>
+</Practitioner>

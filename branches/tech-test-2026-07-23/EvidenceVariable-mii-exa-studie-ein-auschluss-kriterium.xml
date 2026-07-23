@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EvidenceVariable xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-ein-auschluss-kriterium"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: EvidenceVariable mii-exa-studie-ein-auschluss-kriterium</b></p><a name="mii-exa-studie-ein-auschluss-kriterium"> </a><a name="hcmii-exa-studie-ein-auschluss-kriterium"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html">MII PR Studie EinAuschlussKriterium</a></p></div><p><b>status</b>: Active</p><blockquote><p><b>characteristic</b></p><p><b>MII EX Studie Backport definitionReference</b>: <a href="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.html">EvidenceVariable: status = active</a></p><p><b>description</b>: Altersbeschränkung</p><p><b>definition</b>: <span title="Codes:">Altersbeschränkung</span></p></blockquote><blockquote><p><b>characteristic</b></p><p><b>MII EX Studie Backport definitionCanonical</b>: <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&amp;canonical=https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender">https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender</a></p><p><b>description</b>: Geschlecht</p><p><b>definition</b>: <span title="Codes:">Alle</span></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>MII EX Studie Backport linkId</b>: aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2</p><p><b>description</b>: Kognitive Fatigue (WeiMUS kognitive Skala &gt;= 17)</p><p><b>definition</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/data-absent-reason unknown}">Unknown</span></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>MII EX Studie Backport linkId</b>: 8e8f63ff-65f1-40cd-bf79-da83d7fb4e09</p><p><b>description</b>: Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt</p><p><b>definition</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/data-absent-reason unknown}">Unknown</span></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><blockquote><p><b>MII EX Studie Backport DefinitionByCombination</b></p><ul><li>code: any-of</li><li>characteristic: aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2</li><li>characteristic: 8e8f63ff-65f1-40cd-bf79-da83d7fb4e09</li></ul></blockquote><p><b>description</b>: Weitere Einschlusskriterien</p><p><b>definition</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/data-absent-reason unknown}">Unknown</span></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>description</b>: diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen</p><p><b>definition</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/data-absent-reason unknown}">Unknown</span></p><p><b>exclude</b>: true</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>description</b>: Einnahme von Antidepressiva, Opioiden, Antikonvulsiva</p><p><b>definition</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/data-absent-reason unknown}">Unknown</span></p><p><b>exclude</b>: true</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>description</b>: weitere neurologische Erkrankungen</p><p><b>definition</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/data-absent-reason unknown}">Unknown</span></p><p><b>exclude</b>: true</p></blockquote><blockquote><p><b>characteristic</b></p><blockquote><p><b>MII EX Studie Backport DefinitionByTypeAndValue</b></p><ul><li>type: <span title="Codes:{http://snomed.info/sct 424144002}">Current chronological age</span></li><li>value: &gt;=18 year<span style="background: LightGoldenRodYellow"> (Details: UCUM  codea = 'a')</span></li></ul></blockquote><p><b>description</b>: Alter mindestens 18 Jahre</p><p><b>definition</b>: <span title="Codes:">Mindestalter</span></p><p><b>exclude</b>: false</p></blockquote></div>
+  </text>
+  <status value="active"/>
+  <characteristic>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference">
+      <valueReference>
+        <reference value="EvidenceVariable/mii-exa-studie-evidence-variable-age-restriction"/>
+      </valueReference>
+    </extension>
+    <description value="Altersbeschränkung"/>
+    <definitionCodeableConcept>
+      <text value="Altersbeschränkung"/>
+    </definitionCodeableConcept>
+  </characteristic>
+  <characteristic>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical">
+      <valueCanonical value="https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender"/>
+    </extension>
+    <description value="Geschlecht"/>
+    <definitionCodeableConcept>
+      <text value="Alle"/>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+  <characteristic>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId">
+      <valueId value="aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"/>
+    </extension>
+    <description value="Kognitive Fatigue (WeiMUS kognitive Skala &gt;= 17)"/>
+    <definitionCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        <code value="unknown"/>
+      </coding>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+  <characteristic>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId">
+      <valueId value="8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"/>
+    </extension>
+    <description value="Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt"/>
+    <definitionCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        <code value="unknown"/>
+      </coding>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+  <characteristic>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination">
+      <extension url="code">
+        <valueCode value="any-of"/>
+      </extension>
+      <extension url="characteristic">
+        <valueId value="aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2"/>
+      </extension>
+      <extension url="characteristic">
+        <valueId value="8e8f63ff-65f1-40cd-bf79-da83d7fb4e09"/>
+      </extension>
+    </extension>
+    <description value="Weitere Einschlusskriterien"/>
+    <definitionCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        <code value="unknown"/>
+      </coding>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+  <characteristic>
+    <description value="diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen"/>
+    <definitionCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        <code value="unknown"/>
+      </coding>
+    </definitionCodeableConcept>
+    <exclude value="true"/>
+  </characteristic>
+  <characteristic>
+    <description value="Einnahme von Antidepressiva, Opioiden, Antikonvulsiva"/>
+    <definitionCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        <code value="unknown"/>
+      </coding>
+    </definitionCodeableConcept>
+    <exclude value="true"/>
+  </characteristic>
+  <characteristic>
+    <description value="weitere neurologische Erkrankungen"/>
+    <definitionCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/data-absent-reason"/>
+        <code value="unknown"/>
+      </coding>
+    </definitionCodeableConcept>
+    <exclude value="true"/>
+  </characteristic>
+  <characteristic>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue">
+      <extension url="type">
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="424144002"/>
+            <display value="Current chronological age"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <extension url="value">
+        <valueQuantity>
+          <value value="18"/>
+          <comparator value="&gt;="/>
+          <unit value="year"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="a"/>
+        </valueQuantity>
+      </extension>
+    </extension>
+    <description value="Alter mindestens 18 Jahre"/>
+    <definitionCodeableConcept>
+      <text value="Mindestalter"/>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+</EvidenceVariable>

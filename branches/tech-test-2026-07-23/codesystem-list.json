@@ -1,0 +1,18 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "AssociatedPartyRoleCS",
+    "title" : "Associated Party Role Code System",
+    "description" : "Roles that an associated party may have in relation to an entity such as a research study."
+  },
+  {
+    "url" : "http://example.org/fhir/CodeSystem/research-study-category",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "ResearchStudyCategoryCS",
+    "title" : "Research Study Category Code System",
+    "description" : "High-level categories describing the overall type of a research study."
+  }]
+}
