@@ -131,6 +131,7 @@ Description: "Dieses Profil beschreibt eine Studie in der Medizininformatik-Init
 Extension: MII_EX_Studie_Studienregister
 Id: mii-ex-studie-studienregister
 Title: "MII EX Studie Studienregister"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * value[x] only Reference(Library)
@@ -138,6 +139,7 @@ Title: "MII EX Studie Studienregister"
 Extension: MII_EX_Studie_Eligibility
 Id: mii-ex-studie-eligibility
 Title: "MII EX Studie Eligibility"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * value[x] only Reference(Group or EvidenceVariable)
@@ -145,6 +147,7 @@ Title: "MII EX Studie Eligibility"
 Extension: MII_EX_Studie_Akronym
 Id: mii-ex-studie-akronym
 Title: "MII EX Studie Akronym"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * value[x] only string
@@ -152,6 +155,7 @@ Title: "MII EX Studie Akronym"
 Extension: MII_EX_Studie_Rekrutierung
 Id: mii-ex-studie-rekrutierung
 Title: "MII EX Studie Rekrutierung"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
@@ -164,6 +168,7 @@ Title: "MII EX Studie Rekrutierung"
 Extension: MII_EX_Studie_Finanzierung
 Id: mii-ex-studie-finanzierung
 Title: "MII EX Studie Finanzierung"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * value[x] only string
@@ -171,6 +176,7 @@ Title: "MII EX Studie Finanzierung"
 Extension: MII_EX_Studie_Ethikvotum
 Id: mii-ex-studie-ethikvotum
 Title: "MII EX Studie Ethikvotum"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * extension contains status 1..1 MS and kommission 1..1 MS and ethiknummer 1..1 MS
@@ -181,6 +187,7 @@ Title: "MII EX Studie Ethikvotum"
 Extension: MII_EX_Studie_Backport_AssociatedParty
 Id: mii-ex-studie-backport-associatedParty
 Title: "MII EX Studie Backport AssociatedParty"
+Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
@@ -197,6 +204,7 @@ Title: "MII EX Studie Backport AssociatedParty"
 Extension: MII_EX_Studie_Backport_Label
 Id: mii-ex-studie-backport-label
 Title: "MII EX Studie Backport Label"
+Context: ResearchStudy
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 0..1 and value 1..1 MS
