@@ -200,6 +200,13 @@ Description: "Logische Repräsentation der Forschungsvorhaben"
   * Kommission 0..* string "Kommission des Ethikvotums" "Kommission des Ethikvotums"
   * Ethiknummer 0..* string "Nummer des Ethikvotums" "Nummer des Ethikvotums"
 * Finanzierung 0..* string "Finanzierung der Studie"
+* ProbandIn 0..* BackboneElement "Person, die an einer Studie teilnimmt (unter Umständen, während sie Patient:in in einer Gesundheitseinrichtung ist)" "Person, die an einer Studie teilnimmt (unter Umständen, während sie Patient:in in einer Gesundheitseinrichtung ist)"
+  * SubjektIdentifizierungscode 0..* Identifier "Eindeutiger Identifikator eines Patienten im Kontext eines Forschungsprojekts (klinische Studie, Use Case)" "Eindeutiger Identifikator eines Patienten im Kontext eines Forschungsprojekts (klinische Studie, Use Case)"
+  * Rechtsgrundlage 0..* Reference(Consent) "Rechtsgrundlage (z.B. Einwilligung) aufgrund die PatientIn in die Studie eingeschlossen werden darf." "Rechtsgrundlage (z.B. Einwilligung) aufgrund die PatientIn in die Studie eingeschlossen werden darf."
+  * BeginnTeilnahme 1..1 dateTime "Beginn der Teilnahme der Person an der Studie." "Beginn der Teilnahme der Person an der Studie."
+  * EndeTeilnahme 0..1 dateTime "Ende der Teilnahme der Person an der Studie." "Ende der Teilnahme der Person an der Studie."
+  * StatusDerTeilnahme 1..1 code "Stand der Teilnahme einer Person an der Studie, z.B. eingeschlossen, widerrufen, abgeschlossen etc." "Stand der Teilnahme einer Person an der Studie, z.B. eingeschlossen, widerrufen, abgeschlossen etc."
+  * BezeichnungDerStudie 0..* Identifier "Identifikator der Studie" "Identifikator der Studie"
 
 // Logical: Kontakt
 // Parent: BackboneElement

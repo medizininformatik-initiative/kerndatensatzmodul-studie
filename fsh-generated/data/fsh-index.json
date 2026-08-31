@@ -397,7 +397,7 @@
     "fshType": "Logical",
     "fshFile": "LogicalModel.fsh",
     "startLine": 1,
-    "endLine": 202
+    "endLine": 209
   },
   {
     "outputFile": "StructureDefinition-mii-pr-studie-beteiligte-person.json",
