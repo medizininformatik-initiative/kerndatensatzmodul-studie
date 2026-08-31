@@ -4,9 +4,10 @@
 # │ Migrated 2026-08-31 from the Simplifier project onto                               │
 # │ mii-kds-module-template v0.13.2 (skill mii-ig-migration v0.25.0).                  │
 # │ Identity fields are carried UNCHANGED from the source master@6cc63c5               │
-# │ (see migration-log/identity-claims.tsv). Version stays 2026.0.1 — the             │
-# │ source tree's value; the registry's 2026.0.2 and the 2027 ballot guides'           │
-# │ 2027.0.0 are recorded contradictions for Gate A (never resolved here).             │
+# │ (see migration-log/identity-claims.tsv). Version = 2027.0.0-ballot.rc1 —          │
+# │ OPERATOR RE-VERSION (2026-08-31, ballot-RC edition on top of the 2026.0.1          │
+# │ migration; Dokument pattern). The registry's 2026.0.2 and the source tree's        │
+# │ 2026.0.1 remain recorded contradictions for Gate A.                                │
 # │ license: CC-BY-4.0 is a recorded Gate-A decision from tier-R evidence              │
 # │ (guide "© 2019+ TMF e. V., CC BY 4.0" prose; no machine source declares one).      │
 # │                                                                                    │
@@ -22,11 +23,11 @@ title: "MII Implementation Guide Medizinisches Forschungsvorhaben"
 description: "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben"
 applyExtensionMetadataToRoot: false
 status: active # source value carried
-version: 2026.0.1
+version: 2027.0.0-ballot.rc1
 packageId: de.medizininformatikinitiative.kerndatensatz.studie
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: ci-build # source value carried
+releaseLabel: ballot # ballot release candidate (operator re-version 2026-08-31; Gate-A confirmation pending)
 license: CC-BY-4.0 # Gate-A decision 2026-08-31 (tier-R evidence; no machine source declares one)
 # Formal date stand-in = the v2026.0.1 publication date (source GitHub release
 # 2026-01-09); replace with the real publication date at Gate D.
@@ -67,12 +68,12 @@ extension:
       - url: packageId
         valueId: de.medizininformatikinitiative.kerndatensatz.studie
       - url: version
-        valueString: 2026.0.1
+        valueString: 2027.0.0-ballot.rc1
       - url: uri
         valueUri: https://www.medizininformatik-initiative.de/fhir/modul-studie
   - url: http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod
     valuePeriod:
-      start: "2026"
+      start: "2027"
   - url: http://hl7.org/fhir/StructureDefinition/artifact-author
     valueContactDetail:
       telecom:

@@ -16,7 +16,7 @@ Terminologien und Beispiele.
 
 - **Package:** `de.medizininformatikinitiative.kerndatensatz.studie`
 - **Canonical:** `https://www.medizininformatik-initiative.de/fhir/modul-studie`
-- **Version:** 2026.0.1 (Quellstand; Versionskonflikt 2026.0.2/2027.0.0 → Gate A,
+- **Version:** 2027.0.0-ballot.rc1 (Ballot-RC-Ausgabe der Migration; Versionskonflikt → Gate A,
   siehe `migration-log/migration-report.md`)
 - **Lizenz:** CC BY 4.0 (Gate-A-Entscheidung aus Guide-Evidenz; siehe [LICENSE](LICENSE))
 

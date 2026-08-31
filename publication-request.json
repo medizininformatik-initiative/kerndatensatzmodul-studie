@@ -1,10 +1,10 @@
 {
    "package-id" : "de.medizininformatikinitiative.kerndatensatz.studie",
-   "version" : "2026.0.1",
-   "path" : "https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/2026.0.1",
+   "version" : "2027.0.0-ballot.rc1",
+   "path" : "https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/2027.0.0-ballot.rc1",
    "mode" : "milestone",
    "status" : "release",
-   "sequence" : "2026",
+   "sequence" : "2027",
    "desc" : "IG Publisher edition of the MII Core Dataset module Medizinisches Forschungsvorhaben (migrated from Simplifier)",
    "first" : true,
    "title" : "MII Implementation Guide Medizinisches Forschungsvorhaben",
