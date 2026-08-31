@@ -67,3 +67,25 @@ jobs:
             <!-- DELETE END -->
 
             See the auto-generated release notes below.
+
+  NOTIFY_ZULIP:
+    if: github.event_name == 'release' && github.event.action == 'published'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post release to Zulip
+        uses: zulip/github-actions-zulip/send-message@v1
+        with:
+          api-key: ${{ secrets.ZULIP_API_KEY }}
+          email: "kds-github-bot@mii.zulipchat.com"
+          organization-url: "https://mii.zulipchat.com/"
+          to: "MII-Kerndatensatz"
+          type: "stream"
+          topic: "Releases"
+          content: |
+            **New Release:** `${{ github.event.release.tag_name }}`
+            **Repository:** `${{ github.repository }}`
+            **Module:** Onkologie
+
+            ${{ github.event.release.body }}
+
+            🔗 [View on GitHub](${{ github.event.release.html_url }})
