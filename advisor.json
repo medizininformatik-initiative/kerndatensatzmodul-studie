@@ -1,10 +1,13 @@
-{ 
-  "_comment": "application/pdf' is not validated correctly by the terminology server",
-  "suppress" : [
+{
+  "_comment": "UNION of the template scaffold advisor (mii-kds-module-template v0.13.2) and the source module advisor (contentType/terminology false positives; 'application/pdf is not validated correctly by the terminology server')",
+  "suppress": [
     "Terminology_TX_NoValid_16@ImplementationGuide.definition.parameter.code",
-    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.definition.parameter.code",
+    "MSG_DRAFT",
+    "TERMINOLOGY_TX_WARNING@StructureDefinition.*",
+    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
     "UNABLE_TO_INFER_CODESYSTEM@StructureDefinition.*",
     "Terminology_TX_NoValid_16@StructureDefinition.*",
+    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.definition.parameter.code",
     "UNABLE_TO_INFER_CODESYSTEM@DocumentReference.content.attachment.contentType",
     "Terminology_TX_NoValid_16@DocumentReference.content.attachment.contentType",
     "UNABLE_TO_INFER_CODESYSTEM@Bundle.entry[0].resource.content[0].attachment.contentType",

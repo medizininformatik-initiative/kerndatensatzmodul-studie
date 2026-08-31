@@ -1,0 +1,1003 @@
+{
+  "schemaVersion": "1.4",
+  "tool": "ig-stats.py",
+  "mode": "static",
+  "analyzed": {
+    "path": "/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work",
+    "label": "studie-source-master-6cc63c5",
+    "project_root_nested": null,
+    "project_root_candidates": null,
+    "git_commit": "6cc63c5",
+    "timestamp": "2026-08-31T17:29:42Z"
+  },
+  "identity": {
+    "id": "mii-ig-studie",
+    "canonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie",
+    "packageId": "de.medizininformatikinitiative.kerndatensatz.studie",
+    "name": "MII_IG_Medizinisches_Forschungsvorhaben",
+    "title": null,
+    "version": "2026.0.1",
+    "calver": true,
+    "status": "active",
+    "fhirVersion": "4.0.1",
+    "license": null,
+    "publisher": "Medizininformatik Initiative"
+  },
+  "artifacts": {
+    "profiles": 7,
+    "extensions": 14,
+    "valuesets": 2,
+    "codesystems": 2,
+    "logicals": 1,
+    "capabilitystatements": 1,
+    "questionnaires": 0,
+    "searchparameters": 15,
+    "operations": 0,
+    "examples": 17,
+    "rulesets": 8,
+    "invariants": 0,
+    "mappings": 0,
+    "other": {},
+    "total": 59,
+    "other_total": 0,
+    "_source": "input/fsh (FSH-Deklarationen)",
+    "generated_crosscheck": {
+      "source": "fsh-generated/resources",
+      "counts": {
+        "profiles": 7,
+        "extensions": 14,
+        "valuesets": 2,
+        "codesystems": 2,
+        "logicals": 1,
+        "capabilitystatements": 1,
+        "questionnaires": 0,
+        "searchparameters": 15,
+        "operations": 0,
+        "examples": 14
+      },
+      "other": {
+        "EvidenceVariable": 2,
+        "Library": 1
+      },
+      "mismatches": {
+        "examples": {
+          "declared": 17,
+          "generated": 14
+        },
+        "other:EvidenceVariable": {
+          "declared": 0,
+          "generated": 2
+        },
+        "other:Library": {
+          "declared": 0,
+          "generated": 1
+        }
+      }
+    }
+  },
+  "artifacts_detail": [
+    {
+      "type": "Instance",
+      "name": "MII-CPS-Metadata-Studie",
+      "instanceOf": "CapabilityStatement",
+      "category": "capabilitystatements",
+      "path": "input/fsh/CapabilityStatement.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "AddBundleEntry",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/ExamplesBundle.fsh",
+      "line": 3
+    },
+    {
+      "type": "RuleSet",
+      "name": "TestDataLabel",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/ExamplesBundle.fsh",
+      "line": 9
+    },
+    {
+      "type": "Instance",
+      "name": "mii-studie-test-data-bundle-studie",
+      "instanceOf": "Bundle",
+      "category": "examples",
+      "path": "input/fsh/ExamplesBundle.fsh",
+      "line": 17
+    },
+    {
+      "type": "Logical",
+      "name": "MII_LM_Studie_LogicalModel",
+      "instanceOf": null,
+      "category": "logicals",
+      "path": "input/fsh/LogicalModel.fsh",
+      "line": 1
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-dokument",
+      "instanceOf": "MII_PR_Studie_Dokument",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 2
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-ein-auschluss-kriterium",
+      "instanceOf": "MII_PR_Studie_EinAuschlussKriterium",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 15
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-register",
+      "instanceOf": "MII_PR_Studie_Register",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 73
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-beteiligte-person",
+      "instanceOf": "MII_PR_Studie_Beteiligte_Person",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 85
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-cohort",
+      "instanceOf": "MII_PR_Studie_Studie",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 95
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-proband",
+      "instanceOf": "MII_PR_Studie_Proband",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 125
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-studieneinschluss-anfrage",
+      "instanceOf": "MII_PR_Studie_Studieneinschluss_Anfrage",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 142
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-author",
+      "instanceOf": "Organization",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 160
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-custodian",
+      "instanceOf": "Organization",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 167
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-practitioner-organization",
+      "instanceOf": "Organization",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 174
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-practitioner",
+      "instanceOf": "Practitioner",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 181
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-reference-study",
+      "instanceOf": "ResearchStudy",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 189
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-patient",
+      "instanceOf": "Patient",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 197
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-consent",
+      "instanceOf": "Consent",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 214
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-evidence-variable-age-restriction",
+      "instanceOf": "EvidenceVariable",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 225
+    },
+    {
+      "type": "CodeSystem",
+      "name": "ResearchStudyCategoryCS",
+      "instanceOf": null,
+      "category": "codesystems",
+      "path": "input/fsh/examples.fsh",
+      "line": 242
+    },
+    {
+      "type": "ValueSet",
+      "name": "ResearchStudyCategoryVS",
+      "instanceOf": null,
+      "category": "valuesets",
+      "path": "input/fsh/examples.fsh",
+      "line": 260
+    },
+    {
+      "type": "CodeSystem",
+      "name": "AssociatedPartyRoleCS",
+      "instanceOf": null,
+      "category": "codesystems",
+      "path": "input/fsh/examples.fsh",
+      "line": 270
+    },
+    {
+      "type": "ValueSet",
+      "name": "AssociatedPartyRoleVS",
+      "instanceOf": null,
+      "category": "valuesets",
+      "path": "input/fsh/examples.fsh",
+      "line": 294
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Dokument",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/DocumentReference.fsh",
+      "line": 1
+    },
+    {
+      "type": "Instance",
+      "name": "DocumentReference-title",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/DocumentReference.fsh",
+      "line": 54
+    },
+    {
+      "type": "Instance",
+      "name": "DocumentReference-size",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/DocumentReference.fsh",
+      "line": 68
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_EinAuschlussKriterium",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 1
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_linkId",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 41
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_definitionReference",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 50
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_definitionCanonical",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 59
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_Definition_By_Type_And_Value",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 68
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_Definition_By_Combination",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 85
+    },
+    {
+      "type": "Instance",
+      "name": "EvidenceVariable-characteristic-description",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 98
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Register",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 1
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Quell_Register",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 47
+    },
+    {
+      "type": "Instance",
+      "name": "Library-quellregister",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 56
+    },
+    {
+      "type": "Instance",
+      "name": "Library-relatedArtifactUrl",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 70
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Beteiligte_Person",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/PractitionerRole.fsh",
+      "line": 1
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Studie",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 1
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Studienregister",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 131
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Eligibility",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 139
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Akronym",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 147
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Rekrutierung",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 155
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Finanzierung",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 168
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Ethikvotum",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 176
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_AssociatedParty",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 187
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_Label",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 204
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-armName",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 215
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-label",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 229
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-akronym",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 243
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-finanzierung",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 257
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-studienregister",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 271
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstand-datum",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 285
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstand-genauigkeit",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 299
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstand",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 313
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsziel",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 327
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstart",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 341
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-studie",
+      "instanceOf": "MII_PR_Studie_Studie",
+      "category": "examples",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 355
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Proband",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/ResearchSubject.fsh",
+      "line": 1
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Studieneinschluss_Anfrage",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/StudyInclusion.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "MetaProfile",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/meta-profile.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "Publisher",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/publisher.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "SP_Publisher",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/publisher.fsh",
+      "line": 6
+    },
+    {
+      "type": "RuleSet",
+      "name": "Translation",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/translation.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "Version",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/version.fsh",
+      "line": 2
+    },
+    {
+      "type": "RuleSet",
+      "name": "PR_CS_VS_Version",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/version.fsh",
+      "line": 5
+    }
+  ],
+  "preflight": {
+    "licence": {
+      "evidence": [
+        {
+          "source": "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/Index.page.md",
+          "value": "Creative Commons"
+        },
+        {
+          "source": "ImplementationGuide-2026.x.x/MIIIGModulStudie/Index.page.md",
+          "value": "Creative Commons"
+        },
+        {
+          "source": "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Index.page.md",
+          "value": "Creative Commons"
+        }
+      ],
+      "declared_anywhere": true,
+      "contradictory": false,
+      "distinct_values": [
+        "creativecommons"
+      ]
+    },
+    "canonical_space": {
+      "canonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie",
+      "package_json_canonical": null,
+      "config_contradiction": false,
+      "out_of_space_count": 11,
+      "out_of_space": [
+        {
+          "type": "CodeSystem",
+          "id": "associated-party-role-cs",
+          "url": "http://example.org/fhir/CodeSystem/associated-party-role"
+        },
+        {
+          "type": "CodeSystem",
+          "id": "research-study-category-cs",
+          "url": "http://example.org/fhir/CodeSystem/research-study-category"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-associatedParty",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definition-by-combination",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definition-by-type-and-value",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definitionCanonical",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definitionReference",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-label",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-linkId",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
+        },
+        {
+          "type": "ValueSet",
+          "id": "associated-party-role-vs",
+          "url": "http://example.org/fhir/ValueSet/associated-party-role"
+        },
+        {
+          "type": "ValueSet",
+          "id": "research-study-category-vs",
+          "url": "http://example.org/fhir/ValueSet/research-study-category"
+        }
+      ],
+      "id_url_mismatch": [
+        {
+          "type": "CapabilityStatement",
+          "id": "MII-CPS-Metadata-Studie",
+          "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata"
+        }
+      ],
+      "special_url_prediction": 12,
+      "example_org": [
+        {
+          "type": "CodeSystem",
+          "id": "associated-party-role-cs",
+          "url": "http://example.org/fhir/CodeSystem/associated-party-role"
+        },
+        {
+          "type": "CodeSystem",
+          "id": "research-study-category-cs",
+          "url": "http://example.org/fhir/CodeSystem/research-study-category"
+        },
+        {
+          "type": "ValueSet",
+          "id": "associated-party-role-vs",
+          "url": "http://example.org/fhir/ValueSet/associated-party-role"
+        },
+        {
+          "type": "ValueSet",
+          "id": "research-study-category-vs",
+          "url": "http://example.org/fhir/ValueSet/research-study-category"
+        }
+      ]
+    },
+    "dependency_health": {
+      "old_style_packages": [
+        "hl7.fhir.extensions.r5"
+      ],
+      "tho_pinned_directly": false,
+      "extensions_pinned_directly": false,
+      "injection_risk": true,
+      "external_parents": [],
+      "dependency_block_present": true,
+      "dependency_block_unparsed": false
+    },
+    "package_layout": null,
+    "narrative_sources": {
+      "pagecontent": true,
+      "intro_notes": false,
+      "implementation_guides_tree": false,
+      "dual_source": false,
+      "pagecontent_last_commit": "2026-08-31T13:13:33+02:00",
+      "implementation_guides_last_commit": null
+    },
+    "qa_baseline": null,
+    "_comment": "migration Gate-0 aspects; None = not measurable from this tree (obtain it, never assume it)"
+  },
+  "dependencies": {
+    "count": 2,
+    "pinned": 2,
+    "floating": 0,
+    "items": {
+      "hl7.fhir.extensions.r5": "4.0.1",
+      "de.medizininformatikinitiative.kerndatensatz.meta": "2026.0.0"
+    },
+    "floating_items": [],
+    "block_present": true,
+    "_source": "sushi-config.yaml: dependencies"
+  },
+  "narrative": {
+    "format": "source",
+    "pages": 0,
+    "pages_all": 1,
+    "translation_pages": 0,
+    "translation_words": 0,
+    "intro_note_pages": 0,
+    "intro_note_words": 0,
+    "words": 0,
+    "words_all_incl_stubs": 18,
+    "images": 0,
+    "mandatory_present": [
+      "index"
+    ],
+    "mandatory_missing_in_target": [],
+    "files": [
+      {
+        "path": "input/pagecontent/index.md",
+        "words": 18,
+        "kind": "target",
+        "stub": true
+      }
+    ]
+  },
+  "linguistics": {
+    "content_pages": 0,
+    "words_total": 0,
+    "words_avg": 0,
+    "words_median": 0,
+    "words_min": 0,
+    "words_max": 0,
+    "longest_page": null,
+    "shortest_page": null,
+    "per_page": []
+  },
+  "duplication": {
+    "duplicate_block_count": 0,
+    "duplicate_blocks": [],
+    "duplicate_file_groups": []
+  },
+  "hygiene": {
+    "images_total": 0,
+    "unreferenced_images": [],
+    "examples_total": 17,
+    "examples_not_in_narrative": [
+      "mii-studie-test-data-bundle-studie",
+      "mii-exa-studie-dokument",
+      "mii-exa-studie-ein-auschluss-kriterium",
+      "mii-exa-studie-register",
+      "mii-exa-studie-beteiligte-person",
+      "mii-exa-studie-cohort",
+      "mii-exa-studie-proband",
+      "mii-exa-studie-studieneinschluss-anfrage",
+      "mii-exa-studie-author",
+      "mii-exa-studie-custodian",
+      "mii-exa-studie-practitioner-organization",
+      "mii-exa-studie-practitioner",
+      "mii-exa-studie-reference-study",
+      "mii-exa-studie-patient",
+      "mii-exa-studie-consent",
+      "mii-exa-studie-evidence-variable-age-restriction",
+      "mii-exa-studie-studie"
+    ],
+    "note": "Heuristik: 'nicht referenziert' = Dateiname/Artefaktname kommt in keiner Erklärseite vor. Kein Beweis für Ungenutztheit (Referenz kann über Konfiguration/Build erfolgen)."
+  },
+  "i18n": {
+    "default_lang": "de-DE",
+    "default_lang_source": "language",
+    "languages": [],
+    "translation_supplements": 0,
+    "supplement_files": [],
+    "translated_pages": 0,
+    "fsh_translation_ext": true,
+    "fsh_translation_files": [
+      "input/fsh/rulesets/translation.fsh",
+      "input/fsh/profiles/StudyInclusion.fsh",
+      "input/fsh/profiles/PractitionerRole.fsh",
+      "input/fsh/profiles/ResearchSubject.fsh",
+      "input/fsh/profiles/DocumentReference.fsh",
+      "input/fsh/profiles/ResearchStudy.fsh",
+      "input/fsh/profiles/Library.fsh",
+      "input/fsh/profiles/EvidenceVariable.fsh"
+    ]
+  },
+  "directives": {
+    "total": 0,
+    "by_label": {},
+    "unknown": 0,
+    "occurrences": [],
+    "unknown_occurrences": []
+  },
+  "quality": {
+    "qc_rules_defined": 8,
+    "qc_rules": [
+      {
+        "name": "parse-fhir-resources",
+        "action": "parse",
+        "status": "Checking if all FHIR Resource files can be parsed",
+        "category": null
+      },
+      {
+        "name": "resource-validation",
+        "action": "validate",
+        "status": "Validating resources against the FHIR standard and their profiles",
+        "category": "Resource"
+      },
+      {
+        "name": "version-filled",
+        "action": null,
+        "status": "Checking if all resources have version filled",
+        "category": null
+      },
+      {
+        "name": null,
+        "action": "Check for valid ids",
+        "status": null,
+        "category": null
+      },
+      {
+        "name": "naming-convention-id",
+        "action": null,
+        "status": "Checking if all resource ids follow the naming convention",
+        "category": null
+      },
+      {
+        "name": "naming-convention-name",
+        "action": null,
+        "status": "Checking if all resource names follow the naming convention",
+        "category": null
+      },
+      {
+        "name": "naming-convention-title",
+        "action": null,
+        "status": "Checking if all resource titles follow the naming convention",
+        "category": null
+      },
+      {
+        "name": "naming-convention-url",
+        "action": null,
+        "status": "Checking if all resource urls follow the naming convention",
+        "category": null
+      }
+    ],
+    "qc_source": "qc/custom.rules.yaml",
+    "qc_violations": null,
+    "suppressed_messages": null,
+    "qa_errors": null,
+    "qa_warnings": null,
+    "qa_hints": null,
+    "broken_links": null,
+    "qa_categories": null
+  },
+  "maturity": {
+    "components": {
+      "Status": "active",
+      "Doku-Vollständigkeit": 0,
+      "Beispiel-Abdeckung": 100,
+      "Governance": 25
+    },
+    "example_coverage": {
+      "profiles_total": 7,
+      "covered": 7,
+      "uncovered": [],
+      "coverage_pct": 100
+    },
+    "governance": {
+      "ci_workflows": 1,
+      "publication_request": false,
+      "ig_ini": false,
+      "devcontainer": false,
+      "governance_score": 25
+    },
+    "doc_health_pct": 0
+  },
+  "portfolio": {
+    "vendor_lockin_score": 0,
+    "vendor_lockin_band": "gering",
+    "directives_per_page": 0.0,
+    "terminology_standard_systems": [
+      "SNOMED CT",
+      "LOINC",
+      "UCUM"
+    ],
+    "terminology_standard_refs": 13,
+    "local_codesystems": 2,
+    "terminology_standard_share_pct": 87,
+    "canonical_reuse_ratio_pct": 100,
+    "external_parents": 7,
+    "local_parents": 0,
+    "fhir_version_label": "R4",
+    "fhir_version_note": "aktuell verbreitet",
+    "dependency_stale_count": 0,
+    "dependency_stale": [],
+    "dependency_staleness_note": "Heuristik aus CalVer-Jahr; exakt nur via Package-Registry (extern).",
+    "release_cadence_per_year": 89.0,
+    "days_since_last_commit": 0,
+    "tags": 0
+  },
+  "risk": {
+    "terminology_license_flags": [
+      {
+        "system": "SNOMED CT",
+        "license": "lizenzpflichtig (Affiliate/Land)"
+      },
+      {
+        "system": "LOINC",
+        "license": "frei (Registrierung)"
+      },
+      {
+        "system": "UCUM",
+        "license": "frei"
+      }
+    ],
+    "terminology_license_risk": true,
+    "suppressed_total": 0,
+    "suppressed_broad": 0,
+    "suppressed_warning_risk": "keine",
+    "privacy_page_words": 0,
+    "privacy_page_substantial": false,
+    "examples_contain_pii_like": true,
+    "bus_factor_top_author_pct": 39,
+    "bus_factor_authors": 9,
+    "bus_factor_risk": "gering",
+    "breaking_change_risk": null,
+    "breaking_change_note": "Erfordert Diff gegen die publizierte Vorversion (Build/extern) — statisch nicht erhoben."
+  },
+  "git": {
+    "commits": 524,
+    "authors": 9,
+    "top_author_share": 39,
+    "days_since_last": 0,
+    "commits_per_year": 89.0,
+    "tags": 0,
+    "first": "2020-10-12",
+    "last": "2026-08-31",
+    "history_complete": true
+  }
+}

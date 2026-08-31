@@ -1,0 +1,17 @@
+{
+   "package-id" : "de.medizininformatikinitiative.kerndatensatz.studie",
+   "version" : "2026.0.1",
+   "path" : "https://forschungsgruppe-digital-health.github.io/mii-kds-studie-ig-inoffiziell/2026.0.1",
+   "mode" : "milestone",
+   "status" : "release",
+   "sequence" : "2026",
+   "desc" : "IG Publisher edition of the MII Core Dataset module Medizinisches Forschungsvorhaben (migrated from Simplifier)",
+   "first" : true,
+   "title" : "MII Implementation Guide Medizinisches Forschungsvorhaben",
+   "ci-build" : "https://forschungsgruppe-digital-health.github.io/mii-kds-studie-ig-inoffiziell/branches/dev/",
+   "category" : "Research",
+   "introduction" : "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben",
+   "registry-description" : "MII Core Dataset module Medizinisches Forschungsvorhaben (Studie)",
+   "registry-country" : "de",
+   "registry-authority" : "Medical Informatics Initiative (MII)"
+}

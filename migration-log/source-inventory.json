@@ -1,0 +1,549 @@
+{
+ "generated": "2026-08-31",
+ "source_commit": "6cc63c5",
+ "artefacts": [
+  {
+   "type": "Bundle",
+   "id": "mii-studie-test-data-bundle-studie",
+   "url": null,
+   "path": "fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie.json"
+  },
+  {
+   "type": "CapabilityStatement",
+   "id": "MII-CPS-Metadata-Studie",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata",
+   "path": "fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie.json"
+  },
+  {
+   "type": "CodeSystem",
+   "id": "associated-party-role-cs",
+   "url": "http://example.org/fhir/CodeSystem/associated-party-role",
+   "path": "fsh-generated/resources/CodeSystem-associated-party-role-cs.json"
+  },
+  {
+   "type": "CodeSystem",
+   "id": "research-study-category-cs",
+   "url": "http://example.org/fhir/CodeSystem/research-study-category",
+   "path": "fsh-generated/resources/CodeSystem-research-study-category-cs.json"
+  },
+  {
+   "type": "Consent",
+   "id": "mii-exa-studie-consent",
+   "url": null,
+   "path": "fsh-generated/resources/Consent-mii-exa-studie-consent.json"
+  },
+  {
+   "type": "DocumentReference",
+   "id": "mii-exa-studie-dokument",
+   "url": null,
+   "path": "fsh-generated/resources/DocumentReference-mii-exa-studie-dokument.json"
+  },
+  {
+   "type": "EvidenceVariable",
+   "id": "mii-exa-studie-ein-auschluss-kriterium",
+   "url": null,
+   "path": "fsh-generated/resources/EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json"
+  },
+  {
+   "type": "EvidenceVariable",
+   "id": "mii-exa-studie-evidence-variable-age-restriction",
+   "url": null,
+   "path": "fsh-generated/resources/EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.json"
+  },
+  {
+   "type": "ImplementationGuide",
+   "id": "mii-ig-studie",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
+   "path": "fsh-generated/resources/ImplementationGuide-mii-ig-studie.json"
+  },
+  {
+   "type": "Library",
+   "id": "mii-exa-studie-register",
+   "url": null,
+   "path": "fsh-generated/resources/Library-mii-exa-studie-register.json"
+  },
+  {
+   "type": "Organization",
+   "id": "mii-exa-studie-author",
+   "url": null,
+   "path": "fsh-generated/resources/Organization-mii-exa-studie-author.json"
+  },
+  {
+   "type": "Organization",
+   "id": "mii-exa-studie-custodian",
+   "url": null,
+   "path": "fsh-generated/resources/Organization-mii-exa-studie-custodian.json"
+  },
+  {
+   "type": "Organization",
+   "id": "mii-exa-studie-practitioner-organization",
+   "url": null,
+   "path": "fsh-generated/resources/Organization-mii-exa-studie-practitioner-organization.json"
+  },
+  {
+   "type": "Patient",
+   "id": "mii-exa-studie-patient",
+   "url": null,
+   "path": "fsh-generated/resources/Patient-mii-exa-studie-patient.json"
+  },
+  {
+   "type": "Practitioner",
+   "id": "mii-exa-studie-practitioner",
+   "url": null,
+   "path": "fsh-generated/resources/Practitioner-mii-exa-studie-practitioner.json"
+  },
+  {
+   "type": "PractitionerRole",
+   "id": "mii-exa-studie-beteiligte-person",
+   "url": null,
+   "path": "fsh-generated/resources/PractitionerRole-mii-exa-studie-beteiligte-person.json"
+  },
+  {
+   "type": "ResearchStudy",
+   "id": "mii-exa-studie-cohort",
+   "url": null,
+   "path": "fsh-generated/resources/ResearchStudy-mii-exa-studie-cohort.json"
+  },
+  {
+   "type": "ResearchStudy",
+   "id": "mii-exa-studie-reference-study",
+   "url": null,
+   "path": "fsh-generated/resources/ResearchStudy-mii-exa-studie-reference-study.json"
+  },
+  {
+   "type": "ResearchStudy",
+   "id": "mii-exa-studie-studie",
+   "url": null,
+   "path": "fsh-generated/resources/ResearchStudy-mii-exa-studie-studie.json"
+  },
+  {
+   "type": "ResearchSubject",
+   "id": "mii-exa-studie-proband",
+   "url": null,
+   "path": "fsh-generated/resources/ResearchSubject-mii-exa-studie-proband.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "DocumentReference-size",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size",
+   "path": "fsh-generated/resources/SearchParameter-DocumentReference-size.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "DocumentReference-title",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-title",
+   "path": "fsh-generated/resources/SearchParameter-DocumentReference-title.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "EvidenceVariable-characteristic-description",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description",
+   "path": "fsh-generated/resources/SearchParameter-EvidenceVariable-characteristic-description.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "Library-quellregister",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-quellregister",
+   "path": "fsh-generated/resources/SearchParameter-Library-quellregister.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "Library-relatedArtifactUrl",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-relatedArtifactUrl",
+   "path": "fsh-generated/resources/SearchParameter-Library-relatedArtifactUrl.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-akronym",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-akronym.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-armName",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-armName",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-armName.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-finanzierung",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-finanzierung.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-label",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-label.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-rekrutierungsstand-datum",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-datum",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsstand-datum.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-rekrutierungsstand-genauigkeit",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-genauigkeit",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsstand-genauigkeit.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-rekrutierungsstand",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsstand.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-rekrutierungsstart",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstart",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsstart.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-rekrutierungsziel",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsziel",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsziel.json"
+  },
+  {
+   "type": "SearchParameter",
+   "id": "ResearchStudy-studienregister",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister",
+   "path": "fsh-generated/resources/SearchParameter-ResearchStudy-studienregister.json"
+  },
+  {
+   "type": "ServiceRequest",
+   "id": "mii-exa-studie-studieneinschluss-anfrage",
+   "url": null,
+   "path": "fsh-generated/resources/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-akronym",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-akronym.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-associatedParty",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-associatedParty.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-definition-by-combination",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-definition-by-combination.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-definition-by-type-and-value",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-definitionCanonical",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-definitionCanonical.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-definitionReference",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-definitionReference.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-label",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-label.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-backport-linkId",
+   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-linkId.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-eligibility",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-eligibility.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-ethikvotum",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-ethikvotum.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-finanzierung",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-finanzierung.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-quell-register",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-quell-register.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-rekrutierung",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-rekrutierung.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-ex-studie-studienregister",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister",
+   "path": "fsh-generated/resources/StructureDefinition-mii-ex-studie-studienregister.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-lm-studie-logicalmodel",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
+   "path": "fsh-generated/resources/StructureDefinition-mii-lm-studie-logicalmodel.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-beteiligte-person",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-beteiligte-person.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-dokument",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-dokument.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-ein-auschluss-kriterium",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-proband",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-proband.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-register",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-register.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-studie",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-studie.json"
+  },
+  {
+   "type": "StructureDefinition",
+   "id": "mii-pr-studie-studieneinschluss-anfrage",
+   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage",
+   "path": "fsh-generated/resources/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.json"
+  },
+  {
+   "type": "ValueSet",
+   "id": "associated-party-role-vs",
+   "url": "http://example.org/fhir/ValueSet/associated-party-role",
+   "path": "fsh-generated/resources/ValueSet-associated-party-role-vs.json"
+  },
+  {
+   "type": "ValueSet",
+   "id": "research-study-category-vs",
+   "url": "http://example.org/fhir/ValueSet/research-study-category",
+   "path": "fsh-generated/resources/ValueSet-research-study-category-vs.json"
+  }
+ ],
+ "narrative": {
+  "ImplementationGuide-2026.x.x": {
+   "pages": [
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/AnwendungsflleInformationsmodell/BeschreibungvonSzenarienfrdieAnwendungderModule.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/AnwendungsflleInformationsmodell/Datenstzeinkl.Beschreibungen.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/AnwendungsflleInformationsmodell/Index.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/AnwendungsflleInformationsmodell/UML.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/BeschreibungModul.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/Index.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/KontextimGesamtprojektBezgezuanderenModulen.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/Referenzen.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/Release-Notes.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/DocumentReference.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/EvidenceVariable.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/FHIR-Profile.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Index.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Library.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Organization.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/PractitionerRole.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/ResearchStudy.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/ResearchSubject.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/StudyInclusion.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/Index.page.md",
+    "ImplementationGuide-2026.x.x/MIIIGModulStudie/TechnischeImplementierung/Terminologie.page.md"
+   ],
+   "page_count": 22,
+   "toc_count": 5,
+   "image_count": 21,
+   "images": [
+    "Abbildung_Med_Forschung_de.jpg",
+    "UML_Forschungsvorhaben_2025.png",
+    "UML_Forschungsvorhaben_2026.png",
+    "Warning.jpg",
+    "art-decor-studie-1x-de-beteiligter.png",
+    "art-decor-studie-1x-de-businessid.png",
+    "art-decor-studie-1x-de-datenerhebung.png",
+    "art-decor-studie-1x-de-datennutzungsantrag.png",
+    "art-decor-studie-1x-de-einwilligung.png",
+    "art-decor-studie-1x-de-ethikvotum.png",
+    "art-decor-studie-1x-de-gesamt.png",
+    "art-decor-studie-1x-de-kontakt.png",
+    "art-decor-studie-1x-de-machbarkeit.png",
+    "art-decor-studie-1x-de-publikation.png",
+    "art-decor-studie-1x-de-rechtsgrundlage.png",
+    "art-decor-studie-1x-de-sponsor.png",
+    "art-decor-studie-1x-de-standort.png",
+    "art-decor-studie-1x-de-studiendesign.png",
+    "art-decor-studie-1x-de-studienleiter.png",
+    "art-decor-studie-1x-de-studienregister.png",
+    "art-decor-studie-1x-de-titel.png"
+   ],
+   "guide_yaml": "ImplementationGuide-2026.x.x/guide.yaml"
+  },
+  "ImplementationGuide-2027.x.x-DE": {
+   "pages": [
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/AnwendungsflleInformationsmodell/BeschreibungvonSzenarienfrdieAnwendungderModule.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/AnwendungsflleInformationsmodell/Datenstzeinkl.Beschreibungen.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/AnwendungsflleInformationsmodell/Index.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/AnwendungsflleInformationsmodell/UML.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/BeschreibungModul.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Index.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/KontextimGesamtprojektBezgezuanderenModulen.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Referenzen.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Release-Notes.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/DocumentReference.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/EvidenceVariable.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/FHIR-Profile.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Index.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Library.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Organization.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/PractitionerRole.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/ResearchStudy.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/ResearchSubject.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/StudyInclusion.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/Index.page.md",
+    "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/Terminologie.page.md"
+   ],
+   "page_count": 22,
+   "toc_count": 5,
+   "image_count": 21,
+   "images": [
+    "Abbildung_Med_Forschung_de.jpg",
+    "UML_Forschungsvorhaben_2025.png",
+    "UML_Forschungsvorhaben_2026.png",
+    "Warning.jpg",
+    "art-decor-studie-1x-de-beteiligter.png",
+    "art-decor-studie-1x-de-businessid.png",
+    "art-decor-studie-1x-de-datenerhebung.png",
+    "art-decor-studie-1x-de-datennutzungsantrag.png",
+    "art-decor-studie-1x-de-einwilligung.png",
+    "art-decor-studie-1x-de-ethikvotum.png",
+    "art-decor-studie-1x-de-gesamt.png",
+    "art-decor-studie-1x-de-kontakt.png",
+    "art-decor-studie-1x-de-machbarkeit.png",
+    "art-decor-studie-1x-de-publikation.png",
+    "art-decor-studie-1x-de-rechtsgrundlage.png",
+    "art-decor-studie-1x-de-sponsor.png",
+    "art-decor-studie-1x-de-standort.png",
+    "art-decor-studie-1x-de-studiendesign.png",
+    "art-decor-studie-1x-de-studienleiter.png",
+    "art-decor-studie-1x-de-studienregister.png",
+    "art-decor-studie-1x-de-titel.png"
+   ],
+   "guide_yaml": "ImplementationGuide-2027.x.x-DE/guide.yaml"
+  },
+  "ImplementationGuide-2027.x.x-EN": {
+   "pages": [
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/AnwendungsflleInformationsmodell/BeschreibungvonSzenarienfrdieAnwendungderModule.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/AnwendungsflleInformationsmodell/Datenstzeinkl.Beschreibungen.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/AnwendungsflleInformationsmodell/Index.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/AnwendungsflleInformationsmodell/UML.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/BeschreibungModul.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/Index.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/KontextimGesamtprojektBezgezuanderenModulen.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/Referenzen.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/Release-Notes.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/CapabilityStatement.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/DocumentReference.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/EvidenceVariable.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/FHIR-Profile.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Index.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Library.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/Organization.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/PractitionerRole.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/ResearchStudy.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/ResearchSubject.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/StudyInclusion.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/Index.page.md",
+    "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/Terminologie.page.md"
+   ],
+   "page_count": 22,
+   "toc_count": 5,
+   "image_count": 21,
+   "images": [
+    "Abbildung_Med_Forschung_de.jpg",
+    "UML_Forschungsvorhaben_2025.png",
+    "UML_Forschungsvorhaben_2026.png",
+    "Warning.jpg",
+    "art-decor-studie-1x-de-beteiligter.png",
+    "art-decor-studie-1x-de-businessid.png",
+    "art-decor-studie-1x-de-datenerhebung.png",
+    "art-decor-studie-1x-de-datennutzungsantrag.png",
+    "art-decor-studie-1x-de-einwilligung.png",
+    "art-decor-studie-1x-de-ethikvotum.png",
+    "art-decor-studie-1x-de-gesamt.png",
+    "art-decor-studie-1x-de-kontakt.png",
+    "art-decor-studie-1x-de-machbarkeit.png",
+    "art-decor-studie-1x-de-publikation.png",
+    "art-decor-studie-1x-de-rechtsgrundlage.png",
+    "art-decor-studie-1x-de-sponsor.png",
+    "art-decor-studie-1x-de-standort.png",
+    "art-decor-studie-1x-de-studiendesign.png",
+    "art-decor-studie-1x-de-studienleiter.png",
+    "art-decor-studie-1x-de-studienregister.png",
+    "art-decor-studie-1x-de-titel.png"
+   ],
+   "guide_yaml": "ImplementationGuide-2027.x.x-EN/guide.yaml"
+  }
+ },
+ "fsh_files": [
+  "input/fsh/CapabilityStatement.fsh",
+  "input/fsh/ExamplesBundle.fsh",
+  "input/fsh/LogicalModel.fsh",
+  "input/fsh/aliases.fsh",
+  "input/fsh/examples.fsh",
+  "input/fsh/profiles/DocumentReference.fsh",
+  "input/fsh/profiles/EvidenceVariable.fsh",
+  "input/fsh/profiles/Library.fsh",
+  "input/fsh/profiles/PractitionerRole.fsh",
+  "input/fsh/profiles/ResearchStudy.fsh",
+  "input/fsh/profiles/ResearchSubject.fsh",
+  "input/fsh/profiles/StudyInclusion.fsh",
+  "input/fsh/rulesets/license-terms.fsh",
+  "input/fsh/rulesets/meta-profile.fsh",
+  "input/fsh/rulesets/publisher.fsh",
+  "input/fsh/rulesets/translation.fsh",
+  "input/fsh/rulesets/version.fsh"
+ ],
+ "input_pagecontent": [
+  "input/pagecontent/index.md"
+ ]
+}

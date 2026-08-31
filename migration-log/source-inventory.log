@@ -1,0 +1,4 @@
+artefacts=60 fsh_files=17 pagecontent=['input/pagecontent/index.md']
+ImplementationGuide-2026.x.x: pages=22 tocs=5 images=21
+ImplementationGuide-2027.x.x-DE: pages=22 tocs=5 images=21
+ImplementationGuide-2027.x.x-EN: pages=22 tocs=5 images=21

@@ -1,0 +1,128 @@
+2026-08-31T17:29:02Z  INFO   log  run-boundary  ===== run 1 starts  run=1 label=Studie migration run 1 — source master@6cc63c5 -> template v0.13.2 (FGDH sandbox demonstrator) cwd=/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work log=migration-log/run.log
+    Every line below belongs to run 1; the lines above are earlier invocations.
+    Per-step raw logs (migration-log/<ACTION>.log) hold THIS run only -- `run`
+    truncates each one and rolls the previous attempt over to <ACTION>.prev.log.
+2026-08-31T17:29:02Z  INFO   pre.2  classify-source-shape  shape=A evidence=sushi-config.yaml+input/fsh(17 FSH files) ig.ini=absent-on-master fsh-generated=committed(60 JSONs) simplifier-guide-trees=3 => hybrid, shape A
+    target-template-state=plain Simplifier project (no ig.ini, no template ref) per Preconditions 3
+2026-08-31T17:29:02Z  INFO   pre.5  toolchain  node=v22.22.3 sushi-pin=npx --yes fsh-sushi@3.20.0 gofsh=not-required(shape A) python3=3.14.4 docker=29.7.2 publisher-jar=2.3.2(downloading, sha-check pending) jekyll=via hl7fhir/ig-publisher-base image
+2026-08-31T17:29:02Z  INFO   5.6a  sibling-skill-check  sibling-skill-present  skill=fhir-ig-analysis path=/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/agent-skills/skills/fhir-ig-analysis roots_examined=1 ref=<ref> ref_source=not recorded
+    Identified by its frontmatter name, not by its directory name. §5.6's
+    same-module verification can run; its IDENTISCH lines are the evidence, not
+    this line.
+2026-08-31T17:29:41Z  INFO   pre.5  toolchain  publisher-jar sha256=07c576024df917cc1f879b6b5a64147cd0222d5b4129688e8f0ad9ccce58b1d5 == template workflow pin (exact match); jar at ../publisher-2.3.2.jar (231MB)
+2026-08-31T17:29:41Z  INFO   1  preflight-analysis  start  cmd=`python3 /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/agent-skills/skills/fhir-ig-analysis/scripts/ig-stats.py analyze . -o migration-log/preflight-analysis.json --label studie-source-master-6cc63c5`  raw_log=migration-log/preflight-analysis.log
+2026-08-31T17:29:42Z  INFO   1  preflight-analysis  done  cmd=`python3 /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/agent-skills/skills/fhir-ig-analysis/scripts/ig-stats.py analyze . -o migration-log/preflight-analysis.json --label studie-source-master-6cc63c5`  exit=0 raw_log=migration-log/preflight-analysis.log raw_log_lines=1
+2026-08-31T17:30:30Z  INFO   5.1  qa-baseline  start: building UNMIGRATED source (git archive of master@6cc63c5 + verbatim tech-test ig.ini ce88a40) in hl7fhir/ig-publisher-base; publisher=2.3.2(sha-verified) -no-sushi (committed fsh-generated is the published state; SUSHI would re-add the xver dependsOn removed by 19ab7b1); tx=default tx.fhir.org
+    cmd=docker run --rm -v source-baseline:/work -v publisher-2.3.2.jar:/publisher.jar:ro -v ~/.fhir:/root/.fhir hl7fhir/ig-publisher-base java -Xmx6g -jar /publisher.jar -ig /work/ig.ini -no-sushi
+2026-08-31T17:31:12Z  INFO   5.1  guide-classification  spec 5.1a over 3 in-repo trees (root-level, NOT implementation-guides/): AUTHORITATIVE=ImplementationGuide-2027.x.x-DE (DE-first per KDS-Governance v4.0 §4.4 + meta-wiki 'IG Umbau - DE First'; guide.yaml v2027.0.0) PARALLEL-LANGUAGE=ImplementationGuide-2027.x.x-EN (human EN translation, same version 2027.0.0 -> stale-tree caveat inapplicable, translation seed) HISTORICAL=ImplementationGuide-2026.x.x (published v2026.0.1 guide; retire set after Gate D)
+    narrative is IN-REPO -> step 2c harvest NOT required; rendered guides serve as rendering reference only
+2026-08-31T17:31:12Z  INFO   5.1  guide-classification  P4 evidence: published-guide versions endpoints fetched 2026-08-31 -> guide-versions-en2027.html (29683B) + guide-versions-2026.html (29666B); rendered guides resolve only ?version=current (explicit versions 404 - measured in recon); DE-2027 guide key BROKEN on Simplifier ('Could not determine guide folder')
+2026-08-31T17:31:55Z  INFO   5.1  source-inventory  start  cmd=`python3 /tmp/mk-inventory.py`  raw_log=migration-log/source-inventory.log
+2026-08-31T17:31:55Z  INFO   5.1  source-inventory  done  cmd=`python3 /tmp/mk-inventory.py`  exit=0 raw_log=migration-log/source-inventory.log raw_log_lines=4
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=canonical value=https://www.medizininformatik-initiative.de/fhir/modul-studie tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=id value=mii-ig-studie tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=name value=MII_IG_Medizinisches_Forschungsvorhaben tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=status value=active tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=version value=2026.0.1 tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=fhirVersion value=4.0.1 tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=packageId value=de.medizininformatikinitiative.kerndatensatz.studie tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=copyrightYear value=2024+ tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=releaseLabel value=ci-build tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=publisher value=Medizininformatik Initiative tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=dependency:hl7.fhir.extensions.r5 value=4.0.1 tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=dependency:de.medizininformatikinitiative.kerndatensatz.meta value=2026.0.0 tier=C source=sushi-config.yaml
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=version value=2026.0.1 tier=J source=package.json
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=packageId value=de.medizininformatikinitiative.kerndatensatz.studie tier=J source=package.json
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=description value=Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben tier=J source=package.json
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=dependency:de.medizininformatikinitiative.kerndatensatz.meta value=2026.0.0 tier=J source=package.json
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  title=ABSENT in every machine source (no sushi-config title, no package.json title) -> template pattern at Gate A; license=ABSENT machine-readably (no LICENSE file, no license: key, GitHub API license=null, license-terms.fsh='// ToDo' stub); language: de-DE = old single-language setup, not identity (skill Language section)
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=version value=2027.0.0 tier=H source=ImplementationGuide-2027.x.x-DE+EN/guide.yaml (2027 Ballot guide metadata)
+2026-08-31T17:32:38Z  WARN   2.1  read-identity  identity-contradiction: field=version  now=2027.0.0 (tier H, ImplementationGuide-2027.x.x-DE+EN/guide.yaml (2027 Ballot guide metadata))  vs  version=2026.0.1 (tier C, sushi-config.yaml) version=2026.0.1 (tier J, package.json)
+    Two sources disagree about the same identity field. This is REPORTED, not
+    resolved: the tier ranking (spec §2.1) says which value a human should
+    probably adopt, and adopting one here would silently rename, re-license or
+    re-version a published module. Both readings stand in the ledger; Gate A
+    decides, and nothing in the repository is rewritten either way.
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=title value=Medizininformatik Initiative - ImplementationGuide - Medizinisches Forschungsvorhaben tier=H source=guide.yaml titles (DE/EN v2027, guide-level not IG-level)
+2026-08-31T17:32:38Z  INFO   2.1  read-identity  identity-claim  field=license value=CC-BY-4.0 tier=R source=guide Index.page.md (c) 2019+ TMF e.V. 'CC BY 4.0' (all 3 trees, DE+EN prose; live EN ballot guide footer 2026-08-31)
+2026-08-31T17:32:38Z  INFO   2.1  package-identity  params  package=de.medizininformatikinitiative.kerndatensatz.studie version=2026.0.2 registry=https://packages.simplifier.net work=/var/folders/d6/s255vt4x5pq9fy738bv7cs0h0000gq/T/tmp.Cckk0MZ13W
+    Reporting only: no file in the module repository is read or written here.
+    Recovered values are Gate-A evidence, never applied to existing metadata.
+2026-08-31T17:32:38Z  INFO   2.1  package-identity  version supplied by the operator  version=2026.0.2 source=--version package=de.medizininformatikinitiative.kerndatensatz.studie
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  fetched  cmd=`curl -sfL https://packages.simplifier.net/de.medizininformatikinitiative.kerndatensatz.studie/2026.0.2 -o pkg.tgz && tar xzf pkg.tgz`  bytes=133804 json_files=62 manifest=package/package.json
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest field  name=de.medizininformatikinitiative.kerndatensatz.studie  -- = packageId (spec §2.1)
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=packageId value=de.medizininformatikinitiative.kerndatensatz.studie tier=P source=package/package.json
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest field  version=2026.0.2  -- the module version -- authoritative for this RELEASE
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=version value=2026.0.2 tier=P source=package/package.json
+2026-08-31T17:32:39Z  WARN   2.1  package-identity  identity-contradiction: field=version  now=2026.0.2 (tier P, package/package.json)  vs  version=2026.0.1 (tier C, sushi-config.yaml) version=2026.0.1 (tier J, package.json) version=2027.0.0 (tier H, ImplementationGuide-2027.x.x-DE+EN/guide.yaml (2027 Ballot guide metadata))
+    Two sources disagree about the same identity field. This is REPORTED, not
+    resolved: the tier ranking (spec §2.1) says which value a human should
+    probably adopt, and adopting one here would silently rename, re-license or
+    re-version a published module. Both readings stand in the ledger; Gate A
+    decides, and nothing in the repository is rewritten either way.
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest field  description=Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=description value=Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben tier=P source=package/package.json
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest field  fhirVersions=["4.0.1"]
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=fhirVersions value=["4.0.1"] tier=P source=package/package.json
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest field  jurisdiction=urn:iso:std:iso:3166#DE
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=jurisdiction value=urn:iso:std:iso:3166#DE tier=P source=package/package.json
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest field  author=KDS Studie Team  -- a REGISTRY ACCOUNT, not `publisher`
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest read  package/package.json  recovered=6 absent=5 fields=name,version,description,fhirVersions,jurisdiction,author
+2026-08-31T17:32:39Z  WARN   2.1  package-identity  not-in-a-package-manifest: title, license, publisher
+    A FHIR package manifest has no field for these, so the published package
+    cannot supply them and no other field substitutes -- `author` is the
+    registry account that pushed the package, never a publishing organisation.
+    They stay Gate-A items: a human supplies them (spec §2.1).
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  manifest fields absent (optional in this format)  canonical, homepage
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=dependency:de.medizininformatikinitiative.kerndatensatz.meta value=2026.0.0 tier=P source=package/package.json (source pin)
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  identity-claim  field=dependency:hl7.fhir.r4.core value=4.0.1 tier=P source=package/package.json (source pin)
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  dependency pins from the SOURCE package  de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0 hl7.fhir.r4.core@4.0.1
+    SOURCE EVIDENCE, and it outranks the registry's dist-tags.latest for the
+    same package (spec §2.1 floating-pin rule, §5.1b.2 step 1): this is what
+    the module was actually published against. Use these for goFSH's `-d` set
+    and record any divergence from a previously assumed pin in the report.
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  packaged resources carrying no url  count=17
+      examples/Bundle-mii-studie-test-data-bundle-studie.json [Bundle]
+      examples/Consent-mii-exa-studie-consent.json [Consent]
+      examples/DocumentReference-mii-exa-studie-dokument.json [DocumentReference]
+      examples/EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json [EvidenceVariable]
+      examples/EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.json [EvidenceVariable]
+      examples/Library-mii-exa-studie-register.json [Library]
+      examples/Organization-mii-exa-studie-author.json [Organization]
+      examples/Organization-mii-exa-studie-custodian.json [Organization]
+      examples/Organization-mii-exa-studie-practitioner-organization.json [Organization]
+      examples/Patient-mii-exa-studie-patient.json [Patient]	  examples/Practitioner-mii-exa-studie-practitioner.json [Practitioner]	  examples/PractitionerRole-mii-exa-studie-beteiligte-person.json [PractitionerRole]	  examples/ResearchStudy-mii-exa-studie-cohort.json [ResearchStudy]	  examples/ResearchStudy-mii-exa-studie-reference-study.json [ResearchStudy]	  examples/ResearchStudy-mii-exa-studie-studie.json [ResearchStudy]	  examples/ResearchSubject-mii-exa-studie-proband.json [ResearchSubject]	  examples/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.json [ServiceRequest]
+2026-08-31T17:32:39Z  WARN   2.1  package-identity  canonical-not-unanimous: 3 distinct canonical bases across 45 resource url(s) -- NOT resolved by majority  bases=3 urls=45 exit=1
+    A split vote is a finding. Picking the larger set would silently re-home
+    the smaller one, and a changed published canonical breaks every consumer
+    that resolves it (guardrail 1). Every candidate, with an example:
+      https://www.medizininformatik-initiative.de/fhir/modul-studie  (34 resource(s), e.g. CapabilityStatement-MII-CPS-Metadata-Studie.json)
+      http://hl7.org/fhir/5.0  (7 resource(s), e.g. StructureDefinition-mii-ex-studie-backport-associatedParty.json)
+      http://example.org/fhir  (4 resource(s), e.g. CodeSystem-associated-party-role-cs.json)
+    Take it to Gate A; do not pick one here.
+2026-08-31T17:32:39Z  INFO   2.1  package-identity  done  package=de.medizininformatikinitiative.kerndatensatz.studie version=2026.0.2  canonical=not-derived exit=1
+    The package was read; the canonical was not derivable from it. That is a
+    Gate-A item (spec §2.1), not a licence to infer one.
+2026-08-31T17:33:53Z  INFO   2.1  read-identity  decision: target carries version=2026.0.1 (skill default = the source tree's; registry 2026.0.2 has no git commit/tag - published 10min after merge 44e01c0 2026-02-05, offered to owners as probable basis; 2027.0.0 exists only in guide metadata and a bump would front-run the owners' own ballot versioning) field=version -- Gate-A ①-queue row stays open for owner confirmation
+2026-08-31T17:33:53Z  INFO   2.1  read-identity  decision: canonical stays https://www.medizininformatik-initiative.de/fhir/modul-studie (guardrail 1; the 3-way split in the published package = 7 deliberate R5-backport canonicals + 4 source-authored example.org CS/VS, handled via special-url per D-7, never rewritten) field=canonical
+2026-08-31T17:33:53Z  INFO   2.1  read-identity  decision: license=CC-BY-4.0 from tier-R evidence (guide (c) TMF prose, all trees + live EN guide); template scaffold LICENSE text is already the official CC-BY-4.0 legal code and is KEPT; sushi-config license: CC-BY-4.0 set by this decision; owner confirmation = Gate-A ①-queue item D-1 field=license
+2026-08-31T17:33:53Z  INFO   2.1  read-identity  decision: title='MII Implementation Guide Medizinisches Forschungsvorhaben' (absent in every machine source; template pattern + try-run precedent; guide.yaml guide-titles recorded as tier-H evidence) field=title
+2026-08-31T17:37:50Z  INFO   5.1  qa-baseline  done: UNMIGRATED source built clean in ig-publisher-base; qa.txt err=41 warn=629 info=63 broken-links=0 (Build Errors 6/32/0; CapabilityStatement 3, example.org CS/VS 2+2 each); publisher 2.3.2, tx=tx.fhir.org default; output at ../source-baseline/output/ — THE acceptance baseline: migrated QA must be no worse
+2026-08-31T17:37:50Z  INFO   5.2  plan-deviation  DE-first CI handling REVISED vs pre-execution plan: Dokument precedent measured — convention-check.yml triggers only dev/main/release/** (never a migration/* branch or its PR), its scripts stay BYTE-IDENTICAL on the Dokument branch, checks emulated locally; language-model-check.sh ships a sanctioned ALLOW list for legitimate hits. THIS RUN: scripts stay byte-identical EXCEPT language-model-check.sh ALLOW entries for the DE-first config lines (documented exception route, PATTERNS untouched); convention-check + language-model-check run LOCALLY dev+release mode as Gate evidence
+2026-08-31T17:44:41Z  INFO   5.2  fsh-scaffold-collisions  module wins per-file: SKIPPED template rulesets license-terms.fsh meta-profile.fsh publisher.fsh translation.fsh version.fsh test-data-label.fsh (TestDataLabel+$v3-ActReason defined in module FSH); COPIED template-only: cps-rules.fsh crmi.fsh extension-context.fsh license.fsh parameters/manifest.fsh(commented-out FSH; live JSON at input/resources); aliases.fsh merged per-definition (module wins; template-only appended, $v2-0203+$identifier-type-de-basis skipped)
+2026-08-31T17:49:46Z  INFO   5.2  skeleton-vendored  ref=v0.13.2 commit=a2390dea3eacf8139b2231713510f38fa558dad5
+2026-08-31T17:49:46Z  INFO   5.2  template-reference  url=https://github.com/medizininformatik-initiative/ig-template-mii-kds release=v1.3.4
+2026-08-31T17:49:46Z  INFO   5.2  no-vendored-template  scaffold copied WITHOUT ig-template/ + sync-ig-template.yml + sync-ig-template.sh + resolve-ig-template-source.sh (never copied, per spec §5.2 decision 2026-08-28); ig.ini keeps the repository-URL template line; ALSO not carried: release-please.yml notify-zulip.yml release-demo.yml release-please-config.json .release-please-manifest.json CHANGELOG.md (bootstrap REMOVE list) + M8 demo set (rendering-artifacts pages+menu entries, demo/, gen-rendering-demo.py, demo-en.md, demo-de.md, rendering-demo-codes.json) + template example artefacts (example-patient.fsh + instance, never copied)
+2026-08-31T17:49:46Z  INFO   5.4a  optional-page-decisions  M9 measured from Gate-0 preflight artifact counts: KEEP extensions(14) search-parameters(15) value-sets(2) code-systems(2) + metadata(kept, Dokument parity, generic IG metadata); REMOVE researcher-guidance(no researcher-specific source content; try-run precedent) operations(0 OperationDefinitions) — page files deleted both languages, menu entries removed both menus, '(optional)' labels stripped on kept pages; artifacts never deleted
+2026-08-31T17:49:46Z  INFO   5.2  license-align  start  cmd=`python3 /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/agent-skills/skills/mii-ig-migration/scripts/license-align.py --source ../../kerndatensatzmodul-studie --target .`  raw_log=migration-log/license-align.log
+2026-08-31T17:49:46Z  INFO   5.2  license-align  params  source=/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/kerndatensatzmodul-studie target=/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work
+2026-08-31T17:49:46Z  WARN   5.2  license-align  license-missing: the source carries no licence evidence at all -- target LICENSE (CC-BY-4.0) UNCHANGED, Gate-A decision required
+2026-08-31T17:49:46Z  INFO   5.2  license-align  result  NOT aligned: the source ships NO licence -- no file, no declaration. The template's CC-BY-4.0 stays in effect ONLY if Gate A decides so; licensing a module is a human act, never this script's  exit=1
+2026-08-31T17:49:46Z  WARN   5.2  license-align  anticipated-nonzero-exit: no machine-readable licence anywhere in the source: license-missing WARN = the named Gate-A item D-1  cmd=`python3 /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/agent-skills/skills/mii-ig-migration/scripts/license-align.py --source ../../kerndatensatzmodul-studie --target .`  exit=1 raw_log=migration-log/license-align.log raw_log_lines=3
+    This non-zero status is this step's ANTICIPATED, documented outcome, not a
+    failure to fix -- the acceptance criterion is met AS QUALIFIED (spec
+    §5.1b.4). Escalated, not ignored: every item behind it belongs in the
+    report's ① decision queue, named individually (spec §10.3, §10.6).
+2026-08-31T17:51:10Z  INFO   5.2  sushi-skeleton  start  cmd=`npx --yes fsh-sushi@3.20.0 .`  raw_log=migration-log/sushi-skeleton.log
+2026-08-31T17:51:20Z  INFO   5.2  sushi-skeleton  done  cmd=`npx --yes fsh-sushi@3.20.0 .`  exit=0 raw_log=migration-log/sushi-skeleton.log raw_log_lines=51
+2026-08-31T17:53:24Z  INFO   5.3  transfer-artefacts  in-place migration: module FSH untouched (structure-preserving by construction); comm -3 over sorted FSH path lists = source-only NONE, target-only = logged scaffold additions only: input/fsh/README.md, input/fsh/rulesets/README.md, rulesets/{cps-rules,crmi,extension-context,license}.fsh, parameters/manifest.fsh (commented-out FSH twin of the JSON manifest); IDs/URLs byte-unchanged; aliases.fsh = module content + appended template-only definitions (44)
