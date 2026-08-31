@@ -2,13 +2,13 @@
   filename: Index.page.md
 - name: Release Notes
   filename: Release-Notes.page.md
-- name: Beschreibung Modul Medizinisches Forschungsvorhaben
+- name: Description Module Medical Research Project
   filename: BeschreibungModul.page.md
-- name: Kontext im Gesamtprojekt / Bezüge zu anderen Modulen
+- name: Context in the Overall Project / References to Other Modules
   filename: KontextimGesamtprojektBezgezuanderenModulen.page.md
-- name: Referenzen
+- name: References
   filename: Referenzen.page.md
-- name: Anwendungsfälle / Informationsmodell
+- name: Use Cases / Information Model
   filename: AnwendungsflleInformationsmodell
-- name: Technische Implementierung
+- name: Technical Implementation
   filename: TechnischeImplementierung
