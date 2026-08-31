@@ -2,7 +2,7 @@
   "resourceType": "SearchParameter",
   "id": "EvidenceVariable-characteristic-description",
   "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description",
-  "version": "1.0.0-ballot",
+  "version": "2027.0.0-ballot.rc1",
   "name": "SP_MII_Studie_CharacteristicDescription",
   "status": "active",
   "description": "Suchparameter für EvidenceVariable.characteristic.description",

@@ -99,7 +99,7 @@ Instance: EvidenceVariable-characteristic-description
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_CharacteristicDescription"
 * status = #active
 * description = "Suchparameter für EvidenceVariable.characteristic.description"

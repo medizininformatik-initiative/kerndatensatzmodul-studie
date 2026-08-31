@@ -205,6 +205,7 @@ Extension: MII_EX_Studie_Backport_Label
 Id: mii-ex-studie-backport-label
 Title: "MII EX Studie Backport Label"
 Context: ResearchStudy
+* insert Version
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 0..1 and value 1..1 MS
@@ -216,7 +217,7 @@ Instance: ResearchStudy-armName
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-armName"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_ArmName"
 * status = #active
 * description = "Suchparameter für ResearchStudy.arm.name"
@@ -230,7 +231,7 @@ Instance: ResearchStudy-label
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Label"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:label"
@@ -244,7 +245,7 @@ Instance: ResearchStudy-akronym
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Akronym"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Akronym"
@@ -258,7 +259,7 @@ Instance: ResearchStudy-finanzierung
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Finanzierung"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Finanzierung"
@@ -272,7 +273,7 @@ Instance: ResearchStudy-studienregister
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Studienregister"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Studienregister"
@@ -286,7 +287,7 @@ Instance: ResearchStudy-rekrutierungsstand-datum
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-datum"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_RekrutierungsstandDatum"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum"
@@ -300,7 +301,7 @@ Instance: ResearchStudy-rekrutierungsstand-genauigkeit
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-genauigkeit"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_RekrutierungsstandGenauigkeit"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit"
@@ -314,7 +315,7 @@ Instance: ResearchStudy-rekrutierungsstand
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Rekrutierungsstand"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand"
@@ -328,7 +329,7 @@ Instance: ResearchStudy-rekrutierungsziel
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsziel"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Rekrutierungsziel"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel"
@@ -342,7 +343,7 @@ Instance: ResearchStudy-rekrutierungsstart
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstart"
-* version = "1.0.0-ballot"
+* insert Version
 * name = "SP_MII_Studie_Rekrutierungsstart"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart"
