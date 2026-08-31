@@ -8,7 +8,7 @@ Diese Seite listet die modul-spezifischen FHIR-Suchparameter des Moduls
 **Medizinisches Forschungsvorhaben** (Namenskonvention `MII_SP_<Modul>_<Name>`), sofern
 definiert. Modulübergreifende Suchparameter definiert das Meta-Modul.
 
-<!-- DERIVED:bridge source=FHIR-Profile/*.page.md gate=B -->
+<!-- DERIVED:bridge source=none gate=B -->
 > **Written during migration - review before release.** Die folgenden Abschnitte sind die *Suchparameter*-Abschnitte der acht Profilseiten des Simplifier-Leitfadens, je Ressourcentyp zusammengeführt; die Profil-Prosa steht jetzt auf den Artefakt-Seiten (intro-notes).
 {: .ig-highlight .ig-highlight-blue}
 

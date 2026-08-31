@@ -1,5 +1,5 @@
 page	lang	kind	source	gate	line	excerpt
 code-systems	default	bridge	none	B	21	**Written during migration - review before release.** Die Terminologie-Hinweise der Quelle stehen gesammelt auf der Seit
 code-systems	en	bridge	none	B	21	**Written during migration - review before release.** The source's terminology notes are collected on the [ValueSets](va
-search-parameters	default	bridge	FHIR-Profile/*.page.md	B	11	**Written during migration - review before release.** Die folgenden Abschnitte sind die *Suchparameter*-Abschnitte der a
-search-parameters	en	bridge	FHIR-Profile/*.page.md	B	11	**Written during migration - review before release.** The sections below are the *search parameter* sections of the eigh
+search-parameters	default	bridge	none	B	11	**Written during migration - review before release.** Die folgenden Abschnitte sind die *Suchparameter*-Abschnitte der a
+search-parameters	en	bridge	none	B	11	**Written during migration - review before release.** The sections below are the *search parameter* sections of the eigh

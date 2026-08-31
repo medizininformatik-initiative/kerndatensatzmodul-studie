@@ -6,11 +6,8 @@
 
 ### Introduction
 
-This specification describes the FHIR representation of the Core Dataset (CDS)
-module **Medizinisches Forschungsvorhaben** of the Medical Informatics Initiative (MII). It
-covers the module's use cases and the associated FHIR profiles, extensions and
-terminology resources in their normative form. The MII Core Dataset enables the
-standardized secondary use of routine clinical data for medical research.
+This specification describes the FHIR representation of the Core Data Set Module Medical Research Project of the Medical Informatics Initiative.
+In the following, the use case of the module as well as the associated FHIR profiles and terminology resources are described in their binding form.
 
 
 | Publication |               |

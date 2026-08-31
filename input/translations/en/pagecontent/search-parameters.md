@@ -8,7 +8,7 @@ This page lists the module-specific FHIR search parameters of the
 **Medizinisches Forschungsvorhaben** module (naming convention `MII_SP_<Module>_<Name>`), where
 defined. Cross-module search parameters are defined by the Meta module.
 
-<!-- DERIVED:bridge source=FHIR-Profile/*.page.md gate=B -->
+<!-- DERIVED:bridge source=none gate=B -->
 > **Written during migration - review before release.** The sections below are the *search parameter* sections of the eight profile pages of the Simplifier guide, merged per resource type; the profile prose now lives on the artifact pages (intro notes).
 {: .ig-highlight .ig-highlight-blue}
 
