@@ -14,6 +14,35 @@ Each version gets its own section with the release date and the changes grouped 
 * **Deprecated** — artifacts that still exist but should no longer be used.
 * **Removed** — artifacts that were withdrawn.
 
+#### Changes Ballot version v2027.0.0-ballot.rc1 (as of 31.08.2026)
+
+##### New Profiles and Functionality
+
+* **ResearchSubject added to the Logical Model**: New BackboneElement "ResearchSubject" (person participating in a study) added
+* **Translations added for profiles**:
+
+##### Bug Fixes
+
+* **Extension context restricted**: Context of the ResearchStudy extensions (study registry, eligibility, acronym, recruitment, funding, ethics approval, backport AssociatedParty/Label) explicitly restricted to ResearchStudy
+* **Logical Model corrected**: "id" element of the BusinessID renamed to "identifier", since the Logical Model namespace already assigns its own id to every element
+* **Validator errors resolved**: 
+* No-longer-needed dependency (hl7.fhir.uv.xver-r5.r4) removed from the ImplementationGuide
+* Home page added to the table of contents
+* pagecontent folder moved to the correct path
+ 
+* **Spelling errors fixed**: Typo in the title of the German Implementation Guide corrected, "DE" label added to the title
+* **Broken link fixed**: Reference to the IPS rules on must-support elements updated, warning icon added to the associated table
+
+##### Harmonization and Technical Improvements
+
+* **Aliases harmonized**: Terminology aliases unified and standardized (including $SCT, $LNC, $UCUM), usage in examples and profiles adjusted accordingly
+* **Rulesets standardized**: 
+* New "MetaProfile" RuleSet introduced for versioning of meta.profile entries
+* Translation RuleSet revised with clearer parameter names
+* Placeholder file for license terms (license-terms.fsh) added
+ 
+* **Language setting added**: Language tag "de-DE" added to sushi-config.yaml
+
 #### Changes final version v2026.0.1 (published 09.01.2026)
 
 ### New Profiles and Functionality

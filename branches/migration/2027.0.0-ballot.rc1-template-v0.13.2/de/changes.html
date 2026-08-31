@@ -297,7 +297,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#neue-profile-und-funktionalität" id="markdown-toc-neue-profile-und-funktionalität">Neue Profile und Funktionalität</a></li>
+  <li><a href="#neue-profile-und-funktionalität-1" id="markdown-toc-neue-profile-und-funktionalität-1">Neue Profile und Funktionalität</a></li>
   <li><a href="#implementation-guide-verbesserungen" id="markdown-toc-implementation-guide-verbesserungen">Implementation Guide Verbesserungen</a></li>
   <li><a href="#beispieldaten-erweiterungen" id="markdown-toc-beispieldaten-erweiterungen">Beispieldaten-Erweiterungen</a></li>
   <li><a href="#validierung-und-qualitätsverbesserungen" id="markdown-toc-validierung-und-qualitätsverbesserungen">Validierung und Qualitätsverbesserungen</a></li>
@@ -341,9 +341,58 @@ werden sollen.</li>
 <!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Release-Notes.page.md (verbatim transfer per
      migration-log/page-map.tsv;
      NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source) -->
+<h4 id="änderungen-ballot-version-v202700-ballotrc1-stand-31082026">Änderungen Ballot-Version v2027.0.0-ballot.rc1 (Stand 31.08.2026)</h4>
+
+<h5 id="neue-profile-und-funktionalität">Neue Profile und Funktionalität</h5>
+
+<ul>
+  <li><strong>ProbandIn im Logical Model ergänzt</strong>: Neues BackboneElement "ProbandIn" (Person, die an einer Studie teilnimmt) hinzugefügt
+    <ul>
+      <li>Felder: SubjektIdentifizierungscode, Rechtsgrundlage, BeginnTeilnahme, EndeTeilnahme, StatusDerTeilnahme, BezeichnungDerStudie</li>
+    </ul>
+  </li>
+  <li><strong>Übersetzungen (Translations) für Profile ergänzt</strong>:
+    <ul>
+      <li>ResearchSubject (Proband)-Profil: Titel, Beschreibung sowie Elemente (identifier, status, period, study, individual, consent) um deutsche und englische Übersetzungen erweitert</li>
+      <li>Studieneinschluss-Anfrage-Profil: Elemente (status, intent, category, code, reasonReference, supportingInfo) um deutsche und englische Übersetzungen erweitert</li>
+      <li>Englische Version des Implementation Guide</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="fehlerkorrekturen">Fehlerkorrekturen</h5>
+
+<ul>
+  <li><strong>Extension-Context eingeschränkt</strong>: Kontext der ResearchStudy-Extensions (Studienregister, Eligibility, Akronym, Rekrutierung, Finanzierung, Ethikvotum, Backport AssociatedParty/Label) explizit auf ResearchStudy beschränkt</li>
+  <li><strong>Logical Model korrigiert</strong>: Element "id" der BusinessID zu "identifier" umbenannt, da der Logical-Model-Namespace jedem Element bereits eine eigene id vergibt</li>
+  <li><strong>Validator-Fehler behoben</strong>:
+    <ul>
+      <li>Nicht mehr benötigte Abhängigkeit (hl7.fhir.uv.xver-r5.r4) aus dem ImplementationGuide entfernt</li>
+      <li>Home-Seite im Table of Contents ergänzt</li>
+      <li>pagecontent-Ordner an den korrekten Pfad verschoben</li>
+    </ul>
+  </li>
+  <li><strong>Rechtschreibfehler behoben</strong>: Tippfehler im Titel des deutschen Implementation Guide korrigiert, Kennzeichnung "DE" im Titel ergänzt</li>
+  <li><strong>Defekter Link korrigiert</strong>: Verweis auf die IPS-Regeln zu must-support-Elementen aktualisiert, Warnhinweis-Symbol in der zugehörigen Tabelle ergänzt</li>
+</ul>
+
+<h5 id="harmonisierung-und-technische-verbesserungen">Harmonisierung und technische Verbesserungen</h5>
+
+<ul>
+  <li><strong>Aliases harmonisiert</strong>: Terminologie-Aliases vereinheitlicht und standardisiert (u. a. $SCT, $LNC, $UCUM), Verwendung in Beispielen und Profilen entsprechend angepasst</li>
+  <li><strong>Rulesets standardisiert</strong>:
+    <ul>
+      <li>Neues RuleSet "MetaProfile" für die Versionierung von meta.profile-Angaben eingeführt</li>
+      <li>Translation-RuleSet mit klareren Parameternamen überarbeitet</li>
+      <li>Platzhalterdatei für Lizenzbedingungen (license-terms.fsh) angelegt</li>
+    </ul>
+  </li>
+  <li><strong>Spracheinstellung ergänzt</strong>: Sprachkennzeichnung "de-DE" in sushi-config.yaml hinzugefügt</li>
+</ul>
+
 <h4 id="änderungen-finale-version-v202601-veröffentlicht-09012026">Änderungen finale Version v2026.0.1 (veröffentlicht 09.01.2026)</h4>
 
-<h3 id="neue-profile-und-funktionalität">Neue Profile und Funktionalität</h3>
+<h3 id="neue-profile-und-funktionalität-1">Neue Profile und Funktionalität</h3>
 
 <ul>
   <li><strong>ResearchSubject Profil</strong>: Übernahme des Profils zur Erfassung von Studienteilnehmern (Probanden) aus dem Modul Person
@@ -476,7 +525,7 @@ werden sollen.</li>
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 21:32+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 22:12+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

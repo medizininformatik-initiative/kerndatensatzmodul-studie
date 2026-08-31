@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2024-09-12 | *Maschinenlesbarer Name*:MII CPS Metadata Studie |
+| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII CPS Metadata Studie |
 
  
 Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Studie der Medizininformatik Initiative zu implementieren. 
@@ -30,7 +30,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
   "title" : "MII CPS Metadata Studie",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-12",
+  "date" : "2026-08-31",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -50,7 +50,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
   "kind" : "requirements",
   "fhirVersion" : "4.0.1",
   "format" : ["xml", "json"],
-  "implementationGuide" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2026.0.1"],
+  "implementationGuide" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1"],
   "rest" : [{
     "mode" : "server",
     "resource" : [{

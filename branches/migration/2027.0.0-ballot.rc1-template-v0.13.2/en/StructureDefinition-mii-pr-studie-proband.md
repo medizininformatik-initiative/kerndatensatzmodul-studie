@@ -109,7 +109,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-pro
     }]
   },
   "status" : "active",
-  "date" : "2026-08-31T21:32:33+00:00",
+  "date" : "2026-08-31T22:12:11+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

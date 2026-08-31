@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-studie-log
   "name" : "MII_LM_Studie_LogicalModel",
   "title" : "MII LM Studie LogicalModel",
   "status" : "active",
-  "date" : "2026-08-31T21:32:33+00:00",
+  "date" : "2026-08-31T22:12:11+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -2212,6 +2212,84 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-studie-log
       "max" : "*",
       "type" : [{
         "code" : "string"
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn",
+      "short" : "Person, die an einer Studie teilnimmt (unter Umständen, während sie Patient:in in einer Gesundheitseinrichtung ist)",
+      "definition" : "Person, die an einer Studie teilnimmt (unter Umständen, während sie Patient:in in einer Gesundheitseinrichtung ist)",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "BackboneElement"
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn.SubjektIdentifizierungscode",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn.SubjektIdentifizierungscode",
+      "short" : "Eindeutiger Identifikator eines Patienten im Kontext eines Forschungsprojekts (klinische Studie, Use Case)",
+      "definition" : "Eindeutiger Identifikator eines Patienten im Kontext eines Forschungsprojekts (klinische Studie, Use Case)",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn.Rechtsgrundlage",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn.Rechtsgrundlage",
+      "short" : "Rechtsgrundlage (z.B. Einwilligung) aufgrund die PatientIn in die Studie eingeschlossen werden darf.",
+      "definition" : "Rechtsgrundlage (z.B. Einwilligung) aufgrund die PatientIn in die Studie eingeschlossen werden darf.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Consent"]
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn.BeginnTeilnahme",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn.BeginnTeilnahme",
+      "short" : "Beginn der Teilnahme der Person an der Studie.",
+      "definition" : "Beginn der Teilnahme der Person an der Studie.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn.EndeTeilnahme",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn.EndeTeilnahme",
+      "short" : "Ende der Teilnahme der Person an der Studie.",
+      "definition" : "Ende der Teilnahme der Person an der Studie.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn.StatusDerTeilnahme",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn.StatusDerTeilnahme",
+      "short" : "Stand der Teilnahme einer Person an der Studie, z.B. eingeschlossen, widerrufen, abgeschlossen etc.",
+      "definition" : "Stand der Teilnahme einer Person an der Studie, z.B. eingeschlossen, widerrufen, abgeschlossen etc.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "mii-lm-studie-logicalmodel.ProbandIn.BezeichnungDerStudie",
+      "path" : "mii-lm-studie-logicalmodel.ProbandIn.BezeichnungDerStudie",
+      "short" : "Identifikator der Studie",
+      "definition" : "Identifikator der Studie",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Identifier"
       }]
     }]
   }

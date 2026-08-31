@@ -324,7 +324,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#new-profiles-and-functionality" id="markdown-toc-new-profiles-and-functionality">New Profiles and Functionality</a></li>
+  <li><a href="#new-profiles-and-functionality-1" id="markdown-toc-new-profiles-and-functionality-1">New Profiles and Functionality</a></li>
   <li><a href="#implementation-guide-improvements" id="markdown-toc-implementation-guide-improvements">Implementation Guide Improvements</a></li>
   <li><a href="#example-data-extensions" id="markdown-toc-example-data-extensions">Example Data Extensions</a></li>
   <li><a href="#validation-and-quality-improvements" id="markdown-toc-validation-and-quality-improvements">Validation and Quality Improvements</a></li>
@@ -366,9 +366,57 @@ by category:</p>
      migration-log/page-map.tsv;
      NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source;
      owner-authored translation from the 2027-EN guide tree) -->
+<h4 id="changes-ballot-version-v202700-ballotrc1-as-of-31082026">Changes Ballot version v2027.0.0-ballot.rc1 (as of 31.08.2026)</h4>
+
+<h5 id="new-profiles-and-functionality">New Profiles and Functionality</h5>
+
+<ul>
+  <li>
+    <p><strong>ResearchSubject added to the Logical Model</strong>: New BackboneElement "ResearchSubject" (person participating in a study) added</p>
+  </li>
+  <li>
+    <p><strong>Translations added for profiles</strong>:</p>
+    <ul>
+      <li>ResearchSubject profile: German and English translations added for title, description, and elements (identifier, status, period, study, individual, consent)</li>
+      <li>Study Inclusion Request profile: German and English translations added for elements (status, intent, category, code, reasonReference, supportingInfo)</li>
+      <li>English version of the Implementation Guide</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="bug-fixes">Bug Fixes</h5>
+
+<ul>
+  <li><strong>Extension context restricted</strong>: Context of the ResearchStudy extensions (study registry, eligibility, acronym, recruitment, funding, ethics approval, backport AssociatedParty/Label) explicitly restricted to ResearchStudy</li>
+  <li><strong>Logical Model corrected</strong>: "id" element of the BusinessID renamed to "identifier", since the Logical Model namespace already assigns its own id to every element</li>
+  <li><strong>Validator errors resolved</strong>:
+    <ul>
+      <li>No-longer-needed dependency (hl7.fhir.uv.xver-r5.r4) removed from the ImplementationGuide</li>
+      <li>Home page added to the table of contents</li>
+      <li>pagecontent folder moved to the correct path</li>
+    </ul>
+  </li>
+  <li><strong>Spelling errors fixed</strong>: Typo in the title of the German Implementation Guide corrected, "DE" label added to the title</li>
+  <li><strong>Broken link fixed</strong>: Reference to the IPS rules on must-support elements updated, warning icon added to the associated table</li>
+</ul>
+
+<h5 id="harmonization-and-technical-improvements">Harmonization and Technical Improvements</h5>
+
+<ul>
+  <li><strong>Aliases harmonized</strong>: Terminology aliases unified and standardized (including $SCT, $LNC, $UCUM), usage in examples and profiles adjusted accordingly</li>
+  <li><strong>Rulesets standardized</strong>:
+    <ul>
+      <li>New "MetaProfile" RuleSet introduced for versioning of meta.profile entries</li>
+      <li>Translation RuleSet revised with clearer parameter names</li>
+      <li>Placeholder file for license terms (license-terms.fsh) added</li>
+    </ul>
+  </li>
+  <li><strong>Language setting added</strong>: Language tag "de-DE" added to sushi-config.yaml</li>
+</ul>
+
 <h4 id="changes-final-version-v202601-published-09012026">Changes final version v2026.0.1 (published 09.01.2026)</h4>
 
-<h3 id="new-profiles-and-functionality">New Profiles and Functionality</h3>
+<h3 id="new-profiles-and-functionality-1">New Profiles and Functionality</h3>
 
 <ul>
   <li><strong>ResearchSubject Profile</strong>: Adoption of the profile for capturing study participants (subjects) from the Person module
@@ -501,7 +549,7 @@ by category:</p>
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Mon, Aug 31, 2026 21:32+0000">2026-08-31</span>
+          Generated <span title="Mon, Aug 31, 2026 22:12+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

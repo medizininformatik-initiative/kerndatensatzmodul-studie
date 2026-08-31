@@ -1,11 +1,11 @@
 MII_IG_Medizinisches_Forschungsvorhaben : Validation Results
 =========================================
 
-err = 17, warn = 652, info = 1141
+err = 15, warn = 670, info = 1148
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.studie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
- Build Errors : 7 / 30 / 0
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 2 / 18 / 33
+ Build Errors : 5 / 30 / 0
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 19 / 33
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie : 0 / 2 / 59
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CodeSystem-associated-party-role-cs : 0 / 2 / 3
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CodeSystem-research-study-category-cs : 0 / 2 / 3
@@ -55,7 +55,7 @@ Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-quell-register : 0 / 2 / 9
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-rekrutierung : 0 / 0 / 34
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-studienregister : 0 / 0 / 11
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-lm-studie-logicalmodel : 0 / 528 / 226
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-lm-studie-logicalmodel : 0 / 545 / 233
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-beteiligte-person : 0 / 0 / 47
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-dokument : 0 / 0 / 69
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-ein-auschluss-kriterium : 0 / 18 / 85
@@ -102,8 +102,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/mii-exa-studie-register.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/mii-exa-studie-studieneinschluss-anfrage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Parameters/mii-param-studie-manifest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: de/Bundle-mii-studie-test-data-bundle-studie.html#/html/body/div/div/div/div/div/div/blockquote/div/table/tr/td/ul/li/a at Line 441, column 26: The link 'null' for "" cannot be resolved
-ERROR: en/Bundle-mii-studie-test-data-bundle-studie.html#/html/body/div/div/div/div/div/div/blockquote/div/table/tr/td/ul/li/a at Line 468, column 26: The link 'null' for "" cannot be resolved
 WARNING: 5: An HTML fragment from the set [expansion-params.xhtml, expansion-params.xhtml] is not included anywhere in the produced implementation guide
 == fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie.json ==
 INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.meta.security[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
@@ -127,8 +125,7 @@ WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*Re
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*ResearchStudy/mii-exa-studie-cohort*/.extension[4].value.ofType(Reference): Eintrag 1 stimmt mit dem Verweis EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium nach Typ und ID überein, aber seine vollständige URL https://www.medizininformatik-initiative.de/MII_PR_Studie_EinAuschlussKriterium/mii-exa-studie-ein-auschluss-kriterium stimmt nicht mit der vollständigen Ziel-URL https://www.medizininformatik-initiative.de/EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium nach den Regeln der Bundle-Auflösung überein
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[4].resource/*ResearchSubject/mii-exa-studie-proband*/.identifier[0].system: URL-Wert 'https://www.medizininformatik-initiative.de/fhir/sid/patienten' löst nicht auf
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[4].resource/*ResearchSubject/mii-exa-studie-proband*/.study: Eintrag 3 stimmt mit dem Verweis ResearchStudy/mii-exa-studie-cohort nach Typ und ID überein, aber seine vollständige URL https://www.medizininformatik-initiative.de/MII_PR_Studie_Cohort/mii-exa-studie-cohort stimmt nicht mit der vollständigen Ziel-URL https://www.medizininformatik-initiative.de/ResearchStudy/mii-exa-studie-cohort nach den Regeln der Bundle-Auflösung überein
-ERROR: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[6].resource/*Library/mii-exa-studie-register*/.text.div: Die URL ist nicht gültig, weil '(URL ist leer)': 
-ERROR: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[6].resource/*Library/mii-exa-studie-register*/.text.div: Hyperlink at 'div/div/div/table/tr/td/ul/li/a' for ' ' is empty
+WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[6].resource/*Library/mii-exa-studie-register*/.relatedArtifact[0].url: URL-Wert 'https://drks.de/' löst nicht auf
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[6].resource/*Library/mii-exa-studie-register*/: Regel lib-0 fehlgeschlagen
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[12].resource/*Patient/mii-exa-studie-patient*/.meta.profile[0]: Canonical URL 'http://fhir.de/ConsentManagement/StructureDefinition/Patient' kann nicht aufgelöst werden
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[12].resource/*Patient/mii-exa-studie-patient*/.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://fhir.de/CodeSystem/identifier-type-de-basis' could not be found, so the code cannot be validated
@@ -195,7 +192,7 @@ INFORMATION: CapabilityStatement.rest[0].resource[5].searchParam[5].definition: 
 INFORMATION: CapabilityStatement.rest[0].resource[5].searchParam[6].definition: Pinned the version of http://hl7.org/fhir/SearchParameter/ResearchSubject-individual to 4.0.1
 INFORMATION: CapabilityStatement.rest[0].resource[5].searchParam[7].definition: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-researchsubject-consent to 2026.0.0
 INFORMATION: CapabilityStatement/MII-CPS-Metadata-Studie: CapabilityStatement.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#DE for language(s) 'de'. The display is 'Germany' which is a valid display for the default language
-WARNING: CapabilityStatement/MII-CPS-Metadata-Studie: CapabilityStatement.implementationGuide[0]: Canonical URL 'https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2026.0.1' kann nicht aufgelöst werden
+WARNING: CapabilityStatement/MII-CPS-Metadata-Studie: CapabilityStatement.implementationGuide[0]: Canonical URL 'https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1' kann nicht aufgelöst werden
 WARNING: CapabilityStatement/MII-CPS-Metadata-Studie: CapabilityStatement: Regel cpb-0 fehlgeschlagen
 INFORMATION: Resource: The resource CapabilityStatement/MII-CPS-Metadata-Studie could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-associated-party-role-cs.json ==
@@ -873,6 +870,13 @@ INFORMATION: StructureDefinition.snapshot.element[325].constraint[0].source: Pin
 INFORMATION: StructureDefinition.snapshot.element[325].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[326].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[326].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[331].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[333].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[333].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[334].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[334].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[336].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Consent to 4.0.1
+INFORMATION: StructureDefinition.differential.element[198].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Consent to 4.0.1
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.text.div: Hyperlink '#mii-lm-studie-logicalmodel.Studiendesign.Studienarm' at 'div/div/table/tr/td/a' for 'Studienarm' resolves to multiple targets ($/text/div/div[0]/table/tr[92]/td[0]/a[1]/@name, $/snapshot/element/id, $/differential/element/id)
 INFORMATION: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#DE for language(s) 'de'. The display is 'Germany' which is a valid display for the default language
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[0]: Regel eld-20 fehlgeschlagen
@@ -1206,6 +1210,16 @@ WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.sna
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[328]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[329]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[330]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[331]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[332]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[333]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[334]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[335]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[336]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[337]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[338]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[339]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.snapshot.element[340]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[0]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[1]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[2]: Regel eld-20 fehlgeschlagen
@@ -1402,6 +1416,13 @@ WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.dif
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[193]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[194]: Regel eld-20 fehlgeschlagen
 WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[195]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[196]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[197]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[198]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[199]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[200]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[201]: Regel eld-20 fehlgeschlagen
+WARNING: StructureDefinition/mii-lm-studie-logicalmodel: StructureDefinition.differential.element[202]: Regel eld-20 fehlgeschlagen
 INFORMATION: Resource: The resource StructureDefinition/mii-lm-studie-logicalmodel could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-mii-pr-studie-beteiligte-person.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/PractitionerRole to 4.0.1

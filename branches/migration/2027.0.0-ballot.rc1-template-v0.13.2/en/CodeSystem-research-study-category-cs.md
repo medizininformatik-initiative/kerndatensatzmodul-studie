@@ -36,7 +36,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "Research Study Category Code System",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T21:32:33+00:00",
+  "date" : "2026-08-31T22:12:11+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

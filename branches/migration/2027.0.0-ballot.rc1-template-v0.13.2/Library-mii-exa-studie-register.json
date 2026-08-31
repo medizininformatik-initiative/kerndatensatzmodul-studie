@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-242c8c95-2e1e-45bb-acb8-2c334e8cad36.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-074a02aa-0e94-4811-8bfe-306263b113c3.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-751a9620-d1e8-4df3-9818-ee98fa2a584d.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-84e7d85f-8c45-4cd0-bd76-4a08fc1e13b8.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register",
   "identifier" : [{
@@ -22,7 +22,7 @@
       "code" : "asset-collection"
     }]
   },
-  "date" : "2026-08-31T21:32:33+00:00",
+  "date" : "2026-08-31T22:12:11+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

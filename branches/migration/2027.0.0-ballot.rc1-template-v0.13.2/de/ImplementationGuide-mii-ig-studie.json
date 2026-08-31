@@ -215,7 +215,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ballot"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -841,7 +841,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ballot"
+        "valueString" : "release"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

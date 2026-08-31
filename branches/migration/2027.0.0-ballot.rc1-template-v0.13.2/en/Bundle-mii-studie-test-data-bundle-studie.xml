@@ -491,132 +491,7 @@
         </meta>
         <language value="en"/>
         <text>
-          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a>
-<div>
-    <table class="grid dict">
-        
-        
-
-        
-        
-        <tr>
-            <th scope="row"><b>Id: </b></th>
-            <td style="padding-left: 4px;">mii-exa-studie-register</td>
-        </tr>
-        
-
-        
-        
-
-        
-
-        
-        <tr>
-            <th scope="row">
-                <b>
-                    
-                        
-                    
-                </b>
-            </th>
-            <td style="padding-left: 4px;">
-                
-                <p style="margin-bottom: 5px;">
-                    <span>DRKS</span>
-                </p>
-                
-            </td>
-        </tr>
-        
-
-        
-
-        
-
-        
-
-        
-        <tr>
-            <th scope="row"><b>Type: </b></th>
-            <td style="padding-left: 4px;">
-                
-                    
-                        
-                        <p style="margin-bottom: 5px;">
-                            <b>system: </b> <span><a href="http://terminology.hl7.org/7.3.0/CodeSystem-library-type.html">http://terminology.hl7.org/CodeSystem/library-type</a></span>
-                        </p>
-                        
-                        
-                        <p style="margin-bottom: 5px;">
-                            <b>code: </b> <span>asset-collection</span>
-                        </p>
-                        
-                        
-                    
-                
-                
-            </td>
-        </tr>
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-        <tr>
-            <th scope="row"><b>Related Artifacts: </b></th>
-            <td style="padding-left: 4px;">
-                
-                <p><b>Documentation</b></p>
-                <ul>
-                  
-                    <li><a href="null"> </a></li>
-                  
-                </ul>
-                
-                
-                
-                
-                
-                
-                
-            </td>
-        </tr>
-        
-
-        
-
-        
-
-        
-    </table>
-</div>
-</div>
+          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-0b3f75f1-7f31-4400-aab6-360f21a90b64.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
         </text>
         <identifier>
           <system value="https://example.com/fhir/sid/drks"/>
@@ -632,6 +507,7 @@
         </type>
         <relatedArtifact>
           <type value="documentation"/>
+          <url value="https://drks.de/"/>
           <document>
             <url value="https://drks.de/"/>
           </document>
