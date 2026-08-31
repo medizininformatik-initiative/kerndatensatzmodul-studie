@@ -1,0 +1,21 @@
+
+# Library.name
+#: Library.name
+msgid "DRKS - Deutsches Register Klinischer Studien"
+msgstr ""
+
+# Library.publisher
+#: Library.publisher
+msgid "NUM-DIZ"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "NUM-DIZ"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+

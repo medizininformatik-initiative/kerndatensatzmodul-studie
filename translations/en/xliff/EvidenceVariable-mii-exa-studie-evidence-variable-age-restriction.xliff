@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction" original="Resource EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Höchstalter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>kein Höchstalter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Mindestalter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>18 Jahre</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

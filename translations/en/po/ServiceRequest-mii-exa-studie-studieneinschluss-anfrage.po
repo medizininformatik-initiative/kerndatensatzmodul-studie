@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "Clinical trial (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Referral to clinical trial (procedure)"
+msgstr ""
+

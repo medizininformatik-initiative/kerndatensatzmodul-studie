@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="ResearchStudy-mii-exa-studie-cohort" original="Resource ResearchStudy-mii-exa-studie-cohort" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="ResearchStudy.title">
+             <notes>
+               <note id="n1">ResearchStudy.title</note>
+             </notes>
+        <source>LIFE-Adult-Study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Erwachsene der Stadt Leipzig</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Bevölkerung, Leipzig, Erwachsene</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="ResearchStudy.description">
+             <notes>
+               <note id="n1">ResearchStudy.description</note>
+             </notes>
+        <source>Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="ResearchStudy.arm.name">
+             <notes>
+               <note id="n1">ResearchStudy.arm.name</note>
+             </notes>
+        <source>LIFE-Adult-Kohorte</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

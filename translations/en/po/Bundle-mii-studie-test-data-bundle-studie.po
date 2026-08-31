@@ -1,0 +1,191 @@
+
+# Coding.display
+#: Coding.display
+msgid "test health data"
+msgstr ""
+
+# Attachment.title
+#: Attachment.title
+msgid "Beispiel Dokument"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Altersbeschränkung"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Altersbeschränkung"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Geschlecht"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Alle"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Weitere Einschlusskriterien"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "weitere neurologische Erkrankungen"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Current chronological age"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "year"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Alter mindestens 18 Jahre"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Mindestalter"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Öffentlicher Titel"
+msgstr ""
+
+# ResearchStudy.title
+#: ResearchStudy.title
+msgid "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Zufallszuteilung"
+msgstr ""
+
+# ResearchStudy.description
+#: ResearchStudy.description
+msgid "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet."
+msgstr ""
+
+# ResearchStudy.arm.name
+#: ResearchStudy.arm.name
+msgid "frontale anodale tDCS  (verum condition)"
+msgstr ""
+
+# ResearchStudy.arm.description
+#: ResearchStudy.arm.description
+msgid "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC"
+msgstr ""
+
+# ResearchStudy.arm.name
+#: ResearchStudy.arm.name
+msgid "frontale sham tDCS"
+msgstr ""
+
+# ResearchStudy.arm.description
+#: ResearchStudy.arm.description
+msgid "vier Stimulationen, jeweils 30 Minuten"
+msgstr ""
+
+# ResearchStudy.title
+#: ResearchStudy.title
+msgid "LIFE-Adult-Study"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Erwachsene der Stadt Leipzig"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Bevölkerung, Leipzig, Erwachsene"
+msgstr ""
+
+# ResearchStudy.description
+#: ResearchStudy.description
+msgid "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
+msgstr ""
+
+# ResearchStudy.arm.name
+#: ResearchStudy.arm.name
+msgid "LIFE-Adult-Kohorte"
+msgstr ""
+
+# Library.name
+#: Library.name
+msgid "DRKS - Deutsches Register Klinischer Studien"
+msgstr ""
+
+# Organization.name
+#: Organization.name
+msgid "Example Organization for Author"
+msgstr ""
+
+# Organization.name
+#: Organization.name
+msgid "Example Organization for Custodian"
+msgstr ""
+
+# Organization.name
+#: Organization.name
+msgid "Example Organization for Practitioner"
+msgstr ""
+
+# HumanName.family
+#: HumanName.family
+msgid "Mustermann"
+msgstr ""
+
+# HumanName.given
+#: HumanName.given
+msgid "Max"
+msgstr ""
+
+# ResearchStudy.title
+#: ResearchStudy.title
+msgid "Example Reference Study"
+msgstr ""
+
+# HumanName.family
+#: HumanName.family
+msgid "Doe"
+msgstr ""
+
+# HumanName.given
+#: HumanName.given
+msgid "Jane"
+msgstr ""
+

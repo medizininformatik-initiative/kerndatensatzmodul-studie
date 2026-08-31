@@ -1,0 +1,37 @@
+{
+  "id" : "ResearchStudy-mii-exa-studie-cohort",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ResearchStudy.title",
+      "context" : "ResearchStudy.title",
+      "source" : "LIFE-Adult-Study",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Erwachsene der Stadt Leipzig",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Bevölkerung, Leipzig, Erwachsene",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.description",
+      "context" : "ResearchStudy.description",
+      "source" : "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.arm.name",
+      "context" : "ResearchStudy.arm.name",
+      "source" : "LIFE-Adult-Kohorte",
+      "target" : null
+    }]
+  }]
+}

@@ -1,0 +1,71 @@
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Altersbeschränkung"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Altersbeschränkung"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Geschlecht"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Alle"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Weitere Einschlusskriterien"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "weitere neurologische Erkrankungen"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Current chronological age"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "year"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Alter mindestens 18 Jahre"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "Mindestalter"
+msgstr ""
+

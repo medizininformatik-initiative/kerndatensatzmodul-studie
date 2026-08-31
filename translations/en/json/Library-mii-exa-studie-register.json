@@ -1,0 +1,31 @@
+{
+  "id" : "Library-mii-exa-studie-register",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Library.name",
+      "context" : "Library.name",
+      "source" : "DRKS - Deutsches Register Klinischer Studien",
+      "target" : null
+    },
+    {
+      "id" : "Library.publisher",
+      "context" : "Library.publisher",
+      "source" : "NUM-DIZ",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "NUM-DIZ",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Germany",
+      "target" : null
+    }]
+  }]
+}

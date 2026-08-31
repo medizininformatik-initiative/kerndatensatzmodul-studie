@@ -1,0 +1,6 @@
+
+# ResearchStudy.title
+#: ResearchStudy.title
+msgid "Example Reference Study"
+msgstr ""
+

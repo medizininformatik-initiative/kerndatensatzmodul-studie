@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="Bundle-mii-studie-test-data-bundle-studie" original="Resource Bundle-mii-studie-test-data-bundle-studie" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>test health data</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Attachment.title">
+             <notes>
+               <note id="n1">Attachment.title</note>
+             </notes>
+        <source>Beispiel Dokument</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Altersbeschränkung</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Altersbeschränkung</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Geschlecht</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Alle</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Kognitive Fatigue (WeiMUS kognitive Skala &gt;= 17)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Weitere Einschlusskriterien</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Einnahme von Antidepressiva, Opioiden, Antikonvulsiva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>weitere neurologische Erkrankungen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Current chronological age</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>year</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Alter mindestens 18 Jahre</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Mindestalter</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Öffentlicher Titel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.title">
+             <notes>
+               <note id="n1">ResearchStudy.title</note>
+             </notes>
+        <source>Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Zufallszuteilung</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.description">
+             <notes>
+               <note id="n1">ResearchStudy.description</note>
+             </notes>
+        <source>Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.arm.name">
+             <notes>
+               <note id="n1">ResearchStudy.arm.name</note>
+             </notes>
+        <source>frontale anodale tDCS  (verum condition)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.arm.description">
+             <notes>
+               <note id="n1">ResearchStudy.arm.description</note>
+             </notes>
+        <source>vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.arm.name">
+             <notes>
+               <note id="n1">ResearchStudy.arm.name</note>
+             </notes>
+        <source>frontale sham tDCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.arm.description">
+             <notes>
+               <note id="n1">ResearchStudy.arm.description</note>
+             </notes>
+        <source>vier Stimulationen, jeweils 30 Minuten</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.title">
+             <notes>
+               <note id="n1">ResearchStudy.title</note>
+             </notes>
+        <source>LIFE-Adult-Study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Erwachsene der Stadt Leipzig</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Bevölkerung, Leipzig, Erwachsene</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.description">
+             <notes>
+               <note id="n1">ResearchStudy.description</note>
+             </notes>
+        <source>Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.arm.name">
+             <notes>
+               <note id="n1">ResearchStudy.arm.name</note>
+             </notes>
+        <source>LIFE-Adult-Kohorte</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Library.name">
+             <notes>
+               <note id="n1">Library.name</note>
+             </notes>
+        <source>DRKS - Deutsches Register Klinischer Studien</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Organization.name">
+             <notes>
+               <note id="n1">Organization.name</note>
+             </notes>
+        <source>Example Organization for Author</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Organization.name">
+             <notes>
+               <note id="n1">Organization.name</note>
+             </notes>
+        <source>Example Organization for Custodian</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Organization.name">
+             <notes>
+               <note id="n1">Organization.name</note>
+             </notes>
+        <source>Example Organization for Practitioner</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="HumanName.family">
+             <notes>
+               <note id="n1">HumanName.family</note>
+             </notes>
+        <source>Mustermann</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="HumanName.given">
+             <notes>
+               <note id="n1">HumanName.given</note>
+             </notes>
+        <source>Max</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="ResearchStudy.title">
+             <notes>
+               <note id="n1">ResearchStudy.title</note>
+             </notes>
+        <source>Example Reference Study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="HumanName.family">
+             <notes>
+               <note id="n1">HumanName.family</note>
+             </notes>
+        <source>Doe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="HumanName.given">
+             <notes>
+               <note id="n1">HumanName.given</note>
+             </notes>
+        <source>Jane</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

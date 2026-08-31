@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="ServiceRequest-mii-exa-studie-studieneinschluss-anfrage" original="Resource ServiceRequest-mii-exa-studie-studieneinschluss-anfrage" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ServiceRequest-mii-exa-studie-studieneinschluss-anfrage" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Clinical trial (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ServiceRequest-mii-exa-studie-studieneinschluss-anfrage" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Referral to clinical trial (procedure)</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

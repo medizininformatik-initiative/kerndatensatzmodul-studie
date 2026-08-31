@@ -1,0 +1,13 @@
+{
+  "id" : "Organization-mii-exa-studie-practitioner-organization",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Organization.name",
+      "context" : "Organization.name",
+      "source" : "Example Organization for Practitioner",
+      "target" : null
+    }]
+  }]
+}

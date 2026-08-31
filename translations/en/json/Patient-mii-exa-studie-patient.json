@@ -1,0 +1,19 @@
+{
+  "id" : "Patient-mii-exa-studie-patient",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "Doe",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "Jane",
+      "target" : null
+    }]
+  }]
+}

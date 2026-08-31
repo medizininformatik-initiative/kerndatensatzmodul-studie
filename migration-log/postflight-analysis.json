@@ -1,0 +1,1724 @@
+{
+  "schemaVersion": "1.4",
+  "tool": "ig-stats.py",
+  "mode": "static",
+  "analyzed": {
+    "path": "/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work",
+    "label": "studie-migrated",
+    "project_root_nested": null,
+    "project_root_candidates": null,
+    "git_commit": "108710b",
+    "timestamp": "2026-08-31T18:16:43Z"
+  },
+  "identity": {
+    "id": "mii-ig-studie",
+    "canonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie",
+    "packageId": "de.medizininformatikinitiative.kerndatensatz.studie",
+    "name": "MII_IG_Medizinisches_Forschungsvorhaben",
+    "title": "MII Implementation Guide Medizinisches Forschungsvorhaben",
+    "version": "2026.0.1",
+    "calver": true,
+    "status": "active",
+    "fhirVersion": "4.0.1",
+    "license": "CC-BY-4.0",
+    "publisher": "NUM-DIZ"
+  },
+  "artifacts": {
+    "profiles": 7,
+    "extensions": 14,
+    "valuesets": 2,
+    "codesystems": 2,
+    "logicals": 1,
+    "capabilitystatements": 1,
+    "questionnaires": 0,
+    "searchparameters": 15,
+    "operations": 0,
+    "examples": 17,
+    "rulesets": 44,
+    "invariants": 0,
+    "mappings": 0,
+    "other": {},
+    "total": 59,
+    "other_total": 0,
+    "_source": "input/fsh (FSH-Deklarationen)",
+    "generated_crosscheck": {
+      "source": "fsh-generated/resources",
+      "counts": {
+        "profiles": 7,
+        "extensions": 14,
+        "valuesets": 2,
+        "codesystems": 2,
+        "logicals": 1,
+        "capabilitystatements": 1,
+        "questionnaires": 0,
+        "searchparameters": 15,
+        "operations": 0,
+        "examples": 14
+      },
+      "other": {
+        "EvidenceVariable": 2,
+        "Library": 1
+      },
+      "mismatches": {
+        "examples": {
+          "declared": 17,
+          "generated": 14
+        },
+        "other:EvidenceVariable": {
+          "declared": 0,
+          "generated": 2
+        },
+        "other:Library": {
+          "declared": 0,
+          "generated": 1
+        }
+      }
+    }
+  },
+  "artifacts_detail": [
+    {
+      "type": "Instance",
+      "name": "MII-CPS-Metadata-Studie",
+      "instanceOf": "CapabilityStatement",
+      "category": "capabilitystatements",
+      "path": "input/fsh/CapabilityStatement.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "AddBundleEntry",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/ExamplesBundle.fsh",
+      "line": 3
+    },
+    {
+      "type": "RuleSet",
+      "name": "TestDataLabel",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/ExamplesBundle.fsh",
+      "line": 9
+    },
+    {
+      "type": "Instance",
+      "name": "mii-studie-test-data-bundle-studie",
+      "instanceOf": "Bundle",
+      "category": "examples",
+      "path": "input/fsh/ExamplesBundle.fsh",
+      "line": 17
+    },
+    {
+      "type": "Logical",
+      "name": "MII_LM_Studie_LogicalModel",
+      "instanceOf": null,
+      "category": "logicals",
+      "path": "input/fsh/LogicalModel.fsh",
+      "line": 1
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-dokument",
+      "instanceOf": "MII_PR_Studie_Dokument",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 2
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-ein-auschluss-kriterium",
+      "instanceOf": "MII_PR_Studie_EinAuschlussKriterium",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 15
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-register",
+      "instanceOf": "MII_PR_Studie_Register",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 73
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-beteiligte-person",
+      "instanceOf": "MII_PR_Studie_Beteiligte_Person",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 85
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-cohort",
+      "instanceOf": "MII_PR_Studie_Studie",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 95
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-proband",
+      "instanceOf": "MII_PR_Studie_Proband",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 125
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-studieneinschluss-anfrage",
+      "instanceOf": "MII_PR_Studie_Studieneinschluss_Anfrage",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 142
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-author",
+      "instanceOf": "Organization",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 160
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-custodian",
+      "instanceOf": "Organization",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 167
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-practitioner-organization",
+      "instanceOf": "Organization",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 174
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-practitioner",
+      "instanceOf": "Practitioner",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 181
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-reference-study",
+      "instanceOf": "ResearchStudy",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 189
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-patient",
+      "instanceOf": "Patient",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 197
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-consent",
+      "instanceOf": "Consent",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 214
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-evidence-variable-age-restriction",
+      "instanceOf": "EvidenceVariable",
+      "category": "examples",
+      "path": "input/fsh/examples.fsh",
+      "line": 225
+    },
+    {
+      "type": "CodeSystem",
+      "name": "ResearchStudyCategoryCS",
+      "instanceOf": null,
+      "category": "codesystems",
+      "path": "input/fsh/examples.fsh",
+      "line": 242
+    },
+    {
+      "type": "ValueSet",
+      "name": "ResearchStudyCategoryVS",
+      "instanceOf": null,
+      "category": "valuesets",
+      "path": "input/fsh/examples.fsh",
+      "line": 260
+    },
+    {
+      "type": "CodeSystem",
+      "name": "AssociatedPartyRoleCS",
+      "instanceOf": null,
+      "category": "codesystems",
+      "path": "input/fsh/examples.fsh",
+      "line": 270
+    },
+    {
+      "type": "ValueSet",
+      "name": "AssociatedPartyRoleVS",
+      "instanceOf": null,
+      "category": "valuesets",
+      "path": "input/fsh/examples.fsh",
+      "line": 294
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Dokument",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/DocumentReference.fsh",
+      "line": 1
+    },
+    {
+      "type": "Instance",
+      "name": "DocumentReference-title",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/DocumentReference.fsh",
+      "line": 54
+    },
+    {
+      "type": "Instance",
+      "name": "DocumentReference-size",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/DocumentReference.fsh",
+      "line": 68
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_EinAuschlussKriterium",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 1
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_linkId",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 41
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_definitionReference",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 50
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_definitionCanonical",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 59
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_Definition_By_Type_And_Value",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 68
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_Definition_By_Combination",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 85
+    },
+    {
+      "type": "Instance",
+      "name": "EvidenceVariable-characteristic-description",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/EvidenceVariable.fsh",
+      "line": 98
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Register",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 1
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Quell_Register",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 47
+    },
+    {
+      "type": "Instance",
+      "name": "Library-quellregister",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 56
+    },
+    {
+      "type": "Instance",
+      "name": "Library-relatedArtifactUrl",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/Library.fsh",
+      "line": 70
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Beteiligte_Person",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/PractitionerRole.fsh",
+      "line": 1
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Studie",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 1
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Studienregister",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 131
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Eligibility",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 139
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Akronym",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 147
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Rekrutierung",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 155
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Finanzierung",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 168
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Ethikvotum",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 176
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_AssociatedParty",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 187
+    },
+    {
+      "type": "Extension",
+      "name": "MII_EX_Studie_Backport_Label",
+      "instanceOf": null,
+      "category": "extensions",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 204
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-armName",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 215
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-label",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 229
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-akronym",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 243
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-finanzierung",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 257
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-studienregister",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 271
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstand-datum",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 285
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstand-genauigkeit",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 299
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstand",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 313
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsziel",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 327
+    },
+    {
+      "type": "Instance",
+      "name": "ResearchStudy-rekrutierungsstart",
+      "instanceOf": "SearchParameter",
+      "category": "searchparameters",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 341
+    },
+    {
+      "type": "Instance",
+      "name": "mii-exa-studie-studie",
+      "instanceOf": "MII_PR_Studie_Studie",
+      "category": "examples",
+      "path": "input/fsh/profiles/ResearchStudy.fsh",
+      "line": 355
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Proband",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/ResearchSubject.fsh",
+      "line": 1
+    },
+    {
+      "type": "Profile",
+      "name": "MII_PR_Studie_Studieneinschluss_Anfrage",
+      "instanceOf": null,
+      "category": "profiles",
+      "path": "input/fsh/profiles/StudyInclusion.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "SupportResource",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/cps-rules.fsh",
+      "line": 21
+    },
+    {
+      "type": "RuleSet",
+      "name": "Profile",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/cps-rules.fsh",
+      "line": 39
+    },
+    {
+      "type": "RuleSet",
+      "name": "SupportProfile",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/cps-rules.fsh",
+      "line": 44
+    },
+    {
+      "type": "RuleSet",
+      "name": "SupportInteraction",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/cps-rules.fsh",
+      "line": 50
+    },
+    {
+      "type": "RuleSet",
+      "name": "SupportSearchParam",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/cps-rules.fsh",
+      "line": 56
+    },
+    {
+      "type": "RuleSet",
+      "name": "SupportSpecialSearchParam",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/cps-rules.fsh",
+      "line": 64
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIVersionPolicyStrict",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 25
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIVersionPolicyStrictInstance",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 29
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMICopyrightLabel",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 39
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMICopyrightLabelInstance",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 43
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIApprovalDate",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 50
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIApprovalDateInstance",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 54
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactTopic",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 64
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactTopicInstance",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 68
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactContributors",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 78
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactContributorsInstance",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 101
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIShareableStructureDefinition",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 126
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIPublishableStructureDefinition",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 129
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIKnowledgeCapabilitiesStructureDefinition",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 132
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactUsageLogicalModel",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 138
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactUsageProfile",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 142
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactUsageExtension",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 146
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIShareableCapabilityStatement",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 152
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIPublishableCapabilityStatement",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 155
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIKnowledgeCapabilitiesCapabilityStatement",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 158
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIArtifactUsageCapabilityStatement",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 164
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIShareableCodeSystem",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 170
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIPublishableCodeSystem",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 173
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIKnowledgeCapabilitiesCodeSystem",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 176
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIKnowledgeCapabilitiesCodeSystemPublishable",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 182
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIShareableValueSet",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 188
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIPublishableValueSet",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 191
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIComputableValueSet",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 194
+    },
+    {
+      "type": "RuleSet",
+      "name": "CRMIKnowledgeCapabilitiesValueSet",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/crmi.fsh",
+      "line": 197
+    },
+    {
+      "type": "RuleSet",
+      "name": "ExtensionContext",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/extension-context.fsh",
+      "line": 10
+    },
+    {
+      "type": "RuleSet",
+      "name": "SnomedLicense",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/license.fsh",
+      "line": 12
+    },
+    {
+      "type": "RuleSet",
+      "name": "MetaProfile",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/meta-profile.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "Publisher",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/publisher.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "SP_Publisher",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/publisher.fsh",
+      "line": 6
+    },
+    {
+      "type": "RuleSet",
+      "name": "Translation",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/translation.fsh",
+      "line": 1
+    },
+    {
+      "type": "RuleSet",
+      "name": "Version",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/version.fsh",
+      "line": 2
+    },
+    {
+      "type": "RuleSet",
+      "name": "PR_CS_VS_Version",
+      "instanceOf": null,
+      "category": "rulesets",
+      "path": "input/fsh/rulesets/version.fsh",
+      "line": 5
+    }
+  ],
+  "preflight": {
+    "licence": {
+      "evidence": [
+        {
+          "source": "sushi-config.yaml/package.json",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "source": "LICENSE",
+          "value": "Attribution 4.0 International"
+        },
+        {
+          "source": "input/pagecontent/metadata.md",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "source": "input/pagecontent/index.md",
+          "value": "Creative Commons"
+        },
+        {
+          "source": "ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/Index.page.md",
+          "value": "Creative Commons"
+        },
+        {
+          "source": "ImplementationGuide-2026.x.x/MIIIGModulStudie/Index.page.md",
+          "value": "Creative Commons"
+        },
+        {
+          "source": "ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Index.page.md",
+          "value": "Creative Commons"
+        }
+      ],
+      "declared_anywhere": true,
+      "contradictory": true,
+      "distinct_values": [
+        "attribution4.0international",
+        "cc-by-4.0",
+        "creativecommons"
+      ]
+    },
+    "canonical_space": {
+      "canonical": "https://www.medizininformatik-initiative.de/fhir/modul-studie",
+      "package_json_canonical": null,
+      "config_contradiction": false,
+      "out_of_space_count": 11,
+      "out_of_space": [
+        {
+          "type": "CodeSystem",
+          "id": "associated-party-role-cs",
+          "url": "http://example.org/fhir/CodeSystem/associated-party-role"
+        },
+        {
+          "type": "CodeSystem",
+          "id": "research-study-category-cs",
+          "url": "http://example.org/fhir/CodeSystem/research-study-category"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-associatedParty",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definition-by-combination",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definition-by-type-and-value",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definitionCanonical",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-definitionReference",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-label",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+        },
+        {
+          "type": "StructureDefinition",
+          "id": "mii-ex-studie-backport-linkId",
+          "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
+        },
+        {
+          "type": "ValueSet",
+          "id": "associated-party-role-vs",
+          "url": "http://example.org/fhir/ValueSet/associated-party-role"
+        },
+        {
+          "type": "ValueSet",
+          "id": "research-study-category-vs",
+          "url": "http://example.org/fhir/ValueSet/research-study-category"
+        }
+      ],
+      "id_url_mismatch": [
+        {
+          "type": "CapabilityStatement",
+          "id": "MII-CPS-Metadata-Studie",
+          "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata"
+        }
+      ],
+      "special_url_prediction": 12,
+      "example_org": [
+        {
+          "type": "CodeSystem",
+          "id": "associated-party-role-cs",
+          "url": "http://example.org/fhir/CodeSystem/associated-party-role"
+        },
+        {
+          "type": "CodeSystem",
+          "id": "research-study-category-cs",
+          "url": "http://example.org/fhir/CodeSystem/research-study-category"
+        },
+        {
+          "type": "ValueSet",
+          "id": "associated-party-role-vs",
+          "url": "http://example.org/fhir/ValueSet/associated-party-role"
+        },
+        {
+          "type": "ValueSet",
+          "id": "research-study-category-vs",
+          "url": "http://example.org/fhir/ValueSet/research-study-category"
+        }
+      ]
+    },
+    "dependency_health": {
+      "old_style_packages": [],
+      "tho_pinned_directly": true,
+      "extensions_pinned_directly": true,
+      "injection_risk": false,
+      "external_parents": [],
+      "dependency_block_present": true,
+      "dependency_block_unparsed": false
+    },
+    "package_layout": null,
+    "narrative_sources": {
+      "pagecontent": true,
+      "intro_notes": true,
+      "implementation_guides_tree": false,
+      "dual_source": false,
+      "pagecontent_last_commit": "2026-08-31T20:12:15+02:00",
+      "implementation_guides_last_commit": null
+    },
+    "qa_baseline": null,
+    "_comment": "migration Gate-0 aspects; None = not measurable from this tree (obtain it, never assume it)"
+  },
+  "dependencies": {
+    "count": 5,
+    "pinned": 5,
+    "floating": 0,
+    "items": {
+      "de.medizininformatikinitiative.kerndatensatz.meta": "2026.0.0",
+      "hl7.fhir.uv.xver-r5.r4": "0.1.0",
+      "hl7.fhir.uv.crmi": "2.0.0",
+      "hl7.terminology.r4": "7.3.0",
+      "hl7.fhir.uv.extensions.r4": "5.3.0"
+    },
+    "floating_items": [],
+    "block_present": true,
+    "_source": "sushi-config.yaml: dependencies"
+  },
+  "narrative": {
+    "format": "target",
+    "pages": 19,
+    "pages_all": 19,
+    "translation_pages": 19,
+    "translation_words": 9766,
+    "intro_note_pages": 7,
+    "intro_note_words": 1449,
+    "words": 8422,
+    "words_all_incl_stubs": 19637,
+    "images": 2,
+    "mandatory_present": [
+      "index",
+      "guidance",
+      "implementer-guidance",
+      "uml-diagrams",
+      "profiles",
+      "capability-statements",
+      "logical-models",
+      "examples",
+      "security-and-privacy",
+      "changes",
+      "version-history",
+      "downloads",
+      "translationinfo"
+    ],
+    "mandatory_missing_in_target": [],
+    "files": [
+      {
+        "path": "input/pagecontent/ImplementationGuide-mii-ig-studie.md",
+        "words": 344,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/capability-statements.md",
+        "words": 131,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/changes.md",
+        "words": 482,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/code-systems.md",
+        "words": 106,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/downloads.md",
+        "words": 298,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/examples.md",
+        "words": 36,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/extensions.md",
+        "words": 52,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/guidance.md",
+        "words": 246,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/implementer-guidance.md",
+        "words": 297,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/index.md",
+        "words": 1097,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/logical-models.md",
+        "words": 151,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/metadata.md",
+        "words": 2044,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/profiles.md",
+        "words": 368,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/search-parameters.md",
+        "words": 1720,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/security-and-privacy.md",
+        "words": 294,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/translationinfo.md",
+        "words": 48,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/uml-diagrams.md",
+        "words": 50,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/value-sets.md",
+        "words": 152,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/pagecontent/version-history.md",
+        "words": 506,
+        "kind": "target",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-beteiligte-person-intro.md",
+        "words": 216,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-dokument-intro.md",
+        "words": 246,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-ein-auschluss-kriterium-intro.md",
+        "words": 176,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-proband-intro.md",
+        "words": 214,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-register-intro.md",
+        "words": 166,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-studie-intro.md",
+        "words": 381,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/intro-notes/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage-intro.md",
+        "words": 50,
+        "kind": "intro",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/ImplementationGuide-mii-ig-studie.md",
+        "words": 423,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/capability-statements.md",
+        "words": 163,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/changes.md",
+        "words": 555,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/code-systems.md",
+        "words": 126,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/downloads.md",
+        "words": 325,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/examples.md",
+        "words": 45,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/extensions.md",
+        "words": 62,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/guidance.md",
+        "words": 289,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/implementer-guidance.md",
+        "words": 352,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/index.md",
+        "words": 1250,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/logical-models.md",
+        "words": 187,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/metadata.md",
+        "words": 2326,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/profiles.md",
+        "words": 430,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/search-parameters.md",
+        "words": 2057,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/security-and-privacy.md",
+        "words": 293,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/translationinfo.md",
+        "words": 62,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/uml-diagrams.md",
+        "words": 72,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/value-sets.md",
+        "words": 196,
+        "kind": "translation",
+        "stub": false
+      },
+      {
+        "path": "input/translations/en/pagecontent/version-history.md",
+        "words": 553,
+        "kind": "translation",
+        "stub": false
+      }
+    ]
+  },
+  "linguistics": {
+    "content_pages": 19,
+    "words_total": 8422,
+    "words_avg": 443.3,
+    "words_median": 294,
+    "words_min": 36,
+    "words_max": 2044,
+    "longest_page": "input/pagecontent/metadata.md",
+    "shortest_page": "input/pagecontent/examples.md",
+    "per_page": [
+      {
+        "path": "input/pagecontent/metadata.md",
+        "words": 2044
+      },
+      {
+        "path": "input/pagecontent/search-parameters.md",
+        "words": 1720
+      },
+      {
+        "path": "input/pagecontent/index.md",
+        "words": 1097
+      },
+      {
+        "path": "input/pagecontent/version-history.md",
+        "words": 506
+      },
+      {
+        "path": "input/pagecontent/changes.md",
+        "words": 482
+      },
+      {
+        "path": "input/pagecontent/profiles.md",
+        "words": 368
+      },
+      {
+        "path": "input/pagecontent/ImplementationGuide-mii-ig-studie.md",
+        "words": 344
+      },
+      {
+        "path": "input/pagecontent/downloads.md",
+        "words": 298
+      },
+      {
+        "path": "input/pagecontent/implementer-guidance.md",
+        "words": 297
+      },
+      {
+        "path": "input/pagecontent/security-and-privacy.md",
+        "words": 294
+      },
+      {
+        "path": "input/pagecontent/guidance.md",
+        "words": 246
+      },
+      {
+        "path": "input/pagecontent/value-sets.md",
+        "words": 152
+      },
+      {
+        "path": "input/pagecontent/logical-models.md",
+        "words": 151
+      },
+      {
+        "path": "input/pagecontent/capability-statements.md",
+        "words": 131
+      },
+      {
+        "path": "input/pagecontent/code-systems.md",
+        "words": 106
+      },
+      {
+        "path": "input/pagecontent/extensions.md",
+        "words": 52
+      },
+      {
+        "path": "input/pagecontent/uml-diagrams.md",
+        "words": 50
+      },
+      {
+        "path": "input/pagecontent/translationinfo.md",
+        "words": 48
+      },
+      {
+        "path": "input/pagecontent/examples.md",
+        "words": 36
+      }
+    ]
+  },
+  "duplication": {
+    "duplicate_block_count": 2,
+    "duplicate_blocks": [
+      {
+        "snippet": "anwendungshinweise: weitere informationen zur suche nach \" id\" finden sich in der [fhir ba",
+        "locations": [
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md"
+        ]
+      },
+      {
+        "snippet": "anwendungshinweise: weitere informationen zur suche nach \" profile\" finden sich in der [fh",
+        "locations": [
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md",
+          "input/pagecontent/search-parameters.md"
+        ]
+      }
+    ],
+    "duplicate_file_groups": []
+  },
+  "hygiene": {
+    "images_total": 2,
+    "unreferenced_images": [],
+    "examples_total": 17,
+    "examples_not_in_narrative": [
+      "mii-studie-test-data-bundle-studie",
+      "mii-exa-studie-dokument",
+      "mii-exa-studie-ein-auschluss-kriterium",
+      "mii-exa-studie-register",
+      "mii-exa-studie-beteiligte-person",
+      "mii-exa-studie-cohort",
+      "mii-exa-studie-proband",
+      "mii-exa-studie-studieneinschluss-anfrage",
+      "mii-exa-studie-author",
+      "mii-exa-studie-custodian",
+      "mii-exa-studie-practitioner-organization",
+      "mii-exa-studie-practitioner",
+      "mii-exa-studie-reference-study",
+      "mii-exa-studie-patient",
+      "mii-exa-studie-consent",
+      "mii-exa-studie-evidence-variable-age-restriction",
+      "mii-exa-studie-studie"
+    ],
+    "note": "Heuristik: 'nicht referenziert' = Dateiname/Artefaktname kommt in keiner Erklärseite vor. Kein Beweis für Ungenutztheit (Referenz kann über Konfiguration/Build erfolgen)."
+  },
+  "i18n": {
+    "default_lang": null,
+    "default_lang_source": null,
+    "languages": [
+      "en",
+      "init",
+      "progress",
+      "context",
+      "html",
+      "tx"
+    ],
+    "translation_supplements": 0,
+    "supplement_files": [],
+    "translated_pages": 0,
+    "fsh_translation_ext": true,
+    "fsh_translation_files": [
+      "input/fsh/rulesets/translation.fsh",
+      "input/fsh/profiles/StudyInclusion.fsh",
+      "input/fsh/profiles/PractitionerRole.fsh",
+      "input/fsh/profiles/ResearchSubject.fsh",
+      "input/fsh/profiles/DocumentReference.fsh",
+      "input/fsh/profiles/ResearchStudy.fsh",
+      "input/fsh/profiles/Library.fsh",
+      "input/fsh/profiles/EvidenceVariable.fsh"
+    ]
+  },
+  "directives": {
+    "total": 0,
+    "by_label": {},
+    "unknown": 0,
+    "occurrences": [],
+    "unknown_occurrences": []
+  },
+  "quality": {
+    "qc_rules_defined": 12,
+    "qc_rules": [
+      {
+        "name": "parse-fhir-resources",
+        "action": "parse",
+        "status": "Checking if all FHIR resource files can be parsed",
+        "category": null
+      },
+      {
+        "name": "resource-validation",
+        "action": "validate",
+        "status": "Validating resources against the FHIR standard and their profiles",
+        "category": "Resource"
+      },
+      {
+        "name": "unique-canonicals",
+        "action": "unique",
+        "status": "Checking if all StructureDefinitions have a unique canonical",
+        "category": "StructureDefinition"
+      },
+      {
+        "name": "no-snapshot",
+        "action": null,
+        "status": "Checking that StructureDefinitions carry no pre-generated snapshot",
+        "category": "StructureDefinition"
+      },
+      {
+        "name": "valid-ids",
+        "action": null,
+        "status": "Checking for valid resource ids",
+        "category": null
+      },
+      {
+        "name": "valid-names",
+        "action": null,
+        "status": "Checking that StructureDefinition names contain no spaces",
+        "category": "StructureDefinition"
+      },
+      {
+        "name": "unique-names",
+        "action": null,
+        "status": null,
+        "category": "Conformance"
+      },
+      {
+        "name": "version-filled",
+        "action": null,
+        "status": "Checking that every conformance resource carries the release version",
+        "category": null
+      },
+      {
+        "name": "naming-convention-id",
+        "action": null,
+        "status": "Checking the id naming convention (mii-<prefix>-<module>-…)",
+        "category": null
+      },
+      {
+        "name": "naming-convention-name",
+        "action": null,
+        "status": "Checking the name naming convention (MII_<PREFIX>_<Module>_…)",
+        "category": null
+      },
+      {
+        "name": "naming-convention-title",
+        "action": null,
+        "status": "Checking the title naming convention (MII <PREFIX> <Module> …)",
+        "category": null
+      },
+      {
+        "name": "naming-convention-url",
+        "action": null,
+        "status": "Checking the canonical-URL naming convention",
+        "category": null
+      }
+    ],
+    "qc_source": "qc/custom.rules.yaml",
+    "qc_violations": null,
+    "suppressed_messages": 8,
+    "qa_errors": null,
+    "qa_warnings": null,
+    "qa_hints": null,
+    "broken_links": null,
+    "qa_categories": null
+  },
+  "maturity": {
+    "components": {
+      "Status": "active",
+      "Doku-Vollständigkeit": 100,
+      "Beispiel-Abdeckung": 100,
+      "Governance": 100
+    },
+    "example_coverage": {
+      "profiles_total": 7,
+      "covered": 7,
+      "uncovered": [],
+      "coverage_pct": 100
+    },
+    "governance": {
+      "ci_workflows": 9,
+      "publication_request": true,
+      "ig_ini": true,
+      "devcontainer": true,
+      "governance_score": 100
+    },
+    "doc_health_pct": 100
+  },
+  "portfolio": {
+    "vendor_lockin_score": 0,
+    "vendor_lockin_band": "gering",
+    "directives_per_page": 0.0,
+    "terminology_standard_systems": [
+      "SNOMED CT",
+      "LOINC",
+      "ICD-10",
+      "UCUM"
+    ],
+    "terminology_standard_refs": 47,
+    "local_codesystems": 2,
+    "terminology_standard_share_pct": 96,
+    "canonical_reuse_ratio_pct": 100,
+    "external_parents": 7,
+    "local_parents": 0,
+    "fhir_version_label": "R4",
+    "fhir_version_note": "aktuell verbreitet",
+    "dependency_stale_count": 0,
+    "dependency_stale": [],
+    "dependency_staleness_note": "Heuristik aus CalVer-Jahr; exakt nur via Package-Registry (extern).",
+    "release_cadence_per_year": 89.7,
+    "days_since_last_commit": 0,
+    "tags": 0
+  },
+  "risk": {
+    "terminology_license_flags": [
+      {
+        "system": "SNOMED CT",
+        "license": "lizenzpflichtig (Affiliate/Land)"
+      },
+      {
+        "system": "LOINC",
+        "license": "frei (Registrierung)"
+      },
+      {
+        "system": "ICD-10",
+        "license": "frei"
+      },
+      {
+        "system": "UCUM",
+        "license": "frei"
+      }
+    ],
+    "terminology_license_risk": true,
+    "suppressed_total": 8,
+    "suppressed_broad": 0,
+    "suppressed_warning_risk": "gering",
+    "privacy_page_words": 0,
+    "privacy_page_substantial": false,
+    "examples_contain_pii_like": true,
+    "bus_factor_top_author_pct": 39,
+    "bus_factor_authors": 10,
+    "bus_factor_risk": "gering",
+    "breaking_change_risk": null,
+    "breaking_change_note": "Erfordert Diff gegen die publizierte Vorversion (Build/extern) — statisch nicht erhoben."
+  },
+  "git": {
+    "commits": 528,
+    "authors": 10,
+    "top_author_share": 39,
+    "days_since_last": 0,
+    "commits_per_year": 89.7,
+    "tags": 0,
+    "first": "2020-10-12",
+    "last": "2026-08-31",
+    "history_complete": true
+  }
+}

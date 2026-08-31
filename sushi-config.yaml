@@ -212,6 +212,7 @@ parameters:
   # regenerated per docs/recipes/regenerate-special-url.md from the
   # Gate-0 preflight census, 11 URLs).
   special-url:
+    - https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata
     - http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty
     - http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label
     - http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination

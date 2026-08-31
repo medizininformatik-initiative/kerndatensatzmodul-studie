@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="Library-mii-exa-studie-register" original="Resource Library-mii-exa-studie-register" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Library-mii-exa-studie-register" resname="Library.name">
+             <notes>
+               <note id="n1">Library.name</note>
+             </notes>
+        <source>DRKS - Deutsches Register Klinischer Studien</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-mii-exa-studie-register" resname="Library.publisher">
+             <notes>
+               <note id="n1">Library.publisher</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-mii-exa-studie-register" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Library-mii-exa-studie-register" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

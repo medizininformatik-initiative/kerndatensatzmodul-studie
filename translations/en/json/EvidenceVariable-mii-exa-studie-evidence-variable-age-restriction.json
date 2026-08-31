@@ -1,0 +1,31 @@
+{
+  "id" : "EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Höchstalter",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "kein Höchstalter",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Mindestalter",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "18 Jahre",
+      "target" : null
+    }]
+  }]
+}

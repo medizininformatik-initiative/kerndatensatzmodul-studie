@@ -1,0 +1,91 @@
+{
+  "id" : "EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Altersbeschränkung",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Altersbeschränkung",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Geschlecht",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Alle",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Weitere Einschlusskriterien",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "weitere neurologische Erkrankungen",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Current chronological age",
+      "target" : null
+    },
+    {
+      "id" : "Quantity.unit",
+      "context" : "Quantity.unit",
+      "source" : "year",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Alter mindestens 18 Jahre",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Mindestalter",
+      "target" : null
+    }]
+  }]
+}
