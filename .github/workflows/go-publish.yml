@@ -715,16 +715,16 @@ jobs:
           # duplicate root package.json).
           tar -xOzf source/output/package.tgz package/package.json \
             > "${RUNNER_TEMP}/built-package.json"
-          # Registry languages: English first (the IG's default rendering
-          # language, i18n-default-lang: en), German second.
+          # Registry languages: German first (the IG's default rendering
+          # language, i18n-default-lang: de, DE-first), English second.
           node automation/scripts/fix-ig-registry-entry.mjs \
             publication/ig-registry/fhir-ig-list.json \
             source/publication-request.json \
             "${RUNNER_TEMP}/built-package.json" \
             "${CANONICAL}" \
             "${PUBLICATION_BASE}/history.html" \
-            en \
-            de
+            de \
+            en
 
           {
             echo "### FHIR IG Registry handoff"

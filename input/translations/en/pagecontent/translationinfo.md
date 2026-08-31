@@ -1,5 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-### Translation information
 
 This guide is **German-language** (default language, "DE First" per the KDS
 governance §4.4 and the Release-2027 plan); **English** is the translation.

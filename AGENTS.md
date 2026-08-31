@@ -81,11 +81,12 @@ Author identity is the configured human committer.
   `scripts/convention-check.mjs` (placeholder-aware). Do not add a second
   metadata linter. `convention-check.yml` also runs `scripts/language-model-check.sh`
   — a separate concern (see below), not a second metadata linter.
-- **English is the IG's default language, German the translation**
-  (`i18n-default-lang: en`, sources under `input/translations/de/`) — the same
-  model as `kerndatensatz-basis`, so "deviates from basis" is never true. Prose
-  asserting the reverse fails `scripts/language-model-check.sh` in CI — fix the
-  prose, never the guard.
+- **German is the IG's default language, English the translation**
+  (`i18n-default-lang: de`, sources under `input/translations/en/`) — DE-first
+  per KDS-Governance §4.4 and the meta-wiki Release-2027 plan (inverted from
+  the template scaffold during the 2026-08-31 migration). Prose asserting the
+  reverse fails `scripts/language-model-check.sh` in CI — fix the prose, never
+  the guard.
 - Do not change canonical URLs of published artifacts.
 - Checker/analysis skills are report-only: they propose, humans decide; no
   auto-merge; any change is a PR targeting `dev`.

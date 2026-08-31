@@ -1,5 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-### Übersetzungsinformationen
 
 Dieser Leitfaden ist **deutschsprachig** (Standardsprache, „DE First" gemäß
 KDS-Governance §4.4 und Release-2027-Planung); **Englisch** ist die

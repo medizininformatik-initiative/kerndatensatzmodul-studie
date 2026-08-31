@@ -6,7 +6,7 @@
 #            floating pins — Section 1 of
 #            skills/wiki-consistency-check/references/check-matrix.md) via
 #            scripts/convention-check.mjs, and runs that checker's own unit tests.
-#            It also guards the IG's language model (English default, German
+#            It also guards the IG's language model (German default, English
 #            translation) via scripts/language-model-check.sh, and runs the
 #            offline test suites — the publication scripts everywhere, the
 #            template scaffold contract on the template repo only.
@@ -100,8 +100,8 @@ jobs:
       - name: Run the module-metadata contract check
         run: node scripts/convention-check.mjs ${{ steps.mode.outputs.strict }}
 
-      # Keeps prose, comments and tooling in step with i18n-default-lang: en.
+      # Keeps prose, comments and tooling in step with i18n-default-lang: de (DE-first).
       # Not placeholder- or branch-sensitive: the language model is the same on
       # every branch and in every module created from this template.
-      - name: Check the language model (English default, German translation)
+      - name: Check the language model (German default, English translation)
         run: bash scripts/language-model-check.sh

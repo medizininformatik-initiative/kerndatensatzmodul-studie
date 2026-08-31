@@ -14,13 +14,13 @@ git and are ignored by the build tools.
 | Directory | What belongs there | Consumed by |
 |---|---|---|
 | `fsh/` | FHIR Shorthand sources (profiles, extensions, value sets, …) — see `fsh/README.md` for the per-subdirectory convention | SUSHI |
-| `pagecontent/` | The IG's narrative pages as Markdown (`index.md`, `guidance.md`, …). Every page listed under `pages:` in `sushi-config.yaml` needs a file here. **English is the default content language**; the German mirror lives in `translations/de/pagecontent/` (same model as basis). | IG Publisher |
+| `pagecontent/` | The IG's narrative pages as Markdown (`index.md`, `guidance.md`, …). Every page listed under `pages:` in `sushi-config.yaml` needs a file here. **German is the default content language** (DE-first); the English mirror lives in `translations/en/pagecontent/`. | IG Publisher |
 | `images/` | Images referenced by pages and intro notes (logos, diagrams as PNG/JPG). Basis keeps language-specific logo variants here. | IG Publisher |
 | `images-source/` | Editable sources for generated images (e.g. PlantUML `.plantuml` files for the UML diagrams). Not published directly. | maintainers / diagram tooling |
 | `includes/` | Reusable HTML/Markdown fragments and `menu.xml` (basis idiom: the menu is maintained here, not via the `menu:` property in `sushi-config.yaml`, so the language switcher works). | IG Publisher |
 | `intro-notes/` | Per-artifact intro/notes Markdown files (`StructureDefinition-<id>-intro.md` / `...-notes.md`), wired via the `path-pages` parameter. | IG Publisher |
 | `resources/` | Hand-authored resource JSON that is not generated from FSH — this template keeps the expansion-parameters manifest (`Parameters-expansion-manifest.json`) here, referenced by `path-expansion-params` in `sushi-config.yaml`. | IG Publisher |
-| `translations/` | Translation supplements. This template is **English-default with German mirrors** under `translations/de/` — see `translations/README.md`. | IG Publisher (i18n) |
+| `translations/` | Translation supplements. This module is **German-default with English mirrors** under `translations/en/` (DE-first) — see `translations/README.md`. | IG Publisher (i18n) |
 | `ignoreWarnings.txt` | Reviewed-and-accepted QA messages, each with a justifying comment. | IG Publisher QA |
 
 Notes:
