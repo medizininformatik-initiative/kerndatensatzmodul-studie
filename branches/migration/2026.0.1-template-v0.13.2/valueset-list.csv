@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://example.org/fhir/ValueSet/associated-party-role,2026.0.1,active,,AssociatedPartyRoleVS,Associated Party Role,"Value set of roles that an associated party may have in relation to a research study.",,"Internal"
+http://example.org/fhir/ValueSet/research-study-category,2026.0.1,active,,ResearchStudyCategoryVS,Research Study Category,"Value set of high-level categories describing the type of a research study.",,"Internal"

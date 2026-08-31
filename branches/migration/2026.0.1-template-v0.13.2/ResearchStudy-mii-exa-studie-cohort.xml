@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResearchStudy xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-cohort"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ResearchStudy mii-exa-studie-cohort</b></p><a name="mii-exa-studie-cohort"> </a><a name="hcmii-exa-studie-cohort"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-studie-studie.html">MII PR Studie Studie</a></p></div><blockquote><p><b>MII EX Studie Backport Label</b></p><ul><li>value: MII Modul Studie</li></ul></blockquote><blockquote><p><b>MII EX Studie Backport AssociatedParty</b></p><ul><li>role: <span title="Codes:{http://example.org/fhir/CodeSystem/associated-party-role sponsor}">Sponsor</span></li><li>party: <a href="Organization-mii-exa-studie-author.html">Organization Example Organization for Author</a></li></ul></blockquote><blockquote><p><b>MII EX Studie Ethikvotum</b></p><ul><li>status: genehmigt</li><li>kommission: Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig</li><li>ethiknummer: 159-12-21052012</li></ul></blockquote><p><b>MII EX Studie Studienregister</b>: <a href="Library-mii-exa-studie-register.html">DRKS - Deutsches Register Klinischer Studien</a></p><p><b>MII EX Studie Eligibility</b>: <a href="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html">EvidenceVariable: status = active</a></p><p><b>MII EX Studie Akronym</b>: LIFE ADULT</p><blockquote><p><b>MII EX Studie Rekrutierung</b></p><ul><li>rekrutierungsstart: 2009-01-01</li><li>rekrutierungsziel: 10000</li><li>rekrutierungsstand: 10000</li><li>rekrutierungsstand-genauigkeit: good</li><li>rekrutierungsstand-datum: 2022-05-28</li></ul></blockquote><p><b>MII EX Studie Finanzierung</b>: Deutsches Bundesministerium für Bildung und Forschung (BMBF)</p><p><b>identifier</b>: <code>https://example.com/fhir/sid/lha</code>/7Q6PJD8NV3-2</p><p><b>title</b>: LIFE-Adult-Study</p><p><b>partOf</b>: <a href="ResearchStudy-mii-exa-studie-reference-study.html">ResearchStudy Example Reference Study</a></p><p><b>status</b>: Active</p><p><b>category</b>: <span title="Codes:{http://example.org/fhir/CodeSystem/research-study-category observational}">Observational study</span></p><p><b>focus</b>: <span title="Codes:">Erwachsene der Stadt Leipzig</span></p><p><b>keyword</b>: <span title="Codes:">Bevölkerung, Leipzig, Erwachsene</span></p><p><b>description</b>: </p><div><p>Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.</p>
+</div><h3>Arms</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td></tr><tr><td style="display: none">*</td><td>LIFE-Adult-Kohorte</td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ResearchStudy mii-exa-studie-cohort</b></p><a name="en-mii-exa-studie-cohort"> </a><a name="en-hcmii-exa-studie-cohort"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-studie-studie.html">MII PR Studie Studie</a></p></div><blockquote><p><b>MII EX Studie Backport Label</b></p><ul><li>value: MII Modul Studie</li></ul></blockquote><blockquote><p><b>MII EX Studie Backport AssociatedParty</b></p><ul><li>role: <span title="Codes:{http://example.org/fhir/CodeSystem/associated-party-role sponsor}">Sponsor</span></li><li>party: <a href="Organization-mii-exa-studie-author.html">Organization Example Organization for Author</a></li></ul></blockquote><blockquote><p><b>MII EX Studie Ethikvotum</b></p><ul><li>status: genehmigt</li><li>kommission: Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig</li><li>ethiknummer: 159-12-21052012</li></ul></blockquote><p><b>MII EX Studie Studienregister</b>: <a href="Library-mii-exa-studie-register.html">DRKS - Deutsches Register Klinischer Studien</a></p><p><b>MII EX Studie Eligibility</b>: <a href="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html">EvidenceVariable: status = active</a></p><p><b>MII EX Studie Akronym</b>: LIFE ADULT</p><blockquote><p><b>MII EX Studie Rekrutierung</b></p><ul><li>rekrutierungsstart: 2009-01-01</li><li>rekrutierungsziel: 10000</li><li>rekrutierungsstand: 10000</li><li>rekrutierungsstand-genauigkeit: good</li><li>rekrutierungsstand-datum: 2022-05-28</li></ul></blockquote><p><b>MII EX Studie Finanzierung</b>: Deutsches Bundesministerium für Bildung und Forschung (BMBF)</p><p><b>identifier</b>: <code>https://example.com/fhir/sid/lha</code>/7Q6PJD8NV3-2</p><p><b>title</b>: LIFE-Adult-Study</p><p><b>partOf</b>: <a href="ResearchStudy-mii-exa-studie-reference-study.html">ResearchStudy Example Reference Study</a></p><p><b>status</b>: Active</p><p><b>category</b>: <span title="Codes:{http://example.org/fhir/CodeSystem/research-study-category observational}">Observational study</span></p><p><b>focus</b>: <span title="Codes:">Erwachsene der Stadt Leipzig</span></p><p><b>keyword</b>: <span title="Codes:">Bevölkerung, Leipzig, Erwachsene</span></p><p><b>description</b>: </p><div><p>Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.</p>
+</div><h3>Arms</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td></tr><tr><td style="display: none">*</td><td>LIFE-Adult-Kohorte</td></tr></table></div></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label">
+    <extension url="value">
+      <valueString value="MII Modul Studie"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty">
+    <extension url="role">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+          <code value="sponsor"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="party">
+      <valueReference>
+        <reference value="Organization/mii-exa-studie-author"/>
+      </valueReference>
+    </extension>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum">
+    <extension url="status">
+      <valueString value="genehmigt"/>
+    </extension>
+    <extension url="kommission">
+      <valueString value="Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"/>
+    </extension>
+    <extension url="ethiknummer">
+      <valueString value="159-12-21052012"/>
+    </extension>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister">
+    <valueReference>
+      <reference value="Library/mii-exa-studie-register"/>
+    </valueReference>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility">
+    <valueReference>
+      <reference value="EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium"/>
+    </valueReference>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym">
+    <valueString value="LIFE ADULT"/>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung">
+    <extension url="rekrutierungsstart">
+      <valueDate value="2009-01-01"/>
+    </extension>
+    <extension url="rekrutierungsziel">
+      <valueInteger value="10000"/>
+    </extension>
+    <extension url="rekrutierungsstand">
+      <valueInteger value="10000"/>
+    </extension>
+    <extension url="rekrutierungsstand-genauigkeit">
+      <valueString value="good"/>
+    </extension>
+    <extension url="rekrutierungsstand-datum">
+      <valueDate value="2022-05-28"/>
+    </extension>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung">
+    <valueString value="Deutsches Bundesministerium für Bildung und Forschung (BMBF)"/>
+  </extension>
+  <identifier>
+    <system value="https://example.com/fhir/sid/lha"/>
+    <value value="7Q6PJD8NV3-2"/>
+  </identifier>
+  <title value="LIFE-Adult-Study"/>
+  <partOf>
+    <reference value="ResearchStudy/mii-exa-studie-reference-study"/>
+  </partOf>
+  <status value="active"/>
+  <category>
+    <coding>
+      <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+      <code value="observational"/>
+    </coding>
+  </category>
+  <focus>
+    <text value="Erwachsene der Stadt Leipzig"/>
+  </focus>
+  <keyword>
+    <text value="Bevölkerung, Leipzig, Erwachsene"/>
+  </keyword>
+  <description value="Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."/>
+  <arm>
+    <name value="LIFE-Adult-Kohorte"/>
+  </arm>
+</ResearchStudy>

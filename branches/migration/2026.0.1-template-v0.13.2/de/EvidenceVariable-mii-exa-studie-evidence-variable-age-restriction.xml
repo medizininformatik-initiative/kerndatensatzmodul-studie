@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EvidenceVariable xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-evidence-variable-age-restriction"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: EvidenceVariable mii-exa-studie-evidence-variable-age-restriction</b></p><a name="mii-exa-studie-evidence-variable-age-restriction"> </a><a name="hcmii-exa-studie-evidence-variable-age-restriction"> </a><p><b>status</b>: Active</p><blockquote><p><b>characteristic</b></p><p><b>description</b>: Höchstalter</p><p><b>definition</b>: <span title="Codes:">kein Höchstalter</span></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>description</b>: Mindestalter</p><p><b>definition</b>: <span title="Codes:">18 Jahre</span></p><p><b>exclude</b>: false</p></blockquote></div>
+  </text>
+  <status value="active"/>
+  <characteristic>
+    <description value="Höchstalter"/>
+    <definitionCodeableConcept>
+      <text value="kein Höchstalter"/>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+  <characteristic>
+    <description value="Mindestalter"/>
+    <definitionCodeableConcept>
+      <text value="18 Jahre"/>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+</EvidenceVariable>

@@ -1,0 +1,27 @@
+{
+  "resourceType" : "Consent",
+  "id" : "mii-exa-studie-consent",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Consent mii-exa-studie-consent</b></p><a name=\"mii-exa-studie-consent\"> </a><a name=\"hcmii-exa-studie-consent\"> </a><h2>Participants</h2><table class=\"grid\"><tr><td><b>Role</b></td><td><b>Details</b></td></tr><tr><td title=\"Who the consent applies to\">Patient</td><td><a href=\"Patient-mii-exa-studie-patient.html\">Jane Doe  Female, DoB: 1980-11-12 ( KVZ10\u00a0(use:\u00a0official,\u00a0))</a></td></tr></table><p>This consent is made under the policy <code>urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791</code> .</p><p>The subject has given their consent.</p></div>"
+  },
+  "status" : "active",
+  "scope" : {
+    "coding" : [{
+      "code" : "research"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "59284-0"
+    }]
+  }],
+  "patient" : {
+    "reference" : "Patient/mii-exa-studie-patient"
+  },
+  "policy" : [{
+    "uri" : "urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791"
+  }]
+}

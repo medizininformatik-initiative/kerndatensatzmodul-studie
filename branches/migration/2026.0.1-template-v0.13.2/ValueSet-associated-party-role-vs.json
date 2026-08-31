@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "associated-party-role-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet associated-party-role-vs</b></p><a name=\"associated-party-role-vs\"> </a><a name=\"hcassociated-party-role-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-associated-party-role-cs.html\"><code>http://example.org/fhir/CodeSystem/associated-party-role</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2026.0.1</span></li></ul></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet associated-party-role-vs</b></p><a name=\"en-associated-party-role-vs\"> </a><a name=\"en-hcassociated-party-role-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-associated-party-role-cs.html\"><code>http://example.org/fhir/CodeSystem/associated-party-role</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2026.0.1</span></li></ul></div></div>"
+  },
+  "url" : "http://example.org/fhir/ValueSet/associated-party-role",
+  "version" : "2026.0.1",
+  "name" : "AssociatedPartyRoleVS",
+  "title" : "Associated Party Role",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-08-31T19:54:32+00:00",
+  "publisher" : "NUM-DIZ",
+  "contact" : [{
+    "name" : "NUM-DIZ",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
+    }]
+  }],
+  "description" : "Value set of roles that an associated party may have in relation to a research study.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/fhir/CodeSystem/associated-party-role"
+    }]
+  }
+}

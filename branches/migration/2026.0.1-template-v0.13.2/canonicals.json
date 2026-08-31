@@ -1,0 +1,308 @@
+[{
+  "id" : "associated-party-role-cs",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
+  "version" : "2026.0.1",
+  "name" : "AssociatedPartyRoleCS"
+},
+{
+  "id" : "research-study-category-cs",
+  "type" : "CodeSystem",
+  "url" : "http://example.org/fhir/CodeSystem/research-study-category",
+  "version" : "2026.0.1",
+  "name" : "ResearchStudyCategoryCS"
+},
+{
+  "id" : "associated-party-role-vs",
+  "type" : "ValueSet",
+  "url" : "http://example.org/fhir/ValueSet/associated-party-role",
+  "version" : "2026.0.1",
+  "name" : "AssociatedPartyRoleVS"
+},
+{
+  "id" : "research-study-category-vs",
+  "type" : "ValueSet",
+  "url" : "http://example.org/fhir/ValueSet/research-study-category",
+  "version" : "2026.0.1",
+  "name" : "ResearchStudyCategoryVS"
+},
+{
+  "id" : "mii-ex-studie-backport-definition-by-combination",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_Definition_By_Combination"
+},
+{
+  "id" : "mii-ex-studie-backport-definition-by-type-and-value",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_Definition_By_Type_And_Value"
+},
+{
+  "id" : "mii-ex-studie-backport-definitionCanonical",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_definitionCanonical"
+},
+{
+  "id" : "mii-ex-studie-backport-definitionReference",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_definitionReference"
+},
+{
+  "id" : "mii-ex-studie-backport-linkId",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_linkId"
+},
+{
+  "id" : "mii-ex-studie-backport-associatedParty",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_AssociatedParty"
+},
+{
+  "id" : "mii-ex-studie-backport-label",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Backport_Label"
+},
+{
+  "id" : "MII-CPS-Metadata-Studie",
+  "type" : "CapabilityStatement",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata",
+  "version" : "2026.0.1",
+  "name" : "MII CPS Metadata Studie"
+},
+{
+  "id" : "mii-ig-studie",
+  "type" : "ImplementationGuide",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
+  "version" : "2026.0.1",
+  "name" : "MII_IG_Medizinisches_Forschungsvorhaben"
+},
+{
+  "id" : "mii-exa-studie-register",
+  "type" : "Library",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register",
+  "version" : "2026.0.1",
+  "name" : "DRKS - Deutsches Register Klinischer Studien"
+},
+{
+  "id" : "DocumentReference-size",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Size"
+},
+{
+  "id" : "DocumentReference-title",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-title",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Title"
+},
+{
+  "id" : "EvidenceVariable-characteristic-description",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_CharacteristicDescription"
+},
+{
+  "id" : "Library-quellregister",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-quellregister",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Quellregister"
+},
+{
+  "id" : "Library-relatedArtifactUrl",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-relatedArtifactUrl",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_RelatedArtifactUrl"
+},
+{
+  "id" : "ResearchStudy-akronym",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Akronym"
+},
+{
+  "id" : "ResearchStudy-armName",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-armName",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_ArmName"
+},
+{
+  "id" : "ResearchStudy-finanzierung",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Finanzierung"
+},
+{
+  "id" : "ResearchStudy-label",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Label"
+},
+{
+  "id" : "ResearchStudy-rekrutierungsstand",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Rekrutierungsstand"
+},
+{
+  "id" : "ResearchStudy-rekrutierungsstand-datum",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-datum",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_RekrutierungsstandDatum"
+},
+{
+  "id" : "ResearchStudy-rekrutierungsstand-genauigkeit",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-genauigkeit",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_RekrutierungsstandGenauigkeit"
+},
+{
+  "id" : "ResearchStudy-rekrutierungsstart",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstart",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Rekrutierungsstart"
+},
+{
+  "id" : "ResearchStudy-rekrutierungsziel",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsziel",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Rekrutierungsziel"
+},
+{
+  "id" : "ResearchStudy-studienregister",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister",
+  "version" : "2026.0.1",
+  "name" : "SP_MII_Studie_Studienregister"
+},
+{
+  "id" : "mii-ex-studie-akronym",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Akronym"
+},
+{
+  "id" : "mii-ex-studie-eligibility",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Eligibility"
+},
+{
+  "id" : "mii-ex-studie-ethikvotum",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Ethikvotum"
+},
+{
+  "id" : "mii-ex-studie-finanzierung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Finanzierung"
+},
+{
+  "id" : "mii-ex-studie-quell-register",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Quell_Register"
+},
+{
+  "id" : "mii-ex-studie-rekrutierung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Rekrutierung"
+},
+{
+  "id" : "mii-ex-studie-studienregister",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister",
+  "version" : "2026.0.1",
+  "name" : "MII_EX_Studie_Studienregister"
+},
+{
+  "id" : "mii-lm-studie-logicalmodel",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel",
+  "version" : "2026.0.1",
+  "name" : "MII_LM_Studie_LogicalModel"
+},
+{
+  "id" : "mii-pr-studie-beteiligte-person",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_Beteiligte_Person"
+},
+{
+  "id" : "mii-pr-studie-dokument",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_Dokument"
+},
+{
+  "id" : "mii-pr-studie-ein-auschluss-kriterium",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_EinAuschlussKriterium"
+},
+{
+  "id" : "mii-pr-studie-proband",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_Proband"
+},
+{
+  "id" : "mii-pr-studie-register",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_Register"
+},
+{
+  "id" : "mii-pr-studie-studie",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_Studie"
+},
+{
+  "id" : "mii-pr-studie-studieneinschluss-anfrage",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage",
+  "version" : "2026.0.1",
+  "name" : "MII_PR_Studie_Studieneinschluss_Anfrage"
+}]

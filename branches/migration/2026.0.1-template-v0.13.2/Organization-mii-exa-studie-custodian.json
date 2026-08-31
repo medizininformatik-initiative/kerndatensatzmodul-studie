@@ -1,0 +1,9 @@
+{
+  "resourceType" : "Organization",
+  "id" : "mii-exa-studie-custodian",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization mii-exa-studie-custodian</b></p><a name=\"mii-exa-studie-custodian\"> </a><a name=\"hcmii-exa-studie-custodian\"> </a><p><b>name</b>: Example Organization for Custodian</p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization mii-exa-studie-custodian</b></p><a name=\"en-mii-exa-studie-custodian\"> </a><a name=\"en-hcmii-exa-studie-custodian\"> </a><p><b>name</b>: Example Organization for Custodian</p></div></div>"
+  },
+  "name" : "Example Organization for Custodian"
+}

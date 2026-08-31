@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-author"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Organization mii-exa-studie-author</b></p><a name="en-mii-exa-studie-author"> </a><a name="en-hcmii-exa-studie-author"> </a><p><b>name</b>: Example Organization for Author</p></div>
+  </text>
+  <name value="Example Organization for Author"/>
+</Organization>
