@@ -54,7 +54,7 @@ jobs:
           prerelease: ${{ contains(steps.prep-version.outputs.version, '-') }}
           generate_release_notes: true
           body: |
-            ## MII IG Fall Release ${{ steps.prep-version.outputs.version }}
+            ## MII IG Fall Studie ${{ steps.prep-version.outputs.version }}
             
             <!-- DELETE START -->
             Download the FHIR package from Simplifier and manually attach it to this release.
