@@ -42,7 +42,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "Research Study Category",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T20:57:45+00:00",
+  "date" : "2026-08-31T21:27:29+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

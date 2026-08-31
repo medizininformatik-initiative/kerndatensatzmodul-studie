@@ -36,7 +36,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "Associated Party Role Code System",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T20:57:45+00:00",
+  "date" : "2026-08-31T21:27:29+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

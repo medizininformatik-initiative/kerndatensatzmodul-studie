@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-studie-log
   "name" : "MII_LM_Studie_LogicalModel",
   "title" : "MII LM Studie LogicalModel",
   "status" : "active",
-  "date" : "2026-08-31T20:57:45+00:00",
+  "date" : "2026-08-31T21:27:29+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -1090,7 +1090,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-studie-log
       "definition" : "Arm des Studienarms",
       "min" : 0,
       "max" : "*",
-      "contentReference" : "Studienarm"
+      "contentReference" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel#mii-lm-studie-logicalmodel.Studiendesign.Studienarm"
     },
     {
       "id" : "mii-lm-studie-logicalmodel.Studiendesign.Studienarm.Einschlusskriterien",
