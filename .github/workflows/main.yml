@@ -54,7 +54,7 @@ jobs:
           prerelease: ${{ contains(steps.prep-version.outputs.version, '-') }}
           generate_release_notes: true
           body: |
-            ## MII IG Fall Studie ${{ steps.prep-version.outputs.version }}
+            ## MII IG Studie ${{ steps.prep-version.outputs.version }}
             
             <!-- DELETE START -->
             Download the FHIR package from Simplifier and manually attach it to this release.
@@ -84,7 +84,7 @@ jobs:
           content: |
             **New Release:** `${{ github.event.release.tag_name }}`
             **Repository:** `${{ github.repository }}`
-            **Module:** Onkologie
+            **Module:** Medizinisches Forschungsvorhaben
 
             ${{ github.event.release.body }}
 
