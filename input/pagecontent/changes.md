@@ -30,6 +30,38 @@ Kategorien gruppierten Änderungen:
 <!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Release-Notes.page.md (verbatim transfer per
      migration-log/page-map.tsv;
      NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source) -->
+#### Änderungen Ballot-Version v2027.0.0-ballot.rc1 (Stand 31.08.2026)
+
+##### Neue Profile und Funktionalität
+
+- **ProbandIn im Logical Model ergänzt**: Neues BackboneElement "ProbandIn" (Person, die an einer Studie teilnimmt) hinzugefügt
+  - Felder: SubjektIdentifizierungscode, Rechtsgrundlage, BeginnTeilnahme, EndeTeilnahme, StatusDerTeilnahme, BezeichnungDerStudie
+
+- **Übersetzungen (Translations) für Profile ergänzt**:
+  - ResearchSubject (Proband)-Profil: Titel, Beschreibung sowie Elemente (identifier, status, period, study, individual, consent) um deutsche und englische Übersetzungen erweitert
+  - Studieneinschluss-Anfrage-Profil: Elemente (status, intent, category, code, reasonReference, supportingInfo) um deutsche und englische Übersetzungen erweitert
+  - Englische Version des Implementation Guide
+
+##### Fehlerkorrekturen
+
+- **Extension-Context eingeschränkt**: Kontext der ResearchStudy-Extensions (Studienregister, Eligibility, Akronym, Rekrutierung, Finanzierung, Ethikvotum, Backport AssociatedParty/Label) explizit auf ResearchStudy beschränkt
+- **Logical Model korrigiert**: Element "id" der BusinessID zu "identifier" umbenannt, da der Logical-Model-Namespace jedem Element bereits eine eigene id vergibt
+- **Validator-Fehler behoben**:
+  - Nicht mehr benötigte Abhängigkeit (hl7.fhir.uv.xver-r5.r4) aus dem ImplementationGuide entfernt
+  - Home-Seite im Table of Contents ergänzt
+  - pagecontent-Ordner an den korrekten Pfad verschoben
+- **Rechtschreibfehler behoben**: Tippfehler im Titel des deutschen Implementation Guide korrigiert, Kennzeichnung "DE" im Titel ergänzt
+- **Defekter Link korrigiert**: Verweis auf die IPS-Regeln zu must-support-Elementen aktualisiert, Warnhinweis-Symbol in der zugehörigen Tabelle ergänzt
+
+##### Harmonisierung und technische Verbesserungen
+
+- **Aliases harmonisiert**: Terminologie-Aliases vereinheitlicht und standardisiert (u. a. $SCT, $LNC, $UCUM), Verwendung in Beispielen und Profilen entsprechend angepasst
+- **Rulesets standardisiert**:
+  - Neues RuleSet "MetaProfile" für die Versionierung von meta.profile-Angaben eingeführt
+  - Translation-RuleSet mit klareren Parameternamen überarbeitet
+  - Platzhalterdatei für Lizenzbedingungen (license-terms.fsh) angelegt
+- **Spracheinstellung ergänzt**: Sprachkennzeichnung "de-DE" in sushi-config.yaml hinzugefügt
+
 #### Änderungen finale Version v2026.0.1 (veröffentlicht 09.01.2026)
 
 ### Neue Profile und Funktionalität

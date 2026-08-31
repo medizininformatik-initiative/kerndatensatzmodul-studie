@@ -8,14 +8,14 @@ _Migrations-/Zustandstreue eines EINEN Moduls über mehrere Stände: Identitäts
 
 <div align="center">
 
-| Identitätsfeld | studie-source-master-6cc63c5 | studie-ballot-rc1 | Befund |
+| Identitätsfeld | studie-source-master-8205e02-rc1 | studie-migrated-ballot-rc1 | Befund |
 |---|---|---|---|
 | id | mii-ig-studie | mii-ig-studie | ✓ identisch |
 | canonical | https://www.medizininformatik-initiative.de/fhir/modul-studie | https://www.medizininformatik-initiative.de/fhir/modul-studie | ✓ identisch |
 | packageId | de.medizininformatikinitiative.kerndatensatz.studie | de.medizininformatikinitiative.kerndatensatz.studie | ✓ identisch |
 | name | MII_IG_Medizinisches_Forschungsvorhaben | MII_IG_Medizinisches_Forschungsvorhaben | ✓ identisch |
 | title | — | MII Implementation Guide Medizinisches Forschungsvorhaben | ⚠ DIVERGIERT |
-| version | 2026.0.1 | 2027.0.0-ballot.rc1 | ⚠ DIVERGIERT |
+| version | 2027.0.0-ballot.rc1 | 2027.0.0-ballot.rc1 | ✓ identisch |
 | status | active | active | ✓ identisch |
 | fhirVersion | 4.0.1 | 4.0.1 | ✓ identisch |
 | license | — | CC-BY-4.0 | ⚠ DIVERGIERT |
@@ -27,46 +27,46 @@ _Migrations-/Zustandstreue eines EINEN Moduls über mehrere Stände: Identitäts
 
 <div align="center">
 
-| Ebene | studie-source-master-6cc63c5 | studie-ballot-rc1 |
+| Ebene | studie-source-master-8205e02-rc1 | studie-migrated-ballot-rc1 |
 |---|---|---|
-| Default-Sprache (input/pagecontent) | 1 / 18 | 19 / 8391 |
-| Übersetzungen (input/translations) | 0 / 0 | 19 / 9727 |
-| Plattform-Quellseiten (verbleibend) | 0 / 0 | 0 / 0 |
+| Default-Sprache (input/pagecontent) | 1 / 18 | 19 / 8630 |
+| Übersetzungen (input/translations) | 0 / 0 | 19 / 9988 |
+| Plattform-Quellseiten (verbleibend) | 66 / 17168 | 0 / 0 |
 | sonstige | 0 / 0 | 7 / 1449 |
 
 </div>
 
-_Wort-Abdeckung relativ zur Referenz (Heuristik; ein bilingualer Stand überschreitet 100 %):_  **studie-ballot-rc1: Default 46617 % · Übersetzungen 54039 %**
+_Wort-Abdeckung relativ zur Referenz (Heuristik; ein bilingualer Stand überschreitet 100 %):_  **studie-migrated-ballot-rc1: Default 50 % · Übersetzungen 58 %**
 
 ### Befund
 
-- Identität: **⚠ 4 Feld(er) DIVERGIEREN**
+- Identität: **⚠ 3 Feld(er) DIVERGIEREN**
 - Publizierter Artefakt-Satz (Kategorie+Name): **IDENTISCH** (59 Artefakte)
 - Canonical-URLs der Artefakte: ✓ identisch (42 URLs)
-_Interne FSH-Konstrukte (informativ, kein Befund): studie-ballot-rc1: 0 fehlend, 36 zusätzlich (z.B. Template-Rulesets)._
+_Interne FSH-Konstrukte (informativ, kein Befund): studie-migrated-ballot-rc1: 0 fehlend, 36 zusätzlich (z.B. Template-Rulesets)._
 
 ## Kennzahlen (je IG)
 
 <div align="center">
 
-| Metrik | studie-source-master-6cc63c5 | studie-ballot-rc1 |
+| Metrik | studie-source-master-8205e02-rc1 | studie-migrated-ballot-rc1 |
 |---|---|---|
 | Artefakte gesamt | 59 | 59 |
 | Profile | 7 | 7 |
 | ValueSets | 2 | 2 |
 | CodeSystems | 2 | 2 |
 | Beispiele | 17 | 17 |
-| Narrative-Inhalts-Seiten | 0 | 18 |
-| Wörter gesamt | 0 | 8377 |
-| Plattform-Direktiven | 0 | 0 |
-| Doppelte Inhaltsblöcke | 0 | 2 |
-| Nicht referenzierte Bilder | 0 | 0 |
+| Narrative-Inhalts-Seiten | 57 | 18 |
+| Wörter gesamt | 17087 | 8616 |
+| Plattform-Direktiven | 123 | 0 |
+| Doppelte Inhaltsblöcke | 124 | 2 |
+| Nicht referenzierte Bilder | 57 | 0 |
 | Dependencies (floating) | 2 (0) | 5 (0) |
-| Ø Wörter / Seite | 0 | 465,4 |
-| Median Wörter / Seite | 0 | 296 |
-| Hersteller-Lock-in /100 | 0 | 0 |
+| Ø Wörter / Seite | 299,8 | 478,7 |
+| Median Wörter / Seite | 234 | 296 |
+| Hersteller-Lock-in /100 | 26 | 0 |
 | Standard-Terminologie % | 87 | 96 |
-| Bus-Faktor % (Top-Autor) | 39 | 38 |
+| Bus-Faktor % (Top-Autor) | — | 38 |
 
 </div>
 
@@ -76,9 +76,9 @@ _Artefakte mit identischem Namen in mehreren IGs deuten auf Konsolidierungspoten
 
 <div align="center">
 
-| Metrik | studie-source-master-6cc63c5 | studie-ballot-rc1 |
+| Metrik | studie-source-master-8205e02-rc1 | studie-migrated-ballot-rc1 |
 |---|---|---|
-| Direktiven je Seite | 0 | 0.0 |
+| Direktiven je Seite | 2.16 | 0.0 |
 | Beispiele je Profil | 2.43 | 2.43 |
 
 </div>
@@ -97,8 +97,8 @@ quadrantChart
     quadrant-2 wenige & direktivenlastig
     quadrant-3 wenige & direktivenarm
     quadrant-4 viele & direktivenarm
-    "studie-source-master-6cc63c5": [1.0, 0.0]
-    "studie-ballot-rc1": [1.0, 0.0]
+    "studie-source-master-8205e02-rc1": [1.0, 1.0]
+    "studie-migrated-ballot-rc1": [1.0, 0.0]
 ```
 
 </div>

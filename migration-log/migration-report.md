@@ -1,109 +1,86 @@
 # Migration report — MII KDS Modul Medizinisches Forschungsvorhaben (Studie) → MII KDS module template
 
-**In-place migration branch** (venue changed from the sandbox demonstrator to this repository on the explicit operator instruction of 2026-08-31 — see DEC-9). The run migrates
-`medizininformatik-initiative/kerndatensatzmodul-studie` (master `6cc63c5`, 2026-08-31) onto
-`mii-kds-module-template` **v0.13.2** (`a2390dea`) per skill **mii-ig-migration v0.25.0**
-(agent-skills `5c0cc0c`), IG template `ig-template-mii-kds` **v1.3.4** referenced by URL
-(no vendored copy). It is a decision-input for the module owners; **nothing is published**,
-and applying it to the real repository is an owner decision (see ①-DEC-9).
+**Edition: v2027.0.0-ballot.rc1, in step with upstream's own RC.** This branch migrates the
+module onto `mii-kds-module-template` **v0.13.2** (skill **mii-ig-migration v0.25.0**, IG template
+v1.3.4 by URL) and **contains the module owners' own `v2027.0.0-ballot.rc1` release** (master
+`8205e02`, PRs #67/#68 — merged into this branch after the owners released it while the migration
+ran). The earlier `migration/2026.0.1-template-v0.13.2` branch (PR #66) is the superseded
+source-version edition. Nothing is published; Gate D (TF-KDS/AG IOP/NSG) decides the merge.
 
 ## Summary — read this first
 
-- **Shape A, in-place on a source snapshot.** FSH artefacts untouched (`comm -3` proof: only
-  logged scaffold additions). SUSHI (pinned 3.20.1): **0 errors / 0 warnings**.
-- **Same-module verification:** published artifact set **IDENTISCH** (59), canonical URLs
-  **identisch** (42/42). Identity divergences = exactly the 3 recorded decisions (title,
-  licence, IG-level publisher).
-- **QA:** unmigrated source baseline (same publisher 2.3.2, same tx) **err = 41** → migrated
-  **err = 17, broken links 2** — every remaining error is a **baseline-proven source-inherent
-  class** (15× R5-backport ValueSet bindings unresolvable in R4; Library-example empty-anchor
-  narrative). Migration-introduced defects found during QA (a leftover template-example link,
-  a missing 12th special-url) were fixed in-run.
-- **DE-first** (meta-wiki Release-2027 »IG Umbau – DE First«, KDS-Governance §4.4): German is
-  the default language; the English pages are the **owner-authored** translations from the
-  `ImplementationGuide-2027.x.x-EN` tree (no machine translation; tree versions match 2027.0.0).
-- **Mechanical verification** (`verify-migration.py`): **93 IDENTISCH / 37 DIVERGIERT /
-  22 NICHT PRÜFBAR** — all 37 DIVERGIERT rows adjudicated below (16 C4 = the known
-  URL-stripping checker limitation + deliberately dropped labels of generated views; 14 C7 =
-  cascade of those C4 rows; F1/F2 = recorded Gate-A decisions; P4 = no published Simplifier
-  guide version exists; 4 R2 = publisher-own `{{title}}` chrome). One REAL content loss was
-  found by the C4 triage and **restored** (the source index preamble).
-- **Convention checks emulated locally** (they trigger only on dev/main/release branches):
-  M1–M11 **PASS in dev AND release mode**; scripts test suite **107/107**;
-  language-model-check green after inverting the guard to the DE-first model (upstream
-  template finding).
+- **Fidelity vs the source of record (master@8205e02 = the owners' RC):** published artifact set
+  **IDENTISCH** (59), canonical URLs **identisch** (42/42), **version identisch**
+  (2027.0.0-ballot.rc1). Identity deltas = the recorded decisions only (title added — none exists
+  in any machine source; licence CC-BY-4.0 per tier-R evidence; IG-level publisher NUM-DIZ).
+- **QA:** unmigrated-source baseline err=41 → **final err=15, broken links=0**. All 15 remaining
+  errors are ONE class: the R5-backport ValueSet bindings (5 R5-only canonicals across 3 backport
+  extensions) — unresolvable in any R4 package; disposition = ①-DEC-11 (owner choice; carried
+  unchanged like the Simplifier-era source).
+- **Mechanical verification:** **93 IDENTISCH / 37 DIVERGIERT / 22 NICHT PRÜFBAR** — every
+  DIVERGIERT adjudicated below (C4 checker limitation + deliberately dropped generated-view
+  labels; C7 cascade; F1 title decision; F2 dependency decision; P4 no published guide version;
+  R2 publisher chrome).
+- **DE-first** (meta-wiki Release-2027): German default, English = the owners' own translations
+  (2027-EN tree). Convention check passes in **release mode**; scripts tests 107/107.
+- **Fixes applied beyond the pure migration** (each logged, each reversible):
+  F-1 logical-model recursive `contentReference` → canonical#element-id (rendered publisher
+  exception on the LM pages, present in the source; now renders as an anchor) ·
+  F-2 Library example documentation link → `relatedArtifact.url` + `document.url` (renderer read
+  url; profile mandates document 1..1; killed the last 2 broken links) ·
+  F-3 full version alignment: 15 SearchParameters were hardcoded `1.0.0-ballot`, the
+  CapabilityStatement `2026.0.1`, 5 resources version-less — all now flow through the module's
+  own Version/PR_CS_VS_Version rulesets (census asserted: 43 conformance @ ballot RC, 17 example
+  instances version-less by design) · F-4 version literals on version-history/metadata pages ·
+  F-5 the owners' 2027 release-notes sections ported into `changes.md` (both languages).
+- **Upstream findings for the owners (courtesy, ② queue):** their RC ships the CapabilityStatement
+  version literal as `"2027.0.0-ballot.rc1§§"` (stray characters — this branch uses the Version
+  ruleset instead) and a qc `version-filled` predicate with broken syntax; the Terminologie page
+  still claims "keine eigenen CodeSystems und ValueSets" while the package ships 2+2; the
+  registry's published 2026.0.2 has no git tag (probable basis: commit `44e01c0`).
 
-## Where the evidence lives
+## ① Decision queue (Gate A — owners)
 
-Everything under `migration-log/` on this branch: `run.log` (append-only protocol, every
-command + measured exit), `identity-claims.tsv`, `page-map.tsv` (the reviewed routing
-contract, 15 `[MAP-EDIT]` rows), `derived-content.tsv`, `verification-findings.tsv` +
-`verification.md`, `preflight-analysis.json` / `postflight-analysis.json`,
-`same-module-compare.md`, `prepost-delta.md`/`.tsv`, `qa-checklist.md`,
-`comparison-table.md`, re-measured verifier manifests (`template-pages-v0.13.2.tsv`,
-`template-artifacts-v1.3.4.tsv`), guide-version evidence (`guide-versions-*.html`), and the
-per-step raw logs. The rendered output is not committed; CI builds the branch preview.
+| Id | State |
+| --- | --- |
+| DEC-1 licence | CC-BY-4.0 from tier-R evidence (guide © TMF prose); **owner confirmation pending**; ideal: add LICENSE + `license:` upstream |
+| DEC-2 version | **RESOLVED BY UPSTREAM ACTION**: the owners released v2027.0.0-ballot.rc1 themselves; this branch carries their version and their `releaseLabel: release` (PR #68) |
+| DEC-3 title | "MII Implementation Guide Medizinisches Forschungsvorhaben" (absent in every machine source; template pattern) |
+| DEC-4 dependency surface | old-style `hl7.fhir.extensions.r5` → explicit `hl7.fhir.uv.xver-r5.r4 0.1.0`; + crmi 2.0.0, THO 7.3.0, extensions.r4 5.3.0 (template machinery). NOTE: the owners' RC release notes claim the xver dependsOn was removed, but their sushi-config still carries the old-style package that regenerates it — the explicit pin here ends that churn |
+| DEC-5 publisher | IG-level NUM-DIZ (template default), resource-level stays MII (module ruleset) |
+| DEC-6 example.org canonicals | 2 CS + 2 VS carried unchanged via `special-url` (12 entries incl. CapabilityStatement/metadata) |
+| DEC-7 dates | `date`/`approvalDate` stand-ins (2026-01-09) — refresh when the owners set the ballot publication date |
+| DEC-8 NCI topic | C15206 (Clinical Study) |
+| DEC-9 venue | executed in the FGDH sandbox first, then in-place on this repository by explicit operator instruction; sandbox = historical mirror |
+| DEC-10 M9 pages | keep extensions/search-parameters/value-sets/code-systems/metadata (measured counts); remove researcher-guidance/operations |
+| DEC-11 R5-backport bindings | **the 15 remaining QA errors.** Options: (a) accept as known R4-backport limitation (source + advisor precedent — the shipped state), (b) vendor the 5 R5 ValueSets with special-url (breaks artifact-set parity), (c) re-point to THO equivalents (semantic re-binding). Recommendation: (a); owner call |
+| DEC-12 DE-first guard | `language-model-check.sh` PATTERNS inverted to guard the DE-first model (template guard protects EN-default and fails the sanctioned config); upstream template issue candidate |
 
-## ① Decision queue (Gate A — someone must choose)
+## ② Review queue (Gates B/C) — unchanged items from the migration
 
-| Id | Decision taken in-run | Who confirms | If nobody acts |
-| --- | --- | --- | --- |
-| DEC-1 | **Licence CC-BY-4.0** from tier-R evidence (guide »© 2019+ TMF e. V., CC BY 4.0«, all trees + live EN guide). No machine source declares one (`license-align`: `license-missing`, exit 1). Template CC-BY-4.0 text kept under this decision. | TMF / module owners | Licence stays legally unconfirmed; ideally also add a LICENSE file + `license:` upstream |
-| DEC-2 | **Version 2026.0.1** (the source tree's; skill default). Contradictions recorded, never resolved: registry `latest` **2026.0.2** (published 10 min after merge `44e01c0`, no git tag — offered as probable basis) and guide.yaml **2027.0.0** (ballot guides). | Module owners | Target stays at 2026.0.1; the 2027 ballot bump remains the owners' move |
-| DEC-3 | **Title** »MII Implementation Guide Medizinisches Forschungsvorhaben« (absent in every machine source; template pattern, try-run precedent; guide titles recorded as tier-H evidence). | Module owners | Title stands as chosen |
-| DEC-4 | **Dependency surface**: old-style `hl7.fhir.extensions.r5: 4.0.1` → explicit `hl7.fhir.uv.xver-r5.r4: 0.1.0` (identical materialized dependsOn; ends the hand-delete-vs-CI-bot churn of `19ab7b1`); + `hl7.fhir.uv.crmi 2.0.0`, `hl7.terminology.r4 7.3.0`, `hl7.fhir.uv.extensions.r4 5.3.0` (template machinery / auto-inject guard). F2 flags this by design. | Module owners | Pins stand; F2 row remains adjudicated |
-| DEC-5 | **IG-level publisher NUM-DIZ** (template default; Dokument precedent); resource-level publisher stays »Medizininformatik Initiative« via the module's own `publisher.fsh`. | TF-KDS | Stands |
-| DEC-6 | **example.org canonicals** (2 CS + 2 VS) carried unchanged via `special-url` (with the CapabilityStatement/metadata url = the predicted 12th entry). Upstream fix candidate: real canonicals for these four. | Module owners | QA keeps tolerating them via special-url |
-| DEC-7 | **Date stand-ins**: `date`/`approvalDate` = 2026-01-09 (the v2026.0.1 release date); contact `office@medizininformatik-initiative.de`. | Module owners | Stand-ins persist until Gate D |
-| DEC-8 | **NCI topic C15206** (»Clinical Study«, try-run precedent). | Module owners | Stands |
-| DEC-9 | **Venue**: executed first in the FGDH sandbox (`mii-kds-studie-ig-inoffiziell` PR #6, now closed with a pointer), then pushed IN-PLACE to this repository on the explicit operator instruction of 2026-08-31; repository identity retargeted (9 files). Module-owner sanction of the migration itself remains the Gate-A/D question. | Module owners | The branch sits unreviewed on this repository |
-| DEC-10 | **M9 measured**: keep extensions(14)/search-parameters(15)/value-sets(2)/code-systems(2)/metadata; **remove** researcher-guidance + operations(0). | Module owners | Stands |
-| DEC-11 | **DE-first language guard inverted** (`scripts/language-model-check.sh` PATTERNS now guard German-default; the template guard protects EN-default and fails the sanctioned config itself). Upstream template issue proposed: a DE-first mode. NOTE: the Dokument migration branch ships the guard byte-identical — latently red if it ever runs there. | Template maintainers | Guard stays inverted in this module |
+Derived content: 4 `bridge` markers (search-parameters merge note + code-systems pointer, both
+languages), rendered as visible boxes; `derived-scan` clean. Hand items: the 2025.0.0
+first-release deep-link bug (carried); EN nav labels keep German lead terms (owner style,
+carried); orphan `FHIR-Profile.page.md` RETIRED (near-duplicate); Terminologie contradiction
+(above); breadcrumb "Table of Contents" not yet in the de .po (template-level, also on the 2026
+preview — upstream template issue).
 
-## ② Review queue (Gates B/C — someone must check)
+## Verification adjudication (final run, vs master@8205e02)
 
-Derived content (GENERATED from `migration-log/derived-content.tsv` — 4 `bridge` markers,
-gate B, rendered as visible review boxes): the merged-search-parameters bridge and the
-code-systems pointer, each in both languages.
-
-Hand-written review items:
-
-- REV-1 (B): the **authoritative DE-2027 tree's publication table** still reads
-  »Version 2026.0.1 / Datum 09.01.2026« — carried **verbatim** (4th member of the version
-  contradiction; upstream content fix for the owners).
-- REV-2 (B): **Release Notes end at v2026.0.1** — no 2027 section exists in the source yet.
-- REV-3 (B): the Terminologie note claims »keine eigenen CodeSystems und ValueSets« while the
-  package ships **2 CS + 2 VS** — carried verbatim on `value-sets.md`, flagged there.
-- REV-4 (B): the »erster Release 2025.0.0« link deep-links to the Organization page of the
-  static export (source link bug, carried).
-- REV-5 (B): the Datensatz FQL targeted the **retired ext-space LM canonical** — replaced by
-  the artifact-page link with an explanatory note.
-- REV-6 (C): EN nav labels keep German lead terms (»Dokument (DocumentReference)« …) — the
-  owners' own style in the EN tree, carried.
-- REV-7 (C): EN pages = owner-authored translations **transferred** (per-page provenance
-  headers cite the exact 2027-EN path); Gate C is a correspondence review, not a translation
-  review. DE↔EN page coverage 22/22.
-- REV-8 (B): orphan `FHIR-Profile.page.md` RETIRED (in no toc of any tree; near-duplicate
-  older variant of the family index — content preserved via that row).
-- REV-9 (upstream courtesy): the DE-2027 guide key is **broken on Simplifier** (»Could not
-  determine guide folder«); this build render-validates the DE tree for the first time.
-- REV-10 (B): source qc rule checked the wrong canonical space (`…/fhir/ext/modul-studie/`)
-  — fixed to the real bare space in the target qc; upstream fix candidate.
-
-## ③ QA triage
-
-Baseline (unmigrated source, publisher 2.3.2, tx.fhir.org, `-no-sushi` on the committed
-`fsh-generated`): **err 41 / warn 629 / broken 0**. Migrated (same toolchain): **err 17 /
-warn 653 / broken 2**.
-
-| Class | Count | Whose problem |
+| Check | Rows | Adjudication |
 | --- | --- | --- |
-| R5-backport ValueSet bindings unresolvable in R4 (10 SD + 5 instance refs; verbatim in source FSH) | 15 | Source-inherent (baseline-proven); upstream fix = real R4 bindings |
-| Library-example empty-anchor narrative (2 validation + 2 rendered `null` links = the 2 broken links) | 2+2 | Source-inherent (`Library/mii-exa-studie-register` `.text.div`) |
-| CapabilityStatement id/url mismatch | 0 (was 3) | Fixed in-run: the predicted 12th `special-url` |
-| Links to the deleted template example | 0 (was 2) | Fixed in-run: `examples.md` cleaned (both languages) |
+| C4 | 16 | URL-stripping checker limitation (link-bearing runs probed PRESENT by symmetric normalization + grep) + deliberately dropped `**Differential**`/`**Snapshot**` label runs of removed generated views; the ONE real loss found in-run (source index preamble) was restored |
+| C7 | 14 | cascade of the C4 limitation rows; actual migration-written text carries its 4 markers |
+| F1 | 1 | title — DEC-3 |
+| F2 | 1 | `hl7.fhir.extensions.r5` absent — DEC-4 |
+| P4 | 1 | no published Simplifier guide version exists (evidence `migration-log/guide-versions-*.html`) |
+| R2 | 4 | publisher-own `{{title}}` chrome (searchform + retired-artifact boilerplate) |
 
-## Identity (GENERATED — `migration-log.sh claims --markdown`)
+prepost-delta vs the RC source: 1 REGRESSION = the licence normalization echo (SPDX id vs licence
+name vs official title — same licence; known analyzer limitation), adjudicated; everything else
+unchanged/improved/expected-change.
+
+## Identity (GENERATED)
 
 | Field | Tier | Source | Value | Contradiction |
 | --- | --- | --- | --- | --- |
@@ -135,45 +112,70 @@ warn 653 / broken 2**.
 | dependency:hl7.fhir.r4.core | P | package/package.json (source pin) | 4.0.1 |  |
 
 
-## Verification
+## Where the evidence lives
 
-Full tables: `migration-log/verification.md` + `verification-findings.tsv` (93 IDENTISCH /
-37 DIVERGIERT / 22 NICHT PRÜFBAR). Adjudication of every DIVERGIERT class:
+`migration-log/` on this branch: `run.log` (4 runs, 96 WARN/ERROR lines, each actioned),
+`identity-claims.tsv`, `page-map.tsv` (15 [MAP-EDIT]), `derived-content.tsv`,
+`verification-findings.tsv` + `verification.md`, pre/postflight + `prepost-delta.*`,
+`same-module-compare.md`, `qa-checklist.md`, `comparison-table.md` (clickable source↔preview
+pairs), re-measured template manifests, guide-version evidence, per-step raw logs.
 
-| Check | Rows | Adjudication |
-| --- | --- | --- |
-| C4 | 16 | 1 REAL loss found + **restored** (source index preamble); the rest = the known URL-stripping checker limitation (link-bearing runs; probed present in the target by symmetric normalization + direct grep) and deliberately dropped `**Differential**`/`**Snapshot**`-label runs of removed generated views (the artifact pages render those; R1 covers it) |
-| C7 | 14 | Cascade of the C4 limitation rows (»C4 misses + no DERIVED marker«); the actual migration-written text carries its 4 markers (derived-scan clean) |
-| F1 | 1 | title — recorded decision DEC-3 |
-| F2 | 1 | `hl7.fhir.extensions.r5` absent — recorded decision DEC-4 (replaced by the explicit xver pin) |
-| P4 | 1 | No published Simplifier guide version exists (evidence `migration-log/guide-versions-*.html`); narrative came from the in-repo trees, pinned at commit `6cc63c5` |
-| R2 | 4 | Publisher-own `{{title}}` chrome (searchform client-side template + retired-artifact boilerplate on `-definitions` pages) — Dokument-identical checker artifact |
+## Protocol (generated from run.log — last completed instance per step)
 
-The 22 NICHT PRÜFBAR rows are conditions that do not hold for this run (shape A: no goFSH /
-harvest / discovery steps; zero-page R1 comparisons; the F1 version-confirmation row that is
-always a human act) — each carries its action and gate in `verification.md`.
-
-## Content map
-
-`migration-log/comparison-table.md` renders every source page → target page pair as clickable
-links (repo-file source links; the branch preview URL for the target). The reviewed
-`page-map.tsv` is the contract: 22 authoritative-tree pages + 2 union pages routed, 6 RETIRED
-rows with reasons, 15 `[MAP-EDIT]` corrections of the generated proposal.
-
-## Protocol (generated from `migration-log/run.log`)
-
-Steps executed (deduplicated `done`/`result` lines):
-
-| Step / action | Exit |
+| Step | Exit |
 | --- | --- |
 
 
-WARN/ERROR census: 58 lines, each actioned in-run (`grep -E '  (WARN |ERROR)  ' migration-log/run.log`);
-the notable ones: the anticipated non-zero exits (license-missing, fql-scan strict findings,
-verify-migration findings), the identity contradictions (version ×3 — Gate A), the corrected
-premature »test suite passes« claim (7 collateral failures found + fixed), and the
-prepost-delta licence »REGRESSION« adjudicated as the SPDX-vs-prose normalization echo.
+## Sign-off (GENERATED — migration-log/qa-checklist.md)
 
-## Sign-off (GENERATED — `migration-log/qa-checklist.md`)
+### QA checklist (GENERATED by qa-checklist.py — do not retype; regenerate instead)
 
-_(migration-log/qa-checklist.md not present)_
+One checkbox per open obligation, from the machine ledgers. Ticking a box asserts the *named person* did the *named thing*. This list belongs inside `migration-log/migration-report.md` (section *Sign-off*): the detail behind every item id, the glossary for every code, term, gate owner and source shape, and the *How to re-run* commands all live there (and in the skill's `references/codes.md`). Pages named bare live in `input/pagecontent/`; names ending in `-intro` live in `input/intro-notes/`. 93 finding(s) verdicted IDENTISCH owe nobody anything and are not listed.
+
+#### Gate A — identity (module maintainer, with TF-KDS)
+
+- [ ] **F1-b5b102** (F1 - module identity unchanged): the SOURCE wins (spec 2.2); restore it or record the divergence as a Gate-A decision -- never normalise silently — *fix it, or accept it with a named reason in the report*
+- [ ] **F2-a51d44** (F2 - dependency pins identical to the source's): carry the dependency over — *fix it, or accept it with a named reason in the report*
+- [ ] **F2 ×4** (F2 - dependency pins identical to the source's): confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition — *do the named action so the check can run - this is not a pass*  <sub>ids: F2-fd0e73, F2-047205, F2-e78ce4, F2-8f9355</sub>
+- [ ] **identity `version`** claims 3 different values: `2026.0.1` (sushi-config.yaml) vs `2027.0.0` (ImplementationGuide-2027.x.x-DE+EN/guide.yaml (2027 Ballot guide metadata)) vs `2026.0.2` (package/package.json) — *choose one and record why*
+
+#### Gate B — narrative (the module's clinical and technical authors)
+
+- [ ] **C4 ×3** (C4 - the source's narrative text present somewhere): conservation of a generated view is not a text question; confirm the artefact page replaces it (R1) — *do the named action so the check can run - this is not a pass*  <sub>ids: C4-7b2767, C4-fc1144, C4-d47516</sub>
+- [ ] **C4 ×16** (C4 - the source's narrative text present somewhere): map the missing text to a target page section, or record the loss in the report's content map — *fix it, or accept it with a named reason in the report*  <sub>ids: C4-811435, C4-196ae3, C4-b96f0f, C4-6a7c10, C4-0d5125, C4-49d110, C4-f261ca, C4-b4c8d4, C4-b4415b, C4-e9c444, C4-fe91db, C4-03ec0a, C4-8f44e7, C4-f03204, C4-33f027, C4-ef59ff</sub>
+- [ ] **C6 ×7** (C6 - text landed on the page the map promised): a split is legitimate when the source page was deliberately divided; confirm the routing or correct the page map — *do the named action so the check can run - this is not a pass*  <sub>ids: C6-9629d9, C6-9bf5f1, C6-fa135e, C6-32f0c1, C6-dd2f30, C6-c8ed00, C6-7057c8</sub>
+- [ ] **C6-b580a9** (C6 - text landed on the page the map promised): no page-map row declares where this page's text was MEANT to go, so 'right page' has no mechanical meaning -- read the landing distribution and confirm the routing (spec section 9) — *do the named action so the check can run - this is not a pass*
+- [ ] **R2 ×4** (R2 - page header/footer metadata render correctly): rendered header/footer metadata defect -- qa.txt does not report it. Fix the metadata it renders (a jurisdiction code the template cannot resolve is the measured case) — *fix it, or accept it with a named reason in the report*  <sub>ids: R2-afba10, R2-48ed52, R2-16b769, R2-d1da9a</sub>
+- [ ] **R1-76f413** (R1 - tables, tabs and images render with content): harvest with --keep-html and write the page map; without a source rendering, 'non-empty where non-empty in the source' has no reference — *do the named action so the check can run - this is not a pass*
+- [ ] **`code-systems`**: review 2 migration-written block(s) (bridge; default/en) — *keep, correct, or delete each one*
+- [ ] **`search-parameters`**: review 2 migration-written block(s) (bridge; default/en) — *keep, correct, or delete each one*
+- [ ] **`MIIIGModulStudie/AnwendungsflleInformationsmodell/Index.page.md` RETIRED**: [MAP-EDIT] deliberately-empty Simplifier folder index ("Diese Seite wurde absichtlich leer gelassen") — navigation moves to the template menu — *confirm nothing in it is needed*
+- [ ] **`MIIIGModulStudie/TechnischeImplementierung/Index.page.md` RETIRED**: [MAP-EDIT] deliberately-empty Simplifier folder index ("Diese Seite wurde absichtlich leer gelassen") — navigation moves to the template menu — *confirm nothing in it is needed*
+- [ ] **`MIIIGModulStudie/TechnischeImplementierung/FHIR-Profile/FHIR-Profile.page.md` RETIRED**: [MAP-EDIT] orphan (in no toc.yaml of any tree) and near-duplicate older variant of FHIR-Profile/Index.page.md ("WARNUNG!" text cell instead of the image) — content preserved via the Index row above — *confirm nothing in it is needed*
+- [ ] **`index.md` RETIRED**: [MAP-EDIT] source input/pagecontent/index.md is the 3-line SUSHI boilerplate stub ("Feel free to modify this index page") moved by 19ab7b1 — no module content; superseded by the guide tree's Index.page.md — *confirm nothing in it is needed*
+- [ ] **`ImplementationGuide-2026.x.x/**` RETIRED**: historical version tree - retain unchanged, Gate-D retirement set (5.1a #3) — *confirm nothing in it is needed*
+- [ ] **`ImplementationGuide-2027.x.x-EN/**` RETIRED**: parallel-language tree - the owner-authored EN translation, consumed page-by-page into input/translations/en/ (5.1a #2; same version 2027.0.0 as the authoritative tree -> stale-tree caveat inapplicable) — *confirm nothing in it is needed*
+
+#### Gate C — language (a reviewer competent in both languages)
+
+- [ ] **C7 ×14** (C7 - migration-written content is marked as such): mark the passage per spec section 9d (the DERIVED comment plus the visible box, in BOTH language mirrors), or restore the source wording; if the text was deliberately dropped, record that in migration-log/page-map.tsv instead — *fix it, or accept it with a named reason in the report*  <sub>ids: C7-0209b1, C7-9191f0, C7-2a031c, C7-e9d23e, C7-8c8c7d, C7-093a42, C7-cb08b7, C7-3f7797, C7-5b9833, C7-283e85, C7-4f50d8, C7-12d2ac, C7-b541e0, C7-c672c0</sub>
+
+#### Gate D — release (TF-KDS / AG IOP / NSG; merging is what publishes)
+
+- [ ] **P3-c39a79** (P3 - IG Publisher version matches the workflow pin): upgrading the publisher is a target-repository decision, not a migration one -- record it, do not act on it here — *do the named action so the check can run - this is not a pass*
+- [ ] **P4-379bde** (P4 - source guide pinned to a published version): re-harvest from a PUBLISHED version; `current` is not reproducible. Where the guide has no published version at all, that is the finding -- record it as such rather than leaving the pin unstated — *fix it, or accept it with a named reason in the report*
+- [ ] **L2-7163a2** (L2 - every expected step wrote a log line): confirm the condition did not hold -- The repository's LICENSE text is the only machine source for `license` — the field that must never default (spec §2.2). — *do the named action so the check can run - this is not a pass*
+- [ ] **L2-07bdbb** (L2 - every expected step wrote a log line): confirm the condition did not hold -- Without the discovery chain the guide is not found, and a migration then ships the template's starter pages. — *do the named action so the check can run - this is not a pass*
+- [ ] **L2-930ba2** (L2 - every expected step wrote a log line): confirm the condition did not hold -- This is the step whose absence shipped the template's starter pages under a module's name. — *do the named action so the check can run - this is not a pass*
+- [ ] **L4-106e61** (L4 - the log's counts agree with the tree): shape B only; for shape A there is nothing to convert — *do the named action so the check can run - this is not a pass*
+- [ ] **L4-f17740** (L4 - the log's counts agree with the tree): harvest the guide (step 2c) where the narrative is not in the repo — *do the named action so the check can run - this is not a pass*
+- [ ] **pre/post delta**: `prepost-delta.md` shows no REGRESSION row, or every regression is explained in the report — *never merged unexplained*
+- [ ] **CI**: the module's own checks are green on the migration branch
+- [ ] **gates A–C**: signed by the named reviewers above
+- [ ] **publication decision**: recorded with name and date — *merging is what publishes*
+
+<!-- REPORT-AUTHORED ITEMS - the generator cannot enumerate judgement.
+     Add ONE checkbox per DEC-n / REV-n / QA-n block of this report,
+     under the gate that owns it, in the form:
+     - [ ] **DEC-1** <its one-line what> - *<its next action>*  -->
+

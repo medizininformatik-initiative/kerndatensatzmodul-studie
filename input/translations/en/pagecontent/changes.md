@@ -28,6 +28,37 @@ by category:
      migration-log/page-map.tsv;
      NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source;
      owner-authored translation from the 2027-EN guide tree) -->
+#### Changes Ballot version v2027.0.0-ballot.rc1 (as of 31.08.2026)
+
+##### New Profiles and Functionality
+
+- **ResearchSubject added to the Logical Model**: New BackboneElement "ResearchSubject" (person participating in a study) added
+
+- **Translations added for profiles**:
+  - ResearchSubject profile: German and English translations added for title, description, and elements (identifier, status, period, study, individual, consent)
+  - Study Inclusion Request profile: German and English translations added for elements (status, intent, category, code, reasonReference, supportingInfo)
+  - English version of the Implementation Guide
+
+##### Bug Fixes
+
+- **Extension context restricted**: Context of the ResearchStudy extensions (study registry, eligibility, acronym, recruitment, funding, ethics approval, backport AssociatedParty/Label) explicitly restricted to ResearchStudy
+- **Logical Model corrected**: "id" element of the BusinessID renamed to "identifier", since the Logical Model namespace already assigns its own id to every element
+- **Validator errors resolved**:
+  - No-longer-needed dependency (hl7.fhir.uv.xver-r5.r4) removed from the ImplementationGuide
+  - Home page added to the table of contents
+  - pagecontent folder moved to the correct path
+- **Spelling errors fixed**: Typo in the title of the German Implementation Guide corrected, "DE" label added to the title
+- **Broken link fixed**: Reference to the IPS rules on must-support elements updated, warning icon added to the associated table
+
+##### Harmonization and Technical Improvements
+
+- **Aliases harmonized**: Terminology aliases unified and standardized (including $SCT, $LNC, $UCUM), usage in examples and profiles adjusted accordingly
+- **Rulesets standardized**:
+  - New "MetaProfile" RuleSet introduced for versioning of meta.profile entries
+  - Translation RuleSet revised with clearer parameter names
+  - Placeholder file for license terms (license-terms.fsh) added
+- **Language setting added**: Language tag "de-DE" added to sushi-config.yaml
+
 #### Changes final version v2026.0.1 (published 09.01.2026)
 
 ### New Profiles and Functionality
