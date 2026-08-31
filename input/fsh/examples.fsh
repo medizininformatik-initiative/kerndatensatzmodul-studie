@@ -78,6 +78,7 @@ Usage: #example
 * name = "DRKS - Deutsches Register Klinischer Studien"
 * status = #active
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
+* relatedArtifact.url = "https://drks.de/"
 * relatedArtifact.document.url = "https://drks.de/"
 * relatedArtifact.type = #documentation
 

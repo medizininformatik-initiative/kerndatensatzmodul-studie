@@ -1,6 +1,8 @@
 info  Running SUSHI v3.20.1 (implements FHIR Shorthand specification v3.0.0)
 info  Arguments:
 info    /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work
+info  Unable to determine the latest version of sushi: spawnSync /bin/sh ETIMEDOUT
+info  Attempting fallback to determine version of sushi.
 info  No output path specified. Output to .
 info  Using configuration file: /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work/sushi-config.yaml
 info  Importing FSH text...
@@ -21,6 +23,9 @@ info  Converting FSH to FHIR resources...
 info  Converted 22 FHIR StructureDefinitions.
 info  Converted 2 FHIR CodeSystems.
 info  Converted 2 FHIR ValueSets.
+error Element Library.relatedArtifact.document has minimum cardinality 1 but occurs 0 time(s).
+  File: /private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work/input/fsh/examples.fsh
+  Line: 73 - 82
 info  Converted 33 FHIR instances.
 info  Exporting FHIR resources as JSON...
 info  Exported 59 FHIR resources as JSON.
@@ -42,6 +47,6 @@ info  The _build script hosted at https://github.com/HL7/ig-publisher-scripts is
 |  -------------------------------------------------------------  |
 |                                                                 |
 ===================================================================
-| It doesn't get any betta than this!    0 Errors      0 Warnings |
+| Looks like you're floundering          1 Error       0 Warnings |
 ===================================================================
 
