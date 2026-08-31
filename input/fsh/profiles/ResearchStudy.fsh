@@ -205,7 +205,7 @@ Extension: MII_EX_Studie_Backport_Label
 Id: mii-ex-studie-backport-label
 Title: "MII EX Studie Backport Label"
 Context: ResearchStudy
-* insert Version
+* insert PR_CS_VS_Version
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 0..1 and value 1..1 MS
