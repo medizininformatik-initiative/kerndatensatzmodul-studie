@@ -1,6 +1,6 @@
 # Migration report — MII KDS Modul Medizinisches Forschungsvorhaben (Studie) → MII KDS module template
 
-**Sandbox demonstrator** — this run migrates a copy of
+**In-place migration branch** (venue changed from the sandbox demonstrator to this repository on the explicit operator instruction of 2026-08-31 — see DEC-9). The run migrates
 `medizininformatik-initiative/kerndatensatzmodul-studie` (master `6cc63c5`, 2026-08-31) onto
 `mii-kds-module-template` **v0.13.2** (`a2390dea`) per skill **mii-ig-migration v0.25.0**
 (agent-skills `5c0cc0c`), IG template `ig-template-mii-kds` **v1.3.4** referenced by URL
@@ -56,7 +56,7 @@ per-step raw logs. The rendered output is not committed; CI builds the branch pr
 | DEC-6 | **example.org canonicals** (2 CS + 2 VS) carried unchanged via `special-url` (with the CapabilityStatement/metadata url = the predicted 12th entry). Upstream fix candidate: real canonicals for these four. | Module owners | QA keeps tolerating them via special-url |
 | DEC-7 | **Date stand-ins**: `date`/`approvalDate` = 2026-01-09 (the v2026.0.1 release date); contact `office@medizininformatik-initiative.de`. | Module owners | Stand-ins persist until Gate D |
 | DEC-8 | **NCI topic C15206** (»Clinical Study«, try-run precedent). | Module owners | Stands |
-| DEC-9 | **Venue**: FGDH sandbox demonstrator (MII org read-only policy; no owner GO on record). Applying this in-place to `kerndatensatzmodul-studie` = the Dokument pattern, after owner sanction. | Module owners + operator | Result remains a demonstrator |
+| DEC-9 | **Venue**: executed first in the FGDH sandbox (`mii-kds-studie-ig-inoffiziell` PR #6, now closed with a pointer), then pushed IN-PLACE to this repository on the explicit operator instruction of 2026-08-31; repository identity retargeted (9 files). Module-owner sanction of the migration itself remains the Gate-A/D question. | Module owners | The branch sits unreviewed on this repository |
 | DEC-10 | **M9 measured**: keep extensions(14)/search-parameters(15)/value-sets(2)/code-systems(2)/metadata; **remove** researcher-guidance + operations(0). | Module owners | Stands |
 | DEC-11 | **DE-first language guard inverted** (`scripts/language-model-check.sh` PATTERNS now guard German-default; the template guard protects EN-default and fails the sanctioned config itself). Upstream template issue proposed: a DE-first mode. NOTE: the Dokument migration branch ships the guard byte-identical — latently red if it ever runs there. | Template maintainers | Guard stays inverted in this module |
 

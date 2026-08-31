@@ -9,7 +9,7 @@ Moduls **Medizinisches Forschungsvorhaben**.
   des Moduls, beschrieben als logische Modelle. (Dieser Eintrag teilt sein Ziel
   mit *Artefakte → Logische Modelle*; keiner der Anker der Artefakt-Übersicht
   ist als Linkziel nutzbar — siehe
-  [`docs/page-structure.md`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/docs/page-structure.md) in diesem Repository.)
+  [`docs/page-structure.md`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/blob/main/docs/page-structure.md) in diesem Repository.)
 * **[UML-Diagramme](uml-diagrams.html)** — visuelle Darstellung der Datenmodelle
   und ihrer Beziehungen.
 

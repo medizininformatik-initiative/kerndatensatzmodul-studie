@@ -5,13 +5,6 @@
      README is preserved as README.simplifier-legacy.md; merge anything still
      wanted from it, then delete that file. -->
 
-> **⚠️ Inoffizielle Migrations-Demonstration (Sandbox).** Dieses Repository ist
-> eine Kopie von
-> [`medizininformatik-initiative/kerndatensatzmodul-studie`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie)
-> (master `6cc63c5`, 2026-08-31), migriert auf das MII-KDS-Modul-Template als
-> Entscheidungsvorlage für die Modulverantwortlichen. Es ist **keine**
-> offizielle Veröffentlichung des Moduls.
-
 FHIR® R4 Implementation Guide des Moduls **Medizinisches Forschungsvorhaben**
 des Kerndatensatzes der
 [Medizininformatik-Initiative (MII)](https://www.medizininformatik-initiative.de).
@@ -56,7 +49,5 @@ npx --yes fsh-sushi@3.20.0 .          # FSH → FHIR-Ressourcen
 
 ## Mitwirken
 
-Für das echte Modul: Issues und Pull Requests bitte gegen
-[`kerndatensatzmodul-studie`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie).
-Nicht-triviale Änderungen folgen dem MII Module Release Workflow
+Issues und Pull Requests bitte gegen dieses Repository. Nicht-triviale Änderungen folgen dem MII Module Release Workflow
 ([kerndatensatz-meta Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki)).

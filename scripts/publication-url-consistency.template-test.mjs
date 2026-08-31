@@ -25,7 +25,7 @@ const repository = fileURLToPath(new URL("../", import.meta.url));
 // org — deliberately different from the canonical).
 const canonical =
   "https://www.medizininformatik-initiative.de/fhir/modul-studie";
-const publicationBase = "https://forschungsgruppe-digital-health.github.io/mii-kds-studie-ig-inoffiziell";
+const publicationBase = "https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie";
 const packageId =
   "de.medizininformatikinitiative.kerndatensatz.studie";
 

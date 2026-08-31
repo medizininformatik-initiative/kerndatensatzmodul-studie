@@ -71,7 +71,7 @@ Release-Workflow aufgreifen.
 #### Von diesem Leitfaden deklarierte CRMI-Metadaten
 
 Die folgenden CRMI-Metadaten werden in
-[`sushi-config.yaml`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/sushi-config.yaml)
+[`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/blob/main/sushi-config.yaml)
 gesetzt und landen in der erzeugten `ImplementationGuide`-Ressource.
 
 | Metadaten-Artefakt | CRMI-Bereich | Ort in diesem Leitfaden | Rolle im Artefaktmanagement |

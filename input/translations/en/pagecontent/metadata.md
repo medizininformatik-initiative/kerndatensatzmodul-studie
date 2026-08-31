@@ -68,7 +68,7 @@ These may be considered in future release-workflow work.
 #### CRMI metadata declared by this guide
 
 The following CRMI-related metadata is set in
-[`sushi-config.yaml`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/sushi-config.yaml)
+[`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/blob/main/sushi-config.yaml)
 and ends up in the generated `ImplementationGuide` resource.
 
 | Metadata artifact | CRMI area | Location in this guide | Role in artifact management |

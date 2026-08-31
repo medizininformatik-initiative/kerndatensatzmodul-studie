@@ -9,7 +9,7 @@ This section collects the domain guidance for implementing and using the
   elements, described as logical models. (This entry shares its target with
   *Artifacts → Logical Models*; neither Artifacts-Summary anchor is usable as
   a link target — see
-  [`docs/page-structure.md`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/docs/page-structure.md) in this repository.)
+  [`docs/page-structure.md`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/blob/main/docs/page-structure.md) in this repository.)
 * **[UML Diagrams](uml-diagrams.html)** — visual representation of the data
   models and their relationships.
 
