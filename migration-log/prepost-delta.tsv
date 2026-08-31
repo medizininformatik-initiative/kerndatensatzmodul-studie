@@ -3,7 +3,7 @@ identity.id	mii-ig-studie	mii-ig-studie	unchanged
 identity.canonical	https://www.medizininformatik-initiative.de/fhir/modul-studie	https://www.medizininformatik-initiative.de/fhir/modul-studie	unchanged
 identity.packageId	de.medizininformatikinitiative.kerndatensatz.studie	de.medizininformatikinitiative.kerndatensatz.studie	unchanged
 identity.name	MII_IG_Medizinisches_Forschungsvorhaben	MII_IG_Medizinisches_Forschungsvorhaben	unchanged
-identity.version	2026.0.1	2026.0.1	unchanged
+identity.version	2026.0.1	2027.0.0-ballot.rc1	REGRESSION
 identity.fhirVersion	4.0.1	4.0.1	unchanged
 identity.license	-	CC-BY-4.0	not-measurable
 identity.calver	true	true	unchanged
@@ -29,7 +29,7 @@ artifacts.invariants	0	0	unchanged
 artifacts.mappings	0	0	unchanged
 artifacts.other_total	0	0	unchanged
 artifacts.total	59	59	unchanged
-narrative.pages	0	19	expected-change
+narrative.pages	0	18	expected-change
 narrative.intro_note_pages	0	7	expected-change
 narrative.translation_pages	0	19	expected-change
 directives.total	0	0	unchanged

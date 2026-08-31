@@ -3,14 +3,15 @@
 | Side | Measurement |
 |---|---|
 | pre | preflight-analysis.json (studie-source-master-6cc63c5, 6cc63c5, 2026-08-31T17:29:42Z) |
-| post | postflight-analysis.json (studie-migrated, 108710b, 2026-08-31T18:16:43Z) |
+| post | postflight-analysis.json (studie-ballot-rc1, 731ffc98, 2026-08-31T21:29:48Z) |
 
-Verdicts: **unchanged** 25 · **improved** 1 · **expected-change** 5 · **REGRESSION** 1 · **not-measurable** 2.
+Verdicts: **unchanged** 24 · **improved** 1 · **expected-change** 5 · **REGRESSION** 2 · **not-measurable** 2.
 
 ## ⛔ Regressions — properties that got WORSE
 
 Each one blocks the migration until it is fixed or explained; an explanation belongs in the migration report, not in a merge commit.
 
+- **`identity.version`**: `2026.0.1` → `2027.0.0-ballot.rc1` — machine-identity field changed -- the migrated package is no longer the same package
 - **`licence.contradictory`**: `false` → `true` — the target now declares CONTRADICTORY licences (the target declares: attribution4.0international, cc-by-4.0, creativecommons) -- one file will be read as the licence by someone, and it will be the wrong one
 
 ## Identity
@@ -21,7 +22,7 @@ Each one blocks the migration until it is fixed or explained; an explanation bel
 | `identity.canonical` | https://www.medizininformatik-initiative.de/fhir/modul-studie | https://www.medizininformatik-initiative.de/fhir/modul-studie | unchanged |  |
 | `identity.packageId` | de.medizininformatikinitiative.kerndatensatz.studie | de.medizininformatikinitiative.kerndatensatz.studie | unchanged |  |
 | `identity.name` | MII_IG_Medizinisches_Forschungsvorhaben | MII_IG_Medizinisches_Forschungsvorhaben | unchanged |  |
-| `identity.version` | 2026.0.1 | 2026.0.1 | unchanged |  |
+| `identity.version` | 2026.0.1 | 2027.0.0-ballot.rc1 | **REGRESSION** | machine-identity field changed -- the migrated package is no longer the same package |
 | `identity.fhirVersion` | 4.0.1 | 4.0.1 | unchanged |  |
 | `identity.license` | - | CC-BY-4.0 | not-measurable | the field is absent from the pre measurement |
 | `identity.calver` | true | true | unchanged |  |
@@ -62,7 +63,7 @@ Each one blocks the migration until it is fixed or explained; an explanation bel
 
 | Property | Pre | Post | Verdict | Why |
 |---|---|---|---|---|
-| `narrative.pages` | 0 | 19 | expected-change | narrative routing (spec 9d/9e) moves pages between pagecontent, intro-notes and translations -- conservation of the CONTENT is checked by the verifier against page-map.tsv |
+| `narrative.pages` | 0 | 18 | expected-change | narrative routing (spec 9d/9e) moves pages between pagecontent, intro-notes and translations -- conservation of the CONTENT is checked by the verifier against page-map.tsv |
 | `narrative.intro_note_pages` | 0 | 7 | expected-change | narrative routing (spec 9d/9e) moves pages between pagecontent, intro-notes and translations -- conservation of the CONTENT is checked by the verifier against page-map.tsv |
 | `narrative.translation_pages` | 0 | 19 | expected-change | narrative routing (spec 9d/9e) moves pages between pagecontent, intro-notes and translations -- conservation of the CONTENT is checked by the verifier against page-map.tsv |
 

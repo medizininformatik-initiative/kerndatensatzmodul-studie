@@ -8,14 +8,14 @@ _Migrations-/Zustandstreue eines EINEN Moduls über mehrere Stände: Identitäts
 
 <div align="center">
 
-| Identitätsfeld | studie-source-master-6cc63c5 | studie-migrated | Befund |
+| Identitätsfeld | studie-source-master-6cc63c5 | studie-ballot-rc1 | Befund |
 |---|---|---|---|
 | id | mii-ig-studie | mii-ig-studie | ✓ identisch |
 | canonical | https://www.medizininformatik-initiative.de/fhir/modul-studie | https://www.medizininformatik-initiative.de/fhir/modul-studie | ✓ identisch |
 | packageId | de.medizininformatikinitiative.kerndatensatz.studie | de.medizininformatikinitiative.kerndatensatz.studie | ✓ identisch |
 | name | MII_IG_Medizinisches_Forschungsvorhaben | MII_IG_Medizinisches_Forschungsvorhaben | ✓ identisch |
 | title | — | MII Implementation Guide Medizinisches Forschungsvorhaben | ⚠ DIVERGIERT |
-| version | 2026.0.1 | 2026.0.1 | ✓ identisch |
+| version | 2026.0.1 | 2027.0.0-ballot.rc1 | ⚠ DIVERGIERT |
 | status | active | active | ✓ identisch |
 | fhirVersion | 4.0.1 | 4.0.1 | ✓ identisch |
 | license | — | CC-BY-4.0 | ⚠ DIVERGIERT |
@@ -27,46 +27,46 @@ _Migrations-/Zustandstreue eines EINEN Moduls über mehrere Stände: Identitäts
 
 <div align="center">
 
-| Ebene | studie-source-master-6cc63c5 | studie-migrated |
+| Ebene | studie-source-master-6cc63c5 | studie-ballot-rc1 |
 |---|---|---|
-| Default-Sprache (input/pagecontent) | 1 / 18 | 19 / 8422 |
-| Übersetzungen (input/translations) | 0 / 0 | 19 / 9766 |
+| Default-Sprache (input/pagecontent) | 1 / 18 | 19 / 8391 |
+| Übersetzungen (input/translations) | 0 / 0 | 19 / 9727 |
 | Plattform-Quellseiten (verbleibend) | 0 / 0 | 0 / 0 |
 | sonstige | 0 / 0 | 7 / 1449 |
 
 </div>
 
-_Wort-Abdeckung relativ zur Referenz (Heuristik; ein bilingualer Stand überschreitet 100 %):_  **studie-migrated: Default 46789 % · Übersetzungen 54256 %**
+_Wort-Abdeckung relativ zur Referenz (Heuristik; ein bilingualer Stand überschreitet 100 %):_  **studie-ballot-rc1: Default 46617 % · Übersetzungen 54039 %**
 
 ### Befund
 
-- Identität: **⚠ 3 Feld(er) DIVERGIEREN**
+- Identität: **⚠ 4 Feld(er) DIVERGIEREN**
 - Publizierter Artefakt-Satz (Kategorie+Name): **IDENTISCH** (59 Artefakte)
 - Canonical-URLs der Artefakte: ✓ identisch (42 URLs)
-_Interne FSH-Konstrukte (informativ, kein Befund): studie-migrated: 0 fehlend, 36 zusätzlich (z.B. Template-Rulesets)._
+_Interne FSH-Konstrukte (informativ, kein Befund): studie-ballot-rc1: 0 fehlend, 36 zusätzlich (z.B. Template-Rulesets)._
 
 ## Kennzahlen (je IG)
 
 <div align="center">
 
-| Metrik | studie-source-master-6cc63c5 | studie-migrated |
+| Metrik | studie-source-master-6cc63c5 | studie-ballot-rc1 |
 |---|---|---|
 | Artefakte gesamt | 59 | 59 |
 | Profile | 7 | 7 |
 | ValueSets | 2 | 2 |
 | CodeSystems | 2 | 2 |
 | Beispiele | 17 | 17 |
-| Narrative-Inhalts-Seiten | 0 | 19 |
-| Wörter gesamt | 0 | 8422 |
+| Narrative-Inhalts-Seiten | 0 | 18 |
+| Wörter gesamt | 0 | 8377 |
 | Plattform-Direktiven | 0 | 0 |
 | Doppelte Inhaltsblöcke | 0 | 2 |
 | Nicht referenzierte Bilder | 0 | 0 |
 | Dependencies (floating) | 2 (0) | 5 (0) |
-| Ø Wörter / Seite | 0 | 443,3 |
-| Median Wörter / Seite | 0 | 294 |
+| Ø Wörter / Seite | 0 | 465,4 |
+| Median Wörter / Seite | 0 | 296 |
 | Hersteller-Lock-in /100 | 0 | 0 |
 | Standard-Terminologie % | 87 | 96 |
-| Bus-Faktor % (Top-Autor) | 39 | 39 |
+| Bus-Faktor % (Top-Autor) | 39 | 38 |
 
 </div>
 
@@ -76,7 +76,7 @@ _Artefakte mit identischem Namen in mehreren IGs deuten auf Konsolidierungspoten
 
 <div align="center">
 
-| Metrik | studie-source-master-6cc63c5 | studie-migrated |
+| Metrik | studie-source-master-6cc63c5 | studie-ballot-rc1 |
 |---|---|---|
 | Direktiven je Seite | 0 | 0.0 |
 | Beispiele je Profil | 2.43 | 2.43 |
@@ -98,7 +98,7 @@ quadrantChart
     quadrant-3 wenige & direktivenarm
     quadrant-4 viele & direktivenarm
     "studie-source-master-6cc63c5": [1.0, 0.0]
-    "studie-migrated": [1.0, 0.0]
+    "studie-ballot-rc1": [1.0, 0.0]
 ```
 
 </div>

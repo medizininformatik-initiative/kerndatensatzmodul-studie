@@ -1,6 +1,6 @@
 ## Verification (generated — do not retype)
 
-Produced by `verify-migration.py` from the target tree AND `migration-log/run.log`, the two oracles. **93 IDENTISCH · 37 DIVERGIERT · 22 NICHT PRÜFBAR.**
+Produced by `verify-migration.py` from the target tree AND `migration-log/run.log`, the two oracles. **92 IDENTISCH · 37 DIVERGIERT · 23 NICHT PRÜFBAR.**
 
 Verdicts: **IDENTISCH** = matches the source · **DIVERGIERT** = differs, named below · **NICHT PRÜFBAR** = could not be checked, which is **not** a pass and owes a named human an action.
 
@@ -13,7 +13,7 @@ Verdicts: **IDENTISCH** = matches the source · **DIVERGIERT** = differs, named 
 | conservation | C5 | menus lead somewhere, and every page is in a menu | 4 | 0 | 0 |
 | conservation | C6 | each text passage landed on the page the page map promised | 11 | 0 | 8 |
 | conservation | C7 | content the migration wrote is marked as such in the guide | 0 | 14 | 0 |
-| fidelity | F1 | module identity is unchanged (id, canonical, version, licence, ...) | 8 | 1 | 0 |
+| fidelity | F1 | module identity is unchanged (id, canonical, version, licence, ...) | 7 | 1 | 1 |
 | fidelity | F2 | dependency versions are pinned exactly as the source pinned them | 1 | 1 | 4 |
 | fidelity | F3 | the licence is asserted from evidence, never defaulted | 2 | 0 | 0 |
 | fidelity | F4 | no mechanical FSH conversion residue is left | 1 | 0 | 0 |
@@ -90,6 +90,7 @@ Verdicts: **IDENTISCH** = matches the source · **DIVERGIERT** = differs, named 
 | `C6-dd2f30` | C6 | each text passage landed on the page the page map promised | ResearchStudy.page.md | mapped to StructureDefinition-mii-pr-studie-studie-intro, which holds 2 run(s), but MOST landed on search-parameters (17), StructureDefinition-mii-pr-studie-studie-intro (2), StructureDefinition-mii-pr-studie-proband-intro (1) | a split is legitimate when the source page was deliberately divided; confirm the routing or correct the page map |
 | `C6-c8ed00` | C6 | each text passage landed on the page the page map promised | ResearchSubject.page.md | mapped to StructureDefinition-mii-pr-studie-proband-intro, which holds 1 run(s), but MOST landed on search-parameters (8), StructureDefinition-mii-pr-studie-proband-intro (1), StructureDefinition-mii-pr-studie-studie-intro (1) | a split is legitimate when the source page was deliberately divided; confirm the routing or correct the page map |
 | `C6-7057c8` | C6 | each text passage landed on the page the page map promised | StudyInclusion.page.md | mapped to StructureDefinition-mii-pr-studie-studieneinschluss-anfrage-intro, which holds 2 run(s), but MOST landed on search-parameters (7), StructureDefinition-mii-pr-studie-studieneinschluss-anfrage-intro (2), StructureDefinition-mii-pr-studie-proband-intro (1) | a split is legitimate when the source page was deliberately divided; confirm the routing or correct the page map |
+| `F1-6cbfea` | F1 | module identity is unchanged (id, canonical, version, licence, ...) | version | target 2027.0.0-ballot.rc1 vs source 2026.0.1 -- the target version is a human decision (spec 2.1) | confirm the target version at Gate A and record it |
 | `F2-fd0e73` | F2 | dependency versions are pinned exactly as the source pinned them | hl7.fhir.uv.crmi | target-only dependency 2.0.0 (not in the source) | confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition |
 | `F2-047205` | F2 | dependency versions are pinned exactly as the source pinned them | hl7.fhir.uv.extensions.r4 | target-only dependency 5.3.0 (not in the source) | confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition |
 | `F2-e78ce4` | F2 | dependency versions are pinned exactly as the source pinned them | hl7.fhir.uv.xver-r5.r4 | target-only dependency 0.1.0 (not in the source) | confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition |

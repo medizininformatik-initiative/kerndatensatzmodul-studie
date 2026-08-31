@@ -28,7 +28,6 @@ One checkbox per open obligation, from the machine ledgers. Ticking a box assert
 
 #### Gate C — language (a reviewer competent in both languages)
 
-- [ ] **C7-b0236f** (C7 - migration-written content is marked as such): spell the source page exactly as migration-log/page-map.tsv's source column spells it, or write `none` -- which is what a suggestion or a stand-in carries, because it had no source — *fix it, or accept it with a named reason in the report*
 - [ ] **C7 ×14** (C7 - migration-written content is marked as such): mark the passage per spec section 9d (the DERIVED comment plus the visible box, in BOTH language mirrors), or restore the source wording; if the text was deliberately dropped, record that in migration-log/page-map.tsv instead — *fix it, or accept it with a named reason in the report*  <sub>ids: C7-0209b1, C7-9191f0, C7-2a031c, C7-e9d23e, C7-8c8c7d, C7-093a42, C7-cb08b7, C7-3f7797, C7-5b9833, C7-283e85, C7-4f50d8, C7-12d2ac, C7-b541e0, C7-c672c0</sub>
 
 #### Gate D — release (TF-KDS / AG IOP / NSG; merging is what publishes)

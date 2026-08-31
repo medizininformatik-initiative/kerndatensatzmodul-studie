@@ -4,11 +4,11 @@
   "mode": "static",
   "analyzed": {
     "path": "/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/mig/work",
-    "label": "studie-migrated",
+    "label": "studie-ballot-rc1",
     "project_root_nested": null,
     "project_root_candidates": null,
-    "git_commit": "108710b",
-    "timestamp": "2026-08-31T18:16:43Z"
+    "git_commit": "731ffc98",
+    "timestamp": "2026-08-31T21:29:48Z"
   },
   "identity": {
     "id": "mii-ig-studie",
@@ -16,7 +16,7 @@
     "packageId": "de.medizininformatikinitiative.kerndatensatz.studie",
     "name": "MII_IG_Medizinisches_Forschungsvorhaben",
     "title": "MII Implementation Guide Medizinisches Forschungsvorhaben",
-    "version": "2026.0.1",
+    "version": "2027.0.0-ballot.rc1",
     "calver": true,
     "status": "active",
     "fhirVersion": "4.0.1",
@@ -250,7 +250,7 @@
       "instanceOf": null,
       "category": "valuesets",
       "path": "input/fsh/examples.fsh",
-      "line": 260
+      "line": 261
     },
     {
       "type": "CodeSystem",
@@ -258,7 +258,7 @@
       "instanceOf": null,
       "category": "codesystems",
       "path": "input/fsh/examples.fsh",
-      "line": 270
+      "line": 272
     },
     {
       "type": "ValueSet",
@@ -266,7 +266,7 @@
       "instanceOf": null,
       "category": "valuesets",
       "path": "input/fsh/examples.fsh",
-      "line": 294
+      "line": 297
     },
     {
       "type": "Profile",
@@ -466,7 +466,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 215
+      "line": 216
     },
     {
       "type": "Instance",
@@ -474,7 +474,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 229
+      "line": 230
     },
     {
       "type": "Instance",
@@ -482,7 +482,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 243
+      "line": 244
     },
     {
       "type": "Instance",
@@ -490,7 +490,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 257
+      "line": 258
     },
     {
       "type": "Instance",
@@ -498,7 +498,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 271
+      "line": 272
     },
     {
       "type": "Instance",
@@ -506,7 +506,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 285
+      "line": 286
     },
     {
       "type": "Instance",
@@ -514,7 +514,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 299
+      "line": 300
     },
     {
       "type": "Instance",
@@ -522,7 +522,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 313
+      "line": 314
     },
     {
       "type": "Instance",
@@ -530,7 +530,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 327
+      "line": 328
     },
     {
       "type": "Instance",
@@ -538,7 +538,7 @@
       "instanceOf": "SearchParameter",
       "category": "searchparameters",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 341
+      "line": 342
     },
     {
       "type": "Instance",
@@ -546,7 +546,7 @@
       "instanceOf": "MII_PR_Studie_Studie",
       "category": "examples",
       "path": "input/fsh/profiles/ResearchStudy.fsh",
-      "line": 355
+      "line": 356
     },
     {
       "type": "Profile",
@@ -1049,10 +1049,15 @@
       "intro_notes": true,
       "implementation_guides_tree": false,
       "dual_source": false,
-      "pagecontent_last_commit": "2026-08-31T20:12:15+02:00",
+      "pagecontent_last_commit": "2026-08-31T22:45:25+02:00",
       "implementation_guides_last_commit": null
     },
-    "qa_baseline": null,
+    "qa_baseline": {
+      "source": "output/qa.json",
+      "errs": 17,
+      "warnings": 652,
+      "date": "Mon, 31 Aug, 2026 21:18:05 +0000"
+    },
     "_comment": "migration Gate-0 aspects; None = not measurable from this tree (obtain it, never assume it)"
   },
   "dependencies": {
@@ -1072,14 +1077,14 @@
   },
   "narrative": {
     "format": "target",
-    "pages": 19,
+    "pages": 18,
     "pages_all": 19,
     "translation_pages": 19,
-    "translation_words": 9766,
+    "translation_words": 9727,
     "intro_note_pages": 7,
     "intro_note_words": 1449,
-    "words": 8422,
-    "words_all_incl_stubs": 19637,
+    "words": 8377,
+    "words_all_incl_stubs": 19567,
     "images": 2,
     "mandatory_present": [
       "index",
@@ -1130,9 +1135,9 @@
       },
       {
         "path": "input/pagecontent/examples.md",
-        "words": 36,
+        "words": 14,
         "kind": "target",
-        "stub": false
+        "stub": true
       },
       {
         "path": "input/pagecontent/extensions.md",
@@ -1154,7 +1159,7 @@
       },
       {
         "path": "input/pagecontent/index.md",
-        "words": 1097,
+        "words": 1088,
         "kind": "target",
         "stub": false
       },
@@ -1286,9 +1291,9 @@
       },
       {
         "path": "input/translations/en/pagecontent/examples.md",
-        "words": 45,
+        "words": 14,
         "kind": "translation",
-        "stub": false
+        "stub": true
       },
       {
         "path": "input/translations/en/pagecontent/extensions.md",
@@ -1310,7 +1315,7 @@
       },
       {
         "path": "input/translations/en/pagecontent/index.md",
-        "words": 1250,
+        "words": 1242,
         "kind": "translation",
         "stub": false
       },
@@ -1371,14 +1376,14 @@
     ]
   },
   "linguistics": {
-    "content_pages": 19,
-    "words_total": 8422,
-    "words_avg": 443.3,
-    "words_median": 294,
-    "words_min": 36,
+    "content_pages": 18,
+    "words_total": 8377,
+    "words_avg": 465.4,
+    "words_median": 296,
+    "words_min": 48,
     "words_max": 2044,
     "longest_page": "input/pagecontent/metadata.md",
-    "shortest_page": "input/pagecontent/examples.md",
+    "shortest_page": "input/pagecontent/translationinfo.md",
     "per_page": [
       {
         "path": "input/pagecontent/metadata.md",
@@ -1390,7 +1395,7 @@
       },
       {
         "path": "input/pagecontent/index.md",
-        "words": 1097
+        "words": 1088
       },
       {
         "path": "input/pagecontent/version-history.md",
@@ -1451,10 +1456,6 @@
       {
         "path": "input/pagecontent/translationinfo.md",
         "words": 48
-      },
-      {
-        "path": "input/pagecontent/examples.md",
-        "words": 36
       }
     ]
   },
@@ -1634,7 +1635,7 @@
   "maturity": {
     "components": {
       "Status": "active",
-      "Doku-Vollständigkeit": 100,
+      "Doku-Vollständigkeit": 95,
       "Beispiel-Abdeckung": 100,
       "Governance": 100
     },
@@ -1651,7 +1652,7 @@
       "devcontainer": true,
       "governance_score": 100
     },
-    "doc_health_pct": 100
+    "doc_health_pct": 95
   },
   "portfolio": {
     "vendor_lockin_score": 0,
@@ -1674,7 +1675,7 @@
     "dependency_stale_count": 0,
     "dependency_stale": [],
     "dependency_staleness_note": "Heuristik aus CalVer-Jahr; exakt nur via Package-Registry (extern).",
-    "release_cadence_per_year": 89.7,
+    "release_cadence_per_year": 91.7,
     "days_since_last_commit": 0,
     "tags": 0
   },
@@ -1704,18 +1705,18 @@
     "privacy_page_words": 0,
     "privacy_page_substantial": false,
     "examples_contain_pii_like": true,
-    "bus_factor_top_author_pct": 39,
-    "bus_factor_authors": 10,
+    "bus_factor_top_author_pct": 38,
+    "bus_factor_authors": 11,
     "bus_factor_risk": "gering",
     "breaking_change_risk": null,
     "breaking_change_note": "Erfordert Diff gegen die publizierte Vorversion (Build/extern) — statisch nicht erhoben."
   },
   "git": {
-    "commits": 528,
-    "authors": 10,
-    "top_author_share": 39,
+    "commits": 540,
+    "authors": 11,
+    "top_author_share": 38,
     "days_since_last": 0,
-    "commits_per_year": 89.7,
+    "commits_per_year": 91.7,
     "tags": 0,
     "first": "2020-10-12",
     "last": "2026-08-31",
