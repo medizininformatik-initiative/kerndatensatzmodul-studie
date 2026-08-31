@@ -6,7 +6,7 @@
     <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-fc2fbeee-dfa9-4dfa-aa9d-9d14d183b80f.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-5bd8d913-f847-435c-aaff-d2faf9c896f5.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-9f4b8da1-8a87-44f9-b56f-394c4d4c475f.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-6cdb1f8b-84e5-434b-b266-55cc3a0ac077.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div></div>
   </text>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register"/>
   <identifier>
@@ -22,7 +22,7 @@
       <code value="asset-collection"/>
     </coding>
   </type>
-  <date value="2026-08-31T19:54:32+00:00"/>
+  <date value="2026-08-31T20:03:51+00:00"/>
   <publisher value="NUM-DIZ"/>
   <contact>
     <name value="NUM-DIZ"/>

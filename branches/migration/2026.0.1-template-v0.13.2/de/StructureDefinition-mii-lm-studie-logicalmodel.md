@@ -93,7 +93,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-lm-studi
   "name" : "MII_LM_Studie_LogicalModel",
   "title" : "MII LM Studie LogicalModel",
   "status" : "active",
-  "date" : "2026-08-31T19:54:32+00:00",
+  "date" : "2026-08-31T20:03:51+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
