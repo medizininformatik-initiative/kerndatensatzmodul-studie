@@ -1,1 +1,13 @@
 fsh-generated/resources/ImplementationGuide-mii-ig-studie.json
+_updatePublisher.sh
+_updatePublisher.bat
+_genonce.sh
+_genonce.bat
+_gencontinuous.sh
+_gencontinuous.bat
+_build.bat
+_build.sh
+/input-cache
+/output
+/temp
+/template
