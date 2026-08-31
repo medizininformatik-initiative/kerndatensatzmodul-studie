@@ -1,11 +1,11 @@
 {
   "profiles": [
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/example-patient",
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie",
       "tests": [
         {
-          "source": "valid/example-patient-valid.json",
-          "description": "Valid: Patient with a family name (name 1..* and name.family 1..1 satisfied)",
+          "source": "valid/researchstudy-studie-valid.json",
+          "description": "Valid: the module's own ResearchStudy example (mii-exa-studie-studie)",
           "valid": true
         }
       ]

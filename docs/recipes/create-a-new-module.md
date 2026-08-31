@@ -47,11 +47,11 @@
    ```
 3. **Fill the placeholders.** Open `sushi-config.yaml` and replace every `{{…}}`
    (each is documented inline). The key ones:
-   - `studie` — lowercase short name (`person`), drives packageId/id/canonical.
-   - `Medizinisches_Forschungsvorhaben` — CamelCase (`Person`) → `name: MII_IG_Person`.
-   - `Medizinisches Forschungsvorhaben` — the human-readable title part (`Person`), which becomes
+   - `{{MODULE_SLUG}}` — lowercase short name (`person`), drives packageId/id/canonical.
+   - `{{MODULE_NAME}}` — CamelCase (`Person`) → `name: MII_IG_Person`.
+   - `{{MODULE_TITLE}}` — the human-readable title part (`Person`), which becomes
      `title: MII Implementation Guide Person`.
-   - `2026.0.1` — `YYYY.n.n` (e.g. `2027.0.0`; drafts/pre-releases add a
+   - `{{CALVER_VERSION}}` — `YYYY.n.n` (e.g. `2027.0.0`; drafts/pre-releases add a
      SemVer prerelease suffix such as `2027.0.0-draft.1`), and the related dates.
    `sushi-config.yaml` is where you start, not where you finish: its header lists
    all **19** placeholders (15 active, 4 optional) and the files each occurs in.
@@ -63,11 +63,11 @@
 
    ```sh
    # if your sushi-config.yaml says  id: mii-ig-person
-   git mv 'input/translations/de/ImplementationGuide-mii-ig-studie.po' \
+   git mv 'input/translations/de/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.po' \
           'input/translations/de/ImplementationGuide-mii-ig-person.po'
-   git mv 'input/pagecontent/ImplementationGuide-mii-ig-studie.md' \
+   git mv 'input/pagecontent/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.md' \
           'input/pagecontent/ImplementationGuide-mii-ig-person.md'
-   git mv 'input/translations/de/pagecontent/ImplementationGuide-mii-ig-studie.md' \
+   git mv 'input/translations/de/pagecontent/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.md' \
           'input/translations/de/pagecontent/ImplementationGuide-mii-ig-person.md'
    ```
 

@@ -24,8 +24,8 @@ and sign off, the profiles are what implementers build against.
    (`MII_LM_<Module>`):
 
    ```fsh
-   Logical: MII_LM_Medizinisches_Forschungsvorhaben
-   Title: "MII LM Medizinisches Forschungsvorhaben"
+   Logical: MII_LM_{{MODULE_NAME}}
+   Title: "MII LM {{MODULE_TITLE}}"
    Description: "Logisches Modell des Moduls …"
    * element 1..1 string "Kurzbeschreibung"
    ```

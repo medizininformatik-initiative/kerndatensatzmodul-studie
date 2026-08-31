@@ -191,17 +191,17 @@ the ToC.
 The scaffold ships the catalogue as:
 
 ```text
-input/translations/de/ImplementationGuide-mii-ig-studie.po
+input/translations/de/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.po
 ```
 
 **The publisher matches the catalogue to its IG resource BY FILE NAME**
-(`<resourceType>-<id>`), so when you replace `studie` in the file
+(`<resourceType>-<id>`), so when you replace `{{MODULE_SLUG}}` in the file
 *contents* you must **also rename the file** to match your IG's `id` in
 `sushi-config.yaml`:
 
 ```sh
 # your sushi-config.yaml has:  id: mii-ig-person
-git mv 'input/translations/de/ImplementationGuide-mii-ig-studie.po' \
+git mv 'input/translations/de/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.po' \
        'input/translations/de/ImplementationGuide-mii-ig-person.po'
 ```
 
@@ -209,7 +209,7 @@ git mv 'input/translations/de/ImplementationGuide-mii-ig-studie.po' \
 > **silently ignored** — no warning, no QA error, a green build. The only symptom
 > is that page titles, breadcrumbs and the ToC stay in the default language, which
 > is easy to mistake for "the publisher cannot do this". Besides this catalogue, only the two
-> ImplementationGuide intro pages (`ImplementationGuide-mii-ig-studie.md`
+> ImplementationGuide intro pages (`ImplementationGuide-mii-ig-{{MODULE_SLUG}}.md`
 > in `input/pagecontent/` and its German mirror) carry a placeholder in their
 > file *name* — those fail the build loudly when unrenamed
 > ([create-a-new-module.md](create-a-new-module.md) step 4 renames all three);
@@ -289,7 +289,7 @@ moves between them.
 | Base/footer labels blank in some language | The template lacks that language's UI-string catalog | Fix in the template repo (§3); rebuild once released (the URL default fetches it), or — if you build from the vendored fallback — make sure your `ig-template/` mirror is current |
 | A translated page does not appear on `/de/` | It is a `<name>-de.md` sibling, or the file name differs from the English source page | Move it to `input/translations/de/pagecontent/<same-filename>` (§1) |
 | A resource supplement does nothing | `msgid` mismatch, wrong file name, or an untranslatable field | Copy the `msgid` from `fsh-generated/resources/…`; check §4 |
-| **Page content is German but the title, breadcrumb and ToC entry stay English** | The IG-level catalogue was never renamed from `ImplementationGuide-mii-ig-studie.po` to your IG id, so the publisher never matched it to the resource | Rename it to `ImplementationGuide-<your-ig-id>.po` (§5) |
+| **Page content is German but the title, breadcrumb and ToC entry stay English** | The IG-level catalogue was never renamed from `ImplementationGuide-mii-ig-{{MODULE_SLUG}}.po` to your IG id, so the publisher never matched it to the resource | Rename it to `ImplementationGuide-<your-ig-id>.po` (§5) |
 | One page title is German, another is not | That page's title is missing from the catalogue, or its `msgid` does not match the `pages:` title character for character | Add/correct the `msgid` (§5) |
 | The breadcrumb root reads "Table of Contents" on `/de/` | The catalogue has no `msgid "Table of Contents"` | Add that entry (§5) |
 | A whole language folder is ignored | The folder is not listed under the `translation-sources` parameter | Add it (Prerequisites) |

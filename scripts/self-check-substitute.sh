@@ -19,7 +19,7 @@
 #
 # WHAT IT TOUCHES
 #   sushi-config.yaml, ig.ini and every build input under input/ — contents AND
-#   file names (input/translations/de/ImplementationGuide-mii-ig-studie.po
+#   file names (input/translations/de/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.po
 #   must be RENAMED as well as substituted, or the publisher silently ignores it
 #   and German pages fall back to English titles). Nothing is ever committed:
 #   the workflows do not push source.
@@ -113,7 +113,7 @@ subst() { # $1=file  (stdin: KEY|VALUE lines)
 }
 
 # sushi-config.yaml + ig.ini (ig.ini's `ig =` line references
-# ImplementationGuide-mii-ig-studie.json; the `template =` line is left
+# ImplementationGuide-mii-ig-{{MODULE_SLUG}}.json; the `template =` line is left
 # untouched — it already names a buildable template: the repository-URL default,
 # or the vendored ig-template/ fallback).
 subst sushi-config.yaml < "${placeholders}"
@@ -129,7 +129,7 @@ done
 
 # Placeholders also appear in FILE NAMES, not only in contents: the IG-level
 # translation catalogue is named after the IG resource
-# (ImplementationGuide-mii-ig-studie.po), and the publisher matches it
+# (ImplementationGuide-mii-ig-{{MODULE_SLUG}}.po), and the publisher matches it
 # to fsh-generated/resources/<Type>-<id>.json BY NAME. Left unrenamed it is
 # silently ignored and the translated variant falls back to default-language
 # page titles — visible as English breadcrumbs on a fully translated page.
@@ -163,7 +163,7 @@ if grep -vE '^[[:space:]]*#' sushi-config.yaml | grep -q '{{[A-Za-z0-9_]*}}'; th
   exit 1
 fi
 # Guard: the version the render will display is the one that was asked for.
-# The scaffold quotes the value (`version: "2026.0.1"`), so accept it
+# The scaffold quotes the value (`version: "{{CALVER_VERSION}}"`), so accept it
 # with or without quotes rather than depending on that detail.
 if ! grep -qE "^version:[[:space:]]*[\"']?${CALVER_VERSION}[\"']?[[:space:]]*(#.*)?\$" sushi-config.yaml; then
   echo "::error::sushi-config.yaml does not declare 'version: ${CALVER_VERSION}' after substitution."

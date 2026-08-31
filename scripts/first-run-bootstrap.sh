@@ -103,16 +103,16 @@ print_checklist() {
 
 1. Replace every {{PLACEHOLDER}} in the scaffold. Start here and follow the
    comments — the module does NOT build until they are all replaced:
-     - sushi-config.yaml   (studie, Medizinisches_Forschungsvorhaben, Medizinisches Forschungsvorhaben,
-                            Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben, 2026.0.1, dates, …)
-     - ig.ini              (the studie in the ig path; LEAVE the
+     - sushi-config.yaml   ({{MODULE_SLUG}}, {{MODULE_NAME}}, {{MODULE_TITLE}},
+                            {{MODULE_DESCRIPTION}}, {{CALVER_VERSION}}, dates, …)
+     - ig.ini              (the {{MODULE_SLUG}} in the ig path; LEAVE the
                             `template =` line as it is — the repository-URL
                             default, with `#ig-template` as the vendored
                             offline fallback — until the MII template package
                             is published; see
                             docs/recipes/switch-template-to-published.md)
      - publication-request.json, .github/workflows/go-publish.yml
-       (forschungsgruppe-digital-health, mii-kds-studie-ig-inoffiziell, canonical, …)
+       ({{GITHUB_ORG}}, {{REPO_NAME}}, canonical, …)
      - qc/custom.rules.yaml, tests/, the pages and the FSH sources
    Run `node scripts/convention-check.mjs` — it must be green (parameterized
    fields are OK until you resolve them; a release branch requires them all set).

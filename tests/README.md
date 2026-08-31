@@ -64,10 +64,10 @@ The wiring is one line in `sushi-config.yaml`, under `parameters:`:
 ```
 
 **It ships COMMENTED OUT.** Uncomment it when you create a module — after
-replacing `studie` in `profiles.json` and in the fixtures' `meta.profile`
+replacing `{{MODULE_SLUG}}` in `profiles.json` and in the fixtures' `meta.profile`
 with your module slug. Two reasons it is not active in the template repo:
 
-1. The template's canonical still contains `studie`. The template repo's
+1. The template's canonical still contains `{{MODULE_SLUG}}`. The template repo's
    CI self-check substitutes placeholders only into `sushi-config.yaml`, `ig.ini`
    and the narrative pages — not into `tests/` — so an active
    `profile-test-cases` would make the self-check build validate against a

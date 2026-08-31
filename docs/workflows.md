@@ -81,7 +81,7 @@ Notes:
   MII workflows read: `qc/custom.rules.yaml` (the Simplifier quality-control rule
   set — MII naming conventions) and `advisor.json` (the errors the HL7 Java
   validator may ignore). Both ship with the template; `qc/custom.rules.yaml`
-  carries `studie`/`Medizinisches_Forschungsvorhaben`/`2026.0.1` placeholders
+  carries `{{MODULE_SLUG}}`/`{{MODULE_NAME}}`/`{{CALVER_VERSION}}` placeholders
   like the rest of the scaffold. The .NET job is configured upstream to always
   pass, so a naming violation appears in its log, not as a red check.
 - **Terminology** is auto-selected, not a toggle: builds use **SU-TermServ** when the
@@ -162,7 +162,7 @@ step and there must not be one again.
 | | |
 | --- | --- |
 | **Built from the tag** | The job checks the released tag out into `release-src/` and builds only that. The workspace root stays on the workflow's own ref, so the publishing tooling (`scripts/gen-pages-index.mjs`, `scripts/self-check-substitute.sh`) is current even when re-rendering an old tag. |
-| **The render names its release** | The demo's `2026.0.1` is substituted by `scripts/self-check-substitute.sh` with `SELF_CHECK_RELEASE_TAG` set, producing `2027.0.0-template.<tag without v>`. After the build the generated `ImplementationGuide` is read back and the job **fails** unless it carries exactly that value. |
+| **The render names its release** | The demo's `{{CALVER_VERSION}}` is substituted by `scripts/self-check-substitute.sh` with `SELF_CHECK_RELEASE_TAG` set, producing `2027.0.0-template.<tag without v>`. After the build the generated `ImplementationGuide` is read back and the job **fails** unless it carries exactly that value. |
 | **The links follow** | `gh-pages/index.html` is regenerated in the same commit as the demo it points at, so path, rendered content and link move together or not at all. |
 | **Same toolchain as every other build** | The pins are copied under the same names as `ig-publisher.yml` / `go-publish.yml` / `module-release.yml`, and `scripts/toolchain-pins.test.mjs` fails the build if they drift apart. |
 

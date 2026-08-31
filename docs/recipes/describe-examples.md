@@ -26,7 +26,7 @@ and that validate.
 
    ```fsh
    Instance: ExamplePatientMinimal
-   InstanceOf: MII_PR_Medizinisches_Forschungsvorhaben_Patient
+   InstanceOf: MII_PR_{{MODULE_NAME}}_Patient
    Usage: #example
    Title: "Example: minimal conformant patient"
    Description: "Kleinstes konformes Beispiel …"

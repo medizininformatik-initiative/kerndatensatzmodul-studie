@@ -26,7 +26,7 @@ scaffold treats that as the default and gives you `input/images-source/` for it.
 2. Reference the rendered image from a page:
 
    ```markdown
-   <img src="module-overview.svg" alt="Overview of the Medizinisches Forschungsvorhaben module" style="max-width:100%">
+   <img src="module-overview.svg" alt="Overview of the {{MODULE_TITLE}} module" style="max-width:100%">
    ```
 
 3. Always write a meaningful `alt` text — it is what screen readers and search

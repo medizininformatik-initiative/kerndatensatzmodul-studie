@@ -5,12 +5,12 @@ import assert from "node:assert/strict";
 import { evaluate, readTopLevel, readDependencies, readIgIniTemplate, scanOptionalPages } from "./convention-check.mjs";
 
 // A parameterized scaffold sushi-config, as this repo ships it.
-const SCAFFOLD = `id: mii-ig-studie
-canonical: https://www.medizininformatik-initiative.de/fhir/modul-studie
-name: MII_IG_Medizinisches_Forschungsvorhaben
-title: MII Implementation Guide Medizinisches Forschungsvorhaben
-version: "2026.0.1"
-packageId: de.medizininformatikinitiative.kerndatensatz.studie
+const SCAFFOLD = `id: mii-ig-{{MODULE_SLUG}}
+canonical: https://www.medizininformatik-initiative.de/fhir/modul-{{MODULE_SLUG}}
+name: MII_IG_{{MODULE_NAME}}
+title: MII Implementation Guide {{MODULE_TITLE}}
+version: "{{CALVER_VERSION}}"
+packageId: de.medizininformatikinitiative.kerndatensatz.{{MODULE_SLUG}}
 dependencies:
   de.basisprofil.r4: 1.5.4
   hl7.fhir.uv.crmi: 2.0.0
@@ -69,12 +69,12 @@ test("M5 still rejects what is genuinely outside the canonical universe", () => 
 });
 
 test("M5 keeps placeholder handling in the ext/core spaces", () => {
-  const finding = m5("https://www.medizininformatik-initiative.de/fhir/ext/modul-studie", false);
+  const finding = m5("https://www.medizininformatik-initiative.de/fhir/ext/modul-{{MODULE_SLUG}}", false);
   assert.equal(finding.status, "parameterized");
 });
 
 test("extractors read values, strip quotes and comments", () => {
-  assert.equal(readTopLevel(SCAFFOLD, "id"), "mii-ig-studie");
+  assert.equal(readTopLevel(SCAFFOLD, "id"), "mii-ig-{{MODULE_SLUG}}");
   assert.equal(readTopLevel(CONCRETE, "version"), "2026.0.1");
   assert.equal(readTopLevel("status: active # a comment\n", "status"), "active");
   // Quoted value WITH a trailing comment: the quotes end the value, the
@@ -320,14 +320,14 @@ test("scanOptionalPages pairs the languages of this repository's scaffold", () =
   // optional pages and deletes the markers of KEPT ones (the M9 decision), so
   // the full-scaffold state below holds only where the placeholders do —
   // detected the same way the self-check does, by an unreplaced
-  // studie in sushi-config.yaml (this test ships into created
+  // {{MODULE_SLUG}} in sushi-config.yaml (this test ships into created
   // modules; asserting the template's committed state there broke a real
   // migration's CI). In every repository, whatever optional pages DO exist
   // must agree across the two languages.
   const sushi = readFileSync(`${root}/sushi-config.yaml`, "utf8");
   // Detected by the PARSED id value, never by a substring of the whole file:
   // a module that keeps the placeholder documentation as COMMENTS still
-  // contains "studie" textually, and the substring test forced the
+  // contains "{{MODULE_SLUG}}" textually, and the substring test forced the
   // full-scaffold assertions below onto a real module that had legitimately
   // removed optional pages per its M9 decision (issue #165, measured on the
   // Onkologie migration). The full-scaffold pins further down are DELIBERATE
