@@ -9,5 +9,3 @@ template ships the synthetic example
 **Synthetic data only** — never use real or realistic-looking patient data in
 examples.
 
-> [TODO: Add meaningful example instances for your profiles.]
-{: .ig-highlight .ig-highlight-grey}

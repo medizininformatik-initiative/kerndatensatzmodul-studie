@@ -11,8 +11,6 @@
      release, in BOTH languages, as part of the release pull request. Never edit
      a released section afterwards. -->
 
-### Changelog
-
 This page records the changes between the released versions of the
 **Medizinisches Forschungsvorhaben** module, newest version first. It follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the KDS calendar
@@ -25,67 +23,79 @@ by category:
 * **Changed** — modified constraints, bindings, guidance or documentation.
 * **Deprecated** — artifacts that still exist but should no longer be used.
 * **Removed** — artifacts that were withdrawn.
-* **Fixed** — corrections of defects.
-* **Security** — changes with a security or data-protection impact.
 
-Leave out the categories with nothing to report. Where a change is driven by an
-issue or a pull request, link it.
+<!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/Release-Notes.page.md (verbatim transfer per
+     migration-log/page-map.tsv;
+     NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source;
+     owner-authored translation from the 2027-EN guide tree) -->
+#### Changes final version v2026.0.1 (published 09.01.2026)
 
-<div class="ig-highlight ig-highlight-red">
-<h5>Breaking changes MUST be reported and explained</h5>
-<p>A version section that contains a breaking change is not complete until it
-answers, explicitly and in this changelog:</p>
-<ul>
-<li><b>What exactly changed</b> between the two versions — the artifact, the
-element, the old and the new constraint (not just "profile X was revised").</li>
-<li><b>What it means for existing data:</b> does data that conformed to the
-previous version still validate against the new one? If not, which resources
-and elements are affected, and how does the failure show up?</li>
-<li><b>What implementers should do:</b> the authors' recommendation for
-migrating existing data to the new version — transformation steps, default
-values, re-coding guidance — or an explicit statement that no migration path
-is provided and why.</li>
-</ul>
-<p><b>What counts as breaking</b> — treat a change as breaking if it does any
-of the following, even when it looks small: tightens a cardinality
-(<code>0..*</code> → <code>1..1</code>), raises a binding strength (example →
-required), removes codes from a required value set, removes or renames an
-element or a slice, narrows a type, adds an invariant or a must-support
-obligation, or changes a canonical URL. When in doubt, report it as
-breaking.</p>
-<p><b>Breaking for whom:</b> state both perspectives — <i>stored data</i>
-(instances valid against the old version) and <i>implementations</i> (clients
-and servers built against it; a removed search parameter breaks
-implementations while every stored instance stays valid).</p>
-<p><b>The version number will not warn anyone.</b> The KDS calendar versioning
-scheme (<code>YYYY.n.n</code>) carries no major-version signal the way SemVer
-does — this changelog section is the <i>only</i> warning a reader gets.</p>
-<p><b>Link the technical delta.</b> From the second formal publication on,
-enable the IG Publisher's version comparison (<code>version-comparison</code>
-in <code>sushi-config.yaml</code> — see the <a href="version-history.html">
-Versioning</a> page for the setup and its prerequisites); it publishes a
-machine-generated comparison at
-<code>comparison-v&lt;previous&gt;/index.html</code>. Link it from the version
-section, so the prose explanation and the technical diff sit side by side.</p>
-<p>Mark such entries clearly (for example, prefix them with
-<b>BREAKING:</b>) so a reader scanning the section cannot miss them.</p>
-</div>
+### New Profiles and Functionality
 
----
+- **ResearchSubject Profile**: Adoption of the profile for capturing study participants (subjects) from the Person module
+  - **Integration**: In Implementation Guide with Capability Statements
+  - **Subject Snapshot**: Added to the IG
+  - **Examples**: Added for ResearchSubject
+  - **Reference Resources**: Added for examples
 
-#### Version 2026.0.1
+- **Study Inclusion Recommendation Profile**: New profile for study inclusion recommendations
+  - **Examples**: Added for study inclusion requests
+  - **Integration**: In Implementation Guide
 
-**Date:** 2026-01-09
+- **UML Diagrams**: Comprehensive UML diagram for the MII study model adjusted
+  - **Visual Documentation**: Of the module architecture improved
 
-##### Added
+### Implementation Guide Improvements
 
-* First publication of the **Medizinisches Forschungsvorhaben** module.
+- **Documentation updated**:
+  - CapabilityStatement documentation corrected (typos fixed)
+  - Referenzen.md updated with current information
+  - Context documentation (KontextimGesamtprojektBezgezuanderenModulen.md) updated
+  - References to outdated ART-DECOR removed
+  - Simplifier issue references replaced with GitHub
+  - References to base and extension modules removed where no longer applicable
 
-> [TODO: Replace this section with the real entries of your first release, and
-> add a new section on top for every subsequent version. For a module with
-> several sub-domains, `kerndatensatz-basis` groups the entries of a version by
-> topic (for example *Documentation*, *Terminology updates*, and one heading per
-> sub-module) and prefixes each bullet with **Added:** / **Changed:** /
-> **Removed:** — use whichever of the two groupings suits your module, but keep
-> it the same across versions and identical in both languages.]
-{: .ig-highlight .ig-highlight-grey}
+### Example Data Extensions
+
+- **Test bundle and examples added**:
+  - Comprehensive example bundle added for testing
+  - ResearchStudy examples extended with extension elements
+  - EvidenceVariable examples extended with additional elements
+  - Patient and Consent examples updated
+  - Subject (participant) identifier structure modified
+  - Example URLs updated for consistency
+  - Current example structure reorganized
+  - ValueSets added for examples
+
+### Validation and Quality Improvements
+
+- **HDB issues resolved**:
+  - HDB-722: FHIR profiles moved to FHIR-Profile subfolder
+  - HDB-723: Broken image references in documentation corrected
+  - HDB-725: meta.profile for inclusion and exclusion criteria corrected
+  - HDB-726: meta.profile for registry, PractitionerRole, ResearchStudy, ResearchSubject corrected
+  - HDB-727: ResearchStudy example not included - fixed
+
+- **Search Parameters and Logical Model**:
+  - Numbering in search parameters corrected
+  - MS flag removed from reasonReference where not applicable
+
+### Technical Improvements
+
+- **Dependencies and Package Management**:
+  - package.json dependencies updated
+  - Meta dependency updated to the latest version
+  - Specific meta dependency version set
+  - Version information updated throughout the module
+
+### Conformance and Standards
+
+- **KDS Release Guideline 2025.0.0 Conformance**:
+  - Conformance with KDS Release Guideline 2025.0.0 ensured
+  - Data and metadata corrected
+  - Checklist for Implementation Guide publication for the comment version completed
+
+### Translations
+
+- Translations pull request merged
+- Multilingual support improved

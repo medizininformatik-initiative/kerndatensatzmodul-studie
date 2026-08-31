@@ -3,17 +3,7 @@
      page per artifact type). The IG Publisher lists the CodeSystems on the
      artifact pages automatically; this page carries the MII notes on them.
      German mirror: input/translations/de/pagecontent/code-systems.md. -->
-<!-- OPTIONAL-PAGE (0..1) — remove this marker when you KEEP the page; remove
-     the page per docs/optional-pages.md when you don't. The convention check
-     (M9) fails a release while this marker is present. -->
 
-> **Optional page (0..1).** The KDS module menu lists this page as *optional*.
-> Decide for your module: **keep** it — fill it in and delete this banner and
-> the `OPTIONAL-PAGE` marker comment (in this file AND the German mirror) — or
-> **remove** it, following the per-entry procedure in [`docs/optional-pages.md`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/docs/optional-pages.md)
-> of this repository. A release must not ship with this banner (convention
-> check M9).
-{: .ig-highlight .ig-highlight-grey}
 
 ### Code Systems
 
@@ -27,6 +17,7 @@ OPS, SNOMED CT) are **not** published in this module; they are obtained from the
 central KDS terminology service (SU-TermServ):
 [https://mii-termserv.de/](https://mii-termserv.de/).
 
-> [TODO: List the module's own CodeSystems, or refer to the automatically
-> generated artifact list — or remove this page if your module defines none.]
-{: .ig-highlight .ig-highlight-grey}
+
+<!-- DERIVED:bridge source=none gate=B -->
+> **Written during migration - review before release.** The source's terminology notes are collected on the [ValueSets](value-sets.html) page.
+{: .ig-highlight .ig-highlight-blue}

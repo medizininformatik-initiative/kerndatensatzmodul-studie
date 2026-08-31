@@ -11,8 +11,6 @@
      Release-Pull-Requests. Einen veröffentlichten Abschnitt danach nicht mehr
      ändern. -->
 
-### Änderungshistorie
-
 Diese Seite hält die Änderungen zwischen den veröffentlichten Versionen des
 Moduls **Medizinisches Forschungsvorhaben** fest, die neueste Version zuerst. Sie folgt
 [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) und dem
@@ -28,74 +26,78 @@ Kategorien gruppierten Änderungen:
 * **Abgekündigt** — Artefakte, die noch existieren, aber nicht mehr genutzt
   werden sollen.
 * **Entfernt** — zurückgezogene Artefakte.
-* **Behoben** — Korrekturen von Fehlern.
-* **Sicherheit** — Änderungen mit Auswirkung auf Sicherheit oder Datenschutz.
 
-Kategorien ohne Inhalt werden weggelassen. Geht eine Änderung auf ein Issue oder
-einen Pull-Request zurück, wird darauf verlinkt.
+<!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Release-Notes.page.md (verbatim transfer per
+     migration-log/page-map.tsv;
+     NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source) -->
+#### Änderungen finale Version v2026.0.1 (veröffentlicht 09.01.2026)
 
-<div class="ig-highlight ig-highlight-red">
-<h5>Breaking Changes MÜSSEN berichtet und erläutert werden</h5>
-<p>Ein Versionsabschnitt mit einer Breaking Change ist erst vollständig, wenn
-er ausdrücklich und in diesem Changelog beantwortet:</p>
-<ul>
-<li><b>Was genau sich geändert hat</b> zwischen den beiden Versionen — das
-Artefakt, das Element, die alte und die neue Einschränkung (nicht nur
-„Profil X wurde überarbeitet“).</li>
-<li><b>Was das für bestehende Daten bedeutet:</b> Validieren Daten, die der
-Vorversion entsprachen, weiterhin gegen die neue Version? Falls nein: welche
-Ressourcen und Elemente sind betroffen, und wie zeigt sich der Fehler?</li>
-<li><b>Was Implementierende tun sollten:</b> die Empfehlung der Autorinnen
-und Autoren zur Migration bestehender Daten auf die neue Version —
-Transformationsschritte, Standardwerte, Umkodierungs-Hinweise — oder die
-ausdrückliche Aussage, dass kein Migrationspfad bereitgestellt wird, und
-warum.</li>
-</ul>
-<p><b>Was als Breaking Change zählt</b> — behandeln Sie eine Änderung als
-Breaking Change, wenn sie eines der Folgenden tut, auch wenn sie klein wirkt:
-eine Kardinalität verschärft (<code>0..*</code> → <code>1..1</code>), eine
-Binding-Stärke erhöht (example → required), Codes aus einem required-ValueSet
-entfernt, ein Element oder einen Slice entfernt oder umbenennt, einen Typ
-einengt, eine Invariante oder eine Must-Support-Pflicht hinzufügt oder eine
-kanonische URL ändert. Im Zweifel: als Breaking Change berichten.</p>
-<p><b>Breaking für wen:</b> benennen Sie beide Perspektiven — <i>gespeicherte
-Daten</i> (Instanzen, die gegen die alte Version valide sind) und
-<i>Implementierungen</i> (Clients und Server, die dagegen gebaut wurden; ein
-entfernter Suchparameter bricht Implementierungen, während jede gespeicherte
-Instanz valide bleibt).</p>
-<p><b>Die Versionsnummer warnt niemanden.</b> Das KDS-Kalender-Versionsschema
-(<code>JJJJ.n.n</code>) trägt kein Major-Signal wie SemVer — dieser
-Changelog-Abschnitt ist die <i>einzige</i> Warnung, die Lesende bekommen.</p>
-<p><b>Verlinken Sie das technische Delta.</b> Ab der zweiten formalen
-Publikation aktivieren Sie den Versionsvergleich des IG Publishers
-(<code>version-comparison</code> in <code>sushi-config.yaml</code> — siehe die
-Seite <a href="version-history.html">Versionierung</a> zur Einrichtung und
-ihren Voraussetzungen); er veröffentlicht einen maschinell erzeugten
-Vergleich unter <code>comparison-v&lt;Vorversion&gt;/index.html</code>.
-Verlinken Sie ihn aus dem Versionsabschnitt, damit die Erläuterung und der
-technische Diff nebeneinanderstehen.</p>
-<p>Kennzeichnen Sie solche Einträge deutlich (zum Beispiel mit dem Präfix
-<b>BREAKING:</b>), damit sie beim Überfliegen des Abschnitts nicht übersehen
-werden können.</p>
-</div>
+### Neue Profile und Funktionalität
 
----
+- **ResearchSubject Profil**: Übernahme des Profils zur Erfassung von Studienteilnehmern (Probanden) aus dem Modul Person
+  - **Integration**: In Implementation Guide mit Capability Statements
+  - **Proband-Snapshot**: Zur IG hinzugefügt
+  - **Beispiele**: Für ResearchSubject hinzugefügt
+  - **Referenzressourcen**: Für Beispiele ergänzt
 
-#### Version 2026.0.1
+- **Studieneinschlussempfehlung Profil**: Neues Profil für Studieneinschlussempfehlungen
+  - **Beispiele**: Für Studieneinschluss-Anfragen hinzugefügt
+  - **Integration**: In Implementation Guide
 
-**Datum:** 2026-01-09
+- **UML-Diagramme**: Umfassendes UML-Diagramm für MII-Studienmodell angepasst
+  - **Visuelle Dokumentation**: Der Modularchitektur verbessert
 
-##### Hinzugefügt
+### Implementation Guide Verbesserungen
 
-* Erstveröffentlichung des Moduls **Medizinisches Forschungsvorhaben**.
+- **Dokumentation aktualisiert**:
+  - CapabilityStatement-Dokumentation korrigiert (Tippfehler behoben)
+  - Referenzen.md mit aktuellen Informationen aktualisiert
+  - Kontext-Dokumentation (KontextimGesamtprojektBezgezuanderenModulen.md) aktualisiert
+  - Verweise auf veraltetes ART-DECOR entfernt
+  - Simplifier-Issue-Verweise durch GitHub ersetzt
+  - Verweise auf Basis- und Erweiterungsmodule wo nicht mehr anwendbar entfernt
 
-> [TODO: Ersetzen Sie diesen Abschnitt durch die echten Einträge Ihres ersten
-> Releases und ergänzen Sie für jede weitere Version oben einen neuen Abschnitt.
-> Bei einem Modul mit mehreren Teilbereichen gruppiert `kerndatensatz-basis` die
-> Einträge einer Version thematisch (etwa *Dokumentation*,
-> *Terminologie-Aktualisierungen* und je eine Überschrift pro Teilmodul) und
-> stellt jedem Stichpunkt **Hinzugefügt:** / **Geändert:** / **Entfernt:**
-> voran — nutzen Sie die für Ihr Modul passende der beiden Gruppierungen,
-> bleiben Sie dabei aber über alle Versionen hinweg und in beiden Sprachen
-> einheitlich.]
-{: .ig-highlight .ig-highlight-grey}
+### Beispieldaten-Erweiterungen
+
+- **Test-Bundle und Beispiele hinzugefügt**:
+  - Umfassendes Beispiel-Bundle für Tests hinzugefügt
+  - ResearchStudy-Beispiele mit Extension-Elementen erweitert
+  - EvidenceVariable-Beispiele mit zusätzlichen Elementen erweitert
+  - Patient- und Consent-Beispiele aktualisiert
+  - Proband (Teilnehmer) Identifier-Struktur modifiziert
+  - Beispiel-URLs für Konsistenz aktualisiert
+  - Aktuelle Beispielstruktur neu geordnet
+  - ValueSets für Beispiele hinzugefügt
+
+### Validierung und Qualitätsverbesserungen
+
+- **HDB-Issues behoben**:
+  - HDB-722: FHIR-Profile in FHIR-Profile Unterordner verschoben
+  - HDB-723: Defekte Bild-Referenzen in Dokumentation korrigiert
+  - HDB-725: meta.profile für Ein- und Ausschlusskriterium korrigiert
+  - HDB-726: meta.profile für Register, PractitionerRole, ResearchStudy, ResearchSubject korrigiert
+  - HDB-727: ResearchStudy-Beispiel nicht inkludiert - behoben
+
+- **Suchparameter und Logical Model**:
+  - Nummerierung in Suchparametern korrigiert
+  - MS-Flag von reasonReference entfernt wo nicht anwendbar
+
+### Technische Verbesserungen
+
+- **Dependencies und Package Management**:
+  - package.json Abhängigkeiten aktualisiert
+  - Meta-Dependency auf neueste Version aktualisiert
+  - Konkrete Meta-Dependency-Version gesetzt
+  - Versionsinformationen im gesamten Modul aktualisiert
+
+### Konformität und Standards
+
+- **KDS Release Guideline 2025.0.0 Konformität**:
+  - Konformität mit KDS Release Guideline 2025.0.0 sichergestellt
+  - Daten und Metadaten korrigiert
+  - Checkliste für Implementation Guide Veröffentlichung für Kommentierungsversion abgeschlossen
+
+### Translations
+
+- Translations Pull Request zusammengeführt
+- Mehrsprachige Unterstützung verbessert

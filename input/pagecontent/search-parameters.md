@@ -2,25 +2,514 @@
 <!-- Deutsche Übersetzung von input/pagecontent/search-parameters.md
      (aufgeteilt aus der früheren Kombi-Seite
      search-parameters-and-operations.md). -->
-<!-- OPTIONAL-PAGE (0..1) — Marker entfernen, wenn die Seite BLEIBT; andernfalls
-     die Seite gemäß docs/optional-pages.md entfernen. Der Konventions-Check
-     (M9) lässt ein Release mit diesem Marker fehlschlagen. -->
 
-> **Optionale Seite (0..1).** Das KDS-Modulmenü führt diese Seite als
-> *optional*. Entscheiden Sie für Ihr Modul: Seite **behalten** — Inhalte
-> ausfüllen und dieses Banner samt `OPTIONAL-PAGE`-Marker-Kommentar löschen (in
-> dieser Datei UND in der englischen Quellseite) — oder Seite **entfernen**,
-> nach der Schritt-für-Schritt-Anleitung in [`docs/optional-pages.md`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/docs/optional-pages.md) dieses
-> Repositories. Ein Release darf dieses Banner nicht enthalten
-> (Konventions-Check M9).
-{: .ig-highlight .ig-highlight-grey}
-
-### Suchparameter
 
 Diese Seite listet die modul-spezifischen FHIR-Suchparameter des Moduls
 **Medizinisches Forschungsvorhaben** (Namenskonvention `MII_SP_<Modul>_<Name>`), sofern
 definiert. Modulübergreifende Suchparameter definiert das Meta-Modul.
 
-> [TODO: Listen Sie die Suchparameter auf — oder entfernen Sie diese Seite,
-> wenn Ihr Modul keine definiert.]
-{: .ig-highlight .ig-highlight-grey}
+<!-- DERIVED:bridge source=FHIR-Profile/*.page.md gate=B -->
+> **Written during migration - review before release.** Die folgenden Abschnitte sind die *Suchparameter*-Abschnitte der acht Profilseiten des Simplifier-Leitfadens, je Ressourcentyp zusammengeführt; die Profil-Prosa steht jetzt auf den Artefakt-Seiten (intro-notes).
+{: .ig-highlight .ig-highlight-blue}
+
+#### DocumentReference
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "author" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?author=Practitioner/practitioner-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.author" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+
+4. Der Suchparameter "custodian" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?custodian=Organization/organization-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.custodian" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+5. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?status=current```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+6. Der Suchparameter "location" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?location=https://example.com/fhir/Binary/document```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.url" finden sich in der [FHIR-Basisspezifikation - Abschnitt "uri"](https://www.hl7.org/fhir/r4/search.html#uri).
+
+7. Der Suchparameter "contenttype" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/DocumentReference?contenttype=application/pdf```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.contentType" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](https://www.hl7.org/fhir/r4/search.html#token).
+
+8. Der Suchparameter "title" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?title=Beispiel Dokument```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.title" finden sich in der [FHIR-Basisspezifikation - Abschnitt "String Search"](http://hl7.org/fhir/R4/search.html#string).
+
+9. Der Suchparameter "size" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?size=1000```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.content.attachment.size" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Number Search"](http://hl7.org/fhir/R4/search.html#number).
+
+10. Der Suchparameter "related" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/DocumentReference?related=ResearchStudy/example```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "DocumentReference.context.related" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+#### EvidenceVariable
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?status=active```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "EvidenceVariable.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+4. Der Suchparameter "characteristicDescription" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/EvidenceVariable?characteristicDescription=Höchstalter```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "EvidenceVariable.characteristic.description" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+#### Library
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/Library?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/Library?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "name" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/Library?name=DRKS - Deutsches Register Klinischer Studien```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.name" finden sich in der [FHIR-Basisspezifikation - Abschnitt "String Search"](http://hl7.org/fhir/R4/search.html#string).
+
+4. Der Suchparameter "identifier" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?identifier=DRKS```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+5. Der Suchparameter "quellregister" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?quellregister=true```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.extension:QuellRegister" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+6. Der Suchparameter "type" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?type=http://terminology.hl7.org/CodeSystem/library-type|asset-collection```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.type" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+7. Der Suchparameter "relatedArtifactUrl" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/Library?relatedArtifactUrl=https://drks.de/```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "Library.relatedArtifact.document.url" finden sich in der [FHIR-Basisspezifikation - Abschnitt "uri"](http://hl7.org/fhir/R4/search.html#uri).
+
+#### PractitionerRole
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/PractitionerRole?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/PractitionerRole?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "practitioner" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/PractitionerRole?practitioner=Practitioner/practitioner-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.practitioner" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+4. Der Suchparameter "organization" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/PractitionerRole?organization=Organization/organization-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.organization" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+5. Der Suchparameter "role" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/PractitionerRole?role=http://example.org/fhir/CodeSystem/RolleBeteiligtePerson|studienleiter```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.code" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+6. Der Suchparameter "telecom" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/PractitionerRole?telecom=phone|+4915232584956```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "PractitionerRole.telecom" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#token).
+
+#### ResearchStudy
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchStudy?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "identifier" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?identifier=DRKS00031294```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+4. Der Suchparameter "title" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?title=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.title" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+5. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?status=active```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+6. Der Suchparameter "partOf" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?partOf=ResearchStudy/researchstudy-test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.partOf" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+7. Der Suchparameter "category" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?category=interventional```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.category" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+8. Der Suchparameter "armName" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?armName=frontale anodale tDCS  (verum condition)```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.arm.name" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+9. Der Suchparameter "category" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?category=Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienfokus" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+10. Der Suchparameter "keyword" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?keyword=COVID```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Schlagwort" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+11. Der Suchparameter "label" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?label=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Label" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+12. Der Suchparameter "studienregister" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?studienregister=Library/example```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Studienregister" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).      
+
+13. Der Suchparameter "rekrutierungsstand-datum" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstand-datum=2023-02-17```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum" finden sich in der [FHIR-Basisspezifikation - Abschnitt "date"](http://hl7.org/fhir/R4/search.html#date).
+
+14. Der Suchparameter "rekrutierungsstand-genauigkeit" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstand-genauigkeit=good```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string). 
+
+15. Der Suchparameter "rekrutierungsstand-rekrutierungsstand" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstand=35```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand" finden sich in der [FHIR-Basisspezifikation - Abschnitt "number"](http://hl7.org/fhir/R4/search.html#number).
+
+16. Der Suchparameter "rekrutierungsstand-rekrutierungsziel" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsziel=40```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel" finden sich in der [FHIR-Basisspezifikation - Abschnitt "number"](http://hl7.org/fhir/R4/search.html#number).
+
+17. Der Suchparameter "rekrutierungsstand-rekrutierungsstart" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ResearchStudy?rekrutierungsstart=2023-01-12```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart" finden sich in der [FHIR-Basisspezifikation - Abschnitt "date"](http://hl7.org/fhir/R4/search.html#date).
+
+#### ResearchSubject
+
+Folgende Suchparameter sind für das Modul Medizinisches Forschungsvorhaben relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?_id=103270```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?_profile=https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/ResearchSubject```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "identifier" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?identifier=http://fhir.krankenhaus.example/sid/subjectIdentificationCode|1032702```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchSubject.identifier" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"](http://hl7.org/fhir/R4/search.html#token).
+
+4. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?status=candidate```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchSubject.status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Token Search"](http://hl7.org/fhir/R4/search.html#token).
+
+
+5. Der Suchparameter "date" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?date=2022-01-01```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchSubject.period" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Date Search"](http://hl7.org/fhir/R4/search.html#date).
+
+6. Der Suchparameter "study" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?study=ResearchStudy/study```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.study" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+7. Der Suchparameter "individual" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?individual=Patient/test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.individual" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+8. Der Suchparameter "consent" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ResearchSubject?consent=Consent/test```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "ResearchStudy.consent" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#reference).
+
+#### ServiceRequest
+
+Folgende Suchparameter sind für das Modul Studie relevant, auch in Kombination:
+
+1. Der Suchparameter "_id" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ServiceRequest?_id=12345```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_id" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+2. Der Suchparameter "_profile" MUSS unterstützt werden:
+
+    Beispiele:
+
+    ```GET [base]/ServiceRequest?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "_profile" finden sich in der [FHIR-Basisspezifikation - Abschnitt "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
+
+3. Der Suchparameter "status" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ServiceRequest?status=active```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "status" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+4. Der Suchparameter "intent" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ServiceRequest?status=proposal```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "intent" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#string).
+
+5. Der Suchparameter "category" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ServiceRequest?category=110465008```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "category" finden sich in der [FHIR-Basisspezifikation - Abschnitt "token"](http://hl7.org/fhir/R4/search.html#token).
+
+6. Der Suchparameter "code" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ServiceRequest?code=02475000```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "code" finden sich in der [FHIR-Basisspezifikation - Abschnitt "reference"](http://hl7.org/fhir/R4/search.html#token).
+
+7. Der Suchparameter "supporting-info" MUSS unterstützt werden:
+
+    Beispiele
+
+    ```GET [base]/ServiceRequest?supporting-info=ResearchStudy/example```
+
+    Anwendungshinweise: Weitere Informationen zur Suche nach "supporting-info" finden sich in der [FHIR-Basisspezifikation - Abschnitt "string"](http://hl7.org/fhir/R4/search.html#reference).

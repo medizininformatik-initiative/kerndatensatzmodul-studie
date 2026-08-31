@@ -1,0 +1,9 @@
+2026-08-31T18:08:35Z  INFO   5.5  gen-page-title-po  params  ig=fsh-generated/resources/ImplementationGuide-mii-ig-studie.json seed=migration-log/menu-titles-de.txt lang=en out=input/translations/en/ImplementationGuide-mii-ig-studie.po
+2026-08-31T18:08:35Z  INFO   5.5  gen-page-title-po  seed  path=migration-log/menu-titles-de.txt  lines=19 entries=19 matched=19 applied=19 unused=0
+2026-08-31T18:08:35Z  INFO   5.5  gen-page-title-po  written  out=input/translations/en/ImplementationGuide-mii-ig-studie.po pages=20 units=20 translated=19 untranslated=1 carried_over=0 preserved_foreign=0 header_preserved=False
+2026-08-31T18:08:35Z  WARN   5.5  gen-page-title-po  silent-partial-success: 1 of 20 page-title unit(s) have an empty msgstr and fall back to de
+    UNTRANSLATED: Table of Contents
+    Translate these msgstr by hand -- they are pages the seed did not
+    cover (typically pages that are not menu entries), and they belong
+    in the report's ② review queue.
+2026-08-31T18:08:35Z  INFO   5.5  gen-page-title-po  result  exit=1  written with 1 untranslated unit(s)

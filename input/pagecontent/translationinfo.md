@@ -1,19 +1,11 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Deutsche Übersetzung der Quellseite input/pagecontent/translationinfo.md
-     (Englisch ist die Standardsprache der IG). Mechanik: siehe
-     docs/recipes/add-translation.md. -->
 ### Übersetzungsinformationen
 
-Dieser Leitfaden ist **englischsprachig** (Standardsprache); **Deutsch** ist die
-Übersetzung. Englisch ist damit sowohl die Basis-Darstellung des Leitfadens als
-auch die `/en/`-Darstellung; über den Sprachumschalter oben rechts wechseln Sie
-zwischen `/en/` und `/de/`.
+Dieser Leitfaden ist **deutschsprachig** (Standardsprache, „DE First" gemäß
+KDS-Governance §4.4 und Release-2027-Planung); **Englisch** ist die
+Übersetzung. Über den Sprachumschalter oben rechts wechseln Sie zwischen
+`/de/` und `/en/`.
 
-Übersetzte Seiten liegen unter `input/translations/de/pagecontent/` (gleicher
-Dateiname wie die englische Seite); Ressourcen-Übersetzungen als `.po`-Dateien
-unter `input/translations/de/`. Details:
-[`docs/recipes/add-translation.md`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/docs/recipes/add-translation.md) in diesem Repository.
-
-> [TODO: Vermerken Sie, welche Teile des Moduls bereits ins Deutsche übersetzt
-> sind.]
-{: .ig-highlight .ig-highlight-grey}
+Die englischen Seiten stammen aus dem englischen 2027-Guide-Baum der
+Modulverantwortlichen (menschliche Übersetzung, keine Maschinenübersetzung);
+FHIR-Artefakt-Bezeichner bleiben englisch.
