@@ -129,7 +129,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
   "name" : "MII_PR_Studie_Studieneinschluss_Anfrage",
   "title" : "MII PR Studie Studieneinschluss Anfrage",
   "status" : "active",
-  "date" : "2026-08-31T20:08:31+00:00",
+  "date" : "2026-08-31T20:20:31+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
