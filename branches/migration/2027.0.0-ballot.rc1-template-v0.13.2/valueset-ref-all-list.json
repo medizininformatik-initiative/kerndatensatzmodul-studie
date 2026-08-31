@@ -227,9 +227,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
     "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
-    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie"
+    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -243,9 +243,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
     "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
-    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie"
+    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/jurisdiction",
@@ -261,8 +261,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.48"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
     "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
     "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
   },
   {
@@ -278,11 +278,11 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-studie-beteiligte-person.html" : "MII PR Studie Beteiligte Person",
+    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
+    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
+    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
     "StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html" : "MII PR Studie Studieneinschluss Anfrage",
     "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
-    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
-    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
     "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
   },
   {
@@ -325,8 +325,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1024"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument"
+    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/participant-role",
@@ -570,8 +570,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.47"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
-    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument"
+    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
+    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
