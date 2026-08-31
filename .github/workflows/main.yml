@@ -54,7 +54,7 @@ jobs:
           prerelease: ${{ contains(steps.prep-version.outputs.version, '-') }}
           generate_release_notes: true
           body: |
-            ## MII IG Fall Studie ${{ steps.prep-version.outputs.version }}
+            ## MII IG Studie ${{ steps.prep-version.outputs.version }}
             
             <!-- DELETE START -->
             Download the FHIR package from Simplifier and manually attach it to this release.
@@ -67,3 +67,25 @@ jobs:
             <!-- DELETE END -->
 
             See the auto-generated release notes below.
+
+  NOTIFY_ZULIP:
+    if: github.event_name == 'release' && github.event.action == 'published'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post release to Zulip
+        uses: zulip/github-actions-zulip/send-message@v1
+        with:
+          api-key: ${{ secrets.ZULIP_API_KEY }}
+          email: "kds-github-bot@mii.zulipchat.com"
+          organization-url: "https://mii.zulipchat.com/"
+          to: "MII-Kerndatensatz"
+          type: "stream"
+          topic: "Releases"
+          content: |
+            **New Release:** `${{ github.event.release.tag_name }}`
+            **Repository:** `${{ github.repository }}`
+            **Module:** Medizinisches Forschungsvorhaben
+
+            ${{ github.event.release.body }}
+
+            🔗 [View on GitHub](${{ github.event.release.html_url }})

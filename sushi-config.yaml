@@ -27,7 +27,7 @@ version: 2027.0.0-ballot.rc1
 packageId: de.medizininformatikinitiative.kerndatensatz.studie
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: ballot # ballot release candidate (operator re-version 2026-08-31; Gate-A confirmation pending)
+releaseLabel: release # upstream's own v2027.0.0-ballot.rc1 value (PR #68, adopted at merge 2026-08-31)
 license: CC-BY-4.0 # Gate-A decision 2026-08-31 (tier-R evidence; no machine source declares one)
 # Formal date stand-in = the v2026.0.1 publication date (source GitHub release
 # 2026-01-09); replace with the real publication date at Gate D.

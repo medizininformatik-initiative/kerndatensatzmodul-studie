@@ -48,7 +48,7 @@ StructureDefinition-mii-ex-studie-finanzierung.json                           MI
 StructureDefinition-mii-ex-studie-quell-register.json                         MII_EX_Studie_Quell_Register                         Extension   profiles/Library.fsh            47 - 52
 StructureDefinition-mii-ex-studie-rekrutierung.json                           MII_EX_Studie_Rekrutierung                           Extension   profiles/ResearchStudy.fsh      155 - 166
 StructureDefinition-mii-ex-studie-studienregister.json                        MII_EX_Studie_Studienregister                        Extension   profiles/ResearchStudy.fsh      131 - 137
-StructureDefinition-mii-lm-studie-logicalmodel.json                           MII_LM_Studie_LogicalModel                           Logical     LogicalModel.fsh                1 - 202
+StructureDefinition-mii-lm-studie-logicalmodel.json                           MII_LM_Studie_LogicalModel                           Logical     LogicalModel.fsh                1 - 209
 StructureDefinition-mii-pr-studie-beteiligte-person.json                      MII_PR_Studie_Beteiligte_Person                      Profile     profiles/PractitionerRole.fsh   1 - 39
 StructureDefinition-mii-pr-studie-dokument.json                               MII_PR_Studie_Dokument                               Profile     profiles/DocumentReference.fsh  1 - 52
 StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.json                MII_PR_Studie_EinAuschlussKriterium                  Profile     profiles/EvidenceVariable.fsh   1 - 39

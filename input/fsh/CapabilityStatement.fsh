@@ -5,8 +5,8 @@ Usage: #definition
 * experimental = false
 * insert Version
 * publisher = "Medizininformatik Initiative"
-* date = "2024-09-12"
-* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2026.0.1"
+* date = "2026-08-31"
+* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1"
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata"
 * name = "MII CPS Metadata Studie"
 * title = "MII CPS Metadata Studie"
