@@ -1,0 +1,35 @@
+{
+  "resourceType" : "SearchParameter",
+  "id" : "ResearchStudy-label",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: SearchParameter ResearchStudy-label</b></p><a name=\"ResearchStudy-label\"> </a><a name=\"hcResearchStudy-label\"> </a><h2>SP_MII_Studie_Label</h2><p>Parameter <code>label</code>:<code>string</code></p><div><p>Suchparameter für ResearchStudy.extension:label</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/researchstudy.html\">ResearchStudy</a></td></tr><tr><td>Expression</td><td><code>ResearchStudy.extension.where(url='http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label').extension.where(url='value').value</code></td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "SP_MII_Studie_Label",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-08-31T20:57:45+00:00",
+  "publisher" : "NUM-DIZ",
+  "contact" : [{
+    "name" : "NUM-DIZ",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
+    }]
+  }],
+  "description" : "Suchparameter für ResearchStudy.extension:label",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
+  "code" : "label",
+  "base" : ["ResearchStudy"],
+  "type" : "string",
+  "expression" : "ResearchStudy.extension.where(url='http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label').extension.where(url='value').value"
+}

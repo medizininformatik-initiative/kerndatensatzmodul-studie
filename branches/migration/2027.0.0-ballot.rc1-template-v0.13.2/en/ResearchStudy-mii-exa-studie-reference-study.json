@@ -1,0 +1,11 @@
+{
+  "resourceType" : "ResearchStudy",
+  "id" : "mii-exa-studie-reference-study",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ResearchStudy mii-exa-studie-reference-study</b></p><a name=\"en-mii-exa-studie-reference-study\"> </a><a name=\"en-hcmii-exa-studie-reference-study\"> </a><p><b>title</b>: Example Reference Study</p><p><b>status</b>: Completed</p></div>"
+  },
+  "title" : "Example Reference Study",
+  "status" : "completed"
+}

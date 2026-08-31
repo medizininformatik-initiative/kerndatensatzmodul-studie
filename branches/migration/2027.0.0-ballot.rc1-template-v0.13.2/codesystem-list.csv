@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://example.org/fhir/CodeSystem/associated-party-role,2027.0.0-ballot.rc1,active,,AssociatedPartyRoleCS,Associated Party Role Code System,"Roles that an associated party may have in relation to an entity such as a research study.","ValueSet/associated-party-role-vs"
+http://example.org/fhir/CodeSystem/research-study-category,2027.0.0-ballot.rc1,active,,ResearchStudyCategoryCS,Research Study Category Code System,"High-level categories describing the overall type of a research study.","ValueSet/research-study-category-vs"

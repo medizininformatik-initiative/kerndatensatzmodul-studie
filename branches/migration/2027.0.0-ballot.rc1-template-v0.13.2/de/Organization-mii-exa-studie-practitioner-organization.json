@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Organization",
+  "id" : "mii-exa-studie-practitioner-organization",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization mii-exa-studie-practitioner-organization</b></p><a name=\"mii-exa-studie-practitioner-organization\"> </a><a name=\"hcmii-exa-studie-practitioner-organization\"> </a><p><b>name</b>: Example Organization for Practitioner</p></div>"
+  },
+  "name" : "Example Organization for Practitioner"
+}

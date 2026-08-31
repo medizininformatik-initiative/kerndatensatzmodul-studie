@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ResearchSubject",
+  "id" : "mii-exa-studie-proband",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ResearchSubject mii-exa-studie-proband</b></p><a name=\"en-mii-exa-studie-proband\"> </a><a name=\"en-hcmii-exa-studie-proband\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-proband.html\">MII PR Studie Proband</a></p></div><p><b>identifier</b>: Anonymous identifier/321123456</p><p><b>status</b>: Candidate</p><p><b>period</b>: 2023-01-01 --&gt; 2023-12-31</p><p><b>study</b>: <a href=\"ResearchStudy-mii-exa-studie-cohort.html\">ResearchStudy LIFE-Adult-Study</a></p><p><b>individual</b>: <a href=\"Patient-mii-exa-studie-patient.html\">Jane Doe  Female, DoB: 1980-11-12 ( KVZ10\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>consent</b>: <a href=\"Consent-mii-exa-studie-consent.html\">mii-exa-studie-consent</a></p></div>"
+  },
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "ANON"
+      }]
+    },
+    "system" : "https://www.medizininformatik-initiative.de/fhir/sid/patienten",
+    "value" : "321123456"
+  }],
+  "status" : "candidate",
+  "period" : {
+    "start" : "2023-01-01",
+    "end" : "2023-12-31"
+  },
+  "study" : {
+    "reference" : "ResearchStudy/mii-exa-studie-cohort"
+  },
+  "individual" : {
+    "reference" : "Patient/mii-exa-studie-patient"
+  },
+  "consent" : {
+    "reference" : "Consent/mii-exa-studie-consent"
+  }
+}

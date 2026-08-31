@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="34319dbd-4c1b-4a7e-98a8-fb7210ddb22c"/>
+  <meta>
+    <lastUpdated value="2026-08-31T20:57:45.011+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/fhir/ValueSet/associated-party-role"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-associated-party-role-cs.html">codesystem Associated Party Role Code System v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-sponsor"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-sponsor">sponsor</a>
+                </td>
+                <td/>
+                <td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;sponsor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;sponsor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-funder"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-funder">funder</a>
+                </td>
+                <td/>
+                <td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;funder&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;funder&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-principal-investigator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-principal-investigator">principal-investigator</a>
+                </td>
+                <td/>
+                <td>The lead researcher responsible for the overall conduct of the study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;principal-investigator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;principal-investigator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-co-investigator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-co-investigator">co-investigator</a>
+                </td>
+                <td/>
+                <td>A researcher who shares scientific responsibility with the principal investigator.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;co-investigator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;co-investigator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-coordinator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-coordinator">coordinator</a>
+                </td>
+                <td/>
+                <td>A person coordinating day-to-day operational activities of the study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;coordinator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;coordinator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-publisher"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-publisher">publisher</a>
+                </td>
+                <td/>
+                <td>An entity responsible for publishing or disseminating results.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;publisher&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;publisher&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-other"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-other">other</a>
+                </td>
+                <td/>
+                <td>A role not covered by the defined codes.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/fhir/ValueSet/associated-party-role"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <name value="AssociatedPartyRoleVS"/>
+        <title value="Associated Party Role"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-08-31T20:57:45+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:47e4361f-d076-4bea-b4c5-7c6bc646b4ca"/>
+          <timestamp value="2026-08-31T20:59:35+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="sponsor"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="funder"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="principal-investigator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="co-investigator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="coordinator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="publisher"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/ValueSet/associated-party-role"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-associated-party-role-cs.html">codesystem Associated Party Role Code System v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-sponsor"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-sponsor">sponsor</a>
+                </td>
+                <td/>
+                <td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;sponsor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;sponsor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-funder"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-funder">funder</a>
+                </td>
+                <td/>
+                <td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;funder&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;funder&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-principal-investigator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-principal-investigator">principal-investigator</a>
+                </td>
+                <td/>
+                <td>The lead researcher responsible for the overall conduct of the study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;principal-investigator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;principal-investigator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-co-investigator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-co-investigator">co-investigator</a>
+                </td>
+                <td/>
+                <td>A researcher who shares scientific responsibility with the principal investigator.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;co-investigator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;co-investigator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-coordinator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-coordinator">coordinator</a>
+                </td>
+                <td/>
+                <td>A person coordinating day-to-day operational activities of the study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;coordinator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;coordinator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-publisher"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-publisher">publisher</a>
+                </td>
+                <td/>
+                <td>An entity responsible for publishing or disseminating results.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;publisher&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;publisher&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-other"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-other">other</a>
+                </td>
+                <td/>
+                <td>A role not covered by the defined codes.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/fhir/ValueSet/associated-party-role"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <name value="AssociatedPartyRoleVS"/>
+        <title value="Associated Party Role"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-08-31T20:57:45+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:47e4361f-d076-4bea-b4c5-7c6bc646b4ca"/>
+          <timestamp value="2026-08-31T20:59:35+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="sponsor"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="funder"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="principal-investigator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="co-investigator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="coordinator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="publisher"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/ValueSet/associated-party-role"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-associated-party-role-cs.html">codesystem Associated Party Role Code System v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-sponsor"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-sponsor">sponsor</a>
+                </td>
+                <td>Sponsor</td>
+                <td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;sponsor&quot;, &quot;display&quot;: &quot;Sponsor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;sponsor&quot;&gt;&lt;display value=&quot;Sponsor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-funder"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-funder">funder</a>
+                </td>
+                <td>Funder</td>
+                <td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;funder&quot;, &quot;display&quot;: &quot;Funder&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;funder&quot;&gt;&lt;display value=&quot;Funder&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-principal-investigator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-principal-investigator">principal-investigator</a>
+                </td>
+                <td>Principal Investigator</td>
+                <td>The lead researcher responsible for the overall conduct of the study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;principal-investigator&quot;, &quot;display&quot;: &quot;Principal Investigator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;principal-investigator&quot;&gt;&lt;display value=&quot;Principal Investigator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-co-investigator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-co-investigator">co-investigator</a>
+                </td>
+                <td>Co-Investigator</td>
+                <td>A researcher who shares scientific responsibility with the principal investigator.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;co-investigator&quot;, &quot;display&quot;: &quot;Co-Investigator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;co-investigator&quot;&gt;&lt;display value=&quot;Co-Investigator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-coordinator"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-coordinator">coordinator</a>
+                </td>
+                <td>Study Coordinator</td>
+                <td>A person coordinating day-to-day operational activities of the study.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;coordinator&quot;, &quot;display&quot;: &quot;Study Coordinator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;coordinator&quot;&gt;&lt;display value=&quot;Study Coordinator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-publisher"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-publisher">publisher</a>
+                </td>
+                <td>Publisher</td>
+                <td>An entity responsible for publishing or disseminating results.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;publisher&quot;, &quot;display&quot;: &quot;Publisher&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;publisher&quot;&gt;&lt;display value=&quot;Publisher&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/associated-party-role-other"> </a>
+                  <code>http://example.org/fhir/CodeSystem/associated-party-role</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-associated-party-role-cs.html#associated-party-role-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>A role not covered by the defined codes.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/fhir/ValueSet/associated-party-role"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <name value="AssociatedPartyRoleVS"/>
+        <title value="Associated Party Role"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-08-31T20:57:45+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f3d63c3f-cd79-4ca8-bcf0-59697af7a0df"/>
+          <timestamp value="2026-08-31T20:59:35+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="sponsor"/>
+            <display value="Sponsor"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="funder"/>
+            <display value="Funder"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="principal-investigator"/>
+            <display value="Principal Investigator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="co-investigator"/>
+            <display value="Co-Investigator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="coordinator"/>
+            <display value="Study Coordinator"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="publisher"/>
+            <display value="Publisher"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/ValueSet/research-study-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-research-study-category-cs.html">codesystem Research Study Category Code System v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-interventional"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-interventional">interventional</a>
+                </td>
+                <td/>
+                <td>A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;interventional&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;interventional&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-observational"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-observational">observational</a>
+                </td>
+                <td/>
+                <td>A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;observational&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;observational&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-registry"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-registry">registry</a>
+                </td>
+                <td/>
+                <td>A study primarily based on data collected in a registry (e.g. disease or quality registry).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;registry&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;registry&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-other"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-other">other</a>
+                </td>
+                <td/>
+                <td>Other study category not covered by the existing codes. Use with additional descriptive text.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/fhir/ValueSet/research-study-category"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <name value="ResearchStudyCategoryVS"/>
+        <title value="Research Study Category"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-08-31T20:57:45+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:74f8ce91-9c61-496e-96b6-8d6be04d57cd"/>
+          <timestamp value="2026-08-31T20:59:35+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="interventional"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="observational"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="registry"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/ValueSet/research-study-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-research-study-category-cs.html">codesystem Research Study Category Code System v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-interventional"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-interventional">interventional</a>
+                </td>
+                <td/>
+                <td>A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;interventional&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;interventional&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-observational"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-observational">observational</a>
+                </td>
+                <td/>
+                <td>A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;observational&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;observational&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-registry"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-registry">registry</a>
+                </td>
+                <td/>
+                <td>A study primarily based on data collected in a registry (e.g. disease or quality registry).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;registry&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;registry&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-other"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-other">other</a>
+                </td>
+                <td/>
+                <td>Other study category not covered by the existing codes. Use with additional descriptive text.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/fhir/ValueSet/research-study-category"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <name value="ResearchStudyCategoryVS"/>
+        <title value="Research Study Category"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-08-31T20:57:45+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:74f8ce91-9c61-496e-96b6-8d6be04d57cd"/>
+          <timestamp value="2026-08-31T20:59:35+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="interventional"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="observational"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="registry"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/fhir/ValueSet/research-study-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-research-study-category-cs.html">codesystem Research Study Category Code System v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-interventional"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-interventional">interventional</a>
+                </td>
+                <td>Interventional study</td>
+                <td>A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;interventional&quot;, &quot;display&quot;: &quot;Interventional study&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;interventional&quot;&gt;&lt;display value=&quot;Interventional study&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-observational"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-observational">observational</a>
+                </td>
+                <td>Observational study</td>
+                <td>A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;observational&quot;, &quot;display&quot;: &quot;Observational study&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;observational&quot;&gt;&lt;display value=&quot;Observational study&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-registry"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-registry">registry</a>
+                </td>
+                <td>Registry study</td>
+                <td>A study primarily based on data collected in a registry (e.g. disease or quality registry).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;registry&quot;, &quot;display&quot;: &quot;Registry study&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;registry&quot;&gt;&lt;display value=&quot;Registry study&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://example.org/fhir/CodeSystem/research-study-category-other"> </a>
+                  <code>http://example.org/fhir/CodeSystem/research-study-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-research-study-category-cs.html#research-study-category-cs-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other study category not covered by the existing codes. Use with additional descriptive text.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://example.org/fhir/CodeSystem/research-study-category&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://example.org/fhir/CodeSystem/research-study-category&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/fhir/ValueSet/research-study-category"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <name value="ResearchStudyCategoryVS"/>
+        <title value="Research Study Category"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-08-31T20:57:45+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:769ac214-edd8-4bc8-92ea-a2f134800426"/>
+          <timestamp value="2026-08-31T20:59:35+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"/>
+          </parameter>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="interventional"/>
+            <display value="Interventional study"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="observational"/>
+            <display value="Observational study"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="registry"/>
+            <display value="Registry study"/>
+          </contains>
+          <contains>
+            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

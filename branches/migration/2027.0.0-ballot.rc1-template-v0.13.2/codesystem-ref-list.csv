@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://example.org/fhir/CodeSystem/associated-party-role,2027.0.0-ballot.rc1,active,,AssociatedPartyRoleCS,Associated Party Role Code System,"Roles that an associated party may have in relation to an entity such as a research study.","ValueSet/associated-party-role-vs"
+http://example.org/fhir/CodeSystem/research-study-category,2027.0.0-ballot.rc1,active,,ResearchStudyCategoryCS,Research Study Category Code System,"High-level categories describing the overall type of a research study.","ValueSet/research-study-category-vs"
+http://terminology.hl7.org/CodeSystem/title-type,1.0.0,active,,TitleType,Title Type,"Used to express the reason and specific aspect for the variant title, such as language and specific language.","ValueSet/title-type"
+http://terminology.hl7.org/CodeSystem/usage-context-type,2.0.1,active,"2.16.840.1.113883.4.642.1.1068",UsageContextType,UsageContextType,"A code that specifies a type of context being specified by a usage context.","ValueSet/usage-context-type"

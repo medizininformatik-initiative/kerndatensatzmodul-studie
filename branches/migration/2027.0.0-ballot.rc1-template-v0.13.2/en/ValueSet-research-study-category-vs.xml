@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="research-study-category-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet research-study-category-vs</b></p><a name="en-research-study-category-vs"> </a><a name="en-hcresearch-study-category-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-research-study-category-cs.html"><code>http://example.org/fhir/CodeSystem/research-study-category</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2027.0.0-ballot.rc1</span></li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/ValueSet/research-study-category"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="ResearchStudyCategoryVS"/>
+  <title value="Research Study Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-08-31T20:57:45+00:00"/>
+  <publisher value="NUM-DIZ"/>
+  <contact>
+    <name value="NUM-DIZ"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.netzwerk-universitaetsmedizin.de"/>
+    </telecom>
+  </contact>
+  <description value="Value set of high-level categories describing the type of a research study."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
+    </include>
+  </compose>
+</ValueSet>

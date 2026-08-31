@@ -1,0 +1,403 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "AssociatedPartyRoleCS",
+    "title" : "Associated Party Role Code System",
+    "description" : "Roles that an associated party may have in relation to an entity such as a research study.",
+    "uses" : {
+    },
+    "ValueSet-associated-party-role-vs.html" : "Associated Party Role"
+  },
+  {
+    "url" : "http://example.org/fhir/CodeSystem/research-study-category",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "ResearchStudyCategoryCS",
+    "title" : "Research Study Category Code System",
+    "description" : "High-level categories describing the overall type of a research study.",
+    "uses" : {
+    },
+    "ValueSet-research-study-category-vs.html" : "Research Study Category"
+  },
+  {
+    "url" : "http://hl7.org/fhir/composition-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CompositionStatus",
+    "title" : "CompositionStatus",
+    "description" : "The workflow/clinical status of the composition.",
+    "oids" : ["2.16.840.1.113883.4.642.4.242"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-composition-status.html" : "CompositionStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/days-of-week",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DaysOfWeek",
+    "title" : "DaysOfWeek",
+    "description" : "The days of the week.",
+    "oids" : ["2.16.840.1.113883.4.642.4.513"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-days-of-week.html" : "DaysOfWeek"
+  },
+  {
+    "url" : "http://hl7.org/fhir/document-reference-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DocumentReferenceStatus",
+    "title" : "DocumentReferenceStatus",
+    "description" : "The status of the document reference.",
+    "oids" : ["2.16.840.1.113883.4.642.4.8"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-document-reference-status.html" : "DocumentReferenceStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/document-relationship-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DocumentRelationshipType",
+    "title" : "DocumentRelationshipType",
+    "description" : "The type of relationship between documents.",
+    "oids" : ["2.16.840.1.113883.4.642.4.245"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-document-relationship-type.html" : "DocumentRelationshipType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/group-measure",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "GroupMeasure",
+    "title" : "GroupMeasure",
+    "description" : "Possible group measure aggregates (E.g. Mean, Median).",
+    "oids" : ["2.16.840.1.113883.4.642.4.1346"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-group-measure.html" : "GroupMeasure"
+  },
+  {
+    "url" : "http://hl7.org/fhir/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "oids" : ["2.16.840.1.113883.4.642.4.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/publication-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "PublicationStatus",
+    "title" : "PublicationStatus",
+    "description" : "The lifecycle status of an artifact.",
+    "oids" : ["2.16.840.1.113883.4.642.4.4"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-publication-status.html" : "PublicationStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://hl7.org/fhir/related-artifact-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "RelatedArtifactType",
+    "title" : "RelatedArtifactType",
+    "description" : "The type of relationship to the related artifact.",
+    "oids" : ["2.16.840.1.113883.4.642.4.100"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-related-artifact-type.html" : "RelatedArtifactType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-intent",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "RequestIntent",
+    "title" : "RequestIntent",
+    "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.114"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-request-intent.html" : "RequestIntent"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-priority",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "RequestPriority",
+    "title" : "RequestPriority",
+    "description" : "Identifies the level of importance to be assigned to actioning the request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.116"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-request-priority.html" : "Request priority"
+  },
+  {
+    "url" : "http://hl7.org/fhir/request-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "RequestStatus",
+    "title" : "RequestStatus",
+    "description" : "Codes identifying the lifecycle stage of a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.112"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-request-status.html" : "RequestStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/research-study-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ResearchStudyStatus",
+    "title" : "ResearchStudyStatus",
+    "description" : "Codes that convey the current status of the research study.",
+    "oids" : ["2.16.840.1.113883.4.642.4.820"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-research-study-status.html" : "ResearchStudyStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/research-subject-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ResearchSubjectStatus",
+    "title" : "ResearchSubjectStatus",
+    "description" : "Indicates the progression of a study subject through a study.",
+    "oids" : ["2.16.840.1.113883.4.642.4.830"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-research-subject-status.html" : "ResearchSubjectStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-subject-type.html" : "Subject type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/variable-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EvidenceVariableType",
+    "title" : "EvidenceVariableType",
+    "description" : "The possible types of variables for exposures or outcomes (E.g. Dichotomous, Continuous, Descriptive).",
+    "oids" : ["2.16.840.1.113883.4.642.4.1344"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-variable-type.html" : "EvidenceVariableType"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes",
+    "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+    "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+    "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
+    "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
+    "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+    "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role",
+    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "CommonTags",
+    "title" : "Common Tags",
+    "description" : "Common Tag Codes defined by FHIR project",
+    "oids" : ["2.16.840.1.113883.4.642.1.1067"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-common-tags.html" : "Common Tags"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/definition-topic",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "DefinitionTopic",
+    "title" : "DefinitionTopic",
+    "description" : "High-level categorization of the definition, used for searching, sorting, and filtering.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1244"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-definition-topic.html" : "DefinitionTopic"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/library-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "LibraryType",
+    "title" : "LibraryType",
+    "description" : "The type of knowledge asset this library contains.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1230"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-library-type.html" : "LibraryType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "PractitionerRole",
+    "title" : "Practitioner role",
+    "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1132"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ResearchStudyObjectiveType",
+    "title" : "ResearchStudyObjectiveType",
+    "description" : "Codes for the kind of study objective.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1248"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-research-study-objective-type.html" : "ResearchStudyObjectiveType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/research-study-phase",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "ResearchStudyPhase",
+    "title" : "ResearchStudyPhase",
+    "description" : "Codes for the stage in the progression of a therapy from initial experimental use in humans in clinical trials to post-market evaluation.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1247"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-research-study-phase.html" : "ResearchStudyPhase"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ResearchStudyPrimaryPurposeType",
+    "title" : "ResearchStudyPrimaryPurposeType",
+    "description" : "Codes for the main intent of the study.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1250"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-research-study-prim-purp-type.html" : "ResearchStudyPrimaryPurposeType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ResearchStudyReasonStopped",
+    "title" : "ResearchStudyReasonStopped",
+    "description" : "Codes for why the study ended prematurely.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1249"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-research-study-reason-stopped.html" : "ResearchStudyReasonStopped"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/title-type",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TitleType",
+    "title" : "Title Type",
+    "description" : "Used to express the reason and specific aspect for the variant title, such as language and specific language.",
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-title-type.html" : "Title Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "UsageContextType",
+    "title" : "UsageContextType",
+    "description" : "A code that specifies a type of context being specified by a usage context.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1068"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-usage-context-type.html" : "UsageContextType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierType",
+    "title" : "identifierType",
+    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+    "oids" : ["2.16.840.1.113883.18.108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "version" : "11.0.0",
+    "status" : "active",
+    "name" : "ActCode",
+    "title" : "ActCode",
+    "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+    "oids" : ["2.16.840.1.113883.5.4"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+    "oids" : ["2.16.840.1.113883.5.111"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "Ietf3066",
+    "title" : "Tags for the Identification of Languages",
+    "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+  }]
+}

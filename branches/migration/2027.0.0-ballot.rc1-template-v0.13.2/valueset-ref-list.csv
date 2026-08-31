@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://example.org/fhir/ValueSet/associated-party-role,2027.0.0-ballot.rc1,active,,AssociatedPartyRoleVS,Associated Party Role,"Value set of roles that an associated party may have in relation to a research study.",,"Internal"
+http://example.org/fhir/ValueSet/research-study-category,2027.0.0-ballot.rc1,active,,ResearchStudyCategoryVS,Research Study Category,"Value set of high-level categories describing the type of a research study.",,"Internal"
+http://terminology.hl7.org/ValueSet/title-type,1.0.0,active,,TitleType,Title Type,"Used to express the reason and specific aspect for the variant title, such as language and specific language.","StructureDefinition/mii-ex-studie-backport-label","THO"
+http://terminology.hl7.org/ValueSet/usage-context-type,1.0.1,active,"2.16.840.1.113883.4.642.3.101",UsageContextType,UsageContextType,"A code that specifies a type of context being specified by a usage context.","StructureDefinition/mii-ex-studie-backport-definition-by-type-and-value","THO"

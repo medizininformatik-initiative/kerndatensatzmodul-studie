@@ -1,0 +1,30 @@
+{
+  "resourceType" : "Patient",
+  "id" : "mii-exa-studie-patient",
+  "meta" : {
+    "profile" : ["http://fhir.de/ConsentManagement/StructureDefinition/Patient"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Patient mii-exa-studie-patient</b></p><a name=\"en-mii-exa-studie-patient\"> </a><a name=\"en-hcmii-exa-studie-patient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&amp;canonical=http://fhir.de/ConsentManagement/StructureDefinition/Patient\">http://fhir.de/ConsentManagement/StructureDefinition/Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jane Doe  Female, DoB: 1980-11-12 ( KVZ10\u00a0(use:\u00a0official,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">false</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "http://fhir.de/CodeSystem/identifier-type-de-basis",
+        "code" : "KVZ10"
+      }]
+    },
+    "system" : "http://fhir.de/sid/gkv/kvid-10",
+    "value" : "D92345678"
+  }],
+  "name" : [{
+    "family" : "Doe",
+    "given" : ["Jane"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1980-11-12",
+  "deceasedBoolean" : false
+}

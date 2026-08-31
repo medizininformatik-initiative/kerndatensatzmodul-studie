@@ -1,0 +1,46 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/fhir/ValueSet/associated-party-role",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "AssociatedPartyRoleVS",
+    "title" : "Associated Party Role",
+    "description" : "Value set of roles that an associated party may have in relation to a research study.",
+    "systems" : ["http://example.org/fhir/CodeSystem/associated-party-role"]
+  },
+  {
+    "url" : "http://example.org/fhir/ValueSet/research-study-category",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "ResearchStudyCategoryVS",
+    "title" : "Research Study Category",
+    "description" : "Value set of high-level categories describing the type of a research study.",
+    "systems" : ["http://example.org/fhir/CodeSystem/research-study-category"]
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/title-type",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TitleType",
+    "title" : "Title Type",
+    "description" : "Used to express the reason and specific aspect for the variant title, such as language and specific language.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/title-type"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-label.html" : "MII EX Studie Backport Label"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/usage-context-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "UsageContextType",
+    "title" : "UsageContextType",
+    "description" : "A code that specifies a type of context being specified by a usage context.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/usage-context-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.101"],
+    "sources" : ["2.16.840.1.113883.4.642.3.101"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.html" : "MII EX Studie Backport DefinitionByTypeAndValue"
+  }]
+}

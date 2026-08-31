@@ -1,0 +1,69 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "associated-party-role-cs",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem associated-party-role-cs</b></p><a name=\"associated-party-role-cs\"> </a><a name=\"hcassociated-party-role-cs\"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/associated-party-role</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">sponsor<a name=\"associated-party-role-cs-sponsor\"> </a></td><td>Sponsor</td><td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td></tr><tr><td style=\"white-space:nowrap\">funder<a name=\"associated-party-role-cs-funder\"> </a></td><td>Funder</td><td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td></tr><tr><td style=\"white-space:nowrap\">principal-investigator<a name=\"associated-party-role-cs-principal-investigator\"> </a></td><td>Principal Investigator</td><td>The lead researcher responsible for the overall conduct of the study.</td></tr><tr><td style=\"white-space:nowrap\">co-investigator<a name=\"associated-party-role-cs-co-investigator\"> </a></td><td>Co-Investigator</td><td>A researcher who shares scientific responsibility with the principal investigator.</td></tr><tr><td style=\"white-space:nowrap\">coordinator<a name=\"associated-party-role-cs-coordinator\"> </a></td><td>Study Coordinator</td><td>A person coordinating day-to-day operational activities of the study.</td></tr><tr><td style=\"white-space:nowrap\">publisher<a name=\"associated-party-role-cs-publisher\"> </a></td><td>Publisher</td><td>An entity responsible for publishing or disseminating results.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"associated-party-role-cs-other\"> </a></td><td>Other</td><td>A role not covered by the defined codes.</td></tr></table></div>"
+  },
+  "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "AssociatedPartyRoleCS",
+  "title" : "Associated Party Role Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-08-31T20:57:45+00:00",
+  "publisher" : "NUM-DIZ",
+  "contact" : [{
+    "name" : "NUM-DIZ",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
+    }]
+  }],
+  "description" : "Roles that an associated party may have in relation to an entity such as a research study.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 7,
+  "concept" : [{
+    "code" : "sponsor",
+    "display" : "Sponsor",
+    "definition" : "An individual or organization that takes responsibility for the initiation, management, and financing of a study."
+  },
+  {
+    "code" : "funder",
+    "display" : "Funder",
+    "definition" : "An entity providing financial support but not assuming overall responsibility as a sponsor."
+  },
+  {
+    "code" : "principal-investigator",
+    "display" : "Principal Investigator",
+    "definition" : "The lead researcher responsible for the overall conduct of the study."
+  },
+  {
+    "code" : "co-investigator",
+    "display" : "Co-Investigator",
+    "definition" : "A researcher who shares scientific responsibility with the principal investigator."
+  },
+  {
+    "code" : "coordinator",
+    "display" : "Study Coordinator",
+    "definition" : "A person coordinating day-to-day operational activities of the study."
+  },
+  {
+    "code" : "publisher",
+    "display" : "Publisher",
+    "definition" : "An entity responsible for publishing or disseminating results."
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "A role not covered by the defined codes."
+  }]
+}

@@ -1,0 +1,47 @@
+{
+  "codeSystems" : [{
+    "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "AssociatedPartyRoleCS",
+    "title" : "Associated Party Role Code System",
+    "description" : "Roles that an associated party may have in relation to an entity such as a research study.",
+    "uses" : {
+    },
+    "ValueSet-associated-party-role-vs.html" : "Associated Party Role"
+  },
+  {
+    "url" : "http://example.org/fhir/CodeSystem/research-study-category",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "ResearchStudyCategoryCS",
+    "title" : "Research Study Category Code System",
+    "description" : "High-level categories describing the overall type of a research study.",
+    "uses" : {
+    },
+    "ValueSet-research-study-category-vs.html" : "Research Study Category"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/title-type",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "TitleType",
+    "title" : "Title Type",
+    "description" : "Used to express the reason and specific aspect for the variant title, such as language and specific language.",
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-title-type.html" : "Title Type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "UsageContextType",
+    "title" : "UsageContextType",
+    "description" : "A code that specifies a type of context being specified by a usage context.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1068"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-usage-context-type.html" : "UsageContextType"
+  }]
+}
