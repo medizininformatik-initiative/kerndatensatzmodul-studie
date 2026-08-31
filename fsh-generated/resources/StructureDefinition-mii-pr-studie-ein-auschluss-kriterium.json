@@ -223,6 +223,16 @@
       {
         "id": "EvidenceVariable.characteristic.extension",
         "path": "EvidenceVariable.characteristic.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "mustSupport": true
       },
       {
