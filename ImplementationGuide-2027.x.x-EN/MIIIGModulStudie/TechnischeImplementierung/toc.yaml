@@ -4,5 +4,5 @@
   filename: FHIR-Profile
 - name: CapabilityStatement
   filename: CapabilityStatement.page.md
-- name: Terminologie
+- name: Terminology
   filename: Terminologie.page.md
