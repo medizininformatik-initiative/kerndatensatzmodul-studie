@@ -8,7 +8,7 @@ fhirVersion: 4.0.1
 FSHOnly: false
 packageId: de.medizininformatikinitiative.kerndatensatz.studie
 copyrightYear: 2024+
-releaseLabel: ci-build
+releaseLabel: release
 publisher:
   name: Medizininformatik Initiative
   url: https://www.medizininformatik-initiative.de/
