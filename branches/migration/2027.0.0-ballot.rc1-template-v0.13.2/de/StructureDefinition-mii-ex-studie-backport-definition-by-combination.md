@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_Definition_By_Combination |
+| Active Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_Definition_By_Combination |
 
 **Context of Use**
 
@@ -84,7 +84,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Backport_Definition_By_Combination",
   "title" : "MII EX Studie Backport DefinitionByCombination",
   "status" : "active",
-  "date" : "2026-08-31T22:12:11+00:00",
+  "date" : "2026-09-01T10:00:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

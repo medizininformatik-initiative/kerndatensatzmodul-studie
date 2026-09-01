@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_PR_Studie_EinAuschlussKriterium |
+| Active Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_PR_Studie_EinAuschlussKriterium |
 
  
 Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative. 
@@ -188,7 +188,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
     }]
   },
   "status" : "active",
-  "date" : "2026-08-31T22:12:11+00:00",
+  "date" : "2026-09-01T10:00:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

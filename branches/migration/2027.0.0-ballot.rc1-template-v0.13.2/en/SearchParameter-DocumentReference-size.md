@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-08-31 | *Computable Name*:SP_MII_Studie_Size |
+| Active as of 2026-09-01 | *Computable Name*:SP_MII_Studie_Size |
 
  
 Suchparameter für DocumentReference.content.attachment.size 
@@ -27,7 +27,7 @@ Suchparameter für DocumentReference.content.attachment.size
   "name" : "SP_MII_Studie_Size",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-31T22:12:11+00:00",
+  "date" : "2026-09-01T10:00:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

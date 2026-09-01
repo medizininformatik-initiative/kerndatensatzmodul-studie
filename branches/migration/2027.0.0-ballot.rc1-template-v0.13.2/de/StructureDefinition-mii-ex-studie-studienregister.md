@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_EX_Studie_Studienregister |
+| Active Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_EX_Studie_Studienregister |
 
 **Context of Use**
 
@@ -72,7 +72,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Studienregister",
   "title" : "MII EX Studie Studienregister",
   "status" : "active",
-  "date" : "2026-08-31T22:12:11+00:00",
+  "date" : "2026-09-01T10:00:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

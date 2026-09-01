@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-08-31 | *Computable Name*:MII_EX_Studie_Eligibility |
+| Active as of 2026-09-01 | *Computable Name*:MII_EX_Studie_Eligibility |
 
 **Context of Use**
 
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-eli
   "name" : "MII_EX_Studie_Eligibility",
   "title" : "MII EX Studie Eligibility",
   "status" : "active",
-  "date" : "2026-08-31T22:12:11+00:00",
+  "date" : "2026-09-01T10:00:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
