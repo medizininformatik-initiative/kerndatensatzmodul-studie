@@ -1,0 +1,71 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "ResearchStudyCategoryCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Research Study Category Code System"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "NUM-DIZ"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "NUM-DIZ"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "High-level categories describing the overall type of a research study."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Interventional study"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Observational study"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Registry study"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "A study primarily based on data collected in a registry (e.g. disease or quality registry)."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Other"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Other study category not covered by the existing codes. Use with additional descriptive text."
+msgstr ""
+

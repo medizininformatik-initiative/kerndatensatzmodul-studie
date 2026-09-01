@@ -1,0 +1,21 @@
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Höchstalter"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "kein Höchstalter"
+msgstr ""
+
+# EvidenceVariable.characteristic.description
+#: EvidenceVariable.characteristic.description
+msgid "Mindestalter"
+msgstr ""
+
+# CodeableConcept.text
+#: CodeableConcept.text
+msgid "18 Jahre"
+msgstr ""
+

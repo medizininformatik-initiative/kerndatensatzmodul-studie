@@ -3,7 +3,7 @@ InstanceOf: CapabilityStatement
 Usage: #definition
 * status = #active
 * experimental = false
-* version = "2027.0.0-ballot.rc1§§"
+* insert Version
 * publisher = "Medizininformatik Initiative"
 * date = "2026-08-31"
 * implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1"

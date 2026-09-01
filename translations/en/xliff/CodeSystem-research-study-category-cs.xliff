@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="CodeSystem-research-study-category-cs" original="Resource CodeSystem-research-study-category-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>ResearchStudyCategoryCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Research Study Category Code System</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>High-level categories describing the overall type of a research study.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Interventional study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>A study in which participants are assigned to receive one or more interventions so that outcomes can be evaluated.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Observational study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>A study in which biomedical or health outcomes are observed in a defined population without assignment of specific interventions.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Registry study</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>A study primarily based on data collected in a registry (e.g. disease or quality registry).</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-research-study-category-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Other study category not covered by the existing codes. Use with additional descriptive text.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

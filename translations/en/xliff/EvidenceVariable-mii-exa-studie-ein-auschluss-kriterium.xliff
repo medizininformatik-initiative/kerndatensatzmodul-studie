@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" original="Resource EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Altersbeschränkung</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Altersbeschränkung</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Geschlecht</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Alle</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Kognitive Fatigue (WeiMUS kognitive Skala &gt;= 17)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Weitere Einschlusskriterien</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Einnahme von Antidepressiva, Opioiden, Antikonvulsiva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>weitere neurologische Erkrankungen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Current chronological age</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>year</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="EvidenceVariable.characteristic.description">
+             <notes>
+               <note id="n1">EvidenceVariable.characteristic.description</note>
+             </notes>
+        <source>Alter mindestens 18 Jahre</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium" resname="CodeableConcept.text">
+             <notes>
+               <note id="n1">CodeableConcept.text</note>
+             </notes>
+        <source>Mindestalter</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

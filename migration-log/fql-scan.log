@@ -1,0 +1,6 @@
+2026-08-31T21:30:34Z  INFO   5.4  fql-scan  params  rules=/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/0afac26a-e740-4b1b-ae89-7e9976f6722c/scratchpad/agent-skills/skills/mii-ig-migration/references/fql-rules.tsv  targets= input/pagecontent input/translations/en/pagecontent input/intro-notes input/translations/en/intro-notes  defaulted=0
+2026-08-31T21:30:34Z  INFO   5.4  fql-scan  target  path=input/pagecontent  kind=dir  files=19
+2026-08-31T21:30:34Z  INFO   5.4  fql-scan  target  path=input/translations/en/pagecontent  kind=dir  files=19
+2026-08-31T21:30:34Z  INFO   5.4  fql-scan  target  path=input/intro-notes  kind=dir  files=7
+2026-08-31T21:30:34Z  INFO   5.4  fql-scan  target  path=input/translations/en/intro-notes  kind=dir  files=7
+2026-08-31T21:30:35Z  INFO   5.4  fql-scan  result  mapped=0 unknown=0 files=52  exit=0  no directives found

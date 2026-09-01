@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="CodeSystem-associated-party-role-cs" original="Resource CodeSystem-associated-party-role-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>AssociatedPartyRoleCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Associated Party Role Code System</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Roles that an associated party may have in relation to an entity such as a research study.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sponsor</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Funder</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>An entity providing financial support but not assuming overall responsibility as a sponsor.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Principal Investigator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>The lead researcher responsible for the overall conduct of the study.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Co-Investigator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>A researcher who shares scientific responsibility with the principal investigator.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Study Coordinator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>A person coordinating day-to-day operational activities of the study.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Publisher</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>An entity responsible for publishing or disseminating results.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-associated-party-role-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>A role not covered by the defined codes.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

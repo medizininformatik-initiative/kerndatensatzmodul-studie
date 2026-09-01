@@ -6,6 +6,7 @@
   "title": "Research Study Category",
   "description": "Value set of high-level categories describing the type of a research study.",
   "url": "http://example.org/fhir/ValueSet/research-study-category",
+  "version": "2027.0.0-ballot.rc1",
   "experimental": false,
   "compose": {
     "include": [

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="Organization-mii-exa-studie-custodian" original="Resource Organization-mii-exa-studie-custodian" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Organization-mii-exa-studie-custodian" resname="Organization.name">
+             <notes>
+               <note id="n1">Organization.name</note>
+             </notes>
+        <source>Example Organization for Custodian</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

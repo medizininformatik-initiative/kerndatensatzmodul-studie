@@ -44,6 +44,7 @@
       "definition": "A role not covered by the defined codes."
     }
   ],
+  "version": "2027.0.0-ballot.rc1",
   "experimental": false,
   "count": 7
 }

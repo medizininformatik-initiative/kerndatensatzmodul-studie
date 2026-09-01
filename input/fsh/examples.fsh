@@ -78,6 +78,7 @@ Usage: #example
 * name = "DRKS - Deutsches Register Klinischer Studien"
 * status = #active
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
+* relatedArtifact.url = "https://drks.de/"
 * relatedArtifact.document.url = "https://drks.de/"
 * relatedArtifact.type = #documentation
 
@@ -243,6 +244,7 @@ CodeSystem: ResearchStudyCategoryCS
 Id: research-study-category-cs
 Title: "Research Study Category Code System"
 Description: "High-level categories describing the overall type of a research study."
+* insert PR_CS_VS_Version
 * ^url = "http://example.org/fhir/CodeSystem/research-study-category"
 * ^status = #active
 * ^experimental = false
@@ -261,6 +263,7 @@ ValueSet: ResearchStudyCategoryVS
 Id: research-study-category-vs
 Title: "Research Study Category"
 Description: "Value set of high-level categories describing the type of a research study."
+* insert PR_CS_VS_Version
 * ^url = "http://example.org/fhir/ValueSet/research-study-category"
 * ^status = #active
 * ^experimental = false
@@ -271,6 +274,7 @@ CodeSystem: AssociatedPartyRoleCS
 Id: associated-party-role-cs
 Title: "Associated Party Role Code System"
 Description: "Roles that an associated party may have in relation to an entity such as a research study."
+* insert PR_CS_VS_Version
 * ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
 * ^status = #active
 * ^experimental = false
@@ -295,6 +299,7 @@ ValueSet: AssociatedPartyRoleVS
 Id: associated-party-role-vs
 Title: "Associated Party Role"
 Description: "Value set of roles that an associated party may have in relation to a research study."
+* insert PR_CS_VS_Version
 * ^url = "http://example.org/fhir/ValueSet/associated-party-role"
 * ^status = #active
 * ^experimental = false
