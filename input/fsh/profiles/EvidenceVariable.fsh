@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_EinAuschlussKriterium
 Title: "MII PR Studie EinAuschlussKriterium"
 Parent: EvidenceVariable
@@ -9,6 +10,17 @@ Description: "Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb
 * insert Translation(^description, en, This profile describes an inclusion and exclusion criterion within a study in the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * status MS
 * status ^short = "Status"
 * insert Translation(status ^short, de, Entwurf | aktiv | zurückgezogen | unbekannt)
@@ -43,6 +55,17 @@ Id: mii-ex-studie-backport-linkId
 Title: "MII EX Studie Backport linkId"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only id
@@ -52,6 +75,17 @@ Id: mii-ex-studie-backport-definitionReference
 Title: "MII EX Studie Backport definitionReference"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only Reference(EvidenceVariable or Evidence or Group)
@@ -61,6 +95,17 @@ Id: mii-ex-studie-backport-definitionCanonical
 Title: "MII EX Studie Backport definitionCanonical"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only Canonical(EvidenceVariable or Evidence)
@@ -70,28 +115,50 @@ Id: mii-ex-studie-backport-definition-by-type-and-value
 Title: "MII EX Studie Backport DefinitionByTypeAndValue"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 1..1 MS and method 0..* and device 0..1 and offset 0..1 and value 1..1 MS
 * extension[type].value[x] only CodeableConcept
 * extension[type].valueCodeableConcept from http://terminology.hl7.org/ValueSet/usage-context-type (example)
 * extension[method].value[x] only CodeableConcept
-* extension[method].valueCodeableConcept from http://hl7.org/fhir/ValueSet/definition-method (example)
+* extension[method].valueCodeableConcept from http://hl7.org/fhir/ValueSet/definition-method|5.0.0 (example)
 * extension[device].value[x] only Reference(Device or DeviceMetric)
 * extension[value].value[x] only CodeableConcept or boolean or Quantity or Range or Reference or id
 * extension[offset].value[x] only CodeableConcept
-* extension[offset].valueCodeableConcept from http://hl7.org/fhir/ValueSet/characteristic-offset (example)
+* extension[offset].valueCodeableConcept from http://hl7.org/fhir/ValueSet/characteristic-offset|5.0.0 (example)
 
 Extension: MII_EX_Studie_Backport_Definition_By_Combination
 Id: mii-ex-studie-backport-definition-by-combination
 Title: "MII EX Studie Backport DefinitionByCombination"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains code 1..1 MS and threshhold 0..1 and characteristic 1..* MS
 * extension[code].value[x] only code
-* extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination (required)
+* extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination|5.0.0 (required)
 * extension[threshhold].value[x] only positiveInt
 * extension[characteristic].value[x] only id
 
@@ -100,10 +167,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_CharacteristicDescription"
 * status = #active
 * description = "Suchparameter für EvidenceVariable.characteristic.description"
 * experimental = false
+* date = "2026-08-31"
 * code = #characteristicDescription
 * base = #EvidenceVariable
 * type = #string

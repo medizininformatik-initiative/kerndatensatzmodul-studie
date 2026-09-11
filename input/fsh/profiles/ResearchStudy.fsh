@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Studie
 Title: "MII PR Studie Studie"
 Parent: ResearchStudy
@@ -9,6 +10,17 @@ Description: "Dieses Profil beschreibt eine Studie in der Medizininformatik-Init
 * insert Translation(^description, en, This profile describes a study within the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * status MS
 * status ^short = "aktiv | administrativ abgeschlossen | genehmigt | für Rekrutierung geschlossen | für Rekrutierung und Intervention geschlossen | abgeschlossen | abgelehnt | in Überprüfung | vorübergehend für Rekrutierung geschlossen | vorübergehend für Rekrutierung und Intervention geschlossen | zurückgezogen"
 * insert Translation(status ^short, de, aktiv | administrativ abgeschlossen | genehmigt | für Rekrutierung geschlossen | für Rekrutierung und Intervention geschlossen | abgeschlossen | abgelehnt | in Überprüfung | vorübergehend für Rekrutierung geschlossen | vorübergehend für Rekrutierung und Intervention geschlossen | zurückgezogen)
@@ -134,6 +146,17 @@ Title: "MII EX Studie Studienregister"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * value[x] only Reference(Library)
 
 Extension: MII_EX_Studie_Eligibility
@@ -142,6 +165,17 @@ Title: "MII EX Studie Eligibility"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * value[x] only Reference(Group or EvidenceVariable)
 
 Extension: MII_EX_Studie_Akronym
@@ -150,6 +184,17 @@ Title: "MII EX Studie Akronym"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * value[x] only string
 
 Extension: MII_EX_Studie_Rekrutierung
@@ -158,6 +203,17 @@ Title: "MII EX Studie Rekrutierung"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
 * extension[rekrutierungsstand-datum].value[x] only date
 * extension[rekrutierungsstand-genauigkeit].value[x] only string
@@ -171,6 +227,17 @@ Title: "MII EX Studie Finanzierung"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * value[x] only string
 
 Extension: MII_EX_Studie_Ethikvotum
@@ -179,6 +246,17 @@ Title: "MII EX Studie Ethikvotum"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * extension contains status 1..1 MS and kommission 1..1 MS and ethiknummer 1..1 MS
 * extension[status].value[x] only string
 * extension[kommission].value[x] only string
@@ -190,15 +268,26 @@ Title: "MII EX Studie Backport AssociatedParty"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
 * extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
 * extension[name].value[x] only string
 * extension[role].value[x] only CodeableConcept
-* extension[role].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-role (extensible)
+* extension[role].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-role|5.0.0 (extensible)
 * extension[period].value[x] only Period
 * extension[classifier].value[x] only CodeableConcept
-* extension[classifier].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-organization-type (example)
+* extension[classifier].valueCodeableConcept from http://hl7.org/fhir/ValueSet/research-study-party-organization-type|5.0.0 (example)
 * extension[party].value[x] only Reference(Practitioner or PractitionerRole or Organization)
 
 Extension: MII_EX_Studie_Backport_Label
@@ -206,6 +295,18 @@ Id: mii-ex-studie-backport-label
 Title: "MII EX Studie Backport Label"
 Context: ResearchStudy
 * insert PR_CS_VS_Version
+* insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 0..1 and value 1..1 MS
@@ -218,10 +319,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-armName"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_ArmName"
 * status = #active
 * description = "Suchparameter für ResearchStudy.arm.name"
 * experimental = false
+* date = "2026-08-31"
 * code = #armName
 * base = #ResearchStudy
 * type = #string
@@ -232,10 +337,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Label"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:label"
 * experimental = false
+* date = "2026-08-31"
 * code = #label
 * base = #ResearchStudy
 * type = #string
@@ -246,10 +355,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Akronym"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Akronym"
 * experimental = false
+* date = "2026-08-31"
 * code = #akronym
 * base = #ResearchStudy
 * type = #string
@@ -260,10 +373,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Finanzierung"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Finanzierung"
 * experimental = false
+* date = "2026-08-31"
 * code = #finanzierung
 * base = #ResearchStudy
 * type = #string
@@ -274,10 +391,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Studienregister"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Studienregister"
 * experimental = false
+* date = "2026-08-31"
 * code = #studienregister
 * base = #ResearchStudy
 * type = #reference
@@ -288,10 +409,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-datum"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_RekrutierungsstandDatum"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-datum"
 * experimental = false
+* date = "2026-08-31"
 * code = #rekrutierungsstand-datum
 * base = #ResearchStudy
 * type = #date
@@ -302,10 +427,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand-genauigkeit"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_RekrutierungsstandGenauigkeit"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand-genauigkeit"
 * experimental = false
+* date = "2026-08-31"
 * code = #rekrutierungsstand-genauigkeit
 * base = #ResearchStudy
 * type = #string
@@ -316,10 +445,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstand"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Rekrutierungsstand"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstand"
 * experimental = false
+* date = "2026-08-31"
 * code = #rekrutierungsstand
 * base = #ResearchStudy
 * type = #number
@@ -330,10 +463,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsziel"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Rekrutierungsziel"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel"
 * experimental = false
+* date = "2026-08-31"
 * code = #rekrutierungsziel
 * base = #ResearchStudy
 * type = #number
@@ -344,10 +481,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-rekrutierungsstart"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Rekrutierungsstart"
 * status = #active
 * description = "Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart"
 * experimental = false
+* date = "2026-08-31"
 * code = #rekrutierungsstart
 * base = #ResearchStudy
 * type = #date
@@ -356,6 +497,7 @@ Usage: #definition
 Instance: mii-exa-studie-studie
 InstanceOf: MII_PR_Studie_Studie
 Usage: #example
+* insert TestDataLabel
 * status = #active
 * title = "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue"
 * identifier.value = "DRKS00031294"

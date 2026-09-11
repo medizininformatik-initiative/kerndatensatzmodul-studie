@@ -19,6 +19,13 @@
         "resourceType": "DocumentReference",
         "id": "mii-exa-studie-dokument",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"
           ]
@@ -61,6 +68,13 @@
         "resourceType": "EvidenceVariable",
         "id": "mii-exa-studie-ein-auschluss-kriterium",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"
           ]
@@ -246,6 +260,13 @@
         "resourceType": "ResearchStudy",
         "id": "mii-exa-studie-studie",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
           ]
@@ -380,6 +401,13 @@
         "resourceType": "ResearchStudy",
         "id": "mii-exa-studie-cohort",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"
           ]
@@ -530,6 +558,13 @@
         "resourceType": "ResearchSubject",
         "id": "mii-exa-studie-proband",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
           ]
@@ -574,6 +609,13 @@
         "resourceType": "PractitionerRole",
         "id": "mii-exa-studie-beteiligte-person",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"
           ]
@@ -612,6 +654,13 @@
         "resourceType": "Library",
         "id": "mii-exa-studie-register",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"
           ]
@@ -652,6 +701,15 @@
       "resource": {
         "resourceType": "Organization",
         "id": "mii-exa-studie-author",
+        "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ]
+        },
         "name": "Example Organization for Author"
       },
       "request": {
@@ -664,6 +722,15 @@
       "resource": {
         "resourceType": "Organization",
         "id": "mii-exa-studie-custodian",
+        "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ]
+        },
         "name": "Example Organization for Custodian"
       },
       "request": {
@@ -676,6 +743,15 @@
       "resource": {
         "resourceType": "Organization",
         "id": "mii-exa-studie-practitioner-organization",
+        "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ]
+        },
         "name": "Example Organization for Practitioner"
       },
       "request": {
@@ -688,6 +764,15 @@
       "resource": {
         "resourceType": "Practitioner",
         "id": "mii-exa-studie-practitioner",
+        "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ]
+        },
         "name": [
           {
             "family": "Mustermann",
@@ -707,6 +792,15 @@
       "resource": {
         "resourceType": "ResearchStudy",
         "id": "mii-exa-studie-reference-study",
+        "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ]
+        },
         "title": "Example Reference Study",
         "status": "completed"
       },
@@ -721,6 +815,13 @@
         "resourceType": "Patient",
         "id": "mii-exa-studie-patient",
         "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ],
           "profile": [
             "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
           ]
@@ -762,6 +863,15 @@
       "resource": {
         "resourceType": "Consent",
         "id": "mii-exa-studie-consent",
+        "meta": {
+          "security": [
+            {
+              "code": "HTEST",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "test health data"
+            }
+          ]
+        },
         "status": "active",
         "scope": {
           "coding": [

@@ -1,3 +1,4 @@
+
 Logical: MII_LM_Studie_LogicalModel
 Title: "MII LM Studie LogicalModel"
 Parent: Element
@@ -5,6 +6,17 @@ Id: mii-lm-studie-logicalmodel
 Description: "Logische Repräsentation der Forschungsvorhaben"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageLogicalModel
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
   * identifier 0..* Identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
   * System 0..* string "System einer BusinessID" "System einer BusinessID"

@@ -1,5 +1,14 @@
 {
   "resourceType": "Organization",
   "id": "mii-exa-studie-custodian",
+  "meta": {
+    "security": [
+      {
+        "code": "HTEST",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+        "display": "test health data"
+      }
+    ]
+  },
   "name": "Example Organization for Custodian"
 }

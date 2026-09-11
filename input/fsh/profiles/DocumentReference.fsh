@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Dokument
 Title: "MII PR Studie Dokument"
 Parent: DocumentReference
@@ -9,6 +10,17 @@ Description: "Dieses Profil beschreibt ein Dokument / Publikation in der Medizin
 * insert Translation(^description, en, This profile describes a document/publication within the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * status MS
 * status ^short = "Status"
 * insert Translation(status ^short, de, Status)
@@ -56,10 +68,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-title"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Title"
 * status = #active
 * description = "Suchparameter für DocumentReference.content.attachment.title"
 * experimental = false
+* date = "2026-08-31"
 * code = #title
 * base = #DocumentReference
 * type = #string
@@ -70,10 +86,14 @@ InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/DocumentReference-size"
 * insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Size"
 * status = #active
 * description = "Suchparameter für DocumentReference.content.attachment.size"
 * experimental = false
+* date = "2026-08-31"
 * code = #size
 * base = #DocumentReference
 * type = #number

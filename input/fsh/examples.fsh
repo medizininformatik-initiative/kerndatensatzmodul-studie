@@ -2,6 +2,7 @@
 Instance:  mii-exa-studie-dokument
 InstanceOf: MII_PR_Studie_Dokument
 Usage: #example
+* insert TestDataLabel
 * status = #current
 * content.attachment.url = "https://example.com/fhir/Binary/document"
 * content.attachment.title = "Beispiel Dokument"
@@ -15,6 +16,7 @@ Usage: #example
 Instance: mii-exa-studie-ein-auschluss-kriterium
 InstanceOf: MII_PR_Studie_EinAuschlussKriterium
 Usage: #example
+* insert TestDataLabel
 * status = #active
 * characteristic
   * definitionCodeableConcept.text = "Altersbeschränkung"
@@ -73,6 +75,7 @@ Usage: #example
 Instance: mii-exa-studie-register
 InstanceOf: MII_PR_Studie_Register
 Usage: #example
+* insert TestDataLabel
 * identifier.value = "DRKS"
 * identifier.system = "https://example.com/fhir/sid/drks"
 * name = "DRKS - Deutsches Register Klinischer Studien"
@@ -86,6 +89,7 @@ Usage: #example
 Instance:  mii-exa-studie-beteiligte-person
 InstanceOf: MII_PR_Studie_Beteiligte_Person
 Usage: #example
+* insert TestDataLabel
 * code = http://terminology.hl7.org/CodeSystem/practitioner-role#doctor
 * telecom.system = #phone
 * telecom.value = "0123456789"
@@ -96,6 +100,7 @@ Usage: #example
 Instance: mii-exa-studie-cohort
 InstanceOf: MII_PR_Studie_Studie
 Usage: #example
+* insert TestDataLabel
 * identifier.value = "7Q6PJD8NV3-2"
 * identifier.system = "https://example.com/fhir/sid/lha"
 * title = "LIFE-Adult-Study"
@@ -126,6 +131,7 @@ Usage: #example
 Instance: mii-exa-studie-proband
 InstanceOf: MII_PR_Studie_Proband
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-proband"
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"
 * identifier[subjectIdentificationCode].type = $v2-0203#ANON
@@ -143,6 +149,7 @@ Usage: #example
 Instance: mii-exa-studie-studieneinschluss-anfrage
 InstanceOf: MII_PR_Studie_Studieneinschluss_Anfrage
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-studieneinschluss-anfrage"
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"
 * status = #draft
@@ -161,6 +168,7 @@ Usage: #example
 Instance: mii-exa-studie-author
 InstanceOf: Organization
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-author"
 * name = "Example Organization for Author"
 
@@ -168,6 +176,7 @@ Usage: #example
 Instance: mii-exa-studie-custodian
 InstanceOf: Organization
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-custodian"
 * name = "Example Organization for Custodian"
 
@@ -175,6 +184,7 @@ Usage: #example
 Instance: mii-exa-studie-practitioner-organization
 InstanceOf: Organization
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-practitioner-organization"
 * name = "Example Organization for Practitioner"
 
@@ -182,6 +192,7 @@ Usage: #example
 Instance: mii-exa-studie-practitioner
 InstanceOf: Practitioner
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-practitioner"
 * name[0].family = "Mustermann"
 * name[0].given = "Max"
@@ -190,6 +201,7 @@ Usage: #example
 Instance: mii-exa-studie-reference-study
 InstanceOf: ResearchStudy
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-reference-study"
 * title = "Example Reference Study"
 * status = #completed
@@ -199,6 +211,7 @@ Instance: mii-exa-studie-patient
 InstanceOf: Patient
 Usage: #example
 Description: "Patient: Studien Patient"
+* insert TestDataLabel
 * meta.profile[+] = "http://fhir.de/ConsentManagement/StructureDefinition/Patient"
 * id = "mii-exa-studie-patient"
 * identifier[+].use = #official
@@ -215,6 +228,7 @@ Description: "Patient: Studien Patient"
 Instance: mii-exa-studie-consent
 InstanceOf: Consent
 Usage: #example
+* insert TestDataLabel
 * id = "mii-exa-studie-consent"
 * status = #active
 * scope = #research
@@ -226,6 +240,7 @@ Usage: #example
 Instance: mii-exa-studie-evidence-variable-age-restriction
 InstanceOf: EvidenceVariable
 Usage: #example
+* insert TestDataLabel
 * status = #active
 * characteristic
   * definitionCodeableConcept.text = "kein Höchstalter"
@@ -245,6 +260,17 @@ Id: research-study-category-cs
 Title: "Research Study Category Code System"
 Description: "High-level categories describing the overall type of a research study."
 * insert PR_CS_VS_Version
+* insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableCodeSystem
+* insert CRMIPublishableCodeSystem
+* insert CRMIKnowledgeCapabilitiesCodeSystem
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/CodeSystem/research-study-category"
 * ^status = #active
 * ^experimental = false
@@ -264,6 +290,18 @@ Id: research-study-category-vs
 Title: "Research Study Category"
 Description: "Value set of high-level categories describing the type of a research study."
 * insert PR_CS_VS_Version
+* insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableValueSet
+* insert CRMIPublishableValueSet
+* insert CRMIComputableValueSet
+* insert CRMIKnowledgeCapabilitiesValueSet
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/ValueSet/research-study-category"
 * ^status = #active
 * ^experimental = false
@@ -275,6 +313,17 @@ Id: associated-party-role-cs
 Title: "Associated Party Role Code System"
 Description: "Roles that an associated party may have in relation to an entity such as a research study."
 * insert PR_CS_VS_Version
+* insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableCodeSystem
+* insert CRMIPublishableCodeSystem
+* insert CRMIKnowledgeCapabilitiesCodeSystem
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
 * ^status = #active
 * ^experimental = false
@@ -300,6 +349,18 @@ Id: associated-party-role-vs
 Title: "Associated Party Role"
 Description: "Value set of roles that an associated party may have in relation to a research study."
 * insert PR_CS_VS_Version
+* insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableValueSet
+* insert CRMIPublishableValueSet
+* insert CRMIComputableValueSet
+* insert CRMIKnowledgeCapabilitiesValueSet
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/ValueSet/associated-party-role"
 * ^status = #active
 * ^experimental = false

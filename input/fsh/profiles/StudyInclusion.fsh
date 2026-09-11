@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Studieneinschluss_Anfrage
 Parent: ServiceRequest
 Id: mii-pr-studie-studieneinschluss-anfrage
@@ -5,6 +6,17 @@ Title: "MII PR Studie Studieneinschluss Anfrage"
 Description: "Anfrage zum Studieneinschluss"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 
 * subject 1..1 MS
 * subject only Reference(Patient)

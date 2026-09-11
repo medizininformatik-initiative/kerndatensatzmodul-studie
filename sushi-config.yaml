@@ -76,12 +76,25 @@ extension:
       start: "2027"
   - url: http://hl7.org/fhir/StructureDefinition/artifact-author
     valueContactDetail:
+      name: Matthias Löbe
       telecom:
         - system: email
-          value: "office@medizininformatik-initiative.de"
+          value: "matthias.loebe@imise.uni-leipzig.de"
   - url: http://hl7.org/fhir/StructureDefinition/artifact-editor
     valueContactDetail:
       name: Taskforce Core Data Set
+  - url: http://hl7.org/fhir/StructureDefinition/artifact-editor
+    valueContactDetail:
+      name: Thomas Debertshäuser
+      telecom:
+        - system: email
+          value: "thomas.debertshaeuser@charite.de"
+  - url: http://hl7.org/fhir/StructureDefinition/artifact-editor
+    valueContactDetail:
+      name: Margaux Gatrio
+      telecom:
+        - system: email
+          value: "margaux.gatrio@bih-charite.de"
   - url: http://hl7.org/fhir/StructureDefinition/artifact-reviewer
     valueContactDetail:
       name: Interoperability Working Group
@@ -135,7 +148,7 @@ extension:
 # TEMPLATE MACHINERY additions (CRMI meta.profile claims + the publisher's
 # auto-inject guard — Gate-A note, not source identity).
 dependencies:
-  de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.0
+  de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot
   hl7.fhir.uv.xver-r5.r4: 0.1.0
   hl7.fhir.uv.crmi: 2.0.0
   hl7.terminology.r4: 7.3.0

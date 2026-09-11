@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Beteiligte_Person
 Title: "MII PR Studie Beteiligte Person"
 Parent: PractitionerRole
@@ -9,6 +10,17 @@ Description: "Dieses Profil beschreibt eine beteiligte Person innerhalb einer St
 * insert Translation(^description, en, This profile describes a participant within a study in the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributors
 * code MS
 * code ^short = "Rollen, die dieser Praktiker ausüben kann."
 * insert Translation(code ^short, de, Rollen\, die dieser Praktiker ausüben kann.)

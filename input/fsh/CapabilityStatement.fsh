@@ -1,9 +1,21 @@
+
 Instance: MII-CPS-Metadata-Studie
 InstanceOf: CapabilityStatement
 Usage: #definition
 * status = #active
 * experimental = false
 * insert Version
+* insert LicenseCodeableCCBY40Instance
+* insert CRMIShareableCapabilityStatement
+* insert CRMIPublishableCapabilityStatement
+* insert CRMIKnowledgeCapabilitiesCapabilityStatement
+* insert CRMIVersionPolicyStrictInstance
+* insert CRMIPackageSource
+* insert CRMIArtifactUsageCapabilityStatement
+* insert CRMIApprovalDateInstance(2026-01-09)
+* insert CRMIResourceEffectivePeriodInstance
+* insert CRMIArtifactTopicInstance(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactContributorsInstance
 * publisher = "Medizininformatik Initiative"
 * date = "2026-08-31"
 * implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1"
