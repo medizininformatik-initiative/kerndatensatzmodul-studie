@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:MII_PR_Studie_Beteiligte_Person |
+| Active as of 2026-01-09 | *Computable Name*:MII_PR_Studie_Beteiligte_Person |
 
  
 This profile describes a participant within a study in the Medical Informatics Initiative. 
@@ -270,7 +270,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
   },
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

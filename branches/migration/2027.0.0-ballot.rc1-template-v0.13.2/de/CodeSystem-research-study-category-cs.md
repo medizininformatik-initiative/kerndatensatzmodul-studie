@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:http://example.org/fhir/CodeSystem/research-study-category | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:ResearchStudyCategoryCS |
+| Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:ResearchStudyCategoryCS |
 
  
 High-level categories describing the overall type of a research study. 
@@ -190,7 +190,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "Research Study Category Code System",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

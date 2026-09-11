@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.org/fhir/CodeSystem/associated-party-role | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:AssociatedPartyRoleCS |
+| Active as of 2026-01-09 | *Computable Name*:AssociatedPartyRoleCS |
 
  
 Roles that an associated party may have in relation to an entity such as a research study. 
@@ -190,7 +190,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "Associated Party Role Code System",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

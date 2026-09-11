@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:MII_EX_Studie_Ethikvotum |
+| Active as of 2026-01-09 | *Computable Name*:MII_EX_Studie_Ethikvotum |
 
 Extension describing the ethics approval of a research study including status, ethics committee and reference number.
 
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-eth
   "title" : "MII EX Studie Ethikvotum",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

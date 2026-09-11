@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Studie_Quell_Register |
+| Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:MII_EX_Studie_Quell_Register |
 
 Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.
 
@@ -232,7 +232,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "title" : "MII EX Studie Quell Register",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

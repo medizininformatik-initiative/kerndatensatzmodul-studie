@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:MII_EX_Studie_Backport_definitionCanonical |
+| Active as of 2026-01-09 | *Computable Name*:MII_EX_Studie_Backport_definitionCanonical |
 
 R5 backport of the definitionCanonical element for EvidenceVariable.characteristic in FHIR R4.
 
@@ -208,7 +208,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
   "title" : "MII EX Studie Backport definitionCanonical",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

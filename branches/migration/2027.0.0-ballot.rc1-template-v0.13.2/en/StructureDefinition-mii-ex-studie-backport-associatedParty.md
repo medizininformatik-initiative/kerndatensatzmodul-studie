@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:MII_EX_Studie_Backport_AssociatedParty |
+| Active as of 2026-01-09 | *Computable Name*:MII_EX_Studie_Backport_AssociatedParty |
 
 R5 backport of the ResearchStudy.associatedParty element for representing parties involved in a research study in FHIR R4.
 
@@ -208,7 +208,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
   "title" : "MII EX Studie Backport AssociatedParty",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

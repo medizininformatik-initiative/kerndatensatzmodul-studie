@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_definitionReference |
+| Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_definitionReference |
 
 R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4.
 
@@ -237,7 +237,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "title" : "MII EX Studie Backport definitionReference",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

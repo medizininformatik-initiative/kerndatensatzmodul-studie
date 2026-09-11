@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.org/fhir/ValueSet/associated-party-role | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:AssociatedPartyRoleVS |
+| Active as of 2026-01-09 | *Computable Name*:AssociatedPartyRoleVS |
 
  
 Value set of roles that an associated party may have in relation to a research study. 
@@ -201,7 +201,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "Associated Party Role",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

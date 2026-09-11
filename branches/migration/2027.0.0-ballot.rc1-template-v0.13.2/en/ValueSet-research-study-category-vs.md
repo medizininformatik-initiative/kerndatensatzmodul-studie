@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.org/fhir/ValueSet/research-study-category | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-11 | *Computable Name*:ResearchStudyCategoryVS |
+| Active as of 2026-01-09 | *Computable Name*:ResearchStudyCategoryVS |
 
  
 Value set of high-level categories describing the type of a research study. 
@@ -201,7 +201,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "Research Study Category",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:51:30+00:00",
+  "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
