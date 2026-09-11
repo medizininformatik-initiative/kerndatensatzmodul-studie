@@ -276,16 +276,6 @@
       {
         "id": "ResearchStudy.extension",
         "path": "ResearchStudy.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "mustSupport": true
       },
       {
