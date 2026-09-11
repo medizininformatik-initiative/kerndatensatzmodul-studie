@@ -270,6 +270,7 @@ Description: "High-level categories describing the overall type of a research st
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/CodeSystem/research-study-category"
 * ^status = #active
@@ -301,6 +302,7 @@ Description: "Value set of high-level categories describing the type of a resear
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/ValueSet/research-study-category"
 * ^status = #active
@@ -323,6 +325,7 @@ Description: "Roles that an associated party may have in relation to an entity s
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
 * ^status = #active
@@ -360,6 +363,7 @@ Description: "Value set of roles that an associated party may have in relation t
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/ValueSet/associated-party-role"
 * ^status = #active

@@ -20,6 +20,7 @@ Description: "Dieses Profil beschreibt ein Dokument / Publikation in der Medizin
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * status MS
 * status ^short = "Status"

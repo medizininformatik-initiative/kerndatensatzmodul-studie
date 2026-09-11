@@ -139,6 +139,13 @@ extension:
       coding:
         - system: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl
           code: C15206
+  # C15429 "Research Activity" — NCIt concept whose synonym is "research study";
+  # covers the module's registry/research-project scope beyond clinical studies.
+  - url: http://hl7.org/fhir/StructureDefinition/artifact-topic
+    valueCodeableConcept:
+      coding:
+        - system: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl
+          code: C15429
 # Source dependency pins carried UNCHANGED except (Gate-A decision D-6):
 #   hl7.fhir.extensions.r5: 4.0.1  →  hl7.fhir.uv.xver-r5.r4: 0.1.0
 # (the old-style pseudo-package materialized exactly this package in the

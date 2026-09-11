@@ -17,7 +17,7 @@
 //   "2019+ Medical Informatics Initiative (MII)" → "2024+ …"
 //   the basis artifact-author contact email      → matthias.loebe@imise.uni-leipzig.de
 // The approval date and the artifact topic stay RuleSet PARAMETERS (as in
-// basis); pass 2026-01-09 / C15206 at the call site.
+// basis); pass 2026-01-09 / C15206 + C15429 at the call site.
 // ─────────────────────────────────────────────────────────────────────────────
 
 // ── Resource-independent version policy ──────────────────────────────────────

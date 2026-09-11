@@ -82,6 +82,17 @@
       }
     },
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-topic",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "C15429",
+            "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+          }
+        ]
+      }
+    },
+    {
       "url": "http://hl7.org/fhir/StructureDefinition/artifact-author",
       "valueContactDetail": {
         "name": "Matthias Löbe",

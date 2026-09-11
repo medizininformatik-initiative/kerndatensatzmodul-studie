@@ -20,6 +20,7 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
@@ -71,6 +72,7 @@ Title: "MII EX Studie Quell Register"
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * value[x] only boolean
 

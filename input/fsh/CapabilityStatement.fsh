@@ -15,6 +15,7 @@ Usage: #definition
 * insert CRMIApprovalDateInstance(2026-01-09)
 * insert CRMIResourceEffectivePeriodInstance
 * insert CRMIArtifactTopicInstance(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopicInstance(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributorsInstance
 * publisher = "Medizininformatik Initiative"
 * date = "2026-08-31"

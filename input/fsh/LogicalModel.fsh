@@ -16,6 +16,7 @@ Description: "Logische Repräsentation der Forschungsvorhaben"
 * insert CRMIApprovalDate(2026-01-09)
 * insert CRMIResourceEffectivePeriod
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
   * identifier 0..* Identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
