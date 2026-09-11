@@ -65,22 +65,22 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 These define constraints on FHIR data types for systems conforming to this implementation guide.
 
-| |
-| :--- |
-| [ MII EX Studie Akronym  ](StructureDefinition-mii-ex-studie-akronym.md) |
-| [ MII EX Studie Backport AssociatedParty  ](StructureDefinition-mii-ex-studie-backport-associatedParty.md) |
-| [ MII EX Studie Backport DefinitionByCombination  ](StructureDefinition-mii-ex-studie-backport-definition-by-combination.md) |
-| [ MII EX Studie Backport DefinitionByTypeAndValue  ](StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.md) |
-| [ MII EX Studie Backport Label  ](StructureDefinition-mii-ex-studie-backport-label.md) |
-| [ MII EX Studie Backport definitionCanonical  ](StructureDefinition-mii-ex-studie-backport-definitionCanonical.md) |
-| [ MII EX Studie Backport definitionReference  ](StructureDefinition-mii-ex-studie-backport-definitionReference.md) |
-| [ MII EX Studie Backport linkId  ](StructureDefinition-mii-ex-studie-backport-linkId.md) |
-| [ MII EX Studie Eligibility  ](StructureDefinition-mii-ex-studie-eligibility.md) |
-| [ MII EX Studie Ethikvotum  ](StructureDefinition-mii-ex-studie-ethikvotum.md) |
-| [ MII EX Studie Finanzierung  ](StructureDefinition-mii-ex-studie-finanzierung.md) |
-| [ MII EX Studie Quell Register  ](StructureDefinition-mii-ex-studie-quell-register.md) |
-| [ MII EX Studie Rekrutierung  ](StructureDefinition-mii-ex-studie-rekrutierung.md) |
-| [ MII EX Studie Studienregister  ](StructureDefinition-mii-ex-studie-studienregister.md) |
+| | |
+| :--- | :--- |
+| [ MII EX Studie Akronym  ](StructureDefinition-mii-ex-studie-akronym.md) | Extension zur Angabe des Akronyms eines Forschungsvorhabens. |
+| [ MII EX Studie Backport AssociatedParty  ](StructureDefinition-mii-ex-studie-backport-associatedParty.md) | R5-Backport des Elements ResearchStudy.associatedParty zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4. |
+| [ MII EX Studie Backport DefinitionByCombination  ](StructureDefinition-mii-ex-studie-backport-definition-by-combination.md) | R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4. |
+| [ MII EX Studie Backport DefinitionByTypeAndValue  ](StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.md) | R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4. |
+| [ MII EX Studie Backport Label  ](StructureDefinition-mii-ex-studie-backport-label.md) | R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4. |
+| [ MII EX Studie Backport definitionCanonical  ](StructureDefinition-mii-ex-studie-backport-definitionCanonical.md) | R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4. |
+| [ MII EX Studie Backport definitionReference  ](StructureDefinition-mii-ex-studie-backport-definitionReference.md) | R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4. |
+| [ MII EX Studie Backport linkId  ](StructureDefinition-mii-ex-studie-backport-linkId.md) | R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4. |
+| [ MII EX Studie Eligibility  ](StructureDefinition-mii-ex-studie-eligibility.md) | Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens. |
+| [ MII EX Studie Ethikvotum  ](StructureDefinition-mii-ex-studie-ethikvotum.md) | Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer. |
+| [ MII EX Studie Finanzierung  ](StructureDefinition-mii-ex-studie-finanzierung.md) | Extension zur Angabe der Finanzierung eines Forschungsvorhabens. |
+| [ MII EX Studie Quell Register  ](StructureDefinition-mii-ex-studie-quell-register.md) | Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt. |
+| [ MII EX Studie Rekrutierung  ](StructureDefinition-mii-ex-studie-rekrutierung.md) | Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben. |
+| [ MII EX Studie Studienregister  ](StructureDefinition-mii-ex-studie-studienregister.md) | Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist. |
 
 ### Terminology: Value Sets 
 

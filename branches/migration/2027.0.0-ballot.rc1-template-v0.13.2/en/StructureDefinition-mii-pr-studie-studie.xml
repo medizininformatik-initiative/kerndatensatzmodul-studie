@@ -178,7 +178,8 @@
   <name value="MII_PR_Studie_Studie"/>
   <title value="MII PR Study Study"/>
   <status value="active"/>
-  <date value="2026-09-11T09:17:55+00:00"/>
+  <experimental value="false"/>
+  <date value="2026-09-11T09:44:10+00:00"/>
   <publisher value="NUM-DIZ"/>
   <contact>
     <name value="NUM-DIZ"/>

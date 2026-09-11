@@ -29,7 +29,7 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
 | - | **ContentType** | **Url** | **Size** | **Title** |
-| * | application/pdf | [https://example.com/fhir/Binary/document](https://example.com/fhir/Binary/document) | 2000 | Beispiel Dokument |
+| * | pdf | [https://example.com/fhir/Binary/document](https://example.com/fhir/Binary/document) | 2000 | Beispiel Dokument |
 
 
 ### Contexts

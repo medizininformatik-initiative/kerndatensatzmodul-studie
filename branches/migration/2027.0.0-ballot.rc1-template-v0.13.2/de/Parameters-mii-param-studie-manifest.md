@@ -286,6 +286,14 @@
     "valueCanonical" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
   },
   {
+    "name" : "default-valueset-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4|0.1.0"
+  },
+  {
+    "name" : "default-valueset-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-organization-type-for-R4|0.1.0"
+  },
+  {
     "name" : "default-canonical-version",
     "valueCanonical" : "http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1"
   },
@@ -299,7 +307,15 @@
   },
   {
     "name" : "default-valueset-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-combination-for-R4|0.1.0"
+  },
+  {
+    "name" : "default-valueset-version",
     "valueCanonical" : "http://terminology.hl7.org/ValueSet/usage-context-type|1.0.1"
+  },
+  {
+    "name" : "default-valueset-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4|0.1.0"
   },
   {
     "name" : "default-canonical-version",
@@ -308,6 +324,10 @@
   {
     "name" : "default-canonical-version",
     "valueCanonical" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric|4.0.1"
+  },
+  {
+    "name" : "default-valueset-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-offset-for-R4|0.1.0"
   },
   {
     "name" : "default-canonical-version",

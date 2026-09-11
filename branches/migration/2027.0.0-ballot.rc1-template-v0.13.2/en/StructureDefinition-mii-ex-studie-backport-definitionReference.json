@@ -173,7 +173,8 @@
   "name" : "MII_EX_Studie_Backport_definitionReference",
   "title" : "MII EX Studie Backport definitionReference",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -182,6 +183,7 @@
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "R5 backport of the definitionReference element for EvidenceVariable.characteristic in FHIR R4.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

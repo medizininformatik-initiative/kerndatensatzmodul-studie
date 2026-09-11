@@ -20,9 +20,9 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
 
 **intent**: Proposal
 
-**category**: Clinical trial (procedure)
+**category**: Clinical trial
 
-**code**: Referral to clinical trial (procedure)
+**code**: Referral to clinical trial
 
 **subject**: [Jane Doe Female, DoB: 1980-11-12 ( Krankenversichertennummer (use: official, ))](Patient-mii-exa-studie-patient.md)
 
@@ -52,15 +52,13 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
   "category" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "110465008",
-      "display" : "Clinical trial (procedure)"
+      "code" : "110465008"
     }]
   }],
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "702475000",
-      "display" : "Referral to clinical trial (procedure)"
+      "code" : "702475000"
     }]
   },
   "subject" : {

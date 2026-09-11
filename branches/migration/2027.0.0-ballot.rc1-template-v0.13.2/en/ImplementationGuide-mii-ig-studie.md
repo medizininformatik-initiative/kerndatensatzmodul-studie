@@ -1729,6 +1729,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-akronym"
       },
       "name" : "MII EX Studie Akronym",
+      "description" : "Extension zur Angabe des Akronyms eines Forschungsvorhabens.",
       "exampleBoolean" : false
     },
     {
@@ -1744,6 +1745,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-associatedParty"
       },
       "name" : "MII EX Studie Backport AssociatedParty",
+      "description" : "R5-Backport des Elements ResearchStudy.associatedParty zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1759,6 +1761,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-definition-by-combination"
       },
       "name" : "MII EX Studie Backport DefinitionByCombination",
+      "description" : "R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1774,6 +1777,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-definition-by-type-and-value"
       },
       "name" : "MII EX Studie Backport DefinitionByTypeAndValue",
+      "description" : "R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1789,6 +1793,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-definitionCanonical"
       },
       "name" : "MII EX Studie Backport definitionCanonical",
+      "description" : "R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1804,6 +1809,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-definitionReference"
       },
       "name" : "MII EX Studie Backport definitionReference",
+      "description" : "R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1819,6 +1825,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-label"
       },
       "name" : "MII EX Studie Backport Label",
+      "description" : "R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1834,6 +1841,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-backport-linkId"
       },
       "name" : "MII EX Studie Backport linkId",
+      "description" : "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.",
       "exampleBoolean" : false
     },
     {
@@ -1849,6 +1857,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-eligibility"
       },
       "name" : "MII EX Studie Eligibility",
+      "description" : "Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens.",
       "exampleBoolean" : false
     },
     {
@@ -1864,6 +1873,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-ethikvotum"
       },
       "name" : "MII EX Studie Ethikvotum",
+      "description" : "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.",
       "exampleBoolean" : false
     },
     {
@@ -1879,6 +1889,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-finanzierung"
       },
       "name" : "MII EX Studie Finanzierung",
+      "description" : "Extension zur Angabe der Finanzierung eines Forschungsvorhabens.",
       "exampleBoolean" : false
     },
     {
@@ -1894,6 +1905,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-quell-register"
       },
       "name" : "MII EX Studie Quell Register",
+      "description" : "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.",
       "exampleBoolean" : false
     },
     {
@@ -1909,6 +1921,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-rekrutierung"
       },
       "name" : "MII EX Studie Rekrutierung",
+      "description" : "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben.",
       "exampleBoolean" : false
     },
     {
@@ -1924,6 +1937,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "StructureDefinition/mii-ex-studie-studienregister"
       },
       "name" : "MII EX Studie Studienregister",
+      "description" : "Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.",
       "exampleBoolean" : false
     },
     {

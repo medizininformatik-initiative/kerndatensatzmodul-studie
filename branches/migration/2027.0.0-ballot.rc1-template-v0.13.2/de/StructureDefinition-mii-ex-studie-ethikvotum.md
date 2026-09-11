@@ -11,6 +11,8 @@
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Studie_Ethikvotum |
 
+Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.
+
 **Context of Use**
 
 **Usage info**
@@ -39,7 +41,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Complex Extension: 
+Complex Extension: Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.
 
  **Differential-AnsichtDifferential View** 
 
@@ -53,7 +55,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Complex Extension: 
+Complex Extension: Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.
 
  
 
@@ -230,7 +232,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Ethikvotum",
   "title" : "MII EX Studie Ethikvotum",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -239,6 +242,31 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension describing the ethics approval of a research study including status, ethics committee and reference number."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

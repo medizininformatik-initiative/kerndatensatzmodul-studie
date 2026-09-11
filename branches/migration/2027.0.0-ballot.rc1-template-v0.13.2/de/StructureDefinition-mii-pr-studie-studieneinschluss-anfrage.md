@@ -287,7 +287,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
   "name" : "MII_PR_Studie_Studieneinschluss_Anfrage",
   "title" : "MII PR Studie Studieneinschluss Anfrage",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -503,8 +504,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "110465008",
-          "display" : "Clinical trial (procedure)"
+          "code" : "110465008"
         }]
       },
       "mustSupport" : true
@@ -566,8 +566,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "702475000",
-          "display" : "Referral to clinical trial (procedure)"
+          "code" : "702475000"
         }]
       },
       "mustSupport" : true

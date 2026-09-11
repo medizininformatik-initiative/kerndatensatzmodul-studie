@@ -11,6 +11,8 @@
 | *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_linkId |
 
+R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.
+
 **Context of Use**
 
 **Usage info**
@@ -39,7 +41,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Simple Extension with the type id: 
+Simple Extension with the type id: R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.
 
  **Differential-AnsichtDifferential View** 
 
@@ -53,7 +55,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Simple Extension with the type id: 
+Simple Extension with the type id: R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.
 
  
 
@@ -234,7 +236,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Backport_linkId",
   "title" : "MII EX Studie Backport linkId",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -243,6 +246,31 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "R5 backport of the linkId element for EvidenceVariable.characteristic in FHIR R4."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

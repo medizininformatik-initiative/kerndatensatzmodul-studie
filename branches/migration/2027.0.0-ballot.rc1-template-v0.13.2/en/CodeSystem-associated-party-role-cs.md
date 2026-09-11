@@ -190,7 +190,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "Associated Party Role Code System",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:17:55+00:00",
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -207,6 +207,7 @@ This Code system is referenced in the definition of the following value sets:
       "display" : "Germany"
     }]
   }],
+  "caseSensitive" : true,
   "content" : "complete",
   "count" : 7,
   "concept" : [{

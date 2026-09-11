@@ -11,6 +11,8 @@
 | *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference | *Version*:2027.0.0-ballot.rc1 |
 | Active as of 2026-09-11 | *Computable Name*:MII_EX_Studie_Backport_definitionReference |
 
+R5 backport of the definitionReference element for EvidenceVariable.characteristic in FHIR R4.
+
 **Context of Use**
 
 **Usage info**
@@ -205,7 +207,8 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
   "name" : "MII_EX_Studie_Backport_definitionReference",
   "title" : "MII EX Studie Backport definitionReference",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -214,6 +217,31 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "R5 backport of the definitionReference element for EvidenceVariable.characteristic in FHIR R4."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

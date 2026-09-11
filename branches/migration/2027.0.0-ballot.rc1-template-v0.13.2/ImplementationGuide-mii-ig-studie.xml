@@ -1233,6 +1233,7 @@
         <reference value="StructureDefinition/mii-ex-studie-akronym"/>
       </reference>
       <name value="MII EX Studie Akronym"/>
+      <description value="Extension zur Angabe des Akronyms eines Forschungsvorhabens."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1243,6 +1244,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-associatedParty"/>
       </reference>
       <name value="MII EX Studie Backport AssociatedParty"/>
+      <description value="R5-Backport des Elements ResearchStudy.associatedParty zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1253,6 +1255,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-definition-by-combination"/>
       </reference>
       <name value="MII EX Studie Backport DefinitionByCombination"/>
+      <description value="R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1263,6 +1266,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-definition-by-type-and-value"/>
       </reference>
       <name value="MII EX Studie Backport DefinitionByTypeAndValue"/>
+      <description value="R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1273,6 +1277,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-definitionCanonical"/>
       </reference>
       <name value="MII EX Studie Backport definitionCanonical"/>
+      <description value="R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1283,6 +1288,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-definitionReference"/>
       </reference>
       <name value="MII EX Studie Backport definitionReference"/>
+      <description value="R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1293,6 +1299,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-label"/>
       </reference>
       <name value="MII EX Studie Backport Label"/>
+      <description value="R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1303,6 +1310,7 @@
         <reference value="StructureDefinition/mii-ex-studie-backport-linkId"/>
       </reference>
       <name value="MII EX Studie Backport linkId"/>
+      <description value="R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1313,6 +1321,7 @@
         <reference value="StructureDefinition/mii-ex-studie-eligibility"/>
       </reference>
       <name value="MII EX Studie Eligibility"/>
+      <description value="Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1323,6 +1332,7 @@
         <reference value="StructureDefinition/mii-ex-studie-ethikvotum"/>
       </reference>
       <name value="MII EX Studie Ethikvotum"/>
+      <description value="Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1333,6 +1343,7 @@
         <reference value="StructureDefinition/mii-ex-studie-finanzierung"/>
       </reference>
       <name value="MII EX Studie Finanzierung"/>
+      <description value="Extension zur Angabe der Finanzierung eines Forschungsvorhabens."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1343,6 +1354,7 @@
         <reference value="StructureDefinition/mii-ex-studie-quell-register"/>
       </reference>
       <name value="MII EX Studie Quell Register"/>
+      <description value="Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1353,6 +1365,7 @@
         <reference value="StructureDefinition/mii-ex-studie-rekrutierung"/>
       </reference>
       <name value="MII EX Studie Rekrutierung"/>
+      <description value="Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1363,6 +1376,7 @@
         <reference value="StructureDefinition/mii-ex-studie-studienregister"/>
       </reference>
       <name value="MII EX Studie Studienregister"/>
+      <description value="Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

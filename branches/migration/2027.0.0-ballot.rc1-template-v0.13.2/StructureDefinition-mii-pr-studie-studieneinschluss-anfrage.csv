@@ -63,7 +63,6 @@ groupIdentifier","",0,1,"","","Y","Identifier {[]} {[]}
   <coding>
     <system value=""http://snomed.info/sct""/>
     <code value=""110465008""/>
-    <display value=""Clinical trial (procedure)""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Classification of the requested service.","http://hl7.org/fhir/ValueSet/servicerequest-category|4.0.1","",,,,"ServiceRequest.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","RF1-5","FiveWs.class"
@@ -79,7 +78,6 @@ groupIdentifier","",0,1,"","","Y","Identifier {[]} {[]}
   <coding>
     <system value=""http://snomed.info/sct""/>
     <code value=""702475000""/>
-    <display value=""Referral to clinical trial (procedure)""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Codes for tests or services that can be carried out by a designated individual, organization or healthcare service.  For laboratory, LOINC is  (preferred)[http://build.fhir.org/terminologies.html#preferred].","http://hl7.org/fhir/ValueSet/procedure-code|4.0.1","",,,,"ServiceRequest.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.code","PR1-3 / OBR-4  (varies by domain)","FiveWs.what[x]","Procedure.procedureCode"

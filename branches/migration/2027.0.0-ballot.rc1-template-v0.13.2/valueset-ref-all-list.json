@@ -142,8 +142,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.794"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
+    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
@@ -227,9 +227,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
     "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie"
+    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
+    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -243,9 +243,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
     "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie"
+    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
+    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/jurisdiction",
@@ -261,9 +261,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.48"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium",
     "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
-    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
+    "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -277,13 +277,13 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
+    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
+    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium",
+    "StructureDefinition-mii-pr-studie-beteiligte-person.html" : "MII PR Studie Beteiligte Person",
     "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
     "StructureDefinition-mii-pr-studie-studie.html" : "MII PR Studie Studie",
-    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
-    "StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html" : "MII PR Studie Studieneinschluss Anfrage",
-    "StructureDefinition-mii-pr-studie-beteiligte-person.html" : "MII PR Studie Beteiligte Person",
-    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
+    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
+    "StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html" : "MII PR Studie Studieneinschluss Anfrage"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/library-type",
@@ -325,8 +325,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1024"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument"
+    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/participant-role",
@@ -397,8 +397,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.3"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register",
-    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
+    "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium",
+    "StructureDefinition-mii-pr-studie-register.html" : "MII PR Studie Register"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -570,8 +570,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.47"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband",
-    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument"
+    "StructureDefinition-mii-pr-studie-dokument.html" : "MII PR Studie Dokument",
+    "StructureDefinition-mii-pr-studie-proband.html" : "MII PR Studie Proband"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
@@ -628,6 +628,66 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html" : "MII PR Studie EinAuschlussKriterium"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-combination-for-R4",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "R5CharacteristicCombinationForR4",
+    "title" : "Cross-version ValueSet R5.CharacteristicCombination for use in FHIR R4",
+    "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/characteristic-combination|5.0.0` for use in FHIR R4.",
+    "systems" : ["http://hl7.org/fhir/characteristic-combination"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-definition-by-combination.html" : "MII EX Studie Backport DefinitionByCombination"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-offset-for-R4",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "R5CharacteristicOffsetForR4",
+    "title" : "Cross-version ValueSet R5.CharacteristicOffset for use in FHIR R4",
+    "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/characteristic-offset|5.0.0` for use in FHIR R4.",
+    "systems" : ["http://hl7.org/fhir/characteristic-offset"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.html" : "MII EX Studie Backport DefinitionByTypeAndValue"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "R5DefinitionMethodForR4",
+    "title" : "Cross-version ValueSet R5.DefinitionMethod for use in FHIR R4",
+    "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/definition-method|5.0.0` for use in FHIR R4.",
+    "systems" : ["http://hl7.org/fhir/definition-method"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.html" : "MII EX Studie Backport DefinitionByTypeAndValue"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-organization-type-for-R4",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "R5ResearchStudyPartyOrganizationTypeForR4",
+    "title" : "Cross-version ValueSet R5.ResearchStudyPartyOrgType for use in FHIR R4",
+    "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/research-study-party-organization-type|5.0.0` for use in FHIR R4.",
+    "systems" : ["http://hl7.org/fhir/research-study-party-organization-type"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-associatedParty.html" : "MII EX Studie Backport AssociatedParty"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "R5ResearchStudyPartyRoleForR4",
+    "title" : "Cross-version ValueSet R5.ResearchStudyPartyRole for use in FHIR R4",
+    "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/research-study-party-role|5.0.0` for use in FHIR R4.",
+    "systems" : ["http://hl7.org/fhir/research-study-party-role"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-studie-backport-associatedParty.html" : "MII EX Studie Backport AssociatedParty"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/title-type",

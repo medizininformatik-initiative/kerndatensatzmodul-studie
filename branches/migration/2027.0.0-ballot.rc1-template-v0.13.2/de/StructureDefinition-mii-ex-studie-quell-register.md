@@ -11,6 +11,8 @@
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Studie_Quell_Register |
 
+Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.
+
 **Context of Use**
 
 **Usage info**
@@ -38,7 +40,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Simple Extension with the type boolean: 
+Simple Extension with the type boolean: Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.
 
  **Differential-AnsichtDifferential View** 
 
@@ -52,7 +54,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Simple Extension with the type boolean: 
+Simple Extension with the type boolean: Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.
 
  
 
@@ -229,7 +231,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Quell_Register",
   "title" : "MII EX Studie Quell Register",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -238,6 +241,31 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension indicating whether a research registry is a source registry."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -11,6 +11,8 @@
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung | *Version*:2027.0.0-ballot.rc1 |
 | Active as of 2026-09-11 | *Computable Name*:MII_EX_Studie_Rekrutierung |
 
+Extension describing the recruitment status of a research study including current count, target, start date and precision of the data.
+
 **Context of Use**
 
 **Usage info**
@@ -201,7 +203,8 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
   "name" : "MII_EX_Studie_Rekrutierung",
   "title" : "MII EX Studie Rekrutierung",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -210,6 +213,31 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension describing the recruitment status of a research study including current count, target, start date and precision of the data."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

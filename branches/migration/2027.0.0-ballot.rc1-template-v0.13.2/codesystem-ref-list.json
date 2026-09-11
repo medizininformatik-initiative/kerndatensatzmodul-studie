@@ -22,6 +22,61 @@
     "ValueSet-research-study-category-vs.html" : "Research Study Category"
   },
   {
+    "url" : "http://hl7.org/fhir/characteristic-combination",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "CharacteristicCombination",
+    "title" : "Characteristic Combination",
+    "description" : "Logical grouping of characteristics.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/ValueSet-R5-characteristic-combination-for-R4.html" : "Cross-version ValueSet R5.CharacteristicCombination for use in FHIR R4"
+  },
+  {
+    "url" : "http://hl7.org/fhir/characteristic-offset",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "CharacteristicOffset",
+    "title" : "Characteristic Offset",
+    "description" : "Reference point for characteristic.valueQuantity.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/ValueSet-R5-characteristic-offset-for-R4.html" : "Cross-version ValueSet R5.CharacteristicOffset for use in FHIR R4"
+  },
+  {
+    "url" : "http://hl7.org/fhir/definition-method",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "DefinitionMethod",
+    "title" : "Definition Method",
+    "description" : "The method used to define, describe, or determine a characteristic value.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/ValueSet-R5-definition-method-for-R4.html" : "Cross-version ValueSet R5.DefinitionMethod for use in FHIR R4"
+  },
+  {
+    "url" : "http://hl7.org/fhir/research-study-party-organization-type",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ResearchStudyPartyOrganizationType",
+    "title" : "ResearchStudy Party Organization Type Code System",
+    "description" : "This is a ResearchStudy's party organization type.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/ValueSet-R5-research-study-party-organization-type-for-R4.html" : "Cross-version ValueSet R5.ResearchStudyPartyOrgType for use in FHIR R4"
+  },
+  {
+    "url" : "http://hl7.org/fhir/research-study-party-role",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "ResearchStudyPartyRole",
+    "title" : "Research Study Party Role",
+    "description" : "This is a ResearchStudy's party role.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/ValueSet-R5-research-study-party-role-for-R4.html" : "Cross-version ValueSet R5.ResearchStudyPartyRole for use in FHIR R4"
+  },
+  {
     "url" : "http://terminology.hl7.org/CodeSystem/title-type",
     "version" : "1.0.0",
     "status" : "active",

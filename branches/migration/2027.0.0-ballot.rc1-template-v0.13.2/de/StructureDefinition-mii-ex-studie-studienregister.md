@@ -11,6 +11,8 @@
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Studie_Studienregister |
 
+Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.
+
 **Context of Use**
 
 **Usage info**
@@ -39,7 +41,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Simple Extension with the type Reference: 
+Simple Extension with the type Reference: Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.
 
  **Differential-AnsichtDifferential View** 
 
@@ -53,7 +55,7 @@ Diese Struktur ist abgeleitet von [Extension](http://hl7.org/fhir/R4/extensibili
 
 ** Summary **
 
-Simple Extension with the type Reference: 
+Simple Extension with the type Reference: Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.
 
  
 
@@ -230,7 +232,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Studienregister",
   "title" : "MII EX Studie Studienregister",
   "status" : "active",
-  "date" : "2026-09-11T09:17:55+00:00",
+  "experimental" : false,
+  "date" : "2026-09-11T09:44:10+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -239,6 +242,31 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
+  "description" : "Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Extension referencing the study registry in which the research study is registered."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
