@@ -275,6 +275,7 @@ Description: "High-level categories describing the overall type of a research st
 * ^url = "http://example.org/fhir/CodeSystem/research-study-category"
 * ^status = #active
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^caseSensitive = true
 * ^content = #complete
 
@@ -308,6 +309,7 @@ Description: "Value set of high-level categories describing the type of a resear
 * ^url = "http://example.org/fhir/ValueSet/research-study-category"
 * ^status = #active
 * ^experimental = false
+* ^date = "2026-01-09"
 * codes from system ResearchStudyCategoryCS
 
 
@@ -331,6 +333,7 @@ Description: "Roles that an associated party may have in relation to an entity s
 * ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
 * ^status = #active
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^caseSensitive = true
 * ^content = #complete
 
@@ -370,4 +373,5 @@ Description: "Value set of roles that an associated party may have in relation t
 * ^url = "http://example.org/fhir/ValueSet/associated-party-role"
 * ^status = #active
 * ^experimental = false
+* ^date = "2026-01-09"
 * codes from system AssociatedPartyRoleCS

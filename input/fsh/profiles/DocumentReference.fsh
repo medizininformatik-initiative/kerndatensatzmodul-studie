@@ -23,6 +23,7 @@ Description: "Dieses Profil beschreibt ein Dokument / Publikation in der Medizin
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * status MS
 * status ^short = "Status"
 * insert Translation(status ^short, de, Status)

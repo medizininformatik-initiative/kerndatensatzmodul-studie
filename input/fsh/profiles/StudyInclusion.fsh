@@ -19,6 +19,7 @@ Description: "Anfrage zum Studieneinschluss"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 
 * subject 1..1 MS
 * subject only Reference(Patient)

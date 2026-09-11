@@ -206,6 +206,7 @@
     ]
   },
   "experimental": false,
+  "date": "2026-01-09",
   "compose": {
     "include": [
       {

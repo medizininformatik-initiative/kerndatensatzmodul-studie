@@ -23,6 +23,7 @@ Description: "Dieses Profil beschreibt eine beteiligte Person innerhalb einer St
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * code MS
 * code ^short = "Rollen, die dieser Praktiker ausüben kann."
 * insert Translation(code ^short, de, Rollen\, die dieser Praktiker ausüben kann.)

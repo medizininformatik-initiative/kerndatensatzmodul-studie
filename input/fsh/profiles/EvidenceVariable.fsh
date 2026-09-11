@@ -23,6 +23,7 @@ Description: "Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * status MS
 * status ^short = "Status"
 * insert Translation(status ^short, de, Entwurf | aktiv | zurückgezogen | unbekannt)
@@ -73,6 +74,7 @@ Description: "R5-Backport des Elements linkId für EvidenceVariable.characterist
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only id
@@ -98,6 +100,7 @@ Description: "R5-Backport des Elements definitionReference für EvidenceVariable
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only Reference(EvidenceVariable or Evidence or Group)
@@ -123,6 +126,7 @@ Description: "R5-Backport des Elements definitionCanonical für EvidenceVariable
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only Canonical(EvidenceVariable or Evidence)
@@ -148,6 +152,7 @@ Description: "R5-Backport des Elements definitionByTypeAndValue für EvidenceVar
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 1..1 MS and method 0..* and device 0..1 and offset 0..1 and value 1..1 MS
@@ -181,6 +186,7 @@ Description: "R5-Backport des Elements definitionByCombination für EvidenceVari
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains code 1..1 MS and threshhold 0..1 and characteristic 1..* MS

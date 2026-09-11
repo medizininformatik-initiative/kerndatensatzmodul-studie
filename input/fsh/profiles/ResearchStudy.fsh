@@ -23,6 +23,7 @@ Description: "Dieses Profil beschreibt eine Studie in der Medizininformatik-Init
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * status MS
 * status ^short = "aktiv | administrativ abgeschlossen | genehmigt | für Rekrutierung geschlossen | für Rekrutierung und Intervention geschlossen | abgeschlossen | abgelehnt | in Überprüfung | vorübergehend für Rekrutierung geschlossen | vorübergehend für Rekrutierung und Intervention geschlossen | zurückgezogen"
 * insert Translation(status ^short, de, aktiv | administrativ abgeschlossen | genehmigt | für Rekrutierung geschlossen | für Rekrutierung und Intervention geschlossen | abgeschlossen | abgelehnt | in Überprüfung | vorübergehend für Rekrutierung geschlossen | vorübergehend für Rekrutierung und Intervention geschlossen | zurückgezogen)
@@ -164,6 +165,7 @@ Description: "Extension zur Referenzierung des Studienregisters, in dem das Fors
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * value[x] only Reference(Library)
 
 Extension: MII_EX_Studie_Eligibility
@@ -188,6 +190,7 @@ Description: "Extension zur Referenzierung der Ein- und Ausschlusskriterien des 
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * value[x] only Reference(Group or EvidenceVariable)
 
 Extension: MII_EX_Studie_Akronym
@@ -212,6 +215,7 @@ Description: "Extension zur Angabe des Akronyms eines Forschungsvorhabens."
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * value[x] only string
 
 Extension: MII_EX_Studie_Rekrutierung
@@ -236,6 +240,7 @@ Description: "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvo
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
 * extension[rekrutierungsstand-datum].value[x] only date
 * extension[rekrutierungsstand-genauigkeit].value[x] only string
@@ -265,6 +270,7 @@ Description: "Extension zur Angabe der Finanzierung eines Forschungsvorhabens."
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * value[x] only string
 
 Extension: MII_EX_Studie_Ethikvotum
@@ -289,6 +295,7 @@ Description: "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens 
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * extension contains status 1..1 MS and kommission 1..1 MS and ethiknummer 1..1 MS
 * extension[status].value[x] only string
 * extension[kommission].value[x] only string
@@ -316,6 +323,7 @@ Description: "R5-Backport des Elements ResearchStudy.associatedParty zur Abbildu
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
 * extension contains name 0..1 and role 1..1 MS and period 0..1 and classifier 0..* and party 0..1 MS
@@ -349,6 +357,7 @@ Description: "R5-Backport des Elements ResearchStudy.label zur Abbildung zusätz
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 0..1 and value 1..1 MS

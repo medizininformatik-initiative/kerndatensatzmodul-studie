@@ -23,6 +23,7 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
 * type ^short = "Type"
@@ -79,6 +80,7 @@ Description: "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregist
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^experimental = false
+* ^date = "2026-01-09"
 * value[x] only boolean
 
 
