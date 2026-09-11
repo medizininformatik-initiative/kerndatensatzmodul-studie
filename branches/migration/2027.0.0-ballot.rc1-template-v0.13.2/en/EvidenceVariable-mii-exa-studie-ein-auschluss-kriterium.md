@@ -14,11 +14,13 @@
 
 Profile: [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md)
 
+Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
+
 **status**: Active
 
 > **characteristic****MII EX Studie Backport definitionReference**: [EvidenceVariable: status = active](EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.md)**description**: Altersbeschränkung**definition**: Altersbeschränkung
 
-> **characteristic****MII EX Studie Backport definitionCanonical**: [https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender](https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&canonical=https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender)**description**: Geschlecht**definition**: Alle**exclude**: false
+> **characteristic****MII EX Studie Backport definitionCanonical**: `https://www.medizininformatik-initiative.de/fhir/EvidenceVariable/administrative-gender`**description**: Geschlecht**definition**: Alle**exclude**: false
 
 > **characteristic****MII EX Studie Backport linkId**: aa83ebf3-cfe4-4ed6-aa71-0779c28e85a2**description**: Kognitive Fatigue (WeiMUS kognitive Skala >= 17)**definition**: Unknown**exclude**: false
 
@@ -54,7 +56,12 @@ Profile: [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie
   "resourceType" : "EvidenceVariable",
   "id" : "mii-exa-studie-ein-auschluss-kriterium",
   "meta" : {
-    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"]
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "status" : "active",
   "characteristic" : [{

@@ -62,7 +62,7 @@ This publication includes IP covered under the following statements.
 * [Practitioner role](http://terminology.hl7.org/7.3.0/CodeSystem-practitioner-role.html): [Bundle/mii-studie-test-data-bundle-studie](Bundle-mii-studie-test-data-bundle-studie.md) and [PractitionerRole/mii-exa-studie-beteiligte-person](PractitionerRole-mii-exa-studie-beteiligte-person.md)
 * [UsageContextType](http://terminology.hl7.org/7.3.0/CodeSystem-usage-context-type.html): [MII_EX_Studie_Backport_Definition_By_Type_And_Value](StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.md)
 * [identifierType](http://terminology.hl7.org/7.3.0/CodeSystem-v2-0203.html): [Bundle/mii-studie-test-data-bundle-studie](Bundle-mii-studie-test-data-bundle-studie.md), [MII_PR_Studie_Proband](StructureDefinition-mii-pr-studie-proband.md) and [ResearchSubject/mii-exa-studie-proband](ResearchSubject-mii-exa-studie-proband.md)
-* [ActReason](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html): [Bundle/mii-studie-test-data-bundle-studie](Bundle-mii-studie-test-data-bundle-studie.md)
+* [ActReason](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html): [Bundle/mii-studie-test-data-bundle-studie](Bundle-mii-studie-test-data-bundle-studie.md), [Consent/mii-exa-studie-consent](Consent-mii-exa-studie-consent.md)... Show 15 more, [DRKS - Deutsches Register Klinischer Studien](Library-mii-exa-studie-register.md), [DocumentReference/mii-exa-studie-dokument](DocumentReference-mii-exa-studie-dokument.md), [EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium](EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.md), [EvidenceVariable/mii-exa-studie-evidence-variable-age-restriction](EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.md), [Example Organization for Author](Organization-mii-exa-studie-author.md), [Example Organization for Custodian](Organization-mii-exa-studie-custodian.md), [Example Organization for Practitioner](Organization-mii-exa-studie-practitioner-organization.md), [Patient/mii-exa-studie-patient](Patient-mii-exa-studie-patient.md), [Practitioner/mii-exa-studie-practitioner](Practitioner-mii-exa-studie-practitioner.md), [PractitionerRole/mii-exa-studie-beteiligte-person](PractitionerRole-mii-exa-studie-beteiligte-person.md), [ResearchStudy/mii-exa-studie-cohort](ResearchStudy-mii-exa-studie-cohort.md), [ResearchStudy/mii-exa-studie-reference-study](ResearchStudy-mii-exa-studie-reference-study.md), [ResearchStudy/mii-exa-studie-studie](ResearchStudy-mii-exa-studie-studie.md), [ResearchSubject/mii-exa-studie-proband](ResearchSubject-mii-exa-studie-proband.md) and [ServiceRequest/mii-exa-studie-studieneinschluss-anfrage](ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.md)
 
 
 ### IG-Parametereinstellungen und Expansionsparameter
@@ -130,9 +130,10 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/artifact-author",
     "valueContactDetail" : {
+      "name" : "Matthias Löbe",
       "telecom" : [{
         "system" : "email",
-        "value" : "office@medizininformatik-initiative.de"
+        "value" : "matthias.loebe@imise.uni-leipzig.de"
       }]
     }
   },
@@ -140,6 +141,26 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
     "url" : "http://hl7.org/fhir/StructureDefinition/artifact-editor",
     "valueContactDetail" : {
       "name" : "Taskforce Core Data Set"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-editor",
+    "valueContactDetail" : {
+      "name" : "Thomas Debertshäuser",
+      "telecom" : [{
+        "system" : "email",
+        "value" : "thomas.debertshaeuser@charite.de"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-editor",
+    "valueContactDetail" : {
+      "name" : "Margaux Gatrio",
+      "telecom" : [{
+        "system" : "email",
+        "value" : "margaux.gatrio@bih-charite.de"
+      }]
     }
   },
   {
@@ -211,6 +232,15 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
         "code" : "C15206"
       }]
     }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-topic",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code" : "C15429"
+      }]
+    }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
   "version" : "2027.0.0-ballot.rc1",
@@ -242,7 +272,7 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
     "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
-    "version" : "2026.0.0"
+    "version" : "2027.0.0-ballot"
   },
   {
     "id" : "hl7_fhir_uv_xver_r5_r4",

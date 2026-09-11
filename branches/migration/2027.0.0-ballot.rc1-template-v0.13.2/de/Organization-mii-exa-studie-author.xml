@@ -2,9 +2,16 @@
 
 <Organization xmlns="http://hl7.org/fhir">
   <id value="mii-exa-studie-author"/>
+  <meta>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
   <language value="de"/>
   <text>
-    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Organization mii-exa-studie-author</b></p><a name="mii-exa-studie-author"> </a><a name="hcmii-exa-studie-author"> </a><p><b>name</b>: Example Organization for Author</p></div>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Organization mii-exa-studie-author</b></p><a name="mii-exa-studie-author"> </a><a name="hcmii-exa-studie-author"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Security Label: <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>name</b>: Example Organization for Author</p></div>
   </text>
   <name value="Example Organization for Author"/>
 </Organization>

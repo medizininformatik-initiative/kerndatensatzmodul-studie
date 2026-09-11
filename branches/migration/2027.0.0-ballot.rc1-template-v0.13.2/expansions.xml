@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="adb3a5c3-7f43-40ab-9608-de494f696d31"/>
+  <id value="a9a4b20c-7441-437f-ba6a-0b1f73f682a5"/>
   <meta>
-    <lastUpdated value="2026-09-01T10:00:57.303+00:00"/>
+    <lastUpdated value="2026-09-11T09:17:55.854+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
     <fullUrl value="http://example.org/fhir/ValueSet/associated-party-role"/>
     <resource>
       <ValueSet>
+        <meta>
+          <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+            <valueCode value="CC-BY-4.0"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+            <extension url="packageId">
+              <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+            </extension>
+            <extension url="version">
+              <valueString value="2027.0.0-ballot.rc1"/>
+            </extension>
+            <extension url="uri">
+              <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+            </extension>
+          </extension>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
@@ -198,7 +217,7 @@
         <title value="Associated Party Role"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-09-01T10:00:57+00:00"/>
+        <date value="2026-09-11T09:17:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -207,8 +226,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0495456e-81e7-45ef-a9f0-67f5d24c773a"/>
-          <timestamp value="2026-09-01T10:03:06+00:00"/>
+          <identifier value="urn:uuid:930947ef-c672-4958-814a-fc8896fb02b4"/>
+          <timestamp value="2026-09-11T09:23:12+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -271,6 +290,25 @@
     <fullUrl value="http://example.org/fhir/ValueSet/associated-party-role"/>
     <resource>
       <ValueSet>
+        <meta>
+          <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+            <valueCode value="CC-BY-4.0"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+            <extension url="packageId">
+              <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+            </extension>
+            <extension url="version">
+              <valueString value="2027.0.0-ballot.rc1"/>
+            </extension>
+            <extension url="uri">
+              <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+            </extension>
+          </extension>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
@@ -459,7 +497,7 @@
         <title value="Associated Party Role"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-09-01T10:00:57+00:00"/>
+        <date value="2026-09-11T09:17:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -468,8 +506,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0495456e-81e7-45ef-a9f0-67f5d24c773a"/>
-          <timestamp value="2026-09-01T10:03:06+00:00"/>
+          <identifier value="urn:uuid:930947ef-c672-4958-814a-fc8896fb02b4"/>
+          <timestamp value="2026-09-11T09:23:12+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -532,6 +570,25 @@
     <fullUrl value="http://example.org/fhir/ValueSet/associated-party-role"/>
     <resource>
       <ValueSet>
+        <meta>
+          <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+            <valueCode value="CC-BY-4.0"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+            <extension url="packageId">
+              <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+            </extension>
+            <extension url="version">
+              <valueString value="2027.0.0-ballot.rc1"/>
+            </extension>
+            <extension url="uri">
+              <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+            </extension>
+          </extension>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
@@ -720,7 +777,7 @@
         <title value="Associated Party Role"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-09-01T10:00:57+00:00"/>
+        <date value="2026-09-11T09:17:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -729,8 +786,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:942b14f9-caf1-4b17-9821-b6b548b3ecfd"/>
-          <timestamp value="2026-09-01T10:03:06+00:00"/>
+          <identifier value="urn:uuid:6f8ef470-05de-4493-b630-9bf96aef3523"/>
+          <timestamp value="2026-09-11T09:23:12+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -800,6 +857,25 @@
     <fullUrl value="http://example.org/fhir/ValueSet/research-study-category"/>
     <resource>
       <ValueSet>
+        <meta>
+          <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+            <valueCode value="CC-BY-4.0"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+            <extension url="packageId">
+              <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+            </extension>
+            <extension url="version">
+              <valueString value="2027.0.0-ballot.rc1"/>
+            </extension>
+            <extension url="uri">
+              <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+            </extension>
+          </extension>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
@@ -925,7 +1001,7 @@
         <title value="Research Study Category"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-09-01T10:00:57+00:00"/>
+        <date value="2026-09-11T09:17:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -934,8 +1010,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:579b9651-c481-4966-99d4-24a09bc34cd2"/>
-          <timestamp value="2026-09-01T10:03:06+00:00"/>
+          <identifier value="urn:uuid:50ced5c9-41e6-40c8-a3cc-b1e4bdc6545b"/>
+          <timestamp value="2026-09-11T09:23:12+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -986,6 +1062,25 @@
     <fullUrl value="http://example.org/fhir/ValueSet/research-study-category"/>
     <resource>
       <ValueSet>
+        <meta>
+          <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+            <valueCode value="CC-BY-4.0"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+            <extension url="packageId">
+              <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+            </extension>
+            <extension url="version">
+              <valueString value="2027.0.0-ballot.rc1"/>
+            </extension>
+            <extension url="uri">
+              <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+            </extension>
+          </extension>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
@@ -1111,7 +1206,7 @@
         <title value="Research Study Category"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-09-01T10:00:57+00:00"/>
+        <date value="2026-09-11T09:17:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1120,8 +1215,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:579b9651-c481-4966-99d4-24a09bc34cd2"/>
-          <timestamp value="2026-09-01T10:03:06+00:00"/>
+          <identifier value="urn:uuid:50ced5c9-41e6-40c8-a3cc-b1e4bdc6545b"/>
+          <timestamp value="2026-09-11T09:23:12+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1172,6 +1267,25 @@
     <fullUrl value="http://example.org/fhir/ValueSet/research-study-category"/>
     <resource>
       <ValueSet>
+        <meta>
+          <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+            <valueCode value="CC-BY-4.0"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+            <extension url="packageId">
+              <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+            </extension>
+            <extension url="version">
+              <valueString value="2027.0.0-ballot.rc1"/>
+            </extension>
+            <extension url="uri">
+              <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+            </extension>
+          </extension>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset"/>
+          <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
@@ -1297,7 +1411,7 @@
         <title value="Research Study Category"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-09-01T10:00:57+00:00"/>
+        <date value="2026-09-11T09:17:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1306,8 +1420,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9f0469c5-9de6-4083-968f-1d59e728f34c"/>
-          <timestamp value="2026-09-01T10:03:06+00:00"/>
+          <identifier value="urn:uuid:5bedf39b-5c37-4a31-9748-d0dde1ede628"/>
+          <timestamp value="2026-09-11T09:23:12+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>

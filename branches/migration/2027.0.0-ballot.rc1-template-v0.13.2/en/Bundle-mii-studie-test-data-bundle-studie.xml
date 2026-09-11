@@ -19,6 +19,11 @@
         <id value="mii-exa-studie-dokument"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -58,6 +63,11 @@
         <id value="mii-exa-studie-ein-auschluss-kriterium"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -203,6 +213,11 @@
         <id value="mii-exa-studie-studie"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -302,6 +317,11 @@
         <id value="mii-exa-studie-cohort"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -410,6 +430,11 @@
         <id value="mii-exa-studie-proband"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -453,6 +478,11 @@
         <id value="mii-exa-studie-beteiligte-person"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -488,10 +518,15 @@
         <id value="mii-exa-studie-register"/>
         <meta>
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
-          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-7d6c574c-0c6d-4b8f-8819-833c24c84d7c.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
+          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-4e90a1c7-cb07-44da-9ff6-fe1fc3a36e8b.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
         </text>
         <identifier>
           <system value="https://example.com/fhir/sid/drks"/>
@@ -524,6 +559,13 @@
     <resource>
       <Organization>
         <id value="mii-exa-studie-author"/>
+        <meta>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
+        </meta>
         <language value="en"/>
         <text>
           <status value="generated"/>
@@ -541,6 +583,13 @@
     <resource>
       <Organization>
         <id value="mii-exa-studie-custodian"/>
+        <meta>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
+        </meta>
         <language value="en"/>
         <text>
           <status value="generated"/>
@@ -558,6 +607,13 @@
     <resource>
       <Organization>
         <id value="mii-exa-studie-practitioner-organization"/>
+        <meta>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
+        </meta>
         <language value="en"/>
         <text>
           <status value="generated"/>
@@ -575,6 +631,13 @@
     <resource>
       <Practitioner>
         <id value="mii-exa-studie-practitioner"/>
+        <meta>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
+        </meta>
         <language value="en"/>
         <text>
           <status value="generated"/>
@@ -595,6 +658,13 @@
     <resource>
       <ResearchStudy>
         <id value="mii-exa-studie-reference-study"/>
+        <meta>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
+        </meta>
         <language value="en"/>
         <text>
           <status value="generated"/>
@@ -615,6 +685,11 @@
         <id value="mii-exa-studie-patient"/>
         <meta>
           <profile value="http://fhir.de/ConsentManagement/StructureDefinition/Patient"/>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
         </meta>
         <language value="en"/>
         <text>
@@ -650,6 +725,13 @@
     <resource>
       <Consent>
         <id value="mii-exa-studie-consent"/>
+        <meta>
+          <security>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+            <code value="HTEST"/>
+            <display value="test health data"/>
+          </security>
+        </meta>
         <language value="en"/>
         <text>
           <status value="generated"/>

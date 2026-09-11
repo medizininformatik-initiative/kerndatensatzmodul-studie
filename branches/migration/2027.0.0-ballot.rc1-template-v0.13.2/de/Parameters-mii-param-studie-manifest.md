@@ -26,12 +26,44 @@
     "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
   },
   {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem|2.0.0"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem|2.0.0"
+  },
+  {
     "name" : "system-version",
     "valueCanonical" : "http://example.org/fhir/CodeSystem/associated-party-role|2027.0.0-ballot.rc1"
   },
   {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablevalueset|2.0.0"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablevalueset|2.0.0"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-computablevalueset|2.0.0"
+  },
+  {
     "name" : "system-version",
     "valueCanonical" : "http://example.org/fhir/CodeSystem/research-study-category|2027.0.0-ballot.rc1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-pr-meta-searchparameter|2027.0.0-ballot"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecapabilitystatement|2.0.0"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecapabilitystatement|2.0.0"
   },
   {
     "name" : "default-canonical-version",
@@ -215,7 +247,7 @@
   },
   {
     "name" : "default-canonical-version",
-    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-researchsubject-consent|2026.0.0"
+    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-researchsubject-consent|2027.0.0-ballot"
   },
   {
     "name" : "default-canonical-version",
@@ -236,6 +268,14 @@
   {
     "name" : "default-canonical-version",
     "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage|2027.0.0-ballot.rc1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0"
   },
   {
     "name" : "default-canonical-version",

@@ -17,7 +17,12 @@
       "resourceType" : "DocumentReference",
       "id" : "mii-exa-studie-dokument",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -55,7 +60,12 @@
       "resourceType" : "EvidenceVariable",
       "id" : "mii-exa-studie-ein-auschluss-kriterium",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -210,7 +220,12 @@
       "resourceType" : "ResearchStudy",
       "id" : "mii-exa-studie-studie",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -326,7 +341,12 @@
       "resourceType" : "ResearchStudy",
       "id" : "mii-exa-studie-cohort",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -452,7 +472,12 @@
       "resourceType" : "ResearchSubject",
       "id" : "mii-exa-studie-proband",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -494,7 +519,12 @@
       "resourceType" : "PractitionerRole",
       "id" : "mii-exa-studie-beteiligte-person",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -528,12 +558,17 @@
       "resourceType" : "Library",
       "id" : "mii-exa-studie-register",
       "meta" : {
-        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"]
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
         "status" : "extensions",
-        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-7d6c574c-0c6d-4b8f-8819-833c24c84d7c.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
+        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-4e90a1c7-cb07-44da-9ff6-fe1fc3a36e8b.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",
@@ -565,6 +600,13 @@
     "resource" : {
       "resourceType" : "Organization",
       "id" : "mii-exa-studie-author",
+      "meta" : {
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
+      },
       "language" : "en",
       "text" : {
         "status" : "generated"
@@ -581,6 +623,13 @@
     "resource" : {
       "resourceType" : "Organization",
       "id" : "mii-exa-studie-custodian",
+      "meta" : {
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
+      },
       "language" : "en",
       "text" : {
         "status" : "generated"
@@ -597,6 +646,13 @@
     "resource" : {
       "resourceType" : "Organization",
       "id" : "mii-exa-studie-practitioner-organization",
+      "meta" : {
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
+      },
       "language" : "en",
       "text" : {
         "status" : "generated"
@@ -613,6 +669,13 @@
     "resource" : {
       "resourceType" : "Practitioner",
       "id" : "mii-exa-studie-practitioner",
+      "meta" : {
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
+      },
       "language" : "en",
       "text" : {
         "status" : "generated"
@@ -632,6 +695,13 @@
     "resource" : {
       "resourceType" : "ResearchStudy",
       "id" : "mii-exa-studie-reference-study",
+      "meta" : {
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
+      },
       "language" : "en",
       "text" : {
         "status" : "generated"
@@ -650,7 +720,12 @@
       "resourceType" : "Patient",
       "id" : "mii-exa-studie-patient",
       "meta" : {
-        "profile" : ["http://fhir.de/ConsentManagement/StructureDefinition/Patient"]
+        "profile" : ["http://fhir.de/ConsentManagement/StructureDefinition/Patient"],
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
       },
       "language" : "en",
       "text" : {
@@ -685,6 +760,13 @@
     "resource" : {
       "resourceType" : "Consent",
       "id" : "mii-exa-studie-consent",
+      "meta" : {
+        "security" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+          "code" : "HTEST",
+          "display" : "test health data"
+        }]
+      },
       "language" : "en",
       "text" : {
         "status" : "generated"

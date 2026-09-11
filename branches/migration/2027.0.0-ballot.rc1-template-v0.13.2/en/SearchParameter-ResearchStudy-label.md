@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-01 | *Computable Name*:SP_MII_Studie_Label |
+| Active as of 2026-08-31 | *Computable Name*:SP_MII_Studie_Label |
 
  
 Suchparameter für ResearchStudy.extension:label 
@@ -22,12 +22,53 @@ Suchparameter für ResearchStudy.extension:label
 {
   "resourceType" : "SearchParameter",
   "id" : "ResearchStudy-label",
+  "meta" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license",
+      "valueCode" : "CC-BY-4.0"
+    },
+    {
+      "extension" : [{
+        "url" : "packageId",
+        "valueId" : "de.medizininformatikinitiative.kerndatensatz.studie"
+      },
+      {
+        "url" : "version",
+        "valueString" : "2027.0.0-ballot.rc1"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "https://www.medizininformatik-initiative.de/fhir/modul-studie"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    }],
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-pr-meta-searchparameter"]
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes",
+        "version" : "3.0.0",
+        "code" : "package",
+        "display" : "Package"
+      }]
+    }
+  }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-label",
   "version" : "2027.0.0-ballot.rc1",
   "name" : "SP_MII_Studie_Label",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-01T10:00:57+00:00",
+  "date" : "2026-08-31",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

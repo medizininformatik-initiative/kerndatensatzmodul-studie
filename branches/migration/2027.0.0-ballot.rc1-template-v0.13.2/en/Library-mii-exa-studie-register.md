@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register | *Version*:2027.0.0-ballot.rc1 |
-| Active as of 2026-09-01 | *Computable Name*:DRKS - Deutsches Register Klinischer Studien |
+| Active as of 2026-09-11 | *Computable Name*:DRKS - Deutsches Register Klinischer Studien |
 | *Other Identifiers:*https://example.com/fhir/sid/drks#DRKS | |
 
 -------
@@ -18,7 +18,7 @@
 
 -------
 
-**Exception parsing generated Narrative (see /tmp/liquid-5a900808-3407-4ac0-ba03-3fc56445ad11.html): unexpected non-end of element null::a at line 130 column 50**
+**Exception parsing generated Narrative (see /tmp/liquid-34d26b3e-6e06-406f-874c-60dceb236123.html): unexpected non-end of element null::a at line 130 column 50**
 
 
 
@@ -29,7 +29,12 @@
   "resourceType" : "Library",
   "id" : "mii-exa-studie-register",
   "meta" : {
-    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"]
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register",
   "identifier" : [{
@@ -45,7 +50,7 @@
       "code" : "asset-collection"
     }]
   },
-  "date" : "2026-09-01T10:00:57+00:00",
+  "date" : "2026-09-11T09:17:55+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

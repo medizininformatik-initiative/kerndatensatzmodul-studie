@@ -14,6 +14,8 @@
 
 Profile: [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.md)
 
+Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
+
 **status**: Draft
 
 **intent**: Proposal
@@ -22,7 +24,7 @@ Profile: [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-st
 
 **code**: Referral to clinical trial (procedure)
 
-**subject**: [Jane Doe Female, DoB: 1980-11-12 ( KVZ10 (use: official, ))](Patient-mii-exa-studie-patient.md)
+**subject**: [Jane Doe Female, DoB: 1980-11-12 ( Krankenversichertennummer (use: official, ))](Patient-mii-exa-studie-patient.md)
 
 **supportingInfo**: 
 
@@ -38,7 +40,12 @@ Profile: [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-st
   "resourceType" : "ServiceRequest",
   "id" : "mii-exa-studie-studieneinschluss-anfrage",
   "meta" : {
-    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"]
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "status" : "draft",
   "intent" : "proposal",

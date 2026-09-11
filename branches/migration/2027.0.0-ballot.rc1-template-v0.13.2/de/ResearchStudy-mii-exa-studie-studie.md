@@ -14,6 +14,8 @@
 
 Profile: [MII PR Studie Studie](StructureDefinition-mii-pr-studie-studie.md)
 
+Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
+
 > **MII EX Studie Backport Label**
 * value: Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue
 * type: Scientific title
@@ -63,7 +65,12 @@ Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation
   "resourceType" : "ResearchStudy",
   "id" : "mii-exa-studie-studie",
   "meta" : {
-    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"]
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "extension" : [{
     "extension" : [{

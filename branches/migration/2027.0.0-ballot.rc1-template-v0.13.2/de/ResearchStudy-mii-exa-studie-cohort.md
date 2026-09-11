@@ -14,6 +14,8 @@
 
 Profile: [MII PR Studie Studie](StructureDefinition-mii-pr-studie-studie.md)
 
+Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
+
 > **MII EX Studie Backport Label**
 * value: MII Modul Studie
 
@@ -75,7 +77,12 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
   "resourceType" : "ResearchStudy",
   "id" : "mii-exa-studie-cohort",
   "meta" : {
-    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"]
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "extension" : [{
     "extension" : [{

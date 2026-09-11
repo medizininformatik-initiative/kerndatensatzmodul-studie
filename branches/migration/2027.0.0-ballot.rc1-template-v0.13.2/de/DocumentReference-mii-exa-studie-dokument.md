@@ -14,6 +14,8 @@
 
 Profile: [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md)
 
+Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
+
 **status**: Current
 
 **author**: [Organization Example Organization for Author](Organization-mii-exa-studie-author.md)
@@ -27,7 +29,7 @@ Profile: [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md)
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
 | - | **ContentType** | **Url** | **Size** | **Title** |
-| * | application/pdf | [https://example.com/fhir/Binary/document](https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&canonical=https://example.com/fhir/Binary/document) | 2000 | Beispiel Dokument |
+| * | application/pdf | [https://example.com/fhir/Binary/document](https://example.com/fhir/Binary/document) | 2000 | Beispiel Dokument |
 
 
 ### Contexts
@@ -46,7 +48,12 @@ Profile: [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md)
   "resourceType" : "DocumentReference",
   "id" : "mii-exa-studie-dokument",
   "meta" : {
-    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"]
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "status" : "current",
   "author" : [{

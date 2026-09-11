@@ -58,9 +58,10 @@
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/artifact-author",
     "valueContactDetail" : {
+      "name" : "Matthias Löbe",
       "telecom" : [{
         "system" : "email",
-        "value" : "office@medizininformatik-initiative.de"
+        "value" : "matthias.loebe@imise.uni-leipzig.de"
       }]
     }
   },
@@ -68,6 +69,26 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/artifact-editor",
     "valueContactDetail" : {
       "name" : "Taskforce Core Data Set"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-editor",
+    "valueContactDetail" : {
+      "name" : "Thomas Debertshäuser",
+      "telecom" : [{
+        "system" : "email",
+        "value" : "thomas.debertshaeuser@charite.de"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-editor",
+    "valueContactDetail" : {
+      "name" : "Margaux Gatrio",
+      "telecom" : [{
+        "system" : "email",
+        "value" : "margaux.gatrio@bih-charite.de"
+      }]
     }
   },
   {
@@ -139,6 +160,15 @@
         "code" : "C15206"
       }]
     }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-topic",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+        "code" : "C15429"
+      }]
+    }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
   "version" : "2027.0.0-ballot.rc1",
@@ -170,7 +200,7 @@
     "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
-    "version" : "2026.0.0"
+    "version" : "2027.0.0-ballot"
   },
   {
     "id" : "hl7_fhir_uv_xver_r5_r4",

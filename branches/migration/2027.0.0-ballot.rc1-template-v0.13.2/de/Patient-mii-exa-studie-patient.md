@@ -12,9 +12,11 @@
 
 -------
 
-Profile: [http://fhir.de/ConsentManagement/StructureDefinition/Patient](https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.meta@2026.0.0&canonical=http://fhir.de/ConsentManagement/StructureDefinition/Patient)
+Profile: `http://fhir.de/ConsentManagement/StructureDefinition/Patient`
 
-Jane Doe Female, DoB: 1980-11-12 ( KVZ10 (use: official, ))
+Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
+
+Jane Doe Female, DoB: 1980-11-12 ( Krankenversichertennummer (use: official, ))
 
 -------
 
@@ -31,7 +33,12 @@ Jane Doe Female, DoB: 1980-11-12 ( KVZ10 (use: official, ))
   "resourceType" : "Patient",
   "id" : "mii-exa-studie-patient",
   "meta" : {
-    "profile" : ["http://fhir.de/ConsentManagement/StructureDefinition/Patient"]
+    "profile" : ["http://fhir.de/ConsentManagement/StructureDefinition/Patient"],
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
   },
   "identifier" : [{
     "use" : "official",

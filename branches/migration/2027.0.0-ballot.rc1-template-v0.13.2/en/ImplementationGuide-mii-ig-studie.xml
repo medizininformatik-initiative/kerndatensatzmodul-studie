@@ -49,15 +49,34 @@
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/artifact-author">
     <valueContactDetail>
+      <name value="Matthias Löbe"/>
       <telecom>
         <system value="email"/>
-        <value value="office@medizininformatik-initiative.de"/>
+        <value value="matthias.loebe@imise.uni-leipzig.de"/>
       </telecom>
     </valueContactDetail>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/artifact-editor">
     <valueContactDetail>
       <name value="Taskforce Core Data Set"/>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-editor">
+    <valueContactDetail>
+      <name value="Thomas Debertshäuser"/>
+      <telecom>
+        <system value="email"/>
+        <value value="thomas.debertshaeuser@charite.de"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-editor">
+    <valueContactDetail>
+      <name value="Margaux Gatrio"/>
+      <telecom>
+        <system value="email"/>
+        <value value="margaux.gatrio@bih-charite.de"/>
+      </telecom>
     </valueContactDetail>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/artifact-reviewer">
@@ -121,6 +140,14 @@
       </coding>
     </valueCodeableConcept>
   </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-topic">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+        <code value="C15429"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie"/>
   <version value="2027.0.0-ballot.rc1"/>
   <name value="MII_IG_Medizinisches_Forschungsvorhaben"/>
@@ -150,7 +177,7 @@
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_meta">
     <uri value="https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.meta"/>
-    <version value="2026.0.0"/>
+    <version value="2027.0.0-ballot"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_xver_r5_r4">
     <uri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>

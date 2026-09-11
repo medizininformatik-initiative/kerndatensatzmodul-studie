@@ -2,8 +2,15 @@
 
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="mii-exa-studie-practitioner"/>
+  <meta>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner mii-exa-studie-practitioner</b></p><a name="mii-exa-studie-practitioner"> </a><a name="hcmii-exa-studie-practitioner"> </a><p><b>name</b>: Max Mustermann </p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner mii-exa-studie-practitioner</b></p><a name="en-mii-exa-studie-practitioner"> </a><a name="en-hcmii-exa-studie-practitioner"> </a><p><b>name</b>: Max Mustermann </p></div></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner mii-exa-studie-practitioner</b></p><a name="mii-exa-studie-practitioner"> </a><a name="hcmii-exa-studie-practitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Security Label: <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>name</b>: Max Mustermann </p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Practitioner mii-exa-studie-practitioner</b></p><a name="en-mii-exa-studie-practitioner"> </a><a name="en-hcmii-exa-studie-practitioner"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Security Label: <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>name</b>: Max Mustermann </p></div></div>
   </text>
   <name>
     <family value="Mustermann"/>
