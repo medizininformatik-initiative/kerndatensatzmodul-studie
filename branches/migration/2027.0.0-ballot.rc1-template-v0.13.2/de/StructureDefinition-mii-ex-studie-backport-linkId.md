@@ -237,7 +237,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "title" : "MII EX Studie Backport linkId",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-11T09:44:10+00:00",
+  "date" : "2026-09-11T09:51:30+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

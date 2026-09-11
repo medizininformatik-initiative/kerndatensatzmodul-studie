@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c9dce159-fb62-4e45-8d13-7a53a84ba7d5",
+  "id" : "a410ad22-a265-47bf-9d03-b332bf5303cc",
   "meta" : {
-    "lastUpdated" : "2026-09-11T09:44:10.956+00:00"
+    "lastUpdated" : "2026-09-11T09:51:30.095+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -43,7 +43,7 @@
       "title" : "Associated Party Role",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T09:44:10+00:00",
+      "date" : "2026-09-11T09:51:30+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -52,8 +52,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:355f2298-1a39-4f6c-9ba5-a9a0f6862d35",
-        "timestamp" : "2026-09-11T09:47:22+00:00",
+        "identifier" : "urn:uuid:253dc8dd-11d3-47a6-856b-ee7553f54064",
+        "timestamp" : "2026-09-11T09:56:39+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -149,7 +149,7 @@
       "title" : "Associated Party Role",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T09:44:10+00:00",
+      "date" : "2026-09-11T09:51:30+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -158,8 +158,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:355f2298-1a39-4f6c-9ba5-a9a0f6862d35",
-        "timestamp" : "2026-09-11T09:47:22+00:00",
+        "identifier" : "urn:uuid:253dc8dd-11d3-47a6-856b-ee7553f54064",
+        "timestamp" : "2026-09-11T09:56:39+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -255,7 +255,7 @@
       "title" : "Associated Party Role",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T09:44:10+00:00",
+      "date" : "2026-09-11T09:51:30+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -264,8 +264,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:30afc3c0-a367-4b2b-8422-31708d294fe8",
-        "timestamp" : "2026-09-11T09:47:22+00:00",
+        "identifier" : "urn:uuid:aed8cea7-6f11-4f35-857b-1664fc356af0",
+        "timestamp" : "2026-09-11T09:56:39+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -368,7 +368,7 @@
       "title" : "Research Study Category",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T09:44:10+00:00",
+      "date" : "2026-09-11T09:51:30+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -377,8 +377,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4f7bfd5f-1147-4414-99b3-4eba193e4956",
-        "timestamp" : "2026-09-11T09:47:22+00:00",
+        "identifier" : "urn:uuid:92452025-664e-4905-a4c1-390834794fd7",
+        "timestamp" : "2026-09-11T09:56:39+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -462,7 +462,7 @@
       "title" : "Research Study Category",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T09:44:10+00:00",
+      "date" : "2026-09-11T09:51:30+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -471,8 +471,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4f7bfd5f-1147-4414-99b3-4eba193e4956",
-        "timestamp" : "2026-09-11T09:47:22+00:00",
+        "identifier" : "urn:uuid:92452025-664e-4905-a4c1-390834794fd7",
+        "timestamp" : "2026-09-11T09:56:39+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -556,7 +556,7 @@
       "title" : "Research Study Category",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T09:44:10+00:00",
+      "date" : "2026-09-11T09:51:30+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -565,8 +565,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:858e1030-10e4-4f31-a8b5-7c35627f57bf",
-        "timestamp" : "2026-09-11T09:47:22+00:00",
+        "identifier" : "urn:uuid:eb02a4e1-484a-4d42-b9e3-bc7056f4b057",
+        "timestamp" : "2026-09-11T09:56:39+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{

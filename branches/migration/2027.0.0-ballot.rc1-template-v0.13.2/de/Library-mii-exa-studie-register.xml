@@ -12,7 +12,7 @@
   </meta>
   <language value="de"/>
   <text>
-    <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-40bddcd4-f327-466f-a792-dd1c759ccf49.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div>
+    <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-4fde8e08-9fcc-46eb-a7fa-07154b468d12.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div>
   </text>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register"/>
   <identifier>
@@ -28,7 +28,7 @@
       <code value="asset-collection"/>
     </coding>
   </type>
-  <date value="2026-09-11T09:44:10+00:00"/>
+  <date value="2026-09-11T09:51:30+00:00"/>
   <publisher value="NUM-DIZ"/>
   <contact>
     <name value="NUM-DIZ"/>

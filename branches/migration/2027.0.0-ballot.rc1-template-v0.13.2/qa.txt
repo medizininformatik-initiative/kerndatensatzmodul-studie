@@ -1,9 +1,9 @@
 MII_IG_Medizinisches_Forschungsvorhaben : Validation Results
 =========================================
 
-err = 0, warn = 727, info = 1812
+err = 0, warn = 727, info = 1818
 IG Publisher Version: 2.3.2 Out of date - current version is 2.3.4
-Generated Fri Sep 11 09:49:01 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
+Generated Fri Sep 11 09:58:02 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
  Build Errors : 0 / 16 / 0
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 16 / 65
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie : 0 / 4 / 82
@@ -40,7 +40,7 @@ Generated Fri Sep 11 09:49:01 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsstart : 0 / 2 / 4
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/SearchParameter-ResearchStudy-rekrutierungsziel : 0 / 2 / 4
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/SearchParameter-ResearchStudy-studienregister : 0 / 2 / 4
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage : 0 / 0 / 3
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage : 0 / 0 / 5
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-akronym : 0 / 2 / 32
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-associatedParty : 0 / 4 / 69
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-definition-by-combination : 0 / 5 / 51
@@ -62,7 +62,7 @@ Generated Fri Sep 11 09:49:01 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-proband : 0 / 2 / 72
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-register : 0 / 2 / 105
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-studie : 0 / 6 / 126
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage : 0 / 4 / 89
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage : 0 / 4 / 93
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ValueSet-associated-party-role-vs : 0 / 3 / 43
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ValueSet-research-study-category-vs : 0 / 3 / 43
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/input/resources/Parameters-expansion-manifest : 0 / 0 / 1
@@ -484,6 +484,8 @@ INFORMATION: Resource: The resource SearchParameter/ResearchStudy-studienregiste
 == fsh-generated/resources/ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.json ==
 INFORMATION: ServiceRequest/mii-exa-studie-studieneinschluss-anfrage: ServiceRequest.meta.security[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
 INFORMATION: ServiceRequest/mii-exa-studie-studieneinschluss-anfrage: ServiceRequest.meta.security[0]: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
+INFORMATION: ServiceRequest/mii-exa-studie-studieneinschluss-anfrage: ServiceRequest.category[0].coding[0].display: 'Clinical trial' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: ServiceRequest/mii-exa-studie-studieneinschluss-anfrage: ServiceRequest.code.coding[0].display: 'Referral to clinical trial' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
 == fsh-generated/resources/StructureDefinition-mii-ex-studie-akronym.json ==
 INFORMATION: StructureDefinition.meta.profile[0]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition to 2.0.0
 INFORMATION: StructureDefinition.meta.profile[1]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition to 2.0.0
@@ -2581,7 +2583,11 @@ INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: Struct
 INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.extension[8].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
 WARNING: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
 WARNING: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.snapshot.element[16].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
+INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.snapshot.element[17].pattern.ofType(CodeableConcept).coding[0].display: 'Clinical trial' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.snapshot.element[20].pattern.ofType(CodeableConcept).coding[0].display: 'Referral to clinical trial' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
 WARNING: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.differential.element[2].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
+INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].display: 'Clinical trial' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0].display: 'Referral to clinical trial' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
 INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.snapshot.element[17].pattern.ofType(CodeableConcept): Das sich wiederholende Element hat ein pattern. Die pattern gilt für alle Wiederholungen (dies war nicht allen Benutzern klar)
 INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-pr-studie-studieneinschluss-anfrage: StructureDefinition.extension[3]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.

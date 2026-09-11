@@ -20,12 +20,14 @@
     <coding>
       <system value="http://snomed.info/sct"/>
       <code value="110465008"/>
+      <display value="Clinical trial"/>
     </coding>
   </category>
   <code>
     <coding>
       <system value="http://snomed.info/sct"/>
       <code value="702475000"/>
+      <display value="Referral to clinical trial"/>
     </coding>
   </code>
   <subject>

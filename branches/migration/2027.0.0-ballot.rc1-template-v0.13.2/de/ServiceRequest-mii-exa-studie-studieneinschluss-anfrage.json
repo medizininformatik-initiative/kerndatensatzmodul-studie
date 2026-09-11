@@ -19,13 +19,15 @@
   "category" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "110465008"
+      "code" : "110465008",
+      "display" : "Clinical trial"
     }]
   }],
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "702475000"
+      "code" : "702475000",
+      "display" : "Referral to clinical trial"
     }]
   },
   "subject" : {
