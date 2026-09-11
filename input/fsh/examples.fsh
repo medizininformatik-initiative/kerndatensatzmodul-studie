@@ -154,8 +154,8 @@ Usage: #example
 * meta.profile = "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"
 * status = #draft
 * intent = #proposal
-* category = $SCT#110465008 "Clinical trial (procedure)"
-* code = $SCT#702475000 "Referral to clinical trial (procedure)"
+* category = $SCT#110465008
+* code = $SCT#702475000
 * subject = Reference(mii-exa-studie-patient)
 * supportingInfo[Studie] = Reference(mii-exa-studie-cohort)
 * supportingInfo[Proband] = Reference(mii-exa-studie-proband)  
@@ -275,6 +275,7 @@ Description: "High-level categories describing the overall type of a research st
 * ^url = "http://example.org/fhir/CodeSystem/research-study-category"
 * ^status = #active
 * ^experimental = false
+* ^caseSensitive = true
 * ^content = #complete
 
 * #interventional "Interventional study"
@@ -330,6 +331,7 @@ Description: "Roles that an associated party may have in relation to an entity s
 * ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
 * ^status = #active
 * ^experimental = false
+* ^caseSensitive = true
 * ^content = #complete
 
 * #sponsor "Sponsor"

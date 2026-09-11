@@ -22,6 +22,7 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
 * type ^short = "Type"
@@ -60,6 +61,9 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 Extension: MII_EX_Studie_Quell_Register
 Id: mii-ex-studie-quell-register
 Title: "MII EX Studie Quell Register"
+Description: "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt."
+* insert Translation(^description, de, Extension zur Kennzeichnung\, ob es sich bei einem Forschungsregister um ein Quellregister handelt.)
+* insert Translation(^description, en, Extension indicating whether a research registry is a source registry.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -74,6 +78,7 @@ Title: "MII EX Studie Quell Register"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * value[x] only boolean
 
 

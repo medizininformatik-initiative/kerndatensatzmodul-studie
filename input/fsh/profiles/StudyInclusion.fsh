@@ -18,6 +18,7 @@ Description: "Anfrage zum Studieneinschluss"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 
 * subject 1..1 MS
 * subject only Reference(Patient)
@@ -45,7 +46,7 @@ Description: "Anfrage zum Studieneinschluss"
 * category ^definition = "Ein Code, der den Dienst für Such-, Sortier- und Anzeigezwecke klassifiziert."
 * insert Translation(category ^definition, de, Ein Code\, der den Dienst für Such-\, Sortier- und Anzeigezwecke klassifiziert.)
 * insert Translation(category ^definition, en, A code that classifies the service for searching\, sorting and display purposes.)
-* category = $SCT#110465008 "Clinical trial (procedure)"
+* category = $SCT#110465008
 
 * code 1..1 MS
 * code ^short = "Was angefordert/bestellt wird."
@@ -54,7 +55,7 @@ Description: "Anfrage zum Studieneinschluss"
 * code ^definition = "Ein Code, der einen bestimmten angeforderten Dienst identifiziert."
 * insert Translation(code ^definition, de, Ein Code\, der einen bestimmten angeforderten Dienst identifiziert.)
 * insert Translation(code ^definition, en, A code that identifies a particular service that have been requested.)
-* code = $SCT#702475000 "Referral to clinical trial (procedure)"
+* code = $SCT#702475000
 
 * reasonReference 0..*
 * reasonReference ^short = "Erklärung/Begründung für Dienst oder Leistung."

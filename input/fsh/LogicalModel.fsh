@@ -18,6 +18,7 @@ Description: "Logische Repräsentation der Forschungsvorhaben"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
   * identifier 0..* Identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
   * System 0..* string "System einer BusinessID" "System einer BusinessID"

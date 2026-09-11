@@ -22,6 +22,7 @@ Description: "Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * status MS
 * status ^short = "Status"
 * insert Translation(status ^short, de, Entwurf | aktiv | zurückgezogen | unbekannt)
@@ -54,6 +55,9 @@ Description: "Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb
 Extension: MII_EX_Studie_Backport_linkId
 Id: mii-ex-studie-backport-linkId
 Title: "MII EX Studie Backport linkId"
+Description: "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4."
+* insert Translation(^description, de, R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.)
+* insert Translation(^description, en, R5 backport of the linkId element for EvidenceVariable.characteristic in FHIR R4.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -68,6 +72,7 @@ Title: "MII EX Studie Backport linkId"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only id
@@ -75,6 +80,9 @@ Title: "MII EX Studie Backport linkId"
 Extension: MII_EX_Studie_Backport_definitionReference
 Id: mii-ex-studie-backport-definitionReference
 Title: "MII EX Studie Backport definitionReference"
+Description: "R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4."
+* insert Translation(^description, de, R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4.)
+* insert Translation(^description, en, R5 backport of the definitionReference element for EvidenceVariable.characteristic in FHIR R4.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -89,6 +97,7 @@ Title: "MII EX Studie Backport definitionReference"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only Reference(EvidenceVariable or Evidence or Group)
@@ -96,6 +105,9 @@ Title: "MII EX Studie Backport definitionReference"
 Extension: MII_EX_Studie_Backport_definitionCanonical
 Id: mii-ex-studie-backport-definitionCanonical
 Title: "MII EX Studie Backport definitionCanonical"
+Description: "R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4."
+* insert Translation(^description, de, R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4.)
+* insert Translation(^description, en, R5 backport of the definitionCanonical element for EvidenceVariable.characteristic in FHIR R4.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -110,6 +122,7 @@ Title: "MII EX Studie Backport definitionCanonical"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * value[x] only Canonical(EvidenceVariable or Evidence)
@@ -117,6 +130,9 @@ Title: "MII EX Studie Backport definitionCanonical"
 Extension: MII_EX_Studie_Backport_Definition_By_Type_And_Value
 Id: mii-ex-studie-backport-definition-by-type-and-value
 Title: "MII EX Studie Backport DefinitionByTypeAndValue"
+Description: "R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4."
+* insert Translation(^description, de, R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4.)
+* insert Translation(^description, en, R5 backport of the definitionByTypeAndValue element for EvidenceVariable.characteristic in FHIR R4.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -131,21 +147,25 @@ Title: "MII EX Studie Backport DefinitionByTypeAndValue"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains type 1..1 MS and method 0..* and device 0..1 and offset 0..1 and value 1..1 MS
 * extension[type].value[x] only CodeableConcept
 * extension[type].valueCodeableConcept from http://terminology.hl7.org/ValueSet/usage-context-type (example)
 * extension[method].value[x] only CodeableConcept
-* extension[method].valueCodeableConcept from http://hl7.org/fhir/ValueSet/definition-method|5.0.0 (example)
+* extension[method].valueCodeableConcept from http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4 (example)
 * extension[device].value[x] only Reference(Device or DeviceMetric)
 * extension[value].value[x] only CodeableConcept or boolean or Quantity or Range or Reference or id
 * extension[offset].value[x] only CodeableConcept
-* extension[offset].valueCodeableConcept from http://hl7.org/fhir/ValueSet/characteristic-offset|5.0.0 (example)
+* extension[offset].valueCodeableConcept from http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-offset-for-R4 (example)
 
 Extension: MII_EX_Studie_Backport_Definition_By_Combination
 Id: mii-ex-studie-backport-definition-by-combination
 Title: "MII EX Studie Backport DefinitionByCombination"
+Description: "R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4."
+* insert Translation(^description, de, R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4.)
+* insert Translation(^description, en, R5 backport of the definitionByCombination element for EvidenceVariable.characteristic in FHIR R4.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -160,11 +180,12 @@ Title: "MII EX Studie Backport DefinitionByCombination"
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
+* ^experimental = false
 * ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
 * extension contains code 1..1 MS and threshhold 0..1 and characteristic 1..* MS
 * extension[code].value[x] only code
-* extension[code].valueCode from http://hl7.org/fhir/ValueSet/characteristic-combination|5.0.0 (required)
+* extension[code].valueCode from http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-combination-for-R4 (required)
 * extension[threshhold].value[x] only positiveInt
 * extension[characteristic].value[x] only id
 

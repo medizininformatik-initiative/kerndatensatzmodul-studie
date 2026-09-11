@@ -192,6 +192,7 @@
   "name": "MII_EX_Studie_Ethikvotum",
   "title": "MII EX Studie Ethikvotum",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -203,6 +204,37 @@
       ]
     }
   ],
+  "description": "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension describing the ethics approval of a research study including status, ethics committee and reference number."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

@@ -192,6 +192,7 @@
   "name": "MII_EX_Studie_Akronym",
   "title": "MII EX Studie Akronym",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -203,6 +204,37 @@
       ]
     }
   ],
+  "description": "Extension zur Angabe des Akronyms eines Forschungsvorhabens.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension zur Angabe des Akronyms eines Forschungsvorhabens."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension for the acronym of a research study."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

@@ -196,6 +196,7 @@
   "name": "MII_EX_Studie_Backport_Definition_By_Type_And_Value",
   "title": "MII EX Studie Backport DefinitionByTypeAndValue",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -207,6 +208,37 @@
       ]
     }
   ],
+  "description": "R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "R5 backport of the definitionByTypeAndValue element for EvidenceVariable.characteristic in FHIR R4."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -284,7 +316,7 @@
         ],
         "binding": {
           "strength": "example",
-          "valueSet": "http://hl7.org/fhir/ValueSet/definition-method|5.0.0"
+          "valueSet": "http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4"
         }
       },
       {
@@ -344,7 +376,7 @@
         ],
         "binding": {
           "strength": "example",
-          "valueSet": "http://hl7.org/fhir/ValueSet/characteristic-offset|5.0.0"
+          "valueSet": "http://hl7.org/fhir/uv/xver/ValueSet/R5-characteristic-offset-for-R4"
         }
       },
       {

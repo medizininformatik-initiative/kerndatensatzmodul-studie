@@ -19,8 +19,7 @@
       "coding": [
         {
           "code": "110465008",
-          "system": "http://snomed.info/sct",
-          "display": "Clinical trial (procedure)"
+          "system": "http://snomed.info/sct"
         }
       ]
     }
@@ -29,8 +28,7 @@
     "coding": [
       {
         "code": "702475000",
-        "system": "http://snomed.info/sct",
-        "display": "Referral to clinical trial (procedure)"
+        "system": "http://snomed.info/sct"
       }
     ]
   },

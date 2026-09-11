@@ -192,6 +192,7 @@
   "name": "MII_EX_Studie_Quell_Register",
   "title": "MII EX Studie Quell Register",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -203,6 +204,37 @@
       ]
     }
   ],
+  "description": "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension indicating whether a research registry is a source registry."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

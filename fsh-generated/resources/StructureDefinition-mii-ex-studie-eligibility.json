@@ -192,6 +192,7 @@
   "name": "MII_EX_Studie_Eligibility",
   "title": "MII EX Studie Eligibility",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -203,6 +204,37 @@
       ]
     }
   ],
+  "description": "Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension referencing the eligibility criteria of the research study."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

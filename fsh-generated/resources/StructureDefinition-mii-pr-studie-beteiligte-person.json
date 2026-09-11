@@ -222,6 +222,7 @@
     ]
   },
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
