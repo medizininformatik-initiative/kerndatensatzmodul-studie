@@ -1,15 +1,15 @@
 MII_IG_Medizinisches_Forschungsvorhaben : Validation Results
 =========================================
 
-err = 0, warn = 727, info = 1818
+err = 0, warn = 727, info = 1816
 IG Publisher Version: 2.3.2 Out of date - current version is 2.3.4
-Generated Fri Sep 11 10:05:50 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
+Generated Mon Sep 14 07:31:59 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
  Build Errors : 0 / 16 / 0
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 16 / 65
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 16 / 64
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie : 0 / 4 / 82
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CodeSystem-associated-party-role-cs : 0 / 3 / 24
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CodeSystem-research-study-category-cs : 0 / 3 / 24
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Consent-mii-exa-studie-consent : 0 / 2 / 6
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Consent-mii-exa-studie-consent : 0 / 2 / 5
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/DocumentReference-mii-exa-studie-dokument : 0 / 0 / 3
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium : 0 / 2 / 13
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction : 0 / 0 / 3
@@ -141,7 +141,6 @@ INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[13].resourc
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[13].resource/*Consent/mii-exa-studie-consent*/.scope.coding[0]: Kodierung hat kein System - kann nicht validiert werden
 INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[13].resource/*Consent/mii-exa-studie-consent*/.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/consent-category|4.0.1
 INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[13].resource/*Consent/mii-exa-studie-consent*/.category[0]: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/consent-category|4.0.1
-INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[13].resource/*Consent/mii-exa-studie-consent*/.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ActCode|2018-08-12
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[13].resource/*Consent/mii-exa-studie-consent*/.policy[0].uri: URL-Wert 'urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791' löst nicht auf
 WARNING: IG: "The narrative includes custom content for the default language (de), but does not include translated content for the en language, so the default language has been used
 == fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie.json ==
@@ -281,7 +280,6 @@ INFORMATION: Consent/mii-exa-studie-consent: Consent.meta.security[0]: There are
 WARNING: Consent/mii-exa-studie-consent: Consent.scope.coding[0]: Kodierung hat kein System - kann nicht validiert werden
 INFORMATION: Consent/mii-exa-studie-consent: Consent.category[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/consent-category|4.0.1
 INFORMATION: Consent/mii-exa-studie-consent: Consent.category[0]: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/consent-category|4.0.1
-INFORMATION: Consent/mii-exa-studie-consent: Consent.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/v3-ActCode|2018-08-12
 WARNING: Consent/mii-exa-studie-consent: Consent.policy[0].uri: URL-Wert 'urn:oid:2.16.840.1.113883.3.1937.777.24.2.1791' löst nicht auf
 == fsh-generated/resources/DocumentReference-mii-exa-studie-dokument.json ==
 INFORMATION: DocumentReference/mii-exa-studie-dokument: DocumentReference.meta.security[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
