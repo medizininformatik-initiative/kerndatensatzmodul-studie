@@ -12,10 +12,10 @@ In the following, the use case of the module as well as the associated FHIR prof
 
 | Publication |               |
 |-------------|---------------|
-| Date        | 2026-01-09 |
+| Date        | 2026-14-09 |
 | Version     | 2027.0.0-ballot.rc1 (CalVer `YYYY.n.n`, ballot RC) |
 | Status      | active        |
-| Realm       | DE            |
+| Realm       | EN            |
 
 You can find the first release at [2025.0.0](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Medizinische_Forschungsvorhaben_V2025/ImplementationGuide-1.x-TechnischeImplementierung-Organization.html)
 
