@@ -13,7 +13,7 @@
     "fshType": "Instance",
     "fshFile": "CapabilityStatement.fsh",
     "startLine": 2,
-    "endLine": 361
+    "endLine": 411
   },
   {
     "outputFile": "CodeSystem-associated-party-role-cs.json",
@@ -270,6 +270,14 @@
     "fshFile": "profiles/ResearchStudy.fsh",
     "startLine": 440,
     "endLine": 456
+  },
+  {
+    "outputFile": "SearchParameter-ServiceRequest-supporting-info.json",
+    "fshName": "ServiceRequest-supporting-info",
+    "fshType": "Instance",
+    "fshFile": "profiles/StudyInclusion.fsh",
+    "startLine": 87,
+    "endLine": 103
   },
   {
     "outputFile": "ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.json",

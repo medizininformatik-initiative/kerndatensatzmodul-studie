@@ -83,3 +83,21 @@ Description: "Anfrage zum Studieneinschluss"
 
 * supportingInfo[Studie] only Reference(MII_PR_Studie_Studie or ResearchStudy)
 * supportingInfo[Proband] only Reference(MII_PR_Studie_Proband or ResearchSubject)
+
+Instance: ServiceRequest-supporting-info
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ServiceRequest-supporting-info"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
+* name = "SP_MII_Studie_SupportingInfo"
+* status = #active
+* description = "Suchparameter für ServiceRequest.supportingInfo"
+* experimental = false
+* date = "2026-08-31"
+* code = #supporting-info
+* base = #ServiceRequest
+* type = #reference
+* expression = "ServiceRequest.supportingInfo"

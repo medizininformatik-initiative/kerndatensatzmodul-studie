@@ -15,6 +15,20 @@ The work on the core data set specifications is based, wherever possible, on int
 
 All elements of the core data set, adapted to the details and requirements for the use cases of the Medical Informatics Initiative, are described below in the form of FHIR StructureDefinitions. The necessity of adapting the FHIR profiles is explained in textual form below the respective profiles.
 
+### Overview of the Profiles
+
+The Medical Research Project module defines the following resource profiles:
+
+| Profile | Base Resource | Description |
+|---------|----------------|--------------|
+| [MII PR Studie Studie](StructureDefinition-mii-pr-studie-studie.html) | ResearchStudy | Describes a study in the Medical Informatics Initiative. |
+| [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.html) | PractitionerRole | Describes a person involved in a study in the Medical Informatics Initiative. |
+| [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.html) | ResearchSubject | Describes a research subject in the Medical Informatics Initiative. |
+| [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html) | ServiceRequest | Request for inclusion of a subject in a study. |
+| [MII PR Studie Register](StructureDefinition-mii-pr-studie-register.html) | Library | Describes a research registry in the Medical Informatics Initiative. |
+| [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html) | EvidenceVariable | Describes an inclusion/exclusion criterion within a study in the Medical Informatics Initiative. |
+| [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.html) | DocumentReference | Describes a document / publication in the Medical Informatics Initiative. |
+
 ### Mandatory / must-support Elements
 
 | Note | Mandatory / must-support elements |

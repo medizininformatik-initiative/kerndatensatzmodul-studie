@@ -105,7 +105,7 @@ The following search parameters are relevant for the Study module, also in combi
 
     Examples:
 
-    ```GET [base]/ResearchStudy?_id=103270```
+    ```GET [base]/EvidenceVariable?_id=103270```
 
     Usage notes: Further information on searching for "_id" can be found in the [FHIR base specification - section "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
@@ -113,7 +113,7 @@ The following search parameters are relevant for the Study module, also in combi
 
     Examples:
 
-    ```GET [base]/ResearchStudy?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium```
+    ```GET [base]/EvidenceVariable?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium```
 
     Usage notes: Further information on searching for "_profile" can be found in the [FHIR base specification - section "Parameters for all resources"](http://hl7.org/fhir/R4/search.html#all).
 
@@ -121,7 +121,7 @@ The following search parameters are relevant for the Study module, also in combi
 
     Examples
 
-    ```GET [base]/ResearchStudy?status=active```
+    ```GET [base]/EvidenceVariable?status=active```
 
     Usage notes: Further information on searching for "EvidenceVariable.status" can be found in the [FHIR base specification - section "token"](http://hl7.org/fhir/R4/search.html#token).
 
@@ -313,29 +313,29 @@ The following search parameters are relevant for the Study module, also in combi
 
     Usage notes: Further information on searching for "ResearchStudy.arm.name" can be found in the [FHIR base specification - section "string"](http://hl7.org/fhir/R4/search.html#string).
 
-9. The search parameter "category" MUST be supported:
-
-    Examples
-
-    ```GET [base]/ResearchStudy?category=Long-COVID bedingter Fatigue```
-
-    Usage notes: Further information on searching for "ResearchStudy.extension:Studienfokus" can be found in the [FHIR base specification - section "string"](http://hl7.org/fhir/R4/search.html#string).
-
-10. The search parameter "keyword" MUST be supported:
-
-    Examples
-
-    ```GET [base]/ResearchStudy?keyword=COVID```
-
-    Usage notes: Further information on searching for "ResearchStudy.extension:Schlagwort" can be found in the [FHIR base specification - section "string"](http://hl7.org/fhir/R4/search.html#string).
-
-11. The search parameter "label" MUST be supported:
+9. The search parameter "label" MUST be supported:
 
     Examples
 
     ```GET [base]/ResearchStudy?label=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue```
 
     Usage notes: Further information on searching for "ResearchStudy.extension:Label" can be found in the [FHIR base specification - section "string"](http://hl7.org/fhir/R4/search.html#string).
+
+10. The search parameter "akronym" MUST be supported:
+
+    Examples
+
+    ```GET [base]/ResearchStudy?akronym=LIFE ADULT```
+
+    Usage notes: Further information on searching for "ResearchStudy.extension:Akronym" can be found in the [FHIR base specification - section "string"](http://hl7.org/fhir/R4/search.html#string).
+
+11. The search parameter "finanzierung" MUST be supported:
+
+    Examples
+
+    ```GET [base]/ResearchStudy?finanzierung=Deutsches Bundesministerium für Bildung und Forschung (BMBF)```
+
+    Usage notes: Further information on searching for "ResearchStudy.extension:Finanzierung" can be found in the [FHIR base specification - section "string"](http://hl7.org/fhir/R4/search.html#string).
 
 12. The search parameter "studienregister" MUST be supported:
 

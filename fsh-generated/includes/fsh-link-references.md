@@ -58,3 +58,4 @@
 [ResearchStudy-rekrutierungsstart]: SearchParameter-ResearchStudy-rekrutierungsstart.html
 [ResearchStudy-rekrutierungsziel]: SearchParameter-ResearchStudy-rekrutierungsziel.html
 [ResearchStudy-studienregister]: SearchParameter-ResearchStudy-studienregister.html
+[ServiceRequest-supporting-info]: SearchParameter-ServiceRequest-supporting-info.html

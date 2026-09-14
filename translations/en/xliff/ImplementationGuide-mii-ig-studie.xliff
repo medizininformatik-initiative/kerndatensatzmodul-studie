@@ -836,6 +836,20 @@
         <source>Suchparameter für ResearchStudy.extension:Studienregister</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>ServiceRequest-supporting-info</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Suchparameter für ServiceRequest.supportingInfo</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.page.title">
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>

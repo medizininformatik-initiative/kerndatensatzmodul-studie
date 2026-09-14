@@ -594,6 +594,16 @@ msgstr ""
 msgid "Suchparameter für ResearchStudy.extension:Studienregister"
 msgstr ""
 
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "ServiceRequest-supporting-info"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Suchparameter für ServiceRequest.supportingInfo"
+msgstr ""
+
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
 msgid "Table of Contents"

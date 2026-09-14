@@ -718,6 +718,18 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "ServiceRequest-supporting-info",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Suchparameter für ServiceRequest.supportingInfo",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.page.title",
       "context" : "ImplementationGuide.definition.page.title",
       "source" : "Table of Contents",
