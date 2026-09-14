@@ -526,7 +526,7 @@
         </meta>
         <language value="en"/>
         <text>
-          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-4c6b2f26-1177-4cb3-8109-5cda4ac89893.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
+          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-8c2c11c2-e0dd-4131-8772-1bde99b0c40f.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
         </text>
         <identifier>
           <system value="https://example.com/fhir/sid/drks"/>
