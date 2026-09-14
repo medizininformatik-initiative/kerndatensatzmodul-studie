@@ -13,7 +13,7 @@ Das Modul **Medizinisches Forschungsvorhaben** folgt dem KDS-Schema der Kalender
 (CalVer) in einer SemVer-kompatiblen numerischen Form:
 
 * Format **`JJJJ.MINOR.PATCH[-label]`** — die aktuelle Version ist
-  `2027.0.0-ballot.rc1`;
+  `2027.0.0-ballot`;
 * **`JJJJ`** — das Jahr, in dem der Leitfaden gilt und genutzt werden soll; es
   tritt an die Stelle der Major-Version;
 * **`MINOR`** — wird für nicht brechende Ergänzungen und Präzisierungen erhöht;

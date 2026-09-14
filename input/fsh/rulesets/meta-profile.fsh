@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Ported from kerndatensatz-meta (2027.0.0-ballot): input/fsh/rulesets/meta-profile.fsh
-// meta literal 2027.0.0-ballot → 2027.0.0-ballot.rc1.
+// meta literal 2027.0.0-ballot → 2027.0.0-ballot.
 //
 // Pins an example's `meta.profile` to the VERSIONED canonical of the profile it
 // claims, e.g.
@@ -11,4 +11,4 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 RuleSet: MetaProfile(canonical)
-* meta.profile[+] = "{canonical}|2027.0.0-ballot.rc1"
+* meta.profile[+] = "{canonical}|2027.0.0-ballot"

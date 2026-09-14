@@ -5,7 +5,7 @@ parent:
 ## {{page-title}}
 All changes are listed here.
 
-## Changes Ballot version v2027.0.0-ballot.rc1 (as of 31.08.2026)
+## Changes Ballot version v2027.0.0-ballot (as of 31.08.2026)
 
 ### New Profiles and Functionality
 

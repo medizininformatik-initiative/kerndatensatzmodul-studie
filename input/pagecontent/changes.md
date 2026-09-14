@@ -30,7 +30,7 @@ Kategorien gruppierten Änderungen:
 <!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/Release-Notes.page.md (verbatim transfer per
      migration-log/page-map.tsv;
      NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source) -->
-#### Änderungen Ballot-Version v2027.0.0-ballot.rc1 (Stand 31.08.2026)
+#### Änderungen Ballot-Version v2027.0.0-ballot (Stand 31.08.2026)
 
 ##### Neue Profile und Funktionalität
 

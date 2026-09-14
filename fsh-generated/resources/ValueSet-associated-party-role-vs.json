@@ -6,7 +6,7 @@
   "title": "Associated Party Role",
   "description": "Value set of roles that an associated party may have in relation to a research study.",
   "url": "http://example.org/fhir/ValueSet/associated-party-role",
-  "version": "2027.0.0-ballot.rc1",
+  "version": "2027.0.0-ballot",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
@@ -190,7 +190,7 @@
           },
           {
             "url": "version",
-            "valueString": "2027.0.0-ballot.rc1"
+            "valueString": "2027.0.0-ballot"
           },
           {
             "url": "uri",

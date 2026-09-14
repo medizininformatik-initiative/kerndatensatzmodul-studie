@@ -4,7 +4,7 @@
 # │ Migrated 2026-08-31 from the Simplifier project onto                               │
 # │ mii-kds-module-template v0.13.2 (skill mii-ig-migration v0.25.0).                  │
 # │ Identity fields are carried UNCHANGED from the source master@6cc63c5               │
-# │ (see migration-log/identity-claims.tsv). Version = 2027.0.0-ballot.rc1 —          │
+# │ (see migration-log/identity-claims.tsv). Version = 2027.0.0-ballot —          │
 # │ OPERATOR RE-VERSION (2026-08-31, ballot-RC edition on top of the 2026.0.1          │
 # │ migration; Dokument pattern). The registry's 2026.0.2 and the source tree's        │
 # │ 2026.0.1 remain recorded contradictions for Gate A.                                │
@@ -23,15 +23,15 @@ title: "MII Implementation Guide Medizinisches Forschungsvorhaben"
 description: "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben"
 applyExtensionMetadataToRoot: false
 status: active # source value carried
-version: 2027.0.0-ballot.rc1
+version: 2027.0.0-ballot
 packageId: de.medizininformatikinitiative.kerndatensatz.studie
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: release # upstream's own v2027.0.0-ballot.rc1 value (PR #68, adopted at merge 2026-08-31)
+releaseLabel: release # upstream's own v2027.0.0-ballot value (PR #68, adopted at merge 2026-08-31)
 license: CC-BY-4.0 # Gate-A decision 2026-08-31 (tier-R evidence; no machine source declares one)
 # Formal date stand-in = the v2026.0.1 publication date (source GitHub release
 # 2026-01-09); replace with the real publication date at Gate D.
-date: "2026-01-09"
+date: "2026-09-14"
 jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 # IG-level publisher = NUM-DIZ (template default, Dokument-precedent decision
 # D-5; resource-level publisher stays "Medizininformatik Initiative" via the
@@ -68,7 +68,7 @@ extension:
       - url: packageId
         valueId: de.medizininformatikinitiative.kerndatensatz.studie
       - url: version
-        valueString: 2027.0.0-ballot.rc1
+        valueString: 2027.0.0-ballot
       - url: uri
         valueUri: https://www.medizininformatik-initiative.de/fhir/modul-studie
   - url: http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod

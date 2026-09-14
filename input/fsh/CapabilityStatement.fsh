@@ -19,7 +19,7 @@ Usage: #definition
 * insert CRMIArtifactContributorsInstance
 * publisher = "Medizininformatik Initiative"
 * date = "2026-08-31"
-* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1"
+* implementationGuide = "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot"
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata"
 * name = "MII CPS Metadata Studie"
 * title = "MII CPS Metadata Studie"

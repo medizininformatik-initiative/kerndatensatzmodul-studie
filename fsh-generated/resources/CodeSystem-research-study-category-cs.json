@@ -29,7 +29,7 @@
       "definition": "Other study category not covered by the existing codes. Use with additional descriptive text."
     }
   ],
-  "version": "2027.0.0-ballot.rc1",
+  "version": "2027.0.0-ballot",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
@@ -209,7 +209,7 @@
           },
           {
             "url": "version",
-            "valueString": "2027.0.0-ballot.rc1"
+            "valueString": "2027.0.0-ballot"
           },
           {
             "url": "uri",
