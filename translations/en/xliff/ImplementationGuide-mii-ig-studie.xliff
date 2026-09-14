@@ -14,7 +14,28 @@
              <notes>
                <note id="n1">ContactDetail.name</note>
              </notes>
+        <source>Matthias Löbe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
         <source>Taskforce Core Data Set</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Thomas Debertshäuser</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Margaux Gatrio</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ContactDetail.name">
@@ -227,11 +248,25 @@
         <source>MII EX Studie Akronym</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Angabe des Akronyms eines Forschungsvorhabens.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Backport AssociatedParty</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements ResearchStudy.associatedParty zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
@@ -241,11 +276,25 @@
         <source>MII EX Studie Backport DefinitionByCombination</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Backport DefinitionByTypeAndValue</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
@@ -255,11 +304,25 @@
         <source>MII EX Studie Backport definitionCanonical</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Backport definitionReference</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
@@ -269,11 +332,25 @@
         <source>MII EX Studie Backport Label</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Backport linkId</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
@@ -283,11 +360,25 @@
         <source>MII EX Studie Eligibility</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Ethikvotum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
@@ -297,11 +388,25 @@
         <source>MII EX Studie Finanzierung</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Angabe der Finanzierung eines Forschungsvorhabens.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Quell Register</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
@@ -311,11 +416,25 @@
         <source>MII EX Studie Rekrutierung</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
         <source>MII EX Studie Studienregister</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-studie" resname="ImplementationGuide.definition.resource.name">

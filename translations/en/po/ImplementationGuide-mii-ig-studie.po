@@ -6,7 +6,22 @@ msgstr ""
 
 # ContactDetail.name
 #: ContactDetail.name
+msgid "Matthias Löbe"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
 msgid "Taskforce Core Data Set"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Thomas Debertshäuser"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Margaux Gatrio"
 msgstr ""
 
 # ContactDetail.name
@@ -159,9 +174,19 @@ msgstr ""
 msgid "MII EX Studie Akronym"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Angabe des Akronyms eines Forschungsvorhabens."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Backport AssociatedParty"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements ResearchStudy.associatedParty zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -169,9 +194,19 @@ msgstr ""
 msgid "MII EX Studie Backport DefinitionByCombination"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Backport DefinitionByTypeAndValue"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -179,9 +214,19 @@ msgstr ""
 msgid "MII EX Studie Backport definitionCanonical"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Backport definitionReference"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -189,9 +234,19 @@ msgstr ""
 msgid "MII EX Studie Backport Label"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Backport linkId"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -199,9 +254,19 @@ msgstr ""
 msgid "MII EX Studie Eligibility"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Ethikvotum"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -209,9 +274,19 @@ msgstr ""
 msgid "MII EX Studie Finanzierung"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Angabe der Finanzierung eines Forschungsvorhabens."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Quell Register"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name
@@ -219,9 +294,19 @@ msgstr ""
 msgid "MII EX Studie Rekrutierung"
 msgstr ""
 
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben."
+msgstr ""
+
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
 msgid "MII EX Studie Studienregister"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist."
 msgstr ""
 
 # ImplementationGuide.definition.resource.name

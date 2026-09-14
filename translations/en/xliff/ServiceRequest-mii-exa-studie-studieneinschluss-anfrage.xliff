@@ -7,14 +7,21 @@
              <notes>
                <note id="n1">Coding.display</note>
              </notes>
-        <source>Clinical trial (procedure)</source>
+        <source>test health data</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ServiceRequest-mii-exa-studie-studieneinschluss-anfrage" resname="Coding.display">
              <notes>
                <note id="n1">Coding.display</note>
              </notes>
-        <source>Referral to clinical trial (procedure)</source>
+        <source>Clinical trial</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ServiceRequest-mii-exa-studie-studieneinschluss-anfrage" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Referral to clinical trial</source>
         <target></target>
       </trans-unit>
     </body>

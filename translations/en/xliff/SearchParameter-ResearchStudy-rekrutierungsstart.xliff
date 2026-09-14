@@ -3,6 +3,20 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
   <file source-language="de" target-language="en" id="SearchParameter-ResearchStudy-rekrutierungsstart" original="Resource SearchParameter-ResearchStudy-rekrutierungsstart" datatype="KEYVALUEJSON">
     <body>
+      <trans-unit id="SearchParameter-ResearchStudy-rekrutierungsstart" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>SemVer</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="SearchParameter-ResearchStudy-rekrutierungsstart" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Package</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="SearchParameter-ResearchStudy-rekrutierungsstart" resname="SearchParameter.name">
              <notes>
                <note id="n1">SearchParameter.name</note>

@@ -3,6 +3,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
   <file source-language="de" target-language="en" id="Library-mii-exa-studie-register" original="Resource Library-mii-exa-studie-register" datatype="KEYVALUEJSON">
     <body>
+      <trans-unit id="Library-mii-exa-studie-register" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>test health data</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="Library-mii-exa-studie-register" resname="Library.name">
              <notes>
                <note id="n1">Library.name</note>

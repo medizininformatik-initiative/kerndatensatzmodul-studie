@@ -4,6 +4,12 @@
   "languages" : [{
     "targetLang" : "en",
     "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "test health data",
+      "target" : null
+    },
+    {
       "id" : "EvidenceVariable.characteristic.description",
       "context" : "EvidenceVariable.characteristic.description",
       "source" : "Höchstalter",

@@ -4,6 +4,18 @@
   "languages" : [{
     "targetLang" : "en",
     "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "SemVer",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Package",
+      "target" : null
+    },
+    {
       "id" : "SearchParameter.name",
       "context" : "SearchParameter.name",
       "source" : "SP_MII_Studie_ArmName",

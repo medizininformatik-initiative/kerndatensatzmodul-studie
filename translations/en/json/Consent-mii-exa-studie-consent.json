@@ -2,6 +2,12 @@
   "id" : "Consent-mii-exa-studie-consent",
   "baseLang" : "de",
   "languages" : [{
-    "targetLang" : "en"
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "test health data",
+      "target" : null
+    }]
   }]
 }

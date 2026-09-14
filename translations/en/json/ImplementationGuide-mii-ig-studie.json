@@ -12,7 +12,25 @@
     {
       "id" : "ContactDetail.name",
       "context" : "ContactDetail.name",
+      "source" : "Matthias Löbe",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
       "source" : "Taskforce Core Data Set",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Thomas Debertshäuser",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Margaux Gatrio",
       "target" : null
     },
     {
@@ -196,9 +214,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Angabe des Akronyms eines Forschungsvorhabens.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Backport AssociatedParty",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements ResearchStudy.associatedParty zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4.",
       "target" : null
     },
     {
@@ -208,9 +238,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements definitionByCombination für EvidenceVariable.characteristic in FHIR R4.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Backport DefinitionByTypeAndValue",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements definitionByTypeAndValue für EvidenceVariable.characteristic in FHIR R4.",
       "target" : null
     },
     {
@@ -220,9 +262,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements definitionCanonical für EvidenceVariable.characteristic in FHIR R4.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Backport definitionReference",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements definitionReference für EvidenceVariable.characteristic in FHIR R4.",
       "target" : null
     },
     {
@@ -232,9 +286,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Backport linkId",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.",
       "target" : null
     },
     {
@@ -244,9 +310,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Ethikvotum",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.",
       "target" : null
     },
     {
@@ -256,9 +334,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Angabe der Finanzierung eines Forschungsvorhabens.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Quell Register",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.",
       "target" : null
     },
     {
@@ -268,9 +358,21 @@
       "target" : null
     },
     {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben.",
+      "target" : null
+    },
+    {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Studienregister",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extension zur Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.",
       "target" : null
     },
     {

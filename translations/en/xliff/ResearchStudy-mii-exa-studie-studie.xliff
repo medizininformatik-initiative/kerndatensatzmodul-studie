@@ -3,6 +3,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
   <file source-language="de" target-language="en" id="ResearchStudy-mii-exa-studie-studie" original="Resource ResearchStudy-mii-exa-studie-studie" datatype="KEYVALUEJSON">
     <body>
+      <trans-unit id="ResearchStudy-mii-exa-studie-studie" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>test health data</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ResearchStudy-mii-exa-studie-studie" resname="CodeableConcept.text">
              <notes>
                <note id="n1">CodeableConcept.text</note>
