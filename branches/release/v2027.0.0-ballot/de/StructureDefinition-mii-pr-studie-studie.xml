@@ -11,7 +11,7 @@
         <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
       </extension>
       <extension url="version">
-        <valueString value="2027.0.0-ballot.rc1"/>
+        <valueString value="2027.0.0-ballot"/>
       </extension>
       <extension url="uri">
         <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
@@ -166,7 +166,7 @@
     </valueContactDetail>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot"/>
   <name value="MII_PR_Studie_Studie"/>
   <title value="MII PR Studie Studie"/>
   <status value="active"/>

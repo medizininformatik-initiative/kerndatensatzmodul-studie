@@ -574,7 +574,7 @@
       "language" : "de",
       "text" : {
         "status" : "extensions",
-        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-a539cab7-7f8f-4d3d-8395-0464780b1841.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
+        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-2f5afb64-da96-423e-9546-5114c5c8149e.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",

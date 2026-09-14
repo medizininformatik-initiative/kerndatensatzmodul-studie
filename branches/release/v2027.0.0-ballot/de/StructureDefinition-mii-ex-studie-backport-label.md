@@ -1,4 +1,4 @@
-# MII EX Studie Backport Label - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII EX Studie Backport Label - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_Label |
 
 R5-Backport des Elements ResearchStudy.label zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4.
@@ -89,7 +89,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -240,7 +240,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
     "valueCode" : "brr"
   }],
   "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Studie_Backport_Label",
   "title" : "MII EX Studie Backport Label",
   "status" : "active",

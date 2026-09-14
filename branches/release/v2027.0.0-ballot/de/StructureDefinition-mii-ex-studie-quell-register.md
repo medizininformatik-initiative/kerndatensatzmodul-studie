@@ -1,4 +1,4 @@
-# MII EX Studie Quell Register - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII EX Studie Quell Register - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:MII_EX_Studie_Quell_Register |
 
 Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.
@@ -80,7 +80,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -227,7 +227,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-quell-register",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Studie_Quell_Register",
   "title" : "MII EX Studie Quell Register",
   "status" : "active",

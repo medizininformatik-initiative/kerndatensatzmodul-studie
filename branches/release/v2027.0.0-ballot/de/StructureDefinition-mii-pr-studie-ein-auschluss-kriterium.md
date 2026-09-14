@@ -1,4 +1,4 @@
-# MII PR Studie EinAuschlussKriterium - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII PR Studie EinAuschlussKriterium - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:MII_PR_Studie_EinAuschlussKriterium |
 
  
@@ -171,7 +171,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -318,7 +318,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-studi
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Studie_EinAuschlussKriterium",
   "title" : "MII PR Studie EinAuschlussKriterium",
   "_title" : {

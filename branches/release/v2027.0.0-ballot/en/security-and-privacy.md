@@ -1,4 +1,4 @@
-# Security and Privacy - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Security and Privacy - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Security and Privacy**

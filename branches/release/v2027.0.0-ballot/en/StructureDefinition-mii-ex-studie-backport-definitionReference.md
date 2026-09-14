@@ -1,4 +1,4 @@
-# MII EX Studie Backport definitionReference - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII EX Studie Backport definitionReference - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference | *Version*:2027.0.0-ballot |
 | Active as of 2026-01-09 | *Computable Name*:MII_EX_Studie_Backport_definitionReference |
 
 R5 backport of the definitionReference element for EvidenceVariable.characteristic in FHIR R4.
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
     "valueCode" : "brr"
   }],
   "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Studie_Backport_definitionReference",
   "title" : "MII EX Studie Backport definitionReference",
   "status" : "active",

@@ -1,4 +1,4 @@
-# Associated Party Role Code System - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Associated Party Role Code System - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:http://example.org/fhir/CodeSystem/associated-party-role | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:http://example.org/fhir/CodeSystem/associated-party-role | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:AssociatedPartyRoleCS |
 
  
@@ -42,7 +42,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -185,7 +185,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
     }
   }],
   "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "AssociatedPartyRoleCS",
   "title" : "Associated Party Role Code System",
   "status" : "active",

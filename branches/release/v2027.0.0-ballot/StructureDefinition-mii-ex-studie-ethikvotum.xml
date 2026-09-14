@@ -11,7 +11,7 @@
         <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
       </extension>
       <extension url="version">
-        <valueString value="2027.0.0-ballot.rc1"/>
+        <valueString value="2027.0.0-ballot"/>
       </extension>
       <extension url="uri">
         <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
@@ -178,7 +178,7 @@
     </valueContactDetail>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot"/>
   <name value="MII_EX_Studie_Ethikvotum"/>
   <title value="MII EX Studie Ethikvotum"/>
   <status value="active"/>

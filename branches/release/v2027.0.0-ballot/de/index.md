@@ -1,4 +1,4 @@
-# Startseite - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Startseite - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Startseite**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-01-09 | *Maschinenlesbarer Name*:MII_IG_Medizinisches_Forschungsvorhaben |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-14 | *Maschinenlesbarer Name*:MII_IG_Medizinisches_Forschungsvorhaben |
 
 ### Einleitung
 
@@ -17,7 +17,7 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 | | |
 | :--- | :--- |
 | Datum | 2026-14-09 |
-| Version | 2027.0.0-ballot.rc1 (CalVer`JJJJ.n.n`, Ballot-RC) |
+| Version | 2027.0.0-ballot (CalVer`JJJJ.n.n`, Ballot-RC) |
 | Status | active |
 | Realm | DE |
 

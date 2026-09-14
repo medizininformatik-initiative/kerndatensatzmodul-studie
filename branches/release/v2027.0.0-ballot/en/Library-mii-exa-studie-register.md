@@ -1,4 +1,4 @@
-# mii-exa-studie-register - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# mii-exa-studie-register - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register | *Version*:2027.0.0-ballot |
 | Active as of 2026-09-14 | *Computable Name*:DRKS - Deutsches Register Klinischer Studien |
 | *Other Identifiers:*https://example.com/fhir/sid/drks#DRKS | |
 
@@ -18,7 +18,7 @@
 
 -------
 
-**Exception parsing generated Narrative (see /tmp/liquid-8033ec19-da24-4c1b-b835-fecafcd800af.html): unexpected non-end of element null::a at line 130 column 50**
+**Exception parsing generated Narrative (see /tmp/liquid-e452374d-bac9-4648-9437-19f324f551f7.html): unexpected non-end of element null::a at line 130 column 50**
 
 
 
@@ -41,7 +41,7 @@
     "system" : "https://example.com/fhir/sid/drks",
     "value" : "DRKS"
   }],
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "DRKS - Deutsches Register Klinischer Studien",
   "status" : "active",
   "type" : {
@@ -50,7 +50,7 @@
       "code" : "asset-collection"
     }]
   },
-  "date" : "2026-09-14T13:59:17+00:00",
+  "date" : "2026-09-14T14:40:23+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

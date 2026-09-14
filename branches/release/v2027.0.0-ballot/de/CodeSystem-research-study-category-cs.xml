@@ -11,7 +11,7 @@
         <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
       </extension>
       <extension url="version">
-        <valueString value="2027.0.0-ballot.rc1"/>
+        <valueString value="2027.0.0-ballot"/>
       </extension>
       <extension url="uri">
         <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
@@ -140,7 +140,7 @@
     </valueContactDetail>
   </extension>
   <url value="http://example.org/fhir/CodeSystem/research-study-category"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot"/>
   <name value="ResearchStudyCategoryCS"/>
   <title value="Research Study Category Code System"/>
   <status value="active"/>

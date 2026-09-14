@@ -1,4 +1,4 @@
-# ValueSets - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# ValueSets - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **ValueSets**

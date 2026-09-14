@@ -11,7 +11,7 @@
         <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
       </extension>
       <extension url="version">
-        <valueString value="2027.0.0-ballot.rc1"/>
+        <valueString value="2027.0.0-ballot"/>
       </extension>
       <extension url="uri">
         <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
@@ -42,7 +42,7 @@
     </valueCodeableConcept>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot"/>
   <name value="SP_MII_Studie_CharacteristicDescription"/>
   <status value="active"/>
   <experimental value="false"/>
