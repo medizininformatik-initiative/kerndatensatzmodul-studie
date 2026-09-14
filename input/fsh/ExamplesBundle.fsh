@@ -1,14 +1,9 @@
-Alias: $v3-ActReason = http://terminology.hl7.org/CodeSystem/v3-ActReason
-
+// TestDataLabel (HTEST security label) now lives in input/fsh/rulesets/test-data-label.fsh
 RuleSet: AddBundleEntry(resource, url)
 * entry[+].fullUrl = "https://www.medizininformatik-initiative.de/{url}/{resource}"
 * entry[=].resource = {resource}
 * entry[=].request.method = #POST
 * entry[=].request.url = "{url}"
-
-RuleSet: TestDataLabel
-* meta
-  * security[+] = $v3-ActReason#HTEST "test health data"
 
 
 // =============================================================================

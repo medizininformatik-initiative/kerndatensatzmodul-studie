@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Register
 Title: "MII PR Studie Register"
 Parent: Library
@@ -9,6 +10,20 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 * insert Translation(^description, en, This profile describes a research registry within the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
+* insert CRMIArtifactContributors
+* ^experimental = false
+* ^date = "2026-01-09"
 * type = http://terminology.hl7.org/CodeSystem/library-type#asset-collection
 * type MS
 * type ^short = "Type"
@@ -47,8 +62,25 @@ Description: "Dieses Profil beschreibt ein Forschungsregister in der Medizininfo
 Extension: MII_EX_Studie_Quell_Register
 Id: mii-ex-studie-quell-register
 Title: "MII EX Studie Quell Register"
+Description: "Extension zur Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt."
+* insert Translation(^description, de, Extension zur Kennzeichnung\, ob es sich bei einem Forschungsregister um ein Quellregister handelt.)
+* insert Translation(^description, en, Extension indicating whether a research registry is a source registry.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
+* insert CRMIArtifactContributors
+* ^experimental = false
+* ^date = "2026-01-09"
 * value[x] only boolean
 
 
@@ -57,11 +89,15 @@ Instance: Library-quellregister
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-quellregister"
-* version = "1.0.0-ballot"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_Quellregister"
 * status = #active
 * description = "Suchparameter für Library.extension:QuellRegister"
 * experimental = false
+* date = "2026-08-31"
 * code = #quellregister
 * base = #Library
 * type = #token
@@ -71,11 +107,15 @@ Instance: Library-relatedArtifactUrl
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/Library-relatedArtifactUrl"
-* version = "1.0.0-ballot"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
 * name = "SP_MII_Studie_RelatedArtifactUrl"
 * status = #active
 * description = "Suchparameter für Library.relatedArtifact.document.url"
 * experimental = false
+* date = "2026-08-31"
 * code = #relatedArtifactUrl
 * base = #Library
 * type = #uri

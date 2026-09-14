@@ -1,0 +1,71 @@
+
+# Coding.display
+#: Coding.display
+msgid "SemVer"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Package"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Matthias Löbe"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Taskforce Core Data Set"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Thomas Debertshäuser"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Margaux Gatrio"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Interoperability Working Group"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "National Steering Committee"
+msgstr ""
+
+# CapabilityStatement.name
+#: CapabilityStatement.name
+msgid "MII CPS Metadata Studie"
+msgstr ""
+
+# CapabilityStatement.title
+#: CapabilityStatement.title
+msgid "MII CPS Metadata Studie"
+msgstr ""
+
+# CapabilityStatement.publisher
+#: CapabilityStatement.publisher
+msgid "NUM-DIZ"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "NUM-DIZ"
+msgstr ""
+
+# CapabilityStatement.description
+#: CapabilityStatement.description
+msgid "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Studie der Medizininformatik Initiative zu implementieren."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+

@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Proband
 Parent: ResearchSubject
 Id: mii-pr-studie-proband
@@ -10,6 +11,20 @@ Description: "Dieses Profil beschreibt eine Proband*in in der Medizininformatik-
 * insert Translation(^description, en, This profile describes a study subject within the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
+* insert CRMIArtifactContributors
+* ^experimental = false
+* ^date = "2026-01-09"
 * id MS
 * meta MS
 //* meta.source MS

@@ -1,0 +1,25 @@
+{
+  "id" : "ServiceRequest-mii-exa-studie-studieneinschluss-anfrage",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "test health data",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Clinical trial",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Referral to clinical trial",
+      "target" : null
+    }]
+  }]
+}

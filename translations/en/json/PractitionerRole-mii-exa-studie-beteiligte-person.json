@@ -1,0 +1,13 @@
+{
+  "id" : "PractitionerRole-mii-exa-studie-beteiligte-person",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "test health data",
+      "target" : null
+    }]
+  }]
+}

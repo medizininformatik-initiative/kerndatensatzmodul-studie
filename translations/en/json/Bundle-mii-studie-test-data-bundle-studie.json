@@ -1,0 +1,235 @@
+{
+  "id" : "Bundle-mii-studie-test-data-bundle-studie",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "test health data",
+      "target" : null
+    },
+    {
+      "id" : "Attachment.title",
+      "context" : "Attachment.title",
+      "source" : "Beispiel Dokument",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Altersbeschränkung",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Altersbeschränkung",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Geschlecht",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Alle",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Kognitive Fatigue (WeiMUS kognitive Skala >= 17)",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Positiver SARS-CoV-2(COVID-19)-Befund; mind. 3 Monate alt",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Weitere Einschlusskriterien",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "diagnostizierte Depressionen, Angststörungen, andere psychiatrische Erkrankungen",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Einnahme von Antidepressiva, Opioiden, Antikonvulsiva",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "weitere neurologische Erkrankungen",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Current chronological age",
+      "target" : null
+    },
+    {
+      "id" : "Quantity.unit",
+      "context" : "Quantity.unit",
+      "source" : "year",
+      "target" : null
+    },
+    {
+      "id" : "EvidenceVariable.characteristic.description",
+      "context" : "EvidenceVariable.characteristic.description",
+      "source" : "Alter mindestens 18 Jahre",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Mindestalter",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Öffentlicher Titel",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.title",
+      "context" : "ResearchStudy.title",
+      "source" : "Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Zufallszuteilung",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.description",
+      "context" : "ResearchStudy.description",
+      "source" : "Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation des linken dorsolateralen präfrontalen Kortex (dlPFC ) auf subjektive und objektive Kennwerte und assoziierte EEG-Parameter der Fatigue bei Long-COVID Patient*innen. Die Studie ist sham-kontrolliert und doppelt-verblindet.",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.arm.name",
+      "context" : "ResearchStudy.arm.name",
+      "source" : "frontale anodale tDCS  (verum condition)",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.arm.description",
+      "context" : "ResearchStudy.arm.description",
+      "source" : "vier Stimulationen, jeweils 30 Minuten, 1.5mA über dem linken dlPFC",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.arm.name",
+      "context" : "ResearchStudy.arm.name",
+      "source" : "frontale sham tDCS",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.arm.description",
+      "context" : "ResearchStudy.arm.description",
+      "source" : "vier Stimulationen, jeweils 30 Minuten",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.title",
+      "context" : "ResearchStudy.title",
+      "source" : "LIFE-Adult-Study",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Erwachsene der Stadt Leipzig",
+      "target" : null
+    },
+    {
+      "id" : "CodeableConcept.text",
+      "context" : "CodeableConcept.text",
+      "source" : "Bevölkerung, Leipzig, Erwachsene",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.description",
+      "context" : "ResearchStudy.description",
+      "source" : "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.arm.name",
+      "context" : "ResearchStudy.arm.name",
+      "source" : "LIFE-Adult-Kohorte",
+      "target" : null
+    },
+    {
+      "id" : "Library.name",
+      "context" : "Library.name",
+      "source" : "DRKS - Deutsches Register Klinischer Studien",
+      "target" : null
+    },
+    {
+      "id" : "Organization.name",
+      "context" : "Organization.name",
+      "source" : "Example Organization for Author",
+      "target" : null
+    },
+    {
+      "id" : "Organization.name",
+      "context" : "Organization.name",
+      "source" : "Example Organization for Custodian",
+      "target" : null
+    },
+    {
+      "id" : "Organization.name",
+      "context" : "Organization.name",
+      "source" : "Example Organization for Practitioner",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "Mustermann",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "Max",
+      "target" : null
+    },
+    {
+      "id" : "ResearchStudy.title",
+      "context" : "ResearchStudy.title",
+      "source" : "Example Reference Study",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "Doe",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "Jane",
+      "target" : null
+    }]
+  }]
+}

@@ -1,0 +1,4 @@
+2026-08-31T18:09:01Z  INFO   5.5  gen-page-title-po  params  ig=fsh-generated/resources/ImplementationGuide-mii-ig-studie.json seed=migration-log/menu-titles-de.txt lang=en out=input/translations/en/ImplementationGuide-mii-ig-studie.po
+2026-08-31T18:09:01Z  INFO   5.5  gen-page-title-po  seed  path=migration-log/menu-titles-de.txt  lines=19 entries=19 matched=19 applied=0 unused=0
+2026-08-31T18:09:01Z  INFO   5.5  gen-page-title-po  written  out=input/translations/en/ImplementationGuide-mii-ig-studie.po pages=20 units=20 translated=20 untranslated=0 carried_over=20 preserved_foreign=0 header_preserved=False
+2026-08-31T18:09:01Z  INFO   5.5  gen-page-title-po  result  exit=0  every page title translated

@@ -1,3 +1,4 @@
+
 Logical: MII_LM_Studie_LogicalModel
 Title: "MII LM Studie LogicalModel"
 Parent: Element
@@ -5,6 +6,20 @@ Id: mii-lm-studie-logicalmodel
 Description: "Logische Repräsentation der Forschungsvorhaben"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageLogicalModel
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
+* insert CRMIArtifactContributors
+* ^experimental = false
+* ^date = "2026-01-09"
 * BusinessID 0..* BackboneElement "BusinessID eines Forschungsvorhabens" "BusinessID eines Forschungsvorhabens"
   * identifier 0..* Identifier "Identifier einer BusinessID" "Identifier einer BusinessID"
   * System 0..* string "System einer BusinessID" "System einer BusinessID"
@@ -97,7 +112,7 @@ Description: "Logische Repräsentation der Forschungsvorhaben"
   * Rekrutierungsstart 0..* date "Rekrutierungsstart einer Studie" "Rekrutierungsstart einer Studie"
   * Studienarm 0..* BackboneElement "Studienarm einer Studie" "Studienarm einer Studie"
     * Name 0..* string "Name des Studienarms" "Name des Studienarms"
-    * Studienarm 0..* contentReference Studienarm "Arm des Studienarms" "Arm des Studienarms"
+    * Studienarm 0..* contentReference https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel#mii-lm-studie-logicalmodel.Studiendesign.Studienarm "Arm des Studienarms" "Arm des Studienarms"
     * Einschlusskriterien 0..* string "Einschlusskriterien des Studienarms" "Einschlusskriterien des Studienarms"
     * Ausschlusskriterien 0..* string "Ausschlusskriterien des Studienarms" "Ausschlusskriterien des Studienarms"
   * Einschlusskriterien 0..* BackboneElement "Einschlusskriterien einer Studie" "Einschlusskriterien einer Studie"

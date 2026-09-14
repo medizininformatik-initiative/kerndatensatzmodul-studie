@@ -1,0 +1,26 @@
+2026-08-31T17:32:38Z	canonical	C	sushi-config.yaml	https://www.medizininformatik-initiative.de/fhir/modul-studie	2.1	read-identity
+2026-08-31T17:32:38Z	id	C	sushi-config.yaml	mii-ig-studie	2.1	read-identity
+2026-08-31T17:32:38Z	name	C	sushi-config.yaml	MII_IG_Medizinisches_Forschungsvorhaben	2.1	read-identity
+2026-08-31T17:32:38Z	status	C	sushi-config.yaml	active	2.1	read-identity
+2026-08-31T17:32:38Z	version	C	sushi-config.yaml	2026.0.1	2.1	read-identity
+2026-08-31T17:32:38Z	fhirVersion	C	sushi-config.yaml	4.0.1	2.1	read-identity
+2026-08-31T17:32:38Z	packageId	C	sushi-config.yaml	de.medizininformatikinitiative.kerndatensatz.studie	2.1	read-identity
+2026-08-31T17:32:38Z	copyrightYear	C	sushi-config.yaml	2024+	2.1	read-identity
+2026-08-31T17:32:38Z	releaseLabel	C	sushi-config.yaml	ci-build	2.1	read-identity
+2026-08-31T17:32:38Z	publisher	C	sushi-config.yaml	Medizininformatik Initiative	2.1	read-identity
+2026-08-31T17:32:38Z	dependency:hl7.fhir.extensions.r5	C	sushi-config.yaml	4.0.1	2.1	read-identity
+2026-08-31T17:32:38Z	dependency:de.medizininformatikinitiative.kerndatensatz.meta	C	sushi-config.yaml	2026.0.0	2.1	read-identity
+2026-08-31T17:32:38Z	version	J	package.json	2026.0.1	2.1	read-identity
+2026-08-31T17:32:38Z	packageId	J	package.json	de.medizininformatikinitiative.kerndatensatz.studie	2.1	read-identity
+2026-08-31T17:32:38Z	description	J	package.json	Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben	2.1	read-identity
+2026-08-31T17:32:38Z	dependency:de.medizininformatikinitiative.kerndatensatz.meta	J	package.json	2026.0.0	2.1	read-identity
+2026-08-31T17:32:38Z	version	H	ImplementationGuide-2027.x.x-DE+EN/guide.yaml (2027 Ballot guide metadata)	2027.0.0	2.1	read-identity
+2026-08-31T17:32:38Z	title	H	guide.yaml titles (DE/EN v2027, guide-level not IG-level)	Medizininformatik Initiative - ImplementationGuide - Medizinisches Forschungsvorhaben	2.1	read-identity
+2026-08-31T17:32:38Z	license	R	guide Index.page.md (c) 2019+ TMF e.V. 'CC BY 4.0' (all 3 trees, DE+EN prose; live EN ballot guide footer 2026-08-31)	CC-BY-4.0	2.1	read-identity
+2026-08-31T17:32:39Z	packageId	P	package/package.json	de.medizininformatikinitiative.kerndatensatz.studie	2.1	package-identity
+2026-08-31T17:32:39Z	version	P	package/package.json	2026.0.2	2.1	package-identity
+2026-08-31T17:32:39Z	description	P	package/package.json	Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben	2.1	package-identity
+2026-08-31T17:32:39Z	fhirVersions	P	package/package.json	["4.0.1"]	2.1	package-identity
+2026-08-31T17:32:39Z	jurisdiction	P	package/package.json	urn:iso:std:iso:3166#DE	2.1	package-identity
+2026-08-31T17:32:39Z	dependency:de.medizininformatikinitiative.kerndatensatz.meta	P	package/package.json (source pin)	2026.0.0	2.1	package-identity
+2026-08-31T17:32:39Z	dependency:hl7.fhir.r4.core	P	package/package.json (source pin)	4.0.1	2.1	package-identity

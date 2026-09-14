@@ -1,15 +1,22 @@
-{ 
-  "_comment": "application/pdf' is not validated correctly by the terminology server",
-  "suppress" : [
+{
+  "_comment": "UNION of the template scaffold advisor (mii-kds-module-template v0.13.2) and the source module advisor (contentType/terminology false positives; 'application/pdf is not validated correctly by the terminology server')",
+  "suppress": [
     "Terminology_TX_NoValid_16@ImplementationGuide.definition.parameter.code",
-    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.definition.parameter.code",
+    "MSG_DRAFT",
+    "TERMINOLOGY_TX_WARNING@StructureDefinition.*",
+    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
     "UNABLE_TO_INFER_CODESYSTEM@StructureDefinition.*",
     "Terminology_TX_NoValid_16@StructureDefinition.*",
+    "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.definition.parameter.code",
     "UNABLE_TO_INFER_CODESYSTEM@DocumentReference.content.attachment.contentType",
     "Terminology_TX_NoValid_16@DocumentReference.content.attachment.contentType",
     "UNABLE_TO_INFER_CODESYSTEM@Bundle.entry[0].resource.content[0].attachment.contentType",
     "Terminology_TX_NoValid_16@Bundle.entry[0].resource.content[0].attachment.contentType",
     "UNABLE_TO_INFER_CODESYSTEM@Bundle.*",
-    "Terminology_TX_NoValid_16@Bundle.*"
-  ]
+    "Terminology_TX_NoValid_16@Bundle.*",
+    "Terminology_TX_System_Unknown@ImplementationGuide.*",
+    "Type_Specific_Checks_DT_URL_Resolve@ImplementationGuide.*",
+    "IG_DEPENDENCY_CLASH_CANONICAL@ImplementationGuide.*"
+  ],
+  "_comment2": "IG-resource-scoped suppressions for the TEMPLATE-machinery additions (artifact-versionAlgorithm coding system http://hl7.org/fhir/version-algorithm = R5 CodeSystem the tx server does not carry; crmi dependsOn canonical-vs-registry-tgz clash) \u2014 same class as the Dokument migration's IG_DEPENDENCY_CLASH_CANONICAL@ImplementationGuide.dependsOn[9] entry; .* form because the advisor matcher is regex-fullmatch-style"
 }

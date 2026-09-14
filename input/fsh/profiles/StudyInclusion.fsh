@@ -1,3 +1,4 @@
+
 Profile: MII_PR_Studie_Studieneinschluss_Anfrage
 Parent: ServiceRequest
 Id: mii-pr-studie-studieneinschluss-anfrage
@@ -5,6 +6,20 @@ Title: "MII PR Studie Studieneinschluss Anfrage"
 Description: "Anfrage zum Studieneinschluss"
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageProfile
+* insert CRMIApprovalDate(2026-01-09)
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
+* insert CRMIArtifactContributors
+* ^experimental = false
+* ^date = "2026-01-09"
 
 * subject 1..1 MS
 * subject only Reference(Patient)
@@ -32,7 +47,7 @@ Description: "Anfrage zum Studieneinschluss"
 * category ^definition = "Ein Code, der den Dienst für Such-, Sortier- und Anzeigezwecke klassifiziert."
 * insert Translation(category ^definition, de, Ein Code\, der den Dienst für Such-\, Sortier- und Anzeigezwecke klassifiziert.)
 * insert Translation(category ^definition, en, A code that classifies the service for searching\, sorting and display purposes.)
-* category = $SCT#110465008 "Clinical trial (procedure)"
+* category = $SCT#110465008 "Clinical trial"
 
 * code 1..1 MS
 * code ^short = "Was angefordert/bestellt wird."
@@ -41,7 +56,7 @@ Description: "Anfrage zum Studieneinschluss"
 * code ^definition = "Ein Code, der einen bestimmten angeforderten Dienst identifiziert."
 * insert Translation(code ^definition, de, Ein Code\, der einen bestimmten angeforderten Dienst identifiziert.)
 * insert Translation(code ^definition, en, A code that identifies a particular service that have been requested.)
-* code = $SCT#702475000 "Referral to clinical trial (procedure)"
+* code = $SCT#702475000 "Referral to clinical trial"
 
 * reasonReference 0..*
 * reasonReference ^short = "Erklärung/Begründung für Dienst oder Leistung."
@@ -68,3 +83,21 @@ Description: "Anfrage zum Studieneinschluss"
 
 * supportingInfo[Studie] only Reference(MII_PR_Studie_Studie or ResearchStudy)
 * supportingInfo[Proband] only Reference(MII_PR_Studie_Proband or ResearchSubject)
+
+Instance: ServiceRequest-supporting-info
+InstanceOf: SearchParameter
+Usage: #definition
+* url = "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ServiceRequest-supporting-info"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SP_Profile
+* name = "SP_MII_Studie_SupportingInfo"
+* status = #active
+* description = "Suchparameter für ServiceRequest.supportingInfo"
+* experimental = false
+* date = "2026-08-31"
+* code = #supporting-info
+* base = #ServiceRequest
+* type = #reference
+* expression = "ServiceRequest.supportingInfo"
