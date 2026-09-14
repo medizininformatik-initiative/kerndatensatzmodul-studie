@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Library xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-register"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"/>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-e11c30be-ce59-4ada-8a6d-b3957521fd73.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register"/>
+  <identifier>
+    <system value="https://example.com/fhir/sid/drks"/>
+    <value value="DRKS"/>
+  </identifier>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="DRKS - Deutsches Register Klinischer Studien"/>
+  <status value="active"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/library-type"/>
+      <code value="asset-collection"/>
+    </coding>
+  </type>
+  <date value="2026-09-14T12:51:56+00:00"/>
+  <publisher value="NUM-DIZ"/>
+  <contact>
+    <name value="NUM-DIZ"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.netzwerk-universitaetsmedizin.de"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <relatedArtifact>
+    <type value="documentation"/>
+    <url value="https://drks.de/"/>
+    <document>
+      <url value="https://drks.de/"/>
+    </document>
+  </relatedArtifact>
+</Library>
