@@ -303,6 +303,14 @@ jobs:
             source/sushi-config.yaml)"
           publication_date="${REQUESTED_DATE}"
           if [[ -z "${publication_date}" ]]; then
+            # Prefer the date sushi-config.yaml declares — the input doc says
+            # the publication date must match it, and the tagged commit date
+            # can lag behind it (proms idiom). Git date stays the last resort.
+            publication_date="$(sed -nE \
+              's/^date:[[:space:]]*"?([0-9]{4}-[0-9]{2}-[0-9]{2})"?([[:space:]]*#.*)?$/\1/p' \
+              source/sushi-config.yaml)"
+          fi
+          if [[ -z "${publication_date}" ]]; then
             publication_date="$(git -C source show -s --format=%cs HEAD)"
           fi
           ig_date="$(sed -nE \
@@ -653,10 +661,44 @@ jobs:
             }' > site/publish-setup.json
           touch site/.nojekyll
 
+          # publish-setup.json declares the two RSS feeds; the Publisher's
+          # feed update step copies them from the web root and hard-fails on
+          # the first publication when they do not exist yet ("Attempt to copy
+          # site/package-feed.xml but it doesn't exist"). Seed empty channels
+          # (proms idiom — kerndatensatzmodul-proms go-publish.yml).
+          RSS_DATE="$(LC_ALL=C date -u +'%a, %d %b %Y %H:%M:%S GMT')"
+          for feed in package-feed.xml publication-feed.xml; do
+            [[ -s "site/${feed}" ]] && continue
+            title="MII KDS Modul Studie — ${feed%%-feed.xml} feed"
+            printf '%s\n' \
+              '<?xml version="1.0" encoding="UTF-8"?>' \
+              '<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">' \
+              '  <channel>' \
+              "    <title>${title}</title>" \
+              "    <link>${PUBLICATION_BASE}</link>" \
+              "    <description>${title}</description>" \
+              "    <atom:link rel=\"self\" type=\"application/rss+xml\" href=\"${PUBLICATION_BASE}/${feed}\"/>" \
+              '    <generator>MII module go-publish bootstrap</generator>' \
+              "    <lastBuildDate>${RSS_DATE}</lastBuildDate>" \
+              "    <pubDate>${RSS_DATE}</pubDate>" \
+              '  </channel>' \
+              '</rss>' > "site/${feed}"
+          done
+
+          # Publisher 2.3.x refuses -go-publish without a package-registry.json
+          # in the web root ("There is no package-registry.json file. Create one
+          # by running the publisher -generate-package-registry {folder}").
+          # Generate it with the Publisher's own command so the shape always
+          # matches the pinned Publisher version.
+          java -jar "${RUNNER_TEMP}/publisher.jar" \
+            -generate-package-registry "${GITHUB_WORKSPACE}/site"
+          test -s site/package-registry.json
+
           {
             echo "### First-publication webroot seeded"
             echo
             echo "- Generated publish-setup.json for ${PUBLICATION_BASE}"
+            echo "- Generated package-registry.json via Publisher -generate-package-registry"
           } >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Prepare publication workspace
@@ -691,6 +733,10 @@ jobs:
           TX_URL: ${{ steps.terminology.outputs.tx_url }}
         run: |
           set -euo pipefail
+          # -fhir-settings: same allowlist as the release build above — the
+          # inner -go-publish build otherwise refuses the local http proxy
+          # under publisher 2.3.1+ SSRF hardening ("Refusing to fetch from
+          # non-https URL").
           java -Xmx6g -jar "${RUNNER_TEMP}/publisher.jar" -go-publish \
             -source "${GITHUB_WORKSPACE}/source" \
             -web "${GITHUB_WORKSPACE}/site" \
@@ -701,6 +747,7 @@ jobs:
             -zips "${RUNNER_TEMP}/publication-zips" \
             -date "${PUBLICATION_DATE}" \
             -tx "${TX_URL}" \
+            -fhir-settings "${GITHUB_WORKSPACE}/source/.github/fhir-settings.json" \
             2>&1 | tee "${RUNNER_TEMP}/go-publish.log"
 
       - name: Correct and validate FHIR IG registry entry
@@ -1085,8 +1132,27 @@ jobs:
       id-token: write
 
     steps:
+      # When Pages still serves the gh-pages BRANCH directly (legacy mode),
+      # the branch commit from the publish job has already deployed the site;
+      # actions/deploy-pages would fail ("Pages not configured for Actions").
+      # Detect the mode, request a fresh legacy branch build, and only run the
+      # Actions deployment in workflow mode (proms idiom).
+      - name: Detect Pages serving mode
+        id: pagesmode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          bt="$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type)"
+          echo "build_type=${bt}" >> "${GITHUB_OUTPUT}"
+          if [[ "${bt}" == "legacy" ]]; then
+            echo "Pages serves the gh-pages branch directly; the branch push already deployed. Requesting a fresh branch build." >> "${GITHUB_STEP_SUMMARY}"
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null || true
+          fi
+
       - name: Deploy exact Pages artifact
         id: deployment
+        if: steps.pagesmode.outputs.build_type == 'workflow'
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
 
       - name: Verify Pages publication
@@ -1094,7 +1160,7 @@ jobs:
         env:
           CANONICAL: ${{ needs.prepare.outputs.canonical }}
           LABEL: ${{ needs.prepare.outputs.label }}
-          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+          PAGES_URL: ${{ steps.deployment.outputs.page_url || format('{0}/', env.EXPECTED_PUBLICATION_BASE) }}
           VERSION: ${{ needs.prepare.outputs.version }}
         run: |
           set -euo pipefail
@@ -1105,7 +1171,7 @@ jobs:
             echo "::error::Pages deployed at ${pages_base}, expected ${publication_base}."
             exit 1
           fi
-          for attempt in {1..18}; do
+          for attempt in {1..60}; do  # legacy branch builds need a generous window
             if package_list="$(curl --fail --location --silent --show-error \
               --max-time 30 "${publication_base}/package-list.json")" &&
               jq -e \
