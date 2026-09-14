@@ -3,7 +3,7 @@ MII_IG_Medizinisches_Forschungsvorhaben : Validation Results
 
 err = 0, warn = 729, info = 1827
 IG Publisher Version: 2.3.2 Out of date - current version is 2.3.4
-Generated Mon Sep 14 16:00:05 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
+Generated Mon Sep 14 16:27:44 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
  Build Errors : 0 / 16 / 0
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 16 / 64
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie : 0 / 4 / 91
