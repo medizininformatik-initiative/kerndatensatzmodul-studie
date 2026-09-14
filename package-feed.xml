@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+  <channel>
+    <title>MII KDS Modul Studie — package feed</title>
+    <link>https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie</link>
+    <description>MII KDS Modul Studie — package feed</description>
+    <atom:link href="https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <generator>MII module go-publish bootstrap</generator>
+    <lastBuildDate>Mon, 14 Sep 2026 04:59:20 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Sep 2026 04:59:20 +0000</pubDate>
+  
+    <item>
+      <title>de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot</title>
+      <description>IG Publisher edition of the MII Core Dataset module Medizinisches Forschungsvorhaben (migrated from Simplifier)</description>
+      <link>https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/2027.0.0-ballot/package.tgz</link>
+      <guid isPermaLink="true">https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/2027.0.0-ballot/package.tgz</guid>
+      <dc:creator>Medical Informatics Initiative (MII)</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 14 Sep 2026 04:59:20 +0000</pubDate>
+      <fhir:details>Publication run at 14/09/2026 by runner using Version 2.3.2 (Git# 04466d0486ed). Built 2026-08-13T02:20:51.957Z (32 days old) source id Unknown (todo)</fhir:details>
+    </item></channel>
+</rss>

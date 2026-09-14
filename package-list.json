@@ -1,0 +1,24 @@
+{
+  "list" : [{
+    "version" : "current",
+    "path" : "https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/branches/master/",
+    "status" : "ci-build",
+    "sequence" : "ci-build",
+    "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
+  },
+  {
+    "version" : "2027.0.0-ballot",
+    "path" : "https://medizininformatik-initiative.github.io/kerndatensatzmodul-studie/2027.0.0-ballot",
+    "status" : "release",
+    "sequence" : "2027",
+    "fhirversion" : "4.0.1",
+    "date" : "2026-09-14",
+    "current" : true,
+    "desc" : "IG Publisher edition of the MII Core Dataset module Medizinisches Forschungsvorhaben (migrated from Simplifier)"
+  }],
+  "package-id" : "de.medizininformatikinitiative.kerndatensatz.studie",
+  "canonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie",
+  "title" : "MII Implementation Guide Medizinisches Forschungsvorhaben",
+  "category" : "Research",
+  "introduction" : "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben"
+}
