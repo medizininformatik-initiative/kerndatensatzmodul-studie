@@ -2486,6 +2486,22 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
       "name" : "ResearchStudy-studienregister",
       "description" : "Suchparameter für ResearchStudy.extension:Studienregister",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "SearchParameter-ServiceRequest-supporting-info.html"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/ServiceRequest-supporting-info"
+      },
+      "name" : "ServiceRequest-supporting-info",
+      "description" : "Suchparameter für ServiceRequest.supportingInfo",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

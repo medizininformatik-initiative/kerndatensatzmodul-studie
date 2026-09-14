@@ -1750,6 +1750,17 @@
       <description value="Suchparameter für ResearchStudy.extension:Studienregister"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/ServiceRequest-supporting-info"/>
+      </reference>
+      <name value="ServiceRequest-supporting-info"/>
+      <description value="Suchparameter für ServiceRequest.supportingInfo"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>

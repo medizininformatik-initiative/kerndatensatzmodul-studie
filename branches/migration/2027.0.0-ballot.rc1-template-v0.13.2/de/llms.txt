@@ -94,6 +94,7 @@
 * [SP_MII_Studie_Rekrutierungsstart](SearchParameter-ResearchStudy-rekrutierungsstart.md)
 * [SP_MII_Studie_Rekrutierungsziel](SearchParameter-ResearchStudy-rekrutierungsziel.md)
 * [SP_MII_Studie_Studienregister](SearchParameter-ResearchStudy-studienregister.md)
+* [SP_MII_Studie_SupportingInfo](SearchParameter-ServiceRequest-supporting-info.md)
 
 ### Examples
 

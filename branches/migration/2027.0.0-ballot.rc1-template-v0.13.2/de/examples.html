@@ -302,6 +302,61 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p class="bg-warning"><strong>Nur synthetische Daten</strong> — niemals echte oder realistisch wirkende
 Patientendaten in Beispielen verwenden.</p>
 
+<h3 id="übersicht-der-beispiele">Übersicht der Beispiele</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Beispiel</th>
+      <th>Profil</th>
+      <th>Inhalt</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="ResearchStudy-mii-exa-studie-cohort.html">mii-exa-studie-cohort</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-studie.html">MII PR Studie Studie</a></td>
+      <td>Studie „LIFE-Adult-Study" mit Ethikvotum, Rekrutierung, Finanzierung, Studienregister und Ein-/Ausschlusskriterien.</td>
+    </tr>
+    <tr>
+      <td><a href="DocumentReference-mii-exa-studie-dokument.html">mii-exa-studie-dokument</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-dokument.html">MII PR Studie Dokument</a></td>
+      <td>Dokument/Publikation zur Studie.</td>
+    </tr>
+    <tr>
+      <td><a href="EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.html">mii-exa-studie-ein-auschluss-kriterium</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html">MII PR Studie EinAuschlussKriterium</a></td>
+      <td>Ein- und Ausschlusskriterien der Studie (Alter, Geschlecht, Vorerkrankungen).</td>
+    </tr>
+    <tr>
+      <td><a href="Library-mii-exa-studie-register.html">mii-exa-studie-register</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-register.html">MII PR Studie Register</a></td>
+      <td>Forschungsregister „DRKS - Deutsches Register Klinischer Studien".</td>
+    </tr>
+    <tr>
+      <td><a href="PractitionerRole-mii-exa-studie-beteiligte-person.html">mii-exa-studie-beteiligte-person</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-beteiligte-person.html">MII PR Studie Beteiligte Person</a></td>
+      <td>An der Studie beteiligte Person in der Rolle „doctor".</td>
+    </tr>
+    <tr>
+      <td><a href="ResearchSubject-mii-exa-studie-proband.html">mii-exa-studie-proband</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-proband.html">MII PR Studie Proband</a></td>
+      <td>Proband*in mit Status „candidate" in der Studie.</td>
+    </tr>
+    <tr>
+      <td><a href="ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.html">mii-exa-studie-studieneinschluss-anfrage</a></td>
+      <td><a href="StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html">MII PR Studie Studieneinschluss Anfrage</a></td>
+      <td>Anfrage zum Einschluss eines Patienten in die Studie.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Die o. g. Beispiele referenzieren zusätzliche unterstützende Ressourcen (<code class="language-plaintext highlighter-rouge">Organization</code>,
+<code class="language-plaintext highlighter-rouge">Practitioner</code>, <code class="language-plaintext highlighter-rouge">Patient</code>, <code class="language-plaintext highlighter-rouge">Consent</code>, weitere <code class="language-plaintext highlighter-rouge">ResearchStudy</code>- und <code class="language-plaintext highlighter-rouge">EvidenceVariable</code>-Instanzen),
+die keine eigenen Modul-Profile sind, aber für ein vollständiges, konsistentes Beispielset benötigt
+werden. Alle Beispiele sind zusätzlich in einem Transaction-Bundle zusammengefasst:
+<a href="Bundle-mii-studie-test-data-bundle-studie.html">mii-studie-test-data-bundle-studie</a>.</p>
+
 
 
 
@@ -327,7 +382,7 @@ Patientendaten in Beispielen verwenden.</p>
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Sep 14, 2026 09:48+0000">2026-09-14</span>
+          Erstellt <span title="Mon, Sep 14, 2026 12:05+0000">2026-09-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

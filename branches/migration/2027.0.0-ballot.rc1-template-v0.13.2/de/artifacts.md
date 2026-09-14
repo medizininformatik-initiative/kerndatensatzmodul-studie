@@ -36,6 +36,7 @@ Diese definieren die Eigenschaften, nach denen ein RESTful-Server durchsucht wer
 | [ ResearchStudy-rekrutierungsstart  ](SearchParameter-ResearchStudy-rekrutierungsstart.md) | Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart |
 | [ ResearchStudy-rekrutierungsziel  ](SearchParameter-ResearchStudy-rekrutierungsziel.md) | Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel |
 | [ ResearchStudy-studienregister  ](SearchParameter-ResearchStudy-studienregister.md) | Suchparameter für ResearchStudy.extension:Studienregister |
+| [ ServiceRequest-supporting-info  ](SearchParameter-ServiceRequest-supporting-info.md) | Suchparameter für ServiceRequest.supportingInfo |
 
 ### Strukturen: Logische Modelle 
 

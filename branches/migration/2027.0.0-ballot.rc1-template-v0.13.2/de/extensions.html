@@ -295,10 +295,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
-</div>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#extensions" id="markdown-toc-extensions">Extensions</a></li>
+  <li><a href="#übersicht-der-extensions" id="markdown-toc-übersicht-der-extensions">Übersicht der Extensions</a></li>
+</ul>
 
+</div>
 <!-- markdownlint-disable MD041 -->
 <!-- Deutsche Übersetzung von input/pagecontent/extensions.md (aufgeteilt aus
      der früheren Kombi-Seite profiles-and-extensions.md). -->
@@ -309,6 +312,90 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 definiert (Namenskonvention <code class="language-plaintext highlighter-rouge">MII_EX_&lt;Modul&gt;_&lt;Name&gt;</code>). Extensions transportieren
 Informationen, die die Basis-Ressourcen und Profile nicht ausdrücken können; die
 Profile, die sie verwenden, stehen auf der Seite <a href="profiles.html">Profile</a>.</p>
+
+<h3 id="übersicht-der-extensions">Übersicht der Extensions</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Extension</th>
+      <th>Kontext</th>
+      <th>Beschreibung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-studienregister.html">MII EX Studie Studienregister</a></td>
+      <td>ResearchStudy</td>
+      <td>Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-eligibility.html">MII EX Studie Eligibility</a></td>
+      <td>ResearchStudy</td>
+      <td>Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-akronym.html">MII EX Studie Akronym</a></td>
+      <td>ResearchStudy</td>
+      <td>Angabe des Akronyms eines Forschungsvorhabens.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-rekrutierung.html">MII EX Studie Rekrutierung</a></td>
+      <td>ResearchStudy</td>
+      <td>Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-finanzierung.html">MII EX Studie Finanzierung</a></td>
+      <td>ResearchStudy</td>
+      <td>Angabe der Finanzierung eines Forschungsvorhabens.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-ethikvotum.html">MII EX Studie Ethikvotum</a></td>
+      <td>ResearchStudy</td>
+      <td>Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-associatedParty.html">MII EX Studie Backport AssociatedParty</a></td>
+      <td>ResearchStudy</td>
+      <td>R5-Backport von <code class="language-plaintext highlighter-rouge">ResearchStudy.associatedParty</code> zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-label.html">MII EX Studie Backport Label</a></td>
+      <td>ResearchStudy</td>
+      <td>R5-Backport von <code class="language-plaintext highlighter-rouge">ResearchStudy.label</code> zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-quell-register.html">MII EX Studie Quell Register</a></td>
+      <td>Library</td>
+      <td>Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-linkId.html">MII EX Studie Backport linkId</a></td>
+      <td>EvidenceVariable.characteristic</td>
+      <td>R5-Backport des Elements <code class="language-plaintext highlighter-rouge">linkId</code> für <code class="language-plaintext highlighter-rouge">EvidenceVariable.characteristic</code> in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-definitionReference.html">MII EX Studie Backport definitionReference</a></td>
+      <td>EvidenceVariable.characteristic</td>
+      <td>R5-Backport des Elements <code class="language-plaintext highlighter-rouge">definitionReference</code> für <code class="language-plaintext highlighter-rouge">EvidenceVariable.characteristic</code> in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-definitionCanonical.html">MII EX Studie Backport definitionCanonical</a></td>
+      <td>EvidenceVariable.characteristic</td>
+      <td>R5-Backport des Elements <code class="language-plaintext highlighter-rouge">definitionCanonical</code> für <code class="language-plaintext highlighter-rouge">EvidenceVariable.characteristic</code> in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-definition-by-type-and-value.html">MII EX Studie Backport DefinitionByTypeAndValue</a></td>
+      <td>EvidenceVariable.characteristic</td>
+      <td>R5-Backport des Elements <code class="language-plaintext highlighter-rouge">definitionByTypeAndValue</code> für <code class="language-plaintext highlighter-rouge">EvidenceVariable.characteristic</code> in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-definition-by-combination.html">MII EX Studie Backport DefinitionByCombination</a></td>
+      <td>EvidenceVariable.characteristic</td>
+      <td>R5-Backport des Elements <code class="language-plaintext highlighter-rouge">definitionByCombination</code> für <code class="language-plaintext highlighter-rouge">EvidenceVariable.characteristic</code> in FHIR R4.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -335,7 +422,7 @@ Profile, die sie verwenden, stehen auf der Seite <a href="profiles.html">Profile
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Sep 14, 2026 09:48+0000">2026-09-14</span>
+          Erstellt <span title="Mon, Sep 14, 2026 12:05+0000">2026-09-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

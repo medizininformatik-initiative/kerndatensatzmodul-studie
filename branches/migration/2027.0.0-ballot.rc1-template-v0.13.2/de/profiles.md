@@ -11,6 +11,20 @@ Die Arbeiten der Kerndatensatzspezifikationen basieren, wo möglich, auf interna
 
 Alle Elemente des Kerndatensatzes, angepasst an die Details und Anforderungen für die Use Cases der Medizininformatik-Initative, werden nachfolgend in Form von FHIR StructureDefinitions beschrieben. Die Notwendigkeit der Anpassung der FHIR-Profile wird in textueller Form unterhalb der jeweiligen Profile erläutert.
 
+### Übersicht der Profile
+
+Das Modul Medizinisches Forschungsvorhaben definiert die folgenden Ressourcen-Profile:
+
+| | | |
+| :--- | :--- | :--- |
+| [MII PR Studie Studie](StructureDefinition-mii-pr-studie-studie.md) | ResearchStudy | Beschreibt eine Studie in der Medizininformatik-Initiative. |
+| [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md) | PractitionerRole | Beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative. |
+| [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.md) | ResearchSubject | Beschreibt eine Proband*in in der Medizininformatik-Initiative. |
+| [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.md) | ServiceRequest | Anfrage zum Studieneinschluss. |
+| [MII PR Studie Register](StructureDefinition-mii-pr-studie-register.md) | Library | Beschreibt ein Forschungsregister in der Medizininformatik-Initiative. |
+| [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md) | EvidenceVariable | Beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative. |
+| [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md) | DocumentReference | Beschreibt ein Dokument / Publikation in der Medizininformatik-Initiative. |
+
 ### Verpflichtende / must-support Elemente
 
 | | |

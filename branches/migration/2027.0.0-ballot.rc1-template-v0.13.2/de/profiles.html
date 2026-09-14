@@ -298,6 +298,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#fhir-profile" id="markdown-toc-fhir-profile">FHIR-Profile</a></li>
+  <li><a href="#übersicht-der-profile" id="markdown-toc-übersicht-der-profile">Übersicht der Profile</a></li>
   <li><a href="#verpflichtende--must-support-elemente" id="markdown-toc-verpflichtende--must-support-elemente">Verpflichtende / must-support Elemente</a></li>
   <li><a href="#organisation-organization" id="markdown-toc-organisation-organization">Organisation (Organization)</a></li>
 </ul>
@@ -317,6 +318,57 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Die Arbeiten der Kerndatensatzspezifikationen basieren, wo möglich, auf internationalen Standards und Terminologien. Insbesondere sei hier die <a href="http://hl7.org/fhir/uv/ips/history.html">International Patient Summary</a> hervorgehoben. Eine Anpassung an die allgemeinen Gegebenheiten des deutschen Gesundheitswesens erfolgt durch die Verwendung der <a href="https://ig.fhir.de/basisprofile-de/stable/Home.html">Deutschen Basisprofile</a> von HL7 Deutschland.</p>
 
 <p>Alle Elemente des Kerndatensatzes, angepasst an die Details und Anforderungen für die Use Cases der Medizininformatik-Initative, werden nachfolgend in Form von FHIR StructureDefinitions beschrieben. Die Notwendigkeit der Anpassung der FHIR-Profile wird in textueller Form unterhalb der jeweiligen Profile erläutert.</p>
+
+<h3 id="übersicht-der-profile">Übersicht der Profile</h3>
+
+<p>Das Modul Medizinisches Forschungsvorhaben definiert die folgenden Ressourcen-Profile:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Profil</th>
+      <th>Basisressource</th>
+      <th>Beschreibung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-studie.html">MII PR Studie Studie</a></td>
+      <td>ResearchStudy</td>
+      <td>Beschreibt eine Studie in der Medizininformatik-Initiative.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-beteiligte-person.html">MII PR Studie Beteiligte Person</a></td>
+      <td>PractitionerRole</td>
+      <td>Beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-proband.html">MII PR Studie Proband</a></td>
+      <td>ResearchSubject</td>
+      <td>Beschreibt eine Proband*in in der Medizininformatik-Initiative.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html">MII PR Studie Studieneinschluss Anfrage</a></td>
+      <td>ServiceRequest</td>
+      <td>Anfrage zum Studieneinschluss.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-register.html">MII PR Studie Register</a></td>
+      <td>Library</td>
+      <td>Beschreibt ein Forschungsregister in der Medizininformatik-Initiative.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html">MII PR Studie EinAuschlussKriterium</a></td>
+      <td>EvidenceVariable</td>
+      <td>Beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-pr-studie-dokument.html">MII PR Studie Dokument</a></td>
+      <td>DocumentReference</td>
+      <td>Beschreibt ein Dokument / Publikation in der Medizininformatik-Initiative.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="verpflichtende--must-support-elemente">Verpflichtende / must-support Elemente</h3>
 
@@ -458,7 +510,7 @@ Es ist zu beachten, dass alle weiteren Vorgaben und Pflichtfelder des Kerndatens
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Sep 14, 2026 09:48+0000">2026-09-14</span>
+          Erstellt <span title="Mon, Sep 14, 2026 12:05+0000">2026-09-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

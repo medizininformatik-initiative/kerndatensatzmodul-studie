@@ -737,6 +737,14 @@
             "description": "Suchparameter für ResearchStudy.extension:label"
           },
           {
+            "name": "akronym",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Suchparameter für ResearchStudy.extension:Akronym"
+          },
+          {
             "name": "finanzierung",
             "in": "query",
             "schema": {
@@ -1173,6 +1181,181 @@
               "application/fhir+xml": {
                 "schema": {
                   "$ref": "https://hl7.org/fhir/R4/ResearchSubject.xsd"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/rid"
+          },
+          {
+            "$ref": "#/components/parameters/summary"
+          },
+          {
+            "$ref": "#/components/parameters/format"
+          },
+          {
+            "$ref": "#/components/parameters/pretty"
+          },
+          {
+            "$ref": "#/components/parameters/elements"
+          }
+        ]
+      }
+    },
+    "/ServiceRequest": {
+      "summary": "manage the collection of resources of type ServiceRequest",
+      "description": "Access to services to manage the collection of all resources of type ServiceRequest",
+      "get": {
+        "summary": "Search all resources of type ServiceRequest based on a set of criteria",
+        "operationId": "searchServiceRequest",
+        "responses": {
+          "default": {
+            "description": "Error, with details",
+            "content": {
+              "application/fhir+json": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
+                }
+              },
+              "application/fhir+xml": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "the resource being returned",
+            "content": {
+              "application/fhir+json": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
+                }
+              },
+              "application/fhir+xml": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/Bundle.xsd"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/format"
+          },
+          {
+            "$ref": "#/components/parameters/pretty"
+          },
+          {
+            "$ref": "#/components/parameters/summary"
+          },
+          {
+            "$ref": "#/components/parameters/elements"
+          },
+          {
+            "name": "_id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Logical id of this artifact"
+          },
+          {
+            "name": "_profile",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Profiles this resource claims to conform to"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "draft | active | on-hold | revoked | completed | entered-in-error | unknown"
+          },
+          {
+            "name": "intent",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "proposal | plan | directive | order | original-order | reflex-order | filler-order | instance-order | option"
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Classification of service"
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Multiple Resources: \r\n\r\n* [AllergyIntolerance](allergyintolerance.html): Code that identifies the allergy or intolerance\r\n* [Condition](condition.html): Code for the condition\r\n* [DeviceRequest](devicerequest.html): Code for what is being requested/ordered\r\n* [DiagnosticReport](diagnosticreport.html): The code for the report, as opposed to codes for the atomic results, which are the names on the observation resource referred to from the result\r\n* [FamilyMemberHistory](familymemberhistory.html): A search by a condition code\r\n* [List](list.html): What the purpose of this list is\r\n* [Medication](medication.html): Returns medications for a specific code\r\n* [MedicationAdministration](medicationadministration.html): Return administrations of this medication code\r\n* [MedicationDispense](medicationdispense.html): Returns dispenses of this medicine code\r\n* [MedicationRequest](medicationrequest.html): Return prescriptions of this medication code\r\n* [MedicationStatement](medicationstatement.html): Return statements of this medication code\r\n* [Observation](observation.html): The code of the observation type\r\n* [Procedure](procedure.html): A code to identify a  procedure\r\n* [ServiceRequest](servicerequest.html): What is being requested/ordered\r\n"
+          },
+          {
+            "name": "supporting-info",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Suchparameter für ServiceRequest.supportingInfo"
+          }
+        ]
+      }
+    },
+    "/ServiceRequest/{rid}": {
+      "summary": "Read/Write/etc resource instance of type ServiceRequest",
+      "description": "Access to services to manage the state of a single resource of type ServiceRequest",
+      "get": {
+        "summary": "Read the current state of the resource",
+        "operationId": "readServiceRequest",
+        "responses": {
+          "default": {
+            "description": "Error, with details",
+            "content": {
+              "application/fhir+json": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
+                }
+              },
+              "application/fhir+xml": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "the resource being returned",
+            "headers": {
+              "ETag": {
+                "description": "Version from Resource.meta.version as a weak ETag",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/fhir+json": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/ServiceRequest"
+                }
+              },
+              "application/fhir+xml": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/ServiceRequest.xsd"
                 }
               }
             }

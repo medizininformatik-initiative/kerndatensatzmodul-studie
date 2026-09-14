@@ -202,6 +202,13 @@
   "name" : "SP_MII_Studie_Studienregister"
 },
 {
+  "id" : "ServiceRequest-supporting-info",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ServiceRequest-supporting-info",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "SP_MII_Studie_SupportingInfo"
+},
+{
   "id" : "mii-ex-studie-akronym",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",

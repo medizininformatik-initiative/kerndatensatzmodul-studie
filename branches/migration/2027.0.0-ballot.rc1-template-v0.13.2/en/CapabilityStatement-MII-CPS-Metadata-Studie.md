@@ -598,6 +598,15 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
           "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
           "valueCode" : "SHALL"
         }],
+        "name" : "akronym",
+        "definition" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym",
+        "type" : "string"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
         "name" : "finanzierung",
         "definition" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung",
         "type" : "string"
@@ -806,6 +815,91 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
         }],
         "name" : "consent",
         "definition" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-researchsubject-consent",
+        "type" : "reference"
+      }]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+        "valueCode" : "SHALL"
+      }],
+      "type" : "ServiceRequest",
+      "supportedProfile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage"],
+      "interaction" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "code" : "read"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "code" : "search-type"
+      }],
+      "searchParam" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "_id",
+        "definition" : "http://hl7.org/fhir/SearchParameter/Resource-id",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "_profile",
+        "definition" : "http://hl7.org/fhir/SearchParameter/Resource-profile",
+        "type" : "uri"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "status",
+        "definition" : "http://hl7.org/fhir/SearchParameter/ServiceRequest-status",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "intent",
+        "definition" : "http://hl7.org/fhir/SearchParameter/ServiceRequest-intent",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "category",
+        "definition" : "http://hl7.org/fhir/SearchParameter/ServiceRequest-category",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "code",
+        "definition" : "http://hl7.org/fhir/SearchParameter/clinical-code",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "supporting-info",
+        "definition" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ServiceRequest-supporting-info",
         "type" : "reference"
       }]
     }]

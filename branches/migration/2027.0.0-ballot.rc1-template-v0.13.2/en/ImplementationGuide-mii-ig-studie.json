@@ -2174,6 +2174,18 @@
       "name" : "ResearchStudy-studienregister",
       "description" : "Suchparameter für ResearchStudy.extension:Studienregister",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/ServiceRequest-supporting-info"
+      },
+      "name" : "ServiceRequest-supporting-info",
+      "description" : "Suchparameter für ServiceRequest.supportingInfo",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

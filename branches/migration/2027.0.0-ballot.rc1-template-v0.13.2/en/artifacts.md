@@ -38,6 +38,7 @@ These define the properties by which a RESTful server can be searched. They can 
 | [ ResearchStudy-rekrutierungsstart  ](SearchParameter-ResearchStudy-rekrutierungsstart.md) | Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsstart |
 | [ ResearchStudy-rekrutierungsziel  ](SearchParameter-ResearchStudy-rekrutierungsziel.md) | Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungsziel |
 | [ ResearchStudy-studienregister  ](SearchParameter-ResearchStudy-studienregister.md) | Suchparameter für ResearchStudy.extension:Studienregister |
+| [ ServiceRequest-supporting-info  ](SearchParameter-ServiceRequest-supporting-info.md) | Suchparameter für ServiceRequest.supportingInfo |
 
 ### Structures: Logical Models 
 

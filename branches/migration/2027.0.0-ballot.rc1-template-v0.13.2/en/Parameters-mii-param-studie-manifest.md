@@ -187,6 +187,10 @@
   },
   {
     "name" : "default-canonical-version",
+    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym|2027.0.0-ballot.rc1"
+  },
+  {
+    "name" : "default-canonical-version",
     "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-finanzierung|2027.0.0-ballot.rc1"
   },
   {
@@ -251,6 +255,30 @@
   },
   {
     "name" : "default-canonical-version",
+    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage|2027.0.0-ballot.rc1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/SearchParameter/ServiceRequest-status|4.0.1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/SearchParameter/ServiceRequest-intent|4.0.1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/SearchParameter/ServiceRequest-category|4.0.1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "http://hl7.org/fhir/SearchParameter/clinical-code|4.0.1"
+  },
+  {
+    "name" : "default-canonical-version",
+    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ServiceRequest-supporting-info|2027.0.0-ballot.rc1"
+  },
+  {
+    "name" : "default-canonical-version",
     "valueCanonical" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableimplementationguide|2.0.0"
   },
   {
@@ -264,10 +292,6 @@
   {
     "name" : "default-canonical-version",
     "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband|2027.0.0-ballot.rc1"
-  },
-  {
-    "name" : "default-canonical-version",
-    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage|2027.0.0-ballot.rc1"
   },
   {
     "name" : "default-canonical-version",

@@ -453,7 +453,7 @@ defined. Cross-module search parameters are defined by the Meta module.</p>
 
     <p>Examples:</p>
 
-    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?_id=103270</code></p>
+    <p><code class="language-plaintext highlighter-rouge">GET [base]/EvidenceVariable?_id=103270</code></p>
 
     <p>Usage notes: Further information on searching for "_id" can be found in the <a href="http://hl7.org/fhir/R4/search.html#all">FHIR base specification - section "Parameters for all resources"</a>.</p>
   </li>
@@ -462,7 +462,7 @@ defined. Cross-module search parameters are defined by the Meta module.</p>
 
     <p>Examples:</p>
 
-    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium</code></p>
+    <p><code class="language-plaintext highlighter-rouge">GET [base]/EvidenceVariable?_profile=https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium</code></p>
 
     <p>Usage notes: Further information on searching for "_profile" can be found in the <a href="http://hl7.org/fhir/R4/search.html#all">FHIR base specification - section "Parameters for all resources"</a>.</p>
   </li>
@@ -471,7 +471,7 @@ defined. Cross-module search parameters are defined by the Meta module.</p>
 
     <p>Examples</p>
 
-    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?status=active</code></p>
+    <p><code class="language-plaintext highlighter-rouge">GET [base]/EvidenceVariable?status=active</code></p>
 
     <p>Usage notes: Further information on searching for "EvidenceVariable.status" can be found in the <a href="http://hl7.org/fhir/R4/search.html#token">FHIR base specification - section "token"</a>.</p>
   </li>
@@ -695,24 +695,6 @@ defined. Cross-module search parameters are defined by the Meta module.</p>
     <p>Usage notes: Further information on searching for "ResearchStudy.arm.name" can be found in the <a href="http://hl7.org/fhir/R4/search.html#string">FHIR base specification - section "string"</a>.</p>
   </li>
   <li>
-    <p>The search parameter "category" MUST be supported:</p>
-
-    <p>Examples</p>
-
-    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?category=Long-COVID bedingter Fatigue</code></p>
-
-    <p>Usage notes: Further information on searching for "ResearchStudy.extension:Studienfokus" can be found in the <a href="http://hl7.org/fhir/R4/search.html#string">FHIR base specification - section "string"</a>.</p>
-  </li>
-  <li>
-    <p>The search parameter "keyword" MUST be supported:</p>
-
-    <p>Examples</p>
-
-    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?keyword=COVID</code></p>
-
-    <p>Usage notes: Further information on searching for "ResearchStudy.extension:Schlagwort" can be found in the <a href="http://hl7.org/fhir/R4/search.html#string">FHIR base specification - section "string"</a>.</p>
-  </li>
-  <li>
     <p>The search parameter "label" MUST be supported:</p>
 
     <p>Examples</p>
@@ -720,6 +702,24 @@ defined. Cross-module search parameters are defined by the Meta module.</p>
     <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?label=Frontale transkranielle Gleichstromstimulation (tDCS) als potentielle Behandlungsmethode von Long-COVID bedingter Fatigue</code></p>
 
     <p>Usage notes: Further information on searching for "ResearchStudy.extension:Label" can be found in the <a href="http://hl7.org/fhir/R4/search.html#string">FHIR base specification - section "string"</a>.</p>
+  </li>
+  <li>
+    <p>The search parameter "akronym" MUST be supported:</p>
+
+    <p>Examples</p>
+
+    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?akronym=LIFE ADULT</code></p>
+
+    <p>Usage notes: Further information on searching for "ResearchStudy.extension:Akronym" can be found in the <a href="http://hl7.org/fhir/R4/search.html#string">FHIR base specification - section "string"</a>.</p>
+  </li>
+  <li>
+    <p>The search parameter "finanzierung" MUST be supported:</p>
+
+    <p>Examples</p>
+
+    <p><code class="language-plaintext highlighter-rouge">GET [base]/ResearchStudy?finanzierung=Deutsches Bundesministerium für Bildung und Forschung (BMBF)</code></p>
+
+    <p>Usage notes: Further information on searching for "ResearchStudy.extension:Finanzierung" can be found in the <a href="http://hl7.org/fhir/R4/search.html#string">FHIR base specification - section "string"</a>.</p>
   </li>
   <li>
     <p>The search parameter "studienregister" MUST be supported:</p>
@@ -951,7 +951,7 @@ defined. Cross-module search parameters are defined by the Meta module.</p>
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot.rc1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Mon, Sep 14, 2026 09:48+0000">2026-09-14</span>
+          Generated <span title="Mon, Sep 14, 2026 12:05+0000">2026-09-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.
