@@ -11,8 +11,8 @@ Im Folgenden werden die Use-Case des Moduls sowie die dazugehörigen FHIR-Profil
 
 | Veröffentlichung |               |
 |------------------|---------------|
-| Datum            | 2026-14-09 |
-| Version          | 2027.0.0-ballot (CalVer `JJJJ.n.n`, Ballot-RC) |
+| Datum            | 2026-09-14 |
+| Version          | 2027.0.0-ballot (CalVer `JJJJ.n.n`, Ballot) |
 | Status           | active        |
 | Realm            | DE            |
 

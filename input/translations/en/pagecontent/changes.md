@@ -28,7 +28,7 @@ by category:
      migration-log/page-map.tsv;
      NOTE queue-②: newest entry is v2026.0.1 — no 2027 section exists yet in the source;
      owner-authored translation from the 2027-EN guide tree) -->
-#### Changes Ballot version v2027.0.0-ballot (as of 31.08.2026)
+#### Changes Ballot version v2027.0.0-ballot (as of 14.09.2026)
 
 ##### New Profiles and Functionality
 
