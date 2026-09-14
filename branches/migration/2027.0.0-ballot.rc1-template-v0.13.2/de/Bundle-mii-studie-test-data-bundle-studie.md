@@ -579,7 +579,7 @@
       },
       "text" : {
         "status" : "extensions",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-763f6e05-1fea-4652-9138-b93269c3f1a0.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-5dc6ddf1-9b64-490e-a734-00e695a3d4d8.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",

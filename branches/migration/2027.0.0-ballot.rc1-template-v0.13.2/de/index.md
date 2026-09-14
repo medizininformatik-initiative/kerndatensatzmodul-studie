@@ -16,7 +16,7 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 
 | | |
 | :--- | :--- |
-| Datum | 2026-01-09 |
+| Datum | 2026-14-09 |
 | Version | 2027.0.0-ballot.rc1 (CalVer`JJJJ.n.n`, Ballot-RC) |
 | Status | active |
 | Realm | DE |
