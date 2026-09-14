@@ -566,7 +566,7 @@
       },
       "text" : {
         "status" : "extensions",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-1d14d651-4dd1-45b8-954b-a2ec16137485.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-d155fde3-fff6-4992-95d2-9e02ffc358b7.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",
