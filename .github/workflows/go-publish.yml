@@ -653,10 +653,20 @@ jobs:
             }' > site/publish-setup.json
           touch site/.nojekyll
 
+          # Publisher 2.3.x refuses -go-publish without a package-registry.json
+          # in the web root ("There is no package-registry.json file. Create one
+          # by running the publisher -generate-package-registry {folder}").
+          # Generate it with the Publisher's own command so the shape always
+          # matches the pinned Publisher version.
+          java -jar "${RUNNER_TEMP}/publisher.jar" \
+            -generate-package-registry "${GITHUB_WORKSPACE}/site"
+          test -s site/package-registry.json
+
           {
             echo "### First-publication webroot seeded"
             echo
             echo "- Generated publish-setup.json for ${PUBLICATION_BASE}"
+            echo "- Generated package-registry.json via Publisher -generate-package-registry"
           } >> "${GITHUB_STEP_SUMMARY}"
 
       - name: Prepare publication workspace
