@@ -1,19 +1,19 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Ported from kerndatensatz-meta (2027.0.0-ballot): input/fsh/rulesets/version.fsh
 // meta literals replaced by this repository's values:
-//   "2027.0.0-ballot" → "2027.0.0-ballot.rc1"
+//   "2027.0.0-ballot" → "2027.0.0-ballot"
 //   de.medizininformatikinitiative.kerndatensatz.meta → …kerndatensatz.studie
 //   modul-meta → modul-studie
 // ─────────────────────────────────────────────────────────────────────────────
 
 // switch version of all conformance resources here
 RuleSet: Version
-* version = "2027.0.0-ballot.rc1"
+* version = "2027.0.0-ballot"
 * extension[+].url = $artifact-versionAlgorithm
 * extension[=].valueCoding = $version-algorithm#semver "SemVer"
 
 RuleSet: PR_CS_VS_Version
-* ^version = "2027.0.0-ballot.rc1"
+* ^version = "2027.0.0-ballot"
 * ^extension[+].url = $artifact-versionAlgorithm
 * ^extension[=].valueCoding = $version-algorithm#semver "SemVer"
 
@@ -26,7 +26,7 @@ RuleSet: CRMIPackageSource
 * meta.extension[=].extension[+].url = "packageId"
 * meta.extension[=].extension[=].valueId = "de.medizininformatikinitiative.kerndatensatz.studie"
 * meta.extension[=].extension[+].url = "version"
-* meta.extension[=].extension[=].valueString = "2027.0.0-ballot.rc1"
+* meta.extension[=].extension[=].valueString = "2027.0.0-ballot"
 * meta.extension[=].extension[+].url = "uri"
 * meta.extension[=].extension[=].valueUri = "https://www.medizininformatik-initiative.de/fhir/modul-studie"
 
@@ -35,7 +35,7 @@ RuleSet: CRMIPackageSourceDefinitionalResource
 * ^meta.extension[=].extension[+].url = "packageId"
 * ^meta.extension[=].extension[=].valueId = "de.medizininformatikinitiative.kerndatensatz.studie"
 * ^meta.extension[=].extension[+].url = "version"
-* ^meta.extension[=].extension[=].valueString = "2027.0.0-ballot.rc1"
+* ^meta.extension[=].extension[=].valueString = "2027.0.0-ballot"
 * ^meta.extension[=].extension[+].url = "uri"
 * ^meta.extension[=].extension[=].valueUri = "https://www.medizininformatik-initiative.de/fhir/modul-studie"
 

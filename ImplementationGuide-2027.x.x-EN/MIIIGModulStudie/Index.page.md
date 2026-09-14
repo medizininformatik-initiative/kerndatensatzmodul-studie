@@ -6,7 +6,7 @@ In the following, the use case of the module as well as the associated FHIR prof
 | Publication   |   |
 |---------|--------------|
 | Date   | 31.08.2026   |
-| Version | 2027.0.0-ballot.rc1       |
+| Version | 2027.0.0-ballot       |
 | Status  | Active       |
 | Realm   | EN           | 
 
