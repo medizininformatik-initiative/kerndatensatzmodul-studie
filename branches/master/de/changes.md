@@ -14,7 +14,7 @@ Jede Version erhält einen eigenen Abschnitt mit dem Release-Datum und den nach 
 * **Abgekündigt** — Artefakte, die noch existieren, aber nicht mehr genutzt werden sollen.
 * **Entfernt** — zurückgezogene Artefakte.
 
-#### Änderungen Ballot-Version v2027.0.0-ballot (Stand 31.08.2026)
+#### Änderungen Ballot-Version v2027.0.0-ballot (Stand 14.09.2026)
 
 ##### Neue Profile und Funktionalität
 

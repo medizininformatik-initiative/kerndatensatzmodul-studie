@@ -16,10 +16,10 @@ This specification describes the FHIR representation of the Core Data Set Module
 
 | | |
 | :--- | :--- |
-| Date | 2026-14-09 |
-| Version | 2027.0.0-ballot (CalVer`YYYY.n.n`, ballot RC) |
+| Date | 2026-09-14 |
+| Version | 2027.0.0-ballot (CalVer`YYYY.n.n`, ballot) |
 | Status | active |
-| Realm | EN |
+| Realm | DE |
 
 You can find the first release at [2025.0.0](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Medizinische_Forschungsvorhaben_V2025/ImplementationGuide-1.x-TechnischeImplementierung-Organization.html)
 
