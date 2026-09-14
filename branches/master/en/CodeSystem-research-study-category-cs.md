@@ -1,4 +1,4 @@
-# Research Study Category Code System - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Research Study Category Code System - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://example.org/fhir/CodeSystem/research-study-category | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:http://example.org/fhir/CodeSystem/research-study-category | *Version*:2027.0.0-ballot |
 | Active as of 2026-01-09 | *Computable Name*:ResearchStudyCategoryCS |
 
  
@@ -42,7 +42,7 @@ This Code system is referenced in the definition of the following value sets:
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -185,7 +185,7 @@ This Code system is referenced in the definition of the following value sets:
     }
   }],
   "url" : "http://example.org/fhir/CodeSystem/research-study-category",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "ResearchStudyCategoryCS",
   "title" : "Research Study Category Code System",
   "status" : "active",

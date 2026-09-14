@@ -1,4 +1,4 @@
-# LIFE-Adult-Study - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# LIFE-Adult-Study - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)

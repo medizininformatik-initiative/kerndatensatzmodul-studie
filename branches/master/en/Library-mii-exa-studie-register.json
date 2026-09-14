@@ -12,14 +12,14 @@
   "language" : "en",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-042b86cc-8dba-4cb0-9009-24bd0b716d25.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div>"
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-f8c4c95d-075a-4db5-9878-b117270bed26.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register",
   "identifier" : [{
     "system" : "https://example.com/fhir/sid/drks",
     "value" : "DRKS"
   }],
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "DRKS - Deutsches Register Klinischer Studien",
   "status" : "active",
   "type" : {
@@ -28,7 +28,7 @@
       "code" : "asset-collection"
     }]
   },
-  "date" : "2026-09-14T12:51:56+00:00",
+  "date" : "2026-09-14T14:54:25+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

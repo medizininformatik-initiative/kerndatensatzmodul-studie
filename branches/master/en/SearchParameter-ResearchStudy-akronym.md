@@ -1,4 +1,4 @@
-# ResearchStudy-akronym - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# ResearchStudy-akronym - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym | *Version*:2027.0.0-ballot |
 | Active as of 2026-08-31 | *Computable Name*:SP_MII_Studie_Akronym |
 
  
@@ -34,7 +34,7 @@ Suchparameter für ResearchStudy.extension:Akronym
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -64,7 +64,7 @@ Suchparameter für ResearchStudy.extension:Akronym
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-akronym",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "SP_MII_Studie_Akronym",
   "status" : "active",
   "experimental" : false,

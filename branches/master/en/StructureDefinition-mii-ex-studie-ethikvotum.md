@@ -1,4 +1,4 @@
-# MII EX Studie Ethikvotum - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII EX Studie Ethikvotum - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum | *Version*:2027.0.0-ballot |
 | Active as of 2026-01-09 | *Computable Name*:MII_EX_Studie_Ethikvotum |
 
 Extension describing the ethics approval of a research study including status, ethics committee and reference number.
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-eth
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -199,7 +199,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-eth
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Studie_Ethikvotum",
   "title" : "MII EX Studie Ethikvotum",
   "status" : "active",

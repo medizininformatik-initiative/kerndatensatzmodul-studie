@@ -1,4 +1,4 @@
-# MII CPS Metadata Studie - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII CPS Metadata Studie - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII CPS Metadata Studie |
 
  
@@ -36,7 +36,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -183,7 +183,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII CPS Metadata Studie",
   "title" : "MII CPS Metadata Studie",
   "status" : "active",
@@ -208,7 +208,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
   "kind" : "requirements",
   "fhirVersion" : "4.0.1",
   "format" : ["xml", "json"],
-  "implementationGuide" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot.rc1"],
+  "implementationGuide" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot"],
   "rest" : [{
     "mode" : "server",
     "resource" : [{

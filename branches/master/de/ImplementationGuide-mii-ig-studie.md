@@ -1,4 +1,4 @@
-# MII-ImplementationGuide-Ressource - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII-ImplementationGuide-Ressource - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **MII-ImplementationGuide-Ressource**
@@ -113,7 +113,7 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
     },
     {
       "url" : "version",
-      "valueString" : "2027.0.0-ballot.rc1"
+      "valueString" : "2027.0.0-ballot"
     },
     {
       "url" : "uri",
@@ -243,12 +243,12 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_IG_Medizinisches_Forschungsvorhaben",
   "title" : "MII Implementation Guide Medizinisches Forschungsvorhaben",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-09",
+  "date" : "2026-09-14",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

@@ -1,4 +1,4 @@
-# Versionierung - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Versionierung - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Versionierung**
@@ -9,7 +9,7 @@
 
 Das Modul **Medizinisches Forschungsvorhaben** folgt dem KDS-Schema der Kalender-Versionierung (CalVer) in einer SemVer-kompatiblen numerischen Form:
 
-* Format **`JJJJ.MINOR.PATCH[-label]`** — die aktuelle Version ist `2027.0.0-ballot.rc1`;
+* Format **`JJJJ.MINOR.PATCH[-label]`** — die aktuelle Version ist `2027.0.0-ballot`;
 * **`JJJJ`** — das Jahr, in dem der Leitfaden gilt und genutzt werden soll; es tritt an die Stelle der Major-Version;
 * **`MINOR`** — wird für nicht brechende Ergänzungen und Präzisierungen erhöht;
 * **`PATCH`** — wird für Korrekturen und Fehlerbehebungen erhöht;

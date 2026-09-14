@@ -13,7 +13,7 @@
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -169,7 +169,7 @@
     "valueCode" : "brr"
   }],
   "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Studie_Backport_linkId",
   "title" : "MII EX Studie Backport linkId",
   "status" : "active",

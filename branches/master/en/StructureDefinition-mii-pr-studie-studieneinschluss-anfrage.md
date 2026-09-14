@@ -1,4 +1,4 @@
-# MII PR Studie Studieneinschluss Anfrage - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII PR Studie Studieneinschluss Anfrage - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage | *Version*:2027.0.0-ballot |
 | Active as of 2026-01-09 | *Computable Name*:MII_PR_Studie_Studieneinschluss_Anfrage |
 
  
@@ -65,7 +65,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -212,7 +212,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Studie_Studieneinschluss_Anfrage",
   "title" : "MII PR Studie Studieneinschluss Anfrage",
   "status" : "active",

@@ -1,4 +1,4 @@
-# MII PR Studie Register - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# MII PR Studie Register - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register | *Version*:2027.0.0-ballot |
 | Active as of 2026-01-09 | *Computable Name*:MII_PR_Studie_Register |
 
  
@@ -88,7 +88,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-reg
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -235,7 +235,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-reg
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Studie_Register",
   "title" : "MII PR Studie Register",
   "_title" : {

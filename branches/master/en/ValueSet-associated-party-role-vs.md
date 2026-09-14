@@ -1,4 +1,4 @@
-# Associated Party Role - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Associated Party Role - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://example.org/fhir/ValueSet/associated-party-role | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:http://example.org/fhir/ValueSet/associated-party-role | *Version*:2027.0.0-ballot |
 | Active as of 2026-01-09 | *Computable Name*:AssociatedPartyRoleVS |
 
  
@@ -48,7 +48,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
       },
       {
         "url" : "version",
-        "valueString" : "2027.0.0-ballot.rc1"
+        "valueString" : "2027.0.0-ballot"
       },
       {
         "url" : "uri",
@@ -196,7 +196,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
     }
   }],
   "url" : "http://example.org/fhir/ValueSet/associated-party-role",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "AssociatedPartyRoleVS",
   "title" : "Associated Party Role",
   "status" : "active",

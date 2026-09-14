@@ -11,7 +11,7 @@
         <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
       </extension>
       <extension url="version">
-        <valueString value="2027.0.0-ballot.rc1"/>
+        <valueString value="2027.0.0-ballot"/>
       </extension>
       <extension url="uri">
         <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
@@ -23,7 +23,7 @@
   </meta>
   <language value="de"/>
   <text>
-    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet research-study-category-vs</b></p><a name="research-study-category-vs"> </a><a name="hcresearch-study-category-vs"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-shareablevalueset.html">CRMI Shareable ValueSet</a>, <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-publishablevalueset.html">CRMI Publishable ValueSet</a>, <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-computablevalueset.html">CRMI Computable ValueSet</a></p></div><ul><li>Include all codes defined in <a href="CodeSystem-research-study-category-cs.html"><code>http://example.org/fhir/CodeSystem/research-study-category</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2027.0.0-ballot.rc1</span></li></ul></div>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet research-study-category-vs</b></p><a name="research-study-category-vs"> </a><a name="hcresearch-study-category-vs"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-shareablevalueset.html">CRMI Shareable ValueSet</a>, <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-publishablevalueset.html">CRMI Publishable ValueSet</a>, <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-computablevalueset.html">CRMI Computable ValueSet</a></p></div><ul><li>Include all codes defined in <a href="CodeSystem-research-study-category-cs.html"><code>http://example.org/fhir/CodeSystem/research-study-category</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2027.0.0-ballot</span></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm">
     <valueCoding>
@@ -144,7 +144,7 @@
     </valueContactDetail>
   </extension>
   <url value="http://example.org/fhir/ValueSet/research-study-category"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot"/>
   <name value="ResearchStudyCategoryVS"/>
   <title value="Research Study Category"/>
   <status value="active"/>

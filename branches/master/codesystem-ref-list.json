@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://example.org/fhir/CodeSystem/associated-party-role",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "AssociatedPartyRoleCS",
     "title" : "Associated Party Role Code System",
@@ -12,7 +12,7 @@
   },
   {
     "url" : "http://example.org/fhir/CodeSystem/research-study-category",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "ResearchStudyCategoryCS",
     "title" : "Research Study Category Code System",

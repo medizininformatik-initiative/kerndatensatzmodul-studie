@@ -1,4 +1,4 @@
-# Changelog - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# Changelog - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Changelog**
@@ -14,7 +14,7 @@ Each version gets its own section with the release date and the changes grouped 
 * **Deprecated** — artifacts that still exist but should no longer be used.
 * **Removed** — artifacts that were withdrawn.
 
-#### Changes Ballot version v2027.0.0-ballot.rc1 (as of 31.08.2026)
+#### Changes Ballot version v2027.0.0-ballot (as of 31.08.2026)
 
 ##### New Profiles and Functionality
 

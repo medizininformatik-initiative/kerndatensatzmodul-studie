@@ -11,14 +11,14 @@
     </security>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-e11c30be-ce59-4ada-8a6d-b3957521fd73.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-042b86cc-8dba-4cb0-9009-24bd0b716d25.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-1c83aa35-010b-4883-8942-3e58bbeb2fa4.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-f8c4c95d-075a-4db5-9878-b117270bed26.html): unexpected non-end of element null::a  at line 130 column 50</b></p></div></div>
   </text>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register"/>
   <identifier>
     <system value="https://example.com/fhir/sid/drks"/>
     <value value="DRKS"/>
   </identifier>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot"/>
   <name value="DRKS - Deutsches Register Klinischer Studien"/>
   <status value="active"/>
   <type>
@@ -27,7 +27,7 @@
       <code value="asset-collection"/>
     </coding>
   </type>
-  <date value="2026-09-14T12:51:56+00:00"/>
+  <date value="2026-09-14T14:54:25+00:00"/>
   <publisher value="NUM-DIZ"/>
   <contact>
     <name value="NUM-DIZ"/>

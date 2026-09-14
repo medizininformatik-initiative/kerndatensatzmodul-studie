@@ -1,4 +1,4 @@
-# mii-studie-test-data-bundle-studie - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot.rc1
+# mii-studie-test-data-bundle-studie - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -579,7 +579,7 @@
       },
       "text" : {
         "status" : "extensions",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-d54d2fde-4039-4f2b-a2b7-706c85dcbfa9.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-1d14d651-4dd1-45b8-954b-a2ec16137485.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",
