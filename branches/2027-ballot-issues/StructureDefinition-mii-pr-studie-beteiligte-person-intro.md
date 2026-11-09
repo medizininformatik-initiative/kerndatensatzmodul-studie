@@ -22,7 +22,7 @@ Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Me
 | PractitionerRole.meta       | Must-support, jedoch optional         |
 | PractitionerRole.meta.profile       | Verpflichtend für die Abfrage im DIZ-Repository inkl. Versionsnummer des Profils. Siehe [CapabilityStatement](capability-statements.html). In allen anderen Fällen optional.         |
 | PractitionerRole.code      | Hausinterne Kodierung kann hier verwendet werden. Die nächste Version des vorliegenden Moduls wird hier voraussichtlich weitere Vorgaben zur Standardisierung eines ValueSets fordern. |
-| PractitionerRole.telecom      | Es ist drauf zu achten, dass hier nur Informationen exponiert werden, die bereits durch die Studie ansich veröffentlicht wurden |
+| PractitionerRole.telecom      | Es ist darauf zu achten, dass hier nur Informationen exponiert werden, die bereits durch die Studie an sich veröffentlicht wurden |
 | PractitionerRole.organization | Um alle zu einer Studie zugehörigen Personen zu finden ist die Verwendung von Referenz.reference anstelle von Referent.identifier zu bevorzugen.|
 
 ---
