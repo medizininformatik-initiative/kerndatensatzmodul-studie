@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ResearchStudy",
+  "id" : "mii-exa-studie-reference-study",
+  "meta" : {
+    "security" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "code" : "HTEST",
+      "display" : "test health data"
+    }]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ResearchStudy mii-exa-studie-reference-study</b></p><a name=\"en-mii-exa-studie-reference-study\"> </a><a name=\"en-hcmii-exa-studie-reference-study\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Security Label: <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html\">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>title</b>: Example Reference Study</p><p><b>status</b>: Completed</p></div>"
+  },
+  "title" : "Example Reference Study",
+  "status" : "completed"
+}

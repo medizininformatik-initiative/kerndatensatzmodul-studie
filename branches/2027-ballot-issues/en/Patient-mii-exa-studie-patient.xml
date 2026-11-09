@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-patient"/>
+  <meta>
+    <profile value="http://fhir.de/ConsentManagement/StructureDefinition/Patient"/>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Patient mii-exa-studie-patient</b></p><a name="en-mii-exa-studie-patient"> </a><a name="en-hcmii-exa-studie-patient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <code>http://fhir.de/ConsentManagement/StructureDefinition/Patient</code></p><p style="margin-bottom: 0px">Security Label: <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jane Doe  Female, DoB: 1980-11-12 ( Krankenversichertennummer (use: official, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known status of Patient">Deceased:</td><td colspan="3">false</td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://fhir.de/CodeSystem/identifier-type-de-basis"/>
+        <code value="KVZ10"/>
+      </coding>
+    </type>
+    <system value="http://fhir.de/sid/gkv/kvid-10"/>
+    <value value="D92345678"/>
+  </identifier>
+  <name>
+    <family value="Doe"/>
+    <given value="Jane"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1980-11-12"/>
+  <deceasedBoolean value="false"/>
+</Patient>

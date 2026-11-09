@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="associated-party-role-cs"/>
+  <meta>
+    <extension url="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license">
+      <valueCode value="CC-BY-4.0"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+      <extension url="packageId">
+        <valueId value="de.medizininformatikinitiative.kerndatensatz.studie"/>
+      </extension>
+      <extension url="version">
+        <valueString value="2027.0.0-ballot"/>
+      </extension>
+      <extension url="uri">
+        <valueUri value="https://www.medizininformatik-initiative.de/fhir/modul-studie"/>
+      </extension>
+    </extension>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem associated-party-role-cs</b></p><a name="en-associated-party-role-cs"> </a><a name="en-hcassociated-party-role-cs"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profiles: <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-shareablecodesystem.html">CRMI Shareable CodeSystem</a>, <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-crmi-publishablecodesystem.html">CRMI Publishable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://example.org/fhir/CodeSystem/associated-party-role</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">sponsor<a name="en-associated-party-role-cs-sponsor"> </a></td><td>Sponsor</td><td>An individual or organization that takes responsibility for the initiation, management, and financing of a study.</td></tr><tr><td style="white-space:nowrap">funder<a name="en-associated-party-role-cs-funder"> </a></td><td>Funder</td><td>An entity providing financial support but not assuming overall responsibility as a sponsor.</td></tr><tr><td style="white-space:nowrap">principal-investigator<a name="en-associated-party-role-cs-principal-investigator"> </a></td><td>Principal Investigator</td><td>The lead researcher responsible for the overall conduct of the study.</td></tr><tr><td style="white-space:nowrap">co-investigator<a name="en-associated-party-role-cs-co-investigator"> </a></td><td>Co-Investigator</td><td>A researcher who shares scientific responsibility with the principal investigator.</td></tr><tr><td style="white-space:nowrap">coordinator<a name="en-associated-party-role-cs-coordinator"> </a></td><td>Study Coordinator</td><td>A person coordinating day-to-day operational activities of the study.</td></tr><tr><td style="white-space:nowrap">publisher<a name="en-associated-party-role-cs-publisher"> </a></td><td>Publisher</td><td>An entity responsible for publishing or disseminating results.</td></tr><tr><td style="white-space:nowrap">other<a name="en-associated-party-role-cs-other"> </a></td><td>Other</td><td>A role not covered by the defined codes.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm">
+    <valueCoding>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <code value="semver"/>
+      <display value="SemVer"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability">
+    <valueCode value="shareable"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability">
+    <valueCode value="publishable"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes"/>
+        <version value="3.0.0"/>
+        <code value="package"/>
+        <display value="Package"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-approvalDate">
+    <valueDate value="2026-01-09"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2027"/>
+    </valuePeriod>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-topic">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+        <code value="C15206"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-topic">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+        <code value="C15429"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-author">
+    <valueContactDetail>
+      <name value="Matthias Löbe"/>
+      <telecom>
+        <system value="email"/>
+        <value value="matthias.loebe@imise.uni-leipzig.de"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-editor">
+    <valueContactDetail>
+      <name value="Taskforce Core Data Set"/>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-editor">
+    <valueContactDetail>
+      <name value="Thomas Debertshäuser"/>
+      <telecom>
+        <system value="email"/>
+        <value value="thomas.debertshaeuser@charite.de"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-editor">
+    <valueContactDetail>
+      <name value="Margaux Gatrio"/>
+      <telecom>
+        <system value="email"/>
+        <value value="margaux.gatrio@bih-charite.de"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-reviewer">
+    <valueContactDetail>
+      <name value="Interoperability Working Group"/>
+      <telecom>
+        <system value="url"/>
+        <value value="https://www.medizininformatik-initiative.de/en/collaboration/interoperability-working-group"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-reviewer">
+    <valueContactDetail>
+      <name value="National Steering Committee"/>
+      <telecom>
+        <system value="url"/>
+        <value value="https://www.medizininformatik-initiative.de/en/collaboration/national-steering-committee"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-endorser">
+    <valueContactDetail>
+      <name value="Interoperability Working Group"/>
+      <telecom>
+        <system value="url"/>
+        <value value="https://www.medizininformatik-initiative.de/en/collaboration/interoperability-working-group"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-endorser">
+    <valueContactDetail>
+      <name value="National Steering Committee"/>
+      <telecom>
+        <system value="url"/>
+        <value value="https://www.medizininformatik-initiative.de/en/collaboration/national-steering-committee"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <url value="http://example.org/fhir/CodeSystem/associated-party-role"/>
+  <version value="2027.0.0-ballot"/>
+  <name value="AssociatedPartyRoleCS"/>
+  <title value="Associated Party Role Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-01-09"/>
+  <publisher value="NUM-DIZ"/>
+  <contact>
+    <name value="NUM-DIZ"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.netzwerk-universitaetsmedizin.de"/>
+    </telecom>
+  </contact>
+  <description value="Roles that an associated party may have in relation to an entity such as a research study."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="sponsor"/>
+    <display value="Sponsor"/>
+    <definition value="An individual or organization that takes responsibility for the initiation, management, and financing of a study."/>
+  </concept>
+  <concept>
+    <code value="funder"/>
+    <display value="Funder"/>
+    <definition value="An entity providing financial support but not assuming overall responsibility as a sponsor."/>
+  </concept>
+  <concept>
+    <code value="principal-investigator"/>
+    <display value="Principal Investigator"/>
+    <definition value="The lead researcher responsible for the overall conduct of the study."/>
+  </concept>
+  <concept>
+    <code value="co-investigator"/>
+    <display value="Co-Investigator"/>
+    <definition value="A researcher who shares scientific responsibility with the principal investigator."/>
+  </concept>
+  <concept>
+    <code value="coordinator"/>
+    <display value="Study Coordinator"/>
+    <definition value="A person coordinating day-to-day operational activities of the study."/>
+  </concept>
+  <concept>
+    <code value="publisher"/>
+    <display value="Publisher"/>
+    <definition value="An entity responsible for publishing or disseminating results."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="A role not covered by the defined codes."/>
+  </concept>
+</CodeSystem>
