@@ -64,10 +64,10 @@
       <valueDate value="2009-01-01"/>
     </extension>
     <extension url="rekrutierungsziel">
-      <valueInteger value="10000"/>
+      <valueUnsignedInt value="10000"/>
     </extension>
     <extension url="rekrutierungsstand">
-      <valueInteger value="10000"/>
+      <valueUnsignedInt value="10000"/>
     </extension>
     <extension url="rekrutierungsstand-genauigkeit">
       <valueString value="good"/>

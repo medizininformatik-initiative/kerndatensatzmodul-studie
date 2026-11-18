@@ -735,6 +735,7 @@
       <sliceName value="Rekrutierung"/>
       <short value="MII EX Studie Rekrutierung"/>
       <definition value="Optionales Erweiterungselement – in allen Ressourcen vorhanden."/>
+      <comment value="Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt."/>
       <min value="0"/>
       <max value="1"/>
       <base>

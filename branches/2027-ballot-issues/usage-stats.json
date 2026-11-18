@@ -362,8 +362,8 @@
       "types": [
         "date",
         "string",
-        "integer",
-        "integer",
+        "unsignedInt",
+        "unsignedInt",
         "date",
         "base64Binary",
         "boolean",
@@ -620,8 +620,10 @@
       "ImplementationGuide.definition.page.page.title",
       "ImplementationGuide.definition.page.title",
       "StructureDefinition.description",
+      "StructureDefinition.differential.element.comment",
       "StructureDefinition.differential.element.definition",
       "StructureDefinition.differential.element.short",
+      "StructureDefinition.snapshot.element.comment",
       "StructureDefinition.snapshot.element.definition",
       "StructureDefinition.snapshot.element.short",
       "StructureDefinition.title"

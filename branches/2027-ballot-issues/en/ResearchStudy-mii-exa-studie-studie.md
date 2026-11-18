@@ -112,11 +112,11 @@ Diese Studie untersucht den Einfluss repetitiver anodaler Gleichstromstimulation
     },
     {
       "url" : "rekrutierungsziel",
-      "valueInteger" : 40
+      "valueUnsignedInt" : 40
     },
     {
       "url" : "rekrutierungsstand",
-      "valueInteger" : 35
+      "valueUnsignedInt" : 35
     },
     {
       "url" : "rekrutierungsstand-genauigkeit",

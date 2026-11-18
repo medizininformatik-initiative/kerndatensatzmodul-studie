@@ -258,7 +258,32 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
   "differential" : {
     "element" : [{
       "id" : "Extension",
-      "path" : "Extension"
+      "path" : "Extension",
+      "comment" : "Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "This extension corresponds to the FHIR R5 element ResearchStudy.recruitment: rekrutierungsziel maps to recruitment.targetNumber, rekrutierungsstand maps to recruitment.actualNumber. rekrutierungsstart, rekrutierungsstand-datum and rekrutierungsstand-genauigkeit have no R5 equivalent. The extension researchStudy-siteRecruitment from the FHIR Extensions Pack is not an equivalent, as it describes the number of study sites rather than the number of participants."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "Extension.extension:rekrutierungsstand-datum",
@@ -314,6 +339,56 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
       "id" : "Extension.extension:rekrutierungsstand",
       "path" : "Extension.extension",
       "sliceName" : "rekrutierungsstand",
+      "short" : "Bisher rekrutierte Anzahl Teilnehmender",
+      "_short" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Bisher rekrutierte Anzahl Teilnehmender"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Number of participants recruited so far"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "comment" : "Entspricht ResearchStudy.recruitment.actualNumber in FHIR R5. Der Stichtag wird in rekrutierungsstand-datum angegeben.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Entspricht ResearchStudy.recruitment.actualNumber in FHIR R5. Der Stichtag wird in rekrutierungsstand-datum angegeben."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Corresponds to ResearchStudy.recruitment.actualNumber in FHIR R5. The reference date is given in rekrutierungsstand-datum."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -332,13 +407,63 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
       "id" : "Extension.extension:rekrutierungsstand.value[x]",
       "path" : "Extension.extension.value[x]",
       "type" : [{
-        "code" : "integer"
+        "code" : "unsignedInt"
       }]
     },
     {
       "id" : "Extension.extension:rekrutierungsziel",
       "path" : "Extension.extension",
       "sliceName" : "rekrutierungsziel",
+      "short" : "Angestrebte Anzahl Teilnehmender",
+      "_short" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Angestrebte Anzahl Teilnehmender"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Target number of participants"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "comment" : "Entspricht ResearchStudy.recruitment.targetNumber in FHIR R5.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Entspricht ResearchStudy.recruitment.targetNumber in FHIR R5."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Corresponds to ResearchStudy.recruitment.targetNumber in FHIR R5."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "min" : 0,
       "max" : "1",
       "mustSupport" : true
@@ -357,7 +482,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
       "id" : "Extension.extension:rekrutierungsziel.value[x]",
       "path" : "Extension.extension.value[x]",
       "type" : [{
-        "code" : "integer"
+        "code" : "unsignedInt"
       }]
     },
     {

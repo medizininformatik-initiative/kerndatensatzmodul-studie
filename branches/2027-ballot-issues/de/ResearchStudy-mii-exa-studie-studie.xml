@@ -46,10 +46,10 @@
       <valueDate value="2023-01-12"/>
     </extension>
     <extension url="rekrutierungsziel">
-      <valueInteger value="40"/>
+      <valueUnsignedInt value="40"/>
     </extension>
     <extension url="rekrutierungsstand">
-      <valueInteger value="35"/>
+      <valueUnsignedInt value="35"/>
     </extension>
     <extension url="rekrutierungsstand-genauigkeit">
       <valueString value="good"/>

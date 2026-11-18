@@ -76,11 +76,11 @@
     },
     {
       "url" : "rekrutierungsziel",
-      "valueInteger" : 10000
+      "valueUnsignedInt" : 10000
     },
     {
       "url" : "rekrutierungsstand",
-      "valueInteger" : 10000
+      "valueUnsignedInt" : 10000
     },
     {
       "url" : "rekrutierungsstand-genauigkeit",

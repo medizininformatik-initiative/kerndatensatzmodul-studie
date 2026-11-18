@@ -147,11 +147,11 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
     },
     {
       "url" : "rekrutierungsziel",
-      "valueInteger" : 10000
+      "valueUnsignedInt" : 10000
     },
     {
       "url" : "rekrutierungsstand",
-      "valueInteger" : 10000
+      "valueUnsignedInt" : 10000
     },
     {
       "url" : "rekrutierungsstand-genauigkeit",

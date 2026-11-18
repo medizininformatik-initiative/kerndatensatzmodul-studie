@@ -1037,6 +1037,24 @@
           </extension>
         </extension>
       </definition>
+      <comment value="Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt.">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="de"/>
+          </extension>
+          <extension url="content">
+            <valueString value="Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt."/>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="en"/>
+          </extension>
+          <extension url="content">
+            <valueString value="This extension corresponds to the FHIR R5 element ResearchStudy.recruitment: rekrutierungsziel maps to recruitment.targetNumber, rekrutierungsstand maps to recruitment.actualNumber. rekrutierungsstart, rekrutierungsstand-datum and rekrutierungsstand-genauigkeit have no R5 equivalent. The extension researchStudy-siteRecruitment from the FHIR Extensions Pack is not an equivalent, as it describes the number of study sites rather than the number of participants."/>
+          </extension>
+        </extension>
+      </comment>
       <min value="0"/>
       <max value="1"/>
       <base>

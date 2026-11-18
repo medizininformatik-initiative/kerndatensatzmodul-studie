@@ -755,6 +755,7 @@
       "sliceName" : "Rekrutierung",
       "short" : "MII EX Studie Rekrutierung",
       "definition" : "Optional Extension Element - found in all resources.",
+      "comment" : "This extension corresponds to the FHIR R5 element ResearchStudy.recruitment: rekrutierungsziel maps to recruitment.targetNumber, rekrutierungsstand maps to recruitment.actualNumber. rekrutierungsstart, rekrutierungsstand-datum and rekrutierungsstand-genauigkeit have no R5 equivalent. The extension researchStudy-siteRecruitment from the FHIR Extensions Pack is not an equivalent, as it describes the number of study sites rather than the number of participants.",
       "min" : 0,
       "max" : "1",
       "base" : {
