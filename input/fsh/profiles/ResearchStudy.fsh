@@ -244,9 +244,24 @@ Description: "Extension zur Abbildung des Rekrutierungsstands eines Forschungsvo
 * extension contains rekrutierungsstand-datum 0..1 MS and rekrutierungsstand-genauigkeit 0..1 MS and rekrutierungsstand 0..1 MS and rekrutierungsziel 0..1 MS and rekrutierungsstart 0..1 MS
 * extension[rekrutierungsstand-datum].value[x] only date
 * extension[rekrutierungsstand-genauigkeit].value[x] only string
-* extension[rekrutierungsstand].value[x] only integer
-* extension[rekrutierungsziel].value[x] only integer
+* extension[rekrutierungsstand].value[x] only unsignedInt
+* extension[rekrutierungsziel].value[x] only unsignedInt
 * extension[rekrutierungsstart].value[x] only date
+* . ^comment = "Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt."
+* insert Translation(. ^comment, de, Fachlich entspricht diese Extension dem FHIR-R5-Element ResearchStudy.recruitment: rekrutierungsziel entspricht recruitment.targetNumber\, rekrutierungsstand entspricht recruitment.actualNumber. Für rekrutierungsstart\, rekrutierungsstand-datum und rekrutierungsstand-genauigkeit gibt es in R5 keine Entsprechung. Die Extension researchStudy-siteRecruitment aus dem FHIR Extensions Pack ist kein Äquivalent\, da sie die Anzahl der Studienzentren und nicht die der Teilnehmenden beschreibt.)
+* insert Translation(. ^comment, en, This extension corresponds to the FHIR R5 element ResearchStudy.recruitment: rekrutierungsziel maps to recruitment.targetNumber\, rekrutierungsstand maps to recruitment.actualNumber. rekrutierungsstart\, rekrutierungsstand-datum and rekrutierungsstand-genauigkeit have no R5 equivalent. The extension researchStudy-siteRecruitment from the FHIR Extensions Pack is not an equivalent\, as it describes the number of study sites rather than the number of participants.)
+* extension[rekrutierungsziel] ^short = "Angestrebte Anzahl Teilnehmender"
+* insert Translation(extension[rekrutierungsziel] ^short, de, Angestrebte Anzahl Teilnehmender)
+* insert Translation(extension[rekrutierungsziel] ^short, en, Target number of participants)
+* extension[rekrutierungsziel] ^comment = "Entspricht ResearchStudy.recruitment.targetNumber in FHIR R5."
+* insert Translation(extension[rekrutierungsziel] ^comment, de, Entspricht ResearchStudy.recruitment.targetNumber in FHIR R5.)
+* insert Translation(extension[rekrutierungsziel] ^comment, en, Corresponds to ResearchStudy.recruitment.targetNumber in FHIR R5.)
+* extension[rekrutierungsstand] ^short = "Bisher rekrutierte Anzahl Teilnehmender"
+* insert Translation(extension[rekrutierungsstand] ^short, de, Bisher rekrutierte Anzahl Teilnehmender)
+* insert Translation(extension[rekrutierungsstand] ^short, en, Number of participants recruited so far)
+* extension[rekrutierungsstand] ^comment = "Entspricht ResearchStudy.recruitment.actualNumber in FHIR R5. Der Stichtag wird in rekrutierungsstand-datum angegeben."
+* insert Translation(extension[rekrutierungsstand] ^comment, de, Entspricht ResearchStudy.recruitment.actualNumber in FHIR R5. Der Stichtag wird in rekrutierungsstand-datum angegeben.)
+* insert Translation(extension[rekrutierungsstand] ^comment, en, Corresponds to ResearchStudy.recruitment.actualNumber in FHIR R5. The reference date is given in rekrutierungsstand-datum.)
 
 Extension: MII_EX_Studie_Finanzierung
 Id: mii-ex-studie-finanzierung
@@ -560,8 +575,8 @@ Usage: #example
 * extension[Label][=].extension[type].valueCodeableConcept.text = "Öffentlicher Titel"
 * extension[Akronym].valueString = "tDCS"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2023-01-12"
-* extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 40
-* extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 35
+* extension[Rekrutierung].extension[rekrutierungsziel].valueUnsignedInt = 40
+* extension[Rekrutierung].extension[rekrutierungsstand].valueUnsignedInt = 35
 * extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
 * extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2023-02-17"
 * extension[Finanzierung].valueString = "Öffentliche Förderinstitutionen, aus Steuermitteln getragene Institutionen (DFG, BMBF u. a.)"

@@ -319,11 +319,11 @@
               },
               {
                 "url": "rekrutierungsziel",
-                "valueInteger": 40
+                "valueUnsignedInt": 40
               },
               {
                 "url": "rekrutierungsstand",
-                "valueInteger": 35
+                "valueUnsignedInt": 35
               },
               {
                 "url": "rekrutierungsstand-genauigkeit",
@@ -485,11 +485,11 @@
               },
               {
                 "url": "rekrutierungsziel",
-                "valueInteger": 10000
+                "valueUnsignedInt": 10000
               },
               {
                 "url": "rekrutierungsstand",
-                "valueInteger": 10000
+                "valueUnsignedInt": 10000
               },
               {
                 "url": "rekrutierungsstand-genauigkeit",

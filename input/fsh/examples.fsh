@@ -121,8 +121,8 @@ Usage: #example
 * extension[Eligibility].valueReference = Reference(mii-exa-studie-ein-auschluss-kriterium)
 * extension[Akronym].valueString = "LIFE ADULT"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2009-01-01"
-* extension[Rekrutierung].extension[rekrutierungsziel].valueInteger = 10000
-* extension[Rekrutierung].extension[rekrutierungsstand].valueInteger = 10000
+* extension[Rekrutierung].extension[rekrutierungsziel].valueUnsignedInt = 10000
+* extension[Rekrutierung].extension[rekrutierungsstand].valueUnsignedInt = 10000
 * extension[Rekrutierung].extension[rekrutierungsstand-genauigkeit].valueString = "good"
 * extension[Rekrutierung].extension[rekrutierungsstand-datum].valueDate = "2022-05-28"
 * extension[Finanzierung].valueString = "Deutsches Bundesministerium für Bildung und Forschung (BMBF)"
