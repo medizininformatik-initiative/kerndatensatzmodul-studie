@@ -7,7 +7,7 @@
 <html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>MII PR Studie Beteiligte Person - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot</title>
+    <title>MII PR Studie Rolle beteiligte Person - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -68,8 +68,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"18.19"}
-    h3,h4,h5,h6{--heading-prefix:"18.19"}</style>
+    <style type="text/css">h2{--heading-prefix:"18.23"}
+    h3,h4,h5,h6{--heading-prefix:"18.23"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -260,7 +260,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artefaktübersicht</b></a></li><li><b>MII PR Studie Beteiligte Person</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artefaktübersicht</b></a></li><li><b>MII PR Studie Rolle beteiligte Person</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -346,7 +346,7 @@
 
   <h2 id="root">Ressourcenprofil:
 
-MII PR Studie Beteiligte Person
+MII PR Studie Rolle beteiligte Person
 
 
 
@@ -386,7 +386,7 @@ MII PR Studie Beteiligte Person
 
 
 
-      <td><i>Maschinenlesbarer Name</i>: <span style="font-family: monospace;">MII_PR_Studie_Beteiligte_Person</span></td>
+      <td><i>Maschinenlesbarer Name</i>: <span style="font-family: monospace;">MII_PR_Studie_Rolle_Beteiligte_Person</span></td>
     </tr>
 
 
@@ -395,7 +395,7 @@ MII PR Studie Beteiligte Person
   </table>
 
 <p>
-<p>Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.</p>
+<p>Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.</p>
 
 </p>
 
@@ -411,13 +411,13 @@ MII PR Studie Beteiligte Person
      directives crosswalked: profile-metadata FQL + diff/snapshot trees removed —
      the artifact page renders them natively; Suchparameter section moved to
      search-parameters.md per migration-log/page-map.tsv -->
-<h2 id="beteiligte-person-practitionerrole">Beteiligte Person (PractitionerRole)</h2>
+<h2 id="rolle-beteiligte-person-practitionerrole">Rolle beteiligte Person (PractitionerRole)</h2>
 
 <hr />
 
 <p><strong>Beschreibung</strong></p>
 
-<p>Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.</p>
+<p>Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.</p>
 
 <hr />
 
@@ -610,7 +610,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint">ContactPoint</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Kontaktdaten, die spezifisch für die Rolle/den Standort/die Dienstleistung sind.<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5ddf709c-eadb-4727-b3ae-9cdc06888a01
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
 document.getElementById('cbmii-pr-studie-beteiligte-personK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-pr-studie-beteiligte-personK'), 'binding', document.getElementById('cbmii-pr-studie-beteiligte-personK-binding').checked, document.getElementById('ppmii-pr-studie-beteiligte-personK'));
 document.getElementById('cbmii-pr-studie-beteiligte-personK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -791,7 +791,7 @@ filterDesc(document.getElementById('mii-pr-studie-beteiligte-personK'), 'obligat
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint">ContactPoint</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Kontaktdaten, die spezifisch für die Rolle/den Standort/die Dienstleistung sind.</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5ddf709c-eadb-4727-b3ae-9cdc06888a01
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
 document.getElementById('cbmii-pr-studie-beteiligte-personD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-pr-studie-beteiligte-personD'), 'binding', document.getElementById('cbmii-pr-studie-beteiligte-personD-binding').checked, document.getElementById('ppmii-pr-studie-beteiligte-personD'));
 document.getElementById('cbmii-pr-studie-beteiligte-personD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1001,7 +1001,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/endpoint.html">Endpoint</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Technical endpoints providing access to services operated for the practitioner with this role<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5ddf709c-eadb-4727-b3ae-9cdc06888a01
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
 document.getElementById('cbmii-pr-studie-beteiligte-personS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-pr-studie-beteiligte-personS'), 'binding', document.getElementById('cbmii-pr-studie-beteiligte-personS-binding').checked, document.getElementById('ppmii-pr-studie-beteiligte-personS'));
 document.getElementById('cbmii-pr-studie-beteiligte-personS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1214,7 +1214,7 @@ filterDesc(document.getElementById('mii-pr-studie-beteiligte-personS'), 'obligat
     <div id="tabs-json">
       <div id="json">
         <div id="json-inner">
-           // <span style="color: navy; opacity: 0.8">MII PR Studie Beteiligte Person</span>
+           // <span style="color: navy; opacity: 0.8">MII PR Studie Rolle beteiligte Person</span>
  {
    "resourceType" : "PractitionerRole",
     "<a href="StructureDefinition-mii-pr-studie-beteiligte-person.html#PractitionerRole.id" title="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes" class="dict"><span style="text-decoration: underline">id</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#id">id</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Logical id of this artifact</span>
@@ -1319,7 +1319,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint">ContactPoint</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Kontaktdaten, die spezifisch für die Rolle/den Standort/die Dienstleistung sind.<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5ddf709c-eadb-4727-b3ae-9cdc06888a01
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
 document.getElementById('cbmii-pr-studie-beteiligte-personKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-pr-studie-beteiligte-personKA'), 'binding', document.getElementById('cbmii-pr-studie-beteiligte-personKA-binding').checked, document.getElementById('ppmii-pr-studie-beteiligte-personKA'));
 document.getElementById('cbmii-pr-studie-beteiligte-personKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1499,7 +1499,7 @@ filterDesc(document.getElementById('mii-pr-studie-beteiligte-personKA'), 'obliga
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint">ContactPoint</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Kontaktdaten, die spezifisch für die Rolle/den Standort/die Dienstleistung sind.</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5ddf709c-eadb-4727-b3ae-9cdc06888a01
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
 document.getElementById('cbmii-pr-studie-beteiligte-personDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-pr-studie-beteiligte-personDA'), 'binding', document.getElementById('cbmii-pr-studie-beteiligte-personDA-binding').checked, document.getElementById('ppmii-pr-studie-beteiligte-personDA'));
 document.getElementById('cbmii-pr-studie-beteiligte-personDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1706,7 +1706,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/endpoint.html">Endpoint</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Technical endpoints providing access to services operated for the practitioner with this role<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5ddf709c-eadb-4727-b3ae-9cdc06888a01
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
 document.getElementById('cbmii-pr-studie-beteiligte-personSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-pr-studie-beteiligte-personSA'), 'binding', document.getElementById('cbmii-pr-studie-beteiligte-personSA-binding').checked, document.getElementById('ppmii-pr-studie-beteiligte-personSA'));
 document.getElementById('cbmii-pr-studie-beteiligte-personSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1917,7 +1917,7 @@ filterDesc(document.getElementById('mii-pr-studie-beteiligte-personSA'), 'obliga
           <b>JSON-Template</b>
         </p>
         <div id="all-json-inner">
-           // <span style="color: navy; opacity: 0.8">MII PR Studie Beteiligte Person</span>
+           // <span style="color: navy; opacity: 0.8">MII PR Studie Rolle beteiligte Person</span>
  {
    "resourceType" : "PractitionerRole",
     "<a href="StructureDefinition-mii-pr-studie-beteiligte-person.html#PractitionerRole.id" title="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes" class="dict"><span style="text-decoration: underline">id</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#id">id</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: navy; opacity: 0.8">Logical id of this artifact</span>
@@ -2012,7 +2012,7 @@ Summary
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Wed, Nov 18, 2026 15:46+0000">2026-11-18</span>
+          Erstellt <span title="Thu, Nov 19, 2026 12:57+0000">2026-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

@@ -40,7 +40,7 @@
 
 ### Resource Profiles
 
-* [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md)
+* [MII PR Studie Rolle beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md)
 * [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md)
 * [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md)
 * [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.md)

@@ -526,7 +526,7 @@
     }
   },
   {
-    "fullUrl" : "https://www.medizininformatik-initiative.de/MII_PR_Studie_Beteiligte_Person/mii-exa-studie-beteiligte-person",
+    "fullUrl" : "https://www.medizininformatik-initiative.de/MII_PR_Studie_Rolle_Beteiligte_Person/mii-exa-studie-beteiligte-person",
     "resource" : {
       "resourceType" : "PractitionerRole",
       "id" : "mii-exa-studie-beteiligte-person",
@@ -540,7 +540,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"PractitionerRole_mii-exa-studie-beteiligte-person\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole mii-exa-studie-beteiligte-person</b></p><a name=\"mii-exa-studie-beteiligte-person\"> </a><a name=\"hcmii-exa-studie-beteiligte-person\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-beteiligte-person.html\">MII PR Studie Beteiligte Person</a></p><p style=\"margin-bottom: 0px\">Security Label: <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html\">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>practitioner</b>: <a href=\"Practitioner-mii-exa-studie-practitioner.html\">Practitioner Max Mustermann </a></p><p><b>organization</b>: <a href=\"Organization-mii-exa-studie-practitioner-organization.html\">Organization Example Organization for Practitioner</a></p><p><b>code</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/practitioner-role doctor}\">Doctor</span></p><p><b>telecom</b>: ph: 0123456789</p></div></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"PractitionerRole_mii-exa-studie-beteiligte-person\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole mii-exa-studie-beteiligte-person</b></p><a name=\"mii-exa-studie-beteiligte-person\"> </a><a name=\"hcmii-exa-studie-beteiligte-person\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-studie-beteiligte-person.html\">MII PR Studie Rolle beteiligte Person</a></p><p style=\"margin-bottom: 0px\">Security Label: <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html\">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>practitioner</b>: <a href=\"Practitioner-mii-exa-studie-practitioner.html\">Practitioner Max Mustermann </a></p><p><b>organization</b>: <a href=\"Organization-mii-exa-studie-practitioner-organization.html\">Organization Example Organization for Practitioner</a></p><p><b>code</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/practitioner-role doctor}\">Doctor</span></p><p><b>telecom</b>: ph: 0123456789</p></div></div>"
       },
       "practitioner" : {
         "reference" : "Practitioner/mii-exa-studie-practitioner"
@@ -561,7 +561,7 @@
     },
     "request" : {
       "method" : "POST",
-      "url" : "MII_PR_Studie_Beteiligte_Person"
+      "url" : "MII_PR_Studie_Rolle_Beteiligte_Person"
     }
   },
   {
@@ -579,7 +579,7 @@
       },
       "text" : {
         "status" : "extensions",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-e8e11e6a-0a5b-40b2-ba90-98c6d0b9771b.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-866851eb-4e5c-49f9-bb3b-698b13631086.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",

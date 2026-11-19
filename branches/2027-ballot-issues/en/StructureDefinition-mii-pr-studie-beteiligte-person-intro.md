@@ -3,13 +3,13 @@
      the artifact page renders them natively; Suchparameter section moved to
      search-parameters.md per migration-log/page-map.tsv;
      owner-authored translation from the 2027-EN guide tree -->
-## Involved Person (PractitionerRole)
+## Involved Person Role (PractitionerRole)
 
 ---
 
 **Description**
 
-This profile describes an involved person within a study in the Medical Informatics Initiative.
+This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative.
 
 
 

@@ -12,7 +12,7 @@
 
 -------
 
-Profile: [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md)
+Profile: [MII PR Studie Rolle beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md)
 
 Security Label: [test health data (Details: ActReason code HTEST = 'test health data')](http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html)
 

@@ -1963,22 +1963,6 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-mii-pr-studie-beteiligte-person.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/mii-pr-studie-beteiligte-person"
-      },
-      "name" : "MII PR Studie Beteiligte Person",
-      "description" : "Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "StructureDefinition-mii-pr-studie-dokument.html"
       }],
       "reference" : {
@@ -2034,6 +2018,22 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
       },
       "name" : "MII PR Studie Register",
       "description" : "Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-studie-beteiligte-person.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-studie-beteiligte-person"
+      },
+      "name" : "MII PR Studie Rolle beteiligte Person",
+      "description" : "Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.",
       "exampleBoolean" : false
     },
     {

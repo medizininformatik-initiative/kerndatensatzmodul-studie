@@ -429,7 +429,7 @@
     "PractitionerRole": [
       {
         "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
-        "title": "MII PR Studie Beteiligte Person"
+        "title": "MII PR Studie Rolle beteiligte Person"
       }
     ],
     "DocumentReference": [

@@ -17,7 +17,7 @@
 | [mii-exa-studie-dokument](DocumentReference-mii-exa-studie-dokument.md) | [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md) | Document/publication related to the study. |
 | [mii-exa-studie-ein-auschluss-kriterium](EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.md) | [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md) | Inclusion and exclusion criteria of the study (age, sex, pre-existing conditions). |
 | [mii-exa-studie-register](Library-mii-exa-studie-register.md) | [MII PR Studie Register](StructureDefinition-mii-pr-studie-register.md) | Research registry "DRKS - German Clinical Trials Register". |
-| [mii-exa-studie-beteiligte-person](PractitionerRole-mii-exa-studie-beteiligte-person.md) | [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md) | Person involved in the study in the role "doctor". |
+| [mii-exa-studie-beteiligte-person](PractitionerRole-mii-exa-studie-beteiligte-person.md) | [MII PR Studie Rolle beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md) | Person involved in the study in the role "doctor". |
 | [mii-exa-studie-proband](ResearchSubject-mii-exa-studie-proband.md) | [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.md) | Research subject with status "candidate" in the study. |
 | [mii-exa-studie-studieneinschluss-anfrage](ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.md) | [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.md) | Request to include a patient in the study. |
 

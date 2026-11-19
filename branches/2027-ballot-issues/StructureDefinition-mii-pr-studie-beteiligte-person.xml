@@ -153,14 +153,14 @@
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"/>
   <version value="2027.0.0-ballot"/>
-  <name value="MII_PR_Studie_Beteiligte_Person"/>
-  <title value="MII PR Studie Beteiligte Person">
+  <name value="MII_PR_Studie_Rolle_Beteiligte_Person"/>
+  <title value="MII PR Studie Rolle beteiligte Person">
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
       <extension url="lang">
         <valueCode value="de"/>
       </extension>
       <extension url="content">
-        <valueString value="MII PR Studie Beteiligte Person"/>
+        <valueString value="MII PR Studie Rolle beteiligte Person"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -168,7 +168,7 @@
         <valueCode value="en"/>
       </extension>
       <extension url="content">
-        <valueString value="MII PR Study Participant"/>
+        <valueString value="MII PR Study Involved Person Role"/>
       </extension>
     </extension>
   </title>
@@ -183,13 +183,13 @@
       <value value="https://www.netzwerk-universitaetsmedizin.de"/>
     </telecom>
   </contact>
-  <description value="Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.">
+  <description value="Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.">
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
       <extension url="lang">
         <valueCode value="de"/>
       </extension>
       <extension url="content">
-        <valueString value="Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative."/>
+        <valueString value="Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative."/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/translation">
@@ -197,7 +197,7 @@
         <valueCode value="en"/>
       </extension>
       <extension url="content">
-        <valueString value="This profile describes a participant within a study in the Medical Informatics Initiative."/>
+        <valueString value="This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative."/>
       </extension>
     </extension>
   </description>

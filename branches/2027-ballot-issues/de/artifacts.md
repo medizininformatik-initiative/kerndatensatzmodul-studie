@@ -52,11 +52,11 @@ Diese definieren Einschränkungen für FHIR-Ressourcen für Systeme, die mit dem
 
 | | |
 | :--- | :--- |
-| [ MII PR Studie Beteiligte Person  ](StructureDefinition-mii-pr-studie-beteiligte-person.md) | Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative. |
 | [ MII PR Studie Dokument  ](StructureDefinition-mii-pr-studie-dokument.md) | Dieses Profil beschreibt ein Dokument / Publikation in der Medizininformatik-Initiative. |
 | [ MII PR Studie EinAuschlussKriterium  ](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md) | Dieses Profil beschreibt ein Ein- und Auschlusskriterium innerhalb einer Studie in der Medizininformatik-Initiative. |
 | [ MII PR Studie Proband  ](StructureDefinition-mii-pr-studie-proband.md) | Dieses Profil beschreibt eine Proband*in in der Medizininformatik-Initiative. |
 | [ MII PR Studie Register  ](StructureDefinition-mii-pr-studie-register.md) | Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative. |
+| [ MII PR Studie Rolle beteiligte Person  ](StructureDefinition-mii-pr-studie-beteiligte-person.md) | Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative. |
 | [ MII PR Studie Studie  ](StructureDefinition-mii-pr-studie-studie.md) | Dieses Profil beschreibt eine Studie in der Medizininformatik-Initiative. |
 | [ MII PR Studie Studieneinschluss Anfrage  ](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.md) | Anfrage zum Studieneinschluss |
 

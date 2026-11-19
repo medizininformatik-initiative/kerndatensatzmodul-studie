@@ -166,8 +166,8 @@
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
   "version" : "2027.0.0-ballot",
-  "name" : "MII_PR_Studie_Beteiligte_Person",
-  "title" : "MII PR Study Participant",
+  "name" : "MII_PR_Studie_Rolle_Beteiligte_Person",
+  "title" : "MII PR Study Involved Person Role",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-01-09",
@@ -179,7 +179,7 @@
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "This profile describes a participant within a study in the Medical Informatics Initiative.",
+  "description" : "This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -15,7 +15,7 @@
 | [mii-exa-studie-dokument](DocumentReference-mii-exa-studie-dokument.md) | [MII PR Studie Dokument](StructureDefinition-mii-pr-studie-dokument.md) | Dokument/Publikation zur Studie. |
 | [mii-exa-studie-ein-auschluss-kriterium](EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.md) | [MII PR Studie EinAuschlussKriterium](StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.md) | Ein- und Ausschlusskriterien der Studie (Alter, Geschlecht, Vorerkrankungen). |
 | [mii-exa-studie-register](Library-mii-exa-studie-register.md) | [MII PR Studie Register](StructureDefinition-mii-pr-studie-register.md) | Forschungsregister „DRKS - Deutsches Register Klinischer Studien". |
-| [mii-exa-studie-beteiligte-person](PractitionerRole-mii-exa-studie-beteiligte-person.md) | [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md) | An der Studie beteiligte Person in der Rolle „doctor". |
+| [mii-exa-studie-beteiligte-person](PractitionerRole-mii-exa-studie-beteiligte-person.md) | [MII PR Studie Rolle beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.md) | An der Studie beteiligte Person in der Rolle „doctor". |
 | [mii-exa-studie-proband](ResearchSubject-mii-exa-studie-proband.md) | [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.md) | Proband*in mit Status „candidate" in der Studie. |
 | [mii-exa-studie-studieneinschluss-anfrage](ServiceRequest-mii-exa-studie-studieneinschluss-anfrage.md) | [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.md) | Anfrage zum Einschluss eines Patienten in die Studie. |
 

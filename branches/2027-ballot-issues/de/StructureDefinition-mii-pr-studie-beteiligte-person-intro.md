@@ -2,13 +2,13 @@
      directives crosswalked: profile-metadata FQL + diff/snapshot trees removed —
      the artifact page renders them natively; Suchparameter section moved to
      search-parameters.md per migration-log/page-map.tsv -->
-## Beteiligte Person (PractitionerRole)
+## Rolle beteiligte Person (PractitionerRole)
 
 ---
 
 **Beschreibung**
 
-Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.
+Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.
 
 
 

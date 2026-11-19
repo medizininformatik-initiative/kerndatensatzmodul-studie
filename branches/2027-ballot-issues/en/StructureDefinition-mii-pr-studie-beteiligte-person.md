@@ -1,26 +1,26 @@
-# MII PR Studie Beteiligte Person - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
+# MII PR Studie Rolle beteiligte Person - MII Implementation Guide Medizinisches Forschungsvorhaben v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **MII PR Studie Beteiligte Person**
+* **MII PR Studie Rolle beteiligte Person**
 
-## Resource Profile: MII PR Studie Beteiligte Person 
+## Resource Profile: MII PR Studie Rolle beteiligte Person 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person | *Version*:2027.0.0-ballot |
-| Active as of 2026-01-09 | *Computable Name*:MII_PR_Studie_Beteiligte_Person |
+| Active as of 2026-01-09 | *Computable Name*:MII_PR_Studie_Rolle_Beteiligte_Person |
 
  
-This profile describes a participant within a study in the Medical Informatics Initiative. 
+This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative. 
 
-## Involved Person (PractitionerRole)
+## Involved Person Role (PractitionerRole)
 
 -------
 
 **Description**
 
-This profile describes an involved person within a study in the Medical Informatics Initiative.
+This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative.
 
 -------
 
@@ -242,8 +242,8 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person",
   "version" : "2027.0.0-ballot",
-  "name" : "MII_PR_Studie_Beteiligte_Person",
-  "title" : "MII PR Studie Beteiligte Person",
+  "name" : "MII_PR_Studie_Rolle_Beteiligte_Person",
+  "title" : "MII PR Studie Rolle beteiligte Person",
   "_title" : {
     "extension" : [{
       "extension" : [{
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
       },
       {
         "url" : "content",
-        "valueString" : "MII PR Studie Beteiligte Person"
+        "valueString" : "MII PR Studie Rolle beteiligte Person"
       }],
       "url" : "http://hl7.org/fhir/StructureDefinition/translation"
     },
@@ -263,7 +263,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
       },
       {
         "url" : "content",
-        "valueString" : "MII PR Study Participant"
+        "valueString" : "MII PR Study Involved Person Role"
       }],
       "url" : "http://hl7.org/fhir/StructureDefinition/translation"
     }]
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.",
+  "description" : "Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.",
   "_description" : {
     "extension" : [{
       "extension" : [{
@@ -288,7 +288,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
       },
       {
         "url" : "content",
-        "valueString" : "Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative."
+        "valueString" : "Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative."
       }],
       "url" : "http://hl7.org/fhir/StructureDefinition/translation"
     },
@@ -299,7 +299,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
       },
       {
         "url" : "content",
-        "valueString" : "This profile describes a participant within a study in the Medical Informatics Initiative."
+        "valueString" : "This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative."
       }],
       "url" : "http://hl7.org/fhir/StructureDefinition/translation"
     }]

@@ -149,8 +149,8 @@
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"/>
   <version value="2027.0.0-ballot"/>
-  <name value="MII_PR_Studie_Beteiligte_Person"/>
-  <title value="MII PR Studie Beteiligte Person"/>
+  <name value="MII_PR_Studie_Rolle_Beteiligte_Person"/>
+  <title value="MII PR Studie Rolle beteiligte Person"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2026-01-09"/>
@@ -162,7 +162,7 @@
       <value value="https://www.netzwerk-universitaetsmedizin.de"/>
     </telecom>
   </contact>
-  <description value="Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative."/>
+  <description value="Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
