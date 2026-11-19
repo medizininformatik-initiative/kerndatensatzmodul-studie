@@ -83,13 +83,24 @@ Description: "Dieses Profil beschreibt eine Studie in der Medizininformatik-Init
 * extension[MII_EX_Studie_Studienregister] ^definition = "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
 * insert Translation(extension[MII_EX_Studie_Studienregister] ^definition, de, Optionales Erweiterungselement – in allen Ressourcen vorhanden.)
 * insert Translation(extension[MII_EX_Studie_Studienregister] ^definition, en, Optional Extension Element - found in all resources.)
-* extension contains MII_EX_Studie_Eligibility named Eligibility 0..1 MS
-* extension[MII_EX_Studie_Eligibility] ^short = "Eligibility"
-* insert Translation(extension[MII_EX_Studie_Eligibility] ^short, de, MII EX Studie Eligibility)
-* insert Translation(extension[MII_EX_Studie_Eligibility] ^short, en, MII EX Studie Eligibility)
-* extension[MII_EX_Studie_Eligibility] ^definition = "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
-* insert Translation(extension[MII_EX_Studie_Eligibility] ^definition, de, Optionales Erweiterungselement – in allen Ressourcen vorhanden.)
-* insert Translation(extension[MII_EX_Studie_Eligibility] ^definition, en, Optional Extension Element - found in all resources.)
+* extension contains MII_EX_Studie_Backport_Recruitment_Eligibility named RecruitmentEligibility 0..1 MS
+* extension[MII_EX_Studie_Backport_Recruitment_Eligibility] ^short = "RecruitmentEligibility"
+* insert Translation(extension[MII_EX_Studie_Backport_Recruitment_Eligibility] ^short, de, MII EX Studie Backport Recruitment Eligibility)
+* insert Translation(extension[MII_EX_Studie_Backport_Recruitment_Eligibility] ^short, en, MII EX Studie Backport Recruitment Eligibility)
+* extension[MII_EX_Studie_Backport_Recruitment_Eligibility] ^definition = "Ein- und Ausschlusskriterien des Forschungsvorhabens als R5-Backport von ResearchStudy.recruitment.eligibility. Ersetzt die abgekündigte Extension MII EX Studie Eligibility."
+* insert Translation(extension[MII_EX_Studie_Backport_Recruitment_Eligibility] ^definition, de, Ein- und Ausschlusskriterien des Forschungsvorhabens als R5-Backport von ResearchStudy.recruitment.eligibility. Ersetzt die abgekündigte Extension MII EX Studie Eligibility.)
+* insert Translation(extension[MII_EX_Studie_Backport_Recruitment_Eligibility] ^definition, en, Inclusion and exclusion criteria of the research study as R5 backport of ResearchStudy.recruitment.eligibility. Replaces the deprecated extension MII EX Studie Eligibility.)
+* extension contains MII_EX_Studie_Eligibility named Eligibility 0..1
+* extension[MII_EX_Studie_Eligibility] ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status].valueCode = #deprecated
+* extension[MII_EX_Studie_Eligibility] ^short = "Eligibility (abgekündigt)"
+* insert Translation(extension[MII_EX_Studie_Eligibility] ^short, de, MII EX Studie Eligibility - abgekündigt)
+* insert Translation(extension[MII_EX_Studie_Eligibility] ^short, en, MII EX Studie Eligibility - deprecated)
+* extension[MII_EX_Studie_Eligibility] ^definition = "Abgekündigt: Bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen extension:RecruitmentEligibility zu verwenden."
+* insert Translation(extension[MII_EX_Studie_Eligibility] ^definition, de, Abgekündigt: Bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen extension:RecruitmentEligibility zu verwenden.)
+* insert Translation(extension[MII_EX_Studie_Eligibility] ^definition, en, Deprecated: retained for compatibility only. New data should use extension:RecruitmentEligibility instead.)
+* enrollment ^comment = "Soll nicht verwendet werden. Ein- und Ausschlusskriterien sind über extension:RecruitmentEligibility anzugeben, die neben Group auch EvidenceVariable erlaubt."
+* insert Translation(enrollment ^comment, de, Soll nicht verwendet werden. Ein- und Ausschlusskriterien sind über extension:RecruitmentEligibility anzugeben\, die neben Group auch EvidenceVariable erlaubt.)
+* insert Translation(enrollment ^comment, en, Should not be used. Inclusion and exclusion criteria are to be provided via extension:RecruitmentEligibility\, which allows EvidenceVariable in addition to Group.)
 * extension contains MII_EX_Studie_Akronym named Akronym 0..1 MS
 * extension[MII_EX_Studie_Akronym] ^short = "Akronym"
 * insert Translation(extension[MII_EX_Studie_Akronym] ^short, de, MII EX Studie Akronym)
@@ -191,6 +202,38 @@ Description: "Extension zur Referenzierung der Ein- und Ausschlusskriterien des 
 * insert CRMIArtifactContributors
 * ^experimental = false
 * ^date = "2026-01-09"
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status].valueCode = #deprecated
+* . ^comment = "Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility."
+* insert Translation(. ^comment, de, Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden\, der R5-Backport von ResearchStudy.recruitment.eligibility.)
+* insert Translation(. ^comment, en, Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead\, the R5 backport of ResearchStudy.recruitment.eligibility.)
+* value[x] only Reference(Group or EvidenceVariable)
+
+Extension: MII_EX_Studie_Backport_Recruitment_Eligibility
+Id: mii-ex-studie-backport-recruitment-eligibility
+Title: "MII EX Studie Backport Recruitment Eligibility"
+Context: ResearchStudy
+Description: "R5-Backport des Elements ResearchStudy.recruitment.eligibility zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4."
+* insert Translation(^description, de, R5-Backport des Elements ResearchStudy.recruitment.eligibility zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4.)
+* insert Translation(^description, en, R5 backport of the ResearchStudy.recruitment.eligibility element referencing the inclusion and exclusion criteria of a research study in FHIR R4.)
+* insert PR_CS_VS_Version
+* insert Publisher
+* insert LicenseCodeableCCBY40
+* insert CRMIShareableStructureDefinition
+* insert CRMIPublishableStructureDefinition
+* insert CRMIKnowledgeCapabilitiesStructureDefinition
+* insert CRMIVersionPolicyStrict
+* insert CRMIPackageSourceDefinitionalResource
+* insert CRMIArtifactUsageExtension
+* insert CRMIResourceEffectivePeriod
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15206)
+* insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
+* insert CRMIArtifactContributors
+* ^experimental = false
+* ^url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-wg].valueCode = #brr
+* . ^comment = "Das R4-Element ResearchStudy.enrollment erlaubt nur Referenzen auf Group. Da die Ein- und Ausschlusskriterien in diesem Modul als EvidenceVariable abgebildet werden, wird stattdessen dieser Backport verwendet."
+* insert Translation(. ^comment, de, Das R4-Element ResearchStudy.enrollment erlaubt nur Referenzen auf Group. Da die Ein- und Ausschlusskriterien in diesem Modul als EvidenceVariable abgebildet werden\, wird stattdessen dieser Backport verwendet.)
+* insert Translation(. ^comment, en, The R4 element ResearchStudy.enrollment only allows references to Group. As the inclusion and exclusion criteria are represented as EvidenceVariable in this module\, this backport is used instead.)
 * value[x] only Reference(Group or EvidenceVariable)
 
 Extension: MII_EX_Studie_Akronym

@@ -118,7 +118,7 @@ Usage: #example
 * extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
 * extension[Ethikvotum].extension[ethiknummer].valueString = "159-12-21052012"
 * extension[Studienregister].valueReference = Reference(mii-exa-studie-register)
-* extension[Eligibility].valueReference = Reference(mii-exa-studie-ein-auschluss-kriterium)
+* extension[RecruitmentEligibility].valueReference = Reference(mii-exa-studie-ein-auschluss-kriterium)
 * extension[Akronym].valueString = "LIFE ADULT"
 * extension[Rekrutierung].extension[rekrutierungsstart].valueDate = "2009-01-01"
 * extension[Rekrutierung].extension[rekrutierungsziel].valueUnsignedInt = 10000

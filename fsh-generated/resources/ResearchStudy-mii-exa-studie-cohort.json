@@ -69,7 +69,7 @@
       }
     },
     {
-      "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility",
       "valueReference": {
         "reference": "EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium"
       }

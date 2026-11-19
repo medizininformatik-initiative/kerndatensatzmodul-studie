@@ -17,6 +17,7 @@
 [MII_EX_Studie_Backport_definitionReference]: StructureDefinition-mii-ex-studie-backport-definitionReference.html
 [MII_EX_Studie_Backport_Label]: StructureDefinition-mii-ex-studie-backport-label.html
 [MII_EX_Studie_Backport_linkId]: StructureDefinition-mii-ex-studie-backport-linkId.html
+[MII_EX_Studie_Backport_Recruitment_Eligibility]: StructureDefinition-mii-ex-studie-backport-recruitment-eligibility.html
 [MII_EX_Studie_Eligibility]: StructureDefinition-mii-ex-studie-eligibility.html
 [MII_EX_Studie_Ethikvotum]: StructureDefinition-mii-ex-studie-ethikvotum.html
 [MII_EX_Studie_Finanzierung]: StructureDefinition-mii-ex-studie-finanzierung.html

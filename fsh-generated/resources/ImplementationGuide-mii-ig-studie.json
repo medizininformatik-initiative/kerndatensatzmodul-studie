@@ -414,6 +414,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-ex-studie-backport-recruitment-eligibility"
+        },
+        "name": "MII EX Studie Backport Recruitment Eligibility",
+        "description": "R5-Backport des Elements ResearchStudy.recruitment.eligibility zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-ex-studie-eligibility"
         },
         "name": "MII EX Studie Eligibility",
@@ -932,6 +940,10 @@
       {
         "code": "special-url",
         "value": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+      },
+      {
+        "code": "special-url",
+        "value": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"
       },
       {
         "code": "special-url",
