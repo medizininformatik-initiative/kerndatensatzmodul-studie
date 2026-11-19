@@ -9,10 +9,10 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.org/fhir/CodeSystem/research-study-category | *Version*:2027.0.0-ballot |
-| Active as of 2026-01-09 | *Computable Name*:ResearchStudyCategoryCS |
+| Retired as of 2026-01-09 | *Computable Name*:ResearchStudyCategoryCS |
 
  
-High-level categories describing the overall type of a research study. 
+Retired: high-level categories describing the type of a research study. This code system was only used for examples. ResearchStudy.category is not bound, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only. 
 
 This Code system is referenced in the definition of the following value sets:
 
@@ -188,7 +188,7 @@ This Code system is referenced in the definition of the following value sets:
   "version" : "2027.0.0-ballot",
   "name" : "ResearchStudyCategoryCS",
   "title" : "Research Study Category Code System",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
@@ -199,7 +199,31 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "High-level categories describing the overall type of a research study.",
+  "description" : "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Retired: high-level categories describing the type of a research study. This code system was only used for examples. ResearchStudy.category is not bound, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

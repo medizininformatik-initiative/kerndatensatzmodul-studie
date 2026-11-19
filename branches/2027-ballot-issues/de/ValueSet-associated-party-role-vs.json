@@ -169,7 +169,7 @@
   "version" : "2027.0.0-ballot",
   "name" : "AssociatedPartyRoleVS",
   "title" : "Associated Party Role",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
@@ -180,7 +180,7 @@
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "Value set of roles that an associated party may have in relation to a research study.",
+  "description" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -146,7 +146,7 @@
   <version value="2027.0.0-ballot"/>
   <name value="AssociatedPartyRoleVS"/>
   <title value="Associated Party Role"/>
-  <status value="active"/>
+  <status value="retired"/>
   <experimental value="false"/>
   <date value="2026-01-09"/>
   <publisher value="NUM-DIZ"/>
@@ -157,7 +157,24 @@
       <value value="https://www.netzwerk-universitaetsmedizin.de"/>
     </telecom>
   </contact>
-  <description value="Value set of roles that an associated party may have in relation to a research study."/>
+  <description value="Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="de"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten."/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="en"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 value set http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only."/>
+      </extension>
+    </extension>
+  </description>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

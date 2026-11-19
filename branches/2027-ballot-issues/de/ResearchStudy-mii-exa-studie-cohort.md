@@ -55,7 +55,7 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
 
 **status**: Active
 
-**category**: Observational study
+**category**: Observational Study
 
 **focus**: Erwachsene der Stadt Leipzig
 
@@ -202,8 +202,9 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
   "status" : "active",
   "category" : [{
     "coding" : [{
-      "system" : "http://example.org/fhir/CodeSystem/research-study-category",
-      "code" : "observational"
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code" : "C16084",
+      "display" : "Observational Study"
     }]
   }],
   "focus" : [{

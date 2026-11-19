@@ -168,7 +168,7 @@
   "version" : "2027.0.0-ballot",
   "name" : "AssociatedPartyRoleVS",
   "title" : "Associated Party Role",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
@@ -179,7 +179,31 @@
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "Value set of roles that an associated party may have in relation to a research study.",
+  "description" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
+  "_description" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    },
+    {
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "en"
+      },
+      {
+        "url" : "content",
+        "valueString" : "Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 value set http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only."
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

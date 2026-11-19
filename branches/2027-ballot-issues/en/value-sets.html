@@ -350,14 +350,21 @@ ValueSets may not expand completely).</p>
 
 <!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/Terminologie.page.md (verbatim transfer per
      migration-log/page-map.tsv;
-     NOTE queue-②: the transferred note claims the module defines no own CS/VS while the
-     package ships 2 CodeSystems + 2 ValueSets — source-declared contradiction, carried verbatim;
+     NOTE queue-②: the contradiction (note claimed no own CS/VS while the package ships
+     2 CodeSystems + 2 ValueSets) was resolved during the 2027 ballot by rewording the note below;
      owner-authored translation from the 2027-EN guide tree) -->
 <h3 id="terminology">Terminology</h3>
 
 <h4 id="codesystems--valuesets">CodeSystems / ValueSets</h4>
 
-<p>The current version of the Study module does not define any own CodeSystems and ValueSets.</p>
+<p>The current version of the Study module does not define any own CodeSystems and ValueSets for use.</p>
+
+<p>For compatibility, the package still contains two CodeSystems with corresponding ValueSets under <code class="language-plaintext highlighter-rouge">http://example.org/…</code>: <strong>Associated Party Role</strong> and <strong>Research Study Category</strong>. They originate from earlier examples, are <strong>retired</strong> (<code class="language-plaintext highlighter-rouge">status = retired</code>) and should no longer be used:</p>
+
+<ul>
+  <li>For the role of involved persons and organizations, the HL7 code system <code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/research-study-party-role</code> applies, to which the extension MII EX Studie Backport AssociatedParty is bound.</li>
+  <li><code class="language-plaintext highlighter-rouge">ResearchStudy.category</code> is not bound. Standard terminologies such as SNOMED CT or NCIt should be used here.</li>
+</ul>
 
 
 
@@ -384,7 +391,7 @@ ValueSets may not expand completely).</p>
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Nov 19, 2026 15:05+0000">2026-11-19</span>
+          Generated <span title="Thu, Nov 19, 2026 15:25+0000">2026-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

@@ -632,6 +632,7 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
+      "CodeSystem.description",
       "ImplementationGuide.definition.page.page.page.title",
       "ImplementationGuide.definition.page.page.title",
       "ImplementationGuide.definition.page.title",
@@ -642,7 +643,8 @@
       "StructureDefinition.snapshot.element.comment",
       "StructureDefinition.snapshot.element.definition",
       "StructureDefinition.snapshot.element.short",
-      "StructureDefinition.title"
+      "StructureDefinition.title",
+      "ValueSet.description"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters": [
       "ImplementationGuide.definition"

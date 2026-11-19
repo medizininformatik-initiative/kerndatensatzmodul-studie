@@ -464,8 +464,9 @@
       "status" : "active",
       "category" : [{
         "coding" : [{
-          "system" : "http://example.org/fhir/CodeSystem/research-study-category",
-          "code" : "observational"
+          "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+          "code" : "C16084",
+          "display" : "Observational Study"
         }]
       }],
       "focus" : [{
@@ -589,7 +590,7 @@
       "language" : "en",
       "text" : {
         "status" : "extensions",
-        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-599795fc-b835-4b47-abde-81167f83def7.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
+        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-87f7ea05-14f6-40b3-be98-fe1fb0f6239a.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",

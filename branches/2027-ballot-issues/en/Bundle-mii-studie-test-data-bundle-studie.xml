@@ -417,8 +417,9 @@
         <status value="active"/>
         <category>
           <coding>
-            <system value="http://example.org/fhir/CodeSystem/research-study-category"/>
-            <code value="observational"/>
+            <system value="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"/>
+            <code value="C16084"/>
+            <display value="Observational Study"/>
           </coding>
         </category>
         <focus>
@@ -544,7 +545,7 @@
         </meta>
         <language value="en"/>
         <text>
-          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-599795fc-b835-4b47-abde-81167f83def7.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
+          <status value="extensions"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-87f7ea05-14f6-40b3-be98-fe1fb0f6239a.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>
         </text>
         <identifier>
           <system value="https://example.com/fhir/sid/drks"/>

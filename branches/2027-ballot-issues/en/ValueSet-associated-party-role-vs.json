@@ -169,7 +169,7 @@
   "version" : "2027.0.0-ballot",
   "name" : "AssociatedPartyRoleVS",
   "title" : "Associated Party Role",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
@@ -180,7 +180,7 @@
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "Value set of roles that an associated party may have in relation to a research study.",
+  "description" : "Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 value set http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

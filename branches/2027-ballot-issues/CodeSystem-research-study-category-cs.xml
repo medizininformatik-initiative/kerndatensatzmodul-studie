@@ -142,7 +142,7 @@
   <version value="2027.0.0-ballot"/>
   <name value="ResearchStudyCategoryCS"/>
   <title value="Research Study Category Code System"/>
-  <status value="active"/>
+  <status value="retired"/>
   <experimental value="false"/>
   <date value="2026-01-09"/>
   <publisher value="NUM-DIZ"/>
@@ -153,7 +153,24 @@
       <value value="https://www.netzwerk-universitaetsmedizin.de"/>
     </telecom>
   </contact>
-  <description value="High-level categories describing the overall type of a research study."/>
+  <description value="Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="de"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="en"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Retired: high-level categories describing the type of a research study. This code system was only used for examples. ResearchStudy.category is not bound, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only."/>
+      </extension>
+    </extension>
+  </description>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

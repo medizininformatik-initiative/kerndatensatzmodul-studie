@@ -1,11 +1,11 @@
 MII_IG_Medizinisches_Forschungsvorhaben : Validation Results
 =========================================
 
-err = 0, warn = 737, info = 1869
+err = 0, warn = 737, info = 1871
 IG Publisher Version: 2.3.2 Out of date - current version is 3.0.4
-Generated Thu Nov 19 15:09:26 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
+Generated Thu Nov 19 15:29:18 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
  Build Errors : 0 / 16 / 0
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 17 / 65
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 17 / 66
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie : 0 / 4 / 91
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CodeSystem-associated-party-role-cs : 0 / 3 / 24
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CodeSystem-research-study-category-cs : 0 / 3 / 24
@@ -21,7 +21,7 @@ Generated Thu Nov 19 15:09:26 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Patient-mii-exa-studie-patient : 0 / 3 / 3
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Practitioner-mii-exa-studie-practitioner : 0 / 0 / 3
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/PractitionerRole-mii-exa-studie-beteiligte-person : 0 / 0 / 3
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ResearchStudy-mii-exa-studie-cohort : 0 / 0 / 3
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ResearchStudy-mii-exa-studie-cohort : 0 / 0 / 4
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ResearchStudy-mii-exa-studie-reference-study : 0 / 0 / 3
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ResearchStudy-mii-exa-studie-studie : 0 / 1 / 3
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ResearchSubject-mii-exa-studie-proband : 0 / 1 / 3
@@ -114,6 +114,7 @@ INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*ResearchStudy/mii-exa-studie-cohort*/.extension[2].extension[1].value.ofType(Reference): Eintrag 5 stimmt mit dem Verweis PractitionerRole/mii-exa-studie-beteiligte-person nach Typ und ID überein, aber seine vollständige URL https://www.medizininformatik-initiative.de/MII_PR_Studie_Rolle_Beteiligte_Person/mii-exa-studie-beteiligte-person stimmt nicht mit der vollständigen Ziel-URL https://www.medizininformatik-initiative.de/PractitionerRole/mii-exa-studie-beteiligte-person nach den Regeln der Bundle-Auflösung überein
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*ResearchStudy/mii-exa-studie-cohort*/.extension[4].value.ofType(Reference): Eintrag 6 stimmt mit dem Verweis Library/mii-exa-studie-register nach Typ und ID überein, aber seine vollständige URL https://www.medizininformatik-initiative.de/MII_PR_Studie_Register/mii-exa-studie-register stimmt nicht mit der vollständigen Ziel-URL https://www.medizininformatik-initiative.de/Library/mii-exa-studie-register nach den Regeln der Bundle-Auflösung überein
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*ResearchStudy/mii-exa-studie-cohort*/.extension[5].value.ofType(Reference): Eintrag 1 stimmt mit dem Verweis EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium nach Typ und ID überein, aber seine vollständige URL https://www.medizininformatik-initiative.de/MII_PR_Studie_EinAuschlussKriterium/mii-exa-studie-ein-auschluss-kriterium stimmt nicht mit der vollständigen Ziel-URL https://www.medizininformatik-initiative.de/EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium nach den Regeln der Bundle-Auflösung überein
+INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*ResearchStudy/mii-exa-studie-cohort*/.category[0]: Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
 WARNING: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[3].resource/*ResearchStudy/mii-exa-studie-cohort*/.principalInvestigator: Eintrag 5 stimmt mit dem Verweis PractitionerRole/mii-exa-studie-beteiligte-person nach Typ und ID überein, aber seine vollständige URL https://www.medizininformatik-initiative.de/MII_PR_Studie_Rolle_Beteiligte_Person/mii-exa-studie-beteiligte-person stimmt nicht mit der vollständigen Ziel-URL https://www.medizininformatik-initiative.de/PractitionerRole/mii-exa-studie-beteiligte-person nach den Regeln der Bundle-Auflösung überein
 INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[4].resource/*ResearchSubject/mii-exa-studie-proband*/.meta.security[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
 INFORMATION: Bundle/mii-studie-test-data-bundle-studie: Bundle.entry[4].resource/*ResearchSubject/mii-exa-studie-proband*/.meta.security[0]: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
@@ -408,6 +409,7 @@ INFORMATION: PractitionerRole/mii-exa-studie-beteiligte-person: PractitionerRole
 == fsh-generated/resources/ResearchStudy-mii-exa-studie-cohort.json ==
 INFORMATION: ResearchStudy/mii-exa-studie-cohort: ResearchStudy.meta.security[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
 INFORMATION: ResearchStudy/mii-exa-studie-cohort: ResearchStudy.meta.security[0]: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
+INFORMATION: ResearchStudy/mii-exa-studie-cohort: ResearchStudy.category[0]: Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
 == fsh-generated/resources/ResearchStudy-mii-exa-studie-reference-study.json ==
 INFORMATION: ResearchStudy/mii-exa-studie-reference-study: ResearchStudy.meta.security[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language
 INFORMATION: ResearchStudy/mii-exa-studie-reference-study: ResearchStudy.meta.security[0]: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST for language(s) 'de'. The display is 'test health data' which is a valid display for the default language

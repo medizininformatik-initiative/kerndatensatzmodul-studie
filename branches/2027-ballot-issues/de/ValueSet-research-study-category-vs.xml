@@ -147,7 +147,7 @@
   <version value="2027.0.0-ballot"/>
   <name value="ResearchStudyCategoryVS"/>
   <title value="Research Study Category"/>
-  <status value="active"/>
+  <status value="retired"/>
   <experimental value="false"/>
   <date value="2026-01-09"/>
   <publisher value="NUM-DIZ"/>
@@ -158,7 +158,7 @@
       <value value="https://www.netzwerk-universitaetsmedizin.de"/>
     </telecom>
   </contact>
-  <description value="Value set of high-level categories describing the type of a research study."/>
+  <description value="Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

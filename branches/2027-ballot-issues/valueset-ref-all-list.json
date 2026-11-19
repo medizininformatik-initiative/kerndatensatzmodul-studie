@@ -2,19 +2,19 @@
   "codeSystems" : [{
     "url" : "http://example.org/fhir/ValueSet/associated-party-role",
     "version" : "2027.0.0-ballot",
-    "status" : "active",
+    "status" : "retired",
     "name" : "AssociatedPartyRoleVS",
     "title" : "Associated Party Role",
-    "description" : "Value set of roles that an associated party may have in relation to a research study.",
+    "description" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
     "systems" : ["http://example.org/fhir/CodeSystem/associated-party-role"]
   },
   {
     "url" : "http://example.org/fhir/ValueSet/research-study-category",
     "version" : "2027.0.0-ballot",
-    "status" : "active",
+    "status" : "retired",
     "name" : "ResearchStudyCategoryVS",
     "title" : "Research Study Category",
-    "description" : "Value set of high-level categories describing the type of a research study.",
+    "description" : "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.",
     "systems" : ["http://example.org/fhir/CodeSystem/research-study-category"]
   },
   {

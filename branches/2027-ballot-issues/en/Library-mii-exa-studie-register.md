@@ -18,7 +18,7 @@
 
 -------
 
-**Exception parsing generated Narrative (see /tmp/liquid-9aaef2a1-db91-4fdc-ac48-10cb9ef8389b.html): unexpected non-end of element null::a at line 130 column 50**
+**Exception parsing generated Narrative (see /tmp/liquid-97acc539-6f91-48cc-b5a8-6e4240ad4f50.html): unexpected non-end of element null::a at line 130 column 50**
 
 
 
@@ -50,7 +50,7 @@
       "code" : "asset-collection"
     }]
   },
-  "date" : "2026-11-19T15:05:19+00:00",
+  "date" : "2026-11-19T15:25:44+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

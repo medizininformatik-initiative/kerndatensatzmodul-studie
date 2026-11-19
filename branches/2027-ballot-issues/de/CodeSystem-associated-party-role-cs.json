@@ -164,7 +164,7 @@
   "version" : "2027.0.0-ballot",
   "name" : "AssociatedPartyRoleCS",
   "title" : "Associated Party Role Code System",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-01-09",
   "publisher" : "NUM-DIZ",
@@ -175,7 +175,7 @@
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "Roles that an associated party may have in relation to an entity such as a research study.",
+  "description" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

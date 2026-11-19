@@ -1576,7 +1576,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "ValueSet/associated-party-role-vs"
       },
       "name" : "Associated Party Role",
-      "description" : "Value set of roles that an associated party may have in relation to a research study.",
+      "description" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
       "exampleBoolean" : false
     },
     {
@@ -1592,7 +1592,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "CodeSystem/associated-party-role-cs"
       },
       "name" : "Associated Party Role Code System",
-      "description" : "Roles that an associated party may have in relation to an entity such as a research study.",
+      "description" : "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
       "exampleBoolean" : false
     },
     {
@@ -2346,7 +2346,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "ValueSet/research-study-category-vs"
       },
       "name" : "Research Study Category",
-      "description" : "Value set of high-level categories describing the type of a research study.",
+      "description" : "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.",
       "exampleBoolean" : false
     },
     {
@@ -2362,7 +2362,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "CodeSystem/research-study-category-cs"
       },
       "name" : "Research Study Category Code System",
-      "description" : "High-level categories describing the overall type of a research study.",
+      "description" : "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.",
       "exampleBoolean" : false
     },
     {
