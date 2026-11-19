@@ -1,0 +1,26 @@
+
+# A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+#: StructureDefinition.name
+msgid "MII_EX_Studie_Backport_Recruitment_Eligibility"
+msgstr "MII_EX_Studie_Backport_Recruitment_Eligibility"
+
+# A short, descriptive, user-friendly title for the structure definition.
+#: StructureDefinition.title
+msgid "MII EX Studie Backport Recruitment Eligibility"
+msgstr "MII EX Studie Backport Recruitment Eligibility"
+
+# The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
+#: StructureDefinition.publisher
+msgid "NUM-DIZ"
+msgstr "NUM-DIZ"
+
+# The name of an individual to contact.
+#: StructureDefinition.contact.name
+msgid "NUM-DIZ"
+msgstr "NUM-DIZ"
+
+# Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).
+#: StructureDefinition.element.Extension/comment
+msgid "Das R4-Element ResearchStudy.enrollment erlaubt nur Referenzen auf Group. Da die Ein- und Ausschlusskriterien in diesem Modul als EvidenceVariable abgebildet werden, wird stattdessen dieser Backport verwendet."
+msgstr "The R4 element ResearchStudy.enrollment only allows references to Group. As the inclusion and exclusion criteria are represented as EvidenceVariable in this module, this backport is used instead."
+

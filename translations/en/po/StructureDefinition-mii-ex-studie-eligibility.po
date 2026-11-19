@@ -19,3 +19,8 @@ msgstr "NUM-DIZ"
 msgid "NUM-DIZ"
 msgstr "NUM-DIZ"
 
+# Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).
+#: StructureDefinition.element.Extension/comment
+msgid "Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility."
+msgstr "Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead, the R5 backport of ResearchStudy.recruitment.eligibility."
+

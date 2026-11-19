@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" original="Resource StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" resname="StructureDefinition.name">
+             <notes>
+               <note id="n1">A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.</note>
+             </notes>
+        <source>MII_EX_Studie_Backport_Recruitment_Eligibility</source>
+        <target>MII_EX_Studie_Backport_Recruitment_Eligibility</target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" resname="StructureDefinition.title">
+             <notes>
+               <note id="n1">A short, descriptive, user-friendly title for the structure definition.</note>
+             </notes>
+        <source>MII EX Studie Backport Recruitment Eligibility</source>
+        <target>MII EX Studie Backport Recruitment Eligibility</target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" resname="StructureDefinition.publisher">
+             <notes>
+               <note id="n1">The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target>NUM-DIZ</target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" resname="StructureDefinition.contact.name">
+             <notes>
+               <note id="n1">The name of an individual to contact.</note>
+             </notes>
+        <source>NUM-DIZ</source>
+        <target>NUM-DIZ</target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility" resname="StructureDefinition.element.Extension/comment">
+             <notes>
+               <note id="n1">Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).</note>
+             </notes>
+        <source>Das R4-Element ResearchStudy.enrollment erlaubt nur Referenzen auf Group. Da die Ein- und Ausschlusskriterien in diesem Modul als EvidenceVariable abgebildet werden, wird stattdessen dieser Backport verwendet.</source>
+        <target>The R4 element ResearchStudy.enrollment only allows references to Group. As the inclusion and exclusion criteria are represented as EvidenceVariable in this module, this backport is used instead.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

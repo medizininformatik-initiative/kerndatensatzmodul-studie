@@ -1,13 +1,13 @@
 
 # A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
 #: StructureDefinition.name
-msgid "MII_PR_Studie_Beteiligte_Person"
-msgstr "MII_PR_Studie_Beteiligte_Person"
+msgid "MII_PR_Studie_Rolle_Beteiligte_Person"
+msgstr "MII_PR_Studie_Rolle_Beteiligte_Person"
 
 # A short, descriptive, user-friendly title for the structure definition.
 #: StructureDefinition.title
-msgid "MII PR Studie Beteiligte Person"
-msgstr "MII PR Study Participant"
+msgid "MII PR Studie Rolle beteiligte Person"
+msgstr "MII PR Study Involved Person Role"
 
 # The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.
 #: StructureDefinition.publisher

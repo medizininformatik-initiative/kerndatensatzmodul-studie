@@ -306,6 +306,18 @@
     {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "MII EX Studie Backport Recruitment Eligibility",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "R5-Backport des Elements ResearchStudy.recruitment.eligibility zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII EX Studie Eligibility",
       "target" : null
     },
@@ -390,18 +402,6 @@
     {
       "id" : "ImplementationGuide.definition.resource.name",
       "context" : "ImplementationGuide.definition.resource.name",
-      "source" : "MII PR Studie Beteiligte Person",
-      "target" : null
-    },
-    {
-      "id" : "ImplementationGuide.definition.resource.description",
-      "context" : "ImplementationGuide.definition.resource.description",
-      "source" : "Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.",
-      "target" : null
-    },
-    {
-      "id" : "ImplementationGuide.definition.resource.name",
-      "context" : "ImplementationGuide.definition.resource.name",
       "source" : "MII PR Studie Dokument",
       "target" : null
     },
@@ -445,6 +445,18 @@
       "id" : "ImplementationGuide.definition.resource.description",
       "context" : "ImplementationGuide.definition.resource.description",
       "source" : "Dieses Profil beschreibt ein Forschungsregister in der Medizininformatik-Initiative.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "MII PR Studie Rolle beteiligte Person",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.",
       "target" : null
     },
     {

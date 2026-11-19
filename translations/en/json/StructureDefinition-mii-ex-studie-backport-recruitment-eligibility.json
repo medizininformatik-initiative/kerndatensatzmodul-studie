@@ -1,0 +1,37 @@
+{
+  "id" : "StructureDefinition-mii-ex-studie-backport-recruitment-eligibility",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "StructureDefinition.name",
+      "context" : "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
+      "source" : "MII_EX_Studie_Backport_Recruitment_Eligibility",
+      "target" : "MII_EX_Studie_Backport_Recruitment_Eligibility"
+    },
+    {
+      "id" : "StructureDefinition.title",
+      "context" : "A short, descriptive, user-friendly title for the structure definition.",
+      "source" : "MII EX Studie Backport Recruitment Eligibility",
+      "target" : "MII EX Studie Backport Recruitment Eligibility"
+    },
+    {
+      "id" : "StructureDefinition.publisher",
+      "context" : "The name of the organization or individual responsible for the release and ongoing maintenance of the structure definition.",
+      "source" : "NUM-DIZ",
+      "target" : "NUM-DIZ"
+    },
+    {
+      "id" : "StructureDefinition.contact.name",
+      "context" : "The name of an individual to contact.",
+      "source" : "NUM-DIZ",
+      "target" : "NUM-DIZ"
+    },
+    {
+      "id" : "StructureDefinition.element.Extension/comment",
+      "context" : "Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).",
+      "source" : "Das R4-Element ResearchStudy.enrollment erlaubt nur Referenzen auf Group. Da die Ein- und Ausschlusskriterien in diesem Modul als EvidenceVariable abgebildet werden, wird stattdessen dieser Backport verwendet.",
+      "target" : "The R4 element ResearchStudy.enrollment only allows references to Group. As the inclusion and exclusion criteria are represented as EvidenceVariable in this module, this backport is used instead."
+    }]
+  }]
+}

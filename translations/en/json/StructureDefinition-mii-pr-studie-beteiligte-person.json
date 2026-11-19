@@ -6,14 +6,14 @@
     "entries" : [{
       "id" : "StructureDefinition.name",
       "context" : "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
-      "source" : "MII_PR_Studie_Beteiligte_Person",
-      "target" : "MII_PR_Studie_Beteiligte_Person"
+      "source" : "MII_PR_Studie_Rolle_Beteiligte_Person",
+      "target" : "MII_PR_Studie_Rolle_Beteiligte_Person"
     },
     {
       "id" : "StructureDefinition.title",
       "context" : "A short, descriptive, user-friendly title for the structure definition.",
-      "source" : "MII PR Studie Beteiligte Person",
-      "target" : "MII PR Study Participant"
+      "source" : "MII PR Studie Rolle beteiligte Person",
+      "target" : "MII PR Study Involved Person Role"
     },
     {
       "id" : "StructureDefinition.publisher",

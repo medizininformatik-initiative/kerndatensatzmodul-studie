@@ -31,6 +31,13 @@
         <source>NUM-DIZ</source>
         <target>NUM-DIZ</target>
       </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-eligibility" resname="StructureDefinition.element.Extension/comment">
+             <notes>
+               <note id="n1">Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).</note>
+             </notes>
+        <source>Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility.</source>
+        <target>Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead, the R5 backport of ResearchStudy.recruitment.eligibility.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
