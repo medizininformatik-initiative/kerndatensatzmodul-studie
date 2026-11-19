@@ -24,10 +24,15 @@ vollständig).
 
 <!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-DE/MIIIGModulStudie/TechnischeImplementierung/Terminologie.page.md (verbatim transfer per
      migration-log/page-map.tsv;
-     NOTE queue-②: the transferred note claims the module defines no own CS/VS while the
-     package ships 2 CodeSystems + 2 ValueSets — source-declared contradiction, carried verbatim) -->
+     NOTE queue-②: the contradiction (note claimed no own CS/VS while the package ships
+     2 CodeSystems + 2 ValueSets) was resolved during the 2027 ballot by rewording the note below) -->
 ### Terminologien
 
 #### CodeSystems / ValueSets
 
-In der derzeitigen Version des Moduls Studie werden keine eigenen CodeSystems und ValueSets definiert.
+In der derzeitigen Version des Moduls Studie werden keine eigenen CodeSystems und ValueSets zur Verwendung definiert.
+
+Das Paket enthält aus Kompatibilitätsgründen noch zwei CodeSystems mit zugehörigen ValueSets unter `http://example.org/…`: **Associated Party Role** und **Research Study Category**. Sie stammen aus früheren Beispielen, sind **zurückgezogen** (`status = retired`) und sollen nicht mehr verwendet werden:
+
+* Für die Rolle beteiligter Personen und Organisationen gilt das HL7-CodeSystem `http://hl7.org/fhir/research-study-party-role`, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist.
+* `ResearchStudy.category` ist nicht gebunden. Hier sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden.

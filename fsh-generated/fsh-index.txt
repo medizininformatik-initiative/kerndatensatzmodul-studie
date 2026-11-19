@@ -1,8 +1,8 @@
 Output File                                                                   Name                                                 Type        FSH File                        Lines
 Bundle-mii-studie-test-data-bundle-studie.json                                mii-studie-test-data-bundle-studie                   Instance    ExamplesBundle.fsh              12 - 32
 CapabilityStatement-MII-CPS-Metadata-Studie.json                              MII-CPS-Metadata-Studie                              Instance    CapabilityStatement.fsh         2 - 411
-CodeSystem-associated-party-role-cs.json                                      AssociatedPartyRoleCS                                CodeSystem  examples.fsh                    319 - 356
-CodeSystem-research-study-category-cs.json                                    ResearchStudyCategoryCS                              CodeSystem  examples.fsh                    261 - 292
+CodeSystem-associated-party-role-cs.json                                      AssociatedPartyRoleCS                                CodeSystem  examples.fsh                    323 - 362
+CodeSystem-research-study-category-cs.json                                    ResearchStudyCategoryCS                              CodeSystem  examples.fsh                    261 - 294
 Consent-mii-exa-studie-consent.json                                           mii-exa-studie-consent                               Instance    examples.fsh                    231 - 240
 DocumentReference-mii-exa-studie-dokument.json                                mii-exa-studie-dokument                              Instance    examples.fsh                    2 - 13
 EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.json                  mii-exa-studie-ein-auschluss-kriterium               Instance    examples.fsh                    16 - 72
@@ -58,5 +58,5 @@ StructureDefinition-mii-pr-studie-proband.json                                MI
 StructureDefinition-mii-pr-studie-register.json                               MII_PR_Studie_Register                               Profile     profiles/Library.fsh            2 - 60
 StructureDefinition-mii-pr-studie-studie.json                                 MII_PR_Studie_Studie                                 Profile     profiles/ResearchStudy.fsh      2 - 155
 StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.json              MII_PR_Studie_Studieneinschluss_Anfrage              Profile     profiles/StudyInclusion.fsh     2 - 85
-ValueSet-associated-party-role-vs.json                                        AssociatedPartyRoleVS                                ValueSet    examples.fsh                    358 - 380
-ValueSet-research-study-category-vs.json                                      ResearchStudyCategoryVS                              ValueSet    examples.fsh                    294 - 316
+ValueSet-associated-party-role-vs.json                                        AssociatedPartyRoleVS                                ValueSet    examples.fsh                    364 - 388
+ValueSet-research-study-category-vs.json                                      ResearchStudyCategoryVS                              ValueSet    examples.fsh                    296 - 320

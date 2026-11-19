@@ -106,7 +106,7 @@ Usage: #example
 * title = "LIFE-Adult-Study"
 * partOf = Reference(mii-exa-studie-reference-study)
 * status = #active
-* category = ResearchStudyCategoryCS#observational
+* category = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16084 "Observational Study"
 * focus.text = "Erwachsene der Stadt Leipzig"
 * keyword.text = "Bevölkerung, Leipzig, Erwachsene"
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
@@ -261,7 +261,9 @@ Usage: #example
 CodeSystem: ResearchStudyCategoryCS
 Id: research-study-category-cs
 Title: "Research Study Category Code System"
-Description: "High-level categories describing the overall type of a research study."
+Description: "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."
+* insert Translation(^description, de, Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden\, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.)
+* insert Translation(^description, en, Retired: high-level categories describing the type of a research study. This code system was only used for examples. ResearchStudy.category is not bound\, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -276,7 +278,7 @@ Description: "High-level categories describing the overall type of a research st
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/CodeSystem/research-study-category"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2026-01-09"
 * ^caseSensitive = true
@@ -294,7 +296,9 @@ Description: "High-level categories describing the overall type of a research st
 ValueSet: ResearchStudyCategoryVS
 Id: research-study-category-vs
 Title: "Research Study Category"
-Description: "Value set of high-level categories describing the type of a research study."
+Description: "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."
+* insert Translation(^description, de, Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden\, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.)
+* insert Translation(^description, en, Retired: high-level categories describing the type of a research study. This value set was only used for examples. ResearchStudy.category is not bound\, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -310,7 +314,7 @@ Description: "Value set of high-level categories describing the type of a resear
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/ValueSet/research-study-category"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2026-01-09"
 * codes from system ResearchStudyCategoryCS
@@ -319,7 +323,9 @@ Description: "Value set of high-level categories describing the type of a resear
 CodeSystem: AssociatedPartyRoleCS
 Id: associated-party-role-cs
 Title: "Associated Party Role Code System"
-Description: "Roles that an associated party may have in relation to an entity such as a research study."
+Description: "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten."
+* insert Translation(^description, de, Zurückgezogen: Rollen\, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role\, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.)
+* insert Translation(^description, en, Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 code system http://hl7.org/fhir/research-study-party-role\, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -334,7 +340,7 @@ Description: "Roles that an associated party may have in relation to an entity s
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/CodeSystem/associated-party-role"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2026-01-09"
 * ^caseSensitive = true
@@ -358,7 +364,9 @@ Description: "Roles that an associated party may have in relation to an entity s
 ValueSet: AssociatedPartyRoleVS
 Id: associated-party-role-vs
 Title: "Associated Party Role"
-Description: "Value set of roles that an associated party may have in relation to a research study."
+Description: "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten."
+* insert Translation(^description, de, Zurückgezogen: Rollen\, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-ValueSet http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4\, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.)
+* insert Translation(^description, en, Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 value set http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4\, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40
@@ -374,7 +382,7 @@ Description: "Value set of roles that an associated party may have in relation t
 * insert CRMIArtifactTopic(http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, C15429)
 * insert CRMIArtifactContributors
 * ^url = "http://example.org/fhir/ValueSet/associated-party-role"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2026-01-09"
 * codes from system AssociatedPartyRoleCS

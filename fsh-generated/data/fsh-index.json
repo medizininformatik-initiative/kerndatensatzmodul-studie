@@ -20,8 +20,8 @@
     "fshName": "AssociatedPartyRoleCS",
     "fshType": "CodeSystem",
     "fshFile": "examples.fsh",
-    "startLine": 319,
-    "endLine": 356
+    "startLine": 323,
+    "endLine": 362
   },
   {
     "outputFile": "CodeSystem-research-study-category-cs.json",
@@ -29,7 +29,7 @@
     "fshType": "CodeSystem",
     "fshFile": "examples.fsh",
     "startLine": 261,
-    "endLine": 292
+    "endLine": 294
   },
   {
     "outputFile": "Consent-mii-exa-studie-consent.json",
@@ -476,15 +476,15 @@
     "fshName": "AssociatedPartyRoleVS",
     "fshType": "ValueSet",
     "fshFile": "examples.fsh",
-    "startLine": 358,
-    "endLine": 380
+    "startLine": 364,
+    "endLine": 388
   },
   {
     "outputFile": "ValueSet-research-study-category-vs.json",
     "fshName": "ResearchStudyCategoryVS",
     "fshType": "ValueSet",
     "fshFile": "examples.fsh",
-    "startLine": 294,
-    "endLine": 316
+    "startLine": 296,
+    "endLine": 320
   }
 ]

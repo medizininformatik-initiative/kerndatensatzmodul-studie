@@ -22,11 +22,16 @@ ValueSets may not expand completely).
 
 <!-- Migrated 2026-08-31 from ImplementationGuide-2027.x.x-EN/MIIIGModulStudie/TechnischeImplementierung/Terminologie.page.md (verbatim transfer per
      migration-log/page-map.tsv;
-     NOTE queue-②: the transferred note claims the module defines no own CS/VS while the
-     package ships 2 CodeSystems + 2 ValueSets — source-declared contradiction, carried verbatim;
+     NOTE queue-②: the contradiction (note claimed no own CS/VS while the package ships
+     2 CodeSystems + 2 ValueSets) was resolved during the 2027 ballot by rewording the note below;
      owner-authored translation from the 2027-EN guide tree) -->
 ### Terminology
 
 #### CodeSystems / ValueSets
 
-The current version of the Study module does not define any own CodeSystems and ValueSets.
+The current version of the Study module does not define any own CodeSystems and ValueSets for use.
+
+For compatibility, the package still contains two CodeSystems with corresponding ValueSets under `http://example.org/…`: **Associated Party Role** and **Research Study Category**. They originate from earlier examples, are **retired** (`status = retired`) and should no longer be used:
+
+* For the role of involved persons and organizations, the HL7 code system `http://hl7.org/fhir/research-study-party-role` applies, to which the extension MII EX Studie Backport AssociatedParty is bound.
+* `ResearchStudy.category` is not bound. Standard terminologies such as SNOMED CT or NCIt should be used here.

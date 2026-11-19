@@ -1,10 +1,40 @@
 {
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "retired",
   "name": "ResearchStudyCategoryVS",
   "id": "research-study-category-vs",
   "title": "Research Study Category",
-  "description": "Value set of high-level categories describing the type of a research study.",
+  "description": "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses ValueSet diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "Retired: high-level categories describing the type of a research study. This value set was only used for examples. ResearchStudy.category is not bound, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only."
+          }
+        ]
+      }
+    ]
+  },
   "url": "http://example.org/fhir/ValueSet/research-study-category",
   "version": "2027.0.0-ballot",
   "extension": [

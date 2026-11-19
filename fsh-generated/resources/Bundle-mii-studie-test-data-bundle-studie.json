@@ -546,8 +546,9 @@
           {
             "coding": [
               {
-                "code": "observational",
-                "system": "http://example.org/fhir/CodeSystem/research-study-category"
+                "code": "C16084",
+                "system": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "display": "Observational Study"
               }
             ]
           }

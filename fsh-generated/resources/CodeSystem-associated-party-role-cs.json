@@ -1,11 +1,41 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "retired",
   "content": "complete",
   "name": "AssociatedPartyRoleCS",
   "id": "associated-party-role-cs",
   "title": "Associated Party Role Code System",
-  "description": "Roles that an associated party may have in relation to an entity such as a research study.",
+  "description": "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de"
+          },
+          {
+            "url": "content",
+            "valueString": "Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en"
+          },
+          {
+            "url": "content",
+            "valueString": "Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 code system http://hl7.org/fhir/research-study-party-role, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only."
+          }
+        ]
+      }
+    ]
+  },
   "url": "http://example.org/fhir/CodeSystem/associated-party-role",
   "concept": [
     {
