@@ -388,10 +388,16 @@ Description: "R5-Backport des Elements ResearchStudy.associatedParty zur Abbildu
 * extension[name].value[x] only string
 * extension[role].value[x] only CodeableConcept
 * extension[role].valueCodeableConcept from http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-role-for-R4 (extensible)
+* extension[role] ^comment = "Rolle der beteiligten Person oder Organisation in Bezug auf diese Studie, z. B. sponsor, study-director oder recruitment-contact. Die Rolle in der Studie wird hier angegeben und nicht in PractitionerRole.code, das die berufliche Rolle in der Organisation beschreibt."
+* insert Translation(extension[role] ^comment, de, Rolle der beteiligten Person oder Organisation in Bezug auf diese Studie\, z. B. sponsor\, study-director oder recruitment-contact. Die Rolle in der Studie wird hier angegeben und nicht in PractitionerRole.code\, das die berufliche Rolle in der Organisation beschreibt.)
+* insert Translation(extension[role] ^comment, en, Role of the involved person or organization with respect to this study\, e.g. sponsor\, study-director or recruitment-contact. The role in the study is given here and not in PractitionerRole.code\, which describes the professional role within the organization.)
 * extension[period].value[x] only Period
 * extension[classifier].value[x] only CodeableConcept
 * extension[classifier].valueCodeableConcept from http://hl7.org/fhir/uv/xver/ValueSet/R5-research-study-party-organization-type-for-R4 (example)
 * extension[party].value[x] only Reference(Practitioner or PractitionerRole or Organization)
+* extension[party] ^comment = "Beteiligte Personen sollen als PractitionerRole gemäß dem Profil MII PR Studie Rolle beteiligte Person referenziert werden, beteiligte Organisationen als Organization. Name und Grad der Person stehen im über PractitionerRole.practitioner referenzierten Practitioner."
+* insert Translation(extension[party] ^comment, de, Beteiligte Personen sollen als PractitionerRole gemäß dem Profil MII PR Studie Rolle beteiligte Person referenziert werden\, beteiligte Organisationen als Organization. Name und Grad der Person stehen im über PractitionerRole.practitioner referenzierten Practitioner.)
+* insert Translation(extension[party] ^comment, en, Involved persons should be referenced as PractitionerRole conforming to the profile MII PR Studie Rolle beteiligte Person\, involved organizations as Organization. Name and academic degree of the person are given in the Practitioner referenced via PractitionerRole.practitioner.)
 
 Extension: MII_EX_Studie_Backport_Label
 Id: mii-ex-studie-backport-label

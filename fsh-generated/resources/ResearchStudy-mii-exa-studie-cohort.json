@@ -31,7 +31,7 @@
             "coding": [
               {
                 "code": "sponsor",
-                "system": "http://example.org/fhir/CodeSystem/associated-party-role"
+                "system": "http://hl7.org/fhir/research-study-party-role"
               }
             ]
           }
@@ -40,6 +40,28 @@
           "url": "party",
           "valueReference": {
             "reference": "Organization/mii-exa-studie-author"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+    },
+    {
+      "extension": [
+        {
+          "url": "role",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "general-contact",
+                "system": "http://hl7.org/fhir/research-study-party-role"
+              }
+            ]
+          }
+        },
+        {
+          "url": "party",
+          "valueReference": {
+            "reference": "PractitionerRole/mii-exa-studie-beteiligte-person"
           }
         }
       ],
@@ -146,5 +168,8 @@
     {
       "name": "LIFE-Adult-Kohorte"
     }
-  ]
+  ],
+  "principalInvestigator": {
+    "reference": "PractitionerRole/mii-exa-studie-beteiligte-person"
+  }
 }

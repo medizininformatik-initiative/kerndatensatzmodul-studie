@@ -20,24 +20,24 @@
     "fshName": "AssociatedPartyRoleCS",
     "fshType": "CodeSystem",
     "fshFile": "examples.fsh",
-    "startLine": 316,
-    "endLine": 353
+    "startLine": 319,
+    "endLine": 356
   },
   {
     "outputFile": "CodeSystem-research-study-category-cs.json",
     "fshName": "ResearchStudyCategoryCS",
     "fshType": "CodeSystem",
     "fshFile": "examples.fsh",
-    "startLine": 258,
-    "endLine": 289
+    "startLine": 261,
+    "endLine": 292
   },
   {
     "outputFile": "Consent-mii-exa-studie-consent.json",
     "fshName": "mii-exa-studie-consent",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 228,
-    "endLine": 237
+    "startLine": 231,
+    "endLine": 240
   },
   {
     "outputFile": "DocumentReference-mii-exa-studie-dokument.json",
@@ -60,8 +60,8 @@
     "fshName": "mii-exa-studie-evidence-variable-age-restriction",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 240,
-    "endLine": 252
+    "startLine": 243,
+    "endLine": 255
   },
   {
     "outputFile": "Library-mii-exa-studie-register.json",
@@ -76,40 +76,40 @@
     "fshName": "mii-exa-studie-author",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 168,
-    "endLine": 173
+    "startLine": 171,
+    "endLine": 176
   },
   {
     "outputFile": "Organization-mii-exa-studie-custodian.json",
     "fshName": "mii-exa-studie-custodian",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 176,
-    "endLine": 181
+    "startLine": 179,
+    "endLine": 184
   },
   {
     "outputFile": "Organization-mii-exa-studie-practitioner-organization.json",
     "fshName": "mii-exa-studie-practitioner-organization",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 184,
-    "endLine": 189
+    "startLine": 187,
+    "endLine": 192
   },
   {
     "outputFile": "Patient-mii-exa-studie-patient.json",
     "fshName": "mii-exa-studie-patient",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 210,
-    "endLine": 225
+    "startLine": 213,
+    "endLine": 228
   },
   {
     "outputFile": "Practitioner-mii-exa-studie-practitioner.json",
     "fshName": "mii-exa-studie-practitioner",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 192,
-    "endLine": 198
+    "startLine": 195,
+    "endLine": 201
   },
   {
     "outputFile": "PractitionerRole-mii-exa-studie-beteiligte-person.json",
@@ -125,31 +125,31 @@
     "fshType": "Instance",
     "fshFile": "examples.fsh",
     "startLine": 100,
-    "endLine": 128
+    "endLine": 131
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-reference-study.json",
     "fshName": "mii-exa-studie-reference-study",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 201,
-    "endLine": 207
+    "startLine": 204,
+    "endLine": 210
   },
   {
     "outputFile": "ResearchStudy-mii-exa-studie-studie.json",
     "fshName": "mii-exa-studie-studie",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 606,
-    "endLine": 636
+    "startLine": 612,
+    "endLine": 642
   },
   {
     "outputFile": "ResearchSubject-mii-exa-studie-proband.json",
     "fshName": "mii-exa-studie-proband",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 131,
-    "endLine": 146
+    "startLine": 134,
+    "endLine": 149
   },
   {
     "outputFile": "SearchParameter-DocumentReference-size.json",
@@ -196,80 +196,80 @@
     "fshName": "ResearchStudy-akronym",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 462,
-    "endLine": 478
+    "startLine": 468,
+    "endLine": 484
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-armName.json",
     "fshName": "ResearchStudy-armName",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 426,
-    "endLine": 442
+    "startLine": 432,
+    "endLine": 448
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-finanzierung.json",
     "fshName": "ResearchStudy-finanzierung",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 480,
-    "endLine": 496
+    "startLine": 486,
+    "endLine": 502
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-label.json",
     "fshName": "ResearchStudy-label",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 444,
-    "endLine": 460
+    "startLine": 450,
+    "endLine": 466
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-rekrutierungsstand-datum.json",
     "fshName": "ResearchStudy-rekrutierungsstand-datum",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 516,
-    "endLine": 532
+    "startLine": 522,
+    "endLine": 538
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-rekrutierungsstand-genauigkeit.json",
     "fshName": "ResearchStudy-rekrutierungsstand-genauigkeit",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 534,
-    "endLine": 550
+    "startLine": 540,
+    "endLine": 556
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-rekrutierungsstand.json",
     "fshName": "ResearchStudy-rekrutierungsstand",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 552,
-    "endLine": 568
+    "startLine": 558,
+    "endLine": 574
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-rekrutierungsstart.json",
     "fshName": "ResearchStudy-rekrutierungsstart",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 588,
-    "endLine": 604
+    "startLine": 594,
+    "endLine": 610
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-rekrutierungsziel.json",
     "fshName": "ResearchStudy-rekrutierungsziel",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 570,
-    "endLine": 586
+    "startLine": 576,
+    "endLine": 592
   },
   {
     "outputFile": "SearchParameter-ResearchStudy-studienregister.json",
     "fshName": "ResearchStudy-studienregister",
     "fshType": "Instance",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 498,
-    "endLine": 514
+    "startLine": 504,
+    "endLine": 520
   },
   {
     "outputFile": "SearchParameter-ServiceRequest-supporting-info.json",
@@ -284,8 +284,8 @@
     "fshName": "mii-exa-studie-studieneinschluss-anfrage",
     "fshType": "Instance",
     "fshFile": "examples.fsh",
-    "startLine": 149,
-    "endLine": 161
+    "startLine": 152,
+    "endLine": 164
   },
   {
     "outputFile": "StructureDefinition-mii-ex-studie-akronym.json",
@@ -301,7 +301,7 @@
     "fshType": "Extension",
     "fshFile": "profiles/ResearchStudy.fsh",
     "startLine": 362,
-    "endLine": 394
+    "endLine": 400
   },
   {
     "outputFile": "StructureDefinition-mii-ex-studie-backport-definition-by-combination.json",
@@ -340,8 +340,8 @@
     "fshName": "MII_EX_Studie_Backport_Label",
     "fshType": "Extension",
     "fshFile": "profiles/ResearchStudy.fsh",
-    "startLine": 396,
-    "endLine": 424
+    "startLine": 402,
+    "endLine": 430
   },
   {
     "outputFile": "StructureDefinition-mii-ex-studie-backport-linkId.json",
@@ -421,7 +421,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/PractitionerRole.fsh",
     "startLine": 2,
-    "endLine": 54
+    "endLine": 59
   },
   {
     "outputFile": "StructureDefinition-mii-pr-studie-dokument.json",
@@ -476,15 +476,15 @@
     "fshName": "AssociatedPartyRoleVS",
     "fshType": "ValueSet",
     "fshFile": "examples.fsh",
-    "startLine": 355,
-    "endLine": 377
+    "startLine": 358,
+    "endLine": 380
   },
   {
     "outputFile": "ValueSet-research-study-category-vs.json",
     "fshName": "ResearchStudyCategoryVS",
     "fshType": "ValueSet",
     "fshFile": "examples.fsh",
-    "startLine": 291,
-    "endLine": 313
+    "startLine": 294,
+    "endLine": 316
   }
 ]

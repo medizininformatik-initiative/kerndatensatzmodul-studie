@@ -31,6 +31,20 @@
         <source>NUM-DIZ</source>
         <target>NUM-DIZ</target>
       </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-associatedParty" resname="StructureDefinition.element.Extension.extension:role/comment">
+             <notes>
+               <note id="n1">Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).</note>
+             </notes>
+        <source>Rolle der beteiligten Person oder Organisation in Bezug auf diese Studie, z. B. sponsor, study-director oder recruitment-contact. Die Rolle in der Studie wird hier angegeben und nicht in PractitionerRole.code, das die berufliche Rolle in der Organisation beschreibt.</source>
+        <target>Role of the involved person or organization with respect to this study, e.g. sponsor, study-director or recruitment-contact. The role in the study is given here and not in PractitionerRole.code, which describes the professional role within the organization.</target>
+      </trans-unit>
+      <trans-unit id="StructureDefinition-mii-ex-studie-backport-associatedParty" resname="StructureDefinition.element.Extension.extension:party/comment">
+             <notes>
+               <note id="n1">Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).</note>
+             </notes>
+        <source>Beteiligte Personen sollen als PractitionerRole gemäß dem Profil MII PR Studie Rolle beteiligte Person referenziert werden, beteiligte Organisationen als Organization. Name und Grad der Person stehen im über PractitionerRole.practitioner referenzierten Practitioner.</source>
+        <target>Involved persons should be referenced as PractitionerRole conforming to the profile MII PR Studie Rolle beteiligte Person, involved organizations as Organization. Name and academic degree of the person are given in the Practitioner referenced via PractitionerRole.practitioner.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

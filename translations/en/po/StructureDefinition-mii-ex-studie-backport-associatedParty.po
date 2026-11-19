@@ -19,3 +19,13 @@ msgstr "NUM-DIZ"
 msgid "NUM-DIZ"
 msgstr "NUM-DIZ"
 
+# Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).
+#: StructureDefinition.element.Extension.extension:role/comment
+msgid "Rolle der beteiligten Person oder Organisation in Bezug auf diese Studie, z. B. sponsor, study-director oder recruitment-contact. Die Rolle in der Studie wird hier angegeben und nicht in PractitionerRole.code, das die berufliche Rolle in der Organisation beschreibt."
+msgstr "Role of the involved person or organization with respect to this study, e.g. sponsor, study-director or recruitment-contact. The role in the study is given here and not in PractitionerRole.code, which describes the professional role within the organization."
+
+# Explanatory notes and implementation guidance about the data element, including notes about how to use the data properly, exceptions to proper use, etc. (Note: The text you are reading is specified in ElementDefinition.comment).
+#: StructureDefinition.element.Extension.extension:party/comment
+msgid "Beteiligte Personen sollen als PractitionerRole gemäß dem Profil MII PR Studie Rolle beteiligte Person referenziert werden, beteiligte Organisationen als Organization. Name und Grad der Person stehen im über PractitionerRole.practitioner referenzierten Practitioner."
+msgstr "Involved persons should be referenced as PractitionerRole conforming to the profile MII PR Studie Rolle beteiligte Person, involved organizations as Organization. Name and academic degree of the person are given in the Practitioner referenced via PractitionerRole.practitioner."
+

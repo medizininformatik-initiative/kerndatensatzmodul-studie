@@ -112,8 +112,11 @@ Usage: #example
 * description = "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden."
 * arm.name = "LIFE-Adult-Kohorte"
 * extension[Label].extension[value].valueString = "MII Modul Studie"
-* extension[AssociatedParty].extension[role].valueCodeableConcept = AssociatedPartyRoleCS#sponsor
-* extension[AssociatedParty].extension[party].valueReference = Reference(Organization/mii-exa-studie-author)
+* principalInvestigator = Reference(PractitionerRole/mii-exa-studie-beteiligte-person)
+* extension[AssociatedParty][0].extension[role].valueCodeableConcept = http://hl7.org/fhir/research-study-party-role#sponsor
+* extension[AssociatedParty][0].extension[party].valueReference = Reference(Organization/mii-exa-studie-author)
+* extension[AssociatedParty][+].extension[role].valueCodeableConcept = http://hl7.org/fhir/research-study-party-role#general-contact
+* extension[AssociatedParty][=].extension[party].valueReference = Reference(PractitionerRole/mii-exa-studie-beteiligte-person)
 * extension[Ethikvotum].extension[status].valueString = "genehmigt"
 * extension[Ethikvotum].extension[kommission].valueString = "Ethik-Kommission der Medizinischen Fakultät der Universität Leipzig"
 * extension[Ethikvotum].extension[ethiknummer].valueString = "159-12-21052012"
