@@ -87,7 +87,7 @@ Usage: #example
 
 // Practioner role example
 Instance:  mii-exa-studie-beteiligte-person
-InstanceOf: MII_PR_Studie_Beteiligte_Person
+InstanceOf: MII_PR_Studie_Rolle_Beteiligte_Person
 Usage: #example
 * insert TestDataLabel
 * code = http://terminology.hl7.org/CodeSystem/practitioner-role#doctor

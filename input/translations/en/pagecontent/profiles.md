@@ -22,7 +22,7 @@ The Medical Research Project module defines the following resource profiles:
 | Profile | Base Resource | Description |
 |---------|----------------|--------------|
 | [MII PR Studie Studie](StructureDefinition-mii-pr-studie-studie.html) | ResearchStudy | Describes a study in the Medical Informatics Initiative. |
-| [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.html) | PractitionerRole | Describes a person involved in a study in the Medical Informatics Initiative. |
+| [MII PR Studie Rolle beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.html) | PractitionerRole | Describes the role of a person involved in a study in the Medical Informatics Initiative. |
 | [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.html) | ResearchSubject | Describes a research subject in the Medical Informatics Initiative. |
 | [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html) | ServiceRequest | Request for inclusion of a subject in a study. |
 | [MII PR Studie Register](StructureDefinition-mii-pr-studie-register.html) | Library | Describes a research registry in the Medical Informatics Initiative. |

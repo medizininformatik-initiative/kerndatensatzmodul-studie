@@ -409,7 +409,7 @@
   },
   {
     "outputFile": "StructureDefinition-mii-pr-studie-beteiligte-person.json",
-    "fshName": "MII_PR_Studie_Beteiligte_Person",
+    "fshName": "MII_PR_Studie_Rolle_Beteiligte_Person",
     "fshType": "Profile",
     "fshFile": "profiles/PractitionerRole.fsh",
     "startLine": 2,

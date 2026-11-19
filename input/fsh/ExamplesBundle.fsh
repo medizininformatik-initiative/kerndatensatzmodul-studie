@@ -21,7 +21,7 @@ Description: "Bundle: Example Study"
 * insert AddBundleEntry(mii-exa-studie-studie, MII_PR_Studie_Studie)
 * insert AddBundleEntry(mii-exa-studie-cohort, MII_PR_Studie_Cohort)
 * insert AddBundleEntry(mii-exa-studie-proband, MII_PR_Studie_Proband)
-* insert AddBundleEntry(mii-exa-studie-beteiligte-person, MII_PR_Studie_Beteiligte_Person)
+* insert AddBundleEntry(mii-exa-studie-beteiligte-person, MII_PR_Studie_Rolle_Beteiligte_Person)
 * insert AddBundleEntry(mii-exa-studie-register, MII_PR_Studie_Register)
 * insert AddBundleEntry(mii-exa-studie-author, Organization)
 * insert AddBundleEntry(mii-exa-studie-custodian, Organization)

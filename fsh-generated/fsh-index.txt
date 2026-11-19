@@ -50,7 +50,7 @@ StructureDefinition-mii-ex-studie-quell-register.json                         MI
 StructureDefinition-mii-ex-studie-rekrutierung.json                           MII_EX_Studie_Rekrutierung                           Extension   profiles/ResearchStudy.fsh      221 - 264
 StructureDefinition-mii-ex-studie-studienregister.json                        MII_EX_Studie_Studienregister                        Extension   profiles/ResearchStudy.fsh      146 - 169
 StructureDefinition-mii-lm-studie-logicalmodel.json                           MII_LM_Studie_LogicalModel                           Logical     LogicalModel.fsh                2 - 224
-StructureDefinition-mii-pr-studie-beteiligte-person.json                      MII_PR_Studie_Beteiligte_Person                      Profile     profiles/PractitionerRole.fsh   2 - 54
+StructureDefinition-mii-pr-studie-beteiligte-person.json                      MII_PR_Studie_Rolle_Beteiligte_Person                Profile     profiles/PractitionerRole.fsh   2 - 54
 StructureDefinition-mii-pr-studie-dokument.json                               MII_PR_Studie_Dokument                               Profile     profiles/DocumentReference.fsh  2 - 67
 StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.json                MII_PR_Studie_EinAuschlussKriterium                  Profile     profiles/EvidenceVariable.fsh   2 - 54
 StructureDefinition-mii-pr-studie-proband.json                                MII_PR_Studie_Proband                                Profile     profiles/ResearchSubject.fsh    2 - 83

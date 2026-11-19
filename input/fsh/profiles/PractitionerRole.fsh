@@ -1,13 +1,13 @@
 
-Profile: MII_PR_Studie_Beteiligte_Person
-Title: "MII PR Studie Beteiligte Person"
+Profile: MII_PR_Studie_Rolle_Beteiligte_Person
+Title: "MII PR Studie Rolle beteiligte Person"
 Parent: PractitionerRole
 Id: mii-pr-studie-beteiligte-person
-Description: "Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative."
-* insert Translation(^title, de, MII PR Studie Beteiligte Person)
-* insert Translation(^title, en, MII PR Study Participant)
-* insert Translation(^description, de, Dieses Profil beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative.)
-* insert Translation(^description, en, This profile describes a participant within a study in the Medical Informatics Initiative.)
+Description: "Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person, z. B. die Studienleitung, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative."
+* insert Translation(^title, de, MII PR Studie Rolle beteiligte Person)
+* insert Translation(^title, en, MII PR Study Involved Person Role)
+* insert Translation(^description, de, Dieses Profil beschreibt die Rolle einer an einer Studie beteiligten Person\, z. B. die Studienleitung\, einschließlich der zugehörigen Organisation und Kontaktdaten in der Medizininformatik-Initiative.)
+* insert Translation(^description, en, This profile describes the role of a person involved in a study\, e.g. the study lead\, including the associated organization and contact details in the Medical Informatics Initiative.)
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert LicenseCodeableCCBY40

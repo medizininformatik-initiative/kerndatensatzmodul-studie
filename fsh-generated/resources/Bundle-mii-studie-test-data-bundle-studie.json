@@ -604,7 +604,7 @@
       }
     },
     {
-      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Beteiligte_Person/mii-exa-studie-beteiligte-person",
+      "fullUrl": "https://www.medizininformatik-initiative.de/MII_PR_Studie_Rolle_Beteiligte_Person/mii-exa-studie-beteiligte-person",
       "resource": {
         "resourceType": "PractitionerRole",
         "id": "mii-exa-studie-beteiligte-person",
@@ -645,7 +645,7 @@
       },
       "request": {
         "method": "POST",
-        "url": "MII_PR_Studie_Beteiligte_Person"
+        "url": "MII_PR_Studie_Rolle_Beteiligte_Person"
       }
     },
     {

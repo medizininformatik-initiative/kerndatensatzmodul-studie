@@ -24,11 +24,11 @@
 [MII_EX_Studie_Rekrutierung]: StructureDefinition-mii-ex-studie-rekrutierung.html
 [MII_EX_Studie_Studienregister]: StructureDefinition-mii-ex-studie-studienregister.html
 [MII_LM_Studie_LogicalModel]: StructureDefinition-mii-lm-studie-logicalmodel.html
-[MII_PR_Studie_Beteiligte_Person]: StructureDefinition-mii-pr-studie-beteiligte-person.html
 [MII_PR_Studie_Dokument]: StructureDefinition-mii-pr-studie-dokument.html
 [MII_PR_Studie_EinAuschlussKriterium]: StructureDefinition-mii-pr-studie-ein-auschluss-kriterium.html
 [MII_PR_Studie_Proband]: StructureDefinition-mii-pr-studie-proband.html
 [MII_PR_Studie_Register]: StructureDefinition-mii-pr-studie-register.html
+[MII_PR_Studie_Rolle_Beteiligte_Person]: StructureDefinition-mii-pr-studie-beteiligte-person.html
 [MII_PR_Studie_Studie]: StructureDefinition-mii-pr-studie-studie.html
 [MII_PR_Studie_Studieneinschluss_Anfrage]: StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html
 [mii-exa-studie-author]: Organization-mii-exa-studie-author.html

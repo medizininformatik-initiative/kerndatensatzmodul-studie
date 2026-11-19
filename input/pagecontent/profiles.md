@@ -20,7 +20,7 @@ Das Modul Medizinisches Forschungsvorhaben definiert die folgenden Ressourcen-Pr
 | Profil | Basisressource | Beschreibung |
 |--------|-----------------|--------------|
 | [MII PR Studie Studie](StructureDefinition-mii-pr-studie-studie.html) | ResearchStudy | Beschreibt eine Studie in der Medizininformatik-Initiative. |
-| [MII PR Studie Beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.html) | PractitionerRole | Beschreibt eine beteiligte Person innerhalb einer Studie in der Medizininformatik-Initiative. |
+| [MII PR Studie Rolle beteiligte Person](StructureDefinition-mii-pr-studie-beteiligte-person.html) | PractitionerRole | Beschreibt die Rolle einer an einer Studie beteiligten Person in der Medizininformatik-Initiative. |
 | [MII PR Studie Proband](StructureDefinition-mii-pr-studie-proband.html) | ResearchSubject | Beschreibt eine Proband*in in der Medizininformatik-Initiative. |
 | [MII PR Studie Studieneinschluss Anfrage](StructureDefinition-mii-pr-studie-studieneinschluss-anfrage.html) | ServiceRequest | Anfrage zum Studieneinschluss. |
 | [MII PR Studie Register](StructureDefinition-mii-pr-studie-register.html) | Library | Beschreibt ein Forschungsregister in der Medizininformatik-Initiative. |
