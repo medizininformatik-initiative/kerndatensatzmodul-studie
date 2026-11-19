@@ -30,7 +30,7 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
 
 **MII EX Studie Studienregister**: [DRKS - Deutsches Register Klinischer Studien](Library-mii-exa-studie-register.md)
 
-**MII EX Studie Eligibility**: [EvidenceVariable: status = active](EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.md)
+**MII EX Studie Backport Recruitment Eligibility**: [EvidenceVariable: status = active](EvidenceVariable-mii-exa-studie-ein-auschluss-kriterium.md)
 
 **MII EX Studie Akronym**: LIFE ADULT
 
@@ -131,7 +131,7 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
     }
   },
   {
-    "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility",
     "valueReference" : {
       "reference" : "EvidenceVariable/mii-exa-studie-ein-auschluss-kriterium"
     }

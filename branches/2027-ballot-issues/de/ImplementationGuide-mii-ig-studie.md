@@ -548,6 +548,17 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
       },
       {
         "url" : "value",
+        "valueString" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
         "valueString" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -1164,6 +1175,17 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
       {
         "url" : "value",
         "valueString" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1842,6 +1864,22 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
       },
       "name" : "MII EX Studie Backport linkId",
       "description" : "R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-ex-studie-backport-recruitment-eligibility.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-ex-studie-backport-recruitment-eligibility"
+      },
+      "name" : "MII EX Studie Backport Recruitment Eligibility",
+      "description" : "R5-Backport des Elements ResearchStudy.recruitment.eligibility zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4.",
       "exampleBoolean" : false
     },
     {

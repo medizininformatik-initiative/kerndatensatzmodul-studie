@@ -58,6 +58,7 @@
 * [MII EX Studie Backport definitionReference](de/StructureDefinition-mii-ex-studie-backport-definitionReference.md)
 * [MII EX Studie Backport Label](de/StructureDefinition-mii-ex-studie-backport-label.md)
 * [MII EX Studie Backport linkId](de/StructureDefinition-mii-ex-studie-backport-linkId.md)
+* [MII EX Studie Backport Recruitment Eligibility](de/StructureDefinition-mii-ex-studie-backport-recruitment-eligibility.md)
 * [MII EX Studie Eligibility](de/StructureDefinition-mii-ex-studie-eligibility.md)
 * [MII EX Studie Ethikvotum](de/StructureDefinition-mii-ex-studie-ethikvotum.md)
 * [MII EX Studie Finanzierung](de/StructureDefinition-mii-ex-studie-finanzierung.md)

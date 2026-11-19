@@ -207,7 +207,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
   }],
   "kind" : "requirements",
   "fhirVersion" : "4.0.1",
-  "format" : ["xml", "json"],
+  "format" : ["application/fhir+xml", "application/fhir+json"],
   "implementationGuide" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide|2027.0.0-ballot"],
   "rest" : [{
     "mode" : "server",

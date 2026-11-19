@@ -1,9 +1,9 @@
 MII_IG_Medizinisches_Forschungsvorhaben : Validation Results
 =========================================
 
-err = 0, warn = 729, info = 1829
+err = 0, warn = 735, info = 1869
 IG Publisher Version: 2.3.2 Out of date - current version is 3.0.4
-Generated Thu Nov 19 13:00:56 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
+Generated Thu Nov 19 14:44:11 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/modul-studie)
  Build Errors : 0 / 16 / 0
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/Bundle-mii-studie-test-data-bundle-studie : 0 / 15 / 65
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/CapabilityStatement-MII-CPS-Metadata-Studie : 0 / 4 / 91
@@ -50,7 +50,8 @@ Generated Thu Nov 19 13:00:56 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-definitionReference : 0 / 5 / 40
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-label : 0 / 4 / 46
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-linkId : 0 / 5 / 34
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-eligibility : 0 / 2 / 36
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-recruitment-eligibility : 0 / 4 / 37
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-eligibility : 0 / 3 / 38
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-ethikvotum : 0 / 2 / 47
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-finanzierung : 0 / 2 / 32
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-ex-studie-quell-register : 0 / 4 / 32
@@ -62,7 +63,7 @@ Generated Thu Nov 19 13:00:56 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-ein-auschluss-kriterium : 0 / 20 / 108
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-proband : 0 / 2 / 72
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-register : 0 / 2 / 105
- /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-studie : 0 / 6 / 126
+ /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-studie : 0 / 7 / 131
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage : 0 / 4 / 93
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ValueSet-associated-party-role-vs : 0 / 3 / 43
  /home/runner/work/kerndatensatzmodul-studie/kerndatensatzmodul-studie/fsh-generated/resources/ValueSet-research-study-category-vs : 0 / 3 / 43
@@ -318,12 +319,12 @@ INFORMATION: ImplementationGuide.meta.profile[1]: Pinned the version of http://h
 INFORMATION: ImplementationGuide.meta.profile[2]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-implementationguide to 2.0.0
 INFORMATION: ImplementationGuide.definition.resource[6].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie to 2027.0.0-ballot
 INFORMATION: ImplementationGuide.definition.resource[9].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studie to 2027.0.0-ballot
-INFORMATION: ImplementationGuide.definition.resource[34].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person to 2027.0.0-ballot
-INFORMATION: ImplementationGuide.definition.resource[37].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument to 2027.0.0-ballot
-INFORMATION: ImplementationGuide.definition.resource[38].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium to 2027.0.0-ballot
-INFORMATION: ImplementationGuide.definition.resource[43].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband to 2027.0.0-ballot
-INFORMATION: ImplementationGuide.definition.resource[44].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register to 2027.0.0-ballot
-INFORMATION: ImplementationGuide.definition.resource[45].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage to 2027.0.0-ballot
+INFORMATION: ImplementationGuide.definition.resource[35].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person to 2027.0.0-ballot
+INFORMATION: ImplementationGuide.definition.resource[38].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-dokument to 2027.0.0-ballot
+INFORMATION: ImplementationGuide.definition.resource[39].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-ein-auschluss-kriterium to 2027.0.0-ballot
+INFORMATION: ImplementationGuide.definition.resource[44].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-proband to 2027.0.0-ballot
+INFORMATION: ImplementationGuide.definition.resource[45].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register to 2027.0.0-ballot
+INFORMATION: ImplementationGuide.definition.resource[46].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-studieneinschluss-anfrage to 2027.0.0-ballot
 INFORMATION: ImplementationGuide/mii-ig-studie: ImplementationGuide.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ImplementationGuide/mii-ig-studie: ImplementationGuide.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ImplementationGuide/mii-ig-studie: ImplementationGuide.extension[3].value.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#package for language(s) 'de'. The display is 'Package' which is a valid display for the default language
@@ -891,6 +892,44 @@ INFORMATION: StructureDefinition/mii-ex-studie-backport-linkId: StructureDefinit
 INFORMATION: StructureDefinition/mii-ex-studie-backport-linkId: StructureDefinition.extension[17]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-ex-studie-backport-linkId: StructureDefinition.meta.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: Resource: The resource StructureDefinition/mii-ex-studie-backport-linkId could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-mii-ex-studie-backport-recruitment-eligibility.json ==
+INFORMATION: StructureDefinition.meta.profile[0]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition to 2.0.0
+INFORMATION: StructureDefinition.meta.profile[1]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition to 2.0.0
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Group to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/EvidenceVariable to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.differential.element[3].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Group to 4.0.1
+INFORMATION: StructureDefinition.differential.element[3].type[0].targetProfile[1]: Pinned the version of http://hl7.org/fhir/StructureDefinition/EvidenceVariable to 4.0.1
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[4]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[5]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[6]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[7]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[8]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[9]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[10]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[11]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[12]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[13]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[14]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[15]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[16]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+WARNING: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.meta.extension[1].extension[2].value.ofType(uri): URL-Wert 'https://www.medizininformatik-initiative.de/fhir/modul-studie' löst nicht auf
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[3].value.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#package for language(s) 'de'. The display is 'Package' which is a valid display for the default language
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[6].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[7].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
+WARNING: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
+WARNING: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition: The nominated WG 'brr' means that the publisher should be 'HL7 International / Biomedical Research and Regulation' but 'NUM-DIZ' was found
+WARNING: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition: The nominated WG 'brr' means that the contact url should be 'http://www.hl7.org/Special/committees/rcrim' but it was not found
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[3]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.extension[16]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-backport-recruitment-eligibility: StructureDefinition.meta.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
+INFORMATION: Resource: The resource StructureDefinition/mii-ex-studie-backport-recruitment-eligibility could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-mii-ex-studie-eligibility.json ==
 INFORMATION: StructureDefinition.meta.profile[0]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition to 2.0.0
 INFORMATION: StructureDefinition.meta.profile[1]: Pinned the version of http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition to 2.0.0
@@ -917,13 +956,16 @@ INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[14]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[15]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[16]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[17]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
 WARNING: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.meta.extension[1].extension[2].value.ofType(uri): URL-Wert 'https://www.medizininformatik-initiative.de/fhir/modul-studie' löst nicht auf
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[3].value.ofType(CodeableConcept).coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#package for language(s) 'de'. The display is 'Package' which is a valid display for the default language
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[7].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[8].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
 WARNING: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
+WARNING: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition: The resource status 'active' and the standards status 'deprecated' are not consistent
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[3]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
+INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.extension[17]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-ex-studie-eligibility: StructureDefinition.meta.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: Resource: The resource StructureDefinition/mii-ex-studie-eligibility could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-mii-ex-studie-ethikvotum.json ==
@@ -2413,24 +2455,26 @@ INFORMATION: StructureDefinition.snapshot.element[10].constraint[1].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[11].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister to 2027.0.0-ballot
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[11].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility to 2027.0.0-ballot
+INFORMATION: StructureDefinition.snapshot.element[12].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility to 2027.0.0-ballot
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[12].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym to 2027.0.0-ballot
+INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility to 2027.0.0-ballot
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[13].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[14].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung to 2027.0.0-ballot
+INFORMATION: StructureDefinition.snapshot.element[14].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym to 2027.0.0-ballot
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[15].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung to 2027.0.0-ballot
+INFORMATION: StructureDefinition.snapshot.element[15].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung to 2027.0.0-ballot
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[15].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[16].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung to 2027.0.0-ballot
 INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[16].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[17].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[19].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[17].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[20].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2444,17 +2488,17 @@ INFORMATION: StructureDefinition.snapshot.element[30].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[31].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[32].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[33].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[35].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[35].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[34].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[36].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[36].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[37].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[38].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[39].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[40].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[41].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[43].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[44].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[44].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[45].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[46].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[47].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -2466,28 +2510,30 @@ INFORMATION: StructureDefinition.snapshot.element[52].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[53].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[54].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[55].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[57].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[57].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[58].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[59].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[59].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[60].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[61].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[62].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[64].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[64].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[63].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[65].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[65].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[66].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[66].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[67].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
+INFORMATION: StructureDefinition.snapshot.element[68].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label to 2027.0.0-ballot
 INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty to 2027.0.0-ballot
 INFORMATION: StructureDefinition.differential.element[4].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum to 2027.0.0-ballot
 INFORMATION: StructureDefinition.differential.element[5].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-studienregister to 2027.0.0-ballot
-INFORMATION: StructureDefinition.differential.element[6].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility to 2027.0.0-ballot
-INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym to 2027.0.0-ballot
-INFORMATION: StructureDefinition.differential.element[8].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung to 2027.0.0-ballot
-INFORMATION: StructureDefinition.differential.element[9].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung to 2027.0.0-ballot
+INFORMATION: StructureDefinition.differential.element[6].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility to 2027.0.0-ballot
+INFORMATION: StructureDefinition.differential.element[7].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility to 2027.0.0-ballot
+INFORMATION: StructureDefinition.differential.element[8].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym to 2027.0.0-ballot
+INFORMATION: StructureDefinition.differential.element[9].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-rekrutierung to 2027.0.0-ballot
+INFORMATION: StructureDefinition.differential.element[10].type[0].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung to 2027.0.0-ballot
 INFORMATION: StructureDefinition/mii-pr-studie-studie: StructureDefinition.extension[4]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-pr-studie-studie: StructureDefinition.extension[5]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-pr-studie-studie: StructureDefinition.extension[6]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition|2.0.0 überein.
@@ -2510,6 +2556,8 @@ WARNING: StructureDefinition/mii-pr-studie-studie: StructureDefinition.snapshot.
 WARNING: StructureDefinition/mii-pr-studie-studie: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2027.0.0-ballot', found versions: 0.1.0 (from hl7.fhir.uv.xver-r5.r4#0.1.0), 2027.0.0-ballot (from de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty' to 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty|2027.0.0-ballot'
 WARNING: StructureDefinition/mii-pr-studie-studie: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2027.0.0-ballot', found versions: 0.1.0 (from hl7.fhir.uv.xver-r5.r4#0.1.0), 2027.0.0-ballot (from de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label' to 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label|2027.0.0-ballot'
 WARNING: StructureDefinition/mii-pr-studie-studie: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2027.0.0-ballot', found versions: 0.1.0 (from hl7.fhir.uv.xver-r5.r4#0.1.0), 2027.0.0-ballot (from de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty' to 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty|2027.0.0-ballot'
+INFORMATION: StructureDefinition/mii-pr-studie-studie: ResearchStudy.extension: The extension https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility|2027.0.0-ballot is deprecated
+WARNING: StructureDefinition/mii-pr-studie-studie: StructureDefinition.snapshot: The slice 'Eligibility' on path 'ResearchStudy.extension' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
 INFORMATION: StructureDefinition/mii-pr-studie-studie: StructureDefinition.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-pr-studie-studie: StructureDefinition.extension[3]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.
 INFORMATION: StructureDefinition/mii-pr-studie-studie: StructureDefinition.meta.extension[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablestructuredefinition|2.0.0 überein.

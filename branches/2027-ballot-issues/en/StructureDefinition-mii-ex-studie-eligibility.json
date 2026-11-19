@@ -163,6 +163,10 @@
         "value" : "https://www.medizininformatik-initiative.de/en/collaboration/national-steering-committee"
       }]
     }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "deprecated"
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
   "version" : "2027.0.0-ballot",
@@ -207,6 +211,7 @@
       "path" : "Extension",
       "short" : "Extension",
       "definition" : "An Extension",
+      "comment" : "Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead, the R5 backport of ResearchStudy.recruitment.eligibility.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -367,7 +372,8 @@
   "differential" : {
     "element" : [{
       "id" : "Extension",
-      "path" : "Extension"
+      "path" : "Extension",
+      "comment" : "Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead, the R5 backport of ResearchStudy.recruitment.eligibility."
     },
     {
       "id" : "Extension.extension",

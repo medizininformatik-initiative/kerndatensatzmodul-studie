@@ -162,6 +162,10 @@
         "value" : "https://www.medizininformatik-initiative.de/en/collaboration/national-steering-committee"
       }]
     }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "deprecated"
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility",
   "version" : "2027.0.0-ballot",
@@ -230,6 +234,31 @@
       "path" : "Extension",
       "short" : "Extension",
       "definition" : "An Extension",
+      "comment" : "Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead, the R5 backport of ResearchStudy.recruitment.eligibility."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -390,7 +419,32 @@
   "differential" : {
     "element" : [{
       "id" : "Extension",
-      "path" : "Extension"
+      "path" : "Extension",
+      "comment" : "Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Abgekündigt: Diese Extension bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen MII EX Studie Backport Recruitment Eligibility zu verwenden, der R5-Backport von ResearchStudy.recruitment.eligibility."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Deprecated: this extension is retained for compatibility only. New data should use MII EX Studie Backport Recruitment Eligibility instead, the R5 backport of ResearchStudy.recruitment.eligibility."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "Extension.extension",

@@ -634,10 +634,10 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
       "mustSupport" : true
     },
     {
-      "id" : "ResearchStudy.extension:Eligibility",
+      "id" : "ResearchStudy.extension:RecruitmentEligibility",
       "path" : "ResearchStudy.extension",
-      "sliceName" : "Eligibility",
-      "short" : "Eligibility",
+      "sliceName" : "RecruitmentEligibility",
+      "short" : "RecruitmentEligibility",
       "_short" : {
         "extension" : [{
           "extension" : [{
@@ -646,7 +646,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
           },
           {
             "url" : "content",
-            "valueString" : "MII EX Studie Eligibility"
+            "valueString" : "MII EX Studie Backport Recruitment Eligibility"
           }],
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         },
@@ -657,12 +657,12 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
           },
           {
             "url" : "content",
-            "valueString" : "MII EX Studie Eligibility"
+            "valueString" : "MII EX Studie Backport Recruitment Eligibility"
           }],
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         }]
       },
-      "definition" : "Optionales Erweiterungselement – in allen Ressourcen vorhanden.",
+      "definition" : "Ein- und Ausschlusskriterien des Forschungsvorhabens als R5-Backport von ResearchStudy.recruitment.eligibility. Ersetzt die abgekündigte Extension MII EX Studie Eligibility.",
       "_definition" : {
         "extension" : [{
           "extension" : [{
@@ -671,7 +671,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
           },
           {
             "url" : "content",
-            "valueString" : "Optionales Erweiterungselement – in allen Ressourcen vorhanden."
+            "valueString" : "Ein- und Ausschlusskriterien des Forschungsvorhabens als R5-Backport von ResearchStudy.recruitment.eligibility. Ersetzt die abgekündigte Extension MII EX Studie Eligibility."
           }],
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         },
@@ -682,7 +682,73 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
           },
           {
             "url" : "content",
-            "valueString" : "Optional Extension Element - found in all resources."
+            "valueString" : "Inclusion and exclusion criteria of the research study as R5 backport of ResearchStudy.recruitment.eligibility. Replaces the deprecated extension MII EX Studie Eligibility."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "ResearchStudy.extension:Eligibility",
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "deprecated"
+      }],
+      "path" : "ResearchStudy.extension",
+      "sliceName" : "Eligibility",
+      "short" : "Eligibility (abgekündigt)",
+      "_short" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "MII EX Studie Eligibility - abgekündigt"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "MII EX Studie Eligibility - deprecated"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "definition" : "Abgekündigt: Bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen extension:RecruitmentEligibility zu verwenden.",
+      "_definition" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Abgekündigt: Bleibt nur aus Kompatibilitätsgründen erhalten. Für neue Daten ist stattdessen extension:RecruitmentEligibility zu verwenden."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Deprecated: retained for compatibility only. New data should use extension:RecruitmentEligibility instead."
           }],
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         }]
@@ -692,8 +758,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility"]
-      }],
-      "mustSupport" : true
+      }]
     },
     {
       "id" : "ResearchStudy.extension:Akronym",
@@ -1285,6 +1350,35 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-stu
       "id" : "ResearchStudy.keyword.text",
       "path" : "ResearchStudy.keyword.text",
       "mustSupport" : true
+    },
+    {
+      "id" : "ResearchStudy.enrollment",
+      "path" : "ResearchStudy.enrollment",
+      "comment" : "Soll nicht verwendet werden. Ein- und Ausschlusskriterien sind über extension:RecruitmentEligibility anzugeben, die neben Group auch EvidenceVariable erlaubt.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Soll nicht verwendet werden. Ein- und Ausschlusskriterien sind über extension:RecruitmentEligibility anzugeben, die neben Group auch EvidenceVariable erlaubt."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Should not be used. Inclusion and exclusion criteria are to be provided via extension:RecruitmentEligibility, which allows EvidenceVariable in addition to Group."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "ResearchStudy.arm",

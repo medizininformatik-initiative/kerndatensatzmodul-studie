@@ -67,8 +67,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"18.34"}
-    h3,h4,h5,h6{--heading-prefix:"18.34"}</style>
+    <style type="text/css">h2{--heading-prefix:"18.35"}
+    h3,h4,h5,h6{--heading-prefix:"18.35"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -362,7 +362,7 @@
 
   </h2>
 
-  <table class="colsi">
+  <table class="colsdp">
 
     <tr>
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility"/></span>
@@ -382,12 +382,10 @@
 
       <td colspan="4">
         
-          Active
-          
-
-            as of 
-2026-01-09
-
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Deprecated</a>
           
         
       </td>
@@ -408,7 +406,12 @@
 
   <p><b>Context of Use</b></p>
   <ul>
-  <p>This extension may be used on the following element(s)</p>
+  <div style="background-color: #ffe6e6; border: 1px solid black; border-radius: 10px; padding: 10px">
+  <p>
+    <b>This extension is deprecated and should no longer be used</b>
+  </p>
+</div>
+<p>This extension may be used on the following element(s)</p>
 <ul>
   <li>
 Element ID:     <code>
@@ -427,7 +430,6 @@ Element ID:     <code>
   <p><b>Usages:</b></p>
 <ul>
  <li>Use this Extension: <a href="StructureDefinition-mii-pr-studie-studie.html">MII PR Studie Studie</a></li>
- <li>Examples for this Extension: <a href="Bundle-mii-studie-test-data-bundle-studie.html">Bundle/mii-studie-test-data-bundle-studie</a> and <a href="ResearchStudy-mii-exa-studie-cohort.html">ResearchStudy/mii-exa-studie-cohort</a></li>
 </ul>
 <p>You can also check for <a href="https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.studie|current/StructureDefinition/StructureDefinition-mii-ex-studie-eligibility.json">usages in the FHIR IG Statistics</a></p>
 
@@ -491,7 +493,7 @@ Element ID:     <code>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/group.html">Group</a> | <a href="http://hl7.org/fhir/R4/evidencevariable.html">EvidenceVariable</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 2618ad4a-3e67-40ab-9d81-a56621685490
 document.getElementById('cbmii-ex-studie-eligibilityD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-ex-studie-eligibilityD'), 'binding', document.getElementById('cbmii-ex-studie-eligibilityD-binding').checked, document.getElementById('ppmii-ex-studie-eligibilityD'));
 document.getElementById('cbmii-ex-studie-eligibilityD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -543,7 +545,7 @@ filterDesc(document.getElementById('mii-ex-studie-eligibilityD'), 'obligation', 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/group.html">Group</a> | <a href="http://hl7.org/fhir/R4/evidencevariable.html">EvidenceVariable</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value of extension</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 2618ad4a-3e67-40ab-9d81-a56621685490
 document.getElementById('cbmii-ex-studie-eligibilityS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-ex-studie-eligibilityS'), 'binding', document.getElementById('cbmii-ex-studie-eligibilityS-binding').checked, document.getElementById('ppmii-ex-studie-eligibilityS'));
 document.getElementById('cbmii-ex-studie-eligibilityS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -681,7 +683,7 @@ Summary
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/group.html">Group</a> | <a href="http://hl7.org/fhir/R4/evidencevariable.html">EvidenceVariable</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 2618ad4a-3e67-40ab-9d81-a56621685490
 document.getElementById('cbmii-ex-studie-eligibilityDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-ex-studie-eligibilityDA'), 'binding', document.getElementById('cbmii-ex-studie-eligibilityDA-binding').checked, document.getElementById('ppmii-ex-studie-eligibilityDA'));
 document.getElementById('cbmii-ex-studie-eligibilityDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -729,7 +731,7 @@ filterDesc(document.getElementById('mii-ex-studie-eligibilityDA'), 'obligation',
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/group.html">Group</a> | <a href="http://hl7.org/fhir/R4/evidencevariable.html">EvidenceVariable</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value of extension</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 5695843d-20d5-4ea6-8dc4-b9cb86694554
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 2618ad4a-3e67-40ab-9d81-a56621685490
 document.getElementById('cbmii-ex-studie-eligibilitySA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('mii-ex-studie-eligibilitySA'), 'binding', document.getElementById('cbmii-ex-studie-eligibilitySA-binding').checked, document.getElementById('ppmii-ex-studie-eligibilitySA'));
 document.getElementById('cbmii-ex-studie-eligibilitySA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -868,7 +870,7 @@ Summary
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Nov 19, 2026 12:57+0000">2026-11-19</span>
+          Generated <span title="Thu, Nov 19, 2026 14:39+0000">2026-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

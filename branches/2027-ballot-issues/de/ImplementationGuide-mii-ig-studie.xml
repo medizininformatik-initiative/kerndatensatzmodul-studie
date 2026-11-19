@@ -381,6 +381,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"/>
       </extension>
     </extension>
@@ -830,6 +838,14 @@
       </extension>
       <extension url="value">
         <valueString value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1310,6 +1326,17 @@
       </reference>
       <name value="MII EX Studie Backport linkId"/>
       <description value="R5-Backport des Elements linkId für EvidenceVariable.characteristic in FHIR R4."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mii-ex-studie-backport-recruitment-eligibility"/>
+      </reference>
+      <name value="MII EX Studie Backport Recruitment Eligibility"/>
+      <description value="R5-Backport des Elements ResearchStudy.recruitment.eligibility zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

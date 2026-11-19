@@ -14,13 +14,14 @@ Diese Seite listet die FHIR-Extensions, die das Modul **Medizinisches Forschungs
 | | | |
 | :--- | :--- | :--- |
 | [MII EX Studie Studienregister](StructureDefinition-mii-ex-studie-studienregister.md) | ResearchStudy | Referenzierung des Studienregisters, in dem das Forschungsvorhaben registriert ist. |
-| [MII EX Studie Eligibility](StructureDefinition-mii-ex-studie-eligibility.md) | ResearchStudy | Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens. |
+| [MII EX Studie Eligibility](StructureDefinition-mii-ex-studie-eligibility.md) | ResearchStudy | **Abgekündigt**, bleibt nur aus Kompatibilitätsgründen erhalten. Stattdessen MII EX Studie Backport Recruitment Eligibility verwenden. Referenzierung der Ein- und Ausschlusskriterien des Forschungsvorhabens. |
 | [MII EX Studie Akronym](StructureDefinition-mii-ex-studie-akronym.md) | ResearchStudy | Angabe des Akronyms eines Forschungsvorhabens. |
 | [MII EX Studie Rekrutierung](StructureDefinition-mii-ex-studie-rekrutierung.md) | ResearchStudy | Abbildung des Rekrutierungsstands eines Forschungsvorhabens mit Stand, Ziel, Start und Genauigkeit der Angaben. |
 | [MII EX Studie Finanzierung](StructureDefinition-mii-ex-studie-finanzierung.md) | ResearchStudy | Angabe der Finanzierung eines Forschungsvorhabens. |
 | [MII EX Studie Ethikvotum](StructureDefinition-mii-ex-studie-ethikvotum.md) | ResearchStudy | Abbildung des Ethikvotums eines Forschungsvorhabens mit Status, Ethikkommission und Bearbeitungsnummer. |
 | [MII EX Studie Backport AssociatedParty](StructureDefinition-mii-ex-studie-backport-associatedParty.md) | ResearchStudy | R5-Backport von`ResearchStudy.associatedParty`zur Abbildung beteiligter Personen und Organisationen eines Forschungsvorhabens in FHIR R4. |
 | [MII EX Studie Backport Label](StructureDefinition-mii-ex-studie-backport-label.md) | ResearchStudy | R5-Backport von`ResearchStudy.label`zur Abbildung zusätzlicher Titel und Bezeichnungen eines Forschungsvorhabens in FHIR R4. |
+| [MII EX Studie Backport Recruitment Eligibility](StructureDefinition-mii-ex-studie-backport-recruitment-eligibility.md) | ResearchStudy | R5-Backport von`ResearchStudy.recruitment.eligibility`zur Referenzierung der Ein- und Ausschlusskriterien eines Forschungsvorhabens in FHIR R4. Ersetzt MII EX Studie Eligibility. |
 | [MII EX Studie Quell Register](StructureDefinition-mii-ex-studie-quell-register.md) | Library | Kennzeichnung, ob es sich bei einem Forschungsregister um ein Quellregister handelt. |
 | [MII EX Studie Backport linkId](StructureDefinition-mii-ex-studie-backport-linkId.md) | EvidenceVariable.characteristic | R5-Backport des Elements`linkId`für`EvidenceVariable.characteristic`in FHIR R4. |
 | [MII EX Studie Backport definitionReference](StructureDefinition-mii-ex-studie-backport-definitionReference.md) | EvidenceVariable.characteristic | R5-Backport des Elements`definitionReference`für`EvidenceVariable.characteristic`in FHIR R4. |

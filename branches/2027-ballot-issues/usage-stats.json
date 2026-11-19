@@ -270,6 +270,13 @@
       ]
     },
     {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility",
+      "title": "MII EX Studie Backport Recruitment Eligibility",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-akronym",
       "title": "MII EX Studie Akronym",
       "types": [
@@ -498,6 +505,10 @@
       "Bundle.entry.resource",
       "ResearchStudy"
     ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility": [
+      "Bundle.entry.resource",
+      "ResearchStudy"
+    ],
     "http://hl7.org/fhir/StructureDefinition/artifact-author": [
       "CapabilityStatement",
       "CodeSystem",
@@ -612,6 +623,11 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition",
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "StructureDefinition"
     ],
@@ -660,7 +676,6 @@
       "ResearchStudy"
     ],
     "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-eligibility": [
-      "Bundle.entry.resource",
       "ResearchStudy"
     ],
     "https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-ethikvotum": [

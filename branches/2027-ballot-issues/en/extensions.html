@@ -360,7 +360,7 @@ the <a href="profiles.html">Profiles</a> page.</p>
     <tr>
       <td><a href="StructureDefinition-mii-ex-studie-eligibility.html">MII EX Studie Eligibility</a></td>
       <td>ResearchStudy</td>
-      <td>Reference to the inclusion and exclusion criteria of the research project.</td>
+      <td><strong>Deprecated</strong>, retained for compatibility only. Use MII EX Studie Backport Recruitment Eligibility instead. Reference to the inclusion and exclusion criteria of the research project.</td>
     </tr>
     <tr>
       <td><a href="StructureDefinition-mii-ex-studie-akronym.html">MII EX Studie Akronym</a></td>
@@ -391,6 +391,11 @@ the <a href="profiles.html">Profiles</a> page.</p>
       <td><a href="StructureDefinition-mii-ex-studie-backport-label.html">MII EX Studie Backport Label</a></td>
       <td>ResearchStudy</td>
       <td>R5 backport of <code class="language-plaintext highlighter-rouge">ResearchStudy.label</code>, representing additional titles and designations of a research project in FHIR R4.</td>
+    </tr>
+    <tr>
+      <td><a href="StructureDefinition-mii-ex-studie-backport-recruitment-eligibility.html">MII EX Studie Backport Recruitment Eligibility</a></td>
+      <td>ResearchStudy</td>
+      <td>R5 backport of <code class="language-plaintext highlighter-rouge">ResearchStudy.recruitment.eligibility</code>, referencing the inclusion and exclusion criteria of a research project in FHIR R4. Replaces MII EX Studie Eligibility.</td>
     </tr>
     <tr>
       <td><a href="StructureDefinition-mii-ex-studie-quell-register.html">MII EX Studie Quell Register</a></td>
@@ -450,7 +455,7 @@ the <a href="profiles.html">Profiles</a> page.</p>
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Nov 19, 2026 12:57+0000">2026-11-19</span>
+          Generated <span title="Thu, Nov 19, 2026 14:39+0000">2026-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.
