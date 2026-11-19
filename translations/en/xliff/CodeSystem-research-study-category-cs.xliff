@@ -91,8 +91,8 @@
              <notes>
                <note id="n1">CodeSystem.description</note>
              </notes>
-        <source>High-level categories describing the overall type of a research study.</source>
-        <target></target>
+        <source>Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten.</source>
+        <target>Retired: high-level categories describing the type of a research study. This code system was only used for examples. ResearchStudy.category is not bound, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only.</target>
       </trans-unit>
       <trans-unit id="CodeSystem-research-study-category-cs" resname="Coding.display">
              <notes>

@@ -61,8 +61,8 @@ msgstr ""
 
 # CodeSystem.description
 #: CodeSystem.description
-msgid "High-level categories describing the overall type of a research study."
-msgstr ""
+msgid "Zurückgezogen: Übergeordnete Kategorien zur Beschreibung des Studientyps. Dieses CodeSystem diente nur den Beispielen. ResearchStudy.category ist nicht gebunden, es sollen Standardterminologien wie SNOMED CT oder NCIt verwendet werden. Bleibt nur aus Kompatibilitätsgründen erhalten."
+msgstr "Retired: high-level categories describing the type of a research study. This code system was only used for examples. ResearchStudy.category is not bound, standard terminologies such as SNOMED CT or NCIt should be used. Retained for compatibility only."
 
 # Coding.display
 #: Coding.display

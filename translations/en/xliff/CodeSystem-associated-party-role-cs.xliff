@@ -91,8 +91,8 @@
              <notes>
                <note id="n1">CodeSystem.description</note>
              </notes>
-        <source>Roles that an associated party may have in relation to an entity such as a research study.</source>
-        <target></target>
+        <source>Zurückgezogen: Rollen, die eine beteiligte Partei in Bezug auf eine Studie haben kann. Ersetzt durch das HL7-CodeSystem http://hl7.org/fhir/research-study-party-role, an das die Extension MII EX Studie Backport AssociatedParty gebunden ist. Bleibt nur aus Kompatibilitätsgründen erhalten.</source>
+        <target>Retired: roles that an associated party may have in relation to a research study. Superseded by the HL7 code system http://hl7.org/fhir/research-study-party-role, to which the extension MII EX Studie Backport AssociatedParty is bound. Retained for compatibility only.</target>
       </trans-unit>
       <trans-unit id="CodeSystem-associated-party-role-cs" resname="Coding.display">
              <notes>

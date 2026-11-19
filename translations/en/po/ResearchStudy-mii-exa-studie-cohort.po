@@ -9,6 +9,11 @@ msgstr ""
 msgid "LIFE-Adult-Study"
 msgstr ""
 
+# Coding.display
+#: Coding.display
+msgid "Observational Study"
+msgstr ""
+
 # CodeableConcept.text
 #: CodeableConcept.text
 msgid "Erwachsene der Stadt Leipzig"

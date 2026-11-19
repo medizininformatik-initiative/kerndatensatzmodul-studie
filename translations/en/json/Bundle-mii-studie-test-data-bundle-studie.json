@@ -154,6 +154,12 @@
       "target" : null
     },
     {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Observational Study",
+      "target" : null
+    },
+    {
       "id" : "CodeableConcept.text",
       "context" : "CodeableConcept.text",
       "source" : "Erwachsene der Stadt Leipzig",

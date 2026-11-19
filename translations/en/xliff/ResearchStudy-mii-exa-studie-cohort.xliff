@@ -17,6 +17,13 @@
         <source>LIFE-Adult-Study</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Observational Study</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ResearchStudy-mii-exa-studie-cohort" resname="CodeableConcept.text">
              <notes>
                <note id="n1">CodeableConcept.text</note>

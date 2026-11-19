@@ -178,6 +178,13 @@
         <source>LIFE-Adult-Study</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Observational Study</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="Bundle-mii-studie-test-data-bundle-studie" resname="CodeableConcept.text">
              <notes>
                <note id="n1">CodeableConcept.text</note>
