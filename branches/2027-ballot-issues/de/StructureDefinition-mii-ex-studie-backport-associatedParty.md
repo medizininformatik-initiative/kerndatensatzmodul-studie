@@ -334,6 +334,31 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       "id" : "Extension.extension:role",
       "path" : "Extension.extension",
       "sliceName" : "role",
+      "comment" : "Rolle der beteiligten Person oder Organisation in Bezug auf diese Studie, z. B. sponsor, study-director oder recruitment-contact. Die Rolle in der Studie wird hier angegeben und nicht in PractitionerRole.code, das die berufliche Rolle in der Organisation beschreibt.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Rolle der beteiligten Person oder Organisation in Bezug auf diese Studie, z. B. sponsor, study-director oder recruitment-contact. Die Rolle in der Studie wird hier angegeben und nicht in PractitionerRole.code, das die berufliche Rolle in der Organisation beschreibt."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Role of the involved person or organization with respect to this study, e.g. sponsor, study-director or recruitment-contact. The role in the study is given here and not in PractitionerRole.code, which describes the professional role within the organization."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "min" : 1,
       "max" : "1",
       "mustSupport" : true
@@ -415,6 +440,31 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
       "id" : "Extension.extension:party",
       "path" : "Extension.extension",
       "sliceName" : "party",
+      "comment" : "Beteiligte Personen sollen als PractitionerRole gemäß dem Profil MII PR Studie Rolle beteiligte Person referenziert werden, beteiligte Organisationen als Organization. Name und Grad der Person stehen im über PractitionerRole.practitioner referenzierten Practitioner.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Beteiligte Personen sollen als PractitionerRole gemäß dem Profil MII PR Studie Rolle beteiligte Person referenziert werden, beteiligte Organisationen als Organization. Name und Grad der Person stehen im über PractitionerRole.practitioner referenzierten Practitioner."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Involved persons should be referenced as PractitionerRole conforming to the profile MII PR Studie Rolle beteiligte Person, involved organizations as Organization. Name and academic degree of the person are given in the Practitioner referenced via PractitionerRole.practitioner."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "min" : 0,
       "max" : "1",
       "mustSupport" : true

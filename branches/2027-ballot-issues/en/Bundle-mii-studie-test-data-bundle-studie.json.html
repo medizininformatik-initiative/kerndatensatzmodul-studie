@@ -803,7 +803,7 @@
                 "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCodeableConcept</a>" : {
                   "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
                     {
-                      "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://example.org/fhir/CodeSystem/associated-party-role",
+                      "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/research-study-party-role",
                       "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "sponsor"
                     }
                   ]
@@ -813,6 +813,28 @@
                 "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "party",
                 "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueReference</a>" : {
                   <a href="Organization-mii-exa-studie-author.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Organization/mii-exa-studie-author"
+                }
+              }
+            ],
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "role",
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCodeableConcept</a>" : {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/research-study-party-role",
+                      "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "general-contact"
+                    }
+                  ]
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "party",
+                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueReference</a>" : {
+                  <a href="PractitionerRole-mii-exa-studie-beteiligte-person.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "PractitionerRole/mii-exa-studie-beteiligte-person"
                 }
               }
             ],
@@ -915,6 +937,9 @@
           }
         ],
         "<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.description">description</a>" : "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+        "<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.principalInvestigator">principalInvestigator</a>" : {
+          <a href="PractitionerRole-mii-exa-studie-beteiligte-person.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "PractitionerRole/mii-exa-studie-beteiligte-person"
+        },
         "<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm">arm</a>" : [
           {
             "<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm.name">name</a>" : "LIFE-Adult-Kohorte"
@@ -1050,7 +1075,7 @@
         "<a href="http://hl7.org/fhir/R4/resource.html#Library.language">language</a>" : "en",
         "<a href="http://hl7.org/fhir/R4/domainresource.html#Library.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\&quot;de\&quot; lang=\&quot;de\&quot;&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;German&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b style=\&quot;color: maroon\&quot;&gt;Exception parsing generated Narrative (see /tmp/liquid-b95e1c07-f5e3-40f1-9bdf-184deafed5a8.html): unexpected non-end of element null::a  at line 105 column 50&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\&quot;de\&quot; lang=\&quot;de\&quot;&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;German&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b style=\&quot;color: maroon\&quot;&gt;Exception parsing generated Narrative (see /tmp/liquid-599795fc-b835-4b47-abde-81167f83def7.html): unexpected non-end of element null::a  at line 105 column 50&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/library.html#Library.identifier">identifier</a>" : [
           {
@@ -1350,7 +1375,7 @@
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Nov 19, 2026 14:39+0000">2026-11-19</span>
+          Generated <span title="Thu, Nov 19, 2026 15:05+0000">2026-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

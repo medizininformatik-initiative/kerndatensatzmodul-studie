@@ -739,7 +739,7 @@
             &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCodeableConcept</a>&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
                 &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://example.org/fhir/CodeSystem/associated-party-role&quot;/&gt;
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/research-study-party-role&quot;/&gt;
                 &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;sponsor&quot;/&gt;
               &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
             &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCodeableConcept</a>&gt;
@@ -747,6 +747,24 @@
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;party&quot;&gt;
             &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueReference</a>&gt;<a href="Organization-mii-exa-studie-author.html" style="color: Maroon">&#x1F517;</a> 
               &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/mii-exa-studie-author&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueReference</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ResearchStudy.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ResearchStudy.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;role&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCodeableConcept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/research-study-party-role&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;general-contact&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCodeableConcept</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;party&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueReference</a>&gt;<a href="PractitionerRole-mii-exa-studie-beteiligte-person.html" style="color: Maroon">&#x1F517;</a> 
+              &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
+                         <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;PractitionerRole/mii-exa-studie-beteiligte-person&quot;/&gt;
             &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueReference</a>&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ResearchStudy.extension">extension</a>&gt;
@@ -827,6 +845,10 @@
         &lt;/<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.keyword">keyword</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.description">description</a>
                      <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.principalInvestigator">principalInvestigator</a>&gt;<a href="PractitionerRole-mii-exa-studie-beteiligte-person.html" style="color: Maroon">&#x1F517;</a> 
+          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;PractitionerRole/mii-exa-studie-beteiligte-person&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.principalInvestigator">principalInvestigator</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm">arm</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;LIFE-Adult-Kohorte&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/researchstudy.html#ResearchStudy.arm">arm</a>&gt;
@@ -953,7 +975,7 @@
         &lt;<a href="http://hl7.org/fhir/R4/resource.html#Library.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
-          &lt;div xml:lang=&quot;de&quot; lang=&quot;de&quot;&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;German&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b style=&quot;color: maroon&quot;&gt;Exception parsing generated Narrative (see /tmp/liquid-b95e1c07-f5e3-40f1-9bdf-184deafed5a8.html): unexpected non-end of element null::a  at line 105 column 50&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+          &lt;div xml:lang=&quot;de&quot; lang=&quot;de&quot;&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;German&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b style=&quot;color: maroon&quot;&gt;Exception parsing generated Narrative (see /tmp/liquid-599795fc-b835-4b47-abde-81167f83def7.html): unexpected non-end of element null::a  at line 105 column 50&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
         &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.text">text</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.identifier">identifier</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://example.com/fhir/sid/drks&quot;/&gt;
@@ -1235,7 +1257,7 @@
 
           IG © 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.studie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Nov 19, 2026 14:39+0000">2026-11-19</span>
+          Generated <span title="Thu, Nov 19, 2026 15:05+0000">2026-11-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

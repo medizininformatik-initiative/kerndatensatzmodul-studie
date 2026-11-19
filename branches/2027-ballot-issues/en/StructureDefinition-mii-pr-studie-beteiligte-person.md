@@ -22,6 +22,12 @@ This profile describes the role of a person involved in a study, e.g. the study 
 
 This profile describes the role of a person involved in a study, e.g. the study lead, including the associated organization and contact details in the Medical Informatics Initiative.
 
+**Relationship to the study**
+
+* The study references the involved person: the study lead via `ResearchStudy.principalInvestigator`, further involved persons via the extension [MII EX Studie Backport AssociatedParty](StructureDefinition-mii-ex-studie-backport-associatedParty.md) (`extension:party`).
+* The **role in the study** is given in `AssociatedParty.extension:role`, not in `PractitionerRole.code`. `PractitionerRole.code` describes the professional role within the organization, which applies beyond the study.
+* The **name and academic degree** of the person are given in the `Practitioner` referenced via `PractitionerRole.practitioner` (`name.given`, `name.family`, `name.prefix`).
+
 -------
 
 **Notes**
@@ -31,7 +37,7 @@ This profile describes the role of a person involved in a study, e.g. the study 
 | PractitionerRole.id | Must-support, but optional |
 | PractitionerRole.meta | Must-support, but optional |
 | PractitionerRole.meta.profile | Mandatory for querying in the DIC repository, including the version number of the profile. See[CapabilityStatement](capability-statements.md). Optional in all other cases. |
-| PractitionerRole.code | In-house coding may be used here. The next version of this module is expected to require further specifications for standardizing a ValueSet. |
+| PractitionerRole.code | Professional role within the organization, not the role in the study (see above). In-house coding may be used here. |
 | PractitionerRole.telecom | Care must be taken to ensure that only information already published by the study itself is exposed here |
 | PractitionerRole.organization | To find all persons associated with a study, the use of Reference.reference is preferred over Reference.identifier. |
 
@@ -41,15 +47,23 @@ This profile describes the role of a person involved in a study, e.g. the study 
 
 | | |
 | :--- | :--- |
-| PractitionerRole.code | Forschungsvorhaben.Beteiligter.Rolle |
-| PractitionerRole.telecom | Forschungsvorhaben.Beteiligter.Kontakt |
-| PractitionerRole.organization | Forschungsvorhaben.Beteiligter.Standort |
+| ResearchStudy.extension:AssociatedParty.extension:role | Forschungsvorhaben.Beteiligter.Rolle |
+| PractitionerRole.practitioner → Practitioner.name.given | Forschungsvorhaben.Beteiligter.Kontakt.Vorname |
+| PractitionerRole.practitioner → Practitioner.name.family | Forschungsvorhaben.Beteiligter.Kontakt.Nachname |
+| PractitionerRole.practitioner → Practitioner.name.prefix | Forschungsvorhaben.Beteiligter.Kontakt.Grad |
+| PractitionerRole.telecom | Forschungsvorhaben.Beteiligter.Kontakt.Email, Forschungsvorhaben.Beteiligter.Kontakt.Tel |
+| PractitionerRole.organization → Organization.name | Forschungsvorhaben.Beteiligter.Kontakt.Zugehoerigkeit |
+| PractitionerRole.organization → Organization.address | Forschungsvorhaben.Beteiligter.Standort.Adresse |
 
 | | |
 | :--- | :--- |
-| PractitionerRole.code | Forschungsvorhaben.Studienleiter |
-| PractitionerRole.telecom | Forschungsvorhaben.Studienleiter.Kontakt |
-| PractitionerRole.organization | Forschungsvorhaben.Studienleiter.Standort |
+| ResearchStudy.principalInvestigator | Forschungsvorhaben.Studienleiter |
+| PractitionerRole.practitioner → Practitioner.name.given | Forschungsvorhaben.Studienleiter.Kontakt.Vorname |
+| PractitionerRole.practitioner → Practitioner.name.family | Forschungsvorhaben.Studienleiter.Kontakt.Nachname |
+| PractitionerRole.practitioner → Practitioner.name.prefix | Forschungsvorhaben.Studienleiter.Kontakt.Grad |
+| PractitionerRole.telecom | Forschungsvorhaben.Studienleiter.Kontakt.Email, Forschungsvorhaben.Studienleiter.Kontakt.Tel |
+| PractitionerRole.organization → Organization.name | Forschungsvorhaben.Studienleiter.Kontakt.Zugehoerigkeit |
+| PractitionerRole.organization → Organization.address | Forschungsvorhaben.Studienleiter.Standort.Adresse |
 
 -------
 
@@ -390,6 +404,31 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         }]
       },
+      "comment" : "Name, akademischer Grad und weitere personenbezogene Angaben der beteiligten Person werden im referenzierten Practitioner abgebildet: Vor- und Nachname in Practitioner.name.given und .family, der akademische Grad in Practitioner.name.prefix. Ein eigenes MII-Profil für Practitioner ist nicht vorgesehen.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Name, akademischer Grad und weitere personenbezogene Angaben der beteiligten Person werden im referenzierten Practitioner abgebildet: Vor- und Nachname in Practitioner.name.given und .family, der akademische Grad in Practitioner.name.prefix. Ein eigenes MII-Profil für Practitioner ist nicht vorgesehen."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Name, academic degree and further personal details of the involved person are represented in the referenced Practitioner: given and family name in Practitioner.name.given and .family, the academic degree in Practitioner.name.prefix. A dedicated MII profile for Practitioner is not provided."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "mustSupport" : true
     },
     {
@@ -450,7 +489,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
     {
       "id" : "PractitionerRole.code",
       "path" : "PractitionerRole.code",
-      "short" : "Rollen, die dieser Praktiker ausüben kann.",
+      "short" : "Berufliche Rolle in der Organisation, nicht die Rolle in der Studie.",
       "_short" : {
         "extension" : [{
           "extension" : [{
@@ -459,7 +498,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
           },
           {
             "url" : "content",
-            "valueString" : "Rollen, die dieser Praktiker ausüben kann."
+            "valueString" : "Berufliche Rolle in der Organisation, nicht die Rolle in der Studie."
           }],
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         },
@@ -470,7 +509,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
           },
           {
             "url" : "content",
-            "valueString" : "Roles which this practitioner may perform."
+            "valueString" : "Professional role within the organization, not the role in the study."
           }],
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         }]
@@ -500,7 +539,31 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-bet
           "url" : "http://hl7.org/fhir/StructureDefinition/translation"
         }]
       },
-      "mustSupport" : true
+      "comment" : "Die Rolle der Person in einer bestimmten Studie wird nicht hier angegeben, sondern in ResearchStudy.extension:AssociatedParty.extension:role. Für die Studienleitung wird ResearchStudy.principalInvestigator verwendet.",
+      "_comment" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Die Rolle der Person in einer bestimmten Studie wird nicht hier angegeben, sondern in ResearchStudy.extension:AssociatedParty.extension:role. Für die Studienleitung wird ResearchStudy.principalInvestigator verwendet."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "en"
+          },
+          {
+            "url" : "content",
+            "valueString" : "The role of the person in a specific study is not given here but in ResearchStudy.extension:AssociatedParty.extension:role. For the study lead, ResearchStudy.principalInvestigator is used."
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      }
     },
     {
       "id" : "PractitionerRole.telecom",

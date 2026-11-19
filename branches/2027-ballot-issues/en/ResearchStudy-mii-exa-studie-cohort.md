@@ -20,8 +20,12 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
 * value: MII Modul Studie
 
 > **MII EX Studie Backport AssociatedParty**
-* role: Sponsor
+* role: sponsor
 * party: [Organization Example Organization for Author](Organization-mii-exa-studie-author.md)
+
+> **MII EX Studie Backport AssociatedParty**
+* role: general-contact
+* party: [PractitionerRole Doctor](PractitionerRole-mii-exa-studie-beteiligte-person.md)
 
 > **MII EX Studie Ethikvotum**
 * status: genehmigt
@@ -61,6 +65,8 @@ Security Label: [test health data (Details: ActReason code HTEST = 'test health 
 
 Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.
 
+**principalInvestigator**: [PractitionerRole Doctor](PractitionerRole-mii-exa-studie-beteiligte-person.md)
+
 ### Arms
 
 | | |
@@ -96,7 +102,7 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
       "url" : "role",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "http://example.org/fhir/CodeSystem/associated-party-role",
+          "system" : "http://hl7.org/fhir/research-study-party-role",
           "code" : "sponsor"
         }]
       }
@@ -105,6 +111,24 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
       "url" : "party",
       "valueReference" : {
         "reference" : "Organization/mii-exa-studie-author"
+      }
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+  },
+  {
+    "extension" : [{
+      "url" : "role",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/research-study-party-role",
+          "code" : "general-contact"
+        }]
+      }
+    },
+    {
+      "url" : "party",
+      "valueReference" : {
+        "reference" : "PractitionerRole/mii-exa-studie-beteiligte-person"
       }
     }],
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
@@ -189,6 +213,9 @@ Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Koho
     "text" : "Bevölkerung, Leipzig, Erwachsene"
   }],
   "description" : "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+  "principalInvestigator" : {
+    "reference" : "PractitionerRole/mii-exa-studie-beteiligte-person"
+  },
   "arm" : [{
     "name" : "LIFE-Adult-Kohorte"
   }]

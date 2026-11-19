@@ -468,6 +468,7 @@
       <sliceName value="role"/>
       <short value="Extension"/>
       <definition value="An Extension"/>
+      <comment value="Role of the involved person or organization with respect to this study, e.g. sponsor, study-director or recruitment-contact. The role in the study is given here and not in PractitionerRole.code, which describes the professional role within the organization."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -945,6 +946,7 @@
       <sliceName value="party"/>
       <short value="Extension"/>
       <definition value="An Extension"/>
+      <comment value="Involved persons should be referenced as PractitionerRole conforming to the profile MII PR Studie Rolle beteiligte Person, involved organizations as Organization. Name and academic degree of the person are given in the Practitioner referenced via PractitionerRole.practitioner."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1335,6 +1337,7 @@
     <element id="Extension.extension:role">
       <path value="Extension.extension"/>
       <sliceName value="role"/>
+      <comment value="Role of the involved person or organization with respect to this study, e.g. sponsor, study-director or recruitment-contact. The role in the study is given here and not in PractitionerRole.code, which describes the professional role within the organization."/>
       <min value="1"/>
       <max value="1"/>
       <mustSupport value="true"/>
@@ -1404,6 +1407,7 @@
     <element id="Extension.extension:party">
       <path value="Extension.extension"/>
       <sliceName value="party"/>
+      <comment value="Involved persons should be referenced as PractitionerRole conforming to the profile MII PR Studie Rolle beteiligte Person, involved organizations as Organization. Name and academic degree of the person are given in the Practitioner referenced via PractitionerRole.practitioner."/>
       <min value="0"/>
       <max value="1"/>
       <mustSupport value="true"/>

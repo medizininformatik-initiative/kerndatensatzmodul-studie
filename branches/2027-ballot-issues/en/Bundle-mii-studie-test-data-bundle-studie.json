@@ -364,7 +364,7 @@
           "url" : "role",
           "valueCodeableConcept" : {
             "coding" : [{
-              "system" : "http://example.org/fhir/CodeSystem/associated-party-role",
+              "system" : "http://hl7.org/fhir/research-study-party-role",
               "code" : "sponsor"
             }]
           }
@@ -373,6 +373,24 @@
           "url" : "party",
           "valueReference" : {
             "reference" : "Organization/mii-exa-studie-author"
+          }
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
+      },
+      {
+        "extension" : [{
+          "url" : "role",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/research-study-party-role",
+              "code" : "general-contact"
+            }]
+          }
+        },
+        {
+          "url" : "party",
+          "valueReference" : {
+            "reference" : "PractitionerRole/mii-exa-studie-beteiligte-person"
           }
         }],
         "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty"
@@ -457,6 +475,9 @@
         "text" : "Bevölkerung, Leipzig, Erwachsene"
       }],
       "description" : "Die LIFE Adult-Studie ist eine langfristig angelegte, bevölkerungsbezogene Kohortenstudie. Stichproben aus der Leipziger Erwachsenenbevölkerung werden hinsichtlich vielfältiger Merkmale und Krankheitsrisiken umfassend untersucht. Insbesondere die Häufigkeit von Volkskrankheiten steht im Mittelpunkt der Forschungsarbeiten. Der Einfluss von Lebensstil- und Umweltfaktoren auf diese Erkrankungen wird charak​terisiert. Bisher unbekannte Risikofaktoren für die Entstehung von Volkskrankheiten sollen aufgespürt und neue Möglichkeiten der Früherkennung entwickelt werden.",
+      "principalInvestigator" : {
+        "reference" : "PractitionerRole/mii-exa-studie-beteiligte-person"
+      },
       "arm" : [{
         "name" : "LIFE-Adult-Kohorte"
       }]
@@ -568,7 +589,7 @@
       "language" : "en",
       "text" : {
         "status" : "extensions",
-        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-b95e1c07-f5e3-40f1-9bdf-184deafed5a8.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
+        "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><a name=\"Library_mii-exa-studie-register\"> </a><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-599795fc-b835-4b47-abde-81167f83def7.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div>"
       },
       "identifier" : [{
         "system" : "https://example.com/fhir/sid/drks",
