@@ -1,0 +1,21 @@
+{
+  "url" : "https://www.medizininformatik-initiative.de/fhir/modul-studie/ImplementationGuide/mii-ig-studie",
+  "name" : "MII_IG_Medizinisches_Forschungsvorhaben",
+  "title" : "MII Implementation Guide Medizinisches Forschungsvorhaben",
+  "description" : "Medizininformatik Initiative - Modul Medizinisches Forschungsvorhaben",
+  "ig-date" : "2026-09-14",
+  "status" : "active",
+  "package-id" : "de.medizininformatikinitiative.kerndatensatz.studie",
+  "ig-ver" : "2027.0.0-ballot",
+  "date" : "Fri, 27 Nov, 2026 14:12:12 +0000",
+  "dateISO8601" : "2026-11-27T14:12:12+00:00",
+  "errs" : 862,
+  "warnings" : 834,
+  "hints" : 1787,
+  "broken-links" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 2438484040
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EvidenceVariable xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-evidence-variable-age-restriction"/>
+  <meta>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: EvidenceVariable mii-exa-studie-evidence-variable-age-restriction</b></p><a name="mii-exa-studie-evidence-variable-age-restriction"> </a><a name="hcmii-exa-studie-evidence-variable-age-restriction"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Security Label: <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p><b>url</b>: <a href="EvidenceVariable-mii-exa-studie-evidence-variable-age-restriction.html">EvidenceVariable: extension = ,; url = https://www.medizininformatik-initiative.de/fhir/modul-studie/EvidenceVariable/mii-exa-studie-evidence-variable-age-restriction; version = 2027.0.0-ballot; status = active; date = 2026-11-27 14:12:12+0000; publisher = NUM-DIZ; contact = NUM-DIZ (https://www.netzwerk-universitaetsmedizin.de)</a></p><p><b>version</b>: 2027.0.0-ballot</p><p><b>status</b>: Active</p><p><b>date</b>: 2026-11-27 14:12:12+0000</p><p><b>publisher</b>: NUM-DIZ</p><p><b>contact</b>: NUM-DIZ: <a href="https://www.netzwerk-universitaetsmedizin.de">https://www.netzwerk-universitaetsmedizin.de</a></p><blockquote><p><b>characteristic</b></p><p><b>description</b>: Höchstalter</p><p><b>definition</b>: <span title="Codes:">kein Höchstalter</span></p><p><b>exclude</b>: false</p></blockquote><blockquote><p><b>characteristic</b></p><p><b>description</b>: Mindestalter</p><p><b>definition</b>: <span title="Codes:">18 Jahre</span></p><p><b>exclude</b>: false</p></blockquote></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/modul-studie/EvidenceVariable/mii-exa-studie-evidence-variable-age-restriction"/>
+  <version value="2027.0.0-ballot"/>
+  <status value="active"/>
+  <date value="2026-11-27T14:12:12+00:00"/>
+  <publisher value="NUM-DIZ"/>
+  <contact>
+    <name value="NUM-DIZ"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.netzwerk-universitaetsmedizin.de"/>
+    </telecom>
+  </contact>
+  <characteristic>
+    <description value="Höchstalter"/>
+    <definitionCodeableConcept>
+      <text value="kein Höchstalter"/>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+  <characteristic>
+    <description value="Mindestalter"/>
+    <definitionCodeableConcept>
+      <text value="18 Jahre"/>
+    </definitionCodeableConcept>
+    <exclude value="false"/>
+  </characteristic>
+</EvidenceVariable>

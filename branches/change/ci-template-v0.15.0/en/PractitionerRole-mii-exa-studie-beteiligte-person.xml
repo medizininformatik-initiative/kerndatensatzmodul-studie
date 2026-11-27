@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-studie-beteiligte-person"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-beteiligte-person"/>
+    <security>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+      <code value="HTEST"/>
+      <display value="test health data"/>
+    </security>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: PractitionerRole mii-exa-studie-beteiligte-person</b></p><a name="en-mii-exa-studie-beteiligte-person"> </a><a name="en-hcmii-exa-studie-beteiligte-person"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-studie-beteiligte-person.html">MII PR Studie Beteiligte Person</a></p><p style="margin-bottom: 0px">Security Label: <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-ActReason.html">test health data (Details: ActReason code HTEST = 'test health data')</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Max Mustermann: Doctor at Example Organization for Practitioner</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="The practitioner who is able to provide the services in this role">Practitioner:</td><td colspan="3"><a href="Practitioner-mii-exa-studie-practitioner.html">Max Mustermann</a></td></tr><tr><td style="background-color: #f3f5da" title="The organization where the practitioner performs the roles">Organization:</td><td colspan="3"><a href="Organization-mii-exa-studie-practitioner-organization.html">Example Organization for Practitioner</a></td></tr><tr><td style="background-color: #f3f5da" title="Roles which this practitioner is authorized to perform for the organization">Role:</td><td colspan="3"><span title="Codes:{http://terminology.hl7.org/CodeSystem/practitioner-role doctor}">Doctor</span></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the practitioner in this role">Contact Detail</td><td colspan="3">ph: 0123456789</td></tr></table></div>
+  </text>
+  <practitioner>
+    <reference value="Practitioner/mii-exa-studie-practitioner"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/mii-exa-studie-practitioner-organization"/>
+  </organization>
+  <code>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/practitioner-role"/>
+      <code value="doctor"/>
+    </coding>
+  </code>
+  <telecom>
+    <system value="phone"/>
+    <value value="0123456789"/>
+  </telecom>
+</PractitionerRole>
